@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2022-11-25T17:54:20.672Z
 ---
 
-En informatique, l'emploi d'un terme anglophone est souvent incontournable. Nous essayons d'y recourir le moins possible. 
+En informatique, l'emploi d'un terme anglophone est souvent incontournable. Nous essayons d'y avoir recours le moins possible. 
 
 Veuillez vous référer au [glossaire](/glossaire#bootloader) pour en savoir plus.
 
