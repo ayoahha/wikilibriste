@@ -8,9 +8,12 @@ L'idée de ce wiki est de proposer une liste d'articles et de tutoriels pour acc
 
 # Configuration à reporter
 ## index.html
+```html
 <link rel="icon" type="image/png" href="/favicon-32x32.png">
+```
 
 ## style.css
+```css
 .june-address {
   overflow: auto!important;
   padding-top: .3em!important;
@@ -42,6 +45,7 @@ L'idée de ce wiki est de proposer une liste d'articles et de tutoriels pour acc
     height: 200px
   }
 }
+```
 
 # Utils - Conversion fichiers
 CONVERSION MEDIAWIKI - MARKDOWN
