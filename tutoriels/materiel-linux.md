@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Linux
 description: Où trouver du matériel adapté à Linux - vous trouverez ici des solutions...
 published: true
-date: 2023-07-15T12:50:41.485Z
+date: 2023-09-11T19:48:56.839Z
 tags: materiel, laptop, ordinateur
 editor: markdown
 dateCreated: 2023-01-19T16:33:42.627Z
