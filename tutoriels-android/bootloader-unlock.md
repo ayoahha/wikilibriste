@@ -2,7 +2,7 @@
 title: Android Bootloader Unlock
 description: Ce tutoriel vous parle des "bootloader" liés à Android et fait un état de lieux...
 published: true
-date: 2023-09-11T19:07:19.600Z
+date: 2023-09-11T19:07:46.645Z
 tags: android, smartphone, ordiphone, booloader, intermédiaire, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:54:20.672Z
@@ -86,7 +86,7 @@ De plus, pour un même modèle suivant la région (USA, ASIE...) ou si revendu p
 
 | Marque | Outil de flash | Complexité déverrouillage (OEM unlock) | Perte de la garantie | Modèles supportés |
 |----------|----------|----------|----------|----------|
-| ASUS | fastboot | **Impossible**<br> Depuis Mai 2023 Asus ne permet plus le déblocage via son application | oui| Une dizaine |
+| ASUS | fastboot | **Impossible**<br> Depuis Mai 2023 Asus ne permet plus le débloquage via son application | oui| Une dizaine |
 | Crosscall | fastboot | **Impossible** | oui | La série 5 sera débloquable (info a venir) - les anciennes, non. |
 | Honor | fastboot | **Très difficile/impossible**<br>Méthodes non officielles car le fabricant ne donne plus les codes OEM unlock depuis 2017/2018 ! | oui | Honor 8 |
 | Huawei | fastboot | **Très difficile/impossible**<br>Méthodes non officielles car le fabricant ne donne plus les codes OEM unlock depuis 2017/2018 ! | oui | Mate 9/9Pro, P10/P10Plus |
