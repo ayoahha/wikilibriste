@@ -49,6 +49,6 @@ L'idée de ce wiki est de proposer une liste d'articles et de tutoriels pour acc
 
 # Utils - Conversion fichiers
 CONVERSION MEDIAWIKI - MARKDOWN :
-```sh
+```bash
 pandoc -f mediawiki -t markdown_strict --wrap=preserve XXXXXXXXXXXXXXXX.wiki -o XXXXXXXXXXXXXXXX.md
 ```
