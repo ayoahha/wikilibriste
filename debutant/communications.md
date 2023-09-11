@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2023-09-10T12:17:47.264Z
+date: 2023-09-11T21:23:03.590Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -395,7 +395,7 @@ Pour les autres choix cela dépendra de votre modèle :
 Nous ne pouvons bien entendu pas parler de messagerie sans discuter de la sécurisation des échanges : c'est un peu un passage obligé pour pouvoir décider quel outil vous allez utiliser ! Nous allons tenter de faire ça simplement.
 
 Il existe, à ce jour, 2 *types de protection* qui nous intéressent particulièrement :
-- Le **chiffrement client-serveur** : dans la pratique, le client de l'émetteur initie un canal avec le serveur de l'application puis chiffre le message. Celui-ci est reçu par le serveur, déchiffré par le serveur, puis rechiffré par le serveur pour transmettre le message au client du destinataire qui le déchiffrera à son tour. Dans ce cas, l'idée ici est de faire transiter un message via un serveur : vous voyez donc qu'ici nous sommes sur un mode de _centralisation_. On peut donc facilement voir qu'il existe une entité qui sera capable d'obtenir à un moment donné le message en clair : le serveur. Même si celui-ci vous assure qu'il ne regarde absolument pas le contenu, il est évident que cela pose un souci en terme de vie privée, surtout si des législations viennent se mêler de ce sujet.
+- Le **chiffrement client-serveur** : dans la pratique, le client de l'émetteur initie un canal avec le serveur de l'application puis chiffre le message. Celui-ci est reçu par le serveur, déchiffré par le serveur, puis rechiffré par le serveur pour transmettre le message au client du destinataire qui le déchiffrera à son tour. Dans ce cas, l'idée ici est de faire transiter un message via un serveur : vous voyez donc qu'ici nous sommes sur un mode de _centralisation_. On peut donc facilement voir qu'il existe une entité qui sera capable de retenir à un moment donné dans la chaîne le message : le serveur. Même si celui-ci vous assure qu'il ne regarde absolument pas le contenu, il est évident que cela pose un souci en terme de vie privée, surtout si des législations viennent se mêler de ce sujet ou bien que des gouvernements soumettent des injonstions aux fournisseurs afin de déchiffrer des messages provenant de leurs serveurs (ils le peuvent car ils détiennent et gèrent les clés pour vous !).
 
 - Le **chiffrement de bout en bout** (ou E2EE [^2]) : ici l'émetteur chiffre le message et le transmet directement au destinataire qui le déchiffre ; aucun intermédiaire ici. On pourrait croire que cette solution est l'ultime solution, la plus adéquate, mais, vous vous en doutez, rien n'est jamais aussi simple ! En effet, afin de pouvoir chiffrer, vous aurez besoin de "clés de sécurité" (jetez un coup d'oeil à l'article sur le [chiffrement](/intermediaire/chiffrement) pour bien comprendre l'aspect des clés de sécurité). Ces clés doivent pouvoir être générées et stockées quelque part.
     - _Messagerie centralisée_ : dans la plupart des cas, les clés sont générées par les fournisseurs du service eux-mêmes et stockés sur les serveurs. Même si certaines messageries implémentent bien entendu des mécanismes *robustes* pour stocker et échanger ces clés, il n'en reste pas moins que la clé principale est gérée chez le fournisseur du service et non par vous-même.
