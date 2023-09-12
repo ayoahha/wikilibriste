@@ -2,7 +2,7 @@
 title: Android Bootloader Unlock
 description: Ce tutoriel vous parle des "bootloader" liés à Android et fait un état de lieux...
 published: true
-date: 2023-09-11T19:07:46.645Z
+date: 2023-09-12T08:26:05.297Z
 tags: android, smartphone, ordiphone, booloader, intermédiaire, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:54:20.672Z
@@ -35,8 +35,10 @@ L'utilisateur qui veut reprendre le contrôle de son appareil va alors être con
 
 En effet, certains constructeurs de téléphone rendent l'opération impossible
 
-> Il faut donc choisir la marque de son téléphone en fonction de cette possibilité afin de le faire durer au maximum et éviter qu'il devienne un déchat numérique par obsolescence logicielle.
+> Il faut donc choisir la marque de son téléphone afin de le faire durer au maximum et éviter qu'il devienne un déchet numérique par obsolescence logicielle.
 {.is-warning}
+
+> Tous les produits Apple sont évidemment bloqués et donc à éviter absolument ! voir iosref.com/ios pour leur calendrier d'obsolescence
 
 
 
