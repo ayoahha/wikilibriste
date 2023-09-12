@@ -12,11 +12,11 @@ dateCreated: 2022-11-24T20:06:27.184Z
 
 Depuis plusieurs années, nous avons rassemblé **une communauté autour de la thématique large et impérieuse de la libération numérique**, qui comptabilise aujourd'hui plusieurs milliers de membres.
 
-Notre groupe Telegram ["Numérique Libre & Résilient"](https://t.me/securite_informatique_libre) aide notamment les néophytes à passer d'un système [propriétaire](/glossaire#proprietaire) sur ordinateur, téléphone, tablette, nano-PC, etc. à un système plus vertueux et respectueux de ses utilisateurs et de leurs données personnelles.
+Notre groupe Telegram ["Numérique Libre & Résilient"](https://t.me/securite_informatique_libre) aide notamment les néophytes à passer d'un système [propriétaire](./glossaire.md##proprietaire) sur ordinateur, téléphone, tablette, nano-PC, etc. à un système plus vertueux et respectueux de ses utilisateurs et de leurs données personnelles.
 
 L'idée de ce wiki est de proposer une liste d'articles et de tutoriels pour accompagner toute personne souhaitant améliorer son environnement numérique et tendre vers sa libération numérique.
 
-- [Contact *Rendez vous sur la page pour nous contacter, contribuer ou nous soutenir.*](/contact)
+- [Contact *Rendez vous sur la page pour nous contacter, contribuer ou nous soutenir.*](./contact.md#)
 - [Telegram *Téléchargez simplement la messagerie Telegram pour pouvoir nous joindre.*](https://telegram.org/)
 {.links-list}
 
@@ -41,31 +41,31 @@ De l'adresse courriel sécurisée et pertinente à l'installation d'un système 
 Le présent wiki propose donc des articles et des tutoriels afin de donner des pistes de réflexion et d'action pour :
 -   Remplacer les services en ligne par des alternatives libres, plus éthiques, plus respectueuses de notre vie privée
 -   Remplacer les applications par des alternatives libres, souvent gratuites (basées sur les dons), sans traceurs, rapides et pratiques
--   Dé-polluer notre téléphone mobile Android avec Android Debug Bridge (appelé communément [ADB](/glossaire#ADB))
+-   Dé-polluer notre téléphone mobile Android avec Android Debug Bridge (appelé communément [ADB](./glossaire.md##ADB))
 -   Libérer notre ordinateur fixe ou mobile avec des solutions GNU/Linux
 -   Libérer notre téléphone mobile avec un système d'exploitation mobile libre, basé sur le projet Android Open Source AOSP (Android Open Source Project), ou GNU/Linux pour mobile
 {.grid-list}
 
 
 Nous découpons la lecture du wiki selon ces différents axes :
-- [:desktop_computer: Système *Remplacer son système "fermé" Windows ou Apple par un système ouvert GNU/Linux*](/debutant/linux-distributions)
-- [:phone: Android *Dé-polluer et libérer son téléphone sous Android*](/debutant/android-roms)
-- [:open_book: Logiciel *Remplacer ses logiciels privateurs **\*** par des alternatives libres et/ou open-source*](/debutant/logiciel-alternative-libre)
-- [:envelope: Communication *Utiliser une messagerie libre et sécurisée et une adresse courriel sécurisée*](/debutant/communications)
-- [:floppy_disk: Sauvegarde *Mettre en place un plan de sauvegarde récurrent des ses données*](/debutant/sauvegarde)
-- [:key: Hygiène *Limiter les publicités, les traceurs et améliorer sa vie privée en ligne*](/hygiene-numerique)
+- [:desktop_computer: Système *Remplacer son système "fermé" Windows ou Apple par un système ouvert GNU/Linux*](./linux-distributions.md#)
+- [:phone: Android *Dé-polluer et libérer son téléphone sous Android*](./android-roms.md#)
+- [:open_book: Logiciel *Remplacer ses logiciels privateurs **\*** par des alternatives libres et/ou open-source*](./logiciel-alternative-libre.md#)
+- [:envelope: Communication *Utiliser une messagerie libre et sécurisée et une adresse courriel sécurisée*](./communications.md#)
+- [:floppy_disk: Sauvegarde *Mettre en place un plan de sauvegarde récurrent des ses données*](./sauvegarde.md#)
+- [:key: Hygiène *Limiter les publicités, les traceurs et améliorer sa vie privée en ligne*](./hygiene-numerique.md#)
 {.links-list}
 
 ***\*** : Définition de logiciel [privateur](https://linuxfr.org/users/nh2/journaux/logiciel-privateur-vs-propri%C3%A9taire).*
 
 ---
 Les tutoriels :
-- [Tutoriels Ordinateur *Pour nos machines PC*](/tutoriels)
-- [Tutoriels Android *Pour nos téléphones mobiles*](/tutoriels-android)
-- [Tutoriels Serveurs *Pour nos machines de type serveur*](/tutoriels-serveur)
+- [Tutoriels Ordinateur *Pour nos machines PC*](./tutoriels.md#)
+- [Tutoriels Android *Pour nos téléphones mobiles*](./tutoriels-android.md#)
+- [Tutoriels Serveurs *Pour nos machines de type serveur*](./tutoriels-serveur.md#)
 {.links-list}
 
-> Avant toute manipulation sur un appareil, veuillez lire attentivement la page [Avertissements](/avertissement).
+> Avant toute manipulation sur un appareil, veuillez lire attentivement la page [Avertissements](./avertissement.md#).
 {.is-warning}
 
 ---
