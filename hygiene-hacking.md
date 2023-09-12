@@ -57,12 +57,12 @@ Alors je sais, vous vous dites "Non mais attends, créer un mot de passe ultra f
 
 **... Voici pourquoi utiliser un gestionnaire de mots de passe est fortement recommandé.**
 
-Nous vous renvoyons ici vers l'[article dédié](/debutant/gestionnaire-mots-passe) à ces outils.
+Nous vous renvoyons ici vers l'[article dédié](./gestionnaire-mots-passe.md#) à ces outils.
 
 # Authentification 
 ## L'authentification multi factorielle
 
-Activez partout où cela est possible les authentifications à plusieurs facteurs, au minimum 2FA. Attention cependant à l’utilisation du 2FA avec SMS ou courriel : il doit être limité uniquement aux cas où vous n’avez pas d'alternative. Si l'on vous donne le choix, préférez d’autres méthodes comme l’OTP (One-Time Password) via des outils libres (on évitera les Google Auth, Microsoft Auth etc.), disponibles dans l'[article dédié](/debutant/logiciel-alternative-libre) aux alternatives libre et open source. 
+Activez partout où cela est possible les authentifications à plusieurs facteurs, au minimum 2FA. Attention cependant à l’utilisation du 2FA avec SMS ou courriel : il doit être limité uniquement aux cas où vous n’avez pas d'alternative. Si l'on vous donne le choix, préférez d’autres méthodes comme l’OTP (One-Time Password) via des outils libres (on évitera les Google Auth, Microsoft Auth etc.), disponibles dans l'[article dédié](./logiciel-alternative-libre.md#) aux alternatives libre et open source. 
 
 ## Les mécanismes d’authentification
 
@@ -120,7 +120,7 @@ Arrêtez de mettre vos adresses courriels ou vos numéros de téléphone dans le
 
 Protégez vos échanges par courriel, à minima ceux que vous jugez critiques.
 
-Rendez-vous sur l'article [dédié](/debutant/communications#courriel).
+Rendez-vous sur l'article [dédié](./communications.md##courriel).
 
 # Les messageries
 
@@ -128,7 +128,7 @@ Sur le même principe que vos échanges par courriel, vos échanges par messager
 
 Si votre modèle demande un anonymat, c'est aussi possible même si plus complexe à mettre en place.
 
-Ce sujet est discuté en détails dans l'article dédié aux [messageries](/debutant/communications#messagerie), que nous vous conseillons de lire très attentivement :)
+Ce sujet est discuté en détails dans l'article dédié aux [messageries](./communications.md##messagerie), que nous vous conseillons de lire très attentivement :)
 
 # Les liens hypertextes / URLs
 
@@ -167,12 +167,12 @@ Pour le reste des mises à jour classiques, elles peuvent potentiellement attend
 Ceci est un rappel, mais évitez de télécharger des exécutables directement ou dans des archives, que ce soit Linux (via des fichiers ELF ou "Executable Linkable File") ou Windows (via des fichiers à l'extension .exe ou .msi).
   
 Et dans le cas d'un téléchargement depuis un site internet, plutôt que depuis un centre logiciel : toujours télécharger depuis le site officiel de l'éditeur logiciel dudit programme.
-*_Astuce toute simple_ : depuis mon moteur de recherche préféré, je tape wikipedia + nom_du_programme_à_télécharger (ou bien je demande conseil sur une communauté, comme celle-ci). Depuis l'article Wikipedia, je retrouve le lien vers l'[URL](/glossaire#url) de l'éditeur logiciel ; le but étant de télécharger un fichier authentique, en allant directement à la source.*
+*_Astuce toute simple_ : depuis mon moteur de recherche préféré, je tape wikipedia + nom_du_programme_à_télécharger (ou bien je demande conseil sur une communauté, comme celle-ci). Depuis l'article Wikipedia, je retrouve le lien vers l'[URL](./glossaire.md##url) de l'éditeur logiciel ; le but étant de télécharger un fichier authentique, en allant directement à la source.*
 
 En prolongement et pour tous types de fichiers (.iso, .img, ...), vérifiez **TOUJOURS**, lorsque disponible, l'intégrité du fichier téléchargé. Cela se fait via une vérification de la "signature" ou de "la somme de contrôle" dudit fichier.
   
-**Voir l'article sur le [chiffrement, l'intégrité et les signatures](/intermediaire/chiffrement).**
-**Ainsi que le tutoriel [dédié](/tutoriels/verifier-integrite).**
+**Voir l'article sur le [chiffrement, l'intégrité et les signatures](./chiffrement.md#).**
+**Ainsi que le tutoriel [dédié](./verifier-integrite.md#).**
 
 # Sur les antivirus et antimalware
 
@@ -182,12 +182,12 @@ La bonne (première) pratique est si possible de télécharger des fichiers sur 
 
 -   N'utilisez pas de solutions commerciales, type Norton, BitDefender, Kaspersky... qui implémentent de toute manière une télémétrie vers leurs entreprises ainsi que des sociétés tierces.
 -   _**Si vous avez un modèle de menaces nécessitant une sécurité et un anonymat accru**_ : n'utilisez pas les fonctions de protection en temps réel de ces outils ; au delà même de la question de l'utilité réelle de ce genre de fonctions, celles-ci sont exécutées avec des privilèges hauts et de facto peuvent être utilisées comme un vecteur d'attaque.
--   Préférez les solutions open-source et hors ligne, afin d'utiliser ces outils comme prévus à l'origine : scanner régulièrement les fichiers de votre système, ou que vous voudriez scanner en cas de doute sur une potentielle infection. Nous avons rédigé un [tutoriel](/tutoriels/distro-protect) afin de vous guider dans ces tâches. Pour synthétiser nous recommandons :
+-   Préférez les solutions open-source et hors ligne, afin d'utiliser ces outils comme prévus à l'origine : scanner régulièrement les fichiers de votre système, ou que vous voudriez scanner en cas de doute sur une potentielle infection. Nous avons rédigé un [tutoriel](./distro-protect.md#) afin de vous guider dans ces tâches. Pour synthétiser nous recommandons :
     -   pour la détection de logiciels malveillants (malwares) :
 	    - [ClamAV](https://www.clamav.net/) et [ClamTk](https://gitlab.com/dave_m/clamtk/) son interface graphique
     	- [RFXN Linux Malware](http://www.rfxn.com/projects/linux-malware-detect/) (Linux uniquement)
   		- [Hypatia](https://gitlab.com/divested-mobile/hypatia) (Android uniquement)
-    -   pour la détection de rootkits (cf. [ici](/hygiene-numerique#malware-virus-trojan)) : [Chkrootkit](http://www.chkrootkit.org/) ou [RkHunter](https://rkhunter.sourceforge.net/) (Linux uniquement) 
+    -   pour la détection de rootkits (cf. [ici](./hygiene-numerique.md##malware-virus-trojan)) : [Chkrootkit](http://www.chkrootkit.org/) ou [RkHunter](https://rkhunter.sourceforge.net/) (Linux uniquement) 
 -   Si vous ne souhaitez pas installer un outil sur votre ordinateur, vous pouvez potentiellement vous aider de solutions web. Attention ici cependant de ne pas mettre des fichiers contenant des informations personnelles (les vôtres ou ceux d'autres personnes) ou sensibles sur ces sites internet :
     -   [VirusTotal](https://www.virustotal.com/gui/home/upload) (petite mise en garde sur cet outil : leur politique de vie privée est assez problématique cependant car ils stipulent que "tout fichier que vous leur soumettrez seront gardés, partagés voire utilisés à des fins commerciales". Voilà pourquoi il est important de ne pas transmettre de fichiers potentiellement sensibles.)
     -   [Hybrid analysis](https://hybrid-analysis.com/)
