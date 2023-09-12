@@ -51,8 +51,8 @@ Voici d'autres exemples de formats de fichiers d'installation sur d'autres syst�
 ![apk-image.jpeg](/images/apk-image.jpeg =100x){.align-center}
 
 > Le téléchargement direct de fichiers APK, en dehors d'un magasin d'applications, est réservé à minima aux profils intermédiaires.
-> Si vous effectuez ce genre de manipulation sans réaliser de contrôle de [l'intégrité](./verifier-integrite.md#) du fichier, le risque encouru est de télécharger un fichier dont la signature unique ne correspond pas à celle du programme officiel, porte ouverte à un éventuel logiciel malveillant.
-> **Nous nous [déchargeons de toute responsabilité](./avertissement.md#) si vous réalisez une telle opération, sans maîtriser ce que vous faites.**
+> Si vous effectuez ce genre de manipulation sans réaliser de contrôle de [l'intégrité](/tutoriels/verifier-integrite) du fichier, le risque encouru est de télécharger un fichier dont la signature unique ne correspond pas à celle du programme officiel, porte ouverte à un éventuel logiciel malveillant.
+> **Nous nous [déchargeons de toute responsabilité](/avertissement) si vous réalisez une telle opération, sans maîtriser ce que vous faites.**
 {.is-warning}
 
 # Blockchain
@@ -76,7 +76,7 @@ Wikipedia en fournit une [définition plus technique de la blockchain](https://f
 
 Egalement appelé "robot internet". 
 
-Ce programme est détaillé dans l'article [Améliorez votre hygiène numérique](./hygiene-numerique.md##malware-virus-trojan) à la section Malware-Virus-Trojan.
+Ce programme est détaillé dans l'article [Améliorez votre hygiène numérique](/hygiene-numerique#malware-virus-trojan) à la section Malware-Virus-Trojan.
 
 # BootLoader
 
@@ -100,13 +100,13 @@ Sur ce dernier, les partitions boot vont être analysées et, si elles sont vali
 
 # Briquer ou Bricker
 
-Du terme anglais "bricked" (briqué, transformé en brique) : se dit d'un appareil dont l'intégrité du [firmware](glossaire.md##firmware) (micrologiciel, microprogramme, microcode, logiciel interne ou encore logiciel embarqué) n'est plus bonne, et par conséquent il devient inutilisable (ne démarre plus, redémarre en boucle ou affiche un [Screen Of Death (écran de la mort)](https://en.wikipedia.org/wiki/Screen_of_death)).
+Du terme anglais "bricked" (briqué, transformé en brique) : se dit d'un appareil dont l'intégrité du [firmware](#firmware) (micrologiciel, microprogramme, microcode, logiciel interne ou encore logiciel embarqué) n'est plus bonne, et par conséquent il devient inutilisable (ne démarre plus, redémarre en boucle ou affiche un [Screen Of Death (écran de la mort)](https://en.wikipedia.org/wiki/Screen_of_death)).
 
 Il existe des "semi-brick" (réparables) et des "brick" intégraux ("full-brick" : irréparables, sauf dans certains cas par le fabricant).
 
 # Chargeur d'amorçage
 
-Voir [Bootloader](glossaire.md##bootloader) ci-haut.
+Voir [Bootloader](#bootloader) ci-haut.
 
 # Checksum
 
@@ -114,7 +114,7 @@ La somme de contrôle (ou "checksum") est une valeur hexadécimale (suite de chi
 
 On utilise un outil basé sur ces algorithmes pour calculer cette somme et ainsi vérifier qu'un fichier est intègre, c'est-à-dire qu'il n'a pas été altéré durant son "transport".
 
-Voir cet article pour apprendre à vérifier [l'intégrité d'un fichier](./verifier-integrite.md#.md#).
+Voir cet article pour apprendre à vérifier [l'intégrité d'un fichier](/tutoriels/verifier-integrite).
 
 # Daemon
 
@@ -131,7 +131,7 @@ Le DHCP (Dynamic Host Configuration Protocol) est comme son nom l'indique un pro
 
 C'est donc un protocole réseau qui va s'occuper de configurer les paramètres des équipements connectés à un réseau.
 
-C'est généralement la "box" de votre fournisseur Internet qui s'en charge sur votre réseau local. Ainsi lorsque vous branchez un PC avec un câble ethernet ou que vous connectez un smartphone à votre Wifi, ceux-ci obtiennent automatiquement une adresse IP et un [DNS](glossaire.md##dns) à qui envoyer les requêtes.
+C'est généralement la "box" de votre fournisseur Internet qui s'en charge sur votre réseau local. Ainsi lorsque vous branchez un PC avec un câble ethernet ou que vous connectez un smartphone à votre Wifi, ceux-ci obtiennent automatiquement une adresse IP et un [DNS](#dns) à qui envoyer les requêtes.
 
 # Distribution (Distro)
 
@@ -145,7 +145,7 @@ Tous font bien partie du système d'exploitation Android ; ils n'en sont que des
 Pour GNU/Linux, la démarche est la même : au même titre que pour Android, de par la nature ouverte de la méthode de développement du SE (grâce au code source ouvert), on peut en réaliser autant de variantes. Avec des interfaces et des logiciels pré-installées différents selon les besoins : pour la cyber-sécurité, pour les chercheurs en science, pour l'éducation, etc...
 Les environnements de bureau et logiciels pré-installés sont ainsi **distribués** de manière différente : d'où le terme _distributions_, quand on parle des variantes d'Android ou de GNU/Linux.
 
-Aussi, nous vous invitons à lire l'article sur les [principales distributions Linux](./linux-distributions.md#).
+Aussi, nous vous invitons à lire l'article sur les [principales distributions Linux](/debutant/linux-distributions).
 
 > A distinguer des _versions_, qui représentent des itérations d'un système d'exploitation, et intègrent les mises à jour logicielles et de sécurité, avec un support assuré sur une certaine durée. 
 > Exemples : la version 22.04 d'Ubuntu, parue en l'année 2020 (20.) le mois d'avril (.04), et qui assure un support des mises à jour pendant 5 ans. Ou encore la version 22.04 d'Ubuntu, qui vous le devinerez est sortie en ... Avril 2022.
@@ -153,7 +153,7 @@ Aussi, nous vous invitons à lire l'article sur les [principales distributions L
 
 # DNS
 
-DNS (Domain Name System), est une sorte "d'annuaire des sites internet", détaillé dans [l'article suivant](./hygiene-numerique.md##dns), à la section du même nom.
+DNS (Domain Name System), est une sorte "d'annuaire des sites internet", détaillé dans [l'article suivant](/hygiene-numerique#dns), à la section du même nom.
 
 # Dump (Base de données)
 
@@ -170,7 +170,7 @@ Soit à l'aide d'une exportation au format SQL, soit avec les outils inclus avec
 
 # Durcissement
 
-Voir [Hardening](glossaire.md##hardening) ci-bas.
+Voir [Hardening](#hardening) ci-bas.
 
 # Exploit
 
@@ -248,7 +248,7 @@ LDAP (pour Lightweight Directory Access Protocol) est un système d'annuaire, et
 
 L'avantage d'un tel système est par exemple d'offrir un grand nombre de services Internet, mais l'utilisateur n'aura besoin que d'un identifiant/mot de passe pour se connecter à n'importe lequel de ces services. De même, lorsqu'un parc informatique est grand, il permettra de gérer toute ou partie des clients de manière centralisée.
 
-![fonctionnement-ldap-avec_gnu-linux.jpeg](./images/fonctionnement-ldap-avec_gnu-linux.jpeg){.align-center}
+![fonctionnement-ldap-avec_gnu-linux.jpeg](/images/fonctionnement-ldap-avec_gnu-linux.jpeg){.align-center}
 
 # Logiciel gratuit
 
@@ -288,7 +288,7 @@ Par exemple, un ordinateur personnel (PC) de marque Asus ne sera pas forcément 
 Open Source : littéralement "à source ouverte".
 *A ne pas confondre avec un logiciel gratuit.*
 
-C'est à dire dont le code source, la "recette de fabrication" du logiciel est ouverte au public. Cumulée aux [4 libertés essentielles](glossaire.md##logiciel-libre), c'est une des caractéristiques des logiciels libres. Il s'inspire de l'idée marketing qu'un produit qui peut-être examiné par tout le monde sera nécessairement de meilleure qualité. Cependant un logiciel peut être open source sans être libre, dès lors qu'il ne respecte pas les 4 libertés essentielles ci-haut mentionnées : l'open source est avant tout un standard de développement, qui garantit que le "logiciel fait bien ce qu'on dit qu'il fait", sans mensonge ni omission possible, de par la publication du code source ("la recette de fabrication").
+C'est à dire dont le code source, la "recette de fabrication" du logiciel est ouverte au public. Cumulée aux [4 libertés essentielles](#logiciel-libre), c'est une des caractéristiques des logiciels libres. Il s'inspire de l'idée marketing qu'un produit qui peut-être examiné par tout le monde sera nécessairement de meilleure qualité. Cependant un logiciel peut être open source sans être libre, dès lors qu'il ne respecte pas les 4 libertés essentielles ci-haut mentionnées : l'open source est avant tout un standard de développement, qui garantit que le "logiciel fait bien ce qu'on dit qu'il fait", sans mensonge ni omission possible, de par la publication du code source ("la recette de fabrication").
 
 Pour plus de détails sur la distinction entre un logiciel simplement "open source" et un logiciel "libre (et open source)", suivre [ce lien](https://fr.wikipedia.org/wiki/Logiciel_libre). Et pour ceux qui veulent entrer plus dans le détail (intermédiaires ou débutants curieux), les listes de licences suivantes sont disponibles sur le site de leurs fondations :
 - libres de droits (GPL) : https://www.gnu.org/licenses/license-list.fr.html
@@ -313,7 +313,7 @@ Parmi les OS les plus connus :
 -   Apple avec ses OS macOS et iOS
 -   Android (LineageOS, GrapheneOS, /e/OS...)
 
-Pour en savoir plus au sujet des distributions GNU/Linux, nous vous invitons à lire l'article sur les principales [distributions Linux](./linux-distributions.md#.md#).
+Pour en savoir plus au sujet des distributions GNU/Linux, nous vous invitons à lire l'article sur les principales [distributions Linux](/debutant/linux-distributions).
 
 # OTP
 
@@ -326,7 +326,7 @@ Généré depuis une application mobile - objet virtuel - :
 Ou depuis un boîtier prévu à cet effet - objet physique - comme ce boîtier proposé par une banque :
 ![boîtier_-otp-modif_sans_marque_bk.jpg](/images/boîtier_-otp-modif_sans_marque_bk.jpg =300x){.align-center}
 
-Il s'agit d'un "jeton" utilisé dans le cadre d'une authentification à double facteur, ou multi-facteurs. Nous vous renvoyons d'ailleurs vers les différents articles sur l'hygiène numérique [ici](/hygiene-numerique#acc%C3%A8s-aux-informations-ou-authentification) et [ici](./hygiene-numerique.md##authentification), pour bien comprendre et obtenir de plus amples détails.
+Il s'agit d'un "jeton" utilisé dans le cadre d'une authentification à double facteur, ou multi-facteurs. Nous vous renvoyons d'ailleurs vers les différents articles sur l'hygiène numérique [ici](/hygiene-numerique#acc%C3%A8s-aux-informations-ou-authentification) et [ici](/hygiene-numerique#authentification), pour bien comprendre et obtenir de plus amples détails.
 
 > Cette technologie a évolué vers TOTP : Time-based One Time Password. Voir la définition du glossaire à suivre plus bas.
 {.is-info}
@@ -372,7 +372,7 @@ Pour plus de détails sur les ports réseau, consulter l'excellent [article de M
 
 # Propriétaire
 
-Un système d'exploitation, programme, application "propriétaire" se dit d'un outil soumis à licence _commerciale_ pour son utilisation, et dont **le propriétaire est l'éditeur logiciel** et non l'utilisateur final, **par opposition aux logiciels libres (d'utilisation)** (voir définition de [logiciel libre](glossaire.md##logiciel_libre)).
+Un système d'exploitation, programme, application "propriétaire" se dit d'un outil soumis à licence _commerciale_ pour son utilisation, et dont **le propriétaire est l'éditeur logiciel** et non l'utilisateur final, **par opposition aux logiciels libres (d'utilisation)** (voir définition de [logiciel libre](#logiciel_libre)).
 
 Exemples : Windows, MacOS, ChromeOS
 
@@ -399,7 +399,7 @@ Cela ne vous rappelle rien ?
 
 C'est une "partition" de récupération (recovey en anglais) contenue sur les appareils Android et nommée recovery. Elle contient le mode de récupération Android.
 
-Lorsque l'on veut remplacer le système Android, on doit alors le déverrouiller puis le "flasher" pour remplacer le recovery avec un Recovery personnalisé (Custom Recovery). Certaines custom ROM permettent de reverrouiller ensuite l'appareil par souci de sécurité, rendez vous sur [Android et ses ROM alternatives](./android-roms.md#) pour en savoir plus.
+Lorsque l'on veut remplacer le système Android, on doit alors le déverrouiller puis le "flasher" pour remplacer le recovery avec un Recovery personnalisé (Custom Recovery). Certaines custom ROM permettent de reverrouiller ensuite l'appareil par souci de sécurité, rendez vous sur [Android et ses ROM alternatives](/debutant/android-roms) pour en savoir plus.
 
 
 # Réseau (Informatique)
@@ -414,7 +414,7 @@ Nous voyons apparaître ci-haut une notion fondamentale d’un réseau informati
 
 Cette adresse vous est fournie (obligatoirement) par un FAI ou Fournisseur d’Accès à Internet (Orange, Bouygues... pour la France, AT&T, Verizon... pour les USA etc.) - qui vous procure un boîtier spécifique (boîtier internet) et vous assigne automatiquement une adresse sur le réseau internet, afin d’y avoir accès. Vous ne pouvez donc pas vous-même vous attribuer une adresse IP publique.
 
-![Schématisation du réseau de réseaux internet](./images/internet.gif){.align-center}
+![Schématisation du réseau de réseaux internet](/images/internet.gif){.align-center}
 
 *Petite particularité : vous avez sûrement un téléphone portable, avec une connexion 3G, 4G... Ici le boîtier internet sera en fait le module réseau du téléphone, associé à la carte SIM que vous livrera l’opérateur téléphonique (qui en somme est un FAI). A cette carte SIM sera associée une adresse IP publique, afin d’accéder au réseau internet. Attention donc à ne pas confondre votre boîtier internet à la maison (avec son Wifi probablement), et votre téléphone portable avec sa connexion 3G/4G/5G !*
 
@@ -550,7 +550,7 @@ Voici une sélection de logiciels libres qui proposent un client ssh évolué av
 # Système de fichiers (FS)
 
 Un système de fichier (file system ou FS) peut désigner :
-- la façon dont les fichiers sont organisés dans une [partition](glossaire.md##partition)
+- la façon dont les fichiers sont organisés dans une [partition](#partition)
 - ou bien la manière de ranger les dossiers dans un système d'exploitation.
 
 ## FS au sein d'une partition
@@ -581,7 +581,7 @@ Il existe beaucoup de [FS](https://fr.wikipedia.org/wiki/Liste_des_syst%C3%A8mes
 
 Linux (au contraire de Windows) est conçu pour compartimenter chaque espace, un programme pour une tâche et chaque chose à sa place :)
 Lorsque l'on installe une distro Linux on installe la plupart du temps tout dans une seule partition `/` (root FS).
-Cependant, il est tout à fait possible de compartimenter les partitions comme expliqué dans le tutoriel [partitionner son disque](./partitioning.md#).
+Cependant, il est tout à fait possible de compartimenter les partitions comme expliqué dans le tutoriel [partitionner son disque](/tutoriels/partitioning).
 
 Les systèmes UNIX et Linux s'appuient sur un [système de fichier standardisé (Filesystem Hierarchy Standard/FHS)](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard).
 
@@ -621,7 +621,7 @@ De l'anglais "Time-based One Time Password".
 
 ![freeotp-exemple_neutre.jpeg](/images/freeotp-exemple_neutre.jpeg =200x){.align-right}
 
-Le principe est le même que le [One Time Password (OTP)](glossaire.md##otp) cité ci-haut, à ceci prêt que chaque jeton est limité dans une temporalité pré-définie (quelques secondes ou minutes).
+Le principe est le même que le [One Time Password (OTP)](#otp) cité ci-haut, à ceci prêt que chaque jeton est limité dans une temporalité pré-définie (quelques secondes ou minutes).
 
 La minuterie régénère un nouveau jeton chaque fois que le précédent est devenu obsolète (sur les applications mobiles, l'expiration du jeton change de couleur avant qu'un nouveau ne soit re-généré).
 
@@ -638,7 +638,7 @@ De l'anglais "Uniform Resource Locator" : localisateur universel de ressources.
 C'est par exemple l'adresse visible depuis son navigateur internet, dans la barre de recherche : typiquement https://www.exemple-de-site.com. Techniquement, d'après le Larousse, son  rôle est de :
 > "*préciser la localisation d'une ressource Internet, en indiquant le protocole à adopter, le nom de la machine, le chemin d'accès et le nom du fichier.*"
 
-A mettre en lien avec le DNS, dont vous trouverez plus de détails dans l'article [suivant](./hygiene-numerique.md.md##dns).
+A mettre en lien avec le DNS, dont vous trouverez plus de détails dans l'article [suivant](/hygiene-numerique#dns).
 
 
 # Vulnérabilité

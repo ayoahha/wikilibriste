@@ -107,18 +107,18 @@ Utilisation en :fire: inline :arrow_right: pour améliorer l'UX
 
 ![sortirgafam091.png](/images/sortirgafam091.png "Lorem ipsum"){.align-center}
 
-![sortirgafam091.png](./images/sortirgafam091.png){.align-right}
+![sortirgafam091.png](/images/sortirgafam091.png){.align-right}
 
-![sortirgafam091.png](./images/sortirgafam091.png){.align-left}
+![sortirgafam091.png](/images/sortirgafam091.png){.align-left}
 
 
-Consectetur ![sortirgafam091.png](./images/sortirgafam091.png) elit
+Consectetur ![sortirgafam091.png](/images/sortirgafam091.png) elit
 
 # Liens hypertextes
 
 [Externe](https://wikilibriste.fr)
 
-Lien [interne](./contact.md#) au wiki
+Lien [interne](/contact) au wiki
 
 # Liste de tâches
 

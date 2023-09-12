@@ -10,7 +10,7 @@ dateCreated: 2022-12-09T08:49:16.504Z
 
 # Pour nous contacter
 
-- Envoyez-nous un email à ![contact](./images/mail-contact.jpg)
+- Envoyez-nous un email à ![contact](/images/mail-contact.jpg)
 - Ou laissez-nous un message dans le sujet `Wikilibriste.fr` sur notre Groupe Telegram ["Numérique Libre & Résilient"](https://t.me/securite_informatique_libre)
 > Vous devrez pour cela télécharger et installer la messagerie [Telegram](https://telegram.org/) sur votre appareil.
 {.is-info}

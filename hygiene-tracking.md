@@ -51,20 +51,20 @@ Seront dans un premier temps présentés les outils orientés vie privée et/ou 
 
 ## VPN et Tor
 
-Nous avons dédié un article spécifique sur ces 2 mécanismes [ici](./vpn-tor.md#).
+Nous avons dédié un article spécifique sur ces 2 mécanismes [ici](/debutant/vpn-tor).
 
 ## Proxy
-Nous donnons une définition dans le [glossaire](./glossaire.md##proxy).
+Nous donnons une définition dans le [glossaire](/glossaire#proxy).
 
 ## PGP / OpenPGP / G(nu)PG
 
-Nous avons dédié une partie spécifique dans l'article sur [le chiffrement](./chiffrement.md#). Nous vous invitons donc fortement à la lire.
+Nous avons dédié une partie spécifique dans l'article sur [le chiffrement](/intermediaire/chiffrement). Nous vous invitons donc fortement à la lire.
 
 ## DNS
 
 DNS ou « système de noms de domaine » (Domain Name System chez nos amis anglais) est un mécanisme particulièrement intéressant pour les réseaux.
 
-Nous allons le voir, le DNS, c'est un peu l'**annuaire inversé** des sites internet : quand on sélectionne une [URL](./glossaire.md##url), ou qu'on la tape dans une barre de recherche, le DNS se charge de la transcrire en adresse IP (exemple fictif : 127.126.12.22) pour contacter le site.
+Nous allons le voir, le DNS, c'est un peu l'**annuaire inversé** des sites internet : quand on sélectionne une [URL](/glossaire#url), ou qu'on la tape dans une barre de recherche, le DNS se charge de la transcrire en adresse IP (exemple fictif : 127.126.12.22) pour contacter le site.
 
 Rentrons dans les détails : nous allons nous intéresser plus particulièrement à l’utilisation sur le réseau internet, car son usage en est le parfait exemple. Lorsque nous naviguons sur internet, nous souhaitons visiter des sites internet. Pour y accéder, nous allons entrer un texte que nous appelons URL qui contient le nom du site. Mais comment savoir quel serveur contacter pour afficher le site en question ou autrement dit, comment retrouver l’adresse IP du serveur associée à ce nom du site ?
 
@@ -120,21 +120,21 @@ Pour les amateurs de tests et de performances, [DNSPerf](https://www.dnsperf.com
 
 Utiliser un navigateur internet permettant de respecter votre vie privée. Celui-ci limitera fortement votre exposition sur internet ainsi que la collecte d'informations vous concernant.
 
-Nous vous renvoyons vers l'article sur les [Navigateurs Web](./navigateurs.md#), qui vous guidera dans le choix, afin de bien paramétrer votre navigateur et y adjoindre facultativement des extensions afin de renforcer le modèle de sécurité.
+Nous vous renvoyons vers l'article sur les [Navigateurs Web](/debutant/navigateurs), qui vous guidera dans le choix, afin de bien paramétrer votre navigateur et y adjoindre facultativement des extensions afin de renforcer le modèle de sécurité.
 
 ## Les moteurs de recherche
 
 Sur ce navigateur, et afin d'éviter d'être *tracé* par des parties tierces, évitez l'utilisation de moteurs de recherche trop curieux, ou trop lâches dans leur gestion des données et métadonnées. 
 
-Pour cela voir l'article sur [les moteurs de recherche](./moteurs-recherche.md#), afin de changer pour un moteur respectueux de votre vie privée.
+Pour cela voir l'article sur [les moteurs de recherche](/debutant/moteurs-recherche), afin de changer pour un moteur respectueux de votre vie privée.
 
 ## Les applications de courriels
 
-Veuillez lire l'article dédié aux [courriel](./communications.md##courriel) respectueux de vos données qui est tout à fait complet et ne mérite pas d'être paraphrasé :).
+Veuillez lire l'article dédié aux [courriel](/debutant/communications#courriel) respectueux de vos données qui est tout à fait complet et ne mérite pas d'être paraphrasé :).
 
 ## Les applications de messagerie
 
-Veuillez lire l'article dédié aux [messageries](./communications.md##messagerie) respectueuses de vos données qui est tout à fait complet et ne mérite pas d'être paraphrasé :).
+Veuillez lire l'article dédié aux [messageries](/debutant/communications#messagerie) respectueuses de vos données qui est tout à fait complet et ne mérite pas d'être paraphrasé :).
 
 ## Les réseaux sociaux
 
@@ -148,7 +148,7 @@ Faites un tour sur **_tous les paramètres_** de tous vos réseaux sociaux et v�
 
 Bien que choisir un navigateur optimisé et renforcé d’extensions, il existe toujours un risque qu’une personne malveillante puisse avoir accès à votre activité numérique et à votre position géographique, en observant les données en transit sur le réseau internet. La probabilité est faible certes, mais le risque est non nul...
 
-Référez-vous à notre article [dédié](./vpn-tor.md#.md#).
+Référez-vous à notre article [dédié](/debutant/vpn-tor).
 
 ## Second niveau : les DNS
 
@@ -226,9 +226,9 @@ Obtenir un niveau plus avancé d'anonymat n'est pas chose aisée...
 
 ## Whonix
 
-[Whonix](https://www.whonix.org/) / [Qubes OS](https://www.qubes-os.org/) : L'utilisation de Qubes (avec Whonix pré-installé d'origine dans une machine virtuelle) ou d'un système d'exploitation Linux _[durci](./glossaire.md##durcissement)_ via la solution _Whonix_ permet un niveau de sécurité et un anonymat renforcés.
+[Whonix](https://www.whonix.org/) / [Qubes OS](https://www.qubes-os.org/) : L'utilisation de Qubes (avec Whonix pré-installé d'origine dans une machine virtuelle) ou d'un système d'exploitation Linux _[durci](/glossaire#durcissement)_ via la solution _Whonix_ permet un niveau de sécurité et un anonymat renforcés.
 
-Sous Qubes OS (dans la Machine Virtuelle Whonix-WS) ou plus généralement sous Whonix, les requêtes [DNS](hygiene-tracking.md##dns) passent par Tor. Cela assure donc une anonymisation globale des requêtes. Attention en revanche si vous ne passez pas par ces outils, de bien configurer des adresses de serveurs DNS respectueux et d'assurer une protection des requêtes (que ce soit DoH, DoT, DNSCrypt ou DNSSEC...) :
+Sous Qubes OS (dans la Machine Virtuelle Whonix-WS) ou plus généralement sous Whonix, les requêtes [DNS](#dns) passent par Tor. Cela assure donc une anonymisation globale des requêtes. Attention en revanche si vous ne passez pas par ces outils, de bien configurer des adresses de serveurs DNS respectueux et d'assurer une protection des requêtes (que ce soit DoH, DoT, DNSCrypt ou DNSSEC...) :
 
 - soit sur votre routeur FAI (bien vérifier également que ce routeur applique convenablement l'utilisation de ces IP, cf. DNS leak)
 - soit sur votre propre serveur DNS :arrow_right: attention ici encore de bien comprendre ce mécanisme : implémenter une solution de type *PiHole* par exemple déporte uniquement le serveur résolveur chez vous, mais les requêtes vers les serveurs récursifs auront toujours lieu sur internet. Donc si vous ne protégez pas ces requêtes ou si vous ne cachez pas votre IP, il sera possible de vous désanonymiser !
