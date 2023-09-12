@@ -80,7 +80,7 @@ Vous vous engagez également à proposer des contenus rédigés par vous-même, 
 Merci de ne pas utiliser le travail sous droits d’auteur sans autorisation expresse !
 
 Pour créer un article :
-![](./images/icone-creation-article.png){.align-right}
+![](/images/icone-creation-article.png){.align-right}
 -   Cliquez en haut à droite sur l'icône d'une feuille avec un sigle + :
 
 -----
@@ -116,7 +116,7 @@ Pour créer un article :
 
 Voilà vous avez rédigé votre article !
 
-> Markdown est un langage très puissant, et vous permettra de créer du contenu agréable à lire grâce aux codes courts qu'il fournit. Rendez-vous sur [cette page](./codes-courts.md#) pour tous les codes courts disponibles.
+> Markdown est un langage très puissant, et vous permettra de créer du contenu agréable à lire grâce aux codes courts qu'il fournit. Rendez-vous sur [cette page](/codes-courts) pour tous les codes courts disponibles.
 {.is-success}
 
 # Editer un article
