@@ -3,11 +3,12 @@ title: La liste des tutoriels pour ordinateurs...
 description: ...écrits avec amour par le groupe !
 published: true
 date: 2023-09-10T10:06:25.924Z
-tags: tutoriel, ordinateur
+tags:
+  - tutoriel
+  - ordinateur
 editor: markdown
 dateCreated: 2023-01-27T10:12:19.178Z
 ---
-
 # Les vidéos PC
 🎬 [Présentation des distributions Linux et création de clef USB amorçable](/tutoriels/monde-linux)
 
@@ -47,7 +48,7 @@ dateCreated: 2023-01-27T10:12:19.178Z
 
 ## Utiliser un gestionnaire de mots de passe
 - :arrow_right: [KeePassXC/DX](/tutoriels/keepass)
-- Bitwarden
+- Bitwarden (A venir)
 {.grid-list}
 
 #### Bonus :
