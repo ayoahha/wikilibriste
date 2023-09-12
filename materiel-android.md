@@ -62,7 +62,7 @@ Voilà pourquoi certaines entreprises sélectionnent du matériel (qu'ils vont j
 
 Un téléphone Pixel de Google ? étonnant !
 
-Mais pas tant que cela, il y a des raisons techniques derrière : en effet, Google a beaucoup travaillé sur le durcissement (voir [Hardening](/glossaire#hardening) dans le glossaire) de ses appareils que tous les autres ne possèdent pas (encore ?).
+Mais pas tant que cela, il y a des raisons techniques derrière : en effet, Google a beaucoup travaillé sur le durcissement (voir [Hardening](./glossaire.md##hardening) dans le glossaire) de ses appareils que tous les autres ne possèdent pas (encore ?).
 
 ## Le bootloader
 

@@ -27,9 +27,9 @@ dateCreated: 2023-04-19T15:33:10.188Z
 
 # Les tutoriels pour Ordiphone
 
-- :arrow_right: [Utiliser UAD pour supprimer les applications bloatware](/tutoriels-android/android-debloater)
-- :arrow_right: [Débloquer son Android Bootloader](/tutoriels-android/bootloader-unlock)
-- :arrow_right: [Désinstaller Cellbroadcast](/tutoriels-android/cellbroadcaster)
+- :arrow_right: [Utiliser UAD pour supprimer les applications bloatware](./android-debloater.md#)
+- :arrow_right: [Débloquer son Android Bootloader](./bootloader-unlock.md#)
+- :arrow_right: [Désinstaller Cellbroadcast](./cellbroadcaster.md#)
 {.grid-list}
 
 ---

@@ -12,17 +12,17 @@ dateCreated: 2023-04-19T15:28:41.653Z
 
 ## Auto-hébergement
 
-- :arrow_right: [Auto-hébergement simplifié : installer et utiliser Yunohost](/tutoriels-serveur/yunohost)
-- :arrow_right: [Auto-hébergement personnalisé : installer et utiliser un serveur sous Debian Stable](/tutoriels-serveur/serveur-debian-stable)
+- :arrow_right: [Auto-hébergement simplifié : installer et utiliser Yunohost](./yunohost.md#)
+- :arrow_right: [Auto-hébergement personnalisé : installer et utiliser un serveur sous Debian Stable](./serveur-debian-stable.md#)
 
 ## Fonction pro-vie privée
 
-- :arrow_right: [Installer un anti-traceurs et publicités pour réseau local](/tutoriels-serveur/pi-hole) 
+- :arrow_right: [Installer un anti-traceurs et publicités pour réseau local](./pi-hole.md#) 
 {.grid-list}
 
 ## Serveur Multimédia
 
-- :arrow_right: [Installer un serveur multimédia pour sa médiathèque](/tutoriels-serveur/multimedia) (A venir)
+- :arrow_right: [Installer un serveur multimédia pour sa médiathèque](./multimedia.md#) (A venir)
 {.grid-list}
 
 ---
