@@ -39,7 +39,7 @@ Vous avez sûrement déjà entendu parler de « confidentialité des données »
 
 *Mais qu’est-ce concrètement ce « chiffrement » et à quoi sert-il ?*
 
-**Nous vous renvoyons vers l'article [dédié](/intermediaire/chiffrement) au chiffrement, à l'intégrité et aux signatures numériques afin d'y voir un peu plus clair sur ces sujets**
+**Nous vous renvoyons vers l'article [dédié](./chiffrement.md#) au chiffrement, à l'intégrité et aux signatures numériques afin d'y voir un peu plus clair sur ces sujets**
 
 
 ## Accès aux informations ou authentification
@@ -223,7 +223,7 @@ Eh oui, vous voyez, un _hacker_ n’est pas forcément un pirate informatique ! 
 Attention donc à la confusion avec la terminologie :
 -   Un cybercriminel est un pirate informatique malveillant
 -   Un pirate informatique peut être bienveillant (un "pentester" par exemple - **pen**etration **test**ing = tests d'intrusion : auditer la sécurité informatique)
--   Un hacker peut être un pirate informatique (cf. terminologie [White Hat / Grey Hat / Black Hat](/glossaire#white-hat) du glossaire).
+-   Un hacker peut être un pirate informatique (cf. terminologie [White Hat / Grey Hat / Black Hat](./glossaire.md##white-hat) du glossaire).
 Il peut néanmoins être un "bidouilleur", qui installe un système alternatif à la place de celui d'un robot cuiseur, une calculatrice [^¹] ou une imprimante [^²], pour relever le défi d'y jouer à des jeux vidéos :)
 
 [^¹]: [Doom](https://www.phonandroid.com/doom-fonctionne-meme-sur-une-calculatrice-alimentee-par-des-patates.html) fonctionne sur une calculatrice
@@ -394,12 +394,12 @@ Alors je sais, vous vous dites "Non mais attends, créer un mot de passe ultra f
 
 **... Voici pourquoi utiliser un gestionnaire de mots de passe est fortement recommandé.**
 
-Nous vous renvoyons ici vers l'[article dédié](/debutant/gestionnaire-mots-passe) à ces outils.
+Nous vous renvoyons ici vers l'[article dédié](./gestionnaire-mots-passe.md#) à ces outils.
 
 ## Authentification 
 ### L'authentification multi factorielle
 
-Activez partout où cela est possible les authentifications à plusieurs facteurs, au minimum 2FA. Attention cependant à l’utilisation du 2FA avec SMS ou courriel : il doit être limité uniquement aux cas où vous n’avez pas d'alternative. Si l'on vous donne le choix, préférez d’autres méthodes comme l’OTP (One-Time Password) via des outils libres (on évitera les Google Auth, Microsoft Auth etc.), disponibles dans l'[article dédié](/debutant/logiciel-alternative-libre) aux alternatives libres et open source. 
+Activez partout où cela est possible les authentifications à plusieurs facteurs, au minimum 2FA. Attention cependant à l’utilisation du 2FA avec SMS ou courriel : il doit être limité uniquement aux cas où vous n’avez pas d'alternative. Si l'on vous donne le choix, préférez d’autres méthodes comme l’OTP (One-Time Password) via des outils libres (on évitera les Google Auth, Microsoft Auth etc.), disponibles dans l'[article dédié](./logiciel-alternative-libre.md#) aux alternatives libres et open source. 
 
 ### Les mécanismes d’authentification
 
@@ -457,7 +457,7 @@ Arrêtez de mettre vos adresses courriels ou vos numéros de téléphone dans le
 
 Protégez vos échanges par courriel, a minima ceux que vous jugez critiques.
 
-Rendez-vous sur l'article [dédié](/debutant/communications#courriel).
+Rendez-vous sur l'article [dédié](./communications.md##courriel).
 
 ## Les messageries
 
@@ -465,7 +465,7 @@ Sur le même principe que vos échanges par courriel, vos échanges par messager
 
 Si votre modèle demande un anonymat, c'est aussi possible même si plus complexe à mettre en place.
 
-Ce sujet est discuté en détails dans l'article dédié aux [messageries](/debutant/communications#messagerie), que nous vous conseillons de lire très attentivement :)
+Ce sujet est discuté en détails dans l'article dédié aux [messageries](./communications.md##messagerie), que nous vous conseillons de lire très attentivement :)
 
 ## Les liens hypertextes / URLs
 
@@ -504,12 +504,12 @@ Pour le reste des mises à jour classiques, elles peuvent potentiellement attend
 Ceci est un rappel, mais évitez de télécharger des exécutables directement ou dans des archives, que ce soit Linux (via des fichiers ELF ou "Executable Linkable File") ou Windows (via des fichiers à l'extension .exe ou .msi).
   
 Et dans le cas d'un téléchargement depuis un site internet, plutôt que depuis un centre logiciel : toujours télécharger depuis le site officiel de l'éditeur logiciel dudit programme.
-*_Astuce toute simple_ : depuis mon moteur de recherche préféré, je tape wikipedia + nom_du_programme_à_télécharger (ou bien je demande conseil sur une communauté, comme celle-ci). Depuis l'article Wikipedia, je retrouve le lien vers l'[URL](/glossaire#url) de l'éditeur logiciel ; le but étant de télécharger un fichier authentique, en allant directement à la source.*
+*_Astuce toute simple_ : depuis mon moteur de recherche préféré, je tape wikipedia + nom_du_programme_à_télécharger (ou bien je demande conseil sur une communauté, comme celle-ci). Depuis l'article Wikipedia, je retrouve le lien vers l'[URL](./glossaire.md##url) de l'éditeur logiciel ; le but étant de télécharger un fichier authentique, en allant directement à la source.*
 
 En prolongement et pour tous types de fichiers (.iso, .img, ...), vérifiez **TOUJOURS**, lorsque disponible, l'intégrité du fichier téléchargé. Cela se fait via une vérification de la "signature" ou de "la somme de contrôle" dudit fichier.
   
-**Voir l'article sur le [chiffrement, l'intégrité et les signatures](/intermediaire/chiffrement).**
-**Ainsi que le tutoriel [dédié](/tutoriels/verifier-integrite).**
+**Voir l'article sur le [chiffrement, l'intégrité et les signatures](./chiffrement.md#.md#).**
+**Ainsi que le tutoriel [dédié](./verifier-integrite.md#).**
 
 ## Sur les antivirus et antimalware
 
@@ -519,12 +519,12 @@ La bonne (première) pratique est si possible de télécharger des fichiers sur 
 
 -   N'utilisez pas de solutions commerciales, type Norton, BitDefender, Kaspersky... qui implémentent de toute manière une télémétrie vers leurs entreprises ainsi que des sociétés tierces.
 -   **_Si vous avez un modèle de menaces nécessitant une sécurité et un anonymat accru :_** n'utilisez pas les fonctions de protection en temps réel de ces outils ; au delà même de la question de l'utilité réelle de ce genre de fonctions, celles-ci sont exécutées avec des privilèges hauts et, de facto, peuvent être utilisées comme un vecteur d'attaque.
--   Préférez les solutions open-source et hors ligne, afin d'utiliser ces outils comme prévus à l'origine : scanner régulièrement les fichiers de votre système, ou que vous voudriez scanner en cas de doute sur une potentielle infection. Nous avons rédigé un [tutoriel](/tutoriels/distro-protect) afin de vous guider dans ces tâches. Pour synthétiser, nous recommandons :
+-   Préférez les solutions open-source et hors ligne, afin d'utiliser ces outils comme prévus à l'origine : scanner régulièrement les fichiers de votre système, ou que vous voudriez scanner en cas de doute sur une potentielle infection. Nous avons rédigé un [tutoriel](./distro-protect.md#) afin de vous guider dans ces tâches. Pour synthétiser, nous recommandons :
     -   pour la détection de logiciels malveillants (malwares) :
 	    - [ClamAV](https://www.clamav.net/) et [ClamTk](https://gitlab.com/dave_m/clamtk/) son interface graphique,
     	- [RFXN Linux Malware](http://www.rfxn.com/projects/linux-malware-detect/) (Linux uniquement),
   		- [Hypatia](https://gitlab.com/divested-mobile/hypatia) (Android uniquement),
-    -   pour la détection de rootkits (cf. [ici](/hygiene-numerique#malware-virus-trojan)) : [Chkrootkit](http://www.chkrootkit.org/) ou [RkHunter](https://rkhunter.sourceforge.net/) (Linux uniquement). 
+    -   pour la détection de rootkits (cf. [ici](hygiene-numerique.md##malware-virus-trojan)) : [Chkrootkit](http://www.chkrootkit.org/) ou [RkHunter](https://rkhunter.sourceforge.net/) (Linux uniquement). 
 -   Si vous ne souhaitez pas installer un outil sur votre ordinateur, vous pouvez potentiellement vous aider de solutions web. Attention ici cependant de ne pas mettre des fichiers contenant des informations personnelles (les vôtres ou ceux d'autres personnes) ou sensibles sur ces sites internet :
     -   [VirusTotal](https://www.virustotal.com/gui/home/upload) (petite mise en garde sur cet outil : leur politique de vie privée est assez problématique cependant car ils stipulent que "tout fichier que vous leur soumettrez seront gardés, partagés voire utilisés à des fins commerciales". Voilà pourquoi il est important de ne pas transmettre de fichiers potentiellement sensibles.)
     -   [Hybrid analysis](https://hybrid-analysis.com/)
@@ -591,16 +591,16 @@ Enfin, si nous allons encore plus loin, il n'est pas impossible non plus que des
 Seront dans un premier temps présentés les outils orientés vie privée et/ou anonymat que sont le VPN ainsi que le réseau Tor, avant de poursuivre sur les outils utiles pour réaliser des communications privées (PGP), lutter contre la censure (les DNS et leur rôle), ainsi que la sécurité de l'information.
 
 ### VPN et Tor
-Nous avons dédié un article spécifique sur ces 2 mécanismes [ici](/debutant/vpn-tor).
+Nous avons dédié un article spécifique sur ces 2 mécanismes [ici](./vpn-tor.md#).
 
 ### DNS
-Nous avons dédié un article spécifique sur ce mécanisme [ici](/debutant/dns).
+Nous avons dédié un article spécifique sur ce mécanisme [ici](./dns.md#).
 
 ### Proxy
-Nous donnons une définition dans le [glossaire](/glossaire#proxy).
+Nous donnons une définition dans le [glossaire](./glossaire.md##proxy).
 
 ### PGP / OpenPGP / G(nu)PG
-Nous avons dédié une partie spécifique dans l'article sur [le chiffrement](/intermediaire/chiffrement). Nous vous invitons donc fortement à la lire.
+Nous avons dédié une partie spécifique dans l'article sur [le chiffrement](./chiffrement.md#.md#.md#). Nous vous invitons donc fortement à la lire.
 
 ## Protégez votre vie privée
 
@@ -608,21 +608,21 @@ Nous avons dédié une partie spécifique dans l'article sur [le chiffrement](/i
 
 Utilisez un navigateur internet permettant de respecter votre vie privée. Celui-ci limitera fortement votre exposition sur internet ainsi que la collecte d'informations vous concernant.
 
-Nous vous renvoyons vers l'article sur les [Navigateurs Web](/debutant/navigateurs), qui vous guidera dans le choix, afin de bien paramétrer votre navigateur et y adjoindre facultativement des extensions afin de renforcer le modèle de sécurité.
+Nous vous renvoyons vers l'article sur les [Navigateurs Web](./navigateurs.md#), qui vous guidera dans le choix, afin de bien paramétrer votre navigateur et y adjoindre facultativement des extensions afin de renforcer le modèle de sécurité.
 
 ### Les moteurs de recherche
 
 Sur ce navigateur, et afin d'éviter d'être *tracé* par des parties tierces, évitez l'utilisation de moteurs de recherche trop curieux, ou trop lâches dans leur gestion des données et métadonnées. 
 
-Pour cela, voir l'article sur [les moteurs de recherche](/debutant/moteurs-recherche), afin de changer pour un moteur respectueux de votre vie privée.
+Pour cela, voir l'article sur [les moteurs de recherche](./moteurs-recherche.md#), afin de changer pour un moteur respectueux de votre vie privée.
 
 ### Les applications de courriels
 
-Veuillez lire l'article dédié aux [courriels](/debutant/communications#courriel) respectueux de vos données qui est tout à fait complet et ne mérite pas d'être paraphrasé :).
+Veuillez lire l'article dédié aux [courriels](./communications.md.md##courriel) respectueux de vos données qui est tout à fait complet et ne mérite pas d'être paraphrasé :).
 
 ### Les applications de messageries
 
-Veuillez lire l'article dédié aux [messageries](/debutant/communications#messagerie) respectueuses de vos données qui est tout à fait complet et ne mérite pas d'être paraphrasé :).
+Veuillez lire l'article dédié aux [messageries](./communications.md.md##messagerie) respectueuses de vos données qui est tout à fait complet et ne mérite pas d'être paraphrasé :).
 
 ### Les réseaux sociaux
 
@@ -636,13 +636,13 @@ Faites un tour sur **tous les paramètres** de tous vos réseaux sociaux et vér
 
 Si vous n'utilisez pas de service VPN via des mandataires (cf. ci-après), qui vous permettent de pointer vers leurs serveurs DNS, alors il peut être important de configurer spécifiquement les DNS vers lesquels pointer afin de limiter le pistage...
 
-Référez-vous à notre article [dédié](/debutant/dns).
+Référez-vous à notre article [dédié](./dns.md#.md#).
 
 ### Second niveau : le VPN
 
 Bien que choisir un navigateur optimisé et renforcé d’extensions, il existe toujours un risque qu’une personne malveillante puisse avoir accès à votre activité numérique et à votre position géographique, en observant les données en transit sur le réseau internet. La probabilité est faible certes, mais le risque est non nul...
 
-Référez-vous à notre article [dédié](/debutant/vpn-tor).
+Référez-vous à notre article [dédié](./vpn-tor.md#.md#).
 
 ### Niveau subsidiaire...
 
@@ -662,7 +662,7 @@ Veillez à supprimer toutes les **[métadonnées](/hygiene-numerique#les-m%C3%A9
 Le sujet autour de Tor Browser est assez complexe et débattu dans la communauté et dépend grandement de votre modèle :
 1. **Si votre niveau de menaces ne va pas plus loin que quelques multinationales _pompes à données_ ou des recherches sensibles**, alors vous pouvez utiliser le navigateur Tor (Tor Browser, capable d'atteindre le réseau Tor) dans votre environnement pour des recherches et ceci afin de renforcer votre vie privée.
 
-Référez-vous dans ce cas à notre article [dédié](/debutant/vpn-tor).
+Référez-vous dans ce cas à notre article [dédié](./vpn-tor.md#.md#.md#).
 
 2. **Si en revanche votre modèle impose un anonymat important** et que votre niveau de menaces concerne des "agences étatiques" ou des groupes à fortes ressources, il est nécessaire d'éviter son utilisation dans le contexte 1, et passer sur un modèle bien plus robuste.
 
@@ -674,9 +674,9 @@ Obtenir un niveau plus avancé d'anonymat n'est pas chose aisée...
 
 #### Whonix
 
-[Whonix](https://www.whonix.org/) / [Qubes OS](https://www.qubes-os.org/) : L'utilisation de Qubes (avec Whonix pré-installé d'origine dans une machine virtuelle) ou d'un système d'exploitation Linux _[durci](/glossaire#durcissement)_ via la solution _Whonix_ permet un niveau de sécurité et un anonymat renforcés.
+[Whonix](https://www.whonix.org/) / [Qubes OS](https://www.qubes-os.org/) : L'utilisation de Qubes (avec Whonix pré-installé d'origine dans une machine virtuelle) ou d'un système d'exploitation Linux _[durci](./glossaire.md##durcissement)_ via la solution _Whonix_ permet un niveau de sécurité et un anonymat renforcés.
 
-Sous Qubes OS (dans la Machine Virtuelle Whonix-WS) ou plus généralement sous Whonix, les requêtes [DNS](#dns) passent par Tor. Cela assure donc une anonymisation globale des requêtes. Attention en revanche si vous ne passez pas par ces outils, de bien configurer des adresses de serveurs DNS respectueux et d'assurer une protection des requêtes (que ce soit DoH, DoT, DNSCrypt ou DNSSEC...) :
+Sous Qubes OS (dans la Machine Virtuelle Whonix-WS) ou plus généralement sous Whonix, les requêtes [DNS](hygiene-numerique.md##dns) passent par Tor. Cela assure donc une anonymisation globale des requêtes. Attention en revanche si vous ne passez pas par ces outils, de bien configurer des adresses de serveurs DNS respectueux et d'assurer une protection des requêtes (que ce soit DoH, DoT, DNSCrypt ou DNSSEC...) :
 
 - soit sur votre routeur FAI (bien vérifier également que ce routeur applique convenablement l'utilisation de ces IP, cf. DNS leak)
 - soit sur votre propre serveur DNS :arrow_right: attention ici encore de bien comprendre ce mécanisme : implémenter une solution de type *PiHole* par exemple déporte uniquement le serveur résolveur chez vous, mais les requêtes vers les serveurs récursifs auront toujours lieu sur internet. Donc si vous ne protégez pas ces requêtes ou si vous ne cachez pas votre IP, il sera possible de vous désanonymiser !
@@ -726,7 +726,7 @@ Dans la plupart des cas, on se retrouve avec une entreprise, qu'on ne ne connaî
 
 Les 2 solutions pertinentes, et viables en terme de vie privée sont :
 1.  L'utilisation de plusieurs disques durs externes de bonne capacité : aujourd'hui le coût de ces disques a fortement chuté, et il est tout à fait possible de se procurer des disques à des prix intéressants. Voir large, penser long terme : une capacité d'un minimum de 2 To est à envisager, avoir 2 disques est le minimum. Maintenant, nous sommes d'accord, cela implique que vous y pensiez de façon récurrente (tous les mois par exemple), et que vous vous souveniez des manipulations à faire ; oui on sait c'est embêtant, qui plus est vous êtes tributaire d'une possible panne d'un de vos disques (d'où l'idée d'en avoir plusieurs pour éviter des pertes de données) !
-2.  Il existe une autre manière, qui requiert là encore de mettre "les mains dans le cambouis" et à un certain coût : les NAS. Ces petites et plus grosses bêtes, connectées sur notre réseau privé (en local donc), permettent de stocker d'importantes quantités de données et d'assurer une haute disponibilité dans le cas où les disques tombent en panne (nous vous renvoyons au principe des disques montés en [RAID](https://fr.wikipedia.org/wiki/RAID_(informatique)) par exemple). Cela dit, là encore vous devrez configurer correctement cet équipement en termes de sécurité et de durcissement, afin qu'on ne s'y introduise pas. D'un autre côté, il est tout à fait possible [d'automatiser les sauvegardes](/debutant/sauvegarde) !
+2.  Il existe une autre manière, qui requiert là encore de mettre "les mains dans le cambouis" et à un certain coût : les NAS. Ces petites et plus grosses bêtes, connectées sur notre réseau privé (en local donc), permettent de stocker d'importantes quantités de données et d'assurer une haute disponibilité dans le cas où les disques tombent en panne (nous vous renvoyons au principe des disques montés en [RAID](https://fr.wikipedia.org/wiki/RAID_(informatique)) par exemple). Cela dit, là encore vous devrez configurer correctement cet équipement en termes de sécurité et de durcissement, afin qu'on ne s'y introduise pas. D'un autre côté, il est tout à fait possible [d'automatiser les sauvegardes](./sauvegarde.md#) !
 
 C'est à vous de décider quelle peut être la façon de faire, suivant vos besoins et votre modèle de menaces.
 
@@ -737,7 +737,7 @@ Si toutefois vous décidiez de faire confiance à certains tiers, il existe des 
     -   Pour de petits documents, photos... (max 100Mo gratuit) : [Crypt.ee](https://crypt.ee)
     -   Pour une solution tout-en-un : 
 	    - [Nextcloud](https://nextcloud.com/fr/)
-	    - [Ksuite](https://www.infomaniak.com/fr/ksuite) de Infomaniak : copié-collé des solutions propriétaires existantes, avec **des petits plus** (à l'heure où cet article est écrit, en offre gratuite de base [légende : cette solution est rendue possible de par leur offre payante auprès des entreprises en parallèle : un modèle économique solide évite les dérives en termes de monétisation des données] : 15 go de stockage, mail, **vidéo-conférence** (basée sur [Jisti Meet](/debutant/video-conf)), **messagerie instantanée** (prochainement))... Le tout, hébergé en Suisse, et fourni avec des applications sous licence libre, et de bonnes pratiques en termes de vie privée. Le bémol : à la différence de Nextcloud, nécessite de lier un numéro de téléphone pour des raisons avancées de sécurité (double authentification), plutôt que d'utiliser la technologie [OTP](/glossaire#otp) (à chacun d'anticiper l'évolution éventuelle de leur politique de gestion des données).
+	    - [Ksuite](https://www.infomaniak.com/fr/ksuite) de Infomaniak : copié-collé des solutions propriétaires existantes, avec **des petits plus** (à l'heure où cet article est écrit, en offre gratuite de base [légende : cette solution est rendue possible de par leur offre payante auprès des entreprises en parallèle : un modèle économique solide évite les dérives en termes de monétisation des données] : 15 go de stockage, mail, **vidéo-conférence** (basée sur [Jisti Meet](./video-conf.md#)), **messagerie instantanée** (prochainement))... Le tout, hébergé en Suisse, et fourni avec des applications sous licence libre, et de bonnes pratiques en termes de vie privée. Le bémol : à la différence de Nextcloud, nécessite de lier un numéro de téléphone pour des raisons avancées de sécurité (double authentification), plutôt que d'utiliser la technologie [OTP](./glossaire.md##otp) (à chacun d'anticiper l'évolution éventuelle de leur politique de gestion des données).
   
     -   Pour un stockage de sauvegardes et autres fichiers lourds : [Filen.io](https://filen.io/)
 -   Une autre solution, qui comporte, cela dit, un certain coût financier ou en temps, ainsi que de solides connaissances, serait de soi-même héberger une solution Nextcloud :
@@ -752,14 +752,14 @@ Si toutefois vous décidiez de faire confiance à certains tiers, il existe des 
 
 ## DVPN - Decentralized VPN
 
-Pour ceux qui souhaitent utiliser pleinement les capacités du web 3.0 (nous ne rentrons pas dans les détails du web3 dans cet article), l’utilisation d’un « decentralized VPN » (VPN décentralisé ou dVPN) peut être envisagé. En somme, il s’agit d’utiliser la [blockchain](/glossaire#blockchain) afin de fournir un service VPN, dans lequel vous êtes partie prenante ; en effet, l'accès aux réseaux décentralisés de ces outils nécessitera une contrepartie :
+Pour ceux qui souhaitent utiliser pleinement les capacités du web 3.0 (nous ne rentrons pas dans les détails du web3 dans cet article), l’utilisation d’un « decentralized VPN » (VPN décentralisé ou dVPN) peut être envisagé. En somme, il s’agit d’utiliser la [blockchain](./glossaire.md##blockchain) afin de fournir un service VPN, dans lequel vous êtes partie prenante ; en effet, l'accès aux réseaux décentralisés de ces outils nécessitera une contrepartie :
 - soit moyennant des micro-paiements en cryptomonnaie, 
 - soit en hébergeant des serveurs.
 
 **<span class="red-text">Néanmoins, ce mécanisme en est encore à ses balbutiements et nous n’avons pas assez de recul. Qui plus est, vous devrez comprendre le fonctionnement des cryptomonnaies et les risques inhérents.</span>**
 
 Si vous êtes tout de même intéressé(e), voici quelques réseaux dont les communautés sont actives :
--   Sentinel : réseau de DVPN et son client Velocity VPN. Basé sur le [token](/glossaire#token) COSMOS.
+-   Sentinel : réseau de DVPN et son client Velocity VPN. Basé sur le [token](./glossaire.md##token) COSMOS.
 -   Nym : Nym est une application basée sur un mixnet. Basé sur le token NYM.
 -   Mysterium : et son client Mysterium VPN, le plus connu. Basé sur le token MYST, même s'ils acceptent d'autres tokens comme BTC, ETH, LTC.
 -   Deeper DPN : Solutions hardware proposées à la vente pour la participation au réseau (attention plutôt onéreuses !) et afin d'accéder à leur réseau. Basé sur le token DPR.
@@ -769,7 +769,7 @@ Si vous êtes tout de même intéressé(e), voici quelques réseaux dont les com
 
 Afin de bien comprendre en quoi I2P peut nous être utile, intéressons-nous tout d'abord aux applications d'internet et donc principalement aux _WEBs_.
 
-Oui vous avez bien lu, j'ai ajouté un "s" à Web (nous vous renvoyons ici au [glossaire](/glossaire#web) pour la terminologie).
+Oui vous avez bien lu, j'ai ajouté un "s" à Web (nous vous renvoyons ici au [glossaire](./glossaire.md##web) pour la terminologie).
 
 Pour rappel la différence entre internet et le Web :
 -   Comme nous l'avons déjà défini, internet est un réseau (de réseaux)
