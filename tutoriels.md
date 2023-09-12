@@ -47,7 +47,7 @@ dateCreated: 2023-01-27T10:12:19.178Z
 
 ## Utiliser un gestionnaire de mots de passe
 - :arrow_right: [KeePassXC/DX](/tutoriels/keepass)
-- Bitwarden (A venir...)
+- Bitwarden (A venir)
 {.grid-list}
 
 #### Bonus :
