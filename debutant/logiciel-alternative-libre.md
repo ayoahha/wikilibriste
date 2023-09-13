@@ -2,7 +2,7 @@
 title: Trouver un logiciel alternatif libre
 description: Découvrez comment chercher des logiciels libres par vous même
 published: true
-date: 2023-09-13T09:35:02.643Z
+date: 2023-09-13T09:35:29.229Z
 tags: logiciel, application, alternative, alternatif
 editor: markdown
 dateCreated: 2023-02-10T23:29:04.219Z
@@ -41,7 +41,7 @@ La page Awesome Privacy n'est pas à proprement parlé un site mais plutôt un d
 | Application<br> propriétaire | Alternative(s)<br> Open-source | Commentaire |
 |----------|----------|----------|
 | Whatsapp, Messenger, Wickr, Threema, Viber, WeChat... | Signal,<br>Session,<br>Conversations_im,<br>Briar | Exceptionnellement ici 4 alternatives vous sont fournies, le sujet étant sensibles : Signal reste une application robuste pour sa vie privée, Session son pendant côté décentralisé, Conversations pour sa base XMPP et Briar pour son côté plus confidentiel pair à pair. Attention : aucune application n'est dénuée d'inconvénients !<br>Un article spécifique est dédié aux [Messageries](/debutant/communications) alternatives, nous vous renvoyons vers cet article complet si nécessaire. |
-| Google Messages, Google Hangout, SMS/MMS, ... | Simple SMS,<br>Silence | En remplacement de toute application propriétaire de gestion des SMS/MMS.<br>Pour l'application Silence, merci de vous référer à notre article sur les [moyens de communications](/debutant/communications) où nous expliquont la raison |
+| Google Messages, Google Hangout, SMS/MMS, ... | Simple SMS,<br>Silence | En remplacement de toute application propriétaire de gestion des SMS/MMS.<br>Pour l'application Silence, merci de vous référer à notre article sur les [Messageries](/debutant/communications) où nous expliquont la raison |
 | Telegram | Forkgram,<br>Nekogram X | Tous de parfaits remplaçants, avec un minimum voire sans traceur, attention à la configuration en plus à peaufiner. Néanmoins, nous restons sur un modèle avec serveur à sources fermées. |
 | Signal | Langis,<br>Molly | Signal n'est pas trouvable sur des dépôts alternatifs (type F-Droid), dû à la politique de leurs principaux développeurs. Nous conseillons donc de passer par des forks stables et reconnus, [Langis](https://langis.cloudfrancois.fr/) ou [Molly](https://molly.im/). |
 | Chrome, Firefox, Opera, IE, Edge... | Mull,<br>Vanadium | Un article spécifique est dédié aux [Navigateurs internet](/debutant/navigateurs), nous vous renvoyons vers cet article complet si nécessaire. |
