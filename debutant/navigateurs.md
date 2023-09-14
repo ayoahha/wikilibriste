@@ -2,7 +2,7 @@
 title: Les navigateurs web
 description: Un article liés aux navigateurs internet et leur durcissement...
 published: true
-date: 2023-07-22T13:13:19.320Z
+date: 2023-09-14T09:03:05.833Z
 tags: navigateur, web, internet, privacy, vie privée, chrome, firefox, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:38:25.687Z
@@ -107,33 +107,33 @@ Les extensions (aussi nommées Plug-in, Add-on) sont des modules tiers externes,
 Dans cette catégorie, la plus importante, nous nommons cela génériquement les "anti-traceur", car ce type d'extension est en fait celle qui vous permettra de couper tous les liens de collecte par des tiers de façon plus ou moins robuste :
 
 - [uBlock Origin](https://github.com/gorhill/uBlock) : L'un des meilleurs dans ce domaine. Bloque les publicités et les traceurs et permet d'ajouter des règles de filtrage strictes et spécifiques si nécessaire.
-	- [uBlock *Adblocker*](https://addons.mozilla.org/firefox/addon/ublock-origin/) Pour navigateurs sur base Firefox (*Déjà pré-installé sur Librewolf*)
-	- [uBlock *Adblocker*](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) Pour navigateurs sur base Chromium
-	- [uBlock *Adblocker*](https://github.com/gorhill/uBlock-for-firefox-legacy/releases) Pour navigateurs Pale Moon
+	- [uBlock Origin *Adblocker*](https://addons.mozilla.org/firefox/addon/ublock-origin/) Pour navigateurs sur base Firefox (*Déjà pré-installé sur Librewolf*)
+	- [uBlock Origin *Adblocker*](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) Pour navigateurs sur base Chromium
+	- [uBlock Origin *Adblocker*](https://github.com/gorhill/uBlock-for-firefox-legacy/releases) Pour navigateurs Pale Moon
 	{.links-list}
-- [AdGuard](https://adguard.com/fr/welcome.html) : Une alternative crédible à uBlock. Au délà de bloquer également les publicités et les traceurs, AdGuard ajoute quelques protections additionnelles comme par exemple éviter les fuites d'IP (WebRTC protection, même s'il est possible de l'activer directement par le navigateur).
+- [AdGuard](https://adguard.com/fr/welcome.html) : Une alternative crédible à uBlock Origin. Au délà de bloquer également les publicités et les traceurs, AdGuard ajoute quelques protections additionnelles comme par exemple éviter les fuites d'IP (WebRTC protection, même s'il est possible de l'activer directement par le navigateur).
 	- [AdGuard *Adblocker*](https://addons.mozilla.org/fr/firefox/addon/adguard-adblocker/) Pour navigateurs sur base Firefox
 	- [AdGuard *Adblocker*](https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) Pour navigateurs sur base Chromium
 	{.links-list}
-- [Decentraleyes](https://decentraleyes.org/) : Pas une alternative à uBlock ou AdGuard mais plutôt un *complément*. Cette extension permet simplement de réduire voire supprimer les requêtes vers des sites tiers qui fournissent des librairies, en profitant pour stocker vos données personnelles au passage. **Attention à bien le configurer avec uBlock**.
+- [Decentraleyes](https://decentraleyes.org/) : Pas une alternative à uBlock Origin ou AdGuard mais plutôt un *complément*. Cette extension permet simplement de réduire voire supprimer les requêtes vers des sites tiers qui fournissent des librairies, en profitant pour stocker vos données personnelles au passage. **Attention à bien le configurer avec uBlock Origin**.
 	- [Decentraleyes *Anti-CDN*](https://addons.mozilla.org/fr/firefox/addon/decentraleyes/) Pour navigateurs sur base Firefox
 	- [Decentraleyes *Anti-CDN*](https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj) Pour navigateurs sur base Chromium
 	- [Decentraleyes *Anti-CDN*](https://addons.palemoon.org/addon/decentraleyes/) Pour navigateurs Pale Moon
 	{.links-list}
-- [LocalCDN](https://codeberg.org/nobody/LocalCDN) : Une alternative plus puissante de Decentraleyes. LocalCDN est en fait un fork de Decentraleyes, plus complet en termes de librairies tierces gérées. **Attention à bien le configurer avec uBlock**.
+- [LocalCDN](https://codeberg.org/nobody/LocalCDN) : Une alternative plus puissante de Decentraleyes. LocalCDN est en fait un fork de Decentraleyes, plus complet en termes de librairies tierces gérées. **Attention à bien le configurer avec uBlock Origin**.
 	- [LocalCDN *Anti-CDN*](https://addons.mozilla.org/fr/firefox/addon/localcdn-fork-of-decentraleyes/) Pour navigateurs sur base Firefox
 	- [LocalCDN *Anti-CDN*](https://chrome.google.com/webstore/detail/localcdn/njdfdhgcmkocbgbhcioffdbicglldapd) Pour navigateurs sur base Chromium
 	{.links-list}
 
 Sans doute la plus puissante et plus complète des extensions,  mais _**réservé aux utilisateurs initiés**_ : 
-- **uMatrix** : Il s'agit en fait plus d'un "*Pare-Feu Navigateur*" qu'un simple Adblocker, ce qui en fait une extension qui combine uBlock et LocalCDN... Il est possible de finement régler la configuration de chaque site visité : par défaut, uMatrix n'autorise que le strict nécessaire, ce qui rend la majorité des sites illisibles cela dit. À vous donc d'activer les blocs nécessaires pour rendre la lisibilité correcte ou accepter de ne pas visiter le site en question (c'est un choix possible !).
+- **uMatrix** : Il s'agit en fait plus d'un "*Pare-Feu Navigateur*" qu'un simple Adblocker, ce qui en fait une extension qui combine uBlock Origin et LocalCDN... Il est possible de finement régler la configuration de chaque site visité : par défaut, uMatrix n'autorise que le strict nécessaire, ce qui rend la majorité des sites illisibles cela dit. À vous donc d'activer les blocs nécessaires pour rendre la lisibilité correcte ou accepter de ne pas visiter le site en question (c'est un choix possible !).
 	- [uMatrix *localFW*](https://addons.mozilla.org/en-US/firefox/addon/umatrix/) Pour navigateurs sur base Firefox
 	- [uMatrix *localFW*](https://chrome.google.com/webstore/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf) Pour navigateurs sur base Chromium
 	- [nMatrix *localFW*](https://addons.palemoon.org/addon/ematrix/) Pour navigateurs Pale Moon
 	{.links-list}
 
 > uMatrix semble ne plus être maintenu, cela dit l'utilisation d'internet n'a pas évolué depuis ! Les mécanismes restent les mêmes.
-> Pour ceux qui croient également que uBlock reprend toutes les fonctionnalités de uMatrix, c'est faux ; uMatrix permet bien plus et plus finement de gérer les sites web.
+> Pour ceux qui croient également que uBlock Origin reprend toutes les fonctionnalités de uMatrix, c'est faux ; uMatrix permet bien plus et plus finement de gérer les sites web.
 {.is-info}
 
 ## URLs
