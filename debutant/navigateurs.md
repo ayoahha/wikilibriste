@@ -2,7 +2,7 @@
 title: Les navigateurs web
 description: Un article liés aux navigateurs internet et leur durcissement...
 published: true
-date: 2023-09-14T09:03:05.833Z
+date: 2023-09-14T09:14:50.888Z
 tags: navigateur, web, internet, privacy, vie privée, chrome, firefox, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:38:25.687Z
@@ -106,7 +106,7 @@ Les extensions (aussi nommées Plug-in, Add-on) sont des modules tiers externes,
 ## Anti-pistage
 Dans cette catégorie, la plus importante, nous nommons cela génériquement les "anti-traceur", car ce type d'extension est en fait celle qui vous permettra de couper tous les liens de collecte par des tiers de façon plus ou moins robuste :
 
-- [uBlock Origin](https://github.com/gorhill/uBlock) : L'un des meilleurs dans ce domaine. Bloque les publicités et les traceurs et permet d'ajouter des règles de filtrage strictes et spécifiques si nécessaire.
+- [uBlock Origin](https://github.com/gorhill/uBlock) : L'un des meilleurs dans ce domaine. Bloque les publicités et les traceurs et permet d'ajouter des règles de filtrage strictes et spécifiques si nécessaire. *(Attention, uBlock tout court est une arnaque.)*
 	- [uBlock Origin *Adblocker*](https://addons.mozilla.org/firefox/addon/ublock-origin/) Pour navigateurs sur base Firefox (*Déjà pré-installé sur Librewolf*)
 	- [uBlock Origin *Adblocker*](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) Pour navigateurs sur base Chromium
 	- [uBlock Origin *Adblocker*](https://github.com/gorhill/uBlock-for-firefox-legacy/releases) Pour navigateurs Pale Moon
