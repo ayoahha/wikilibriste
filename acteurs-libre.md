@@ -2,7 +2,7 @@
 title: Les acteurs du monde libre
 description: Découvrez les acteurs du monde libre
 published: true
-date: 2023-04-28T21:44:53.018Z
+date: 2023-09-16T10:47:20.055Z
 tags: acteurs libre
 editor: markdown
 dateCreated: 2023-03-06T22:37:03.334Z
@@ -19,6 +19,8 @@ Découvrez les personnalités, collectifs, associations, fondations qui font le 
 
 # Médias
 - [Libre à vous](https://www.libreavous.org/) est une émission de l'April diffusée sur la radio [Cause Commune](https://cause-commune.fm/).
+
+- [L'Écho des gnous](https://www.echodesgnous.org/), une autre émission diffusée sur Radio Campus Lille.
 
 # Transcription
 - [Libre à lire !](https://www.librealire.org/) est un groupe de l'April qui transcrit et transforme en texte des enregistrements audio et vidéo traitant du logiciel libre et des libertés informatiques en général.
