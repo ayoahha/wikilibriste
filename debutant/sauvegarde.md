@@ -2,7 +2,7 @@
 title: Sauvegarder ses données
 description: Sauvegarder et restaurer vos données sous Linux est crucial... Suivez le guide !
 published: true
-date: 2023-09-10T08:28:45.246Z
+date: 2023-09-28T22:54:07.467Z
 tags: debutant, intermediaire, sauvegarde, backup, restaurer, restore
 editor: markdown
 dateCreated: 2023-03-15T23:44:19.951Z
@@ -93,7 +93,8 @@ Nous avons donc 4 possibilités :
 2. Si le PC dispose de 2 disques physiques internes différents, on peut envisager de croiser les sauvegardes :
 :arrow_right: Sachant que tout le monde n'a pas plusieurs disques internes sur une même machine, **nous ne rentrerons pas dans le détail de cette solution**.
 3. Utiliser un espace de stockage cloud pour stocker les sauvegardes :
-:arrow_right: **Malheureusement Déjà Dup ne propose que Google Drive !** :scream:
+:arrow_right: **Il est possible de configurer un accès Webdav, pour Nextcloud par exemple, [voir ici comment procéder](https://isolution.pro/fr/q/au14272034/il-manque-l-option-nextcloud-dans-les-sauvegardes-deja-dup-dans-20-04-lts)**
+
 4. Externaliser sur un disque externe branché sur une autre machine :
 :arrow_right: **C'est cette solution que nous allons présenter**. :thumbsup:
 
