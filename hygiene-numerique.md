@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2023-06-24T08:05:39.627Z
+date: 2023-10-01T14:56:34.786Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -353,7 +353,7 @@ Rentrons dans le vif du sujet, afin de devenir difficilement piratable :
 
 Nous l’avons vu plus haut, créer un mot de passe extrêmement puissant peut déjà vous couvrir face à la majorité des tentatives d'intrusions. Choisir un mot de passe comme « 1234 », « Choupette1982 », « Misssunshine » ou « Pepperonipizza2000! » et bien d’autres relève aujourd’hui de l’hérésie informatique (malheureusement on le voit encore trop souvent !) :-(
 
-![sortirgafam21.png](/images/sortirgafam21.png =600x){.align-center}
+![motdepasse2023.png](/images/motdepasse2023.png =600x){.align-center}
 
 -   pré-requis minimum : **20 caractères**
  :arrow_right: Cela s'atteint même aisément avec une technique simple - la phrase de passe -, évoquée juste à la suite. 
