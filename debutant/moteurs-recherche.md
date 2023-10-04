@@ -2,7 +2,7 @@
 title: Les moteurs de recherche
 description: Article liés aux moteurs de recherche internet et le côté respect de la vie privée...
 published: true
-date: 2023-04-15T08:53:29.253Z
+date: 2023-10-04T09:47:55.127Z
 tags: privacy, vie privée, moteurs, recherche, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:45:28.462Z
@@ -58,6 +58,7 @@ Nos recommandations sont très peu nombreuses :
 ## Aller plus loin
 ### Blâme comportement
 Alors évidemment, nous ne citerons pas les moteurs en lien direct avec des multinationales connues pour collecter toutes sortes de données privées, ou des pays pratiquant une quelconque censure nationale assumée, comme :
+- Google Search
 - Microsoft Bing
 - Yahoo Search
 - Ask . com
