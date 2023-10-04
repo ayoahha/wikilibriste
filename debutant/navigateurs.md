@@ -2,7 +2,7 @@
 title: Les navigateurs web
 description: Un article liés aux navigateurs internet et leur durcissement...
 published: true
-date: 2023-09-25T19:17:13.484Z
+date: 2023-10-04T09:15:49.676Z
 tags: navigateur, web, internet, privacy, vie privée, chrome, firefox, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:38:25.687Z
@@ -87,7 +87,7 @@ Le marché des navigateurs sur mobile est encore pire que celui sur PC fixe :
 | Mull | Divested Mobile | Android | Gecko | Libre AGPL3 | Installer [F-Droid](https://f-droid.org/F-Droid.apk) et installer ensuite Mull depuis F-Droid | Mull est à Android ce que LibreWolf est aux ordinateurs. Rapide, dépourvue de trackers, très peu de télémétrie. |
 | Fennec | F-droid | Android | Gecko | Libre MPL2 | Installer [F-Droid](https://f-droid.org/F-Droid.apk) et installer ensuite Fennec depuis F-Droid | Fennec est un fork de Mozilla Fenix, avec la suppression d'une partie de la télémétrie. Il possède toujours des connexions avec Mozilla et Google et n'est donc pas entièrement dépourvu de trackers. |
 | Brave | Brave Inc. | Android | Blink | Libre MPL2 | Installer [F-Droid](https://f-droid.org/F-Droid.apk) puis depuis celui-ci installer [AuroraStore](https://f-droid.org/en/packages/com.aurora.store/) et enfin depuis Aurora Store, installer Brave | Voir plus haut. |
-| ~~Bromite~~ | Calyx Institute | Android | Blink | Libre GPL3 | Installer [F-Droid](https://f-droid.org/F-Droid.apk) puis activer le [dépôt](https://www.bromite.org/fdroid) et installer ensuite Bromite depuis F-Droid | Bromite est à Android ce que Ungoogled-Chromium est aux ordinateurs. Installé par défaut sur CalyxOs.<br><span class="red-text">**Il semble malheureusement que les développeurs de Bromite aient cessé les développements de l'application (cf. leur message [ici](https://github.com/bromite/bromite/discussions/2573)). Nous recommandons donc de ne plus utiliser Bromite jusqu'à ce qu'un fork 'officiel' et maintenu ait été créé...**</span> |
+| ~~Bromite~~ | Calyx Institute | Android | Blink | Libre GPL3 | Installer [F-Droid](https://f-droid.org/F-Droid.apk) puis activer le [dépôt](https://www.bromite.org/fdroid) et installer ensuite Bromite depuis F-Droid | Bromite est à Android ce que Ungoogled-Chromium est aux ordinateurs. Installé par défaut sur CalyxOs.<br><span class="red-text">**Note 1 : Les développeurs de Bromite ont cessé les développements de l'application (cf. leur message [ici](https://github.com/bromite/bromite/discussions/2573)). Bromite ne doit plus être utilisé.**</span> <br><span class="red-text">**Note 2 : Un fork a été fait par quelques développeurs, qui appellent maintenant l'application [Cromite](https://github.com/uazo/cromite). Nous recommandons néanmoins d'attendre avant d'utiliser Cromite afin d'avoir le plus de recul possible sur le sérieux de l'équipe.**</span> |
 | Vanadium | Graphene | Android | Blink | Libre GPL3 | - | [Vanadium](https://github.com/GrapheneOS/Vanadium) n'est disponible que sur GrapheneOS et est basé lui aussi sur Ungoogled-Chromium. |
 | Tor Browser | The Tor Project | Android | Gecko | Libre MPL2 | Installer [F-Droid](https://f-droid.org/F-Droid.apk) puis activer le dépôt **Guardian** et installer ensuite Tor Browser depuis F-Droid | Voir plus haut. |
 {.dense}
