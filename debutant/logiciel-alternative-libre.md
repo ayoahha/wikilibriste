@@ -2,7 +2,7 @@
 title: Trouver un logiciel alternatif libre
 description: Découvrez comment chercher des logiciels libres par vous même
 published: true
-date: 2023-09-13T09:35:29.229Z
+date: 2023-10-05T08:14:52.385Z
 tags: logiciel, application, alternative, alternatif
 editor: markdown
 dateCreated: 2023-02-10T23:29:04.219Z
@@ -52,7 +52,7 @@ La page Awesome Privacy n'est pas à proprement parlé un site mais plutôt un d
 | Google Calendar, ... | Simple Calendar,<br>Etar | En remplacement de toute application propriétaire de calendrier. |
 | Google Files, Fichiers, ... | Simple File Manager,<br>Material Files | En remplacement de toute application propriétaire de gestion de fichiers. |
 | Google Keep, OneNote, ... | Simple Notes,<br>Notally | En remplacement de toute application propriétaire de prises de note ou de checklist. |
-| Google Météo | Geometric Weather | Pour les informations météorologiques. |
+| Google Météo | Geometric Weather | Breezy Weather | Pour les informations météorologiques. |
 | Reddit | Slide,<br>Infinity | Pour un client Reddit afin de réduire la collecte de données. |
 | Google Password, LastPass, Dashlane, Nordpass... | KeePassDX,<br>Bitwarden | Un article spécifique est dédié aux [Gestionnaires de mots de passe](/debutant/gestionnaire-mots-passe) alternatives, nous vous renvoyons vers cet article complet si nécessaire. |
 | Google Auth, Microsoft Auth, Authy | Aegis Authenticator | Pour le 2FA (via TOTP). |
