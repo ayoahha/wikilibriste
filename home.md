@@ -2,7 +2,7 @@
 title: Bienvenue cher libriste
 description: Tu trouveras sur ce site des tutoriels traitant des logiciels libres ou open-source et de la sécurité informatique
 published: true
-date: 2023-10-15T09:18:37.416Z
+date: 2023-10-15T09:56:13.693Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-24T20:06:27.184Z
@@ -22,7 +22,7 @@ L'idée de ce wiki est de proposer une liste d'articles et de tutoriels pour acc
 
 ## Lettre ouverte - Manifeste
 
-A l'atttention du grand public et des élus de France, plusieurs collectifs ont rédigé une lettre ouverte afin de condamner et expliciter la "**dangerosité**" des agissements des différents gouvernements de France mais aussi d'Europe sur le côté législatif pour à l'endroit du monde numérique.
+A l'atttention du grand public et des élus de France, plusieurs collectifs ont rédigé une lettre ouverte afin de condamner et expliciter la "**dangerosité**" des agissements des différents gouvernements de France mais aussi d'Europe sur le côté législatif pour cibler le monde numérique.
 
 Voici la lettre qui se doit d'être partagée le plus posible :
 - [Lettre Ouverte - Libertés en ligne (pdf)](/documents/lettreouverte_lettre.pdf)
