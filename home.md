@@ -2,7 +2,7 @@
 title: Bienvenue cher libriste
 description: Tu trouveras sur ce site des tutoriels traitant des logiciels libres ou open-source et de la sécurité informatique
 published: true
-date: 2023-10-15T08:53:12.559Z
+date: 2023-10-15T09:18:37.416Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-24T20:06:27.184Z
@@ -26,6 +26,7 @@ A l'atttention du grand public et des élus de France, plusieurs collectifs ont 
 
 Voici la lettre qui se doit d'être partagée le plus posible :
 - [Lettre Ouverte - Libertés en ligne (pdf)](/documents/lettreouverte_lettre.pdf)
+- [Lettre Ouverte - Préambule (pdf) - version courte](/documents/lettreouverte_preambule.pdf)
 
 # Genèse du Wiki
 
