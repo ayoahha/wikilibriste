@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2023-07-21T10:35:35.229Z
+date: 2023-10-16T16:57:42.652Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -226,6 +226,10 @@ En règle générale, cela consiste, par exemple :
 -   à supprimer les services ou objets non utilisés (exemple : débloater Windows, ou un smartphone Android),
 -   à suivre les recommandations (ou "hardening guidelines") pour les services exposés (SSH, TLS etc.),
 -   etc.
+
+# Hardware
+
+Est l'anglicisme pour désigner en français un "matériel".
 
 # IP
 
@@ -527,6 +531,9 @@ Un SBC ou [Single Board Computer](https://fr.wikipedia.org/wiki/Ordinateur_%C3%A
 - [Arduino](https://www.arduino.cc/)
 - [Libre Computer Board (LBC)](https://libre.computer/)
 
+# Software
+
+Est l'anglicisme pour désigner en français un "logiciel".
 
 # SSH
 Secure Shell (SSH) est un protocole de communication chiffré entre 2 machines. A l'ouverture de la session des clefs de chiffrement sont échangées afin de sécuriser la communication. 
