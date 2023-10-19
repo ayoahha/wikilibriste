@@ -2,7 +2,7 @@
 title: Les moteurs de recherche
 description: Article liés aux moteurs de recherche internet et le côté respect de la vie privée...
 published: true
-date: 2023-10-19T06:17:34.128Z
+date: 2023-10-19T06:21:02.490Z
 tags: privacy, vie privée, moteurs, recherche, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:45:28.462Z
@@ -160,7 +160,7 @@ A première vue, ce moteur semble partir sur de bons rails. Regardons maintenant
 [^¹7]: [Swisscows Privacy Policy](https://swisscows.com/en/privacy)
 
 - La fonction de filtres de contenus sensibles implique qu'ils vérifient tout de même les requêtes transmises (notamment leur contenu) :
-> "*Nous collectons les données des requêtes de recherches pour être capable de filtrer les spam et les recherches abusives. Malheureusement, nous sommes obligés de surveiller et les bloquer les robots spam, sinon le traitement de ces demandes nous coûterait de l'argent et des ressources.*"
+> "*Nous collectons les données des requêtes de recherches pour être capable de filtrer les spams et les recherches abusives. Malheureusement, nous sommes obligés de surveiller et bloquer les robots spam, sinon le traitement de ces demandes nous coûterait de l'argent et des ressources.*"
 
 **Bon, cela part d'une bonne intention, mais vous auriez pu le dire explicitement dès le début que vous surveilliez les requêtes !**
 
@@ -175,11 +175,11 @@ A première vue, ce moteur semble partir sur de bons rails. Regardons maintenant
 {.is-danger}
 
 #### Ecosia
-[Ecosia](https://www.ecosia.org) se décrit comme le moteur de recherche "qui plante des arbres". Base son index sur les résultats Bing, et assure ne pas se soucier de vos données mais plutôt de celles des arbres !
+[Ecosia](https://www.ecosia.org) se décrit comme le moteur de recherche "qui plante des arbres". Base son index sur les résultats Bing, et assure ne pas se soucier de vos données mais plutôt des arbres !
 
 En regardant de plus près leur politique de vie privée [^¹8], nous nous rendons compte que le moteur n'est pas si privé que cela par défaut : "*Afin de fournir des services essentiels tels que les paramètres de langue et la protection contre le spam (voir ci-dessous), nous collectons votre adresse IP pendant sept jours maximum avant de la supprimer.*" ou encore "*Nous ne recueillons qu'une quantité limitée de données pour améliorer nos services. Si vous ne souhaitez pas nous donner accès à ces données, vous êtes libre d'activer « Do Not Track » à partir des paramètres de votre navigateur.*". Puis nous lisons que "*Ecosia utilise les cookies pour enregistrer vos paramètres, notamment pour savoir quelle langue d’affichage privilégier.* [...]". Inutile d'aller plus loin, sachant également qu'ils ont récemment opter pour intégrer Cloudflare dans leur infrastructure.
 
-> Ce moteur aurait pu être une alternative de choix, alliant éthique et vie privée, mais leur politique n'est pas encore à la hauteur. Non recommandé.
+> Ce moteur aurait pu être une alternative de choix, alliant éthique environnementale et vie privée, mais leur politique n'est pas encore à la hauteur. Non recommandé.
 {.is-danger}
 
 [^¹8]: [Ecosia](https://info.ecosia.org/privacy)
