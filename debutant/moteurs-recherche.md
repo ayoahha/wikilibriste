@@ -2,7 +2,7 @@
 title: Les moteurs de recherche
 description: Article liés aux moteurs de recherche internet et le côté respect de la vie privée...
 published: true
-date: 2023-10-04T09:47:55.127Z
+date: 2023-10-19T06:17:34.128Z
 tags: privacy, vie privée, moteurs, recherche, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:45:28.462Z
@@ -127,8 +127,8 @@ Après avoir exposé l'enveloppe, voyons ce qu'elle contient :
 [Qwant](https://www.qwant.com/) est un moteur de recherche Français, à l'origine projet aux intentions plus que louables : renforcer la vie privée de ses utilisateurs lors des recherches web. Néanmoins, il apparaît que celui-ci n'a pas tout à fait tenu ses promesses [^¹1], [^¹2], [^¹3], [^¹4] et [^¹5]. Côté technique, il reprend donc les résultats de recherche de Bing (Microsoft), et coopère également avec ces derniers pour l'affichage de publicités.
 
 Avons-nous besoin réellement d'aller plus loin ? Tentons-un coup d'oeil à leur [politique de vie privée](https://about.qwant.com/legal/confidentialite/) :
-> "*Qwant stocke pour 7 jours les mots-clés entré associés à un unique identifiant calculé sur le User Agent de votre navigateur et une empreinte salée (salted hash) de votre adresse IP. Après cette période, les mots clés ne sont plus associés à cet identifiant et sont stockés pour 12 mois à des fins d'analyses statistiques.*", plus loin :
-> "*Qwant peut aussi collecter et transférer à son partenaire* [Microsoft] *votre adresse IP complète. Cette donnée est transférée à ce partenaire dans l'Union Européenne et peut être stockée ... pour un maximum de 18 months.*"
+> "*Qwant stocke pour 7 jours les mots-clés entrés associés à un unique identifiant calculé sur le User Agent de votre navigateur et une empreinte salée (salted hash) de votre adresse IP. Après cette période, les mots clés ne sont plus associés à cet identifiant et sont stockés pour 12 mois à des fins d'analyses statistiques.*", plus loin :
+> "*Qwant peut aussi collecter et transférer à son partenaire* [Microsoft] *votre adresse IP complète. Cette donnée est transférée à ce partenaire dans l'Union Européenne et peut être stockée ... pour un maximum de 18 mois.*"
 
 **Je pense que nous pouvons nous arrêter là.**
 
@@ -152,7 +152,7 @@ Avons-nous besoin réellement d'aller plus loin ? Tentons-un coup d'oeil à leur
 [Swisscows](https://swisscows.com/) possède ses serveurs en Suisse. Ils proposent un service "anonyme" via leur propre index, et ne "stockent aucune donnée personnelle de ses utilisateurs". Il intègre également des filtres de contenus sensibles.
 
 A première vue, ce moteur semble partir sur de bons rails. Regardons maintenant leur politique de vie privée de plus près [^¹7] :
-- Nous sommes dubitatifs quant à l'information concernant leur propre index de rechercher, en effet : 
+- Nous sommes dubitatifs quant à l'information concernant leur propre index de recherche, en effet : 
 > "*Nous travaillons actuellement avec Bing et nous sommes très transparents à propos de cette coopération.*"
 
 **Donc à priori ils travaillent avec Microsoft, même si visiblement ils ne partageraient pas d'information avec eux**...
