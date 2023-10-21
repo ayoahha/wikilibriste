@@ -2,7 +2,7 @@
 title: Utiliser un VPN et/ou Tor
 description: Cet article aborde les très importants concepts de VPN et TOR...
 published: true
-date: 2023-10-21T09:45:04.041Z
+date: 2023-10-21T09:45:48.777Z
 tags: vpn, tor
 editor: markdown
 dateCreated: 2023-04-14T10:56:48.029Z
@@ -31,7 +31,7 @@ Les mandataires suivants remplissent toutes ces conditions :
 - [Mullvad VPN *Un mandataire très sérieux, domicilié en Suède (14-eyes), et audité en 2021 (avec succès) \** ](https://mullvad.net)
 - [IVPN *Certainement les meilleures prestations après Mullvad, qui plus est domicilié hors des 14-eyes*](https://www.ivpn.net)
 - [AzireVPN *Basé en Suède (14-eyes) et propriétaires de leurs serveurs*](https://www.azirevpn.com/fr)
-- [OVPN *Une bonne solution alternative*](https://www.ovpn.com)
+- [OVPN *Une bonne solution alternative basée en Suède (14-eyes)*](https://www.ovpn.com)
 {.links-list}
 
 \* : https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/
@@ -183,7 +183,7 @@ Les mandataires suivants remplissent toutes ces conditions :
 - [Mullvad VPN *Un mandataire très sérieux, domicilié en Suède (14-eyes), et audité en 2021 (avec succès) \** ](https://mullvad.net)
 - [IVPN *Certainement les meilleures prestations après Mullvad, qui plus est domicilié hors des 14-eyes*](https://www.ivpn.net)
 - [AzireVPN *Basé en Suède (14-eyes) et propriétaires de leurs serveurs*](https://www.azirevpn.com/fr)
-- [OVPN *Une bonne solution alternative*](https://www.ovpn.com)
+- [OVPN *Une bonne solution alternative basée en Suède (14-eyes)*](https://www.ovpn.com)
 - [AirVPN *Infrastructure importante et solution correcte*](https://airvpn.org)
 - [Safing.io *Et leur outil Portmaster/SPN ou "Safing Privacy Network" intéressant*](https://safing.io/)
 {.links-list}
