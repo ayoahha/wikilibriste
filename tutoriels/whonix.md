@@ -2,13 +2,14 @@
 title: Whonix
 description: Ou comment naviguer sur Internet de manière anonyme avec Whonix
 published: true
-date: 2023-09-10T12:53:52.452Z
+date: 2023-10-25T13:51:21.325Z
 tags: vie privée, anonymat, sécurité
 editor: markdown
 dateCreated: 2023-05-13T20:03:19.988Z
 ---
 
 ![proxy-image.jpeg](/images/proxy-image.jpeg){.align-center}
+
 
 [**Whonix**](https://www.whonix.org/) est un système d’exploitation (**OS**) conçu pour renforcer sa vie privée et sa sécurité sur internet, avec un accent prononcé pour l'anonymat. Ce système d’exploitation fait passer votre connexion internet ainsi que tout le trafic réseau par une passerelle **Tor** qui anonymise votre trafic.
 
