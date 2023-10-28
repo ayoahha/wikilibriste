@@ -2,7 +2,7 @@
 title: Les distributions GNU/Linux
 description: Article relatif aux distributions GNU/Linux que le collectif recommande...
 published: true
-date: 2023-10-28T11:31:37.975Z
+date: 2023-10-28T11:32:02.774Z
 tags: linux, debutant, intermédiaire, débutant, intermediaire, initié, expert
 editor: markdown
 dateCreated: 2022-11-24T21:02:27.494Z
@@ -72,7 +72,7 @@ Pour informations :
 
 Vous venez de Windows ou de Mac OS, ici vous trouverez les 3 distributions que nous recommandons lorsque vous débutez sur Linux et que vous ne souhaitez pas forcément configurer finement votre système :
 
-| Nom distro | URL | Commentaires | Forum d'aide | Installation |
+| Nom distro | URL | Commentaires | Forum d'entraide | Installation |
 |----------|----------|----------|----------|----------|
 | Linux Mint | [Site de Linux Mint](https://linuxmint.com/download.php) | **Téléchargez la version "Cinnamon Edition"**<br>Distribution fondée par le français Clément Lefebvre. <br>Elle est très stable et maintenue à jour très régulièrement ce qui en fait une des distros les plus appréciées. | [Forum Linux Mint](https://forums.linuxmint.com/) | Suivre notre [tutoriel](/tutoriels/mint) |
 | Zorin OS | [Site de Zorin OS](https://zorin.com/os/download/) | **Téléchargez la version "Pro" ou "Core"**<br>Pour PC plutôt récents, mais surtout pour ceux qui viennent de Windows.<br>Il existe l'édition Pro pour soutenir le projet et qui apporte des fonctionnalités supplémentaires. | [Forum ZorinOS](https://forum.zorin.com/) | Suivre notre [tutoriel](/tutoriels/zorin) |
