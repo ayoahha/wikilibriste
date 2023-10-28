@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2023-10-28T09:41:54.735Z
+date: 2023-10-28T09:42:47.436Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -211,13 +211,16 @@ FTP est l'acronyme de "File Transfert Protocol". Le FTP est un très ancien prot
 - l'envoi de fichiers Web (html, php, css, .. ) pour mettre à jour son site internet chez son hébergeur en mutialisé
 - communiquer avec sa box (exemple : freebox) lorsque celle-ci est utilisée en mode NAS.
 
-Nous recommandons d'utiliser le client FTP [Filezilla](https://filezilla-project.org/), sous licence libre et disponible sur toutes les plateformes. Un des meilleurs outils FPT.
+Nous recommandons d'utiliser 
+- Sur machine PC : le client FTP [Filezilla](https://filezilla-project.org/), sous licence libre et disponible sur toutes les plateformes. Un des meilleurs outils FPT.
 
 > Les réglages par défaut de Filezilla sont les suivants :
 > ~~ la détection automatique de l'encodage du fichier (ou charset en anglais)
 > ~~ la détection automatique du type de transfert en ASCII ou binaire
 > Ces réglages satisfont la majorité des besoins. Nous vous conseillons de ne pas les changer.
 {.is-info}
+
+- Sur Android : [FTPClient](https://f-droid.org/packages/de.qwerty287.ftpclient/)
 
 # Hack - hacker
 De l'anglais "hack" : bidouiller, faire preuve d'astuce.
