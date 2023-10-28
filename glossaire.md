@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2023-10-16T16:57:42.652Z
+date: 2023-10-28T09:41:54.735Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -204,6 +204,20 @@ De l'anglais "fourche", pour signifier la déviation depuis un matériau origine
 1. Le premier angle est la définition standard du mot "fork" : fork sur les systèmes UNIX est une fonction qui permet de dupliquer un processus (programme en cours d'exécution) afin par exemple d'assurer un traitement parallèle. Au delà de la pure notion de duplication, il existe également une notion de filiation : le processus père alloue à son clone - le processus fils - tous ses attributs.
 
 2. Le second angle est principalement utilisé en développement : créer un fork signifie, grossièrement, dupliquer le code source d'un logiciel existant pour en créer un nouveau.
+
+# FTP
+
+FTP est l'acronyme de "File Transfert Protocol". Le FTP est un très ancien protocole, dédié au transfert de fichiers sur un réseau, et toujours utilisé pour beaucoup d'usages notamment :
+- l'envoi de fichiers Web (html, php, css, .. ) pour mettre à jour son site internet chez son hébergeur en mutialisé
+- communiquer avec sa box (exemple : freebox) lorsque celle-ci est utilisée en mode NAS.
+
+Nous recommandons d'utiliser le client FTP [Filezilla](https://filezilla-project.org/), sous licence libre et disponible sur toutes les plateformes. Un des meilleurs outils FPT.
+
+> Les réglages par défaut de Filezilla sont les suivants :
+> ~~ la détection automatique de l'encodage du fichier (ou charset en anglais)
+> ~~ la détection automatique du type de transfert en ASCII ou binaire
+> Ces réglages satisfont la majorité des besoins. Nous vous conseillons de ne pas les changer.
+{.is-info}
 
 # Hack - hacker
 De l'anglais "hack" : bidouiller, faire preuve d'astuce.
