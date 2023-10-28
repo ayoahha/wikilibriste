@@ -2,7 +2,7 @@
 title: Optimiser sa distribution
 description: Une seconde partie pour montrer comment sécuriser et optimiser encore plus nos distributions...
 published: true
-date: 2023-09-10T10:45:13.539Z
+date: 2023-10-28T07:40:00.863Z
 tags: linux, debutant, intermédiaire, débutant, intermediaire, initié, initie, durcissement, hardening, optimiser
 editor: markdown
 dateCreated: 2023-01-26T18:26:23.152Z
@@ -138,8 +138,8 @@ Le répertoire `/tmp` (des fichiers temporaires) est très sollicité, par le sy
 Afin d'améliorer cet aspect, nous pouvons rediriger ce répertoire en mémoire vive, ce qui limitera grandement l'écriture sur disque, et parfois même améliorera les performances :
 
 ```bash
-sudo sed -i 'tmpfs /tmp	tmpfs defaults,noatime,nodiratime,noexec,nodev,mode=1777,nosuid,size=4G         0 0' /etc/fstab
-sudo sed -i 'tmpfs /var/tmp  tmpfs defaults,noatime,nodiratime,noexec,nodev,mode=1777,nosuid,size=4G         0 0' /etc/fstab
+echo -e "\ntmpfs /tmp	tmpfs defaults,noatime,nodiratime,noexec,nodev,mode=1777,nosuid,size=4G         0 0" | sudo tee -a /etc/fstab
+echo -e "\ntmpfs /var/tmp  tmpfs defaults,noatime,nodiratime,noexec,nodev,mode=1777,nosuid,size=4G         0 0" | sudo tee -a /etc/fstab
 ```
 
 > Ici veillez à ne pas avoir de partition séparée pour `/tmp`.
