@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2023-10-28T09:42:47.436Z
+date: 2023-10-28T09:44:29.652Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -170,7 +170,7 @@ Soit à l'aide d'une exportation au format SQL, soit avec les outils inclus avec
 
 # Durcissement
 
-Voir [Hardening](#hardening) ci-bas.
+Voir [Hardening](#hardening) plus loin.
 
 # Exploit
 
