@@ -2,7 +2,7 @@
 title: Optimiser sa distribution
 description: Une seconde partie pour montrer comment sécuriser et optimiser encore plus nos distributions...
 published: true
-date: 2023-10-28T07:40:00.863Z
+date: 2023-10-28T08:05:09.818Z
 tags: linux, debutant, intermédiaire, débutant, intermediaire, initié, initie, durcissement, hardening, optimiser
 editor: markdown
 dateCreated: 2023-01-26T18:26:23.152Z
@@ -75,7 +75,8 @@ sudo pacman -S zram-generator
 echo -e "[zram0]\nzram-size=ram\ncompression-algorithm=zstd" | sudo tee /etc/systemd/zram-generator.conf
 ```
 
-> `tee` va créer le fichier `zram-generator.conf` et ajouter le texte dans echo dans ce fichier de configuration. Vous pouvez alternativement le faire vous-même en créant ce fichier manuellement avec `nano` et en copiant manuellement le contenu (attention aux retours chariots :arrow-right: `\n` qui sont en fait à remplacer par un simple retour à la ligne).
+> `tee` va créer le fichier `zram-generator.conf` et ajouter le texte issu de la commande `echo` dans ce fichier de configuration. Vous pouvez alternativement le faire vous-même en créant ce fichier manuellement avec `nano` et en copiant manuellement le contenu 
+> *Attention aux retours chariots : `\n` , qui sont en fait à remplacer par un simple retour à la ligne*.
 {.is-info}
 
 - Redémarrer votre machine.
@@ -397,9 +398,9 @@ Puis :
 sudo dconf update
 ```
 
-Sur **Cinnamon** : remplacez `gnome` par `cinnamon` ci-dessus.
+- Sur **Cinnamon** : remplacez `gnome` par `cinnamon` ci-dessus.
 
-Il est également recommandé, pour ceux qui ont un modèle de sécurité important, de mettre en place une surveillance active des ports USB, notamment grâce à [USBGuard](https://github.com/USBGuard/usbguard).
+Il est également recommandé, pour ceux qui ont un modèle de sécurité élevé, de mettre en place une surveillance active des ports USB, notamment grâce à [USBGuard](https://github.com/USBGuard/usbguard).
 
 # Secure Boot
 
