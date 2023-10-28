@@ -2,7 +2,7 @@
 title: Décharge et avertissement
 description: Responsabilité, attentions particulières...
 published: true
-date: 2023-06-25T10:17:19.889Z
+date: 2023-10-28T09:54:58.326Z
 tags: wiki, avertissement
 editor: markdown
 dateCreated: 2022-11-24T20:52:46.926Z
@@ -21,8 +21,8 @@ Vous en êtes responsable et l'on vous incite très fortement à :
 :warning: Vérifier que votre appareil est absolument compatible (d'après son nom de code et d'après la version du modèle),
 :warning: Charger vos batteries à plus de 70% avant toute manipulation (PC, ordinateur portable, smartphone, tablette),
 :warning: Vérifier que vos câbles "data" et ports USB sont fonctionnels,
-:warning: Avoir [sauvegardé vos données](/tutoriels/sauvegarde) sur un support externe à l'appareil manipulé,
-:warning: S'assurer avant installation que les images disques téléchargées ou programmes sont valides avec [vérification d'intégrité](/intermediaire/integrite) MD5/SHA et/ou signatures !
+:warning: Avoir [sauvegardé vos données](/debutant/sauvegarde) sur un support externe à l'appareil manipulé,
+:warning: S'assurer avant installation que les images disques téléchargées ou programmes sont valides avec [vérification d'intégrité](/tutoriels/verifier-integrite) MD5/SHA et/ou signatures !
 :warning: Eviter de télécharger des logiciels en dehors des magasins d'applications officiels (logithèques, stores, ...)
 :warning: Ne pas exécuter de script sans en avoir lu son contenu au préalable !
 
