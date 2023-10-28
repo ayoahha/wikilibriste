@@ -2,7 +2,7 @@
 title: Bienvenue cher libriste
 description: Tu trouveras sur ce site des tutoriels traitant des logiciels libres ou open-source et de la sécurité informatique
 published: true
-date: 2023-10-26T10:24:42.973Z
+date: 2023-10-28T09:47:50.788Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-24T20:06:27.184Z
