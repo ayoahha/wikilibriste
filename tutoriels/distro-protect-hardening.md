@@ -2,7 +2,7 @@
 title: Optimiser sa distribution
 description: Une seconde partie pour montrer comment sécuriser et optimiser encore plus nos distributions...
 published: true
-date: 2023-10-28T08:05:09.818Z
+date: 2023-10-28T08:16:38.137Z
 tags: linux, debutant, intermédiaire, débutant, intermediaire, initié, initie, durcissement, hardening, optimiser
 editor: markdown
 dateCreated: 2023-01-26T18:26:23.152Z
@@ -195,7 +195,12 @@ Et adaptons le nom d'hôte de notre machine sur `localhost` :
 sudo hostnamectl set-hostname "localhost"
 ```
 
-> Il est à noter que la randomisation de l'adresse MAC de votre carte WiFi peut ne pas fonctionner, cela dépend du microcode de la puce en question.
+> Il est à noter que 
+> ~~ La randomisation de l'adresse MAC de votre carte WiFi peut ne pas fonctionner, cela dépend du microcode de la puce en question.
+> ~~ Plus important encore : il est intéressant de comprendre ces aspects si votre modèle de menaces est élevé ; le 1er bloc de 3 octets de l'adresse MAC renvoi à un identifiant international du fabricant, nommé OUI (pour "Organizational Unique Identifier") qu'il n'est pas judicieux de spoofer car il devient plus facile de détecter la randomisation en interrogeant une base de données de ces OUI. Par corrélation, il devient alors facile de deviner l'usurpation (voire même dans certains cas l'utilisation d'un VPN !). Il est donc plus judicieux de ne spoofer/randomiser que le 2éme bloc ou derniers 3 octets de l'adresse qui renvoient au numéro NIC (pour "Network Interface Controller") de votre propre carte réseau qui dispose d'une grande largesse dans l'attribution des numéros et qui peut servir à l'identification et au pistage. En simulant seulement la fin de l'adresse MAC, sa détection par corrélation devient alors plus difficile. 
+> **Cette opération peut se faire depuis Linux via un outil comme [Macchanger](https://github.com/alobbs/macchanger)**. 
+>
+> Enfin il est à noter qu'il est impossible de se soustraire **complètement** au fingerprinting tant les possibilités d'identification sont protéiformes et nombreuses. L'idée est de réduire le risque.
 {.is-info}
 
 ## Identification
@@ -490,4 +495,4 @@ Pour terminer sur le tour d'horizon du durcissement de notre machine, nous pourr
 - Désinstaller tout service ou application dont vous n'avez aucune utilité, et fermer les ports réseau non utilisés.
 
 ---
-![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): Ayo*
+![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): Ayo, Lou*
