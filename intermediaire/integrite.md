@@ -2,7 +2,7 @@
 title: Qu'est-ce que l'intégrité des données
 description: Un article dédié portant sur l'intégrité et les signatures électroniques
 published: true
-date: 2023-10-28T09:53:37.530Z
+date: 2023-10-28T09:56:05.039Z
 tags: intégrité, pgp, gpg, integrite, signatures
 editor: markdown
 dateCreated: 2023-10-28T09:53:37.530Z
@@ -85,7 +85,7 @@ Voici les fonctions de hachage recommandées **à ce jour** (2022), dans l'ordre
 - **Rendez vous dans le tutoriel [dédié](/tutoriels/verifier-integrite) à la vérification de l'intégrité et des signatures de fichiers !**
 {.grid-list}
 
-# PGP - GPG
+# L'aspect Signature électronique - PGP/GPG
 
 **PGP** [^⁷] , pour Pretty Good Privacy, est un **protocole de protection** initialement créé pour protéger les échanges par courriels. Créé dans les années 90 aux États-Unis, par un activiste politique assez connu à l'époque, Phil Zimmermann [^¹1], l’objectif était de fournir au plus grand nombre et surtout aux activistes, journalistes et partis politiques, un mécanisme de chiffrement et de signature, open-source - et donc accessible à tous - et de niveau militaire. D’ailleurs, pour la petite histoire, le gouvernement US de l’époque ne voyait pas d’un très bon oeil l’arrivée de PGP, et a commencé à enquêter puis a décidé de reprendre sous son aile le principe. PGP était ainsi réputé pour être assez robuste.
 
