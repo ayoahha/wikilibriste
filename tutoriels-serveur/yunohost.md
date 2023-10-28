@@ -2,7 +2,7 @@
 title: Installer et Utiliser Yunohost
 description: Une solution pour l'auto-hébergement simplifiée...
 published: true
-date: 2023-05-03T10:26:34.133Z
+date: 2023-10-28T08:33:56.795Z
 tags: yunohost, hébergement
 editor: markdown
 dateCreated: 2023-03-07T11:14:36.633Z
@@ -259,7 +259,7 @@ Vous obtiendrez une "fenêtre" semblable à celle-ci :
  - Remplisser le formulaire :
    - *IP Destination* : choisissez votre matériel Yunohost (dans notre cas : 192.168.1.12)
    - *IP Source* : Toutes
-   - *Protocole* : UDP
+   - *Protocole* : TCP
    - *Port de début* : 80
    - *Port de fin* : 80
    - *Port de destination* : 80
