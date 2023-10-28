@@ -2,7 +2,7 @@
 title: Nous contacter, contribuer, soutenir
 description: Nous contacter pour ouvrir un compte wikilibriste
 published: true
-date: 2023-10-28T07:07:08.491Z
+date: 2023-10-28T07:07:21.270Z
 tags: contact, contribuer, soutenir
 editor: markdown
 dateCreated: 2022-12-09T08:49:16.504Z
@@ -15,7 +15,7 @@ dateCreated: 2022-12-09T08:49:16.504Z
 > Vous devrez pour cela télécharger et installer la messagerie [Telegram](https://telegram.org/) sur votre appareil.
 {.is-info}
 
-# Pour contribuer au wiki
+# Pour proposer votre contribution au wiki
 
 Nous encourageons toute personne ayant l'envie d'écrire des articles ou de les relire à venir contribuer au wiki.
 **Pour pouvoir rédiger des articles, vous devrez demander une ouverture de compte auprès de notre équipe d'administrateurs :**
