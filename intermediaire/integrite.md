@@ -2,7 +2,7 @@
 title: Qu'est-ce que l'intégrité des données
 description: Un article dédié portant sur l'intégrité et les signatures électroniques
 published: true
-date: 2023-10-28T09:56:05.039Z
+date: 2023-10-28T09:56:30.513Z
 tags: intégrité, pgp, gpg, integrite, signatures
 editor: markdown
 dateCreated: 2023-10-28T09:53:37.530Z
@@ -216,3 +216,6 @@ Bon en vrai, là si vous avez tout retenu, vous êtes un crack ;-).
 ### **Passons maintenant à la pratique...**
 - **Rendez vous dans le tutoriel [dédié](/tutoriels/gnupg) à GPG afin d'appliquer la théorie !** 
 {.grid-list}
+
+---
+![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): Ayo, marmotte et Theudric*
