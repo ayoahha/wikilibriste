@@ -2,7 +2,7 @@
 title: Utilisation du Terminal
 description: Article générique sur l'utilisation d'un terminal sous GNU/Linux et des principales commandes...
 published: true
-date: 2023-10-30T19:32:02.438Z
+date: 2023-10-30T19:34:15.003Z
 tags: terminal, commandes, shell, debutant, débutant
 editor: markdown
 dateCreated: 2022-11-25T18:21:33.942Z
@@ -257,7 +257,7 @@ mkdir "Photos de vacances 2022"
 
 *NB : Il existe un autre moyen de créer un fichier dont le nom comporte des espaces, mais on verra ça plus tard !*
 
-Notez que ce problème d'espace est vrai pour toutes les commandes que vous taperez. Un autre exemple, si vous voulez vous déplacer dans le dossier "Images/Photos de vacances 2022", il faudra aussi mettre des guillemets, sinon la commande vous retournera une erreur :
+Notez que ce problème d'espace est vrai pour toutes les commandes que vous taperez. Un autre exemple : si vous voulez vous déplacer dans le dossier "Images/Photos de vacances 2022", il faudra aussi mettre des guillemets sinon la commande vous retournera une erreur :
 
 ```bash
 cd "Images/Photos de vacances 2022"
