@@ -2,33 +2,33 @@
 title: Utilisation du Terminal
 description: Article générique sur l'utilisation d'un terminal sous GNU/Linux et des principales commandes...
 published: true
-date: 2023-06-30T20:50:39.094Z
+date: 2023-10-30T19:17:14.930Z
 tags: terminal, commandes, shell, debutant, débutant
 editor: markdown
 dateCreated: 2022-11-25T18:21:33.942Z
 ---
 
-> Ce chapitre s'adresse avant tout à ceux qui souhaitent creuser les fonctionnalités de lignes de commande inhérentes à une distributions GNU/Linux afin de découvrir cet environnement ou de se débloquer suite à un quelconque blocage...
+> Ce chapitre s'adresse avant tout à ceux qui souhaitent creuser les fonctionnalités de lignes de commande inhérentes à une distribution GNU/Linux afin de découvrir cet environnement ou de se débloquer suite à un quelconque blocage...
 >
 > **Cela dit dans 98% des cas, il est tout à fait possible de se passer du terminal et des lignes de commandes** ;)
 {.is-info}
 
-Bête noire et assez peu amicale au premier abord, cet outil est un redoutable monstre de **puissance**, de **rapidité** et de **simplicité** dans son utilisation. Il a finalement toutes les qualités, sauf d'être conviviale...
+Bête noire et assez peu amical au premier abord, cet outil est un redoutable monstre de **puissance**, de **rapidité** et de **simplicité** dans son utilisation. Il a finalement toutes les qualités sauf la convivialité...
 
-Chaque distribution GNU/Linux en dispose. Elle est l'essence même de ce qui se passe au cœur de votre ordinateur. Oui, oui ! Vous utilisez sûrement une distribution avec une interface graphique qui vous plaît bien, mais tout ce qui se passe derrière, ça se passe en ligne de commande.
+Chaque distribution GNU/Linux en dispose. Il est l'essence même de ce qui se passe au cœur de votre ordinateur. Oui, oui ! Vous utilisez sûrement une distribution avec une interface graphique qui vous plaît bien, mais tout ce qui se produit derrière, ça se passe en ligne de commande.
 
-D'ailleurs, on parle de GUI (Graphical User Interface : Interface Graphique Utilisateur) pour parler de ce qui se passe graphiquement à votre écran, et de CLI (Command Line Interface) pour ce qui se passe dans le terminal. Certaines distributions n'ont même pas d'interface graphique par défaut ! Juste un terminal. C'est à vous d'installer l'interface (ou pas).
+D'ailleurs, on parle de GUI (Graphical User Interface : Interface Graphique Utilisateur) pour parler de ce qui se passe graphiquement sur votre écran, et de CLI (Command Line Interface) pour ce qui se passe dans le terminal. Certaines distributions n'ont même pas d'interface graphique par défaut ! Juste un terminal. C'est à vous d'installer l'interface (ou pas).
 
 C'est le cas, par exemple, du serveur qui héberge ce site.
 
 ![utilisation_du_terminal.jpg](/images/utilisation_du_terminal.jpg =500x){.align-center}
 
 
-## Qu'est ce que le terminal ?
+## Qu'est ce que le TERMINAL ?
 
 Avant de vous présenter les lignes de commande, commençons par faire un tour général de comment s'organise l'usage d'un terminal.
 
-Il est au début très déroutant de se dire que l'on peut exécuter des logiciels sans ne rien voir d'autre que des lignes de texte qui s'affiche dans le terminal. Pourtant, c'est bien cela qui se passe. Quand vous tapez une commande, vous allez donner au préalable l'ensemble des paramètres qui vont dire au logiciel quelle est l'action à exécuter : là où, pour un logiciel graphique, vous allez utiliser des boutons et des éléments graphiques qui vont interagir avec le logiciel qui va ainsi adapter son comportement pour atteindre l'objectif que vous souhaitez.
+Il est au début très déroutant de se dire que l'on peut exécuter des logiciels sans ne rien voir d'autre que des lignes de texte qui s'affichent dans le terminal. Pourtant, c'est bien ce qu'il se passe. Quand vous tapez une commande, vous allez donner au préalable l'ensemble des paramètres qui vont indiquer au logiciel quelle est l'action à exécuter, là où, pour un logiciel graphique, vous allez utiliser des boutons et des éléments graphiques qui interagiront avec le logiciel qui adaptera son comportement pour atteindre l'objectif que vous souhaitez.
 
 Ceci étant dit, commençons par le plus nécessaire : ouvrir un terminal.
 Pour cela, vous allez dans la liste de vos logiciels, et vous cherchez "Terminal". Il est également possible de l'ouvrir avec le raccourci <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>T</kbd> sur la majorité des distributions Linux.
