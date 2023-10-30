@@ -2,7 +2,7 @@
 title: Utilisation du Terminal
 description: Article générique sur l'utilisation d'un terminal sous GNU/Linux et des principales commandes...
 published: true
-date: 2023-10-30T19:48:10.216Z
+date: 2023-10-30T20:08:56.889Z
 tags: terminal, commandes, shell, debutant, débutant
 editor: markdown
 dateCreated: 2022-11-25T18:21:33.942Z
@@ -331,7 +331,7 @@ rm fichier*
 
 2 remarques s'imposent :
  - Vérifiez que vous n'avez pas un fichier qui s'appellerait "*fichier de travail.odt*" par exemple, car il serait supprimé. Tout ce qui commence par "*fichier*", peu importe la suite du nom, sera supprimé.
- - Vous ne pouvez pas mettre le `*` entre guillemets. Sinon, la commande cherchera un seul fichier dont le nom sera "fichier*". Pour combiner ce caractère avec une recherche de fichier avec espace : `"fichier avec blanc"*`
+ - Vous ne pouvez pas mettre le `*` entre guillemets. Sinon, la commande cherchera un seul fichier dont le nom sera "fichier*". Pour combiner le caractère * avec des noms de fichier contenant des espaces, il faut mettre l’étoile en dehors des guillemets : "fichier avec blanc"*
 
 Quelques exemples :
 
