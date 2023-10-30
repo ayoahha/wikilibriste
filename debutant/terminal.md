@@ -2,7 +2,7 @@
 title: Utilisation du Terminal
 description: Article générique sur l'utilisation d'un terminal sous GNU/Linux et des principales commandes...
 published: true
-date: 2023-10-30T19:34:15.003Z
+date: 2023-10-30T19:37:21.058Z
 tags: terminal, commandes, shell, debutant, débutant
 editor: markdown
 dateCreated: 2022-11-25T18:21:33.942Z
@@ -321,7 +321,7 @@ rm "Mon super fichier avec des espaces dans le nom.txt"
 Et hop, les fichiers ont été supprimés !
 
 
-Il existe un petit caractère magique dans les commandes : `*` - l'étoile. Et là on commence à toucher un début de puissance de la ligne de commande. Ce caractère remplace n'importe quel caractère ou n'importe quelle chaîne de caractères.
+Il existe un petit caractère magique dans les commandes : `*` - l'étoile. Et là, on commence à toucher tout le potentiel de la ligne de commande. Ce caractère remplace n'importe quel caractère ou n'importe quelle chaîne de caractères.
 
 Exemple : pour supprimer nos trois fichiers (fichier1, fichier2, fichier3) on peut faire simplement :
 
@@ -368,7 +368,7 @@ rm -r dossier*
 
 ## Quelques commandes de tous les jours
 
-Bon, on est bien gentil, on vous surcharge d'informations... Mais se déplacer dans vos dossiers, créer des dossiers, des fichiers, les supprimer, vous le faites depuis longtemps avec votre souris et ça marche aussi. Vous voulez nous dire : *faites nous voir quelque chose d'utile !*
+Bon, on est bien gentil, on vous surcharge d'informations... Mais se déplacer dans vos dossiers, créer des dossiers, des fichiers, les supprimer, vous le faites depuis longtemps avec votre souris et ça marche aussi. Vous voulez nous dire : *faites-nous voir quelque chose d'utile !*
 
 On vous entend, mais ces quelques commandes étaient nécessaires pour comprendre un minimum ce que vous faites avant d'aborder des commandes très pratiques.
 
@@ -377,11 +377,11 @@ On vous entend, mais ces quelques commandes étaient nécessaires pour comprendr
 
 ### Editer le contenu d'un fichier
 
-Vous allez sans doute parfois vouloir éditer un fichier. Bien que vous pouvez utiliser les outils graphiques (tels que gEdit, Kate ou Mousepad, etc.), il est tout à fait possible de modifier du texte dans un fichier grâce au terminal, c'est parfois même plus rapide ! Voyons ce que cela donne :
+Vous allez sans doute parfois vouloir éditer un fichier. Bien que vous puissiez utiliser les outils graphiques (tels que gEdit, Kate ou Mousepad, etc.), il est tout à fait possible de modifier du texte dans un fichier grâce au terminal, c'est parfois même plus rapide ! Voyons ce que cela donne :
 
 #### Nano
 
-GNU Nano est un outil d'éditeur de texte en ligne de commande, utilisable sur beaucoup de distro nativement.
+GNU Nano est un outil d'éditeur de texte en ligne de commande, utilisable sur beaucoup de distros nativement.
 
 - **Dans le cas contraire, installez simplement le paquet nommé 'nano'**
 
