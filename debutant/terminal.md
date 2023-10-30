@@ -2,7 +2,7 @@
 title: Utilisation du Terminal
 description: Article générique sur l'utilisation d'un terminal sous GNU/Linux et des principales commandes...
 published: true
-date: 2023-10-30T19:44:20.630Z
+date: 2023-10-30T19:48:10.216Z
 tags: terminal, commandes, shell, debutant, débutant
 editor: markdown
 dateCreated: 2022-11-25T18:21:33.942Z
@@ -608,10 +608,10 @@ Sur l'ordinateur cible, il suffira d'ouvrir le navigateur (firefox par exemple).
 
 ## Quelques commandes *root* (administrateur)
 
-**Sur Linux les droits sont extrêmement encadrés.** Un utilisateur ne peut toucher qu'à ces propres fichiers (tout ce qui se trouve dans `/home/user`).
+**Sur Linux les droits sont extrêmement encadrés.** Un utilisateur ne peut toucher qu'à ses propres fichiers (tout ce qui se trouve dans `/home/user`).
 Mais si vous voulez par exemple installer un logiciel, le logiciel sera installé dans des répertoires tel que `/usr` ou `/bin`. Donc, **en tant qu'utilisateur, vous n'avez pas le droit d'installer les logiciels. Pour obtenir ces droits, il faut être ce qu'on appelle "*root*".**
 
-> Attention : `sudo` confère de grande responsabilité. Avec les droits administrateur, vous obtenez les droits de faire ce que vous voulez sur tout l'ordinateur. **Ce qui veut également dire que vous pouvez détruire des fichiers nécessaires au fonctionnement de votre ordinateur**. Ne tapez donc pas de commande dont vous n'êtes pas sûr, et si vous avez des doutes, n'hésitez pas à vous renseigner avant, ou à demander de l'aide à un ami ou sur un forum !
+> Attention : `sudo` confère de grande responsabilité. Avec les droits administrateur, vous obtenez les droits de faire ce que vous voulez sur tout le système et ses fichiers. **Ce qui veut également dire que vous pouvez détruire des fichiers nécessaires au fonctionnement de votre ordinateur**. Ne tapez donc pas de commande dont vous n'êtes pas sûr, et si vous avez des doutes, n'hésitez pas à vous renseigner avant, ou à demander de l'aide à un ami ou sur un forum !
 {.is-warning}
 
 Pour donner ces droits administrateur à une commande, il suffit d'utiliser la commande `sudo` (pour *superuser do*), suivie de la commande que vous voulez exécuter.
@@ -624,7 +624,7 @@ Si vous voulez donner les droits administrateur à toutes les commandes que vous
 
 Je sais, on peut le faire en graphique sur la majorité des distributions Linux. De fait, si une erreur survient, la ligne de commande vous donnera des détails de l'erreur, pas l'interface graphique (1er avantage). 2ème avantage : c'est beaucoup plus rapide.
 
-Pour toutes ces tâches, nous utiliserons la commande `apt`.
+Pour toutes ces tâches, nous utiliserons la commande `apt` (advanced packaged tool).
 
 Pour chercher un logiciel : on cherche (en anglais) un outil pour télécharger des vidéos youtube :
 
@@ -656,7 +656,7 @@ sudo apt upgrade
 
 Ces deux commandes sont à mettre dans cet ordre car :
 - `Update` sert à mettre à jour les dépôts.
-- `Upgrade` sert à mettre à jour les paquets issus des dépôts... nouvellement mis à jour.
+- `Upgrade` sert à mettre à jour les paquets issus des dépôts nouvellement mis à jour.
 
 
 ## Astuces
@@ -664,8 +664,8 @@ Ces deux commandes sont à mettre dans cet ordre car :
 Lorsque vous débutez, il est préférable de saisir une commande à la fois.
 En revanche, si vous maîtrisez les lignes de commande ou si vous avez beaucoup de commandes à taper, vous pouvez utiliser : 
 
-- Le `&&` (double "et" commercial) qui sert à enchaîner la commande qui suit, si et seulement si la précédente se termine avec succès.
-- Le `;` (point virgule) qui enchaîne les commandes qu'elles réussissent ou non.
+- Le `&&` (double "et" commercial ou éperluette) qui sert à enchaîner la commande qui suit, si et seulement si la précédente se termine avec succès.
+- Le `;` (point virgule) qui enchaîne les commandes, qu'elles réussissent ou non.
 
 Donc au lieu de faire...
 ```bash
