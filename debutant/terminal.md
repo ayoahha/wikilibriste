@@ -2,7 +2,7 @@
 title: Utilisation du Terminal
 description: Article générique sur l'utilisation d'un terminal sous GNU/Linux et des principales commandes...
 published: true
-date: 2023-10-30T19:37:21.058Z
+date: 2023-10-30T19:44:20.630Z
 tags: terminal, commandes, shell, debutant, débutant
 editor: markdown
 dateCreated: 2022-11-25T18:21:33.942Z
@@ -426,7 +426,7 @@ Tentons de modifier le fichier, d'enregistrer le contenu puis de quitter l'outil
 	- Y (ou O en français) pour accepter les modifications,
 	- N (ou N en français) pour refuser les modifications.
 
-3. Acceptons les modifications en entrant <kbd>Y</kbd> (ou <kbd>O</kbd>), l'outil nous propose de confirmer le nom du fichier (nous pouvons très bien entrer un nom différent, ce qui aura pour but de modifier le nom du fichier !) :
+3. Acceptons les modifications en entrant <kbd>Y</kbd> (ou <kbd>O</kbd>), l'outil nous propose de confirmer le nom du fichier (nous pouvons très bien entrer un nom différent, ce qui aura pour but de modifier le nom du fichier comme un "enregistrer sous" !) :
 
 ![GNU Nano - Edition](/images/nano-3.png =600x){.align-center}
 
@@ -549,7 +549,7 @@ Ce qui nous donnera :
 convert capture_firefox_2023-01-24.png capture_firefox_2023-01-24.webp
 ```
 
-Mais souvenez-vous : on peut aller extrêmement vite pour taper les noms grâce à l'auto-complétion. En ne tapant que le début de la commande, puis le début des noms, et en auto-complétant à chaque fois, taper cette longue commande m'a pris moins de 5 secondes... En le faisant 2-3 fois, vous serez convaincu de gagner du temps à convertir une image via le terminal ;)
+Mais souvenez-vous : on peut aller extrêmement vite pour taper les noms grâce à l'auto-complétion. En ne tapant que le début de la commande, puis le début des noms, et en auto-complétant à chaque fois, taper cette longue commande m'a pris moins de 5 secondes... En le faisant 2-3 fois, vous serez convaincu du gain de temps à convertir une image via le terminal ;)
 
 Finalement, en littéralement moins de 10 secondes, la conversion peut être faite. Pas sûr de pouvoir en dire autant d'un logiciel graphique.
 
@@ -569,7 +569,7 @@ cd "Téléchargements"
 yt-dlp "https://youtu.be/g90FZJhl82k"
 ```
 
-*Note : pour ne pas avoir à vous déplacer dans le dossier "Téléchargements" en ligne de commande, vous pouvez ouvrir directement le terminal dans ce dossier en utilisant votre gestionnaire de fichiers, en allant dans vos téléchargements, puis en faisant : clic-droit > Ouvrir dans un terminal*
+*Note : pour ne pas avoir à vous déplacer dans le dossier "Téléchargements" en ligne de commande, vous pouvez ouvrir directement le terminal dans ce dossier en utilisant votre gestionnaire de fichiers et en allant dans vos téléchargements, puis en faisant : clic-droit > Ouvrir dans un terminal ou aussi, faire un "glisser/déposer du répertoire "Téléchargements" dans le terminal*
 
 Oui mais c'est une musique, la vidéo n'est pas très intéressante...
 `yt-dlp` permet de **ne télécharger que l'audio** si vous souhaitez grâce à l'option `-x`, ce qui donne :
