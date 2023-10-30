@@ -2,7 +2,7 @@
 title: Sauvegarder ses données
 description: Sauvegarder et restaurer vos données sous Linux est crucial... Suivez le guide !
 published: true
-date: 2023-09-28T22:54:07.467Z
+date: 2023-10-30T20:33:29.946Z
 tags: debutant, intermediaire, sauvegarde, backup, restaurer, restore
 editor: markdown
 dateCreated: 2023-03-15T23:44:19.951Z
@@ -20,8 +20,8 @@ Quelques précisions à propos des **méthodes de sauvegarde** : lorsque l'on sa
 - C'est ce que l'on appelle une **sauvegarde complète** ("full backup").
 
 Par la suite, pour économiser du temps et surtout de l'espace disque, il est inutile de tout sauvegarder de nouveau, nous ne sauvegarderons donc que ce qui à changé. Deux variantes existent ici :
-- les sauvegardes **incrémentales** : nous ne sauvons ici que les données qui ont changées _depuis la dernière sauvegarde_.
-- les sauvegardes **différentielles** : nous ne sauvons que les données qui ont changées _depuis la dernière sauvegarde **complète**_ !
+- les sauvegardes **incrémentales** : nous ne sauvons ici que les données qui ont changé _depuis la dernière sauvegarde_.
+- les sauvegardes **différentielles** : nous ne sauvons que les données qui ont changé _depuis la dernière sauvegarde **complète**_ !
 
 
 > Quand on vient à discuter de sûreté et de sécurité des données, la sauvegarde est probablement l'un des sujets les plus importants !
