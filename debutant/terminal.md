@@ -2,7 +2,7 @@
 title: Utilisation du Terminal
 description: Article générique sur l'utilisation d'un terminal sous GNU/Linux et des principales commandes...
 published: true
-date: 2023-10-30T19:17:14.930Z
+date: 2023-10-30T19:24:18.237Z
 tags: terminal, commandes, shell, debutant, débutant
 editor: markdown
 dateCreated: 2022-11-25T18:21:33.942Z
@@ -39,7 +39,7 @@ Vous obtiendrez une fenêtre semblable à celle-ci :
 
 ### Présentation
 
-Dans cette fenêtre (dont les couleurs changent en fonction de votre configuration), vous ne pouvez faire qu'une chose : taper du texte et lire du texte.
+Dans cette fenêtre (dont les couleurs changent en fonction de votre configuration), vous ne pouvez faire que deux choses : taper du texte et lire du texte.
 
 Tout commence avec cette première ligne : `user@computer:~$` ou `[user@computer ~]$`. Elle est nommée **invite de commande**, ou **prompt** pour les intimes...
 
@@ -49,7 +49,7 @@ Cette première ligne contient beaucoup d'informations, et non, rien n'est dû a
  - `@` est juste un séparateur qui signifie “at” ou “chez”, dans la langue de Molière.
  - `computer`, c’est le nom de l’ordinateur sur lequel `user` est connecté.
  - `~` ou la tilde signifie que vous travaillez actuellement dans le dossier utilisateur de `user`.*
- - `$` c’est pour dire que vous êtes connectés en tant qu’utilisateur normal. Vous verriez apparaître un `#` si vous étiez connecté en root.
+ - `$` c’est pour dire que vous êtes connecté en tant qu’utilisateur normal. Vous verriez apparaître un `#` si vous étiez connecté en root.
 
 * Il est à noter que toute commande, et plus largement, tout logiciel est exécuté dans un répertoire. Dans le terminal, par défaut, vous arrivez dans le répertoire de l'utilisateur connecté. Dans notre cas, nous nous trouvons dans `/home/user` qui est aussi abrégé `~`.
 
@@ -61,7 +61,7 @@ _Récapitulons_ : en ouvrant le terminal, nous voyons que nous sommes connectés
 Il est déjà important d'avoir conscience que chaque commande est exécutée dans un répertoire.
 
 Pour taper une commande, il suffit de l'appeler en tapant son nom. Elle pourra être suivie de "paramètres" si nécessaire.
-:warning: *Chaque paramètre doit impérativement être séparé d'un espace. Si vous collez un paramètre au nom de la commande, le système croira que le tout est le nom de la commande.*
+:warning: *Chaque paramètre doit impérativement être séparé par un espace. Si vous collez un paramètre au nom de la commande, le système croira que le tout est le nom de la commande.*
 
 Ensuite, pour exécuter la commande, il suffit de taper sur la touche <kbd>ENTREE</kbd>.
 
@@ -75,13 +75,13 @@ C'est tout. Ne fuyez pas tout de suite ! Vous allez très vite comprendre en tap
 
 #### Flèche haut
 
-Pour retaper une commande que vous avez tapé précédemment, il suffit d’appuyer sur <kbd>Flèche Haut</kbd> autant de fois que nécessaire.
+Pour retaper une commande que vous avez tapée précédemment, il suffit d’appuyer sur <kbd>Flèche Haut</kbd> autant de fois que nécessaire.
 
 #### L'auto-complétion
 
-Le Terminal gère l'auto-complétion. En d'autres termes, si vous commencez à taper le début d'une commande, vous pourrez auto-compléter ce nom avec la touche <kbd>TAB</kbd>.
+Le Terminal gère l'auto-complétion. En d'autres termes, si vous commencez à taper le début d'une commande, vous pouvez auto-compléter ce nom avec la touche <kbd>TAB</kbd>.
 
-Commencez à taper `/home/u`, puis appuyez sur la touche <kbd>TAB</kbd> permet de compléter la saisie et indiquera alors `/home/user`.
+Commencez à taper `/home/u`, puis appuyez sur la touche <kbd>TAB</kbd> : le terminal complètera la saisie et indiquera alors `/home/user`.
 
 Si plusieurs solutions ont été trouvées, alors il complétera jusqu'à l'endroit où les solutions diverges. En reprenant l'exemple précédent, mais en imaginant qu'il y ait un dossier `usat` dans /home. Commencez à taper `/home/u`, auto-complétez avec <kbd>TAB</kbd>, et la saisie vous indiquera `/home/us`. Vous pouvez alors rajouter un "e" ou un "a" puis auto-compléter. Vous obtiendrez respectivement `/home/user` ou `/home/usat`.
 
