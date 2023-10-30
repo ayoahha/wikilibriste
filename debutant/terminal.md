@@ -2,7 +2,7 @@
 title: Utilisation du Terminal
 description: Article générique sur l'utilisation d'un terminal sous GNU/Linux et des principales commandes...
 published: true
-date: 2023-10-30T19:26:41.185Z
+date: 2023-10-30T19:32:02.438Z
 tags: terminal, commandes, shell, debutant, débutant
 editor: markdown
 dateCreated: 2022-11-25T18:21:33.942Z
@@ -144,7 +144,7 @@ Vous devriez voir la liste de vos dossiers personnels :
 Si c’est pas exactement ça, ça y ressemble !
 
 **Ajouter un paramètre (ou option) à une commande**
-Peu après le début, je vous ai parlé de paramètre possible pour les commandes. La commande `ls` permet d'en ajouter. Créons donc notre première commande avec paramètre !
+Peu après le début de ce chapitre, je vous ai parlé de paramètre possible pour les commandes. La commande `ls` permet d'en ajouter. Créons donc notre première commande avec paramètre !
 `ls` n'affiche en réalité pas tous les fichiers et répertoires. Mais seulement les fichiers et répertoires visibles (car certains sont cachés).
 Le paramètre `-a` ("a", comme "all", "tout" en français) va dire à `ls` d'afficher **tout** ce qui est contenu dans notre répertoire courant.
 
@@ -182,7 +182,7 @@ ls -a /home/user/Documents/
 
 ### Se déplacer
 
-Pour se déplacer dans un autre dossier, c'est-à-dire, changer de répertoire de travail, il faut utiliser la commande `cd`, pour "change directory" ("changer de répertoire"). *Vous remarquerez que les commandes sont souvent des contractions de mots anglais.*
+Pour se déplacer dans un autre dossier, c'est-à-dire changer de répertoire de travail, il faut utiliser la commande `cd`, pour "change directory" ("changer de répertoire"). *Vous remarquerez que les commandes sont souvent des contractions de mots anglais.*
 
 Mais, pour que `cd` sache dans quel répertoire vous souhaitez vous déplacer, il faut le lui indiquer en paramètre.
 
@@ -200,7 +200,7 @@ cd /home/user/Documents
 
 *(À partir de maintenant, nous ne détaillerons plus les deux manières d'indiquer un chemin. Sachez que la première utilise un "chemin relatif", car relatif à l'emplacement où vous êtes actuellement. La seconde utilise un "chemin absolu", car il indique le chemin depuis le point de départ de votre disque dur).*
 
-Maintenant cette commande `cd` tapée, vous pouvez vérifier que votre répertoire de travail a changé :
+Une fois cette commande `cd` tapée, vous pouvez vérifier que votre répertoire de travail a changé :
  - Avec la commande `pwd`, qui vous retournera maintenant `/home/user/Documents`.
  - Dans les informations du prompt : `~` est devenu `~/Documents`.
 
