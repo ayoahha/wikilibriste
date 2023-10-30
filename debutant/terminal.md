@@ -2,7 +2,7 @@
 title: Utilisation du Terminal
 description: Article générique sur l'utilisation d'un terminal sous GNU/Linux et des principales commandes...
 published: true
-date: 2023-10-30T19:24:18.237Z
+date: 2023-10-30T19:26:41.185Z
 tags: terminal, commandes, shell, debutant, débutant
 editor: markdown
 dateCreated: 2022-11-25T18:21:33.942Z
@@ -83,11 +83,11 @@ Le Terminal gère l'auto-complétion. En d'autres termes, si vous commencez à t
 
 Commencez à taper `/home/u`, puis appuyez sur la touche <kbd>TAB</kbd> : le terminal complètera la saisie et indiquera alors `/home/user`.
 
-Si plusieurs solutions ont été trouvées, alors il complétera jusqu'à l'endroit où les solutions diverges. En reprenant l'exemple précédent, mais en imaginant qu'il y ait un dossier `usat` dans /home. Commencez à taper `/home/u`, auto-complétez avec <kbd>TAB</kbd>, et la saisie vous indiquera `/home/us`. Vous pouvez alors rajouter un "e" ou un "a" puis auto-compléter. Vous obtiendrez respectivement `/home/user` ou `/home/usat`.
+Si plusieurs solutions ont été trouvées, alors il complétera jusqu'à l'endroit où les solutions divergent. En reprenant l'exemple précédent, mais en imaginant qu'il y ait un dossier `usat` dans /home. Commencez à taper `/home/u`, auto-complétez avec <kbd>TAB</kbd>, et la saisie vous indiquera `/home/us`. Vous pouvez alors rajouter un "e" ou un "a" puis auto-compléter. Vous obtiendrez respectivement `/home/user` ou `/home/usat`.
 
 #### Couper l'exécution d'un programme
 
-Si vous lancez une commande, qu'elle met un peu de temps à s'exécuter, et que vous vous rendez compte qu'il y a une erreur, ou que vous voulez quitter le programme avant la fin, il y a une solution.
+Si vous lancez une commande qui met un peu de temps à s'exécuter, que vous constatez qu'il y a une erreur ou que vous voulez quitter le programme avant la fin, il y a une solution.
 
 Pour arrêter en plein vol une commande, il faut utiliser le raccourci : <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
