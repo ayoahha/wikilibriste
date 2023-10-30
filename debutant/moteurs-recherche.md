@@ -2,7 +2,7 @@
 title: Les moteurs de recherche
 description: Article liés aux moteurs de recherche internet et le côté respect de la vie privée...
 published: true
-date: 2023-10-19T06:21:02.490Z
+date: 2023-10-30T07:10:16.784Z
 tags: privacy, vie privée, moteurs, recherche, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:45:28.462Z
@@ -300,10 +300,6 @@ Nous avons tenté d'être le plus transparent possible, et de limiter le choix a
 - **[Gibiru](https://gibiru.com/)** reste une alternative crédible, notamment pour les résultats Google.
 - Concernant **StartPage**, c'est à vous de décider si vous leur faites confiance, de notre côté ce sera non. 
 *Nous préférons dans ce cas **MetaGer**, pour les images par exemple*.
--  **[Whoogle](https://www.whoogle.click/)** peut être un moteur d'intérêt si vous recherchez des résultats Google, en utilisant une instance _sans Cloudflare_. L'instance globale est celle-ci whoogle.click. Mais voici d'autres instances publiques que nous recommandons :
-     - https://search.albony.xyz 🇮🇳
-     - https://whoogle.dcs0.hu 🇭🇺
-     - https://whoogle.hostux.net 🇫🇷
 
 {.grid-list}
 
