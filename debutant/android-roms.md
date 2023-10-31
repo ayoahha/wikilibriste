@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2023-08-23T08:13:40.969Z
+date: 2023-10-31T16:32:51.891Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -627,18 +627,8 @@ Nous vous laissons lire l’article concernant les [messageries](/debutant/commu
 
 Concernant les SMS, Signal a prévenu récemment que la fonctionnalité support SMS/MMS n'était [plus supportée](https://signal.org/blog/sms-removal-android/).
 
-La recommandation faite par certains d'utiliser une alternative, [Silence](https://git.silence.dev/Silence/Silence-Android/) peut être envisagée... Certes la dernière mise à jour importante de l'application connue dans les dépôts date d'il y a 2 ans, mais l'application continue tout de même d'être mise à jour au niveau sécurité. Son concepteur a notamment répondu à une question en lien avec le maintien de cette application :
-> Bastien Le Querrec, Propriétaire du code de Silence :
-"*Bonjour X,*
-*Oui, le silence est toujours maintenu. Vous pouvez suivre le canari du mandat : si un jour vous voyez que le mandat n'est pas mis à jour, cela signifie que Silence n'est pas fiable et n'est pas maintenu ou compromis. Aujourd'hui, je peux vous confirmer que Silence est toujours maintenu et est toujours sécurisé.
-Le fait est que l'activité est très, très irrégulière. Je suis engagé dans une ONG française depuis plusieurs années en tant que bénévole et il est difficile de poursuivre le travail sur Silence en plus de ma vie professionnelle.
-Mais malgré cela, Silence reste une priorité pour moi et je travaille sur une renaissance depuis plusieurs mois. L'idée est, au lieu de reprendre environ 6 ans de code de Signal, de forker Signal à nouveau pour intégrer les SMS et supprimer les messages push. La même chose que j'ai fait quand j'ai commencé le projet, en quelque sorte. Cela permettra à Silence de bénéficier des nouvelles fonctionnalités de Signal (permissions à la demande, nouvelle interface, et corrections de bugs !), au prix de la perte de certaines fonctionnalités (je ne prévois pas de réintroduire le cryptage local géré par l'application, donc Silence v2 s'appuiera sur le système Android pour le cryptage local).
-Cordialement, Bastien.*"
-
-> **Donc l'application peut toujours être utilisée**.
-> 
-> Pour vérifier le "*canary*", rendez-vous [sur cette page](https://silence.im/warrant/) !
-{.is-info}
+> La recommandation faite par certains d'utiliser une alternative, [Silence](https://git.silence.dev/Silence/Silence-Android/) peut être envisagée... Cf. [ici](/debutant/logiciel-alternative-libre#t%C3%A9l%C3%A9phone)
+{.is.info}
 
 ##### Courriel
 
@@ -932,18 +922,8 @@ Nous vous laissons lire l’article concernant les [messageries](/debutant/commu
 
 Concernant les SMS, Signal a prévenu récemment que la fonctionnalité support SMS/MMS n'était [plus supportée](https://signal.org/blog/sms-removal-android/).
 
-La recommandation faite par certains d'utiliser une alternative, [Silence](https://git.silence.dev/Silence/Silence-Android/) peut être envisagée... Certes la dernière mise à jour importante de l'application connue dans les dépôts date d'il y a 2 ans, mais l'application continue tout de même d'être mise à jour au niveau sécurité. Son concepteur a notamment répondu à une question en lien avec le maintien de cette application :
-> Bastien Le Querrec, Propriétaire du code de Silence :
-"*Bonjour X,*
-*Oui, le silence est toujours maintenu. Vous pouvez suivre le canari du mandat : si un jour vous voyez que le mandat n'est pas mis à jour, cela signifie que Silence n'est pas fiable et n'est pas maintenu ou compromis. Aujourd'hui, je peux vous confirmer que Silence est toujours maintenu et est toujours sécurisé.
-Le fait est que l'activité est très, très irrégulière. Je suis engagé dans une ONG française depuis plusieurs années en tant que bénévole et il est difficile de poursuivre le travail sur Silence en plus de ma vie professionnelle.
-Mais malgré cela, Silence reste une priorité pour moi et je travaille sur une renaissance depuis plusieurs mois. L'idée est, au lieu de reprendre environ 6 ans de code de Signal, de forker Signal à nouveau pour intégrer les SMS et supprimer les messages push. La même chose que j'ai fait quand j'ai commencé le projet, en quelque sorte. Cela permettra à Silence de bénéficier des nouvelles fonctionnalités de Signal (permissions à la demande, nouvelle interface, et corrections de bugs !), au prix de la perte de certaines fonctionnalités (je ne prévois pas de réintroduire le cryptage local géré par l'application, donc Silence v2 s'appuiera sur le système Android pour le cryptage local).
-Cordialement, Bastien.*"
-
-> **Donc l'application peut toujours être utilisée**.
-> 
-> Pour vérifier le "*canary*", rendez-vous [sur cette page](https://silence.im/warrant/) !
-{.is-info}
+> La recommandation faite par certains d'utiliser une alternative, [Silence](https://git.silence.dev/Silence/Silence-Android/) peut être envisagée... Cf. [ici](/debutant/logiciel-alternative-libre#t%C3%A9l%C3%A9phone)
+{.is.info}
 
 
 ##### Courriel
@@ -1216,18 +1196,10 @@ Nous vous laissons lire l’article concernant les [messageries](/debutant/commu
 
 Concernant les SMS, Signal a prévenu récemment que la fonctionnalité support SMS/MMS n'était [plus supportée](https://signal.org/blog/sms-removal-android/).
 
-La recommandation faite par certains d'utiliser une alternative, [Silence](https://git.silence.dev/Silence/Silence-Android/) peut être envisagée... Certes la dernière mise à jour importante de l'application connue dans les dépôts date d'il y a 2 ans, mais l'application continue tout de même d'être mise à jour au niveau sécurité. Son concepteur a notamment répondu à une question en lien avec le maintien de cette application :
-> Bastien Le Querrec, Propriétaire du code de Silence :
-"*Bonjour X,*
-*Oui, le silence est toujours maintenu. Vous pouvez suivre le canari du mandat : si un jour vous voyez que le mandat n'est pas mis à jour, cela signifie que Silence n'est pas fiable et n'est pas maintenu ou compromis. Aujourd'hui, je peux vous confirmer que Silence est toujours maintenu et est toujours sécurisé.
-Le fait est que l'activité est très, très irrégulière. Je suis engagé dans une ONG française depuis plusieurs années en tant que bénévole et il est difficile de poursuivre le travail sur Silence en plus de ma vie professionnelle.
-Mais malgré cela, Silence reste une priorité pour moi et je travaille sur une renaissance depuis plusieurs mois. L'idée est, au lieu de reprendre environ 6 ans de code de Signal, de forker Signal à nouveau pour intégrer les SMS et supprimer les messages push. La même chose que j'ai fait quand j'ai commencé le projet, en quelque sorte. Cela permettra à Silence de bénéficier des nouvelles fonctionnalités de Signal (permissions à la demande, nouvelle interface, et corrections de bugs !), au prix de la perte de certaines fonctionnalités (je ne prévois pas de réintroduire le cryptage local géré par l'application, donc Silence v2 s'appuiera sur le système Android pour le cryptage local).
-Cordialement, Bastien.*"
+> La recommandation faite par certains d'utiliser une alternative, [Silence](https://git.silence.dev/Silence/Silence-Android/) peut être envisagée... Cf. [ici](/debutant/logiciel-alternative-libre#t%C3%A9l%C3%A9phone)
+{.is.info}
 
-> **Donc l'application peut toujours être utilisée**.
-> 
-> Pour vérifier le "*canary*", rendez-vous [sur cette page](https://silence.im/warrant/) !
-{.is-info}
+
 
 ##### Courriel
 
