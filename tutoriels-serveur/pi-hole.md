@@ -2,7 +2,7 @@
 title: Installer et configurer Pi-Hole
 description: Pi-Hole est un bloqueur de publicités et de traceurs intempestifs, ce tutoriel montre comment l'installer et le configurer.
 published: true
-date: 2023-05-03T10:34:24.347Z
+date: 2023-11-03T19:22:08.659Z
 tags: pi-hole, pihole, dns, dhcp, bloqueur, pub
 editor: markdown
 dateCreated: 2023-01-29T16:00:34.514Z
@@ -53,13 +53,13 @@ Cependant dans notre cas, la machine va tourner 24h/24, il est donc fortement re
 
 Les distributions GNU/Linux suivantes sont supportées :
 - Raspbian (Raspberry Pi OS)
-- Debian 10/11
+- Debian 11/12
 - Ubuntu 20.04/22.04
 - CentOS Stream
 - Fedora
 - Docker
 
-> Au vu des distributions supportées, **nous recommandons l'installation de Debian** (actuellement version 11/Bullseye) que ce soit sur PC ou sur RaspberryPi.
+> Au vu des distributions supportées, **nous recommandons l'installation de Debian** (actuellement version 12/Bookworm) que ce soit sur PC ou sur RaspberryPi.
 {.is-success}
 
 > Le Raspberry Pi requiert, même sous Debian, le paquet non libre [raspi-firmware](https://salsa.debian.org/debian/raspi-firmware), il sera installé automatiquement et [pour le moment il n'y a pas de solution stable pour le remplacer](https://gwolf.org/2022/04/how-is-the-free-firmware-for-the-raspberry-progressing.html).
@@ -70,7 +70,7 @@ Les distributions GNU/Linux suivantes sont supportées :
 ### Raspberry Pi
 
 Bien que non officielle, il existe une version Debian maintenue par [Gunnar Wolf](https://gwolf.org/).
-- Depuis votre PC de bureau, rendez-vous sur la page du [projet debian pour RPi](https://raspi.debian.net/tested-images/) et téléchargez le fichier `xz-compressed image` de la **version "11 (Bullseye)"** pour votre modèle. Téléchargez aussi le fichier `sha256sum` correspondant.
+- Depuis votre PC de bureau, rendez-vous sur la page du [projet debian pour RPi](https://raspi.debian.net/tested-images/) et téléchargez le fichier `xz-compressed image` de la **version "12 (Bookworm)"** pour votre modèle. Téléchargez aussi le fichier `sha256sum` correspondant.
 - Vérifiez grâce au SHA que le fichier `img.xz` est [intègre](/intermediaire/chiffrement).
 - Munissez-vous d'une carte SD d'au moins 8 GB.
 - Suivez enfin scrupuleusement les [instructions pour installer](https://raspi.debian.net/how-to-image/).
