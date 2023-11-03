@@ -2,7 +2,7 @@
 title: Sauvegarder ses données
 description: Sauvegarder et restaurer vos données sous Linux est crucial... Suivez le guide !
 published: true
-date: 2023-11-03T16:27:25.812Z
+date: 2023-11-03T16:30:15.218Z
 tags: debutant, intermediaire, sauvegarde, backup, restaurer, restore
 editor: markdown
 dateCreated: 2023-03-15T23:44:19.951Z
