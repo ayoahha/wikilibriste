@@ -2,7 +2,7 @@
 title: Sauvegarder ses données
 description: Sauvegarder et restaurer vos données sous Linux est crucial... Suivez le guide !
 published: true
-date: 2023-11-03T16:30:46.780Z
+date: 2023-11-03T16:31:27.257Z
 tags: debutant, intermediaire, sauvegarde, backup, restaurer, restore
 editor: markdown
 dateCreated: 2023-03-15T23:44:19.951Z
@@ -57,7 +57,7 @@ Ce tutoriel s'articule autour de 3 catégories de sauvegardes :
 > -- [DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup) (nécessite d'être "root")
 > -- dans chaque application (ca peut être long suivant le nombre d'applications, exporter/importer les paramètres et/ou données)
 >
-> **Depuis le pc:**
+> **Depuis l'ordinateur:**
 > -- [Android Backup Project](https://github.com/AndDiSa/android_backup_project)
 > -- [Open Android Backup](https://github.com/mrrfv/open-android-backup)
 > -- simplement via ADB et les lignes de commande dédiées.
