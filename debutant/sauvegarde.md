@@ -2,7 +2,7 @@
 title: Sauvegarder ses données
 description: Sauvegarder et restaurer vos données sous Linux est crucial... Suivez le guide !
 published: true
-date: 2023-11-03T16:17:57.574Z
+date: 2023-11-03T16:21:12.659Z
 tags: debutant, intermediaire, sauvegarde, backup, restaurer, restore
 editor: markdown
 dateCreated: 2023-03-15T23:44:19.951Z
@@ -46,22 +46,23 @@ Ce tutoriel s'articule autour de 3 catégories de sauvegardes :
 > -- ni de la réplication des données, même si c'est souvent la technique utilisée pour les sauvegardes.
 {.is-danger}
 
-# Sauvegarder sous Android
-
-Concernant les sauvegardes de smartphone sous Android, consultez la vidéo [Présentation et Sauvegarde / Restauration NANDroid avec TWRP](/tutoriels-android/twrp). 
-
-Et sinon pour sauvegarder ses applications libres installées(**apk**)des smartphones android , il existe Droidify(paramètres> import export, mettre en favoris). 
-Mais pour sauver les **données** et **fichiers de configuration/paramètres** des applications libres, c'est différent (suivant si l'accès est root, adb root ou simple/sans root demandé)
-## **Depuis le téléphone:**
- -seedvault https://github.com/seedvault-app/seedvault (intégré quasi dans toutes les ROM dégooglisées, via Paramètres>Sauvegarde, il sauvegarde a minima les applications)
- -NeoBackup(root)
- -DataBackup(root)
- -dans chaque application (ca peut être long suivant le nombre d'applications, exporter/importer les paramètres et/ou données)
- -solutions non libres(swift backup, etc)
- ## **Depuis le pc:**
- -adb(apk)
- -android_backup_project https://github.com/AndDiSa/android_backup_project
- -open-android-backup https://github.com/mrrfv/open-android-backup
+> Cas à part :
+> # Sauvegarder sous Android
+> 
+> Concernant les sauvegardes de smartphone sous Android, consultez la vidéo [Présentation et Sauvegarde / Restauration NANDroid avec TWRP](/tutoriels-android/twrp). 
+> 
+> Et sinon pour sauvegarder ses applications libres installées(**apk**)des smartphones android , il existe Droidify(paramètres> import export, mettre en favoris). 
+> Mais pour sauver les **données** et **fichiers de configuration/paramètres** des applications libres, c'est différent (suivant si l'accès est root, adb root ou simple/sans root demandé)
+> ## **Depuis le téléphone:**
+>  -seedvault https://github.com/seedvault-app/seedvault (intégré quasi dans toutes les ROM dégooglisées, via Paramètres>Sauvegarde, il sauvegarde a minima les applications)
+>  -NeoBackup(root)
+>  -DataBackup(root)
+>  -dans chaque application (ca peut être long suivant le nombre d'applications, exporter/importer les paramètres et/ou données)
+>  -solutions non libres(swift backup, etc)
+>  ## **Depuis le pc:**
+>  -adb(apk)
+>  -android_backup_project https://github.com/AndDiSa/android_backup_project
+>  -open-android-backup https://github.com/mrrfv/open-android-backup
 
 
 # Sauvegarder ses données personnelles
