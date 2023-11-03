@@ -2,7 +2,7 @@
 title: Sauvegarder ses données
 description: Sauvegarder et restaurer vos données sous Linux est crucial... Suivez le guide !
 published: true
-date: 2023-11-03T16:09:52.639Z
+date: 2023-11-03T16:15:01.572Z
 tags: debutant, intermediaire, sauvegarde, backup, restaurer, restore
 editor: markdown
 dateCreated: 2023-03-15T23:44:19.951Z
@@ -45,6 +45,8 @@ Ce tutoriel s'articule autour de 3 catégories de sauvegardes :
 > -- ni du [dump d'une base de données](/glossaire#dump-base-de-donn%C3%A9es) qui consiste à sauvegarder une base dans un état intègre,
 > -- ni de la réplication des données, même si c'est souvent la technique utilisée pour les sauvegardes.
 {.is-danger}
+
+# Sauvegarder sous Android
 
 > Concernant les sauvegardes de smartphone sous Android, consultez la vidéo [Présentation et Sauvegarde / Restauration NANDroid avec TWRP](/tutoriels-android/twrp). 
 
