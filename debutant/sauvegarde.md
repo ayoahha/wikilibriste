@@ -2,7 +2,7 @@
 title: Sauvegarder ses données
 description: Sauvegarder et restaurer vos données sous Linux est crucial... Suivez le guide !
 published: true
-date: 2023-11-03T16:31:27.257Z
+date: 2023-11-03T16:34:15.413Z
 tags: debutant, intermediaire, sauvegarde, backup, restaurer, restore
 editor: markdown
 dateCreated: 2023-03-15T23:44:19.951Z
@@ -51,13 +51,13 @@ Ce tutoriel s'articule autour de 3 catégories de sauvegardes :
 > ~~ Deux types de sauvegardes existent : la sauvegarde de la configuration de ses applications Android, et la	 sauvegarde de ses données personnelles (photos, documents...). 
 > 1.Pour sauvegarder la configuration de ses applications installées, il existe une façon via Droidify : Paramètres :arrow_right: Partie Import/Export - Export Settings :arrow_right: Choisissez le nom du fichier (par défaut "droidify_settings").
 > 2.Pour sauvegarder ses **données personnelles** et pour certains ses **fichiers de configuration/paramètres** :
-> **Depuis le téléphone:**
+> _**Depuis le téléphone:**_
 > -- [Seedvault](https://github.com/seedvault-app/seedvault) (intégré toutes la majorité des ROMs, accessible dans Paramètres > Sauvegarde)
 > -- [NeoBackup](https://github.com/NeoApplications/Neo-Backup) (nécessite d'être "root")
 > -- [DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup) (nécessite d'être "root")
 > -- dans chaque application (ca peut être long suivant le nombre d'applications, exporter/importer les paramètres et/ou données)
 >
-> **Depuis l'ordinateur:**
+> _**Depuis l'ordinateur:**_
 > -- [Android Backup Project](https://github.com/AndDiSa/android_backup_project)
 > -- [Open Android Backup](https://github.com/mrrfv/open-android-backup)
 > -- simplement via ADB et les lignes de commande dédiées.
