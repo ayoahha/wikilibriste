@@ -2,7 +2,7 @@
 title: Le Chiffrement
 description: Article traitant le chiffrement dans son ensemble et les outils recommandés...
 published: true
-date: 2023-10-28T09:52:34.567Z
+date: 2023-11-03T20:06:22.320Z
 tags: chiffrement, confidentialité, aes, rsa, intermédiaire, intermediaire
 editor: markdown
 dateCreated: 2022-11-24T22:12:38.038Z
@@ -50,7 +50,7 @@ Déjà évoqué en introduction, la cryptographie est la discipline dont le but 
 
 ### Chiffrer et Crypter
 
-Loin de moi l'idée de donner un cours de grammaire, mais l'importance des mots et de leur sens a toute sa place; surtout lorsque le sujet évoqué est complexe. 
+Loin de nous l'idée de donner un cours de grammaire, mais l'importance des mots et de leur sens a toute sa place ; surtout lorsque le sujet évoqué est complexe. 
 Contrairement à ce qui est régulièrement évoqué lorsque certains tentent de vulgariser, dans la langue française, *Chiffrer* et *Crypter* n'ont pas le même sens :
 -   L'action de chiffrement relève de la modification d'un message afin de le rendre illisible.
 -   Crypter un message reviendrait à le chiffrer, mais sans connaissance de la clé de chiffrement.
