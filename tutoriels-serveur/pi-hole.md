@@ -2,7 +2,7 @@
 title: Installer et configurer Pi-Hole
 description: Pi-Hole est un bloqueur de publicités et de traceurs intempestifs, ce tutoriel montre comment l'installer et le configurer.
 published: true
-date: 2023-11-03T19:22:08.659Z
+date: 2023-11-03T19:22:50.238Z
 tags: pi-hole, pihole, dns, dhcp, bloqueur, pub
 editor: markdown
 dateCreated: 2023-01-29T16:00:34.514Z
@@ -78,6 +78,8 @@ Bien que non officielle, il existe une version Debian maintenue par [Gunnar Wolf
 ### PC
 
 L'installation d'une Debian minimale (appropriée pour les serveurs) est expliquée dans cet article : [Serveur sous Debian Stable](/tutoriels-serveur/serveur-debian-stable).
+
+Mais n'importe quel tutoriel d'installation Debian conviendra pour la suite.
 
 ## Installation de Pi-Hole
 
