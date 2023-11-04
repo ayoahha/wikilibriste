@@ -2,7 +2,7 @@
 title: Les distributions GNU/Linux
 description: Article relatif aux distributions GNU/Linux que le collectif recommande...
 published: true
-date: 2023-10-28T11:32:02.774Z
+date: 2023-11-04T13:57:11.386Z
 tags: linux, debutant, intermédiaire, débutant, intermediaire, initié, expert
 editor: markdown
 dateCreated: 2022-11-24T21:02:27.494Z
@@ -276,15 +276,21 @@ _Quelques articles complémentaires :_
 
 **Les distros classiques :**
 
-| Nom distro | Environnements<br>de Bureau | Base | CPU | URL | Gestionnaires<br>de paquets |  Commentaires |
+Théoriquement, toute distribution est capable de faire tourner les jeux vidéos, pour peu que celle-ci soit correctement configurée. En effet certains outils fonctionnent mieux suivant le paquet utilisé (deb, snap, flatpak) et suivant les distribution...
+
+Nous répertorions les distributions sur lesquelles la configuration est la plus simple :
+
+| Nom distro | DE à privilégier | Base | CPU | URL | Gestionnaires<br>de paquets |  Commentaires |
 |----------|----------|----------|----------|----------|----------|----------|
-| Linux Mint | **Cinnamon**<br>Mate<br>Xfce | Ubuntu LTS | 64 bits | [Site de Linux Mint](https://linuxmint.com/download.php) | dpkg (.deb)<br>apt<br>MintInstall<br>Flatpak | Cette distribution est tellement stable que vous pourrez très bien partir sur une base Mint, puis installer les outils de gaming, Steam, Lutris, etc. et la plupart des jeux tourneront ! <br>**Néanmoins sur des configurations récentes, cette distribution n'exploitera pas tout le potentiel des composants CPU et graphique, un compromis à faire !** |
-| Zorin OS | **Gnome Zorin** | Ubuntu LTS | 64 bits | [Site de Zorin OS](https://zorin.com/os/download/) | dpkg (.deb)<br>apt<br>Zorin SoftwareStore<br>Snap Store<br>Flatpak | Idem ici, distribution extrêmement stable, ce qui lui permet d'obtenir des performances honorables<br>**Les équipes de Zorin ont même planché sur une compatibilité accrue des programmes Windows. Mais tout comme Linux Mint, pour des configurations très récentes, les performances peuvent être inférieures des distros optimisées.** |
-| Ubuntu Desktop | **Gnome Ubuntu**<br>KDE Plasma | Debian Testing + Ajouts Canonical | 64 bits | [Site de Ubuntu-FR](https://www.ubuntu-fr.org/download/) | dpkg (.deb)<br>apt<br>Snap Store<br>Flatpak | N'oublions pas non plus Ubuntu, qui avec les DE GNOME ou KDE (uniquement), d'après certains tests permettent d'obtenir de bonnes performances en gaming. |
-| KDE Neon | **KDE Plasma** | Ubuntu LTS | 64 bits | [Site de KDE Neon](https://neon.kde.org/) | dpkg (.deb)<br>apt<br>Snap Store<br>Flatpak | C'est une belle surprise car, dans quelques tests d'utilisateurs, elle arrive à concurrencer les distributions optimisées. |
+| Linux Mint | Cinnamon | Ubuntu LTS | 64 bits | [Site de Linux Mint](https://linuxmint.com/download.php) | dpkg (.deb)<br>apt<br>MintInstall<br>Flatpak | Cette distribution est tellement stable que vous pourrez très bien partir sur une base Mint, puis installer les outils de gaming, Steam, Lutris, etc. et la plupart des jeux tourneront ! <br>**Néanmoins sur des configurations récentes, cette distribution n'exploitera pas tout le potentiel des composants CPU et graphique, un compromis à faire !** |
+| Kubuntu | KDE Plasma | Debian Testing + Ajouts Canonical | 64 bits | [Site de Ubuntu-FR](https://www.ubuntu-fr.org/download/) | dpkg (.deb)<br>apt<br>Snap Store<br>Flatpak | Nous conseillons ubuntu et son DE KDE qui d'après certains tests permettent d'obtenir de bonnes performances en gaming. |
+| OpenSuse TW | KDE Plasma | Indépendant | 64 bits | [Site de openSUSE OS](https://www.opensuse.org/) | Zypper<br>Yast<br>Flatpak | Une distribution (sa version rolling, Tembleweed) qui reste plutôt stable et fournit de bons résultats.<br>**Cela dit pour des profils intermédiaire.** |
+| Arch Linux | KDE Plasma ou GNOME | Indépendant | 32/64 bits | [Site de Arch Linux](https://archlinux.org/download/) | pacman<br>AUR<br>Flatpak | Arch est rapide et légère et peut tout à fait être configurée aux petits oignons pour du Gaming.<br>**Cela nécessite tout de même d'être sur un profil plutôt initié.** |
 {.dense}
 
 **Les distros optimisées :**
+
+Quelques distributions se concentrent sur l'aspect Gaming. Elles viennent avec un kernel modifié et des embarquent des pilotes récents, afin d'assurer une compatibilité avec tous les matériels sur le marché.
 
 | Nom distro | Environnements<br>de Bureau | Base | CPU | URL | Gestionnaires<br>de paquets |  Commentaires |
 |----------|----------|----------|----------|----------|----------|----------|
@@ -292,11 +298,9 @@ _Quelques articles complémentaires :_
 | Garuda | **KDE Plasma**<br>Gnome<br>Xfce | Arch Linux | 64 bits | [Site de Garuda](https://garudalinux.org/downloads.html) | pacman | Distribution qui se veut tournée vers le gaming sur Linux. Basée sur le `kernel-zen` ou le `kernel-amd` (pour les possesseurs de matériels AMD).<br>**Vous trouverez également ici certains jeux qui devront être configurés grâce à [ProtonDB](https://www.protondb.com/).** |
 {.dense}
 
-**Les Kernel Gaming :**
+**Les Kernels Gaming :**
 
-Nous fournissons ici une solution différente mais optimisée : l'idée est d'installer une distribution standard, généralement basée sur Ubuntu ou Arch, puis d'installer un kernel Linux (noyau) optimisé pour le gaming.
-
-> Ce kernel s'installe simplement grâce à 1 ou plusieurs lignes de commande.
+Nous fournissons ici une solution différente : l'idée est d'installer une distribution standard, généralement basée sur Ubuntu ou Arch, puis d'installer un kernel GNU/Linux optimisé pour le Gaming. Il en existe quelques-uns que nous listons ci-après :
 
 | Nom du Kernel | URL | Commentaires |
 |----------|----------|----------|
@@ -304,6 +308,12 @@ Nous fournissons ici une solution différente mais optimisée : l'idée est d'in
 | XanMod | [Site de XanMod](https://xanmod.org/) | XanMod s'installe uniquement sur une distribution avec une base Ubuntu.<br>**Quelques lignes de commande sont nécessaires pour utiliser ce kernel.** |
 | Linux TKG | [Site de TKG](https://github.com/Frogging-Family/linux-tkg) | Ce n'est pas à proprement parlé un kernel, mais il s'agit d'un outil qui permet de patcher le kernel de votre distribuion afin de l'optimiser pour le gaming.<br>**Peut-être un peu plus complexe à mettre en place.**|
 {.dense}
+
+> Ces kernels s'installent plus ou moins simplement grâce à une ou plusieurs lignes de commande.
+> 
+> Mais attention, cela ne dispense pas d'installer et gérer convenablement les pilotes pour les cartes graphiques (surtout celles venant de Nvidia).
+{.is-warning}
+
 
 ###### Pour MacOS
 
