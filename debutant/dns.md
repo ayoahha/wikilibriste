@@ -2,7 +2,7 @@
 title: Le système DNS expliqué
 description: Cet article traite du système de noms de domaine et de sa configuration afin de recouvrer sa vie privée sur internet...
 published: true
-date: 2023-07-01T11:53:17.795Z
+date: 2023-11-04T13:30:24.024Z
 tags: dns, nom de domaine, url, tld, sous-domaine, reverse dns
 editor: markdown
 dateCreated: 2023-06-19T11:57:54.490Z
@@ -16,7 +16,8 @@ Rentrons dans les détails : nous allons nous intéresser plus particulièrement
 
 ![Principes du DNS (Version simple)](/images/dns-1.png =600x){.align-center}
 
-<span class="red-text">C’est ici qu’entre en jeu le DNS.</span>
+> C’est ici qu’entre en jeu le DNS.
+{.is-info}
 
 # Le mécanisme
 
