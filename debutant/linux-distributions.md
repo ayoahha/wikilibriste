@@ -2,7 +2,7 @@
 title: Les distributions GNU/Linux
 description: Article relatif aux distributions GNU/Linux que le collectif recommande...
 published: true
-date: 2023-11-04T14:07:28.558Z
+date: 2023-11-04T14:12:52.679Z
 tags: linux, debutant, intermédiaire, débutant, intermediaire, initié, expert
 editor: markdown
 dateCreated: 2022-11-24T21:02:27.494Z
@@ -276,10 +276,10 @@ _Quelques articles complémentaires :_
 
 _La communauté GLF :_
 
-Une communauté de Gamers Linux (Fr) a vu le jour. Ils proposent des tutoriels vidéos, des challenges d'installation de distribution et d'optimisation afin de jouer, un support technique bénévole en cas de besoin (uniquement sur Discord). Et en fran_ais, assez rarae pour être souligné !
-- [La chaine de Vinceff](https://inv.vern.cc/channel/UCu6YaQSJf6gUzAoszZniJ8g)
-- [La chaine de CardiacMan](https://inv.vern.cc/channel/UC7VqJVFvk75-B0uKg4MWfpw)
-- [La chaine de AirMax](https://inv.vern.cc/channel/UCJEWcPNeBPtP8zX2k9lS-iA)
+Une communauté de Gamers Linux (Fr) a vu le jour. Ils proposent des tutoriels vidéos, des challenges d'installation de distribution et d'optimisation afin de jouer, un support technique bénévole en cas de besoin (uniquement sur Discord). Et en français, assez rare pour être souligné !
+- [La chaine de Vinceff](https://inv.vern.cc/channel/UCu6YaQSJf6gUzAoszZniJ8g), qui couvre tous les besoins des profils débutants à initiés.
+- [La chaine de CardiacMan](https://inv.vern.cc/channel/UC7VqJVFvk75-B0uKg4MWfpw), très porté sur Arch Linux avec pédagogie.
+- [La chaine de AirMax](https://inv.vern.cc/channel/UCJEWcPNeBPtP8zX2k9lS-iA), contenu en anglais.
 - Présence des développeurs de kernels et distros optimisées (TKG par ex.)
 - [Le discord GLF](https://discord.gg/8J8vQPEG)
 
@@ -304,10 +304,10 @@ Nous répertorions les distributions sur lesquelles la configuration est la plus
 
 Quelques distributions se concentrent sur l'aspect Gaming. Elles viennent avec un kernel modifié et des embarquent des pilotes récents, afin d'assurer une compatibilité avec tous les matériels sur le marché.
 
-| Nom distro | Environnements<br>de Bureau | Base | CPU | URL | Gestionnaires<br>de paquets |  Commentaires |
+| Nom distro | DE à privilégier | Base | CPU | URL | Gestionnaires<br>de paquets |  Commentaires |
 |----------|----------|----------|----------|----------|----------|----------|
-| Nobara | **Gnome**<br>KDE Plasma<br> | Fedora | 64 bits | [Site de Nobara](https://nobaraproject.org/download-nobara/) | dnf | Nobara est l'une des distributions les plus prometteuses pour le gaming, le streaming et la création de contenus. Elle est cependant assez jeune mais évolue vite et possède déjà un bon socle d'utilisateurs. Basée sur le `kernel-zen` modifié et optimisé.<br>**Vous trouverez cependant certains jeux qui ne tourneront pas sans configuration préalable. Pour ce faire, il conviendra de s'appuyer sur le site [ProtonDB](https://www.protondb.com/).** |
-| Garuda | **KDE Plasma**<br>Gnome<br>Xfce | Arch Linux | 64 bits | [Site de Garuda](https://garudalinux.org/downloads.html) | pacman | Distribution qui se veut tournée vers le gaming sur Linux. Basée sur le `kernel-zen` ou le `kernel-amd` (pour les possesseurs de matériels AMD).<br>**Vous trouverez également ici certains jeux qui devront être configurés grâce à [ProtonDB](https://www.protondb.com/).** |
+| Nobara | Gnome ou KDE Plasma | Fedora | 64 bits | [Site de Nobara](https://nobaraproject.org/download-nobara/) | dnf | Nobara est l'une des distributions les plus prometteuses pour le gaming, le streaming et la création de contenus. Elle est cependant assez jeune mais évolue vite et possède déjà un bon socle d'utilisateurs. Basée sur le `kernel-zen` modifié et optimisé.<br>**Vous trouverez cependant certains jeux qui ne tourneront pas sans configuration préalable. Pour ce faire, il conviendra de s'appuyer sur le site [ProtonDB](https://www.protondb.com/).** |
+| Garuda | KDE Plasma | Arch Linux | 64 bits | [Site de Garuda](https://garudalinux.org/downloads.html) | pacman | Distribution qui se veut tournée vers le gaming sur Linux. Basée sur le `kernel-zen` ou le `kernel-amd` (pour les possesseurs de matériels AMD).<br>**Vous trouverez également ici certains jeux qui devront être configurés grâce à [ProtonDB](https://www.protondb.com/).** |
 {.dense}
 
 **Les Kernels Gaming :**
