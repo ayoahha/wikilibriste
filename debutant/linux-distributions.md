@@ -2,7 +2,7 @@
 title: Les distributions GNU/Linux
 description: Article relatif aux distributions GNU/Linux que le collectif recommande...
 published: true
-date: 2023-11-04T14:12:52.679Z
+date: 2023-11-04T14:15:37.849Z
 tags: linux, debutant, intermédiaire, débutant, intermediaire, initié, expert
 editor: markdown
 dateCreated: 2022-11-24T21:02:27.494Z
@@ -276,7 +276,7 @@ _Quelques articles complémentaires :_
 
 _La communauté GLF :_
 
-Une communauté de Gamers Linux (Fr) a vu le jour. Ils proposent des tutoriels vidéos, des challenges d'installation de distribution et d'optimisation afin de jouer, un support technique bénévole en cas de besoin (uniquement sur Discord). Et en français, assez rare pour être souligné !
+Une communauté de Gamers Linux (Fr, GLF) a vu le jour. Ils proposent des tutoriels vidéos, des challenges d'installation de distributions et d'optimisation afin de jouer sur Linux dans les meilleures conditions, des scripts facilitant la post-installation des kernels et pilotes, ainsi qu'un support technique bénévole en cas de besoin (uniquement sur Discord). Et en français, assez rare pour être souligné !
 - [La chaine de Vinceff](https://inv.vern.cc/channel/UCu6YaQSJf6gUzAoszZniJ8g), qui couvre tous les besoins des profils débutants à initiés.
 - [La chaine de CardiacMan](https://inv.vern.cc/channel/UC7VqJVFvk75-B0uKg4MWfpw), très porté sur Arch Linux avec pédagogie.
 - [La chaine de AirMax](https://inv.vern.cc/channel/UCJEWcPNeBPtP8zX2k9lS-iA), contenu en anglais.
