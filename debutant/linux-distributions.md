@@ -2,7 +2,7 @@
 title: Les distributions GNU/Linux
 description: Article relatif aux distributions GNU/Linux que le collectif recommande...
 published: true
-date: 2023-11-05T12:08:00.709Z
+date: 2023-11-05T12:11:36.766Z
 tags: linux, debutant, intermédiaire, débutant, intermediaire, initié, expert
 editor: markdown
 dateCreated: 2022-11-24T21:02:27.494Z
@@ -285,6 +285,11 @@ Une communauté de Gamers Linux (Fr, GLF) a vu le jour. Ils proposent des tutori
 
 > **Attention** : le dernier lien est un lien "discord", cette communauté n'étant présente que sur cette plateforme. Il est possible pour les plus libristes d'entre vous d'utiliser un client alternatif afin d'y accéder et limiter la télémétrie, cf. notre article sur les [alternatives](/debutant/logiciel-alternative-libre).
 {.is-info}
+
+Certains développeurs de cette communautés mettent à disposition des scripts de post-installation qui vous permettront de vous faciliter la tâche pour configurer votre distribution :
+- [Pour Arch Linux](https://github.com/Cardiacman13/Architect)
+- [Pour Debian](https://github.com/Xdavius/postinstall-debian)
+- [Pilotes Nvidia](https://github.com/Cardiacman13/NUDI) (toutes distributions)
 
 **Les distros classiques :**
 
