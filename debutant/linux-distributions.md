@@ -2,7 +2,7 @@
 title: Les distributions GNU/Linux
 description: Article relatif aux distributions GNU/Linux que le collectif recommande...
 published: true
-date: 2023-11-05T12:11:36.766Z
+date: 2023-11-05T12:18:27.880Z
 tags: linux, debutant, intermédiaire, débutant, intermediaire, initié, expert
 editor: markdown
 dateCreated: 2022-11-24T21:02:27.494Z
@@ -262,18 +262,22 @@ Plusieurs programmes permettent de faire cela. Tous ceux cités dans cette liste
 - [Playnite](https://playnite.link/) est une bibliothèque de jeux unifiée avec une interface simple et esthétique.
 
 **Steam :**
-Lorsqu'on parle de jeux vidéo, on pense rapidement à **Steam**. 
+Lorsqu'on parle de jeux vidéo, on pense rapidement à **Steam**.
 
-[Steam](https://store.steampowered.com/?l=french) est une plateforme de jeux. Elle dispose aussi d'un magasin recensant environ 15 000 jeux. Cette plateforme a été créée en 2003 par Valve Corporation (dirigée par Gabe Newell) et l'entreprise est connue pour ses jeux phares tels que *Half Life*, *Team Fortress* et *Counter-Strike* pour les connaisseurs.
+[Steam](https://store.steampowered.com/?l=french) est une plateforme de jeux vidéos. Elle dispose d'un magasin recensant de dizaines de milliers de jeux. Cette plateforme a été créée en 2003 par Valve Corporation (dirigée par Gabe Newell) et l'entreprise est connue pour ses jeux phares tels que *Half Life*, *Team Fortress* et *Counter-Strike* pour les connaisseurs.
 
 En 2013, Steam a été adapté pour les systèmes GNU/Linux. Les utilisateurs pouvaient jouer à quelques jeux comme *Left 4 Dead*.
+
+En 2015, Valve sort officiellement SteamOS, basé sur Debian dans un premier temps puis finalement sur un dérivé de Arch Linux.
+
+En 2022, ils sortent la Steam Deck.
 
 _Quelques articles complémentaires :_
 - [Wine](https://fr.wikipedia.org/wiki/Wine)
 - [Steam](https://fr.wikipedia.org/wiki/Steam)
-- [Installer Steam](https://fr.wikihow.com/installer-Steam)
-- [Article Jouer sur Linux](https://www.clubic.com/jeu-video/steam-machine/actualite-5038-jouer-sur-linux-c-est-possible-on-a-essaye-et-on-a-adore-.html)
+- [SteamOS](https://fr.wikipedia.org/wiki/SteamOS)
 
+---
 _La communauté GLF :_
 
 Une communauté de Gamers Linux (Fr, GLF) a vu le jour. Ils proposent des tutoriels vidéos, des challenges d'installation de distributions et d'optimisation afin de jouer sur Linux dans les meilleures conditions, des scripts facilitant la post-installation des kernels et pilotes, ainsi qu'un support technique bénévole en cas de besoin (uniquement sur Discord). Et en français, assez rare pour être souligné !
