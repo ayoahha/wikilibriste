@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2023-10-28T09:45:32.217Z
+date: 2023-11-07T17:49:28.314Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -393,7 +393,7 @@ Pour plus de détails sur les ports réseau, consulter l'excellent [article de M
 
 # Propriétaire
 
-Un système d'exploitation, programme, application "propriétaire" se dit d'un outil soumis à licence _commerciale_ pour son utilisation, et dont **le propriétaire est l'éditeur logiciel** et non l'utilisateur final, **par opposition aux logiciels libres (d'utilisation)** (voir définition de [logiciel libre](#logiciel_libre)).
+Un système d'exploitation, programme, application "propriétaire" se dit d'un outil soumis à licence _commerciale_ pour son utilisation, et dont **le propriétaire est l'éditeur logiciel** et non l'utilisateur final, **par opposition aux logiciels libres (d'utilisation)** (voir définition de [logiciel libre](/glossaire#logiciel_libre)).
 
 Exemples : Windows, MacOS, ChromeOS
 
