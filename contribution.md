@@ -2,7 +2,7 @@
 title: Pour contribuer au projet
 description: N'hésitez pas à nous soutenir dans cette belle aventure...
 published: true
-date: 2023-11-10T09:01:51.427Z
+date: 2023-11-10T09:02:36.269Z
 tags: contribution, don, june, btc, liberapay
 editor: markdown
 dateCreated: 2023-10-28T07:07:02.446Z
@@ -17,8 +17,9 @@ Enfin, un énorme <3 MERCI <3 à tous ceux et celles qui participent activement,
 
 # Pour nous soutenir
 
-Bouche à oreille : *vous pouvez parler autour de vous de cette initiative et des autres.*
-Financièrement : *Vous pouvez autrement nous soutenir financièrement de 2 manières :*
+1. Bouche à oreille : *vous pouvez parler autour de vous de cette initiative et des autres.*
+
+2. Financièrement : *Vous pouvez autrement nous soutenir financièrement de 2 manières :*
 
 
 - [Liberapay *En nous faisant un don en euro sur la plateforme liberapay*](https://fr.liberapay.com/wikilibriste/)
