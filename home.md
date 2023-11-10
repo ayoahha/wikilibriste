@@ -2,7 +2,7 @@
 title: Bienvenue cher libriste
 description: Tu trouveras sur ce site des tutoriels traitant des logiciels libres ou open-source et de la sécurité informatique
 published: true
-date: 2023-11-03T15:50:59.022Z
+date: 2023-11-10T08:43:56.206Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-24T20:06:27.184Z
@@ -16,8 +16,10 @@ Notre groupe Telegram ["Numérique Libre & Résilient"](https://t.me/securite_in
 
 L'idée de ce wiki est de proposer une liste d'articles et de tutoriels pour accompagner toute personne souhaitant améliorer son environnement numérique et tendre vers sa libération numérique.
 
-- [Contact *Rendez vous sur la page pour nous contacter, contribuer ou nous soutenir.*](/contact)
-- [Telegram *Téléchargez simplement la messagerie Telegram pour pouvoir nous joindre.*](https://telegram.org/)
+- [Contact *Rendez vous sur la page pour nous contacter.*](/contact)
+- [Contribuer *Rendez vous sur la page pour ncontribuer ou nous soutenir.*](/contribution)
+- 
+[Telegram *Téléchargez simplement la messagerie Telegram pour pouvoir nous joindre.*](https://telegram.org/)
 {.links-list}
 
 ## Lettre ouverte - Manifeste
