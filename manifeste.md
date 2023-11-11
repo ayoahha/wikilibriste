@@ -2,7 +2,7 @@
 title: Manifeste
 description: 
 published: false
-date: 2023-11-11T15:26:26.125Z
+date: 2023-11-11T15:42:26.679Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
@@ -183,14 +183,14 @@ Avec nos salutations républicaines et fraternelles.
 [^15]: [Loi n° 2021-998 du 30 juillet 2021](https://www.senat.fr/leg/pjl20-672.html)
 [^16]: [La QDN dénonce la loi 2021-998](https://www.laquadrature.net/2021/06/15/loi-renseignement-2-refuser-lemballement-securitaire/)
 [^17]: [Courrier d’associations, avocats, syndicats et universitaires](https://www.voxpublic.org/Un-courrier-pour-demander-aux-parlementaires-de-ne-pas-adopter-la-loi-anti.html)
-[^18]: [](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042031970)
-[^19]: [](https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000047538699/)
-[^20]: [](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047561974)
-[^21]: [](https://www.francetvinfo.fr/replay-magazine/france-3/dimanche-en-politique/dimanche-en-politique-avec-amelie-oudea-castera_6045800.htmlhttps://www.francetvinfo.fr/replay-magazine/france-3/dimanche-en-politique/dimanche-en-politique-avec-amelie-oudea-castera_6045800.html)
-[^22]: [](https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000043806985/?detailType=CONTENU&detailId=1)
-[^23]: [](https://www.laquadrature.net/2023/06/05/affaire-du-8-decembre-le-chiffrement-des-communications-assimile-a-un-comportement-terroriste/)
-[^24]: [](https://www.lemonde.fr/idees/article/2023/06/14/attaches-aux-libertes-fondamentales-dans-l-espace-numerique-nous-defendons-le-droit-au-chiffrement-de-nos-communications_6177673_3232.html)
-[^25]: [](https://e.foundation/fr/about-e/)
+[^18]: [Loi n° 2020-766 du 24 juin 2020](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042031970)
+[^19]: [Projet de loi d’orientation et programmation ministère de la justice 2023-2027](https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000047538699/)
+[^20]: [Loi n°2023-380 du 19 mai 2023](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047561974)
+[^21]: [Emission Dimanche Politique du 24 Septembre 2023](https://www.francetvinfo.fr/replay-magazine/france-3/dimanche-en-politique/dimanche-en-politique-avec-amelie-oudea-castera_6045800.htmlhttps://www.francetvinfo.fr/replay-magazine/france-3/dimanche-en-politique/dimanche-en-politique-avec-amelie-oudea-castera_6045800.html)
+[^22]: [Projet de loi portant sur l’usage d’aéronefs à des fins d’opérations de sécurité intérieure](https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000043806985/?detailType=CONTENU&detailId=1)
+[^23]: [Affaire du 8 décembre 2020](https://www.laquadrature.net/2023/06/05/affaire-du-8-decembre-le-chiffrement-des-communications-assimile-a-un-comportement-terroriste/)
+[^24]: [Tribune QDN](https://www.lemonde.fr/idees/article/2023/06/14/attaches-aux-libertes-fondamentales-dans-l-espace-numerique-nous-defendons-le-droit-au-chiffrement-de-nos-communications_6177673_3232.html)
+[^25]: [A propos - e-Foundation](https://e.foundation/fr/about-e/)
 [^26]: [La e-Foundation - Association Loi 1901](https://www.journal-officiel.gouv.fr/pages/associations-detail-annonce/?q.id=id:201800221335)
-[^27]: [](https://umap.openstreetmap.fr/fr/map/territoire-numerique-libre_171981#6/47.398/6.636)
-[^28]: [](https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789)
+[^27]: [Liste des mairies engagés dans les logiciels éthiques](https://umap.openstreetmap.fr/fr/map/territoire-numerique-libre_171981#6/47.398/6.636)
+[^28]: [Déclaration des droits de l'Homme et du Citoyen 1789](https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789)
