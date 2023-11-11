@@ -1,9 +1,9 @@
 ---
-title: Manifeste
+title: Notre Manifeste...
 description: 
 published: true
-date: 2023-11-11T15:50:03.677Z
-tags: 
+date: 2023-11-11T15:52:01.124Z
+tags: manifeste
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
 ---
