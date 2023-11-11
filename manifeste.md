@@ -2,7 +2,7 @@
 title: Manifeste
 description: 
 published: false
-date: 2023-11-11T15:05:17.982Z
+date: 2023-11-11T15:26:26.125Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
@@ -166,23 +166,23 @@ Avec nos salutations républicaines et fraternelles.
 > « *Les représentants du peuple français, constitués en Assemblée nationale, considérant que l'ignorance, l'oubli ou le mépris des droits de l'homme sont les seules causes des malheurs publics et de la corruption des gouvernements [...]* » [^28]
 
 
-[^1]: [](https://www.assemblee-nationale.fr/dyn/16/amendements/1514/ESPNUM/553.pdf)
-[^2]: [](https://www.ssi.gouv.fr/guide/recommandations-sur-le-nomadisme-numerique/)
-[^3]: [](https://www.ssi.gouv.fr/uploads/2018/04/anssi-guide-admin_securisee_si_v3-0.pdf)
-[^4]: [](https://france3-regions.francetvinfo.fr/occitanie/haute-garonne/toulouse/le-probleme-quand-on-ne-maitrise-pas-son-sujet-c-est-que-cela-se-voit-comment-un-hacker-ethique-passe-au-crible-la-loi-sur-internet-2842799.html)
-[^5]: [](https://www.softwaretestinghelp.com/are-vpns-legal-or-illegal/)
-[^6]: [](https://www.assemblee-nationale.fr/dyn/16/textes/l16b1514_projet-loi#D_Article_6)
-[^7]: [](https://blog.mozilla.org/netpolicy/2023/06/27/francaise-bloquer-sites/)
-[^8]: [](https://foundation.mozilla.org/fr/campaigns/sign-our-petition-to-stop-france-from-forcing-browsers-like-mozillas-firefox-to-censor-websites/)
-[^9]: [](https://www.assemblee-nationale.fr/dyn/16/amendements/1514/ESPNUM/597)
-[^10]: [](http://www.ohchr.org/EN/HRBodies/HRC/RegularSessions/Session29/Documents/A.HRC.29.32_AEV.doc)
+[^1]: [Amendement n°CS553 au Projet de loi n°1514](https://www.assemblee-nationale.fr/dyn/16/amendements/1514/ESPNUM/553.pdf)
+[^2]: [Recommandations sur le nomadisme numérique](https://www.ssi.gouv.fr/guide/recommandations-sur-le-nomadisme-numerique/)
+[^3]: [Guides des bonnes pratiques dans l'administration](https://www.ssi.gouv.fr/uploads/2018/04/anssi-guide-admin_securisee_si_v3-0.pdf)
+[^4]: [France 3 Régions - Un expert interviewé](https://france3-regions.francetvinfo.fr/occitanie/haute-garonne/toulouse/le-probleme-quand-on-ne-maitrise-pas-son-sujet-c-est-que-cela-se-voit-comment-un-hacker-ethique-passe-au-crible-la-loi-sur-internet-2842799.html)
+[^5]: [Les pays qui appliquent un blocage ou une restriction sur les VPN](https://www.softwaretestinghelp.com/are-vpns-legal-or-illegal/)
+[^6]: [Article 6 Projet de loi n°1514](https://www.assemblee-nationale.fr/dyn/16/textes/l16b1514_projet-loi#D_Article_6)
+[^7]: [Billet du 27 juin 2023 de la fondation Mozilla](https://blog.mozilla.org/netpolicy/2023/06/27/francaise-bloquer-sites/)
+[^8]: [Pétition](https://foundation.mozilla.org/fr/campaigns/sign-our-petition-to-stop-france-from-forcing-browsers-like-mozillas-firefox-to-censor-websites/)
+[^9]: [Amendement n°CS597 au Projet de loi 1514](https://www.assemblee-nationale.fr/dyn/16/amendements/1514/ESPNUM/597)
+[^10]: [Rapporteur spécial M. David Kaye - Livrable](http://www.ohchr.org/EN/HRBodies/HRC/RegularSessions/Session29/Documents/A.HRC.29.32_AEV.doc)
 [^11]: [Cyber Resilience Act](https://digital-strategy.ec.europa.eu/fr/library/cyber-resilience-act)
-[^12]: [](https://www.april.org/le-cyber-resilience-act-une-epee-de-damocles-sur-le-logiciel-libre)
-[^13]: [](https://cnll.fr/news/cyber-resilience-act-union-europ%C3%A9enne-menace-logiciel-libre/)
-[^14]: [](https://cnll.fr/static/pdf/cra-lettre-ouverte.pdf)
-[^15]: [](https://www.senat.fr/leg/pjl20-672.html)
-[^16]: [](https://www.laquadrature.net/2021/06/15/loi-renseignement-2-refuser-lemballement-securitaire/)
-[^17]: [](https://www.voxpublic.org/Un-courrier-pour-demander-aux-parlementaires-de-ne-pas-adopter-la-loi-anti.html)
+[^12]: [APRIL - Lettre ouverte CRA](https://www.april.org/le-cyber-resilience-act-une-epee-de-damocles-sur-le-logiciel-libre)
+[^13]: [CNLL - Lettre ouverte CRA](https://cnll.fr/news/cyber-resilience-act-union-europ%C3%A9enne-menace-logiciel-libre/)
+[^14]: [CNLL - Lettre ouverte CRA (PDF)](https://cnll.fr/static/pdf/cra-lettre-ouverte.pdf)
+[^15]: [Loi n° 2021-998 du 30 juillet 2021](https://www.senat.fr/leg/pjl20-672.html)
+[^16]: [La QDN dénonce la loi 2021-998](https://www.laquadrature.net/2021/06/15/loi-renseignement-2-refuser-lemballement-securitaire/)
+[^17]: [Courrier d’associations, avocats, syndicats et universitaires](https://www.voxpublic.org/Un-courrier-pour-demander-aux-parlementaires-de-ne-pas-adopter-la-loi-anti.html)
 [^18]: [](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042031970)
 [^19]: [](https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000047538699/)
 [^20]: [](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047561974)
