@@ -2,7 +2,7 @@
 title: Manifeste
 description: 
 published: false
-date: 2023-11-11T15:43:29.193Z
+date: 2023-11-11T15:44:11.489Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
@@ -100,7 +100,7 @@ Ce projet de loi a consacré la possibilité d’activer à tout moment les capt
 
 **Portant diverses dispositions autres que la gestion des JO-2024, notamment la Vidéo Surveillance Algorithmique, dites « VSA »**
 
-> Encore une fois la démonstration que les « lois d’exception » finissent par entrer dans le droit commun : ce que nous dénonçons fermement :
+> Encore une fois la démonstration que les « lois d’exception » finissent par entrer dans le droit commun : ce que nous dénonçons fermement.
 {.is-info}
 
 Cette loi a été présenté aux élus par le biais d’un truchement rhétorique, la définition de la « Démarche d’un individu » : en cherchant à décorréler les déplacements, démarches, comportements des individus (qui font l’objet de la contestation de la VSA) de la notion de biométrie ; argumentant ainsi que les libertés des français sont ainsi respectées, en l’absence de biométrie des visages. Nouveau « mensonge par omission », étant donné que les seules analyses à la fois de votre silhouette et de votre démarche, suffisent à outrepasser le besoin d’une biométrie des visages.
