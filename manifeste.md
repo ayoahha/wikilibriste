@@ -2,7 +2,7 @@
 title: Manifeste
 description: 
 published: true
-date: 2023-11-11T15:44:23.961Z
+date: 2023-11-11T15:46:38.498Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
@@ -15,6 +15,7 @@ Madame, Monsieur,
 Cela fait maintenant plusieurs mois voire années que des élus de la république française, et  certains représentants en Europe, tentent de proposer des projets de lois visant à élargir le « contrôle numérique » et restreindre les libertés fondamentales inhérentes. Ainsi, nous listons les mesures les plus récentes dans ce qui suit.
 
 # Tentative d’amendement n°CS553 [^1] au Projet de loi n°1514
+
 Visant à sécuriser et réguler l’espace numérique et suivi par bon nombre de députés, qui traite du sujet des « VPN » ou RPV (Réseau Privé Virtuel), et bien au delà de ce qu’il prétend être réduit aux simples réseaux sociaux.
 > Amendement retiré, ce qui n’empêche pas de revoir un jour ce type de texte et de montrer la totale déconnexion de nombreux élus avec leur population et l’économie de leur pays :
 {.is-info}
@@ -54,7 +55,9 @@ Par ailleurs, nous dénonçons la caricature faite par cet amendement concernant
 Finalement, l’encadrement annoncé pour cette solution pourrait - si l’envie en prenait aux divers successeurs de la scène gouvernementale à l’avenir - être contourné via les voies officieuses ; cela s’est déjà passé à de multiples reprises. Le débat est biaisé par l’absence d’informations loyales sur ces sujets. Toute personne versée dans la question numérique et son éthique vous le soutiendra : le tout informatisé sécuritaire, garant des libertés publiques est une chimère, en plus d’un « mensonge par omission ». Tant à travers son accaparement par les intérêts privés, que par le fait qu’en ligne rien n’est et ne pourra être totalement sécurisé et rien n’est et ne pourra être intégralement sous contrôle. La justice ne doit pas être substituée par le « pré-crime », source de déstabilisation des principes démocratiques.
 
 
-# Les attaques successives sur les outils à sources ouvertes (dits « open source »)
+# Les attaques successives sur les outils à sources ouvertes
+
+**Ou logiciel dits « open source ».**
 
 Non seulement du gouvernement français actuel, plus largement d’une partie de la classe politique mais aussi d’autres gouvernements européens, dont le point d’orgue est le projet européen « Cyber Resilience Act » [^11].
 
@@ -83,7 +86,7 @@ Dite loi « Avia », dont les contours flous laissaient le champ libre à l’in
 
 Rappelons que la critique est garante d’un système politique pluraliste, cela ne constitue en rien un acte haineux. Émettre, à travers la critique, la volonté d’améliorer les institutions ne constituant ni volonté de nuire, ni volonté de déstabiliser celles-ci.
 
-# L’article 3 du Projet de loi d’orientation et programmation du ministère de la justice 2023-2027 [^19]
+# L’article 3 LOPM 2023-2027 [^19]
 
 Qui a permis un tour de force, fruit de l’inquiétude de nombreux défenseurs des libertés publiques. 
 
@@ -108,7 +111,9 @@ Cette loi a été présenté aux élus par le biais d’un truchement rhétoriqu
 Le ministère des sports a par ailleurs laissé entendre récemment, dans l’émission Dimanche Politique du 24 Septembre 2023 [^21], que cette mesure pourrait être prolongée au-delà de la compétition sportive et au-delà de son statut expérimental.
 
 
-# L’Article 7 du projet de loi [^22] relatif à la responsabilité pénale et à la sécurité intérieure
+# L’Article 7 du projet de loi [^22]
+
+**Relatif à la responsabilité pénale et à la sécurité intérieure**.
 
 Au Titre III, portant sur l’usage d’aéronefs à des fins d’opérations de sécurité intérieure, lors d’événements divers. Loi présentée sous le sacro-saint argument sécuritaire, qui jusque là a avant tout permis de s’attaquer à toute forme de contestation publique, via l’envoi d’amendes pour des supposés « troubles à l’ordre public » lors de manifestations dites des « casserolades ».
 
