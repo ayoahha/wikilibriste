@@ -2,7 +2,7 @@
 title: Manifeste
 description: 
 published: false
-date: 2023-11-11T15:42:26.679Z
+date: 2023-11-11T15:43:29.193Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
@@ -47,10 +47,9 @@ Visant à sécuriser et réguler l’espace numérique.
 > Questionner tous les français par voie de référendum sur leur souhait ou non d’adopter cette mesure serait une démarche politique louable.
 {.is-info}
 
-Lier une identité numérique à nos actes en ligne sur les réseaux sociaux est un principe, non seulement contraire à l’expression libre, mais également source potentielle de collusion avec des entités privées éloignées de l’intérêt collectif . Nous questionnons également l’élargissement de cette identité numérique à l’espace réel, via la « e-carte d’identité » : stockée dans des applications tierces dites de « portefeuille numérique  », tenues par des entités privées ; entités qui au passage n’ont pas investi tant d’énergie dans le développement de ces outils dans un but purement altruiste et démocratique. L’identité numérique permettrait de collecter une trace constante de l’intégralité de nos interactions, en tout lieu, et cela pourrait être l’occasion d’atteintes multiples : au secret médical, à la liberté de circuler, à la liberté d’opinion, à la liberté de s’autodéterminer, entre autres...
+Lier une identité numérique à nos actes en ligne sur les réseaux sociaux est un principe, non seulement contraire à l’expression libre, mais également source potentielle de collusion avec des entités privées éloignées de l’intérêt collectif . Nous questionnons également l’élargissement de cette identité numérique à l’espace réel, via la « e-carte d’identité » : stockée dans des applications tierces dites de « portefeuille numérique », tenues par des entités privées ; entités qui au passage n’ont pas investi tant d’énergie dans le développement de ces outils dans un but purement altruiste et démocratique. L’identité numérique permettrait de collecter une trace constante de l’intégralité de nos interactions, en tout lieu, et cela pourrait être l’occasion d’atteintes multiples : au secret médical, à la liberté de circuler, à la liberté d’opinion, à la liberté de s’autodéterminer, entre autres...
 
-Par ailleurs, nous dénonçons la caricature faite par cet amendement concernant l’anonymat (en 
-ligne), qui consiste à définir son utilisation à des fins malveillantes ou participant d’une volonté criminelle. Nous entendons par anonymat la « possibilité de ne pas être constamment surveillé, pisté et contrôlé en tous lieux » par anticipation ou présomption d’un comportement supposé préjudiciable (les enquêtes criminelles, légitimes, faisant exception) ; ou même la possibilité de s’exprimer librement, sans crainte de censure, de contraintes géographiques et physiques, ou de représailles d’une quelconque nature (y compris politique). Ce droit à l’anonymat est par ailleurs défendu par le rapporteur spécial M. David Kaye dans le livrable [^10] remis aux représentants des Nations Unies.
+Par ailleurs, nous dénonçons la caricature faite par cet amendement concernant l’anonymat (en  ligne), qui consiste à définir son utilisation à des fins malveillantes ou participant d’une volonté criminelle. Nous entendons par anonymat la « possibilité de ne pas être constamment surveillé, pisté et contrôlé en tous lieux » par anticipation ou présomption d’un comportement supposé préjudiciable (les enquêtes criminelles, légitimes, faisant exception) ; ou même la possibilité de s’exprimer librement, sans crainte de censure, de contraintes géographiques et physiques, ou de représailles d’une quelconque nature (y compris politique). Ce droit à l’anonymat est par ailleurs défendu par le rapporteur spécial M. David Kaye dans le livrable [^10] remis aux représentants des Nations Unies.
 
 Finalement, l’encadrement annoncé pour cette solution pourrait - si l’envie en prenait aux divers successeurs de la scène gouvernementale à l’avenir - être contourné via les voies officieuses ; cela s’est déjà passé à de multiples reprises. Le débat est biaisé par l’absence d’informations loyales sur ces sujets. Toute personne versée dans la question numérique et son éthique vous le soutiendra : le tout informatisé sécuritaire, garant des libertés publiques est une chimère, en plus d’un « mensonge par omission ». Tant à travers son accaparement par les intérêts privés, que par le fait qu’en ligne rien n’est et ne pourra être totalement sécurisé et rien n’est et ne pourra être intégralement sous contrôle. La justice ne doit pas être substituée par le « pré-crime », source de déstabilisation des principes démocratiques.
 
@@ -63,6 +62,7 @@ Non seulement du gouvernement français actuel, plus largement d’une partie de
 {.is-info}
 
 Nous nous faisons une fois encore l’écho de bon nombre d’articles publiés par des personnes plus compétentes que les bureaucrates qui ont proposé ce projet. Par exemple l’APRIL [^12], la CNLL [^13]. Et bien d’autres fondations et associations représentant les travailleurs de ce domaine qui vous ont adressé une lettre ouverte [^14], semble-t-il restées lettre morte !
+
 Nous rappelons que ces logiciels à sources ouvertes sont la base d’une partie non négligeable des logiciels que vous utilisez au quotidien, y compris vos logiciels privateurs. Et que ce secteur d’activité emploie une myriade de techniciens, d’ingénieurs et doctorants qui souvent prennent sur leur temps libre pour améliorer sans cesse ces outils et les sécuriser. Employés qui dans leur cas créent une grande valeur ajoutée à nos sociétés, en plus du côté éthique.
 
 # La loi n° 2021-998 du 30 juillet 2021 [^15]
