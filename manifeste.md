@@ -2,7 +2,7 @@
 title: Manifeste
 description: 
 published: false
-date: 2023-11-11T14:33:38.986Z
+date: 2023-11-11T14:39:46.785Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
@@ -23,7 +23,8 @@ Les RPV, au sens large, sont utilisés couramment par bon nombres d’entreprise
 
 L’ANSSI fait par ailleurs ses recommandations en faveur de cet outil de sécurisation, dans son guide « Recommandations sur le nomadisme numérique » [^2]. L’administration elle-même dispose de son propre guide, disponible auprès de l’ANSSI [^3], qui mentionne l’usage de RPV dans les contextes de nomadisme et d’administration à distance, directives qui de notre expérience ne sont que trop peu suivies par les administrations. De plus, comme le souligne un de nos confrères dans l’article de France 3 Régions [^4] : les RPV « [sont utilisés] par les forces de l'ordre dans leurs enquêtes, et par tous les professionnels de la cybersécurité. Dans certains pays, ils sont même recommandés pour passer outre la censure ou par mesure de sécurité ».
 
-Les élus chercheraient-ils à fragiliser l’économie numérique, ainsi que l’administration française ?
+**Les élus chercheraient-ils à fragiliser l’économie numérique, ainsi que l’administration française ?**
+
 Voici, à ce jour, pour information, la liste des pays qui appliquent un blocage ou une restriction sur ce type d’outil [^5] :
 - Restreint (à des degrés divers) : Chine, Émirats Arabes Unis, Oman, Ouganda, Russie, Venezuela
 - Considéré illégal : Biélorussie, Corée du Nord, Irak
@@ -87,17 +88,23 @@ Rappelons que la critique est garante d’un système politique pluraliste, cela
 Qui a permis un tour de force, fruit de l’inquiétude de nombreux défenseurs des libertés publiques. 
 
 > Tout comme pour les régimes autoritaires, tels que la Chine, qui ont de telles pratiques, la France n’a pas à s’enorgueillir d’avoir mis en place de telles mesures. Ces attaques sont intolérables et nous attendons de nos élus qu’ils aient enfin le courage de dénoncer ces agissements et ces projets grotesques.
-Cette façon de faire est une attaque directe contre le peuple, non seulement français mais européen.
+{.is-info}
+
 Ce projet de loi a consacré la possibilité d’activer à tout moment les capteurs suivants de tout appareil connecté jusqu’au sextoy connecté (non ce n’est pas une blague) :
 - Caméras
 - Microphones
 - Matériel de géolocalisation
 
 
-# La loi n°2023-380 du 19 mai 2023 portant diverses dispositions autres que la gestion des JO-2024 [^20], notamment la Vidéo Surveillance Algorithmique, dites « VSA »
+# La loi n°2023-380 du 19 mai 2023  [^20]
 
-Encore une fois la démonstration que les « lois d’exception » finissent par entrer dans le droit commun : ce que nous dénonçons fermement :
+**Portant diverses dispositions autres que la gestion des JO-2024, notamment la Vidéo Surveillance Algorithmique, dites « VSA »**
+
+> Encore une fois la démonstration que les « lois d’exception » finissent par entrer dans le droit commun : ce que nous dénonçons fermement :
+{.is-info}
+
 Cette loi a été présenté aux élus par le biais d’un truchement rhétorique, la définition de la « Démarche d’un individu » : en cherchant à décorréler les déplacements, démarches, comportements des individus (qui font l’objet de la contestation de la VSA) de la notion de biométrie ; argumentant ainsi que les libertés des français sont ainsi respectées, en l’absence de biométrie des visages. Nouveau « mensonge par omission », étant donné que les seules analyses à la fois de votre silhouette et de votre démarche, suffisent à outrepasser le besoin d’une biométrie des visages.
+
 Le ministère des sports a par ailleurs laissé entendre récemment, dans l’émission Dimanche Politique du 24 Septembre 2023 [^21], que cette mesure pourrait être prolongée au-delà de la compétition sportive et au-delà de son statut expérimental.
 
 
@@ -106,22 +113,21 @@ Le ministère des sports a par ailleurs laissé entendre récemment, dans l’é
 Au Titre III, portant sur l’usage d’aéronefs à des fins d’opérations de sécurité intérieure, lors d’événements divers. Loi présentée sous le sacro-saint argument sécuritaire, qui jusque là a avant tout permis de s’attaquer à toute forme de contestation publique, via l’envoi d’amendes pour des supposés « troubles à l’ordre public » lors de manifestations dites des « casserolades ».
 
 > Une nouvelle fois, les instances dirigeantes parviennent à dévoyer l’argument sécuritaire, dans le but d’éviter la contestation toujours plus forte, au regard de la situation de plus en plus catastrophique de la France.
+{.is-info}
 
----
-## Peut-on en déduire que toutes ces mesures portent déjà leurs fruits, d’après quelques enquêtes indépendantes menées par des associations, qui luttent contre les dérives autoritaires ?
+
+# Peut-on en déduire que toutes ces mesures portent déjà leurs fruits, d’après quelques enquêtes indépendantes menées par des associations, qui luttent contre les dérives autoritaires ?
 
 Nous citons un exemple, qui est le résultat le plus criant : 
 
-# Affaire dite du 8 décembre 2020
+## Affaire dite du 8 décembre 2020
 Qui témoigne des fantasmes, d’une hystérisation de la lutte contre les pratiques condamnables, et qui de notre côté inquiète sur les compétences réelles et techniques des services de renseignement.
 
-Services qui dorénavant criminalisent le fait d’avoir des connaissances en informatique comme preuve de l’existence d’« actions conspiratives » [^23] - tribune dans Le Monde présente ici [^24], et dont quelques clés de compréhension sont données sur la version complète de cette présente lettre ouverte [^25].
-
-Nous tentons de vous donner quelques clés de compréhension sur l’état de connaissance actuel des personnes censées nous protéger : 
+Services qui dorénavant criminalisent le fait d’avoir des connaissances en informatique comme preuve de l’existence d’« actions conspiratives » [^23] - tribune dans Le Monde présente ici [^24], et dont quelques clés de compréhension sont données ici :
 1.	**Le « cryptage »** est un abus de langage ici et une erreur de débutant dans le monde de la protection des données. Il s’agit ici plutôt de parler de « chiffrement »... D'ailleurs le cryptage n’aurait aucun sens, car cela induirait la non connaissance de l'élément pour décoder la donnée !
 2.	**Le système « Thor »** n'existe pas. Thor (avec un h – mythologie nordique) serait plutôt « Tor » (sans h – informatique) pour « The Onion Router ». En ce qui concerne l'application « Orboot », celle-ci n'existe pas à notre connaissance ; par contre, « Orbot », oui...
 3.	**Il y a un système d’exploitation ouvert** (une « distribution GNU/Linux » précisément) qui s'appelle « TailsOS », et qui effectivement fonctionne sur la mémoire vive d’un ordinateur. Cet outil permet de dénoncer entre autres des scandales d'État, en sécurisant journalistes, avocats et lanceurs d'alerte. Mais surtout, il peut s’agir également de moyen de protection pour des personnes ayant un « modèle de menaces en ligne » élevé : comme par exemple des personnes qui travaillent dans sur des projets numériques gouvernementaux, ou sur des projets critiques (que ce soit pour des « Organisme d’Intérêts Vitaux » ou des projets à forts enjeux nationaux) et qui craignent une intrusion dans leur vie numérique, aux conséquences dommageables. En revanche, TailsOS ne fonctionne pas avec les processeurs mobiles dits « ARM » : on ne peut donc pas charger ce système sur un smartphone comme il a pu être écrit par ces services !
-4.	**Le système nommé « /e/OS »** est un système d’exploitation pour smartphone, basé sur Android (Google). Il n’est en aucun cas un système créé pour la « clandestinité ». Ce système d’exploitation tente de limiter la télémétrie et la revente massive des données personnelles [^26], puisque la législation est bien timide pour protéger les données personnelles des concitoyens. Ce système d’exploitation est le fruit d’une organisation à but non lucratif, organisation reconnue association loi 1901 par l’État français depuis avril 2018 [^27] ; son développement a pignon sur rue et n’est pas issu d’un recoin sombre du web anonyme. La fondation à son origine n’a jamais cautionné ni soutenu une quelconque activité séditieuse, et devrait faire l’objet de fierté nationale, au vu de l’aspect innovant du projet porté par son fondateur.
+4.	**Le système nommé « /e/OS »** est un système d’exploitation pour smartphone, basé sur Android (Google). Il n’est en aucun cas un système créé pour la « clandestinité ». Ce système d’exploitation tente de limiter la télémétrie et la revente massive des données personnelles [^25], puisque la législation est bien timide pour protéger les données personnelles des concitoyens. Ce système d’exploitation est le fruit d’une organisation à but non lucratif, organisation reconnue association loi 1901 par l’État français depuis avril 2018 [^26] ; son développement a pignon sur rue et n’est pas issu d’un recoin sombre du web anonyme. La fondation à son origine n’a jamais cautionné ni soutenu une quelconque activité séditieuse, et devrait faire l’objet de fierté nationale, au vu de l’aspect innovant du projet porté par son fondateur.
 5.	**L’application Signal** et toutes les solutions citées sont des logiciels grand public, facilement accessibles, et qui n'ont pas besoin d'être téléchargés dans des recoins obscurs de l’internet. Signal est d'ailleurs recommandé pour certains agents du service public, au même titre qu’Olvid. Ces agents du service public se caractériseraient-ils « tous par leur culte du secret et l’obsession d’une discrétion tant dans leurs échanges, que dans leurs navigations sur internet » ? Si oui, pourquoi ne pas leur apporter le même traitement ?
 
 Pour rappel, le chiffrement sert à protéger les données, qu’elles soient en transit sur un réseau ou stockées sur un disque dur, protégé du vol physique ou virtuel. Se protéger des attaques de plus en plus sophistiquées de réels criminels numériques ne fait pas de la personne un séditieux ou un criminel !
@@ -129,7 +135,7 @@ Pour rappel, le chiffrement sert à protéger les données, qu’elles soient en
 > Cette affaire est très grave et montre deux choses : 
 > **(i)** que notre service de renseignement français DGSI n’est pas à la hauteur des enjeux dans ce monde numérique, qu’il aura du mal à protéger nos compatriotes avec ce niveau, et qu’il est temps qu’ils reçoivent une formation adéquate et solide en cybersécurité.
 > **(ii)** qu’il est tout à fait possible pour des personnes avec un certain pouvoir de dévoyer les lois. Lois mises en place au départ pour protéger les citoyens, mais qui au final desservent lesdits citoyens, bien plus que les réels criminels et terroristes.
-
+{.is-info}
 
 
 ---
@@ -140,10 +146,13 @@ Dans l’optique de rester concis mais exhaustif, et non partisan, nous tenons �
 
 Notons cependant qu’aucune de ces mesures n’engage la liberté d’expression des citoyens, et visent avant tout la libre concurrence et le marché économique.
 
-Nous tenons également à féliciter les maires qui se sont déjà ancrés localement dans l’adoption de logiciels éthiques à sources ouvertes, montrant ainsi leur soutien au mouvement du logiciel libre et open source. La liste des mairies concernées est disponible ici [^28].
+Nous tenons également à féliciter les maires qui se sont déjà ancrés localement dans l’adoption de logiciels éthiques à sources ouvertes, montrant ainsi leur soutien au mouvement du logiciel libre et open source. La liste des mairies concernées est disponible ici [^27].
 
-Néanmoins, quelques mesures positives ne sauraient annuler une vague de mesures déphasées, décidées en l’absence de concertation, et des experts du domaine, et des français. Cela ne saurait justifier la nature profondément liberticide et anti-républicaine de toutes les lois précédemment mentionnées et celles à venir. Car nous voyons bien ici que l’espace appartenant aux populations, lié à des usages numérisés (« en ligne » comme « hors ligne »), est attaqué de toutes parts et cela s’accélère, faisant fi de toute les objections de la population et en particulier d’experts des secteurs visés, et au nom du sempiternelle risque terroriste ou criminel. Rappelons un adage :
-« si je veux faire piquer mon chien, je dis qu’il a la rage »
+---
+Néanmoins, quelques mesures positives ne sauraient annuler une vague de mesures déphasées, décidées en l’absence de concertation, et des experts du domaine, et des français. Cela ne saurait justifier la nature profondément liberticide et anti-républicaine de toutes les lois précédemment mentionnées et celles à venir. Car nous voyons bien ici que l’espace appartenant aux populations, lié à des usages numérisés (« en ligne » comme « hors ligne »), est attaqué de toutes parts et cela s’accélère, faisant fi de toute les objections de la population et en particulier d’experts des secteurs visés, et au nom du sempiternelle risque terroriste ou criminel. 
+
+> Rappelons un adage :
+> « *si je veux faire piquer mon chien, je dis qu’il a la rage* »
 
 Ce qui est sûr c’est que la mise en place de ces divers outils, s’ils sont mis en œuvre, ouvrent la voix aux successeurs pour exercer une pression « numérique » sur leurs concitoyens de plus en plus importante, si et quand bon leur semble... L’autoritarisme, qu’il soit matérialisé ou numérique ne serait finalement plus réservé qu’à quelques pays autoritaires, si souvent pointés du doigt.
 
@@ -154,7 +163,7 @@ Aussi, nous en appelons au bon sens républicain des élus, s’il en est, et le
 Avec nos salutations républicaines et fraternelles.
 
 > _Extrait du Préambule de la Constitution Française de 1789 :_
-> "*Les représentants du peuple français, constitués en Assemblée nationale, considérant que l'ignorance, l'oubli ou le mépris des droits de l'homme sont les seules causes des malheurs publics et de la corruption des gouvernements [...]*"  [^29]
+> « *Les représentants du peuple français, constitués en Assemblée nationale, considérant que l'ignorance, l'oubli ou le mépris des droits de l'homme sont les seules causes des malheurs publics et de la corruption des gouvernements [...]* » [^28]
 
 
 [^1]: Indication
@@ -185,4 +194,3 @@ Avec nos salutations républicaines et fraternelles.
 [^26]: Indication
 [^27]: Indication
 [^28]: Indication
-[^29]: Indication
