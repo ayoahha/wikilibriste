@@ -1,14 +1,13 @@
 ---
 title: Notre Manifeste...
-description: 
+description: A l’attention de la population et aux représentants élus de la république française concernant les divers projets de lois en lien avec le numérique
 published: true
-date: 2023-11-11T15:52:01.124Z
+date: 2023-11-11T16:39:42.136Z
 tags: manifeste
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
 ---
 
-### Objet : à l’attention de la population et aux représentants élus de la république française concernant les divers projets de lois en lien avec le numérique.
 
 Madame, Monsieur,
 
