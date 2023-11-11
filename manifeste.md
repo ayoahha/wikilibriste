@@ -1,8 +1,8 @@
 ---
 title: Manifeste
 description: 
-published: false
-date: 2023-11-11T15:44:11.489Z
+published: true
+date: 2023-11-11T15:44:23.961Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
