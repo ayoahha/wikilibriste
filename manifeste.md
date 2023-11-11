@@ -2,7 +2,7 @@
 title: Manifeste
 description: 
 published: false
-date: 2023-11-11T14:39:46.785Z
+date: 2023-11-11T15:05:17.982Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
@@ -127,7 +127,7 @@ Services qui dorénavant criminalisent le fait d’avoir des connaissances en in
 1.	**Le « cryptage »** est un abus de langage ici et une erreur de débutant dans le monde de la protection des données. Il s’agit ici plutôt de parler de « chiffrement »... D'ailleurs le cryptage n’aurait aucun sens, car cela induirait la non connaissance de l'élément pour décoder la donnée !
 2.	**Le système « Thor »** n'existe pas. Thor (avec un h – mythologie nordique) serait plutôt « Tor » (sans h – informatique) pour « The Onion Router ». En ce qui concerne l'application « Orboot », celle-ci n'existe pas à notre connaissance ; par contre, « Orbot », oui...
 3.	**Il y a un système d’exploitation ouvert** (une « distribution GNU/Linux » précisément) qui s'appelle « TailsOS », et qui effectivement fonctionne sur la mémoire vive d’un ordinateur. Cet outil permet de dénoncer entre autres des scandales d'État, en sécurisant journalistes, avocats et lanceurs d'alerte. Mais surtout, il peut s’agir également de moyen de protection pour des personnes ayant un « modèle de menaces en ligne » élevé : comme par exemple des personnes qui travaillent dans sur des projets numériques gouvernementaux, ou sur des projets critiques (que ce soit pour des « Organisme d’Intérêts Vitaux » ou des projets à forts enjeux nationaux) et qui craignent une intrusion dans leur vie numérique, aux conséquences dommageables. En revanche, TailsOS ne fonctionne pas avec les processeurs mobiles dits « ARM » : on ne peut donc pas charger ce système sur un smartphone comme il a pu être écrit par ces services !
-4.	**Le système nommé « /e/OS »** est un système d’exploitation pour smartphone, basé sur Android (Google). Il n’est en aucun cas un système créé pour la « clandestinité ». Ce système d’exploitation tente de limiter la télémétrie et la revente massive des données personnelles [^25], puisque la législation est bien timide pour protéger les données personnelles des concitoyens. Ce système d’exploitation est le fruit d’une organisation à but non lucratif, organisation reconnue association loi 1901 par l’État français depuis avril 2018 [^26] ; son développement a pignon sur rue et n’est pas issu d’un recoin sombre du web anonyme. La fondation à son origine n’a jamais cautionné ni soutenu une quelconque activité séditieuse, et devrait faire l’objet de fierté nationale, au vu de l’aspect innovant du projet porté par son fondateur.
+4.	**Le système nommé « /e/OS »** est un système d’exploitation pour smartphone, basé sur Android (Google). Il n’est en aucun cas un système créé pour la « clandestinité ». Ce système d’exploitation tente de limiter la télémétrie et la revente massive des données personnelles [^25], puisque la législation est bien timide pour protéger les données personnelles des concitoyens. Ce système d’exploitation est le fruit d’une organisation à but non lucratif, organisation reconnue association loi 1901 par l’État français depuis Juin 2018 [^26] ; son développement a pignon sur rue et n’est pas issu d’un recoin sombre du web anonyme. La fondation à son origine n’a jamais cautionné ni soutenu une quelconque activité séditieuse, et devrait faire l’objet de fierté nationale, au vu de l’aspect innovant du projet porté par son fondateur.
 5.	**L’application Signal** et toutes les solutions citées sont des logiciels grand public, facilement accessibles, et qui n'ont pas besoin d'être téléchargés dans des recoins obscurs de l’internet. Signal est d'ailleurs recommandé pour certains agents du service public, au même titre qu’Olvid. Ces agents du service public se caractériseraient-ils « tous par leur culte du secret et l’obsession d’une discrétion tant dans leurs échanges, que dans leurs navigations sur internet » ? Si oui, pourquoi ne pas leur apporter le même traitement ?
 
 Pour rappel, le chiffrement sert à protéger les données, qu’elles soient en transit sur un réseau ou stockées sur un disque dur, protégé du vol physique ou virtuel. Se protéger des attaques de plus en plus sophistiquées de réels criminels numériques ne fait pas de la personne un séditieux ou un criminel !
@@ -166,31 +166,31 @@ Avec nos salutations républicaines et fraternelles.
 > « *Les représentants du peuple français, constitués en Assemblée nationale, considérant que l'ignorance, l'oubli ou le mépris des droits de l'homme sont les seules causes des malheurs publics et de la corruption des gouvernements [...]* » [^28]
 
 
-[^1]: Indication
-[^2]: Indication
-[^3]: Indication
-[^4]: Indication
-[^5]: Indication
-[^6]: Indication
-[^7]: Indication
-[^8]: Indication
-[^9]: Indication
-[^10]: Indication
-[^11]: Indication
-[^12]: Indication
-[^13]: Indication
-[^14]: Indication
-[^15]: Indication
-[^16]: Indication
-[^17]: Indication
-[^18]: Indication
-[^19]: Indication
-[^20]: Indication
-[^21]: Indication
-[^22]: Indication
-[^23]: Indication
-[^24]: Indication
-[^25]: Indication
-[^26]: Indication
-[^27]: Indication
-[^28]: Indication
+[^1]: [](https://www.assemblee-nationale.fr/dyn/16/amendements/1514/ESPNUM/553.pdf)
+[^2]: [](https://www.ssi.gouv.fr/guide/recommandations-sur-le-nomadisme-numerique/)
+[^3]: [](https://www.ssi.gouv.fr/uploads/2018/04/anssi-guide-admin_securisee_si_v3-0.pdf)
+[^4]: [](https://france3-regions.francetvinfo.fr/occitanie/haute-garonne/toulouse/le-probleme-quand-on-ne-maitrise-pas-son-sujet-c-est-que-cela-se-voit-comment-un-hacker-ethique-passe-au-crible-la-loi-sur-internet-2842799.html)
+[^5]: [](https://www.softwaretestinghelp.com/are-vpns-legal-or-illegal/)
+[^6]: [](https://www.assemblee-nationale.fr/dyn/16/textes/l16b1514_projet-loi#D_Article_6)
+[^7]: [](https://blog.mozilla.org/netpolicy/2023/06/27/francaise-bloquer-sites/)
+[^8]: [](https://foundation.mozilla.org/fr/campaigns/sign-our-petition-to-stop-france-from-forcing-browsers-like-mozillas-firefox-to-censor-websites/)
+[^9]: [](https://www.assemblee-nationale.fr/dyn/16/amendements/1514/ESPNUM/597)
+[^10]: [](http://www.ohchr.org/EN/HRBodies/HRC/RegularSessions/Session29/Documents/A.HRC.29.32_AEV.doc)
+[^11]: [Cyber Resilience Act](https://digital-strategy.ec.europa.eu/fr/library/cyber-resilience-act)
+[^12]: [](https://www.april.org/le-cyber-resilience-act-une-epee-de-damocles-sur-le-logiciel-libre)
+[^13]: [](https://cnll.fr/news/cyber-resilience-act-union-europ%C3%A9enne-menace-logiciel-libre/)
+[^14]: [](https://cnll.fr/static/pdf/cra-lettre-ouverte.pdf)
+[^15]: [](https://www.senat.fr/leg/pjl20-672.html)
+[^16]: [](https://www.laquadrature.net/2021/06/15/loi-renseignement-2-refuser-lemballement-securitaire/)
+[^17]: [](https://www.voxpublic.org/Un-courrier-pour-demander-aux-parlementaires-de-ne-pas-adopter-la-loi-anti.html)
+[^18]: [](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042031970)
+[^19]: [](https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000047538699/)
+[^20]: [](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047561974)
+[^21]: [](https://www.francetvinfo.fr/replay-magazine/france-3/dimanche-en-politique/dimanche-en-politique-avec-amelie-oudea-castera_6045800.htmlhttps://www.francetvinfo.fr/replay-magazine/france-3/dimanche-en-politique/dimanche-en-politique-avec-amelie-oudea-castera_6045800.html)
+[^22]: [](https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000043806985/?detailType=CONTENU&detailId=1)
+[^23]: [](https://www.laquadrature.net/2023/06/05/affaire-du-8-decembre-le-chiffrement-des-communications-assimile-a-un-comportement-terroriste/)
+[^24]: [](https://www.lemonde.fr/idees/article/2023/06/14/attaches-aux-libertes-fondamentales-dans-l-espace-numerique-nous-defendons-le-droit-au-chiffrement-de-nos-communications_6177673_3232.html)
+[^25]: [](https://e.foundation/fr/about-e/)
+[^26]: [La e-Foundation - Association Loi 1901](https://www.journal-officiel.gouv.fr/pages/associations-detail-annonce/?q.id=id:201800221335)
+[^27]: [](https://umap.openstreetmap.fr/fr/map/territoire-numerique-libre_171981#6/47.398/6.636)
+[^28]: [](https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789)
