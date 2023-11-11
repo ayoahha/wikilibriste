@@ -2,7 +2,7 @@
 title: Manifeste
 description: 
 published: true
-date: 2023-11-11T15:46:38.498Z
+date: 2023-11-11T15:50:03.677Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
@@ -22,7 +22,9 @@ Visant à sécuriser et réguler l’espace numérique et suivi par bon nombre d
 
 Les RPV, au sens large, sont utilisés couramment par bon nombres d’entreprises afin de sécuriser leurs échanges (intranet mais aussi et surtout inter-sites) y compris lors des investigations (réputation en ligne et détection de menaces éventuelles) réalisées sur lesdits réseaux sociaux. Comme le fait à notre connaissance un partenaire privilégié de l’État, par le biais de ses Centres de Services Mutualisés des Services d’Information (CSMSI), ce qui dans ce cas reviendrait à un « tir ami » !
 
-L’ANSSI fait par ailleurs ses recommandations en faveur de cet outil de sécurisation, dans son guide « Recommandations sur le nomadisme numérique » [^2]. L’administration elle-même dispose de son propre guide, disponible auprès de l’ANSSI [^3], qui mentionne l’usage de RPV dans les contextes de nomadisme et d’administration à distance, directives qui de notre expérience ne sont que trop peu suivies par les administrations. De plus, comme le souligne un de nos confrères dans l’article de France 3 Régions [^4] : les RPV « [sont utilisés] par les forces de l'ordre dans leurs enquêtes, et par tous les professionnels de la cybersécurité. Dans certains pays, ils sont même recommandés pour passer outre la censure ou par mesure de sécurité ».
+L’ANSSI fait par ailleurs ses recommandations en faveur de cet outil de sécurisation, dans son guide « Recommandations sur le nomadisme numérique » [^2]. L’administration elle-même dispose de son propre guide, disponible auprès de l’ANSSI [^3], qui mentionne l’usage de RPV dans les contextes de nomadisme et d’administration à distance, directives qui de notre expérience ne sont que trop peu suivies par les administrations. 
+
+> De plus, comme le souligne un de nos confrères dans l’article de France 3 Régions [^4] : les RPV « *[sont utilisés] par les forces de l'ordre dans leurs enquêtes, et par tous les professionnels de la cybersécurité. Dans certains pays, ils sont même recommandés pour passer outre la censure ou par mesure de sécurité* ».
 
 **Les élus chercheraient-ils à fragiliser l’économie numérique, ainsi que l’administration française ?**
 
