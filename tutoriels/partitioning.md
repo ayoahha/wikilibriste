@@ -2,7 +2,7 @@
 title: Partitionner son disque autrement
 description: Cet article vous présente une façon de partitionner votre disque adapté à Linux
 published: true
-date: 2023-04-02T14:36:04.572Z
+date: 2023-11-13T11:24:35.751Z
 tags: partitionnement
 editor: markdown
 dateCreated: 2023-02-13T17:00:12.797Z
@@ -20,7 +20,7 @@ Voyons comment nous pouvons procéder sur la majorité des distributions GNU/Lin
 Premier élément que nous pouvons scinder de la partition système `/`, le répertoire `/home`. C'est la configuration la plus souvent rencontrée sur PC.
 
 Séparer son "home" peut être utile pour plusieurs raisons :
-- Dans le cadre d'une [sauvegarde/restauration](/tutoriels/sauvegarde) ou en cas de réinstallation complète d'une distribution (peu importe la raison), dans ce cas, nous pourrons garder telle quelle cette partition `/home` et ne réinstaller que la partition racine `/` du système ; très pratique si l'on souhaite ne pas refaire certains fichiers de configuration.
+- Dans le cadre d'une [sauvegarde/restauration](https://wikilibriste.fr/debutant/sauvegarde) ou en cas de réinstallation complète d'une distribution (peu importe la raison), dans ce cas, nous pourrons garder telle quelle cette partition `/home` et ne réinstaller que la partition racine `/` du système ; très pratique si l'on souhaite ne pas refaire certains fichiers de configuration.
 
 > Lors de la réinstallation d'une distribution, si vous gardez la partition `/home`, faites attention à donner le même nom d'utilisateur et mot de passe que l'ancienne distribution. Ceci afin d'éviter des manipulations supplémentaires sur votre HOME (pour rappel : `/home/<nom utilisateur>`).
 {.is-warning}
