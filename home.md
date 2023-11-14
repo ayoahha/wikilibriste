@@ -2,7 +2,7 @@
 title: Bienvenue cher libriste
 description: Tu trouveras sur ce site des tutoriels traitant des logiciels libres ou open-source et de la sécurité informatique
 published: true
-date: 2023-11-11T14:17:34.059Z
+date: 2023-11-14T17:53:21.926Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-24T20:06:27.184Z
@@ -26,7 +26,7 @@ L'idée de ce wiki est de proposer une liste d'articles et de tutoriels pour acc
 > Lire notre [manifeste](/manifeste) qui expose l'actuelle "**dangerosité**" des agissements des différents gouvernements de France mais aussi d'Europe sur le côté législatif et ciblant le monde numérique.
 {.is-success}
 
-# Genèse du Wiki
+# Pourquoi un Wiki ?
 
 Alors que le thème est assez large, nous avons remarqué que le spectre des demandes se cristallisait sur certains points bien précis, que nous avons tenté de factoriser afin de faciliter la découverte de solutions.
 
