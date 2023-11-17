@@ -2,7 +2,7 @@
 title: Bienvenue cher libriste
 description: Tu trouveras sur ce site des tutoriels traitant des logiciels libres ou open-source et de la sécurité informatique
 published: true
-date: 2023-11-14T17:53:21.926Z
+date: 2023-11-17T10:07:16.792Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-24T20:06:27.184Z
@@ -32,7 +32,7 @@ Alors que le thème est assez large, nous avons remarqué que le spectre des dem
 
 L'idée a donc été de **créer un support web adéquat : WikiLibriste**, plutôt que de renvoyer vers l'outil de recherche intégré dans Telegram (et majoritairement oublié voire inconnu de beaucoup).
 
-De l'adresse courriel sécurisée et pertinente à l'installation d'un système pout téléphone alternatif, en passant par l'installation de systèmes libres pour néophytes ou profils avancés, vous trouverez un recueil d'articles et de tutoriels pour **vous aider à retrouver une certaine souveraineté numérique**.
+De l'adresse courriel sécurisée et pertinente à l'installation d'un système pour téléphone alternatif, en passant par l'installation de systèmes libres pour néophytes ou profils avancés, vous trouverez un recueil d'articles et de tutoriels pour **vous aider à retrouver une certaine souveraineté numérique**.
 
 > Ce wiki tend à centraliser, aussi bien des solutions via des outils _libres (voire au moins open-source)_, répondant à des questions précises, que des réflexions ou expérimentations de ses membres (ce sera précisé le cas échéant).
 {.is-info}
