@@ -2,7 +2,7 @@
 title: # La reconnaissance faciale et comment s'en sortir (ou du moins le mieux)
 description: 
 published: true
-date: 2023-11-23T15:30:49.098Z
+date: 2023-11-23T15:33:24.417Z
 tags: reconnaissance, faciale
 editor: markdown
 dateCreated: 2023-11-23T15:03:04.197Z
@@ -21,6 +21,8 @@ C'est un logiciel qui va analyser un visage et chercher un lien pré-existant da
 La vidéo est assez vieille donc ça a du évoluer mais c'est déjà une entrée en matière:
 <https://yt.artemislena.eu/watch?v=189Y7u6moT8>
 
+												----------------
+
 2/ La fiabilité
 Bien que ce soit une technologie qui évolue rapidement en matière d'adaptation, elle a des failles et on en reparlera plus loin.
 
@@ -33,7 +35,9 @@ La liberté d'espionner surtout ! Comme un mouton qui peut courir dans son champ
 
 La police de New York et la Russie de Poutine l'utilisent pour le même motif !
 Lien de Amnesty International: <https://yt.artemislena.eu/watch?v=7VbfB1T1g8A>
+
 											----------------
+                      
 Non défenseur des Gafam, je dois quand même reconnaître que certains ont cessé d'utiliser ce processus de reconnaissance.<https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_reconnaissance_faciale#%C3%89tats-Unis>
 											----------------
 4/ la vitesse d'adaptation
