@@ -2,7 +2,7 @@
 title: La reconnaissance faciale et comment s'en sortir (ou du moins le mieux)
 description: 
 published: false
-date: 2023-11-23T19:51:31.215Z
+date: 2023-11-23T20:00:46.891Z
 tags: reconnaissance, faciale
 editor: markdown
 dateCreated: 2023-11-23T15:03:04.197Z
@@ -16,7 +16,7 @@ Du coup, petit tour d'horizon (mais assez poussé quand même).
 # La reco c'est quoi ?
 C'est un logiciel qui va analyser un visage et chercher un lien pré-existant dans sa base de données. Il peut également émettre (s'il est programmé pour) une alerte. On le retrouve en autres sur les smartphones pour déverrouiller son mobile. Le logiciel regarde le visage et voit s'il correspond à celui enregistré.
 
-La vidéo est assez vieille donc ça a du évoluer mais c'est déjà une entrée en matière:
+La vidéo ci-dessous est assez vieille donc ça a du évoluer mais c'est déjà une entrée en matière:
 <iframe class="frame-style" title="Reconnaissance faciale, comment ça marche ?" src="https://yewtu.be/embed/189Y7u6moT8?t=1" allow="fullscreen; accelerometer; encrypted-media; gyroscope; picture-in-picture" sandbox="allow-same-origin allow-scripts allow-popups" frameborder="0"></iframe>
 
 # La fiabilité
@@ -30,9 +30,10 @@ Au moment où j'écris ça, un politicien vient encore de s'exprimer dessus disa
 La liberté d'espionner surtout ! Comme un mouton qui peut courir dans son champ mais ne peut pas en sortir.
 
 La police de New York et la Russie de Poutine l'utilisent pour le même motif !
-Lien de Amnesty International: <https://yt.artemislena.eu/watch?v=7VbfB1T1g8A>
+La vidéo de Amnesty International:
+<iframe class="frame-style" title="Reconnaissance faciale, comment ça marche ?" src="https://yewtu.be/embed/7VbfB1T1g8A?t=1" allow="fullscreen; accelerometer; encrypted-media; gyroscope; picture-in-picture" sandbox="allow-same-origin allow-scripts allow-popups" frameborder="0"></iframe>
                       
-Non défenseur des Gafam, je dois quand même reconnaître que certains ont cessé d'utiliser ce processus de reconnaissance.<https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_reconnaissance_faciale#%C3%89tats-Unis>
+Non défenseur des Gafam, je dois quand même reconnaître que [certains ont cessé d'utiliser ce processus de reconnaissance](https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_reconnaissance_faciale#%C3%89tats-Unis).
 
 # La vitesse d'adaptation
 Comme indiqué au dessus, par délire totalitaire et glorification du progrès, la reconnaissance faciale évolue vite. S'il y a quelques années, elle ne prenait pas en compte les vêtements ni les cheveux, aujourd'hui, c'est fait à certains endroits.
@@ -49,26 +50,24 @@ Je rappelle que les liens sont donnés à titre indicatif et qu'on décline tout
 Les algorythmes de reconnaissances qui se basent selon des "mesures" entre vos yeux, votre bouche et nez se font parfois dupés par des vêtements avec des yeux ou du maquillage avec des trompe-oeils.
 
 ## La collection IP Privacy conçue par la designer allemande Nicole Scheller propose des robes, vestes et sweats anti-reconnaissance faciale.
-<https://www.notjustalabel.com/nicole-scheller>
-<https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-voici-pulls-anti-reconnaissance-faciale-103008/>
+
+* [Une créatrice : Nicole Scheller](https://www.notjustalabel.com/nicole-scheller)
+* [Les pulls anti-reconnaissance faciale ](https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-voici-pulls-anti-reconnaissance-faciale-103008)
 
 ## Foulards à DEL Infrarouges
-Celles-ci "éblouissent" l'algorythme.
-<https://www.liberties.eu/fr/stories/anti-facial-recognition-mask/43570>
+* [Foulard qui "éblouissent" l'algorythme](https://www.liberties.eu/fr/stories/anti-facial-recognition-mask/43570)
 
 ## Lunettes à LED
-<https://www.reflectacles.com/order/ghost>
-<https://www.privacyglasses.net/fr/news/anti-facial-recognition-solution-disclosed-by-the-media-so-far/>
+* [Reflectacles Ghost](https://www.reflectacles.com/order/ghost)
+* [Anti-facial recognition solution](https://www.privacyglasses.net/fr/news/anti-facial-recognition-solution-disclosed-by-the-media-so-far)
 
 ## Maquillage
-Solution pas forcément pratique d'un point de vue social.
-<https://www.wedemain.fr/inventer/la-mode-peut-elle-nous-proteger-de-la-reconnaissance-faciale_a4340-html/>
+* [Solution pas forcément pratique d'un point de vue social](https://www.wedemain.fr/inventer/la-mode-peut-elle-nous-proteger-de-la-reconnaissance-faciale_a4340-html)
 
 Adam Harvey est un artiste américain qui a développé depuis 2010 des « looks » façon cyberpunk. Ces looks pourraient brouiller les algorithmes.
 Lien à ajouter.
 
-Ce même artiste a même crée Stealth Wear, ligne qui permet d’échapper aux caméras thermiques des drones d’observation. Les vêtements sont fabriqués avec un tissu plaqué argent qui reflète le rayonnement thermique, permettant au porteur d'éviter la surveillance thermique aérienne.
-<https://adam.harvey.studio/stealth-wear/>
+Ce même artiste a même crée [Stealth Wear](https://adam.harvey.studio/stealth-wear), ligne qui permet d’échapper aux caméras thermiques des drones d’observation. Les vêtements sont fabriqués avec un tissu plaqué argent qui reflète le rayonnement thermique, permettant au porteur d'éviter la surveillance thermique aérienne.
 
 ## La simplicité, parfois c'est le plus simple.
 Pas toujours envie de porter des foulards à led ou des masques en silicone.
