@@ -2,7 +2,7 @@
 title: # La reconnaissance faciale et comment s'en sortir (ou du moins le mieux)
 description: 
 published: true
-date: 2023-11-23T15:33:24.417Z
+date: 2023-11-23T15:34:54.011Z
 tags: reconnaissance, faciale
 editor: markdown
 dateCreated: 2023-11-23T15:03:04.197Z
@@ -21,7 +21,7 @@ C'est un logiciel qui va analyser un visage et chercher un lien pré-existant da
 La vidéo est assez vieille donc ça a du évoluer mais c'est déjà une entrée en matière:
 <https://yt.artemislena.eu/watch?v=189Y7u6moT8>
 
-												----------------
+
 
 2/ La fiabilité
 Bien que ce soit une technologie qui évolue rapidement en matière d'adaptation, elle a des failles et on en reparlera plus loin.
@@ -36,16 +36,20 @@ La liberté d'espionner surtout ! Comme un mouton qui peut courir dans son champ
 La police de New York et la Russie de Poutine l'utilisent pour le même motif !
 Lien de Amnesty International: <https://yt.artemislena.eu/watch?v=7VbfB1T1g8A>
 
-											----------------
+
                       
 Non défenseur des Gafam, je dois quand même reconnaître que certains ont cessé d'utiliser ce processus de reconnaissance.<https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_reconnaissance_faciale#%C3%89tats-Unis>
-											----------------
+
+
+
 4/ la vitesse d'adaptation
 Comme indiqué au dessus, par délire totalitaire et glorification du progrès, la reconnaissance faciale évolue vite. S'il y a quelques années, elle ne prenait pas en compte les vêtements ni les cheveux, aujourd'hui, c'est fait à certains endroits.
 Certaines personnes déverrouillaient même leur téléphone avec leur masque FFP2 sur le visage. Flippant !
 
 Vouloir lutter contre un ennemi qui s'adapte indéfiniment relève du combat d'Héraclès face à l'Hydre de Lerne. Mais on peut toujours couper deux, trois têtes à l'Hydre, à défaut de la tuer, ça l'embêtera.
-											----------------
+
+
+
 5/ Les moyens de lutter
 Plusieurs personnes, au nom de la démocratie (la vraie, pas l'actuelle dans laquelle on est), ont inventé des processus, des moyens, des outils pour lutter contre la reconnaissance faciale.
 Ce site référencie les différentes initiatives:
