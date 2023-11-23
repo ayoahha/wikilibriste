@@ -1,8 +1,8 @@
 ---
 title: # La reconnaissance faciale et comment s'en sortir (ou du moins le mieux)
 description: 
-published: true
-date: 2023-11-23T15:34:54.011Z
+published: false
+date: 2023-11-23T15:58:49.561Z
 tags: reconnaissance, faciale
 editor: markdown
 dateCreated: 2023-11-23T15:03:04.197Z
