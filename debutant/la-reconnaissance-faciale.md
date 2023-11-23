@@ -2,7 +2,7 @@
 title: La reconnaissance faciale et comment s'en sortir (ou du moins le mieux)
 description: 
 published: false
-date: 2023-11-23T20:00:46.891Z
+date: 2023-11-23T23:08:49.295Z
 tags: reconnaissance, faciale
 editor: markdown
 dateCreated: 2023-11-23T15:03:04.197Z
@@ -17,7 +17,7 @@ Du coup, petit tour d'horizon (mais assez poussé quand même).
 C'est un logiciel qui va analyser un visage et chercher un lien pré-existant dans sa base de données. Il peut également émettre (s'il est programmé pour) une alerte. On le retrouve en autres sur les smartphones pour déverrouiller son mobile. Le logiciel regarde le visage et voit s'il correspond à celui enregistré.
 
 La vidéo ci-dessous est assez vieille donc ça a du évoluer mais c'est déjà une entrée en matière:
-<iframe class="frame-style" title="Reconnaissance faciale, comment ça marche ?" src="https://yewtu.be/embed/189Y7u6moT8?t=1" allow="fullscreen; accelerometer; encrypted-media; gyroscope; picture-in-picture" sandbox="allow-same-origin allow-scripts allow-popups" frameborder="0"></iframe>
+<iframe class="frame-style" title="Reconnaissance faciale, comment ça marche ?" src="https://invidious.fdn.fr/embed/189Y7u6moT8?t=1" allow="fullscreen; accelerometer; encrypted-media; gyroscope; picture-in-picture" sandbox="allow-same-origin allow-scripts allow-popups" frameborder="0"></iframe>
 
 # La fiabilité
 Bien que ce soit une technologie qui évolue rapidement en matière d'adaptation, elle a des failles et on en reparlera plus loin.
