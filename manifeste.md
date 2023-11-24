@@ -2,7 +2,7 @@
 title: Notre Manifeste...
 description: A l’attention de la population et aux représentants élus de la république française concernant les divers projets de lois en lien avec le numérique
 published: true
-date: 2023-11-24T10:35:23.585Z
+date: 2023-11-24T11:07:57.827Z
 tags: manifeste
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
@@ -10,7 +10,7 @@ dateCreated: 2023-11-02T10:30:20.382Z
 
 *Le 14 Octobre 2023*
 
-Cher tous,
+Chers tous,
 
 Les décisions relatives au numérique ne semblent souvent pas avoir la primauté des français, de par l’apparence technique de ce milieu, et les préoccupations telles que le pouvoir d’achat comme priorité immédiate.
 
