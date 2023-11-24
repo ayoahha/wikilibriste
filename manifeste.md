@@ -2,7 +2,7 @@
 title: Notre Manifeste...
 description: A l’attention de la population et aux représentants élus de la république française concernant les divers projets de lois en lien avec le numérique
 published: true
-date: 2023-11-24T11:07:57.827Z
+date: 2023-11-24T11:48:36.271Z
 tags: manifeste
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
@@ -126,7 +126,7 @@ Loi pourtant dénoncée de toutes parts comme par exemple dans un billet de la Q
 > Cela laisse néanmoins songeur.
 {.is-info}
 
-Rappelons, à toute fins utiles, que la critique est garante d’un système politique pluraliste. Cela ne constitue en rien un acte haineux. Émettre, à travers la critique, la volonté d’améliorer les institutions ne constituant ni volonté de nuire, ni volonté de déstabiliser celles-ci.
+Rappelons, à toutes fins utiles, que la critique est garante d’un système politique pluraliste. Cela ne constitue en rien un acte haineux. Émettre, à travers la critique, la volonté d’améliorer les institutions ne constituant ni volonté de nuire, ni volonté de déstabiliser celles-ci.
 
 ### L’article 3 LOPM 2023-2027 [^19]
 
