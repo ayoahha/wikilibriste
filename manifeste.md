@@ -2,7 +2,7 @@
 title: Notre Manifeste...
 description: A l’attention de la population et aux représentants élus de la république française concernant les divers projets de lois en lien avec le numérique
 published: true
-date: 2023-11-25T07:03:24.447Z
+date: 2023-11-25T07:06:42.609Z
 tags: manifeste
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
@@ -198,7 +198,8 @@ Dans l’optique de rester concis mais exhaustif, et non partisan, nous tenons �
 
 > Notons cependant qu’aucune de ces mesures n’engage la liberté d’expression des citoyens, et visent avant tout la libre concurrence et le marché économique.
 
-> Nous tenons également à féliciter les maires qui se sont déjà ancrés localement dans l’adoption de logiciels éthiques à sources ouvertes, montrant ainsi leur soutien au mouvement du logiciel libre et open source. La liste des mairies concernées est disponible ici [^27].
+> Nous tenons également à féliciter les maires qui se sont déjà ancrés localement dans l’adoption de logiciels éthiques à sources ouvertes, montrant ainsi leur soutien au mouvement du logiciel libre et open source.
+> La liste des mairies concernées est disponible ici [^27].
 {.is-success}
 
 # Pour conclure
@@ -229,7 +230,8 @@ Avec nos salutations républicaines et fraternelles.
 [^5]: [Les pays qui appliquent un blocage ou une restriction sur les VPN](https://www.softwaretestinghelp.com/are-vpns-legal-or-illegal/)
 [^6]: [Article 6 Projet de loi n°1514](https://www.assemblee-nationale.fr/dyn/16/textes/l16b1514_projet-loi#D_Article_6)
 [^7]: [Billet du 27 juin 2023 de la fondation Mozilla](https://blog.mozilla.org/netpolicy/2023/06/27/francaise-bloquer-sites/)
-[^8]: [Pétition](https://foundation.mozilla.org/fr/campaigns/sign-our-petition-to-stop-france-from-forcing-browsers-like-mozillas-firefox-to-censor-websites/)
+[^8]: [Pétition Mozilla p
+our empêcher la France d’obliger les navigateurs web à censurer des sites Internet](https://foundation.mozilla.org/fr/campaigns/sign-our-petition-to-stop-france-from-forcing-browsers-like-mozillas-firefox-to-censor-websites/)
 [^9]: [Amendement n°CS597 au Projet de loi 1514](https://www.assemblee-nationale.fr/dyn/16/amendements/1514/ESPNUM/597)
 [^10]: [Rapporteur spécial M. David Kaye - Livrable](http://www.ohchr.org/EN/HRBodies/HRC/RegularSessions/Session29/Documents/A.HRC.29.32_AEV.doc)
 [^11]: [Cyber Resilience Act](https://digital-strategy.ec.europa.eu/fr/library/cyber-resilience-act)
