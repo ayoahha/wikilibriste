@@ -2,7 +2,7 @@
 title: Notre Manifeste...
 description: A l’attention de la population et aux représentants élus de la république française concernant les divers projets de lois en lien avec le numérique
 published: true
-date: 2023-11-24T11:48:36.271Z
+date: 2023-11-25T07:03:24.447Z
 tags: manifeste
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
@@ -110,7 +110,7 @@ Nous rappelons que ces logiciels à sources ouvertes sont la base d’une partie
 
 **Relative à la prévention d’actes de terrorisme et au renseignement.**
  
-> Pourtant bien votée, en procédure accélérée, sans que nos élus n’aient intercédé et sans que le peuple n’ait pu débattre réellement du sujet.
+> Votée en procédure accélérée sans que nos élus n’aient intercédé et sans que le peuple n’ait pu débattre réellement du sujet.
 > 
 > Cette façon de faire est une attaque directe contre le peuple, non seulement français mais européen.
 {.is-info}
