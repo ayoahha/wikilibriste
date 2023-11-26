@@ -2,7 +2,7 @@
 title: Debloater son téléphone Android
 description: Ce tutoriel vous montre comment vous pouvez supprimer les logiciels superflus de votre ordiphone préféré
 published: true
-date: 2023-09-10T09:40:40.306Z
+date: 2023-11-26T00:34:25.485Z
 tags: debloat, uad
 editor: markdown
 dateCreated: 2023-02-12T13:37:27.461Z
@@ -36,7 +36,7 @@ De même, il se peut que l'outil ne fonctionne tout simplement pas avec votre mo
 
 > Disclaimer : nous ne pouvons être tenus pour responsables d'un quelconque mal-fonctionnement du téléphone. Il vous appartient de vous documenter suffisamment et de respecter les conseils mentionnés ici.
 > 
-> Il est essentiel de plus de sauvegarder toutes les données personnelles car, dans le cas d'un dysfonctionnement, il pourra être utile de faire une réinitialisation des données ("reset and swipe date", donc pertes des données personnelles, photos, documents, etc.) voire une réinstallation complète du système.
+> Il est essentiel de plus de sauvegarder toutes les données personnelles car, dans le cas d'un dysfonctionnement, il pourra être utile de faire une réinitialisation des données ("reset and wipe data", donc pertes des données personnelles, photos, documents, etc...) voire une réinstallation complète du système.
 > 
 > Veuillez également lire attentivement notre page [Avertissements](/avertissement) et n'hésitez pas à vous faire conseiller auprès de la communauté. 
 {.is-danger}
