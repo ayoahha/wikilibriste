@@ -2,13 +2,19 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2023-09-11T21:23:03.590Z
+date: 2023-11-29T12:09:49.526Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
 ---
 
 # Courriel
+
+> **Vous trouverez ci-après 2 onglets : "Pour débuter" et "Aller plus loin".
+> -- L'onglet "Pour débuter" pour ceux qui ne souhaitent pas de justification ou d'analyse concernant les choix proposés.
+> -- L'onglet "Aller plus loin" pour les personnes désireuses de comprendre nox choix.**
+{.is-warning}
+
 
 # Tabs {.tabset}
 ## Pour débuter
