@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2023-11-29T12:11:19.181Z
+date: 2023-11-30T12:40:20.963Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -310,7 +310,7 @@ Certains vont se demander pourquoi certaines messageries connues n'apparaissent 
 
 - **Wire** : également suisse, Wire a été créée par le fondateur de Skype. L'application est totalement open-source, et utilise les méthodes de chiffrement de Signal. Néanmoins, Wire a un modèle qui ne colle pas avec la philosophie du Libre, la société s'adressant plus particulièrement au monde professionnel qu'au grand public et donc possédant un modèle économique attirant les convoitises. Ici encore, nous ne recommandons pas forcément cette messagerie.
 
-## La cas délicat d'Olvid
+## Le cas délicat d'Olvid
 
 Oui nous ne recommandons pas, à ce jour, l'application française **Olvid**... Beaucoup ici trouveront cette idée farfelue, mais voici nos raisons :
 - Bien que certifiée ANSSI [^¹9] et ayant fait l'objet d'un second audit de sécurité [^²0] (2020), cette application n'est pas totalement à sources ouvertes : seul le protocole de chiffrement et les clients Android/iOS le sont, l'objectif étant de faciliter les audits et bug bounty afin de perfectionner les algorithmes (qui ont été créés de zéro). Mais la partie serveur [^22] est à sources fermées ce qui empêche des experts indépendants de réellement les auditer.
