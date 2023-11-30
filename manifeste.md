@@ -2,7 +2,7 @@
 title: Notre Manifeste...
 description: A l’attention de la population et aux représentants élus de la république française concernant les divers projets de lois en lien avec le numérique
 published: true
-date: 2023-11-30T09:49:09.188Z
+date: 2023-11-30T09:53:43.702Z
 tags: manifeste
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
@@ -23,7 +23,7 @@ Pour autant, les décisions *politiques* relatives à ce secteur ne devraient pa
 > Le but de ce manifeste est de comprendre et/ou (re-)découvrir les enjeux liés à l’accélération du numérique et son élargissement dans tous les pans de la société, ainsi que de la « techno-surveillance » telle que mise en avant par des élus. Comprendre surtout les enjeux, en lien avec les libertés publiques et le respect des intérêts collectifs des citoyens français.
 >
 > Une compréhension que nous espérons être le moteur du changement.
-{.is-info}
+{.is-success}
 
 Ces sujets sont tous détaillés dans les sections à suivre, et liés :
 - Au durcissement de la surveillance de masse, en tous lieux, que l’on soit hors ligne comme en ligne - via drones, porte-feuille d’identité numérique, et intrusion dans l’intimité des français au travers de leurs appareils connectés : **amendement n°CS597 du projet de loi 1514, loi n° 2021-998 du 30 juillet 2021, article 3 du Projet de loi d’orientation et programmation du ministère de la justice 2023-2027, loi n°2023-380 du 19 mai 2023, Article 7 de la loi n° 2022-52 du 24 janvier 2022**.
@@ -223,6 +223,8 @@ Avec nos salutations républicaines et fraternelles.
 
 > _Rappel du Préambule de la Constitution Française de 1789 :_
 > « *Les représentants du peuple français, constitués en Assemblée nationale, considérant que l'ignorance, l'oubli ou le mépris des droits de l'homme sont les seules causes des malheurs publics et de la corruption des gouvernements [...]* » [^28]
+
+Le Collectif Wikilibriste - Colinu.
 
 
 [^1]: [Amendement n°CS553 au Projet de loi n°1514](https://www.assemblee-nationale.fr/dyn/16/amendements/1514/ESPNUM/553.pdf)
