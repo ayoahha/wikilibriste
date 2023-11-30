@@ -2,7 +2,7 @@
 title: Notre Manifeste...
 description: A l’attention de la population et aux représentants élus de la république française concernant les divers projets de lois en lien avec le numérique
 published: true
-date: 2023-11-25T07:07:49.215Z
+date: 2023-11-30T09:24:32.140Z
 tags: manifeste
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
@@ -12,23 +12,17 @@ dateCreated: 2023-11-02T10:30:20.382Z
 
 Chers tous,
 
-Les décisions relatives au numérique ne semblent souvent pas avoir la primauté des français, de par l’apparence technique de ce milieu, et les préoccupations telles que le pouvoir d’achat comme priorité immédiate.
+Souvent, les décisions relatives au numérique ne semblent pas avoir la primauté pour les français, leurs apparences techniques passent après les préoccupations telles que le pouvoir d’achat ou la mobilité. Ce qui est totalement compréhensible.
 
-Ce qui est totalement compréhensible.
-
-Pour autant, les décisions *politiques* relatives à ce secteur ne devraient pas être négligées, au vu du choix dual qui s’offre à nous et à l’heure de l’explosion du numérique : 
-- une société informatisée, garante des libertés ? 
-- Ou un carcan numérique, imposé via des principes, initialement nobles, mais au final dévoyés ?
+Pour autant, les décisions *politiques* relatives à ce secteur ne devraient pas être négligées, au vu du choix suivant qui s’offre à nous et à l’heure de l’explosion du numérique : 
+- une société informatisée, garante des libertés ?
+- **OU**
+- un carcan numérique, imposé via des principes, initialement nobles, mais au final dévoyés ?
 {.grid-list}
 
-Le but de ce manifeste est de comprendre les enjeux liés à l’accélération du numérique, son élargissement dans tous les pans de la société, ainsi que de la « techno-surveillance », tels que mise sur le devant de la scène par des élus. Comprendre surtout les enjeux, en lien avec les libertés publiques et le respect des intérêts collectifs des citoyens français, valeurs inaliénables. Une compréhension que nous espérons être le moteur du changement.
+Le but de ce manifeste est de comprendre et/ou (re-)découvrir les enjeux liés à l’accélération du numérique et son élargissement dans tous les pans de la société. Comprendre surtout les enjeux, en lien avec les libertés publiques et le respect des intérêts collectifs des citoyens français. Une compréhension que nous espérons être le moteur du changement.
 
-Afin de proposer une vue impartiale, nous nous basons sur nos compétences techniques en tant que professionnels du secteur. Compétences que nous mettons en rapport avec notre attachement au respect des valeurs précédemment citées, ainsi qu’à l’éthique, pour présenter à la fois :
-- Les **progrès** réalisés dans le domaine, lorsque c’est le cas (voir les décisions de l’UE valorisées en fin d'article). 
-- Les décisions que nous estimons être des **régressions** à l’encontre des droits élémentaires des citoyens (une majeure partie de cet article, bien malheureusement), voire un changement de paradigme contraire à tout ce contre quoi nos ancêtres se sont battus afin de nous offrir une société libre.
-{.grid-list}
-
-Sur ce dernier point, voici un avant-goût de ce que vous vous apprêtez à (re-)découvrir. Ces sujets sont tous détaillés dans les sections à suivre, et liés :
+Ces sujets sont tous détaillés dans les sections à suivre, et liés :
 - Au durcissement de la surveillance de masse, en tous lieux, que l’on soit hors ligne comme en ligne - via drones, porte-feuille d’identité numérique, et intrusion dans l’intimité des français au travers de leurs appareils connectés : **amendement n°CS597 du projet de loi 1514, loi n° 2021-998 du 30 juillet 2021, article 3 du Projet de loi d’orientation et programmation du ministère de la justice 2023-2027, loi n°2023-380 du 19 mai 2023, Article 7 de la loi n° 2022-52 du 24 janvier 2022**.
 - À l’entrave (directe ou indirecte) faite à l’émancipation numérique des populations : criminalisation d’applications utilisant des technologies qui renforcent la protection des utilisateurs, ostracisation des technologies libres et open source, ainsi que la sécurisation des données (chiffrement, détaillé dans la lettre) : **« Cyber Resilience Act », Affaire dite du 8 décembre 2020**.
 - À la censure de plus en plus prégnante : celle directement au cœur des navigateurs internet, des réseaux sociaux, la volonté d’interdire les outils de protection de la vie privée, fragilisant par la même occasion, sécurité en ligne et liberté d’opinion : **tentative d’amendement n°CS553 au Projet de loi n°1514, Article 6 du Projet de loi n°1514 ; loi n° 2020-766 du 24 juin 2020, dite loi « Avia »**.
