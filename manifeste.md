@@ -2,7 +2,7 @@
 title: Notre Manifeste...
 description: A l’attention de la population et aux représentants élus de la république française concernant les divers projets de lois en lien avec le numérique
 published: true
-date: 2023-11-30T09:27:43.850Z
+date: 2023-11-30T09:28:29.547Z
 tags: manifeste
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
@@ -41,7 +41,7 @@ Ainsi, nous listons les mesures les plus récentes dans ce qui suit :
 
 ## Tentative d’amendement n°CS553 [^1] au Projet de loi n°1514
 
-**Visant à sécuriser et réguler l’espace numérique et suivi par bon nombre de députés, qui traite du sujet des « VPN » ou RPV (Réseau Privé Virtuel), et bien au delà de ce qu’il prétend être réduit aux simples réseaux sociaux.**
+**Cet amendement vise à sécuriser et réguler l’espace numérique, suivi par bon nombre de députés, qui traite du sujet des « VPN » ou RPV (Réseau Privé Virtuel), au delà de ce qu’il prétend être réduit aux simples réseaux sociaux.**
 
 > Amendement certes retiré, ce qui n’empêche pas de revoir un jour ce type de texte et de montrer la totale déconnexion de nombreux élus avec leur population et l’économie de leur pays :
 {.is-info}
