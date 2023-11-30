@@ -2,7 +2,7 @@
 title: Notre Manifeste...
 description: A l’attention de la population et aux représentants élus de la république française concernant les divers projets de lois en lien avec le numérique
 published: true
-date: 2023-11-30T09:28:29.547Z
+date: 2023-11-30T09:29:35.717Z
 tags: manifeste
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
@@ -48,7 +48,7 @@ Ainsi, nous listons les mesures les plus récentes dans ce qui suit :
 
 Les RPV, au sens large, sont utilisés couramment par bon nombres d’entreprises afin de sécuriser leurs échanges (intranet mais aussi et surtout inter-sites) y compris lors des investigations (réputation en ligne et détection de menaces éventuelles) réalisées sur lesdits réseaux sociaux. Comme le fait à notre connaissance un partenaire privilégié de l’État, par le biais de ses Centres de Services Mutualisés des Services d’Information (CSMSI), ce qui dans ce cas reviendrait à un « tir ami ».
 
-Aussi, depuis l’essor du télétravail, cette proposition d’amendement est tout bonnement irréaliste : l’ANSSI fait par ailleurs ses recommandations en faveur de cet outil de sécurisation, dans son guide « Recommandations sur le nomadisme numérique » [^2]. L’administration elle-même dispose de son propre guide, disponible auprès de l’ANSSI [^3], qui mentionne l’usage de RPV dans les contextes de nomadisme et d’administration à distance, directives qui de notre expérience ne sont que trop peu suivies par les administrations.
+Aussi, depuis l’essor du télétravail, cette proposition d’amendement est tout bonnement irréaliste : l’ANSSI fait par ailleurs ses recommandations en faveur de cet outil de sécurisation, dans son guide « Recommandations sur le nomadisme numérique » [^2]. L’administration elle-même dispose de son propre guide, disponible auprès de l’ANSSI [^3]. Ce guide mentionne l’usage de RPV dans les contextes de nomadisme et d’administration à distance. Recommandations qui, de notre expérience, ne sont que trop peu suivies par les administrations.
 
 **Les élus chercheraient-ils à fragiliser l’économie numérique, ainsi que l’administration française ?**
 
