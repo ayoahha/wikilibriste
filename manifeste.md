@@ -2,7 +2,7 @@
 title: Notre Manifeste...
 description: A l’attention de la population et aux représentants élus de la république française concernant les divers projets de lois en lien avec le numérique
 published: true
-date: 2023-11-30T09:29:35.717Z
+date: 2023-11-30T09:30:00.675Z
 tags: manifeste
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
@@ -65,9 +65,9 @@ La France se doit d’être exemplaire face à ces régimes : interdire ou limit
 
 ## Article 6 du Projet de loi n°1514 [^6]
 
-**Visant à sécuriser et réguler l’espace numérique (loi dite SREN), qui tente d’imposer aux développeurs d’applications de navigateur internet, un outil pour bloquer/filtrer des contenus de sites figurant sur une liste fournie par le gouvernement, et annoncés comme étant liés à de la fraude en ligne.**
+**Cet amendement vise à sécuriser et réguler l’espace numérique (loi dite SREN), qui tente d’imposer aux développeurs d’applications de navigateur internet, un outil pour bloquer/filtrer des contenus de sites figurant sur une liste fournie par le gouvernement, et annoncés comme étant liés à de la fraude en ligne.**
 
-> Même si le sujet a été récemment amendé, nous attendons de nos élus et leurs conseillers qu’ils se consacrent à aider nos concitoyens à mieux naviguer sur les réseaux plutôt que de s’aventurer sur un sujet qu’ils ne maîtrisent pas, en appliquant une censure que bon nombres de régimes autoritaires utilisent.
+> Même si le sujet a été récemment amendé, nous attendons de nos élus et leurs conseillers qu’ils se consacrent à aider nos concitoyens à mieux naviguer sur les réseaux plutôt que de s’aventurer sur un sujet qu’ils ne maîtrisent pas, en appliquant une censure que bon nombre de régimes autoritaires utilisent.
 {.is-info}
 
 Cet article a fait l'objet, entre autre, d'un billet publié par le fondation Mozilla (en date du 27 juin 2023 [^7]) ainsi que d’une pétition (en ligne [^8]).
