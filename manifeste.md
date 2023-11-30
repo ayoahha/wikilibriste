@@ -2,7 +2,7 @@
 title: Notre Manifeste...
 description: A l’attention de la population et aux représentants élus de la république française concernant les divers projets de lois en lien avec le numérique
 published: true
-date: 2023-11-30T09:46:45.263Z
+date: 2023-11-30T09:47:46.293Z
 tags: manifeste
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
@@ -101,7 +101,7 @@ Nous nous faisons une fois encore l’écho de bon nombre d’articles publiés 
 
 Nous rappelons que ces logiciels à sources ouvertes sont la base d’une partie non négligeable des logiciels que vous utilisez au quotidien, y compris des logiciels bien connus dont le code source a été fermé. Et que ce secteur d’activité emploie une myriade de techniciens, d’ingénieurs et doctorants qui souvent prennent sur leur temps libre pour améliorer sans cesse ces outils et les sécuriser. Employés qui dans leur cas créent une grande valeur ajoutée à nos sociétés, en plus du côté éthique.
 
-* \* : *Les outils à sources ouvertes sont des outils dont le code source, la "recette de fabrication" du logiciel, est ouverte au public et accessible et auditable gratuitement. L'avantage d'utiliser ce type de logiciel est de savoir ce que fait exactement celui-ci, surtout dans le traitement des données personnelles.*
+* \* : *Les outils à sources ouvertes sont des outils dont le code source, la "recette de fabrication" du logiciel, est ouverte au public et accessible et auditable gratuitement. L'avantage d'utiliser ce type de logiciel est de savoir ce que fait exactement celui-ci, surtout dans le traitement des données personnelles. Au contraire des logiciels à sources fermées, dont nous ne savons pratiquement rien.*
 
 
 ## Allons plus loin...
