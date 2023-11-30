@@ -2,7 +2,7 @@
 title: Notre Manifeste...
 description: A l’attention de la population et aux représentants élus de la république française concernant les divers projets de lois en lien avec le numérique
 published: true
-date: 2023-11-30T09:41:04.750Z
+date: 2023-11-30T09:46:45.263Z
 tags: manifeste
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
@@ -92,7 +92,7 @@ Finalement, l’encadrement annoncé pour cette solution pourrait - si l’envie
 
 ## Les attaques successives sur les outils à sources ouvertes
 
-**Ou logiciel dits « open source », non seulement du gouvernement français actuel, plus largement d’une partie de la classe politique mais aussi d’autres gouvernements européens, dont le point d’orgue est le projet européen « Cyber Resilience Act » [^11].**
+**Ou logiciels dits « open source » **\***, non seulement du gouvernement français actuel, plus largement d’une partie de la classe politique mais aussi d’autres gouvernements européens, dont le point d’orgue est le projet européen « Cyber Resilience Act » [^11].**
 
 > Ces attaques sont intolérables envers les **bénévoles** qui donnent de leur temps (parfois libre) afin de produire et maintenir ces outils et nous attendons de nos élus qu’ils aient enfin le courage de dénoncer ces agissements et ces projets de loi grotesques.
 {.is-info}
@@ -100,6 +100,9 @@ Finalement, l’encadrement annoncé pour cette solution pourrait - si l’envie
 Nous nous faisons une fois encore l’écho de bon nombre d’articles publiés par des personnes plus compétentes que les bureaucrates qui ont proposé ce projet. Par exemple l’APRIL [^12], la CNLL [^13]. Et bien d’autres fondations et associations représentant les travailleurs de ce domaine qui ont publié une lettre ouverte [^14], semble-t-il restées lettre morte !
 
 Nous rappelons que ces logiciels à sources ouvertes sont la base d’une partie non négligeable des logiciels que vous utilisez au quotidien, y compris des logiciels bien connus dont le code source a été fermé. Et que ce secteur d’activité emploie une myriade de techniciens, d’ingénieurs et doctorants qui souvent prennent sur leur temps libre pour améliorer sans cesse ces outils et les sécuriser. Employés qui dans leur cas créent une grande valeur ajoutée à nos sociétés, en plus du côté éthique.
+
+* \* : *Les outils à sources ouvertes sont des outils dont le code source, la "recette de fabrication" du logiciel, est ouverte au public et accessible et auditable gratuitement. L'avantage d'utiliser ce type de logiciel est de savoir ce que fait exactement celui-ci, surtout dans le traitement des données personnelles.*
+
 
 ## Allons plus loin...
 
