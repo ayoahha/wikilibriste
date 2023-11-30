@@ -2,7 +2,7 @@
 title: Notre Manifeste...
 description: A l’attention de la population et aux représentants élus de la république française concernant les divers projets de lois en lien avec le numérique
 published: true
-date: 2023-11-30T09:40:37.197Z
+date: 2023-11-30T09:41:04.750Z
 tags: manifeste
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
@@ -210,7 +210,7 @@ Néanmoins, quelques mesures positives ne sauraient annuler une vague de mesures
 
 Ce qui est sûr c’est que la mise en place de ces divers outils, s’ils sont mis en œuvre, ouvrent la voix aux successeurs pour exercer une pression « numérique » de plus en plus importante sur leurs concitoyens, quand bon leur semble... L’autoritarisme, qu’il soit matérialisé ou numérique ne serait finalement plus réservé qu’à quelques pays autoritaires, si souvent pointés du doigt.
 
-Au vu de ces attaques contre nos libertés, la France et ses élus ne peuvent plus en aucun cas donner des leçons de démocratie et de défense des libertés à quiconque. Nous ne sommes plus légitimes sur la scène internationale, la France se meurt et la complaisance d’une majeure partie de la classe politique l’y aide bien.
+Au vu de ces attaques contre nos libertés, la France et ses élus ne peuvent plus, en aucun cas, donner des leçons de démocratie et de défense des libertés à quiconque. Nous ne sommes plus légitimes sur la scène internationale, la France se meurt et la complaisance d’une majeure partie de la classe politique l’y aide bien.
 
 Aussi, nous en appelons au bon sens républicain des élus, s’il en est, et les exhortons à faire barrage à toute mesure de cette nature, au nom de la sauvegarde de l’état de droit, sans lequel liberté d’expression et pluralisme ne sauraient exister.
 
