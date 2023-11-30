@@ -2,7 +2,7 @@
 title: Notre Manifeste...
 description: A l’attention de la population et aux représentants élus de la république française concernant les divers projets de lois en lien avec le numérique
 published: true
-date: 2023-11-30T09:30:00.675Z
+date: 2023-11-30T09:38:36.311Z
 tags: manifeste
 editor: markdown
 dateCreated: 2023-11-02T10:30:20.382Z
@@ -70,13 +70,13 @@ La France se doit d’être exemplaire face à ces régimes : interdire ou limit
 > Même si le sujet a été récemment amendé, nous attendons de nos élus et leurs conseillers qu’ils se consacrent à aider nos concitoyens à mieux naviguer sur les réseaux plutôt que de s’aventurer sur un sujet qu’ils ne maîtrisent pas, en appliquant une censure que bon nombre de régimes autoritaires utilisent.
 {.is-info}
 
-Cet article a fait l'objet, entre autre, d'un billet publié par le fondation Mozilla (en date du 27 juin 2023 [^7]) ainsi que d’une pétition (en ligne [^8]).
+Cet article a fait l'objet, entre autre, d'un billet publié par la fondation Mozilla (en date du 27 juin 2023 [^7]) ainsi que d’une pétition (en ligne [^8]).
 
 Il est entendu qu’une telle possibilité technique offerte à un gouvernement, permettrait d’ajuster par la suite la norme à sa guise et ôterait tout garde-fou en matière de protection de la liberté d’expression.
 
 ## Amendement n°CS597 [^9] du projet de loi 1514
 
-**Visant à sécuriser et réguler l’espace numérique (loi dite SREN).**
+**Cet amendement vise à sécuriser et réguler l’espace numérique (loi dite SREN).**
 
 > Ce projet de loi est décidemment questionnable : consulter tous les français par voie de référendum sur leur souhait ou non d’adopter cette loi serait une démarche politique louable et courageuse.
 {.is-info}
@@ -97,9 +97,9 @@ Finalement, l’encadrement annoncé pour cette solution pourrait - si l’envie
 > Ces attaques sont intolérables envers les **bénévoles** qui donnent de leur temps (parfois libre) afin de produire et maintenir ces outils et nous attendons de nos élus qu’ils aient enfin le courage de dénoncer ces agissements et ces projets de loi grotesques.
 {.is-info}
 
-Nous nous faisons une fois encore l’écho de bon nombre d’articles publiés par des personnes plus compétentes que les bureaucrates qui ont proposé ce projet. Par exemple l’APRIL [^12], la CNLL [^13]. Et bien d’autres fondations et associations représentant les travailleurs de ce domaine qui vous ont adressé une lettre ouverte [^14], semble-t-il restées lettre morte !
+Nous nous faisons une fois encore l’écho de bon nombre d’articles publiés par des personnes plus compétentes que les bureaucrates qui ont proposé ce projet. Par exemple l’APRIL [^12], la CNLL [^13]. Et bien d’autres fondations et associations représentant les travailleurs de ce domaine qui ont publié une lettre ouverte [^14], semble-t-il restées lettre morte !
 
-Nous rappelons que ces logiciels à sources ouvertes sont la base d’une partie non négligeable des logiciels que vous utilisez au quotidien, y compris vos logiciels privateurs. Et que ce secteur d’activité emploie une myriade de techniciens, d’ingénieurs et doctorants qui souvent prennent sur leur temps libre pour améliorer sans cesse ces outils et les sécuriser. Employés qui dans leur cas créent une grande valeur ajoutée à nos sociétés, en plus du côté éthique.
+Nous rappelons que ces logiciels à sources ouvertes sont la base d’une partie non négligeable des logiciels que vous utilisez au quotidien, y compris des logiciels bien connus dont le code source a été fermé. Et que ce secteur d’activité emploie une myriade de techniciens, d’ingénieurs et doctorants qui souvent prennent sur leur temps libre pour améliorer sans cesse ces outils et les sécuriser. Employés qui dans leur cas créent une grande valeur ajoutée à nos sociétés, en plus du côté éthique.
 
 ## Allons plus loin...
 
@@ -112,7 +112,7 @@ Nous rappelons que ces logiciels à sources ouvertes sont la base d’une partie
 > Cette façon de faire est une attaque directe contre le peuple, non seulement français mais européen.
 {.is-info}
 
-Loi pourtant dénoncée de toutes parts comme par exemple dans un billet de la Quadrature du Net qui nous expose le faits [^16] et également notamment par un courrier regroupant une multitude d'associations, d'avocats, de syndicats et d'universitaires [^17]. 
+Loi pourtant dénoncée de toutes parts comme par exemple dans un billet de la Quadrature du Net qui nous expose les faits [^16] et également notamment par un courrier regroupant une multitude d'associations, d'avocats, de syndicats et d'universitaires [^17]. 
 
 ### La loi n° 2020-766 du 24 juin 2020 [^18]
 
@@ -123,7 +123,7 @@ Loi pourtant dénoncée de toutes parts comme par exemple dans un billet de la Q
 > Cela laisse néanmoins songeur.
 {.is-info}
 
-Rappelons, à toutes fins utiles, que la critique est garante d’un système politique pluraliste. Cela ne constitue en rien un acte haineux. Émettre, à travers la critique, la volonté d’améliorer les institutions ne constituant ni volonté de nuire, ni volonté de déstabiliser celles-ci.
+Rappelons, à toutes fins utiles, que la critique est garante d’un système politique pluraliste. Cela ne constitue en rien un acte haineux. Émettre, à travers la critique, la volonté d’améliorer les institutions ne constituent ni volonté de nuire, ni volonté de déstabiliser celles-ci.
 
 ### L’article 3 LOPM 2023-2027 [^19]
 
@@ -141,7 +141,7 @@ Tout comme pour les régimes autoritaires, tels que la Chine, qui ont de telles 
 
 ### La loi n°2023-380 du 19 mai 2023  [^20]
 
-**Portant diverses dispositions autres que la gestion des JO-2024, notamment la Vidéo Surveillance Algorithmique, dites « VSA ».**
+**Cette loi porte diverses dispositions autres que la gestion des JO-2024, notamment la Vidéo Surveillance Algorithmique, dites « VSA ».**
 
 > Encore une fois la démonstration que les « lois d’exception » finissent par entrer dans le droit commun : ce que nous dénonçons fermement.
 {.is-info}
@@ -161,19 +161,21 @@ Le ministère des sports a par ailleurs laissé entendre récemment, dans l’é
 Au Titre III, portant sur l’usage d’aéronefs à des fins d’opérations de sécurité intérieure, lors d’événements divers. Loi présentée sous le sacro-saint argument sécuritaire, qui jusque là a avant tout permis de s’attaquer à toute forme de contestation publique, via l’envoi d’amendes pour des supposés « troubles à l’ordre public » lors de manifestations dites des « casserolades ».
 
 
-# Peut-on en déduire que toutes ces mesures portent déjà leurs fruits, d’après quelques enquêtes indépendantes menées par des associations, qui luttent contre les dérives autoritaires ?
+# Peut-on en déduire que toutes ces mesures portent déjà leurs fruits ?
 
-Nous citons un exemple, qui est le résultat le plus criant : 
+Nous citons un exemple, issue d'enquêtes indépendantes menées par des associations, qui luttent contre les dérives autoritaires.
+
+Cet exemple est le résultat le plus criant : 
 
 ## Affaire dite du 8 décembre 2020
-Qui témoigne des fantasmes, d’une hystérisation de la lutte contre les pratiques condamnables, et qui de notre côté inquiète sur les compétences réelles et techniques des services de renseignement.
+Qui témoigne des fantasmes, d’une hystérisation de la lutte contre les pratiques condamnables, et qui, de notre côté, inquiète sur les compétences réelles et techniques des services de renseignements intérieurs.
 
 > Cette affaire est très grave et montre deux choses : 
 > **(i)** que notre service de renseignement français DGSI n’est pas à la hauteur des enjeux dans ce monde numérique, qu’il aura du mal à protéger nos compatriotes avec ce niveau, et qu’il est temps qu’ils reçoivent une formation adéquate et solide en cybersécurité.
 > **(ii)** qu’il est tout à fait possible pour des personnes avec un certain pouvoir de dévoyer les lois. Lois mises en place au départ pour protéger les citoyens, mais qui au final desservent lesdits citoyens, bien plus que les réels criminels et terroristes.
 {.is-info}
 
-Services qui donc dorénavant criminalisent le fait d’avoir des connaissances en informatique comme preuve de l’existence d’« actions conspiratives » [^23]. Cette analyse dont la QDN se fait l'écho représente un point d'interrogation sérieux ! Nous tentons de donner quelques clés de compréhension :
+Ces services qui dorénavant criminalisent le fait d’avoir des connaissances en informatique comme preuve de l’existence d’« actions conspiratives » [^23]. Cette analyse dont la QDN se fait l'écho représente un point d'interrogation sérieux ! Nous tentons de donner quelques clés de compréhension :
 
 1.	**Le « cryptage »** (comme mentionné par les services) est un abus de langage ici et une erreur de débutant dans le monde de la protection des données. Il s’agit ici plutôt de parler de « chiffrement »... D'ailleurs le cryptage n’aurait aucun sens, car cela induirait la non connaissance de l'élément pour décoder la donnée !
 2.	**Le système « Thor »**  (comme mentionné par les services) n'existe pas. Thor (avec un h – mythologie nordique) serait plutôt « Tor » (sans h – informatique) pour « The Onion Router ». En ce qui concerne l'application « Orboot », celle-ci n'existe pas à notre connaissance ; par contre, « Orbot », oui...
