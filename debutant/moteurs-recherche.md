@@ -2,7 +2,7 @@
 title: Les moteurs de recherche
 description: Article liés aux moteurs de recherche internet et le côté respect de la vie privée...
 published: true
-date: 2023-12-02T11:46:38.880Z
+date: 2023-12-02T11:49:29.086Z
 tags: privacy, vie privée, moteurs, recherche, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:45:28.462Z
@@ -94,7 +94,7 @@ Après avoir exposé l'enveloppe, voyons ce qu'elle contient :
 - Lorsque nous regardons leur politique de vie privée [^⁹], nous lisons ceci : "*Vous pouvez rechercher 'bar autour de moi' Brave Search utilisera l'adresse IP transmise par votre équipement mais sans la partager ni la stocker. Cela signifie que nous ne pouvons pas rapprocher votre recherche à vous même ou avoir votre localisation.*" Rien de plus n'est dit sur une quelconque collecte de données. Super ! Sauf qu'une page bien particulière, nommée 'usage metrics' [^¹0] est présente et fait état de ceci :
 
 [^⁷]: [Brave - Privacy](https://search.brave.com/help/independence)
-[^⁸]: [Brave Ads](https://brave.com/private-search-ads/)
+[^⁸]: [Brave - Publicité](https://brave.com/private-search-ads/)
 [^⁹]: [Brave - Politique de Vie Privée](https://search.brave.com/help/privacy-policy)
 [^¹0]: [Brave - Données stockées](https://search.brave.com/help/usage-metrics)
 
@@ -134,10 +134,12 @@ Avons-nous besoin réellement d'aller plus loin ? Tentons-un coup d'oeil à leur
 [^¹4]: [Le moteur de recherche](https://www.ouest-france.fr/high-tech/huawei/le-moteur-de-recherche-francais-qwant-finance-par-huawei-pourquoi-cette-alliance-interroge-a9780406-cddc-11eb-baa9-ef1451863c79) français qwant financé par Huawei
 [^¹5]: [Pour tout comprendre](https://www.leprogres.fr/france-monde/2019/09/23/pour-tout-comprendre-des-polemiques-autour-de-qwant) des polémiques autour de qwant
 
-> L'adresse IP, le user-agent et les mots clefs de la recherche sont donc transmis : cela fait tout de même beaucoup. Ainsi nous ne recommandons par ce moteur de recherche bien entendu. Qui plus est, eux aussi ont sombré dans la censure [^¹6].
+> L'adresse IP, le user-agent et les mots clefs de la recherche sont donc transmis : cela fait tout de même beaucoup. Ainsi nous ne recommandons par ce moteur de recherche bien entendu.
+> Qui plus est, eux aussi ont sombré dans la censure [^¹6].
 {.is-danger}
 
-[^¹6]: [Qwant censure](https://nitter.snopyta.org/QwantCom/status/1498755728877801472#m)
+[^¹6]: [Qwant censure](https://twitter.com/QwantCom/status/1498755728877801472)
+
 
 ### Mention médiocre
 
