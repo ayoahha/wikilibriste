@@ -2,7 +2,7 @@
 title: Les moteurs de recherche
 description: Article liés aux moteurs de recherche internet et le côté respect de la vie privée...
 published: true
-date: 2023-10-30T07:12:10.443Z
+date: 2023-12-02T11:46:38.880Z
 tags: privacy, vie privée, moteurs, recherche, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:45:28.462Z
@@ -82,7 +82,7 @@ Très récemment (Mars 2022), DDG a annoncé appliquer une censure sur les résu
 
 [^⁴]: [Stockage des requêtes](https://techcrunch.com/2006/08/06/aol-proudly-releases-massive-amounts-of-user-search-data/) de recherches.
 [^⁵]: [Data anonymization](https://spreadprivacy.com/data-anonymization/), par DuckDuckgo.
-[^⁶]: [Censure](https://nitter.snopyta.org/yegg/status/1501716484761997318#m).
+[^⁶]: [DDG et la Censure](https://www.developpez.com/actu/331759/DuckDuckGo-procede-au-deferencement-des-sites-qui-seraient-associes-a-la-desinformation-russe-mais-certains-utilisateurs-crient-a-la-censure-et-demandent-au-moteur-de-recherche-de-revoir-son-action/).
 
 > DuckDuckGo a annoncé avoir pris des mesures concernant la télémétrie. Cela dit depuis la mise en place de leur politique de censure, et l'évolution négative de leur politique de collecte de données, nous ne recommandons plus ce moteur de recherche.
 {.is-danger}
