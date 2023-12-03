@@ -2,7 +2,7 @@
 title: Les navigateurs web
 description: Un article liés aux navigateurs internet et leur durcissement...
 published: true
-date: 2023-11-03T12:28:20.308Z
+date: 2023-12-03T19:15:59.602Z
 tags: navigateur, web, internet, privacy, vie privée, chrome, firefox, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:38:25.687Z
@@ -56,7 +56,7 @@ Le marché des navigateurs suit un peu sur le même chemin que les moteurs de re
 | Links | Twibright Labs | GNU/Linux<br>Windows<br>MacOS<br> | Terminal Text | Libre GPL2 | Oui |  Depuis les dépôts | Navigateur en mode texte, parfait sur un serveur. Il permet de naviguer en couleur, télécharger en HTTP, HTTPS et FTP. |
 {.dense}
 
-[^3]: [Brave Browser](https://www.reddit.com/r/privacytoolsIO/comments/gytwmd/brave_browser_privacytoolsio_and_the_negativity/) discussions sur ses point négatifs
+[^3]: [Brave Browser  -discussions sur ses points négatifs](https://www.reddit.com/r/privacytoolsIO/comments/gytwmd/brave_browser_privacytoolsio_and_the_negativity/)
 [^4]: [Pourquoi Brave est-il décrié?](https://www.reddit.com/r/privacytoolsIO/comments/i7tfgp/why_is_there_a_negative_stigma_against_brave/)
 [^5]: [Brave Browser Controversies](https://wikiless.org/wiki/Brave_(web_browser)#Controversies)
 [^6]: [Brave Browser Analysis](https://spyware.neocities.org/articles/brave)
