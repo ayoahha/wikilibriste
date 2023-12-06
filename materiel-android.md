@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Android
 description: Où trouver du matériel Android - vous trouverez ici des solutions...
 published: true
-date: 2023-12-06T09:21:48.795Z
+date: 2023-12-06T09:23:19.348Z
 tags: android, materiel
 editor: markdown
 dateCreated: 2023-02-14T11:18:41.344Z
@@ -25,6 +25,9 @@ Voilà pourquoi certaines entreprises sélectionnent du matériel (qu'ils vont j
      - **[Samsung S9 (2018)](https://iode.tech/shop/samsung-galaxy-s9-bundle-en/)** : 253€  
      - **[Google Pixel 3](https://iode.tech/shop/pixel-3-bundle-en/)** : 293€ 
      ![pixel-3-iode-1000x1000-1-removebg-preview.resized.png](/pixel-3-iode-1000x1000-1-removebg-preview.resized.png)
+     
+- [Murena](murena.com)
+			- **[Murena one](https://iode.tech/shop/samsung-galaxy-s9-bundle-en/)** : 299 € 
 
 
 
