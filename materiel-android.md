@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Android
 description: Où trouver du matériel Android - vous trouverez ici des solutions...
 published: true
-date: 2023-11-29T09:16:29.546Z
+date: 2023-12-06T09:15:13.321Z
 tags: android, materiel
 editor: markdown
 dateCreated: 2023-02-14T11:18:41.344Z
@@ -16,13 +16,17 @@ Voilà pourquoi certaines entreprises sélectionnent du matériel (qu'ils vont j
 {.is-info}
 
 
-# Aux alentours des 200 Euros
+# 200-300 Euros
 
-- [Ekimia Retek](https://retek.ekimia.fr/produit/retek-oneplus-5t-eos/) : Téléphones reconditionnés (stocks limités) sous /e/OS-Android 12 :
-     - **One Plus 5T (2017)**
-- [Iodé](https://iode.tech/) : Ici pour obtenir des téléphones autour de 200 Euros, nous préconisons l'achat de téléphones reconditionnés sur leur boutique :
-     - **Sony Xperia** : les téléphones Sony ne sont plus supportés
-     - **Samsung A5 (2017)**
+- [Ekimia](https://ekimia.fr/produit/oneplus-5t-eos/) : Téléphones reconditionnés  sous /e/OS-Android 13 T :
+     - **One Plus 5T (2017)** 179 €
+     ![op5t.ekimia.resized.png](/op5t.ekimia.resized.png)
+- [Iodé](https://iode.tech/) : Téléphones reconditionnés sous IodeOS :
+     - **Samsung S9 (2018)** : 253€  
+     - **Google Pixel 3** : 293€ 
+     ![pixel-3-iode-1000x1000-1-removebg-preview.resized.png](/pixel-3-iode-1000x1000-1-removebg-preview.resized.png)
+
+
 
 # Aux alentours des 400 Euros
 
