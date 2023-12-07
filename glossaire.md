@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2023-12-07T19:58:20.645Z
+date: 2023-12-07T19:59:17.385Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -643,7 +643,7 @@ En informatique, il s'agit d'un identifiant unique, qui peut tout aussi bien ren
 
 De l'anglais "Time-based One Time Password", ou mot de passe à usage unique basé sur le temps.
 
-Le principe est le même que le [One Time Password (OTP)](#otp) cité ci-haut, à ceci prêt que son fonctionnement repose sur la synchronisation de l'horloge entre le serveur d'authentification et le dispositif de l'utilisateur, généralement un ordiphone ou un dispositif de sécurité dédié. Chaque jeton généré est limité dans une temporalité pré-définie (quelques secondes ou minutes).
+Le principe est le même que le [One Time Password (OTP)](#otp) cité ci-haut, à ceci prêt que son fonctionnement repose sur la synchronisation de l'horloge entre le serveur d'authentification et le dispositif de l'utilisateur, généralement un ordiphone ou un dispositif de sécurité dédié. Chaque jeton généré est limité dans une temporalité pré-définie (quelques secondes ou minutes), définie fonction du temps actuel et du secret partagé.
 
 ![freeotp-exemple_neutre.jpeg](/images/freeotp-exemple_neutre.jpeg =200x){.align-right}
 
