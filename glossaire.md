@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2023-11-07T17:52:19.218Z
+date: 2023-12-07T19:55:21.320Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -641,7 +641,7 @@ En informatique, il s'agit d'un identifiant unique, qui peut tout aussi bien ren
 
 # TOTP
 
-De l'anglais "Time-based One Time Password".
+De l'anglais "Time-based One Time Password", ou mot de passe à usage unique basé sur le temps.
 
 ![freeotp-exemple_neutre.jpeg](/images/freeotp-exemple_neutre.jpeg =200x){.align-right}
 
