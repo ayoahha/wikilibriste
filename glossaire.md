@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2023-12-07T19:57:02.806Z
+date: 2023-12-07T19:58:00.702Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -647,7 +647,7 @@ De l'anglais "Time-based One Time Password", ou mot de passe à usage unique bas
 
 Le principe est le même que le [One Time Password (OTP)](#otp) cité ci-haut, à ceci prêt que son fonctionnement repose sur la synchronisation de l'horloge entre le serveur d'authentification et le dispositif de l'utilisateur, généralement un ordiphone ou un dispositif de sécurité dédié. Chaque jeton généré est limité dans une temporalité pré-définie (quelques secondes ou minutes).
 
-La minuterie régénère un nouveau jeton chaque fois que le précédent est devenu obsolète (sur les applications mobiles, l'expiration du jeton change de couleur avant qu'un nouveau ne soit re-généré).
+La minuterie régénère un nouveau jeton chaque fois que le précédent est devenu obsolète (sur les applications mobiles l'expiration du jeton change de couleur avant qu'un nouveau ne soit re-généré).
 
 L'illustration montre par exemple un code TOTP depuis une application mobile, avec la minuterie visible (sur la droite).
 
