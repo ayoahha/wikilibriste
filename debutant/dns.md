@@ -2,7 +2,7 @@
 title: Le système DNS expliqué
 description: Cet article traite du système de noms de domaine et de sa configuration afin de recouvrer sa vie privée sur internet...
 published: true
-date: 2023-12-12T17:09:47.993Z
+date: 2023-12-12T17:11:36.176Z
 tags: dns, nom de domaine, url, tld, sous-domaine, reverse dns
 editor: markdown
 dateCreated: 2023-06-19T11:57:54.490Z
@@ -37,7 +37,7 @@ Nous allons la découper en plusieurs parties afin de bien comprendre la mécani
 Vous l’aurez compris, le DNS est une part essentielle d’internet. Sans lui, vous en seriez à entrer des adresses IP dans votre navigateur internet toute la journée ! Pas cool quand même...
 
 Pour plus d'explications à ce sujet, vous pouvez visionner la vidéo : **"DNS - La surveillance de masse facile" par *"Paf LeGeek"***
-<iframe class="frame-style" title="DNS - La surveillance de masse facile" src="https://invidious.fdn.fr/watch?v=S1f4NB72lMQ" allow="fullscreen; accelerometer; encrypted-media; gyroscope; picture-in-picture" sandbox="allow-same-origin allow-scripts allow-popups" frameborder="0"></iframe>
+<iframe class="frame-style" title="DNS - La surveillance de masse facile" src="https://invidious.fdn.fr/embed/S1f4NB72lMQ?t=1" allow="fullscreen; accelerometer; encrypted-media; gyroscope; picture-in-picture" sandbox="allow-same-origin allow-scripts allow-popups" frameborder="0"></iframe>
 
 ## Pourquoi parlons-nous de DNS ?
 
