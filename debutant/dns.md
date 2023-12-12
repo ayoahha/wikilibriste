@@ -2,7 +2,7 @@
 title: Le système DNS expliqué
 description: Cet article traite du système de noms de domaine et de sa configuration afin de recouvrer sa vie privée sur internet...
 published: true
-date: 2023-11-04T13:30:24.024Z
+date: 2023-12-12T17:09:47.993Z
 tags: dns, nom de domaine, url, tld, sous-domaine, reverse dns
 editor: markdown
 dateCreated: 2023-06-19T11:57:54.490Z
@@ -10,7 +10,7 @@ dateCreated: 2023-06-19T11:57:54.490Z
 
 DNS ou « système de noms de domaine » (Domain Name System chez nos amis anglais) est un mécanisme particulièrement intéressant pour les réseaux.
 
-Nous allons le voir, le DNS, c'est un peu l'**annuaire inversé** des sites internet : quand on sélectionne une [URL](/glossaire#url), ou qu'on la tape dans une barre de recherche, le DNS se charge de la transcrire en adresse IP (exemple fictif : 127.126.12.22) pour contacter le site.
+Nous allons le voir, le DNS, c'est un peu l'**annuaire inversé** des sites internet : quand on sélectionne une [URL](/glossaire#url), ou qu'on la tape dans une barre de recherche, le DNS se charge de la transcrire en adresse IP (exemple : 144.76.131.212) pour contacter le site.
 
 Rentrons dans les détails : nous allons nous intéresser plus particulièrement à l’utilisation sur le réseau internet, car son usage en est le parfait exemple. Lorsque nous naviguons sur internet, nous souhaitons visiter des sites internet. Pour y accéder, nous allons entrer un texte que nous appelons URL qui contient le nom du site. Mais comment savoir quel serveur contacter pour afficher le site en question ou autrement dit, comment retrouver l’adresse IP du serveur associée à ce nom du site ?
 
@@ -36,9 +36,8 @@ Nous allons la découper en plusieurs parties afin de bien comprendre la mécani
 
 Vous l’aurez compris, le DNS est une part essentielle d’internet. Sans lui, vous en seriez à entrer des adresses IP dans votre navigateur internet toute la journée ! Pas cool quand même...
 
-Pour plus d'explications, vous pouvez voir la vidéo de *"Paf LeGeek"* à ce sujet :
-- [DNS](https://invidious.fdn.fr/watch?v=S1f4NB72lMQ) La surveillance de masse facile
-{.links-list}
+Pour plus d'explications à ce sujet, vous pouvez visionner la vidéo : **"DNS - La surveillance de masse facile" par *"Paf LeGeek"***
+<iframe class="frame-style" title="DNS - La surveillance de masse facile" src="https://invidious.fdn.fr/watch?v=S1f4NB72lMQ" allow="fullscreen; accelerometer; encrypted-media; gyroscope; picture-in-picture" sandbox="allow-same-origin allow-scripts allow-popups" frameborder="0"></iframe>
 
 ## Pourquoi parlons-nous de DNS ?
 
@@ -328,7 +327,10 @@ Les choix sont donc malheureusement restreints pour ces box :
 
 ##### SFR Box
 
-Concernant les box SFR, il se peut que certaines box (anciennes) n'acceptent pas la modification des DNS (les champs restent grisés et la modification est impossible, dû à la politique stricte de SFR !) ; dans ce cas vous n'aurez pas le choix que de configurer sur TOUS vos équipements (s'ils le permettent !) les DNS.
+Concernant les box SFR, il se peut que certaines box (anciennes) n'acceptent pas la modification des DNS (les champs restent grisés et la modification est impossible, dû à la politique stricte de SFR !) ; dans ce cas :
+- Vous pouvez configurer sur chaque équipement de votre réseau les DNS (cf. seconde solution).
+- Vous pouvez configurer une solution de type [Pi-Hole](#devenez-votre-propre-dns) que nous présentons ci-après.
+
 
 Néanmoins, sur certaines Box, NB8 par exemple, il est possible de configurer les DNS comme suit :
 
