@@ -2,7 +2,7 @@
 title: Les navigateurs web
 description: Un article liés aux navigateurs internet et leur durcissement...
 published: true
-date: 2023-12-03T19:17:26.299Z
+date: 2023-12-17T12:57:48.956Z
 tags: navigateur, web, internet, privacy, vie privée, chrome, firefox, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:38:25.687Z
@@ -151,6 +151,14 @@ Sans doute la plus puissante et plus complète des extensions,  mais _**réserv�
 	- [Libredirect *URLs*](https://github.com/libredirect/libredirect/releases) Extension qui devra s'installer depuis les sources, car non disponible dans le store Google.
 	{.links-list}
 
+
+> Pour Libredirect sur base chromium :
+> ~~ Télécharger la version Zip sur le dépôt github puis dézipper là.
+> ~~ Se rendre dans `chrome://extensions` et activer le mode développeur.
+> ~~ Rafraichir la page, puis cliquez sur 'Charger l'extension non empaquetée'.
+> ~~ Choisissez le dossier extrait précédemment. 
+> L'extension devrait se charger et s'ouvrir.
+{.is-info}
 
 ## Cookies
 - [I still don't care aboot cookies](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies) Bloque les bannières (parfois intrusives !) de certains sites vous proposant l'utilisation des cookies. *Nous réintégrons cette extension, qui est un fork de "I don't care about cookies" racheté récemment par Avast. Un développeur a donc décidé de continuer l'extension sans intégrer de traceur*.
