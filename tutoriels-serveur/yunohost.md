@@ -2,7 +2,7 @@
 title: Installer et Utiliser Yunohost
 description: Une solution pour l'auto-hébergement simplifiée...
 published: true
-date: 2023-10-28T08:33:56.795Z
+date: 2023-12-18T19:52:46.431Z
 tags: yunohost, hébergement
 editor: markdown
 dateCreated: 2023-03-07T11:14:36.633Z
@@ -63,13 +63,13 @@ Vous aurez également besoin d'un autre ordinateur quelconque pour le temps de l
   
   Nous choisirons la version 64bits (à gauche) car nous utilisons un RPi version 3/4.
 
-  Prenez le temps de vérifier la [somme de contrôle](/glossaire#checksum) de l'image Yunohost à la fin de son téléchargement, voir [ici](/intermediaire/chiffrement).
+  Prenez le temps de vérifier la [somme de contrôle](/glossaire#checksum) de l'image Yunohost à la fin de son téléchargement. [ici](/intermediaire/chiffrement).
 
 2. **Écriture de l'image**
 
   Comme nous utilisons un RaspberryPi, le système d'exploitation doit être installé sur une carte MicroSD. Nous recommandons une carte MicroSD d'au moins 16Go, même si 8Go suffisent probablement.
 
-  Pour écrire l'image téléchargée précédemment, nous utilisons le logiciel Balena Etcher *(suivez [la page dédiée](/tutoriels/usb-bootable#balena-etcher), ou le [site officiel](https://yunohost.org/fr/install/hardware:rpi2plus#flasher-l-image-image-typ))*.
+  Pour écrire l'image téléchargée précédemment, nous utilisons le logiciel Balena Etcher *(suivez [la page dédiée](/tutoriels/usb-bootable#balena-etcher), ou le [site officiel](https://yunohost.org/fr/install/hardware:rpi2plus#flasher-l-image-image-typ))* :
 
   Sur **Balena Etcher**, vous commencerez par **sélectionner le fichier Yunohost** téléchargé précédemment, puis par **sélectionner votre carte SD** (attention de ne pas vous tromper), puis **lancer l'écriture**.
 
@@ -320,22 +320,32 @@ Pour configurer Yunohost afin qu'il utilise bien le disque dur, il va falloir ut
 
 **Le site officiel détaille toutes les étapes à suivre [ici](https://yunohost.org/fr/administer/tutorials/external_storage).**
 
-> **ATTENTION** *: taper exactement les lignes de commande que nous vous invitons à taper. Si on vous invite à l'adapter, veillez à n'adapter que ce sur quoi on vous invite à adapter la commande. Par exemple, ne retirez pas les guillemets si nous ne spécifions pas qu'ils peuvent être retirés.*
+> **ATTENTION** :
+> - *Taper exactement les lignes de commande que nous vous invitons à taper. Si on vous invite à l'adapter, veillez à n'adapter que ce sur quoi on vous invite à adapter la commande. Par exemple, ne retirez pas les guillemets si nous ne spécifions pas qu'ils peuvent être retirés.*
+> - *Ne fermez pas le Terminal (ou invite de commande) tant que nous ne vous invitons pas à le faire.*
+>
 > Soyez attentif tout au long de cette partie. Elle n'est pas compliquée, mais il est important de faire exactement ce qui est indiqué.
 {.is-warning}
 
-## Formater votre disque
+>_Note_ : Ne branchez pas votre disque dur tout de suite au Raspberry Pi. Nous vous indiquerons quand le brancher ;)
+{.is-info}
 
-:warning: **Attention : formater le disque supprimera toutes les données qui s'y trouvent enregistrées.**
+1. **Formater votre disque**
+
+> **Attention : formater le disque supprimera toutes les données qui s'y trouvent enregistrées.**
+{.is-warning}
 
 Avant d'installer le disque dur, nous vous conseillons de le formater avec le système de fichier `ext4`. Il est impératif que le système de fichier ne soit ni `NTFS`, ni `FAT32`.
 
-Pour cela, vous pouvez utiliser un logiciel tel que GParted : faire *clic droit sur le disque :arrow_forward: Formater en :arrow_forward: ext4.*
+Cette opération se déroulera sur un ordinateur quelconque.
 
->_Note_ : Ne branchez pas votre disque dur tout de suite. Nous vous indiquerons quand le brancher ;)
-{.is-info}
+Vous pouvez utiliser un logiciel tel que **GParted** (sur Linux). Pour ce faire :
+ - Dans le menu déroulant en haut à droite, sélectionner le disque (attention de ne surtout pas se tromper).
+ - Puis, *clic droit sur le disque :arrow_forward: Formater en :arrow_forward: ext4.*
 
-1. **Se connecter en SSH à Yunohost**
+Une fois fait, vous pouvez l'éjecter de votre ordinateur.
+
+2. **Se connecter en SSH à Yunohost**
 
   Tout d'abord, trouvez l'adresse IP de votre appareil Yunohost si ce n'est pas déjà fait. Si nécessaire, vous pouvez revenir au point *2.3 Trouver l'adresse IP du Raspberry Pi*.
 
@@ -347,7 +357,7 @@ Pour cela, vous pouvez utiliser un logiciel tel que GParted : faire *clic droit 
   sudo -i
   ```
 
-2. **Identifier votre disque dur**
+3. **Identifier votre disque dur**
 
   Tout d'abord, **identifiez les espaces de stockages disponibles** actuellement, avec la commande suivante :
   ```bash
@@ -368,7 +378,7 @@ Pour cela, vous pouvez utiliser un logiciel tel que GParted : faire *clic droit 
   device_name="sda1"
   ```
 
-3. **Préparation et montage de la cible**
+4. **Préparation et montage de la cible**
 
   **Tapez une à une, sans adaptation,** les commandes suivantes :
   ```bash
@@ -377,16 +387,16 @@ Pour cela, vous pouvez utiliser un logiciel tel que GParted : faire *clic droit 
   mkdir -p "/mnt/hdd/home"
   ```
 
-4. **Mettre en maintenance toutes les applications**
+5. **Mettre en maintenance toutes les applications**
 
-> Si vous n'avez pas encore installé de service depuis Yunohost, vous pouvez passer à l'étape 5.
+> Si vous n'avez pas encore installé de service depuis Yunohost, vous pouvez passer à l'étape 6.
 {.is-info}
 
   Sinon il faut passer chacune des applications en mode maintenance. Cela est possible de 2 manières :
    - Sur l'interface d'administration, en allant dans Applications :arrow_forward: *[l'application]* :arrow_forward: *[paramètres de l'application]* :arrow_forward: cocher *mettre en maintenance*.
    - Sinon vous pouvez tenter une commande du style : `service nom_du_service stop`. *Si vous ne connaissez pas le nom du service, tentez l'auto-complétion avec la touche* <kbd>TAB</kbd>.
 
-5. **Déplacement des données**
+6. **Déplacement des données**
 
   Si vous aviez déjà installé des applications sur Yunohost, il est possible que cette étape prenne du temps, car toutes les données vont être déplacées. Soyez patient ;)
 
@@ -398,16 +408,16 @@ Pour cela, vous pouvez utiliser un logiciel tel que GParted : faire *clic droit 
    cp -a /home.bkp/. /home/
    ```
 
-6. **Sortir de maintenance les applications**
+7. **Sortir de maintenance les applications**
 
-> Si vous n'avez pas encore installé de service depuis Yunohost, vous pouvez passer à l'étape 7.
+> Si vous n'avez pas encore installé de service depuis Yunohost, vous pouvez passer à l'étape 8.
 {.is-info}
 
   Sinon il faut sortir chacune des applications du mode maintenance. Cela est possible de 2 manières :
    - Sur l'interface d'administration, en allant dans Applications > *[l'application]* > *[paramètres de l'application]* > décocher *mettre en maintenance*.
    - Sinon vous pouvez tenter une commande du style : `service nom_du_service start`.
 
-7. **Configurer le montage automatique du disque dur**
+8. **Configurer le montage automatique du disque dur**
 
   **Tapez une à une les commandes suivantes**, sans adaptation :
   ```bash
@@ -417,9 +427,9 @@ Pour cela, vous pouvez utiliser un logiciel tel que GParted : faire *clic droit 
   echo '/mnt/hdd/home /home none defaults,bind 0 2' >> /etc/fstab
   ```
 
-8. **Tester la configuration**
+9. **Tester la configuration**
 
-  Pour tester la configuration, il suffit de redémarrer. Pour cela, vous pouvez utiliser la commande `reboot` depuis le terminal, ou lancedr l'action depuis l'interface Yunohost. Attendre 1 à 2 minutes avant de tenter de se reconnecter en SSH (`ssh admin@192.168.1.12`, ou voir §1 ci-dessus si besoin).
+  Pour tester la configuration, il suffit de redémarrer. Pour cela, vous pouvez utiliser la commande `reboot` depuis le terminal, ou lancer l'action depuis l'interface Yunohost. Attendre 1 à 2 minutes avant de tenter de se reconnecter en SSH (`ssh admin@192.168.1.12`, ou voir §1 ci-dessus si besoin).
 
   Une fois reconnecté, il suffit de **vérifier si le dossier "/home" contient des dossiers et fichiers**.
   Pour cela, taper la commande :
@@ -427,7 +437,7 @@ Pour cela, vous pouvez utiliser un logiciel tel que GParted : faire *clic droit 
   ls "/home"
   ```
 
-  Si rien ne s'affiche, c'est qu'il y a eu une erreur. Dans ce cas, vous pouvez retenter l'étape 7 avec les lignes de commande suivantes :
+  Si rien ne s'affiche, c'est qu'il y a eu une erreur. Dans ce cas, vous pouvez retenter l'étape 8 mais avec ces lignes de commande *(avant de les taper, repassez les étapes 2 et 3)* :
   ```bash
   sudo -i
   rm "/etc/fstab" && mv "/etc/fstab.bkp" "/etc/fstab"
@@ -436,9 +446,9 @@ Pour cela, vous pouvez utiliser un logiciel tel que GParted : faire *clic droit 
   echo '/mnt/hdd/home /home none defaults,bind 0 0' >> /etc/fstab
   ```
 
-  Si l'erreur persiste, vous pouvez vous référer à la documentation officielle [ici](https://yunohost.org/fr/administer/tutorials/external_storage) ou demander de l'aide sur un forum...
+  Si l'erreur persiste, vous pouvez vous référer à la documentation officielle [ici](https://yunohost.org/fr/administer/tutorials/external_storage) ou n'hésitez pas à demander de l'aide sur notre groupe Telegram !
 
-9. **Supprimer les anciennes données**
+10. **Supprimer les anciennes données**
 
   Si la configuration est fonctionnelle, vous pouvez supprimer les anciennes données avec cette commande :
   ```bash
@@ -446,7 +456,7 @@ Pour cela, vous pouvez utiliser un logiciel tel que GParted : faire *clic droit 
   sudo rm /etc/fstab.bkp
   ```
 
-  Ensuite, vous pouvez vous déconnecter en tapant la commande suivante (*ou avec le raccourci* <kbd>CTRL</kbd> + <kbd>D</kbd>) jusqu'à ce que le terminal se ferme :
+  Ensuite, vous pouvez vous déconnecter en tapant la commande suivante (*ou avec le raccourci* <kbd>CTRL</kbd> + <kbd>D</kbd>) jusqu'à ce que le terminal se ferme *(c'est bon, vous pouvez le fermer ;))* :
   ```bash
   exit
   ```
