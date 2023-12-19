@@ -2,7 +2,7 @@
 title: Android Bootloader Unlock
 description: Ce tutoriel vous parle des "bootloader" liés à Android et fait un état de lieux...
 published: true
-date: 2023-09-12T08:26:05.297Z
+date: 2023-12-19T17:04:14.441Z
 tags: android, smartphone, ordiphone, booloader, intermédiaire, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:54:20.672Z
@@ -129,7 +129,7 @@ Sachez que la plupart du temps, si le modèle exact de votre téléphone **<span
 
 - [LineageOS *Cherchez votre téléphone dans la liste et cliquez dessus : vous serez renvoyé vers la page dudit modèle. Vérifiez tout en bas de cette page dans la section "Supported models" que le **modèle exact** est listé sur la page, si ce n'est pas le cas alors votre téléphone n'est pas supporté officiellement par LineageOS. S'il est supporté, allez lire la page sous Guides / Installation pour en savoir plus sur la procédure "unlock bootloader"*](https://wiki.lineageos.org/devices)
 - [/e/OS Devices *Suivez ce lien eOS et faites défiler la page, cherchez votre téléphone dans la liste et cliquez dessus, selon le même principe que pour LOS*](https://doc.e.foundation/devices)
-- [CalyxOS *Seuls les Google Pixel et certains OnePlus sont supportés (Attention cependant pour les OnePlus, l'impossibilité de reverrouiller le bootloader a poussé l'équipe Calyx à reconsidérer le support de ces téléphones, OnePlus ne rendant pas la tâche aisée)*](https://calyxos.org/install/)
+- [CalyxOS *Seuls les Google Pixel et certains mobiles de type Motorola, Fairphone et Shift sont supportés.*](https://calyxos.org/install/)
 - [GrapheneOS *Seuls les Google Pixel sont supportés du fait de leur modèle de sécurité spécifique*](https://grapheneos.org/faq#supported-devices)
 - [IodéOS *Vérifiez si votre appareil est supporté*](https://iode.tech/installation/#1611168530685-c5ff66ab-4568)
 - [DivestOS *Vérifiez si votre appareil est supporté*](https://divestos.org/index.php?page=devices&base=LineageOS)
