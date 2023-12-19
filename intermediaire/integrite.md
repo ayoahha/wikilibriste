@@ -2,7 +2,7 @@
 title: Qu'est-ce que l'intégrité des données
 description: Un article dédié portant sur l'intégrité et les signatures électroniques
 published: true
-date: 2023-12-19T08:59:39.161Z
+date: 2023-12-19T09:00:16.699Z
 tags: intégrité, pgp, gpg, integrite, signatures
 editor: markdown
 dateCreated: 2023-10-28T09:53:37.530Z
@@ -80,7 +80,7 @@ Voici les fonctions de hachage recommandées **à ce jour** (2022), dans l'ordre
 > En cryptographie, les choses évoluent vite : certains algorithmes peuvent, entre temps, avoir été cassés. Il est donc utile de se tenir informé ; pour l'instant, la liste ci-dessus est applicable, mais rien ne dit qu'elle le sera dans 5 ans ou dans 10 ans, surtout avec l'ère post-quantique !
 {.is-warning}
 
-### **Passons maintenant à la pratique...**
+### **Passer à la pratique...**
 - **Rendez vous dans le tutoriel [dédié](/tutoriels/verifier-integrite) à la vérification de l'intégrité et des signatures de fichiers !**
 {.grid-list}
 
@@ -214,7 +214,7 @@ OK je sens que nous vous avons perdu. Faites une pause, on arrive à la partie l
 
 Bon en vrai, là si vous avez tout retenu, vous êtes un crack ;-).
 
-### **Passons maintenant à la pratique...**
+### **Passer à la pratique...**
 - **Rendez vous dans le tutoriel [dédié](/tutoriels/gnupg) à GPG afin d'appliquer la théorie !** 
 {.grid-list}
 
