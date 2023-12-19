@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2023-10-31T16:32:51.891Z
+date: 2023-12-19T10:44:26.548Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -370,7 +370,7 @@ Vous arrivez ensuite à la partie authentification :
 ![aurora2.png](/images/aurora2.png =700x){.align-center}
 
 ###### /e/OS
-/e/OS vient avec un magasin d'application spécifique regroupant les dépôts F-Droid (qui contient une grande partie des applications libres et open-sources) et le dépôt du Google Play Store (qui contient une grande partie de ses applications), l'application "AppLounge".
+/e/OS vient avec l'AppLounge, une application qui regroupe F-Droid (applications libres et open-sources) et le Play Store (en partie).
 - :arrow_right: Ici, vous pouvez tout à fait ajouter un second magasin d'applications type F-droid comme *Droid-ify*. Référez-vous à la configuration CalyxOS pour ce faire.
 - :arrow_right: Pour ceux qui ont besoin cependant de plus d'applications propriétaires, nous estimons qu'AppLounge est un bon équivalent d'*Aurora Store*, nous n'installerons donc pas de magasin supplémentaire, mais il est tout à fait intéressant de complémenter AppLounge avec Aurora Store pour obtenir plus d'applications propriétaires (si besoin) ; vous pouvez également installer Aurora Store dans un profil professionnel histoire d'isoler les applications fermées. Référez-vous dans ce cas à la configuration CalyxOS pour ce faire ainsi qu"à la partie "Profil Professionnel".
 {.grid-list}
