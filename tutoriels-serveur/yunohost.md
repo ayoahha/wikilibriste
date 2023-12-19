@@ -2,7 +2,7 @@
 title: Installer et Utiliser Yunohost
 description: Une solution pour l'auto-hébergement simplifiée...
 published: true
-date: 2023-12-18T19:52:46.431Z
+date: 2023-12-19T16:31:11.811Z
 tags: yunohost, hébergement
 editor: markdown
 dateCreated: 2023-03-07T11:14:36.633Z
@@ -364,7 +364,7 @@ Une fois fait, vous pouvez l'éjecter de votre ordinateur.
   lsblk -a -l -o NAME,LABEL,SIZE,FSUSE%,FSTYPE
   ```
 
-  Ensuite, **branchez votre disque dur**, et **relancez la commande** précédente :
+  Ensuite, **branchez votre disque dur** au Raspberry Pi, et **relancez la commande** précédente :
   ```bash
   lsblk -a -l -o NAME,LABEL,SIZE,FSUSE%,FSTYPE
   ```
