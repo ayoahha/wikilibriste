@@ -2,7 +2,7 @@
 title: Partitionner son disque autrement
 description: Cet article vous présente une façon de partitionner votre disque adapté à Linux
 published: true
-date: 2023-12-20T12:55:36.462Z
+date: 2023-12-20T12:57:22.993Z
 tags: partitionnement
 editor: markdown
 dateCreated: 2023-02-13T17:00:12.797Z
