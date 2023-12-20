@@ -2,7 +2,7 @@
 title: Partitionner son disque autrement
 description: Cet article vous présente une façon de partitionner votre disque adapté à Linux
 published: true
-date: 2023-12-20T12:39:47.305Z
+date: 2023-12-20T12:55:36.462Z
 tags: partitionnement
 editor: markdown
 dateCreated: 2023-02-13T17:00:12.797Z
@@ -82,8 +82,11 @@ C'est l'installation par défaut de Fedora et ses dérivés :
 ![](/images/fedora-home-5.png){.align-center}
 ![](/images/fedora-home-6.png){.align-center}
 ![](/images/fedora-home-7.png){.align-center}
-- **Vous devriez obtenir cette répartition**. Cliquez sur le bouton bleu "FAIT" en haut à gauche pour valider et passer à la suite :
+- **Vous devriez obtenir cette répartition**.
+Cliquez sur le bouton bleu "FAIT" en haut à gauche pour valider :
 ![](/images/fedora-home-8.png){.align-center}
+- Puis sur "Accepter les modifications" pour passer à la suite :
+![](/images/fedora-home-9.png){.align-center}
 
 #### Installateur Calamares
 Souvent utilisé sur des distributions basées sur Arch Linux (Manjaro par exemple, dont nous reprenons l'exemple ci-après) et certaines distributions Debian :
