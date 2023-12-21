@@ -2,23 +2,22 @@
 title: Debian
 description: Installation et configuration de Debian sur PC
 published: true
-date: 2023-05-14T19:33:08.068Z
+date: 2023-12-21T16:39:23.422Z
 tags: debutant, distribution, debian
 editor: markdown
 dateCreated: 2023-02-05T19:31:26.969Z
 ---
 
 [Debian](https://www.debian.org/index.fr.html) est une distribution GNU/Linux dite "majeure" créée en 1993 par [Ian Murdock](https://fr.wikipedia.org/wiki/Ian_Murdock).
-Fiche de la distribution Debian sur : [DistroWatch](https://distrowatch.com/table.php?distribution=debian)
 
 ![debian-logo.png](/images/debian-banner.jpg){.align-center}
 
-Elle se distingue des autres distributions, notamment parce que :
+**Elle se distingue des autres distributions, notamment parce que :**
 - C'est l'une des premières distributions Linux toujours en activité (avec Slackware), _une distribution "mère"_ ;  la popularité de Debian a pour conséquence que de nombreuses distributions en sont dérivées comme : Ubuntu, Mint Debian Edition, Emmabuntüs, MX Linux, Kali Linux, Tails, Raspbian,...
 - Debian est reconnu pour sa stabilité (sur la branche Stable), notamment grâce à son long cycle de développement (2 ans au lieu de classiquement 6 mois à 1 an), ce qui permet de réaliser 6 mois de débogage après avoir bloqué l’évolution des logiciels, ainsi que par la rigueur exigée pour qu’un logiciel soit accepté.
 - Debian a pour objectif d’être un système d’exploitation universel, et propose donc des images pour de nombreuses architectures processeurs 32 et 64 bits (Intel/AMD/ARM mais aussi PowerPC, MIPS)
 - Debian utilise peu de ressources matérielles et est facilement modulable, ce qui en fait une distribution parfaite pour serveurs ou ordinateurs anciens
-- La communauté est constituée de nombreux contributeurs et utilisateurs à travers le monde. Le projet est dirigé directement par les développeurs du projet sous forme de démocratie directe, ce qui permet de rester fidèle aux principes de Debian définis dès 1993 sous la forme d’une charte, et ainsi d’être indépendante de toute influence commerciale ou financière désirant dérouter le projet
+- La communauté est constituée de nombreux contributeurs et utilisateurs à travers le monde. Le projet est dirigé directement par les développeurs du projet sous forme de démocratie directe, ce qui permet de rester fidèle aux principes de Debian définis dès 1993 sous la forme d’une charte, et ainsi d’être indépendante de toute influence commerciale ou financière désirant dérouter le projet.
 
 > Ce tutoriel ne concerne que l'installation de Debian sur un PC.
 {.is-info}
@@ -35,13 +34,13 @@ Entre les branches, les environnements de bureau (DE), les types de processeurs 
 ## Versions et cycle de vie
 
 Chaque [version de Debian](https://fr.wikipedia.org/wiki/Historique_des_versions_de_Debian) a un nom de code qui est [choisi parmi les personnages du film d'animation Toy Story](https://wiki.debian.org/fr/ToyStory) :
-- *Stretch* (Debian 9) aujourd’hui « old-old-stable » est sortie en 2017.
-- *Buster* :dog: (Debian 10) aujourd’hui « old-stable », est sortie en 2019.
-- *_Bullseye_* (Debian 11) est l’actuelle version stable « current-stable » sortie en 2021
-- *Bookworm* :bug:, aujourd’hui en développement (branche Testing) sortira sous le nom de Debian 12 durant l’été 2023.
-- *Trixie*, sera le nom de la stable après Bookworm.
+- *Buster* (Debian 10) aujourd’hui « old-old-stable » est sortie en 2019.
+- *Bullseye* (Debian 11) aujourd’hui « old-stable », est sortie en 2021.
+- *_Bookworm_* (Debian 12) est l’actuelle version stable « current-stable » sortie en 2023
+- *Trixie* :bug:, aujourd’hui en développement (branche Testing) sortira sous le nom de Debian 13.
+- *Forky*, sera le nom de la version suivante.
 
-:arrow_right: Bullseye est donc actuellement la version stable et Bookworm le deviendra lorsque sa phase de test (testing) sera terminée.
+:arrow_right: Bookworm est donc actuellement la version stable et Trixie le deviendra lorsque sa phase de test (testing) sera terminée.
 
 > Le [support](https://wiki.debian.org/fr/LTS) de chaque version dure 5 ans.
 > Environ tous les 2 ans, l'actuelle stable devient old-stable, testing devient stable et une nouvelle version testing est créée.
