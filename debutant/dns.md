@@ -2,7 +2,7 @@
 title: Le système DNS expliqué
 description: Cet article traite du système de noms de domaine et de sa configuration afin de recouvrer sa vie privée sur internet...
 published: true
-date: 2023-12-13T12:43:47.331Z
+date: 2023-12-21T18:18:52.729Z
 tags: dns, nom de domaine, url, tld, sous-domaine, reverse dns
 editor: markdown
 dateCreated: 2023-06-19T11:57:54.490Z
@@ -105,7 +105,7 @@ Voici quelques acteurs qui proposent des services de serveurs DNS, respectueux d
 | [DNS Adblock List](https://techcomputerservices.blogspot.com/2019/06/dns-adblock-list-update-juin-2019.html?m=1) | Vous trouverez sur ce site une liste de serveurs<br>DNS (IPs) intéressants pour le blocage des<br>publicités intempestives. |
 
 
-^1^ : "DNS Privé" est la fonction sur Android qui permet de pointer vers un serveur DNS différent de celui configuré de base, en évitant d'utiliser la fonction VPN.
+^1^ : "DNS Privé" est la fonction qui permet le chiffrement des requêtes DNS (DNS over TLS depuis Android 9) ou de sélectionner le fournisseur DNS de son choix, différent de celui proposé par défaut par l'opérateur de réseau mobile.
 - **Cette fonction se trouve généralement dans les "Paramètres" :arrow_right: "Réseau et Internet" :arrow_right: "DNS Privé".**
 
 ^2^ : "DNS over HTTPS" est souvent l'intitulé de la fonction utilisée par les navigateurs internet pour gérer la résolution DNS personnalisée.
