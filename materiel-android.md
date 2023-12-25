@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Android
 description: Où trouver du matériel Android - vous trouverez ici des solutions...
 published: true
-date: 2023-12-06T12:50:22.579Z
+date: 2023-12-25T21:50:09.846Z
 tags: android, materiel
 editor: markdown
 dateCreated: 2023-02-14T11:18:41.344Z
@@ -61,7 +61,7 @@ Voilà pourquoi certaines entreprises sélectionnent du matériel (qu'ils vont j
 
 - _Pixels Phones_ : nous ne pouvons bien entendu pas passer outre les Google Pixel qui sont des machines spécifiquement développées pour Android et qui possédent un modèle de sécurité élevé que les autres téléphones n'ont pas. Si votre profil exige une sécurité à haut niveau, ces téléphones sont malgré tout très utiles :
 	 - **Google Pixel 6**
-	 - **Google Pixel 7**
+	 - **Google Pixel 7 / 7 Pro**
    - **Google Pixel 8 / 8 Pro**
 *Note : On évitera les modèles en fin de vie ou presque, i.e. jusqu'au Google Pixel 4 !*
 
