@@ -2,7 +2,7 @@
 title: Android Bootloader Unlock
 description: Ce tutoriel vous parle des "bootloader" liés à Android et fait un état de lieux...
 published: true
-date: 2023-12-19T17:04:14.441Z
+date: 2024-01-04T10:07:00.450Z
 tags: android, smartphone, ordiphone, booloader, intermédiaire, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:54:20.672Z
@@ -65,7 +65,10 @@ De plus, pour un même modèle suivant la région (USA, ASIE...) ou si revendu p
 | Google      | fastboot | **Facile**<br> OEM unlock + commande fastboot | non | Tous les Google Pixel et Nexus<br>  |
 | OnePlus | fastboot | **Facile**<br> OEM unlock + commande fastboot | non | Tous |
 | Samsung | ODIN ou Heimdall | **Modéré** besoins d'utliser certaines touches <br>de l'appareil pour acceder au mode "download"| oui | Tous les Galaxy Sx et série Ax <br> Attention de plus en plus complexe sur > S10  |
+| SHIFT | fastboot | **Facile**<br> OEM unlock + commande fastboot | non | info [ici](https://forum.shiftphones.com/threads/bootloader-unlock-root-custom-recoveries-roms-mods.3207/)  |
 | Teracube | fastboot | **Facile**<br> OEM unlock + commande fastboot | non | - |
+
+
 
 
 
@@ -109,7 +112,6 @@ De plus, pour un même modèle suivant la région (USA, ASIE...) ou si revendu p
 | Razer | - | - | - | - |
 | Nextbit | - | - | - | - |
 | Realme | - | - | - | - |
-| SHIFT | - | - | - | - |
 | Wiko | - | - | - | - |
 | Wileyfox | - | - | - | - |
 | Wingtech | - | - | - | - |
