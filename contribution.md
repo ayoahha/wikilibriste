@@ -2,13 +2,13 @@
 title: Pour contribuer au projet
 description: N'hésitez pas à nous soutenir dans cette belle aventure...
 published: true
-date: 2023-11-10T09:10:00.004Z
+date: 2024-01-06T14:51:24.573Z
 tags: contribution, don, june, btc, liberapay
 editor: markdown
 dateCreated: 2023-10-28T07:07:02.446Z
 ---
 
-Comme vous le savez sûrement, ce projet repose en grande partie sur la passion et l'engagement de personnes bénévoles. Cette précieuse base de connaissances ne saurait exister sans ces personnes. Néanmoins les frais d'infrastructure et autres frais fixes sont un défi constant pour l'équipe ! Votre soutien, quel qu'il soit, permettra de pérenniser ce site.
+Comme vous le savez sûrement, le projet Wikilibriste repose en grande partie sur la passion et l'engagement de personnes bénévoles. Cette base de connaissances n'existerait pas sans ces personnes. Néanmoins les frais d'infrastructure et autres frais fixes sont un défi constant pour l'équipe ! Votre soutien, quel qu'il soit, permettra de pérenniser ce site. 
 
 **Nous croyons en l'accès ouvert à l'information, mais sans votre aide, ce projet ne pourra perdurer.**
 
