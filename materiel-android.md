@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Android
 description: Où trouver du matériel Android - vous trouverez ici des solutions...
 published: true
-date: 2023-12-25T21:50:09.846Z
+date: 2024-01-06T13:15:31.881Z
 tags: android, materiel
 editor: markdown
 dateCreated: 2023-02-14T11:18:41.344Z
@@ -104,7 +104,7 @@ Les Pixels implémentent convenablement la randomisation de l'adresse MAC, ainsi
 # Les fausses bonnes idées
 
 
-- Nous déconseillons le Fairphone 4 tantque [certains problèmes ](https://gitlab.e.foundation/groups/e/-/issues/?sort=created_date&state=opened&label_name%5B%5D=FP4&label_name%5B%5D=type%3A%3ABug&not%5Blabel_name%5D%5B%5D=Testing&first_page_size=20&page_after=eyJjcmVhdGVkX2F0IjoiMjAyMi0xMi0wMiAwODo1NTo1MS4xNDc5NjkwMDAgKzAwMDAiLCJpZCI6IjIyMjUxIn0)  ne sont pas corrigés
+- Nous déconseillons le Fairphone 4 tant que [certains problèmes ](https://gitlab.e.foundation/groups/e/-/issues/?sort=created_date&state=opened&label_name%5B%5D=FP4&label_name%5B%5D=type%3A%3ABug&not%5Blabel_name%5D%5B%5D=Testing&first_page_size=20)  ne sont pas corrigés
 
 
 
