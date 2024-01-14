@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2024-01-14T08:42:26.848Z
+date: 2024-01-14T22:50:36.801Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -1307,6 +1307,10 @@ TrackerControl est un application très puissante, parfois trop même (car bloqu
 Voilà, vous venez de terminer la dégooglisation de votre téléphone. Bravo !
 
 Il reste maintenant à garder vos connaissances à jour, c'est le plus facile cela dit :)
+
+# Pour aller plus loin
+- [Libérer son smartphone Android](https://www.librealire.org/liberer-son-smartphone-android)
+
 
 ---
 ![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): algisowilo, Anon4952, Ayo, Nemtech, freechelmi, Yannick*
