@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2023-12-19T10:44:26.548Z
+date: 2024-01-14T08:41:33.535Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -779,11 +779,11 @@ Des paramétrages de base sont nécessaires afin de renforcer dans un premier te
 :arrow_right: Désactiver les installations du navigateur internet
 - *Paramètres → Applications → Sélectionner votre navigateur web (Vanadium, Bromite, etc.) → Installation d'applis inconnues → désactiver "Autoriser depuis cette source".*
 
-> Attention ici, si vous installez F-Droid (cf. plus loin dans l'article, section Magasins d'applications), vous activer cette option puis la désactiver de nouveau !
+> Attention ici, si vous installez F-Droid (cf. plus loin dans l'article, section Magasins d'applications), activer cette option puis la désactiver de nouveau !
 {.is-warning}
 
-:arrow_right: Désactiver la vérification de connectivité
-- *Paramètres → Réseau & Internet → Décocher "Contrôle de connexion"*
+:arrow_right: concernant la vérification de connectivité, GrapheneOS met en place ses serveurs pour remplacer ceux de Google. Il est donc à votre discrétion de choisir de complètement désactiver cette fonction en sélectionnant Désactiver :
+- *Paramètres → Réseau & Internet → Cliquer sur "Internet Connectivity Check" → Disabled*
 
 #### Magasins d'applications
 
