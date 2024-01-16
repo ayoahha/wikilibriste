@@ -2,7 +2,7 @@
 title: Utiliser un VPN et/ou Tor
 description: Cet article aborde les très importants concepts de VPN et TOR...
 published: true
-date: 2023-10-21T09:45:48.777Z
+date: 2024-01-16T15:09:33.974Z
 tags: vpn, tor
 editor: markdown
 dateCreated: 2023-04-14T10:56:48.029Z
@@ -39,7 +39,7 @@ Les mandataires suivants remplissent toutes ces conditions :
 ---
 Pour ce qui est de **Tor**, nous recommandons, pour débuter, et sous **_certaines conditions_** l'utilisation de **Tor Browser** : « [Tor Browser](https://www.torproject.org/download/) » est un navigateur capable de vous donner accès au réseau Tor, dont nous avons déjà présenté le fonctionnement intrinsèque et l'objectif : l'anonymat comme garant de votre vie privée, et l'accès à des services web "cachés" (le web profond).
 
-> Une mise en contexte et les bonnes pratiques, dans le cadre de son utilisation, seront prochainement disponibles depuis la section [tutoriels](/tutoriels/tor).
+> Une mise en contexte et les bonnes pratiques, dans le cadre de son utilisation, seront prochainement disponibles depuis la section [tutoriels](/tutoriels).
 
 
 > **Cela dit, dans **TOUS** les cas, il conviendra de faire attention aux usages avec ce navigateur :**
