@@ -2,7 +2,7 @@
 title: Les distributions GNU/Linux
 description: Article relatif aux distributions GNU/Linux que le collectif recommande...
 published: true
-date: 2024-01-16T12:10:09.475Z
+date: 2024-01-16T12:17:18.164Z
 tags: linux, debutant, intermédiaire, débutant, intermediaire, initié, expert
 editor: markdown
 dateCreated: 2022-11-24T21:02:27.494Z
@@ -62,7 +62,7 @@ Vous êtes bien entendu libre d'adopter d'autres systèmes.
 
 > Ci-dessous vous retrouvez nos recommandations suivant le profil. 
 > 
-> **Nous avons scinder en différents onglets : 
+> **Nous avons scindé en différents onglets : 
 > -- L'onglet "Pour débuter" pour les débutants et nouveaux venus sur Linux qui ne souhaitent pas creuser le sujet. 
 > -- L'onglet "Aller plus loin" pour ceux qui souhaitent apprendre le monde Linux et une liste de distributions correspondant aux profils moins débutants.
 > -- L'onglet "Pour les initiés" afin d'obtenir des informations complémentaires et une liste de distributions correspondant aux profils initiés.**
