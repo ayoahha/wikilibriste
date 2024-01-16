@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:31:03.755Z
+date: 2024-01-16T11:32:14.393Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -164,16 +164,17 @@ DNS (Domain Name System), est une sorte "d'annuaire des sites internet".
 
 # Dump (Base de données)
 
-Un "dump" est une exportation des données stockées dans une base de données (BDD).
+Un "dump" est une exportation des données stockées dans une Base De Données (BDD).
 
-> On ne copie jamais les fichiers brut d'une base de données, on fait plutôt un "dump".
-Soit à l'aide d'une exportation au format SQL, soit avec les outils inclus avec le SGBD (Système de Gestion de Base de Données).
+> On ne copie jamais les fichiers bruts d'une base de données, on fait plutôt un "dump".
+> ~~ Soit à l'aide d'une exportation au format SQL,
+> ~~ Soit avec les outils inclus avec le SGBD (Système de Gestion de Bases de Données).
 {.is-warning}
 
 - Pour MySQL, MariaDB, PostGreSQL, les dumps sont constitués d'une suite de commandes SQL permettant de recréer les tables, les permissions et données d'une base.
 - Sur d'autres comme Oracle, SQLServer, le dump sera une copie binaire des données.
 
-> Le dump permet de sauvegarder une base dans un état intègre (c.a.d. sans dégradation, sans corruption) et permettre de restaurer les données si un problème survient.
+> Cette action permet de sauvegarder une base dans un état intègre (c.a.d. sans dégradation, sans corruption) et permettre de restaurer les données si un problème survient.
 {.is-success}
 
 # Durcissement
