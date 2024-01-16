@@ -2,7 +2,7 @@
 title: Les gestionnaires de mots de passe
 description: Cet article traite des gestionnaires de mots de passe et les outils recommandés...
 published: true
-date: 2023-06-21T14:09:11.169Z
+date: 2024-01-16T11:33:01.519Z
 tags: chiffrement, mots de passe, gestionnaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T13:43:14.323Z
@@ -174,7 +174,7 @@ Deux outils, aussi appelés "*stateless password generator*", sont disponibles �
 -   [Spectre](https://spectre.app) qui est le successeur du _très critiqué_ masterpassword
 *Note : Pour Spectre, à l'heure où nous écrivons cet article, la seule application Spectre disponible est sur Apple Store ! Les autres applications sont toujours en développement, bien que les applications masterpassword sont toujours disponibles...*
 
-Ces outils vous permettront de générer des mots de passe, basés sur quelques informations personnelles (adresse du site, identifiant...), sans avoir besoin de les stocker quelque part et donc retrouvables (i.e. recalculables) à n'importe quel moment. 
+Ces outils vous permettront de générer des mots de passe, basés sur quelques informations personnelles (adresse du site, identifiant...), sans avoir besoin de les stocker quelque part et donc retrouvables (c.à.d. recalculables) à n'importe quel moment. 
 
 **Même si sur le papier cela semble pratique et a priori une bonne idée, retenez bien que pour l'instant aucun audit de sécurité indépendant n'a encore été effectué sur ces solutions.**
 
