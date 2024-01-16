@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2024-01-16T12:29:13.058Z
+date: 2024-01-16T12:35:16.289Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -39,10 +39,11 @@ Quant aux données personnelles, le principal risque vient aussi des actions de 
 
 ### Vos données personnelles aujourd'hui, les fuites...
 
-> Chapitre pour information afin de comprendre l'ampleur de la collecte et la diffusion de nos données personnelles, notamment avec l'arrivée des ordiphones.
+> Chapitre pour information afin de comprendre l'ampleur de la collecte et la diffusion de nos données personnelles, notamment avec l'arrivée des appareils mobiles.
 {.is-info}
 
-**Alerte collecte :**
+#### La collecte des données
+
 Le développeur hollandais Bert Hubert a conçu [une application](https://nitter.cz/bert_hu_bert/status/1561466204602220544) qui vous alerte quand Google collecte vos données. Sans surprise, les "bips" sont quasiment incessants, et permettent de mesurer l'ampleur du traçage.
 
 A noter que les tests présentés dans cette publication ont été réalisés sur un navigateur web, depuis un ordinateur.
@@ -59,29 +60,41 @@ Depuis un smartphone "conventionnel" du commerce qui est "google-isé" -hors OS 
 - Pour faire le test sur votre [navigateur internet](https://coveryourtracks.eff.org/)
 - La vidéo explicative : [EFF Tools - vidéo explicative](https://invidious.namazso.eu/watch?v=ji6_TKJudaI&dark_mode=true&hl=fr&local=true)
 
-**Je valide « je ne suis pas un robot » pour l'accès à certains sites :**
+**Les captchas**
+
+- Je valide « je ne suis pas un robot » pour l'accès à certains sites
 
 ![sortirgafam041.jpg](/images/sortirgafam041.jpg =400x){.align-right} Saviez-vous que lorsque vous cochez la case "je ne suis pas un robot", ce n'est pas simplement ce fait (de cocher) qui vous authentifie à un être humain ?
 
-En réalité, le contrôle (que vous êtes humain) consiste à vérifier votre historique de navigation, ainsi le site peut vérifier que vos opérations précédentes sur internet révèlent effectivement un comportement humain. Seul hic ? Une visibilité sur vos données privées sans votre consentement. En fait, c'est même vous qui en donnez l'autorisation avec cette validation ! Et évidemment, rien n'empêche alors le site de prélever ces données.
+En réalité, le contrôle (que vous êtes humain) consiste à vérifier dans la plupart des captchas votre historique de navigation, ainsi le site peut vérifier que vos opérations précédentes sur internet révèlent effectivement un comportement humain. Seul hic ? Une visibilité sur vos données privées sans votre consentement. En fait, c'est même vous qui en donnez l'autorisation avec cette validation ! Et évidemment, rien n'empêche alors le site de prélever ces données.
 - D'où le principe de la compartimentation, par navigateur et moteur de recherche selon le type d'activités réalisés en ligne, que nous aborderons dans un article de ce wiki
 
-**Un réglementation qui évolue... dans le mauvais sens ?**
 
-[Décret n° 2022-1327 du 17 octobre 2022](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046437495)
-portant injonction, au regard de la menace grave et actuelle contre la sécurité nationale, de conservation pour une durée d\'un an de certaines catégories de données de connexion.
+#### Les réseaux sociaux
 
-> Ce décret enjoint aux opérateurs de communications électroniques ainsi qu'aux personnes mentionnées aux 1 et 2 du I de l'article 6 de la loi du 21/06/2004 de conserver, pour une durée d'un an, les données de trafic et de localisation respectivement énumérées au V de l'article R.10-13 du code des postes et des communications électroniques et à l'article 6 du décret du 20/10/2021.
-
-![sortirgafam011.jpg](/images/sortirgafam011.jpg =200x){.align-left} Le Prix Big Brother est une cérémonie de remise de prix à destination des gouvernements et des entreprises qui font le plus pour menacer la vie privée. La cérémonie est organisée par l'association Privacy International.
-
-Son nom vient du personnage emblématique de l'État policier d'Océania dans le roman 1984 de George Orwell. Ce prix existe dans une dizaine de pays. Le 14 juillet 2021, **Doctolib** se voit décerner le Big Brother Awards.
+Nous ne mentionnons pas les réseaux sociaux comme Facebook, Instagram, Twitch et consorts, qui bien entendu collectent un maximum de données. Mais certains réseaux vont encore plus loin...
 
 **TikTok :** 
 Vous êtes sûrement déjà au courant, mais bien entendu les utilisateurs de ce réseau sont surveillés par les [instances chinoises](https://www.nextinpact.com/lebrief/70282/tiktok-confirme-que-son-personnel-chinois-a-acces-aux-donnees-utilisateurs-europeens).
 
 **Samsung :**
 Non moins surprenant, la collecte des données s'étend à beaucoup d'autres domaines, comme les télévisions (connectées!) : [Une télévision qui vous espionne](https://yewtu.be/watch?v=lAT8Vgp1e1s).
+
+
+#### Un réglementation qui évolue... dans le mauvais sens ?
+
+[Décret n° 2022-1327 du 17 octobre 2022](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046437495)
+portant injonction, au regard de la menace grave et actuelle contre la sécurité nationale, de conservation pour une durée d\'un an de certaines catégories de données de connexion.
+
+> Ce décret enjoint aux opérateurs de communications électroniques ainsi qu'aux personnes mentionnées aux 1 et 2 du I de l'article 6 de la loi du 21/06/2004 de conserver, pour une durée d'un an, les données de trafic et de localisation respectivement énumérées au V de l'article R.10-13 du code des postes et des communications électroniques et à l'article 6 du décret du 20/10/2021.
+
+> Nous vous invitons à lire notre [Manifeste](/manifeste) pour prendre connaissance de ces aspects.
+{.is-info}
+
+**Big Brother**
+![sortirgafam011.jpg](/images/sortirgafam011.jpg =200x){.align-left} Le Prix Big Brother est une cérémonie de remise de prix à destination des gouvernements et des entreprises qui font le plus pour menacer la vie privée. La cérémonie est organisée par l'association Privacy International.
+
+Son nom vient du personnage emblématique de l'État policier d'Océania dans le roman 1984 de George Orwell. Ce prix existe dans une dizaine de pays. Le 14 juillet 2021, **Doctolib** se voit décerner le Big Brother Awards.
 
 **Le retour de la censure ?**
 _RT et Suptnik (Conflit Ukraine-Russie)_
