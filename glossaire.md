@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:42:32.894Z
+date: 2024-01-16T11:43:59.126Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -410,7 +410,7 @@ _Exemples_ : Windows, MacOS, Google Chrome, Safari, OneDrive, Gmail...
 
 # Proxy
 
-Sûrement un mécanisme dont vous n'avez que très peu entendu parler. Et pourtant, cette technologie est celle qui est le plus plébiscitée pour les réseaux (entreprises, universités, personnels...).
+Sûrement un mécanisme dont vous n'avez que très peu entendu parler. Et pourtant, cette technologie est celle qui est la plus plébiscitée pour les réseaux (entreprises, universités, personnels...).
 
 *Qu'est-ce qu'un proxy ?*
 
@@ -423,15 +423,16 @@ Techniquement, il ne s'agit ni plus ni moins que d'un serveur avec des règles d
 -  Le contournement de la géo restriction : si vous faites appel à un mandataire proxy dans un autre pays, vous allez obtenir une adresse IP dans ce pays, ce qui peut donc vous donner accès à des sites ou contenus exclusivement liés à ce pays. Ici encore attention à la sécurisation des données en transit, un proxy ne chiffrant pas les échanges (hormis exceptions !).
 -  La sécurité/le filtrage : imaginons que nous gérons une université, nous souhaitons donner accès à internet à nos étudiants (très utile pour eux !) mais nous souhaitons éviter qu'ils naviguent sur certains sites (porno par exemple)... Nous pourrons donc implémenter un proxy, avec des règles de filtrage sur des domaines liés à des sites pornographiques. Bon nous pourrions ici très bien nous contenter d'un pare-feu, mais un proxy viendra filtrer à plus haut niveau, et ainsi parfaitement utile. Vous l'aurez compris, un proxy est généralement utilisé dans une architecture réseau afin d'apporter une couche de sécurité, en parallèle d'autres mécanismes (pare-feu, IDS, VPNs...).
 
-Cela ne vous rappelle rien ?
-
-**Eh oui, un proxy peut être une alternative dans une certaine mesure aux VPN grands publics et à la limite à Tor, le chiffrement en moins dans la plupart des cas !**
+**Un proxy peut être une alternative dans une certaine mesure aux VPN grands publics, le chiffrement en moins dans la plupart des cas !**
 
 # Recovery
 
 C'est une "partition" de récupération (recovey en anglais) contenue sur les appareils Android et nommée recovery. Elle contient le mode de récupération Android.
 
-Lorsque l'on veut remplacer le système Android, on doit alors le déverrouiller puis le "flasher" pour remplacer le recovery avec un Recovery personnalisé (Custom Recovery). Certaines custom ROM permettent de reverrouiller ensuite l'appareil par souci de sécurité, rendez vous sur [Android et ses ROM alternatives](/debutant/android-roms) pour en savoir plus.
+Lorsque l'on veut remplacer le système Android, on doit alors le déverrouiller puis le "flasher" pour remplacer le recovery avec un Recovery personnalisé (Custom Recovery). Certaines custom ROM permettent de re-verrouiller ensuite l'appareil par souci de sécurité.
+
+> Nous renvoyons vers l'article dédié à [Android et ses ROM alternatives](/debutant/android-roms) pour en savoir plus.
+{.is-info}
 
 
 # Réseau (Informatique)
