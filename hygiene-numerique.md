@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-01-16T14:06:17.649Z
+date: 2024-01-16T14:07:16.941Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -150,9 +150,7 @@ Donc une chose est sûre, le mot de passe n’est pas encore prêt de disparaît
 
 ## Malware, Virus, Trojan...
 
-Il est intéressant de savoir faire la différence entre les types de menaces que nous pouvons rencontrer, ou qui sont à l’origine d’une compromission : un « malware » (**mal**icous soft**ware**) est un terme anglais qui désigne un logiciel malveillant. Ici, le terme logiciel se rapporte à tout programme informatique, document ou fichier qui est stocké sur un disque dur ou transmis via un réseau.
-
-Voici une idée des principaux types de malwares existants à ce jour :
+Il est intéressant de savoir faire la différence entre les types de menaces que nous pouvons rencontrer, ou qui sont à l’origine d’une compromission : un « malware » (**mal**icous soft**ware**) est un terme anglais qui désigne un logiciel malveillant. Ici, le terme logiciel se rapporte à tout programme informatique, document ou fichier qui est stocké sur un disque dur ou transmis via un réseau. Voici une idée des principaux types de malwares existants à ce jour :
 -   Les virus : qui sont des bouts de codes informatiques attachés à des programmes informatiques eux-mêmes. Un virus est créé pour infecter un équipement et se propager à d’autres équipements (finalement un peu à la manière d’un réel virus qui se propage dans le corps humain d'une personne à une autre !). L’idée est d’effectuer toutes sortes d’opérations afin de corrompre la ou les machines cibles : altération, réécriture, suppression de données... Le résultat est un équipement instable et lent.
 -   Les chevaux de Troie (« Trojan » en anglais) : un programme informatique qui a l’air tout à fait normal, à ceci près qu’il cache une fonction malveillante dans ses entrailles. Par exemple, une personne télécharge un lecteur vidéo d’un site internet inconnu, pensant trouver un outil capable de lire un format de fichier, mais donnant au final un accès complet à un attaquant sur la machine cible ; c'est l'idée d'un cheval de Troie.
 -   Les "rootkits" : un joli _ensemble de programmes malveillants_ - dissimulés et vus comme normaux par des anti-virus, qui permet de donner un accès libre à distance à un attaquant. Alors, comme cela, la différence entre un Trojan et un Rootkit n'est pas évidente... Mais quand un trojan est plus susceptible d'être détecté par un anti-virus classique, un rootkit sait se dissimuler plus encore, et est très complexe à entièrement supprimer de la machine infectée. Il mérite un outil de détection particulier.
@@ -174,7 +172,7 @@ Par extension, nous utilisons souvent le terme d’anti-virus, bien que réducte
 
 Nous reparlons de ces outils plus loin dans l'article...
 
-*Note : Vous avez maintenant les clés pour vous la péter avec vos amis :-) !*
+*Vous avez maintenant les clés pour vous la péter avec vos amis :-) !*
 
 ## Les métadonnées, qu'est-ce que c'est ?
 
