@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-01-16T14:04:24.156Z
+date: 2024-01-16T14:06:17.649Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -128,12 +128,15 @@ La question est judicieuse, à l'heure où tous les chercheurs et experts tenten
 
 *« Bon OK, ça j’avais compris en traduisant de l’anglais, mais concrètement... »*
 
-Concrètement, nous avons déjà vu dans la partie précédente l’authentification multifactorielle (MFA). Mais attention cependant de ne pas confondre les 2 mécanismes : le MFA ajoute « n » couches d'authentification en plus de l’authentification par mot de passe, le passwordless lui n’a pas besoin d’un secret connu (facteur 1, c'est à dire le **mot de passe**, par exemple) mais implique l’utilisation des autres facteurs pour s’authentifier :
--   Quelque chose que vous DÉTENEZ
--   Une de vos CARACTÉRISTIQUES PHYSIQUES
--   OÙ vous vous situez
+Concrètement, nous avons déjà vu dans la partie précédente l’authentification multifactorielle (MFA). Mais attention cependant de ne pas confondre les 2 mécanismes : 
+- le MFA ajoute « n » couches d'authentification en plus de l’authentification par mot de passe,
+- le passwordless lui n’a pas besoin d’un secret connu (facteur 1, c'est à dire le **mot de passe**, par exemple) mais implique l’utilisation des autres facteurs pour s’authentifier :
+  - Quelque chose que vous DÉTENEZ
+  - Une de vos CARACTÉRISTIQUES PHYSIQUES
+  - LE LIEU où vous vous situez
+{.grid-list}
 
-_Par exemple_ : utilisation d’un token physique de sécurité, utilisation de l’empreinte digitale...
+_Par exemple_ : utilisation d’un token physique de sécurité de concert avec l’empreinte digitale...
 
 Il est également tout à fait possible d’utiliser ces facteurs en même temps, auquel cas nous nommerons ce procédé « MFA-passwordless » !
 
