@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:40:54.531Z
+date: 2024-01-16T11:41:40.243Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -394,12 +394,13 @@ Exemples de ports réseau, d'après leur numérotation :
 ![ports-réseau.jpeg](/images/ports-réseau.jpeg =600x){.align-center}
 
 
-> Parmi les ports les plus communs, on trouve les ports :
-> -- 80 : http
-> -- 443 : https
-{.is-info}
+Parmi les ports les plus communs, on trouve les ports :
+- 22 : SSH
+- 80 : HTTP
+- 443 : HTTPS
 
-Pour plus de détails sur les ports réseau, consulter l'excellent [article de Malekal](https://www.malekal.com/liste-des-ports-ports-reseaux-de-connexion-et-ce-que-cest/).
+> Pour plus de détails sur les ports réseau, consulter l'excellent [article de Malekal](https://www.malekal.com/liste-des-ports-ports-reseaux-de-connexion-et-ce-que-cest/).
+{.is-info}
 
 # Propriétaire
 
