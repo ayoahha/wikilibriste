@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-01-16T14:19:02.175Z
+date: 2024-01-16T14:19:25.225Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -342,7 +342,7 @@ Nous l’avons vu plus haut, créer un mot de passe extrêmement fort peut déj�
 
 ![motdepasse2023.png](/images/motdepasse2023.png =600x){.align-center}
 
--   pré-requis minimum : **15 caractères**
+-   pré-requis minimum : **13 caractères**
  :arrow_right: Cela s'atteint même aisément avec une technique simple - la phrase de passe -, évoquée juste à la suite. 
 -   Au minimum, un mélange de lettres minuscules-majuscules, de chiffres, et de caractères spéciaux. Afin de renforcer encore plus vos mots de passe :
     -  On évite la majuscule en début de mot de passe.
