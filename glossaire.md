@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:32:14.393Z
+date: 2024-01-16T11:34:07.184Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -174,12 +174,12 @@ Un "dump" est une exportation des données stockées dans une Base De Données (
 - Pour MySQL, MariaDB, PostGreSQL, les dumps sont constitués d'une suite de commandes SQL permettant de recréer les tables, les permissions et données d'une base.
 - Sur d'autres comme Oracle, SQLServer, le dump sera une copie binaire des données.
 
-> Cette action permet de sauvegarder une base dans un état intègre (c.a.d. sans dégradation, sans corruption) et permettre de restaurer les données si un problème survient.
+> Cette action permet de sauvegarder une base dans un état intègre (c.à.d. sans dégradation, sans corruption) et permettre de restaurer les données si un problème survient.
 {.is-success}
 
 # Durcissement
 
-Voir [Hardening](#hardening) plus loin.
+Voir [Hardening](#hardening) ci-après.
 
 # Exploit
 
