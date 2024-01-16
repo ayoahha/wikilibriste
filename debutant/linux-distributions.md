@@ -2,7 +2,7 @@
 title: Les distributions GNU/Linux
 description: Article relatif aux distributions GNU/Linux que le collectif recommande...
 published: true
-date: 2024-01-16T12:03:51.037Z
+date: 2024-01-16T12:07:11.449Z
 tags: linux, debutant, intermédiaire, débutant, intermediaire, initié, expert
 editor: markdown
 dateCreated: 2022-11-24T21:02:27.494Z
@@ -39,6 +39,7 @@ Nous recommandons principalement 3 outils, open-source et libres, qui possèdent
 
 - [UNetBootIn](https://unetbootin.github.io/) : un peu plus complexe à utiliser, et parfois capricieux.
 {.grid-list}
+
 # Choisissez votre distro
 N'oubliez pas de modifier votre BIOS afin de permettre un boot sur une clef USB.
 
@@ -290,7 +291,7 @@ Une communauté de Gamers Linux (Fr, GLF) a vu le jour. Ils proposent des tutori
 - Présence des développeurs de kernels et distros optimisées (TKG par ex.)
 - [Le discord GLF](https://discord.gg/8J8vQPEG)
 
-> **Attention** : le dernier lien est un lien "discord", cette communauté n'étant présente que sur cette plateforme. Il est possible pour les plus libristes d'entre vous d'utiliser un client alternatif afin d'y accéder et limiter la télémétrie, cf. notre article sur les [alternatives](/debutant/logiciel-alternative-libre).
+> **Attention** : le dernier lien est un lien "discord", cette communauté n'étant présente que sur cette plateforme. Il est possible pour les plus libristes d'entre vous d'utiliser un client alternatif ou d'isoler l'application afin d'y accéder et limiter la télémétrie, cf. notre article sur les [alternatives](/debutant/logiciel-alternative-libre).
 {.is-info}
 
 Certains développeurs de cette communautés mettent à disposition des scripts de post-installation qui vous permettront de vous faciliter la tâche pour configurer votre distribution :
