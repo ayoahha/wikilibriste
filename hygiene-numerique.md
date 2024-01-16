@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-01-16T14:07:16.941Z
+date: 2024-01-16T14:09:58.241Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -178,16 +178,16 @@ Nous reparlons de ces outils plus loin dans l'article...
 
 Nous entendons beaucoup parler de "métadonnées" de nos jours... Mais à quoi se raccroche ce terme ?
 
-Tentons de définir cela : une métadonnée est une information concernant une donnée (en gros une donnée sur une donnée !).
+Tentons de définir cela : 
 
-Cette information peut inclure des choses comme :
--  l'émetteur et le destinataire d'un message, 
--  la date de transmission et/ou d'envoi effectif, 
--  l'adresse IP, 
--  la géolocalisation
--  des identifiants de machine ou équipements
--  des versions de logiciels ou système d'exploitation
--  d'autres informations...
+> Une métadonnée est une information ou donnée, concernant une donnée elle-même (en gros une donnée sur une donnée !). Cette information peut inclure des choses comme :
+> -  l'émetteur et le destinataire d'un message, 
+> -  la date de transmission et/ou d'envoi effectif, 
+> -  l'adresse IP, 
+> -  la géolocalisation
+> -  des identifiants de machine ou équipements
+> -  des versions de logiciels ou système d'exploitation
+> -  d'autres informations...
 
 **Tout le trafic internet génère ce type de données, et nous dirions même que sans cela, internet ne pourrait pas tout à fait fonctionner.**
 
@@ -200,6 +200,7 @@ Mettons ici que vous souhaitez transmettre un message à votre cousin. Par analo
 Vous voyez où nous voulons en venir : oui, cette adresse postale est en fait une **métadonnée** ! Difficile ici de sécuriser (chiffrer par exemple) cette adresse, car La Poste pourrait ne pas pouvoir lire cette destination et donc votre lettre pourrait ne pas arriver.
 
 Voilà pourquoi certaines informations ne peuvent être protégées, en tout cas de façon simple ! Il existe bien entendu des techniques pour sécuriser et limiter les métadonnées non protégées, et certaines applications peuvent y arriver par design : par exemple la messagerie "Signal" ne fournit que très peu de métadonnées non protégées : les serveurs stockent de façon permanente uniquement les numéros de téléphone associés à un compte Signal, et la dernière connexion avec ce compte. Rien de plus...
+
 **Il est important de noter ici que bien entendu si ce numéro de téléphone vous est attribué, il sera possible de savoir si vous utilisez Signal, même si personne ne pourra avoir le contenu de vos messages bien entendu (hormis potentiellement des entités à fortes ressources financières et logistiques !).**
 
 Le sujet des métadonnées est un sujet extrêmement débattu dans la communauté, car même si certains s'intéressent à leur sécurisation, d'autres au contraire militent pour ne pas protéger ces informations voire en ajouter certaines... Certains dénoncent même cette course à la métadonnée :
@@ -216,13 +217,11 @@ La bonne nouvelle est que nous sommes aujourd'hui capable de limiter cette colle
 
 Le piratage fait référence à toute activité visant à compromettre un ordinateur, téléphone, une machine en usine, un serveur, un réseau informatique entier, voire une personne (cas de l'ingénierie sociale). Au contraire de ce que la plupart des gens pensent, le piratage n’est pas systématiquement malveillant, mais une partie est en effet effectuée par des cybercriminels et a pour conséquence de compromettre la vie privée de la (ou des) cible(s).
 
-Le « hacking » se rapporte à toute activité permettant de détourner un objet de sa fonction première. Un hacker s’intéresse avant tout au détournement, à la bidouille, au jeu, aux défis intellectuels...
+> Le « hacking » se rapporte à toute activité permettant de détourner un objet de sa fonction première. Un hacker s’intéresse avant tout au détournement, à la bidouille, au jeu, aux défis intellectuels...
 
-Eh oui, vous voyez, un _hacker_ n’est pas forcément un pirate informatique ! Vous trouverez par exemple beaucoup de personnes détournant des objets de la vie quotidienne pour une autre utilité : ces personnes sont aussi des hackers et on les appelle des « life-hackers ». Cette confusion vient en partie des journalistes et autres pseudo-experts qui ont utilisé ce terme afin de désigner les cybercriminels uniquement, en omettant toute la partie bienveillante ou positive. Ce terme est resté ancré dans l’inconscient collectif, en des termes négatifs.
-
-Attention donc à la confusion avec la terminologie :
--   Un cybercriminel est un pirate informatique malveillant
--   Un pirate informatique peut être bienveillant (un "pentester" par exemple - **pen**etration **test**ing = tests d'intrusion : auditer la sécurité informatique)
+Eh oui, vous voyez, un _hacker_ n’est pas forcément un pirate informatique ! Vous trouverez par exemple beaucoup de personnes détournant des objets de la vie quotidienne pour une autre utilité : ces personnes sont aussi des hackers et on les appelle des « life-hackers ». Cette confusion vient en partie des journalistes et autres pseudo-experts qui ont utilisé ce terme afin de désigner les cybercriminels uniquement, en omettant toute la partie bienveillante ou positive. Ce terme est resté ancré dans l’inconscient collectif, en des termes négatifs. Attention donc à la confusion avec la terminologie :
+-   Un cybercriminel est un pirate informatique malveillant.
+-   Un pirate informatique peut être bienveillant (un "pentester" par exemple - **pen**etration **test**ing = tests d'intrusion : auditer la sécurité informatique).
 -   Un hacker peut être un pirate informatique (cf. terminologie [White Hat / Grey Hat / Black Hat](/glossaire#white-hat) du glossaire).
 Il peut néanmoins être un "bidouilleur", qui installe un système alternatif à la place de celui d'un robot cuiseur, une calculatrice [^¹] ou une imprimante [^²], pour relever le défi d'y jouer à des jeux vidéos :)
 
@@ -233,15 +232,13 @@ Il peut néanmoins être un "bidouilleur", qui installe un système alternatif �
 
 Tenter de protéger TOUTES ses informations personnelles, TOUT le temps, de TOUT le monde, peut s'avérer être une tâche ardue voire épuisante ! Pas de panique, la sécurité numérique est un long '''voyage '''qui doit s'adapter à votre profil et évoluer selon vos utilisations. La sécurité numérique n'est pas limitée aux seuls outils ou services que vous utilisez, elle commence par l'anticipation et la compréhension des menaces existantes et de la façon de s'en prémunir. Par définition :
 
-> Un modèle de menaces ("Threat Model") correspond à l'identification et la compréhension des menaces les plus probables qui peuvent vous impacter. Ainsi, vous serez plus à même de mettre en place les contre-mesures adéquates.
+> Un modèle de menaces (ou "Threat Model") correspond à l'identification et la compréhension des menaces les plus probables qui peuvent vous impacter. Ainsi, vous serez plus à même de mettre en place les contre-mesures adéquates.
 
 J'en conviens, c'est une définition un peu "barbare", mais tentons d'y voir plus clair sur ce sujet intéressant. En sécurité numérique :
 -   une menace se définit par un événement possible et redouté qui saperait vos efforts dans la protection de vos données ;
 -   les contre-mesures sont toutes les actions entreprises afin d'écarter ces menaces.
 
-Nous pouvons donc en déduire que grâce à l'identification des menaces que vous rencontrerez potentiellement, il sera possible d'y appliquer des actions récurrentes ou ponctuelles (grâce à des outils ou manuellement) sur votre vie numérique.
-
-Mais avant tout cela, tentons de comprendre la finalité...
+Nous pouvons donc en déduire que grâce à l'identification des menaces que vous rencontrerez potentiellement, il sera possible d'y appliquer des actions récurrentes ou ponctuelles (grâce à des outils ou manuellement) sur votre vie numérique. Mais avant tout cela, tentons de comprendre la finalité...
 
 ## Sécurité, vie privée et anonymat
 
