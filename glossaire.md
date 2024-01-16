@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:43:59.126Z
+date: 2024-01-16T11:46:28.657Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -522,7 +522,7 @@ ROM en anglais est l’acronyme pour **R**ead **O**nly **M**emory, mémoire en l
 
 Android est un système d'exploitation pour smartphones/tablettes qui est installé par le constructeur de l'appareil avant l'achat, au moyen de ce que l'on appelle un firmware OEM. Quand nous souhaitons le remplacer, pour se débarrasser des surcouches du constructeur et notamment de Google, nous devons **Flasher** (installer) une **Custom ROM** (une version personnalisée d'Android telles que Lineage OS, /e/ OS, CalyxOS...).
 
-Alors vous allez vous dire, une ROM c'est une mémoire morte en lecture seule, sur laquelle on ne peut pas réécrire ? Comment peut-on parler de flasher une ROM ? :confused:
+Alors vous allez vous dire, une ROM c'est une mémoire morte en lecture seule, sur laquelle on ne peut pas ré-écrire ? Comment peut-on parler de flasher une ROM ? :confused:
 
 Eh bien oui, c'est étrange, mais à l'époque les mémoires contenant le micrologiciel (firmware) d'un appareil était "flashables" (comprendre installables) avec un programmateur d'EEPROM. Depuis, cela a bien évolué et les firmwares sont désormais contenus dans des mémoires de type "Flash" réinscriptibles. L'ancienne appellation a été conservée, de sorte que l'on dit encore : "Flasher une Custom ROM" :D
 
@@ -553,7 +553,7 @@ Il est absolument déconseillé de l'activer ou si c'est déjà le cas, de l'uti
 
 # SBC
 
-Un SBC ou [Single Board Computer](https://fr.wikipedia.org/wiki/Ordinateur_%C3%A0_carte_unique) est un *ordinateur* en modèle réduit (autrement appelé nano-PC) qui tient sur un petit format de carte imprimé, comme par exemple :
+Une SBC ou [Single Board Computer](https://fr.wikipedia.org/wiki/Ordinateur_%C3%A0_carte_unique) est un "*ordinateur en modèle réduit*", autrement appelé nano-PC, qui tient sur un petit format de carte imprimé, comme par exemple :
 - [Raspberry Pi](https://www.raspberrypi.org/)
 - [OrangePi](http://www.orangepi.org/)
 - [O-Droid](https://www.hardkernel.com/)
