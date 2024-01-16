@@ -2,7 +2,7 @@
 title: Les distributions GNU/Linux
 description: Article relatif aux distributions GNU/Linux que le collectif recommande...
 published: true
-date: 2023-11-29T12:13:54.087Z
+date: 2024-01-16T12:03:51.037Z
 tags: linux, debutant, intermédiaire, débutant, intermediaire, initié, expert
 editor: markdown
 dateCreated: 2022-11-24T21:02:27.494Z
@@ -40,7 +40,7 @@ Nous recommandons principalement 3 outils, open-source et libres, qui possèdent
 - [UNetBootIn](https://unetbootin.github.io/) : un peu plus complexe à utiliser, et parfois capricieux.
 {.grid-list}
 # Choisissez votre distro
-N'oubliez pas de modifier votre [BIOS](/glossaire#firmware) afin de permettre un boot sur une clef USB.
+N'oubliez pas de modifier votre BIOS afin de permettre un boot sur une clef USB.
 
 
 > **Nous avons rédigé un [tutoriel](/tutoriels/bios-boot) spécifique pour le paramétrage d'un BIOS**.
