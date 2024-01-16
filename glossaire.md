@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:27:50.518Z
+date: 2024-01-16T11:28:03.239Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -134,7 +134,7 @@ Le DHCP (Dynamic Host Configuration Protocol) est comme son nom l'indique un pro
 
 C'est donc un protocole réseau qui va s'occuper de configurer les paramètres des équipements connectés à un réseau.
 
-C'est généralement la "box" de votre fournisseur Internet qui s'en charge sur votre réseau local. Ainsi lorsque vous branchez un PC avec un câble ethernet ou que vous connectez un smartphone à votre Wifi, ceux-ci obtiennent automatiquement une adresse IP et un nom de domaine vers qui envoyer les requêtes.
+C'est généralement la "box" de votre fournisseur Internet qui s'en charge sur votre réseau local. Ainsi lorsque vous branchez un PC avec un câble ethernet ou que vous connectez un smartphone à votre Wifi, ceux-ci obtiennent automatiquement une adresse IP et un nom de domaine (cf. DNS) vers qui envoyer les requêtes.
 
 # Distribution (Distro)
 
