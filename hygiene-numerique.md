@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-01-16T14:09:58.241Z
+date: 2024-01-16T14:11:55.221Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -248,6 +248,15 @@ Trois termes extrêmement importants lorsque nous cherchons à comprendre commen
 -   L’**anonymat**, ou « Anonymity », représente le fait de cacher l’auteur d’un échange et des informations.
   (*À ne pas confondre avec pseudonymat qui est l'utilisation d'une identité fictive*).
 
+**_Pour illustrer_** :
+  - Une méthode pour protéger sa vie privée pourrait être une fonction anti-traceurs dans un navigateur (uBlock), 
+  - Une méthode pour assurer un niveau de sécurité pourrait être un mot de passe, 
+  - Et enfin l'utilisation de Tor pourrait être un outil afin d'obtenir un *relatif* anonymat.
+{.grid-list}
+
+> Souvent, les personnes confondent Vie Privée et Sécurité ; la frontière est mince, mais ces notions renvoient tout de même à des aspects différents de la protection des données : la protection de notre vie privée concerne ce que nous **sommes prêts à donner** comme informations sur nous aux autres personnes, tandis que la sécurité concerne ce que nous allons **entreprendre pour rendre inaccessibles** nos informations ; deux aspects différents, deux objectifs bien distincts...
+{.is-info}
+
 Afin d’atteindre un certain degré de sécurité, de vie privée et d’anonymat, il est essentiel aujourd’hui de se pencher véritablement sur nos activités numériques. Voyons ces 3 aspects comme 3 cercles qui se chevauchent, les centres de ces 3 cercles représentant le degré maximal de protection :
 
 ```diagram
@@ -257,16 +266,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 **Oui, alors on ne se moque pas : je ne suis pas webdesigner :D !**
 
 ---
-Assez schématiquement, nous pouvons nous apercevoir qu'il va être **extrêmement difficile** si ce n'est **impossible** de se placer à l'interjection des 3 axes de protection en espérant le 100% sur chaque pan de protection.
-
-**_Pour illustrer_** :
-  - Une méthode pour protéger sa vie privée pourrait être une fonction anti-traceurs dans un navigateur (uBlock), 
-  - Une méthode pour assurer un niveau de sécurité pourrait être un mot de passe, 
-  - Et enfin l'utilisation de Tor pourrait être un outil afin d'obtenir un *relatif* anonymat.
-{.grid-list}
-
-> Souvent, les personnes confondent Vie Privée et Sécurité ; la frontière est mince, mais ces notions renvoient tout de même à des aspects différents de la protection des données : la protection de notre vie privée concerne ce que nous **sommes prêts à donner** comme informations sur nous aux autres personnes, tandis que la sécurité concerne ce que nous allons **entreprendre pour rendre inaccessibles** nos informations ; deux aspects différents, deux objectifs bien distincts...
-{.is-info}
+Schématiquement, nous pouvons nous apercevoir qu'il est **extrêmement difficile**, si ce n'est **impossible**, de se placer à l'interjection des 3 cercles de protection en espérant le 100% sur chaque pan de protection.
 
 De fait, multiplier les mécanismes pro-vie-privée, multiplier les équipements ou applications de sécurité (pare-feu, IDS/IPS, honeypot, anti-malware, proxy, host IDS, etc.) et autres procédés d’anonymat ne signifie pas automatiquement une plus grande protection des données, de vie privée et une amélioration de l'anonymat. Au contraire, parfois, complexifier votre approche en terme de cyber-sécurité est le meilleur moyen pour faire grossir la liste des potentielles failles de sécurité ou vulnérabilités. On appelle cela **augmenter sa surface d'attaque** : Plus vous avez d'équipements, de services ou de logiciels, plus le nombre de vulnérabilités augmente, donc plus la probabilité d'avoir une faille exploitable augmente également.
 
