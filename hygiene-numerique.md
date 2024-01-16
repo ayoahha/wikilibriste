@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-01-16T14:42:52.380Z
+date: 2024-01-16T14:55:12.786Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -485,29 +485,38 @@ Concernant l'utilisation d'un anti-virus ou anti-malware, même si certains malw
 
 -   N'utilisez pas de solutions commerciales, type Norton, BitDefender, Kaspersky... qui implémentent de toute manière une télémétrie vers leurs entreprises ainsi que des sociétés tierces.
 -   **_Si vous avez un modèle de menaces nécessitant une sécurité et un anonymat accru :_** n'utilisez pas les fonctions de protection en temps réel de ces outils ; au delà même de la question de l'utilité réelle de ce genre de fonctions, celles-ci sont exécutées avec des privilèges hauts et, de facto, peuvent être utilisées comme un vecteur d'attaque.
--   Préférez les solutions open-source et hors ligne, afin d'utiliser ces outils comme prévus à l'origine : scanner régulièrement les fichiers de votre système, ou que vous voudriez scanner en cas de doute sur une potentielle infection. Nous avons rédigé un [tutoriel](/tutoriels/distro-protect) afin de vous guider dans ces tâches. Pour synthétiser, nous recommandons :
-    -   pour la détection de logiciels malveillants (malwares) :
-	    - [ClamAV](https://www.clamav.net/) et [ClamTk](https://gitlab.com/dave_m/clamtk/) son interface graphique,
-    	- [RFXN Linux Malware](http://www.rfxn.com/projects/linux-malware-detect/) (Linux uniquement),
-  		- [Hypatia](https://gitlab.com/divested-mobile/hypatia) (Android uniquement),
-    -   pour la détection de rootkits (cf. [ici](/hygiene-numerique#malware-virus-trojan)) : [Chkrootkit](http://www.chkrootkit.org/) ou [RkHunter](https://rkhunter.sourceforge.net/) (Linux uniquement). 
--   Si vous ne souhaitez pas installer un outil sur votre ordinateur, vous pouvez potentiellement vous aider de solutions web. Attention ici cependant de ne pas mettre des fichiers contenant des informations personnelles (les vôtres ou ceux d'autres personnes) ou sensibles sur ces sites internet :
-    -   [VirusTotal](https://www.virustotal.com/gui/home/upload) (petite mise en garde sur cet outil : leur politique de vie privée est assez problématique cependant car ils stipulent que "tout fichier que vous leur soumettrez seront gardés, partagés voire utilisés à des fins commerciales". Voilà pourquoi il est important de ne pas transmettre de fichiers potentiellement sensibles.)
-    -   [Hybrid analysis](https://hybrid-analysis.com/)
--   D'autres outils sont disponibles sur ce dépôt, pleins de ressources fabuleuses concernant les malwares : [awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis).
+-   Préférez les solutions open-source et hors ligne, afin d'utiliser ces outils comme prévus à l'origine : scanner régulièrement les fichiers de votre système, ou que vous voudriez scanner en cas de doute sur une potentielle infection. Nous recommandons :
 
-> **Attention de bien garder en tête cependant que ces outils ne sont pas la panacée, et ne pourront pas détecter 100% des malwares existants ou futurs. Il est donc important de mettre en place les bonnes pratiques et de bien faire attention aux autres parties de cet article.**
+| Détection en ligne | Commentaire |
+|----------|----------|
+| [ClamAV](https://www.clamav.net/) / [ClamTk](https://gitlab.com/dave_m/clamtk/) | Détection de malware hors rootkits. ClamAV est le moteur et ClamTk est son interface graphique |
+| [RFXN Linux Malware](http://www.rfxn.com/projects/linux-malware-detect/) | Détection de malware hors rootkits. Linux uniquement |
+| [Hypatia](https://gitlab.com/divested-mobile/hypatia) | Détection de malware hors rootkits. Android uniquement |
+| [Chkrootkit](http://www.chkrootkit.org/) | Détection de rootkits |
+| [RkHunter](https://rkhunter.sourceforge.net/) | Détection de rootkits |
+
+> Nous avons rédigé un [tutoriel](/tutoriels/distro-protect) afin de vous guider dans ces tâches
+{.is-info}
+
+-   Si vous ne souhaitez pas installer un outil sur votre ordinateur, vous pouvez potentiellement vous aider de solutions web. Attention ici cependant de ne pas mettre des fichiers contenant des informations personnelles (les vôtres ou ceux d'autres personnes) ou sensibles sur ces sites internet :
+
+| Détection en ligne | Commentaire |
+|----------|----------|
+| [VirusTotal](https://www.virustotal.com/gui/home/upload) | Leur politique de vie privée est assez problématique cependant car ils stipulent que "tout fichier que vous leur soumettrez seront gardés, partagés voire utilisés à des fins commerciales". Voilà pourquoi il est important de ne pas transmettre de fichiers potentiellement sensibles |
+| [Hybrid analysis](https://hybrid-analysis.com/) | - |
+
+-   D'autres outils sont disponibles sur ce dépôt, pleins de ressources fabuleuses concernant les malwares :
+[awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis).
+
+> Attention de bien garder en tête cependant que ces outils ne sont pas la panacée, et ne pourront pas détecter 100% des malwares existants ou futurs. Il est donc important de mettre en place les bonnes pratiques et de bien faire attention aux autres parties de cet article.
 {.is-warning}
 
 ## Les WiFi publics
 
-> Bannissez tous les WiFi publics (hormis certains cas bien précis).
-{.is-info}
-
-Les gares, aéroports, cafés, hôtels, restaurants... qui proposent des Wifi partagés sont aussi des lieux idéaux pour tous cybercriminels afin de s’introduire sur votre machine. ÉVITEZ absolument ces WiFi. Voici quelques alternatives :
+Il est enfin important de bannir tous les WiFi publics (hormis certains cas bien précis) : les gares, aéroports, cafés, hôtels, restaurants... qui proposent des Wifi partagés sont aussi des lieux idéaux pour tous cybercriminels afin de s’introduire sur votre machine. **ÉVITEZ** absolument ces WiFis. Voici quelques alternatives :
 
 -   Vous avez sûrement tous un téléphone portable dernier cri Android (ou Apple... Quoi ?!! Vous avez encore un produit Apple ?!! ;-)). Utilisez donc leurs fonctions de « point d’accès sans-fil » avec votre téléphone en 4G/5G afin d’éviter de vous connecter sur les WiFi publics.
--   Si vous voulez tout de même vous connecter sur des WiFi publics pour des problématiques d'anonymat, l’utilisation d’un VPN dans ce cas précis est ABSOLUMENT NÉCESSAIRE.
+-   Si vous voulez tout de même vous connecter sur des WiFi publics, l’utilisation d’un VPN dans ce cas précis est **ABSOLUMENT NÉCESSAIRE**.
 
 ## Annexe
 
