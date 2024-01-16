@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2023-12-07T19:59:17.385Z
+date: 2024-01-16T11:20:02.161Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -19,7 +19,7 @@ Android Debug Bridge : "Pont de débogage Android" en français.
 
 L'utilisateur n'ayant pas les droits "root" sous Android (voir "Rooter" plus bas dans le glossaire), l'usage est d'utiliser un ordinateur depuis lequel réaliser les actes d'administration avancés à destination du smartphone.
 
-Pour y parvenir, on crée "un _pont_" entre l'ordinateur et le smartphone _Android_, pour "_déboguer_" ce dernier (même si les usages que nous en attendons s'éloignent du débogage), via un programme appelé Android Debug Bridge (ADB).
+Pour y parvenir, on crée "un _pont_" entre l'ordinateur et le smartphone _Android_, pour "_déboguer_" ce dernier (même si les usages que nous en attendons s'éloignent du débogage), via un programme appelé Android Debug Bridge ou ADB.
 
 Outre le débogage, on peut réaliser toute opération d'administration à privilèges élevés sur le smartphone, telles que :
 - contrôler certains paramètres de sécurité qui nécessitent une élévation de privilège
