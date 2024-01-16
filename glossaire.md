@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:26:08.249Z
+date: 2024-01-16T11:26:25.996Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -116,7 +116,8 @@ La somme de contrôle (ou "checksum") est une valeur hexadécimale (suite de chi
 
 On utilise un outil basé sur ces algorithmes pour calculer cette somme et ainsi vérifier qu'un fichier est intègre, c'est-à-dire qu'il n'a pas été altéré durant son "transport".
 
-Voir cet [article](/tutoriels/verifier-integrite) pour apprendre à vérifier l'intégrité d'un fichier.
+> Nous renvoyons à cet [article](/tutoriels/verifier-integrite) pour apprendre à vérifier l'intégrité d'un fichier.
+{.is-info}
 
 # Daemon
 
