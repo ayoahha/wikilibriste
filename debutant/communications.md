@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2024-01-16T13:25:51.959Z
+date: 2024-01-16T13:29:13.561Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -629,9 +629,10 @@ Briar a fait l'objet d'un audit en 2017 [^²3] : voici le [rapport PDF](https://
 D'autres solutions de messageries, moins connues ou plus récentes existent. Nous faisons état ci-dessous de quelques-unes qui méritent de s'y intéresser, bien que pour certaines trop "jeunes" pour être utilisées au quotidien. 
 
 Cela doit rester à la discrétion des utilisateurs de faire confiance ou non en ces outils :
+
+- [SimpleX *messagerie qui monte, auditée **\*** en 2022. Uniquement disponible sur Android et iOS*](https://simplex.chat/)
 - [Molly *un fork de Signal*](https://molly.im)
 - [Cwtch *équivalent de Briar, et solution très intéressante, à regarder de près*](https://cwtch.im/)
-- [SimpleX *messagerie qui monte, auditée **\*** en 2022. Uniquement disponible sur Android et iOS*](https://simplex.chat/)
 - [Berty *équivalent de Element, en cours d'audit*](https://berty.tech)
 {.links-list}
 
