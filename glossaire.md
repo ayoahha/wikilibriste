@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:26:25.996Z
+date: 2024-01-16T11:27:50.518Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -121,7 +121,7 @@ On utilise un outil basé sur ces algorithmes pour calculer cette somme et ainsi
 
 # Daemon
 
-Un Daemon (Deïmon) est un terme anglais qui désigne un service ou un groupe de services s'exécutant en arrière plan de l'OS afin de réaliser des actions sur le matériel, répondre à des requêtes réseau, etc, sans contrôle direct par un utilisateur.
+Un Daemon (Deïmon) est un terme anglais qui désigne un service ou un groupe de services s'exécutant en arrière plan de l'OS afin de réaliser des actions sur le matériel, répondre à des requêtes réseau... sans contrôle direct par un utilisateur.
 
 Nous pouvons citer par exemple, sous UNIX :
 - Les services réseau ou de type serveur comme par exemple SSH ou HTTP ou LPD pour les imprimantes. Ils se terminent souvent par un "d", par ex. `httpd`, ou `lighttpd` ou `sshd`
@@ -134,7 +134,7 @@ Le DHCP (Dynamic Host Configuration Protocol) est comme son nom l'indique un pro
 
 C'est donc un protocole réseau qui va s'occuper de configurer les paramètres des équipements connectés à un réseau.
 
-C'est généralement la "box" de votre fournisseur Internet qui s'en charge sur votre réseau local. Ainsi lorsque vous branchez un PC avec un câble ethernet ou que vous connectez un smartphone à votre Wifi, ceux-ci obtiennent automatiquement une adresse IP et un [DNS](#dns) à qui envoyer les requêtes.
+C'est généralement la "box" de votre fournisseur Internet qui s'en charge sur votre réseau local. Ainsi lorsque vous branchez un PC avec un câble ethernet ou que vous connectez un smartphone à votre Wifi, ceux-ci obtiennent automatiquement une adresse IP et un nom de domaine vers qui envoyer les requêtes.
 
 # Distribution (Distro)
 
