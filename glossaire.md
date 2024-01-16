@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:24:20.628Z
+date: 2024-01-16T11:25:18.286Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -102,7 +102,7 @@ Sur ce dernier, les partitions boot vont être analysées et, si elles sont vali
 
 # Briquer ou Bricker
 
-Du terme anglais "bricked" (briqué, transformé en brique) : se dit d'un appareil dont l'intégrité du [firmware](#firmware) (micrologiciel, microprogramme, microcode, logiciel interne ou encore logiciel embarqué) n'est plus bonne, et par conséquent il devient inutilisable (ne démarre plus, redémarre en boucle ou affiche un [Screen Of Death (écran de la mort)](https://en.wikipedia.org/wiki/Screen_of_death)).
+Du terme anglais "bricked" (briqué, transformé en brique) : se dit d'un appareil dont l'intégrité du Firmware (micrologiciel, microprogramme, microcode, logiciel interne ou encore logiciel embarqué, cf. ci-après) n'est plus bonne, et par conséquent il devient inutilisable (ne démarre plus, redémarre en boucle ou affiche un [Screen Of Death](https://en.wikipedia.org/wiki/Screen_of_death) ("écran de la mort").
 
 Il existe des "semi-brick" (réparables) et des "brick" intégraux ("full-brick" : irréparables, sauf dans certains cas par le fabricant).
 
