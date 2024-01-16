@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:28:35.794Z
+date: 2024-01-16T11:31:03.755Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -152,16 +152,20 @@ Aussi, nous vous invitons à lire l'article sur les principales [distributions L
 
 > A distinguer des _versions_, qui représentent des itérations d'un système d'exploitation, et intègrent les mises à jour logicielles et de sécurité, avec un support assuré sur une certaine durée.
 > 
-> Exemples : la version 22.04 d'Ubuntu, parue en l'année 2020 (20.) le mois d'avril (.04), et qui assure un support des mises à jour pendant 5 ans. Ou encore la version 22.04 d'Ubuntu, qui vous le devinerez est sortie en ... Avril 2022.
+> _Exemples_ : la version 20.04 d'Ubuntu, parue en l'année 2020 (20.) le mois d'avril (.04), et qui assure un support des mises à jour pendant 5 ans. Ou encore la version 22.04 d'Ubuntu, qui vous le devinerez est sortie en ... Avril 2022.
 {.is-info}
 
 # DNS
 
-DNS (Domain Name System), est une sorte "d'annuaire des sites internet", détaillé dans [l'article suivant](/hygiene-numerique#dns), à la section du même nom.
+DNS (Domain Name System), est une sorte "d'annuaire des sites internet".
+
+> Nous renvoyons à l'[article](/debutant/dns) dédié à ce sujet.
+{.is-info}
 
 # Dump (Base de données)
 
 Un "dump" est une exportation des données stockées dans une base de données (BDD).
+
 > On ne copie jamais les fichiers brut d'une base de données, on fait plutôt un "dump".
 Soit à l'aide d'une exportation au format SQL, soit avec les outils inclus avec le SGBD (Système de Gestion de Base de Données).
 {.is-warning}
