@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-01-16T14:57:30.892Z
+date: 2024-01-16T15:06:19.617Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -528,9 +528,7 @@ Cette nouvelle partie, non moins importante, vous permettra à terme d'adopter d
 
 ## L’importance des données personnelles
 
-Naviguer sur Internet constitue le réel trésor pour quiconque souhaite voir ce que vous faites dans l’espace numérique. Les sites internet suivent (pratiquement tous) votre activité via des mécanismes de télémétrie et de traçage, parfois à des fins marketing : centres d'intérêt, lieux où vous passez votre temps, relationnel, travail, données démographiques, données géographiques, etc.
-
-Ces données constituent même parfois le cœur de métier de certaines entreprises : par exemple pour Google, et certains publicistes...
+Naviguer sur Internet constitue le réel trésor pour quiconque souhaite voir ce que vous faites dans l’espace numérique. Les sites internet suivent (pratiquement tous) votre activité via des mécanismes de télémétrie et de traçage, parfois à des fins marketing : centres d'intérêt, lieux où vous passez votre temps, relationnel, travail, données démographiques, données géographiques, etc. Ces données constituent même parfois le cœur de métier de certaines entreprises : par exemple pour Google, et certains publicistes...
 
 Comme vous le voyez, ce trésor, pour les entreprises, l’est également pour tout pirate informatique ou [troll](https://fr.wikipedia.org/wiki/Troll_(Internet)) souhaitant nuire ; en effet, il est a priori simple, pour un pirate ou même un simple "troll" légèrement compétent, de recueillir des données sensibles en surveillant la navigation d’une personne.
 
@@ -558,21 +556,16 @@ Enfin, si nous allons encore plus loin, il n'est pas impossible non plus que des
 ---
 **Afin de pallier ce traçage systématique, et suivant les compétences de chacun, certains mécanismes peuvent vous permettre, plus ou moins facilement, de contrer ces problèmes d’anonymat et de protection de votre vie privée.**
 
-## Les mécanismes expliqués !
+## Les mécanismes expliqués
 
 Seront dans un premier temps présentés les outils orientés vie privée et/ou anonymat que sont le VPN ainsi que le réseau Tor, avant de poursuivre sur les outils utiles pour réaliser des communications privées (PGP), lutter contre la censure (les DNS et leur rôle), ainsi que la sécurité de l'information.
 
-### VPN et Tor
-Nous avons dédié un article spécifique sur ces 2 mécanismes [ici](/debutant/vpn-tor).
-
-### DNS
-Nous avons dédié un article spécifique sur ce mécanisme [ici](/debutant/dns).
-
-### Proxy
-Nous donnons une définition dans le [glossaire](/glossaire#proxy).
-
-### PGP / OpenPGP / G(nu)PG
-Nous avons dédié une partie spécifique dans l'article sur [le chiffrement](/intermediaire/chiffrement). Nous vous invitons donc fortement à la lire.
+| Outil | Commentaire |
+|----------|----------|
+| **VPN et Tor** | Nous avons dédié un article spécifique sur ces deux mécanismes importants [ici](/debutant/vpn-tor) |
+| **DNS** | Nous avons dédié un article spécifique sur ce mécanisme [ici](/debutant/dns) |
+| **Proxy** | Nous donnons une définition détaillée dans le [glossaire](/glossaire#proxy) |
+| **PGP / OpenPGP / G(nu)PG** | Nous avons dédié un article spécifique sur ce mécanisme [ici](/intermediaire/integrite) |
 
 ## Protégez votre vie privée
 
@@ -580,21 +573,19 @@ Nous avons dédié une partie spécifique dans l'article sur [le chiffrement](/i
 
 Utilisez un navigateur internet permettant de respecter votre vie privée. Celui-ci limitera fortement votre exposition sur internet ainsi que la collecte d'informations vous concernant.
 
-Nous vous renvoyons vers l'article sur les [Navigateurs Web](/debutant/navigateurs), qui vous guidera dans le choix, afin de bien paramétrer votre navigateur et y adjoindre facultativement des extensions afin de renforcer le modèle de sécurité.
+- Nous vous renvoyons vers l'article sur les [Navigateurs Web](/debutant/navigateurs), qui vous guidera dans le choix, afin de bien paramétrer votre navigateur et y adjoindre facultativement des extensions afin de renforcer le modèle de sécurité.
 
 ### Les moteurs de recherche
 
 Sur ce navigateur, et afin d'éviter d'être *tracé* par des parties tierces, évitez l'utilisation de moteurs de recherche trop curieux, ou trop lâches dans leur gestion des données et métadonnées. 
 
-Pour cela, voir l'article sur [les moteurs de recherche](/debutant/moteurs-recherche), afin de changer pour un moteur respectueux de votre vie privée.
+- Pour cela, voir l'article sur [les moteurs de recherche](/debutant/moteurs-recherche), afin de changer pour un moteur respectueux de votre vie privée.
 
-### Les applications de courriels
+### Les communication
 
-Veuillez lire l'article dédié aux [courriels](/debutant/communications#courriel) respectueux de vos données qui est tout à fait complet et ne mérite pas d'être paraphrasé :).
+- Veuillez lire l'article dédié aux [courriels](/debutant/communications#courriel) respectueux de vos données.
 
-### Les applications de messageries
-
-Veuillez lire l'article dédié aux [messageries](/debutant/communications#messagerie) respectueuses de vos données qui est tout à fait complet et ne mérite pas d'être paraphrasé :).
+- Veuillez lire l'article dédié aux [messageries](/debutant/communications#messagerie) respectueuses de vos données.
 
 ### Les réseaux sociaux
 
@@ -812,9 +803,7 @@ En tout cas, bravo ! Nous avons passé le plus dur, en faisant un tour d'horizon
 
 A ce titre, il est important de garder en tête qu'aucun mécanisme ni aucune technologie ne nous assurera une sécurité optimale de l'information, tout en assurant une vie privée et un anonymat à 100%. Ces aspects dépendent aussi, avant tout, de nous-mêmes et de l'hygiène numérique que nous adoptons.
 
-Pour conclure, nous avons en début d'article mentionné que la protection de notre sphère numérique était un voyage et non une destination ; si tout ce que vous avez fait jusqu'alors ne correspond pas aux précédentes sections, ne vous blâmez pas !
-
-L'important est d'y aller par étapes successives, et de choisir les outils et mécanismes qui correspondent le plus à vos besoins. Vous ferrez des erreurs, tant mieux, mais vous apprendrez surtout à maîtriser votre espace numérique, tout comme maîtriser sa voiture ou son vélo est essentiel afin d'utiliser le réseau routier (et ne s'apprend pas du jour au lendemain) !
+Pour conclure, nous avons en début d'article mentionné que la protection de notre sphère numérique était un voyage et non une destination ; si tout ce que vous avez fait jusqu'alors ne correspond pas aux précédentes sections, ne vous blâmez pas ! L'important est d'y aller par étapes successives, et de choisir les outils et mécanismes qui correspondent le plus à vos besoins. Vous ferrez des erreurs, tant mieux, mais vous apprendrez surtout à maîtriser votre espace numérique, tout comme maîtriser sa voiture ou son vélo est essentiel afin d'utiliser le réseau routier (et ne s'apprend pas du jour au lendemain) !
 
 Enfin, nous terminerons par la fameuse maxime à ne jamais oublier :
 
