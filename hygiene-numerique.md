@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-01-16T13:56:40.537Z
+date: 2024-01-16T14:00:50.986Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -89,9 +89,7 @@ Ainsi, nous pouvons, de cette histoire, en déduire deux conclusions majeures, q
 
 ### Les facteurs d'authentification
 
-Nous avons déjà appréhendé le premier facteur (l’exemple du mot de passe) plus haut, mais d’autres types de facteurs « que vous connaissez » existent : le code PIN par exemple.
-
-Également, vous utilisez très souvent le mécanisme à 2 facteurs (2FA) sans probablement le savoir : votre carte bancaire associée à son code secret constitue en fait une 2FA : le facteur 1, que vous CONNAISSEZ, est le code secret (assimilable à un code PIN), et le facteur 2, que vous DÉTENEZ, est la carte bancaire.
+Nous avons déjà appréhendé le premier facteur, l’exemple du mot de passe (le code PIN pourrait aussi rentrer dans cette catégorie). Mais vous utilisez assez souvent le mécanisme à 2 facteurs (2FA) sans probablement le savoir : votre carte bancaire associée à son code secret constitue en fait une 2FA : le facteur 1, que vous CONNAISSEZ, est le code secret (assimilable à un code PIN), et le facteur 2, que vous DÉTENEZ, est la carte bancaire.
 
 Lorsqu’il s’agit de décrire le mécanisme qui permet de vérifier le facteur que vous DÉTENEZ, il est souvent mention de la carte bancaire. Mais, ce n’est pas le seul item :
 -   une smartcard pour sécuriser l’authentification sur votre ordinateur professionnel,
