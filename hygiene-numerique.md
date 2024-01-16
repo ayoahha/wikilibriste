@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-01-16T14:15:56.259Z
+date: 2024-01-16T14:19:02.175Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -332,15 +332,17 @@ Un très bon guide est déjà en ligne, sur [guide.boum.fr/choisir les réponses
 
 Cette partie est **essentielle**, et vous fournit les meilleures pratiques en matière d'hygiène informatique afin de ne laisser que très peu d'ouverture à de potentiels *adversaires* (on parle d'une surface d'attaque minimale) et éviter au maximum des *vols de données* ou encore des *usurpations d'identité*.
 
-## Les mots de passe
+## De l'utilisation des mots de passe
 
 ### Politique de mots de passe puissante
 
-Nous l’avons vu plus haut, créer un mot de passe extrêmement puissant peut déjà vous couvrir face à la majorité des tentatives d'intrusions. Choisir un mot de passe comme « 1234 », « Choupette1982 », « Misssunshine » ou « Pepperonipizza2000! » et bien d’autres relève aujourd’hui de l’hérésie informatique (malheureusement on le voit encore trop souvent !) :-(
+Nous l’avons vu plus haut, créer un mot de passe extrêmement fort peut déjà vous couvrir face à la majorité des tentatives d'intrusions. Choisir un mot de passe comme « 1234 », « Choupette1982 », « Misssunshine » ou « Pepperonipizza2000! » et bien d’autres relève aujourd’hui de l’hérésie informatique (malheureusement on le voit encore trop souvent [^¹0] !) :-(
+
+[^¹0]: [Liste des 20 mots de passe](https://www.01net.com/actualites/voici-20-mots-de-passe-plus-utilises-france-vraiment-triste.html) les plus utilisés en France en 2023.
 
 ![motdepasse2023.png](/images/motdepasse2023.png =600x){.align-center}
 
--   pré-requis minimum : **20 caractères**
+-   pré-requis minimum : **15 caractères**
  :arrow_right: Cela s'atteint même aisément avec une technique simple - la phrase de passe -, évoquée juste à la suite. 
 -   Au minimum, un mélange de lettres minuscules-majuscules, de chiffres, et de caractères spéciaux. Afin de renforcer encore plus vos mots de passe :
     -  On évite la majuscule en début de mot de passe.
