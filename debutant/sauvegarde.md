@@ -2,7 +2,7 @@
 title: Sauvegarder ses données
 description: Sauvegarder et restaurer vos données sous Linux est crucial... Suivez le guide !
 published: true
-date: 2024-01-16T13:31:24.414Z
+date: 2024-01-16T13:32:39.128Z
 tags: debutant, intermediaire, sauvegarde, backup, restaurer, restore
 editor: markdown
 dateCreated: 2023-03-15T23:44:19.951Z
@@ -85,7 +85,7 @@ Il existe de nombreux de logiciels de sauvegarde des données personnelles. En v
 
 Comme expliqué en introduction, il s'agit d'un des logiciels les plus simples à utiliser. Pour autant, il est très puissant car il est capable de :
 - réaliser des sauvegardes :
-  - [x] chiffrées par l'intermédiaire de [GPG](/intermediaire/chiffrement#pgp-gpg) (OpenPGP),
+  - [x] chiffrées par l'intermédiaire de [GPG](/intermediaire/integrite#signature-%C3%A9lectronique) (OpenPGP),
   - [x] compressées,
   - [x] exactes puisqu'il conserve les dates, droits et autres propriétés des fichiers,
   - [x] automatiques que vous pourrez planifier,
