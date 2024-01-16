@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-01-16T14:11:55.221Z
+date: 2024-01-16T14:15:56.259Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -268,13 +268,11 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 ---
 Schématiquement, nous pouvons nous apercevoir qu'il est **extrêmement difficile**, si ce n'est **impossible**, de se placer à l'interjection des 3 cercles de protection en espérant le 100% sur chaque pan de protection.
 
-De fait, multiplier les mécanismes pro-vie-privée, multiplier les équipements ou applications de sécurité (pare-feu, IDS/IPS, honeypot, anti-malware, proxy, host IDS, etc.) et autres procédés d’anonymat ne signifie pas automatiquement une plus grande protection des données, de vie privée et une amélioration de l'anonymat. Au contraire, parfois, complexifier votre approche en terme de cyber-sécurité est le meilleur moyen pour faire grossir la liste des potentielles failles de sécurité ou vulnérabilités. On appelle cela **augmenter sa surface d'attaque** : Plus vous avez d'équipements, de services ou de logiciels, plus le nombre de vulnérabilités augmente, donc plus la probabilité d'avoir une faille exploitable augmente également.
-
-_Plutôt que d'avoir l'objectif d'atteindre le triptique vie privée intégrale + sécurité intégrale + anonymat intégral, l'idée est d'établir des **compromis** entre sécurité, vie privée, anonymat et facilité d'utilisation._
+De fait, multiplier les mécanismes pro-vie-privée, multiplier les équipements ou applications de sécurité (pare-feu, IDS/IPS, honeypot, anti-malware, proxy, host IDS, etc.) et autres procédés d’anonymat ne signifie pas automatiquement une plus grande protection des données, de vie privée et une amélioration de l'anonymat. Au contraire, parfois, complexifier votre approche est le meilleur moyen pour faire grossir la liste des potentielles failles de sécurité ou vulnérabilités. On appelle cela **augmenter sa surface d'attaque** : plus vous avez d'équipements, de services ou de logiciels, plus le nombre de vulnérabilités augmente, donc plus la probabilité d'avoir une faille exploitable augmente également.
 
 Souvent vous souhaitez utiliser l'outil le plus sécurisé et à la mode, néanmoins vous n'êtes pas prêt à accepter le côté austère et compliqué de l'outil, ni les conditions d'utilisation drastiques ! En d'autres termes, si votre objectif est d'utiliser les outils les plus sécurisés du moment, vous devrez sacrifier énormément sur le côté simplicité et facilité d'utilisation au quotidien. Et quand bien même, rien ne sera totalement sécurisé...
 
-> **Voilà pourquoi établir son modèle de menaces peut nous aider à identifier les outils et les procédés les plus adéquats pour notre profil de sécurité.**
+> L'objectif d'atteindre le 100% du triptique est impossible, l'idée est donc d'établir des **compromis** entre sécurité, vie privée, anonymat, et facilité d'utilisation. Voilà pourquoi établir son modèle de menaces peut nous aider à identifier les outils et les procédés les plus adéquats pour notre profil de sécurité.
 {.is-success}
 
 
@@ -288,9 +286,7 @@ Vous allez donc devoir porter votre attention sur les menaces les plus probables
 
 La première question à se poser sera : contre qui je souhaite me protéger ?
 
-Évidemment ici, il est assez compliqué pour celui qui ne se tient pas informé du monde numérique de connaître et encore moins de comprendre les potentiels adversaires auxquels nous pourrions faire face. À tout le moins, nous pouvons nous dire qu'il existe des *hackers malveillants* qui peuvent en avoir après nos données, mais pour la suite, cela reste flou...
-
-Voici pourquoi nous vous avons fait une liste des adversaires auxquels nous pourrions faire face dans la vie de tous les jours :
+Évidemment ici, il est assez compliqué pour celui qui ne se tient pas informé du monde numérique de connaître et encore moins de comprendre les potentiels adversaires auxquels nous pourrions faire face. À tout le moins, nous pouvons nous dire qu'il existe des *hackers malveillants* qui peuvent en avoir après nos données, mais pour la suite, cela reste flou... Voici pourquoi nous vous avons fait une liste des adversaires auxquels nous pourrions faire face dans la vie de tous les jours :
 1. Votre patron ou vos collègues
 2. Votre ex ( :) ) ou votre famille
 3. Des entreprises (type petite ou moyenne entreprise, moyens limités)
@@ -300,9 +296,7 @@ Voici pourquoi nous vous avons fait une liste des adversaires auxquels nous pour
 
 ### Quelles données ?
 
-Ensuite vient la question des éléments, que nous qualifions à suivre d' "items", que vous allez devoir protéger des yeux curieux et/ou malveillants. Faites une liste exhaustive des données qui, perdues ou volées, constitueraient un problème.
-
-Voici une liste d'éléments :
+Ensuite vient la question des éléments, que nous qualifions à suivre d' "items", que vous allez devoir protéger des yeux curieux et/ou malveillants. Faites une liste exhaustive des données qui, perdues ou volées, constitueraient un problème. Voici une liste d'éléments :
 1. vos courriels
 2. votre liste de contact
 3. vos messageries instantanées
@@ -316,33 +310,27 @@ Voici une liste d'éléments :
 
 ### Analyse des risques
 
-> Un "risque" se définit comme la probabilité qu'une **menace spécifique** ait un **impact** sur l'un de vos items. 
+> Un "risque" se définit comme la probabilité qu'une **menace spécifique** ait un **impact** sur l'un de vos items.
 
-Ouch, c'est un peu barbare encore une fois ! Voici la traduction par un exemple : votre opérateur téléphonique a la capacité d'accéder à des données vous concernant, mais cela dit le risque qu'ils viennent les dévoiler publiquement sur un réseau social afin de détruire votre réputation en ligne est plutôt faible, vous en conviendrez.
-
-Vous l'aurez sûrement compris, après avoir répondu aux deux premières questions, il est important de distinguer entre
+Ouch, c'est un peu barbare encore une fois ! Voici la traduction par un exemple : votre opérateur téléphonique a la capacité d'accéder à des données vous concernant, mais cela dit le risque qu'ils viennent les dévoiler publiquement sur un réseau social afin de détruire votre réputation en ligne est plutôt faible, vous en conviendrez. Vous l'aurez sûrement compris, après avoir répondu aux deux premières questions, il est important de distinguer entre :
 -  ce qui pourrait arriver 
 -  et la probabilité que cela arrive réellement
 
-> Exemple : il existe la menace que votre immeuble puisse s'effondrer, mais le risque que cela arrive est plus important au Japon, car plus sujets aux tremblements de terre qu'en France !
+> _Exemple_ : il existe la menace que votre immeuble puisse s'effondrer, mais le risque que cela arrive est plus important au Japon, car plus sujets aux tremblements de terre qu'en France !
 {.is-info}
 
 Évaluer le risque est également quelque chose de personnel et subjectif ; certains vont trouver des menaces inacceptables peu importe la probabilité d’occurrence, d'autres vont choisir d'ignorer les risques de type faible, car ils estimeront que la menace n'est pas un problème pour eux. L'idée est donc de lister quelles sont pour vous les menaces les plus importantes, celles que vous allez prendre en compte sérieusement, et celles au contraire trop rares ou trop compliquées à combattre pour s'inquiéter.
 
 **C'est ici la question la plus complexe, elle doit coller au maximum à votre profil (vos menaces, vos usages...).**
 
-Un très bon guide est déjà en ligne, sur [guide.boum.fr/choisir les réponses adaptées](https://guide.boum.org/hors-connexions-choisir-des-reponses-adaptees-introduction.html). Inutile de paraphraser donc ce guide qui est très complet du point de vue d'un utilisateur lambda.
-
-Ce guide doit être lu **avec recul** sans forcément parler d'outils pour le moment. L'idée est ici de comprendre la logique globale de la réflexion à avoir afin d'établir une stratégie : évaluer les menaces sera donc une analyse concernant les données à protéger, ainsi que sur le type d'acteurs qui pourraient concrètement en avoir après nos données. À partir de là, nous pouvons établir les moyens potentiels de nos adversaires, et donc créer notre propre stratégie de protection.
+Un très bon guide est déjà en ligne, sur [guide.boum.fr/choisir les réponses adaptées](https://guide.boum.org/hors-connexions-choisir-des-reponses-adaptees-introduction.html). Inutile de paraphraser donc ce guide qui est très complet du point de vue d'un utilisateur lambda. Ce guide doit être lu **avec recul** sans forcément parler d'outils pour le moment. L'idée est ici de comprendre la logique globale de la réflexion à avoir afin d'établir une stratégie : évaluer les menaces sera donc une analyse concernant les données à protéger, ainsi que sur le type d'acteurs qui pourraient concrètement en avoir après nos données. À partir de là, nous pouvons établir les moyens potentiels de nos adversaires, et donc créer notre propre stratégie de protection.
 
 > **Les sections suivantes pourront justement vous donner un aperçu des possibilités et outils afin de mettre en place cette stratégie...**
 {.is-success}
 
 # Eviter le hacking
 
-Cette partie est **essentielle**, et vous fournit les meilleures pratiques en matière d'hygiène informatique afin de ne laisser que très peu d'ouverture (on parle d'une surface d'attaque minimale) à de potentiels *adversaires* et éviter au maximum des *vols de données* ou encore des *usurpations d'identité*.
-
-Rentrons dans le vif du sujet, afin de devenir difficilement piratable :
+Cette partie est **essentielle**, et vous fournit les meilleures pratiques en matière d'hygiène informatique afin de ne laisser que très peu d'ouverture à de potentiels *adversaires* (on parle d'une surface d'attaque minimale) et éviter au maximum des *vols de données* ou encore des *usurpations d'identité*.
 
 ## Les mots de passe
 
