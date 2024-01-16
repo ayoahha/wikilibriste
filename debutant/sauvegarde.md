@@ -2,7 +2,7 @@
 title: Sauvegarder ses données
 description: Sauvegarder et restaurer vos données sous Linux est crucial... Suivez le guide !
 published: true
-date: 2024-01-16T13:32:39.128Z
+date: 2024-01-16T13:37:45.832Z
 tags: debutant, intermediaire, sauvegarde, backup, restaurer, restore
 editor: markdown
 dateCreated: 2023-03-15T23:44:19.951Z
@@ -112,7 +112,7 @@ Nous avons donc 4 possibilités :
 4. Externaliser sur un disque externe branché sur une autre machine :
 :arrow_right: **C'est cette solution que nous allons présenter**. :thumbsup:
 
-> Dans notre exemple, nous utiliserons donc cette dernière possibilité en branchant un disque externe (ou clef USB) sur notre Box internet :)
+> Dans notre exemple, nous utiliserons donc cette dernière possibilité en branchant un disque externe (ou clef USB) sur notre Box internet. :)
 {.is-info}
 
 #### Déterminer le volume de ses données
