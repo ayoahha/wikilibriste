@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2024-01-16T13:23:15.942Z
+date: 2024-01-16T13:23:34.065Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -644,7 +644,7 @@ Cela doit rester à la discrétion des utilisateurs de faire confiance ou non en
 
 \** Analyse de risques partie E2EE OMEMO [^²5]
 
-[^²5]: [OMEMO](https://conversations.im/omemo/audit.pdf).
+[^²5]: [Analyse de risques OMEMO](https://conversations.im/omemo/audit.pdf).
 
 ## A suivre
 Plus confidentiels et pour des profils aux besoins d'anonymat et de sécurité avancés :
