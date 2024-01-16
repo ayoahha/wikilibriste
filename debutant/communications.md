@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2024-01-16T13:16:06.668Z
+date: 2024-01-16T13:23:15.942Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -476,9 +476,10 @@ Il nous semble évident que ceci est un débat sans fin... Il est toujours *int�
 
 #### ... Revenons sur terre
 
-Signal est donc cette messagerie dite "sécurisée" dont ses développeurs ont créé leur propre protocole de communication, repris d'ailleurs par beaucoup d'autres messageries (Whatsapp par exemple), suite à l'ouverture des sources de ce protocole. Protocole audité en 2016 par des experts indépendants [^¹1], qui aujourd'hui confirme sa robustesse à une bonne partie des attaques. Les développeurs sont d'ailleurs très réactifs lorsqu'il s'agit de corriger certaines failles de sécurité. C'est un projet très bien maintenu et très bien géré.
+Signal est donc cette messagerie dite "sécurisée" dont ses développeurs ont créé leur propre protocole de communication, repris d'ailleurs par beaucoup d'autres messageries (Whatsapp par exemple), suite à l'ouverture des sources de ce protocole. Protocole audité en 2016 par des experts indépendants [^¹7], qui aujourd'hui confirme sa robustesse à une bonne partie des attaques. Les développeurs sont d'ailleurs très réactifs lorsqu'il s'agit de corriger certaines failles de sécurité. C'est un projet très bien maintenu et très bien géré.
 
-[^¹1]: [Audit](https://eprint.iacr.org/2016/1013.pdf) du protocole Signal.
+[^¹7]: [Audit](https://eprint.iacr.org/2016/1013.pdf) du protocole Signal.
+
 
 **_Néanmoins, comme évoqué plus haut, tout n'est pas si rose :_**
 En dehors du fait que nouvellement une partie du code source côté Serveur est maintenant fermé, voici les points techniques sujets à débat :
@@ -496,9 +497,9 @@ Oui mais voilà, cette centralisation apporte certains inconvénients au niveau 
 #### Le numéro de téléphone
 Signal exige que tout compte soit lié à un **numéro de téléphone**.
 
-Nous avons déjà discuté des métadonnées dans l'article sur l'[hygiène numérique](/hygiene-numerique#les-m%C3%A9tadonn%C3%A9es-quest-ce-que-cest). L'importance des métadonnées a été prise en compte pas les développeurs, ce qui est un bon point (ils arrivent à protéger et/ou obfusquer la majorité de ces données). Néanmoins, il est depuis 2016 devenu évident que Signal collecte les numéros de téléphone associés à un compte [^¹2] ainsi qu'une seconde donnée qui est la '*dernière connexion d'un compte X à un serveur*'.
+Nous avons déjà discuté des métadonnées dans l'article sur l'[hygiène numérique](/hygiene-numerique#les-m%C3%A9tadonn%C3%A9es-quest-ce-que-cest). L'importance des métadonnées a été prise en compte pas les développeurs, ce qui est un bon point (ils arrivent à protéger et/ou obfusquer la majorité de ces données). Néanmoins, il est depuis 2016 devenu évident que Signal collecte les numéros de téléphone associés à un compte [^¹8] ainsi qu'une seconde donnée qui est la '*dernière connexion d'un compte X à un serveur*'.
 
-[^¹2]: [Signal collecte](https://signal.org/bigbrother/eastern-virginia-grand-jury) des numéros de téléphone associés à un compte.
+[^¹8]: [Signal collecte](https://signal.org/bigbrother/eastern-virginia-grand-jury) des numéros de téléphone associés à un compte.
 
 Pour beaucoup, lier le numéro de téléphone est un problème et met à mal le modèle de vie privée prétenduement mis en avant par la messagerie. En effet, un numéro de téléphone est dans la plupart des cas lié à une carte SIM, carte qui de facto est reliée à un propriétaire qui aura dû présenter son identité (en tout cas en Europe c'est la cas). Signal ayant abandonné récemment la gestion des SMS/MMS, la communauté n'a pas compris pourquoi il était toujours obligatoire d'enregistrer un numéro de téléphone. Sans compter que ce numéro de téléphone est révélé à chacun des contacts que vous avez accepté dans l'application.
 
@@ -507,7 +508,10 @@ Et bien entendu, sur le point de la collecte, nous n'avons pas le choix que de f
 #### Le protocole de sécurité
 Il y a tout de même quelques doutes sur le **protocole** en lui-même.
 
-Pour les plus experts d'entre vous, et ceux ayant le courage de creuser un peu plus le sujet du protocole, un chercheur de l'ANSSI a rédigé un rapport sur *les protocoles* de messageries qu'utilise Signal, rapport très intéressant : [rapport PDF](https://www.ssi.gouv.fr/uploads/2017/10/chiffrement_messagerie_instantanee_fmaury_anssi.pdf).
+Pour les plus experts d'entre vous, et ceux ayant le courage de creuser un peu plus le sujet du protocole, un chercheur de l'ANSSI a rédigé un rapport sur *les protocoles* de messageries qu'utilise Signal, rapport très intéressant [^¹9].
+
+[^¹9]: [OMEMO - Analyse](https://cyber.gouv.fr/publications/chiffrement-de-messagerie-quasi-instantanee-quel-protocole-se-vouer).
+
 
 Tout comme nous, et bien d'autres collectifs, il analyse le réel niveau de sécurisation de Signal et pose des questions plus que légitimes au regard des évolutions récentes de la messagerie...
 
@@ -548,10 +552,12 @@ Enfin, il vous sera possible de créer des groupes de discussions, publics et pr
 **Pour conclure, nous pouvons apercevoir ici que Session sera plus dirigée vers des échanges entre personnes plutôt que dans des groupes (Element serait à privilégier dans ce cas !).**
 
 _**Ressources d'intérêts**_
-- Audit de sécurité : [Audit d'Oxen en 2021](https://getsession.org/session-code-audit) et concluant "The overall security level of this application is good and makes it usable for privacy-concerned people" qui donne en français : Le niveau de sécurité global de l'application est bonne et la rend utilisable pour les personnes ayant un intérêt pour leur vie privée.
-- Papier Blanc [^¹3]
+- Audit de sécurité [^²1] et concluant "The overall security level of this application is good and makes it usable for privacy-concerned people" qui donne en français : Le niveau de sécurité global de l'application est bonne et la rend utilisable pour les personnes ayant un intérêt pour leur vie privée.
+- Papier Blanc [^²0]
 
-[^¹3]: [WhitePaper](https://arxiv.org/pdf/2002.04609.pdf) Session.
+[^²1]: [Audit d'Oxen en 2021](https://getsession.org/session-code-audit).
+[^²0]: [WhitePaper](https://arxiv.org/pdf/2002.04609.pdf) Session.
+
 
 ----
 
@@ -590,9 +596,9 @@ Bien que le modèle P2P nous permet une résistance à la collecte de métadonn�
 
 Nous l'avons vu dans d'autres articles, Tor va nous permettre d'ajouter une couche d'anonymat. Dans notre contexte actuel il s'agira d'augmenter l'anonymat dans nos communications, de sorte que même si nous sommes ciblés, nos adversaires aient beaucoup, beaucoup de mal à retracer les destinataires avec qui nous échangeons.
 
-Attention tout de même, rappelez-vous bien que Tor n'est pas infaillible (Tor vient d'ailleurs avec de possibles failles dans son réseau [^¹4], et nous l'avons aussi évoqué dans les autres articles) et il conviendra de prendre en compte les risques identifiés sur Tor afin de ne pas se retrouver désanonymisés.
+Attention tout de même, rappelez-vous bien que Tor n'est pas infaillible (Tor vient d'ailleurs avec de possibles failles dans son réseau [^²2], et nous l'avons aussi évoqué dans les autres articles) et il conviendra de prendre en compte les risques identifiés sur Tor afin de ne pas se retrouver désanonymisés.
 
-[^¹4]: [Failles](https://status.torproject.org/) dans le réseau Tor.
+[^²2]: [Failles](https://status.torproject.org/) dans le réseau Tor.
 
 > A noter que dans certains endroits, si vous êtes seuls à utiliser Tor, cela peut mener à une désanonymisation tout simplement en analysant le réseau : votre IP ayant contacté un serveur d'entrée Tor, c'est très simple et plutôt fâcheux. On évitera donc d'utiliser ce genre d'applications (et même Tor) dans des endroits hors centres urbains par exemple... Alors vous pourriez me dire : même chose avec Signal, et je vous répondrai : oui vous avez raison ! Mais ces outils apportent tout de même des avantages non négligeables par rapport à Signal.
 {.is-danger}
@@ -608,14 +614,15 @@ Les applications fonctionnant sur ce modèle P2P ne demandent pas de numéro de 
 
 Briar est une application open-source, développée par Briar Project, un ensemble de développeurs, hackers et activistes, principalement en Europe. L'application propose bien entendu des échanges P2P, mais l'objectif de Briar est également de permettre des communications si internet tombe : il est donc possible d'échanger directement avec des contacts via Wifi ou Bluetooth, votre interlocuteur devra en revanche être proche de vous. Briar permet également de créer un réseau à part entre différents utilisateurs de l'application, de sorte à acheminer les messages en passant par des contacts comme point de relais.
 
-Son utilisation reste identique en mode chat ou groupe, à ceci près que chaque participant devra être en ligne. Cependant, il est important de bien comprendre son fonctionnement intrinsèque afin de cerner ses objectifs : oui Briar apporte une sécurité très importante dans les échanges, est très résistant à la collecte des métadonnées, mais en revanche Briar **ne fournit pas d'anonymat** ou en tout cas pas à un niveau très important : nous vous conseillons de bien lire ce que les développeurs ont ajouté sur leur [wiki](https://code.briarproject.org/briar/briar/-/wikis/FAQ), notamment sur cette question d'anonymat (adresse Bluetooth, IP, etc.).
+Son utilisation reste identique en mode chat ou groupe, à ceci près que chaque participant devra être en ligne. Cependant, il est important de bien comprendre son fonctionnement intrinsèque afin de cerner ses objectifs : oui Briar apporte une sécurité très importante dans les échanges, est très résistant à la collecte des métadonnées, mais en revanche Briar **ne fournit pas d'anonymat** ou en tout cas pas à un niveau très important : nous vous conseillons de bien lire ce que les développeurs ont ajouté sur leur wiki [^²4], notamment sur cette question d'anonymat (adresse Bluetooth, IP, etc.).
 
 > Toujours lire les manuels d'utilisation, les documentations ou les FAQ :) !
 
 _**Ressources d'intérêts**_
-Briar a fait l'objet d'un audit en 2017 [^¹5] : voici le [rapport PDF](https://briarproject.org/raw/BRP-01-report.pdf).
+Briar a fait l'objet d'un audit en 2017 [^²3] : voici le [rapport PDF](https://briarproject.org/raw/BRP-01-report.pdf).
 
-[^¹5]: [Audit](https://briarproject.org/news/2017-beta-released-security-audit/) de sécurité de Briar.
+[^²4]: [Briar - wiki](https://code.briarproject.org/briar/briar/-/wikis/FAQ).
+[^²3]: [Audit](https://briarproject.org/news/2017-beta-released-security-audit/) de sécurité de Briar.
 
 # D'autres projets ?
 
@@ -635,7 +642,9 @@ Cela doit rester à la discrétion des utilisateurs de faire confiance ou non en
 - [Snikket *Concurrence Element et/ou Session*](https://snikket.org/)
 {.links-list}
 
-\** Analyse de risques partie E2EE [OMEMO](https://conversations.im/omemo/audit.pdf)
+\** Analyse de risques partie E2EE OMEMO [^²5]
+
+[^²5]: [OMEMO](https://conversations.im/omemo/audit.pdf).
 
 ## A suivre
 Plus confidentiels et pour des profils aux besoins d'anonymat et de sécurité avancés :
