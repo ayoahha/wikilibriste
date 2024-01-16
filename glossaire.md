@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:35:21.076Z
+date: 2024-01-16T11:38:01.432Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -244,12 +244,12 @@ Cependant un "hacker" n'est pas nécessairement un pirate informatique... Instal
 
 # Hardening
 
-Le Hardening, ou durcissement en français, consiste à renforcer la protection du système ou de la cible à durcir, et ainsi réduire la surface d'attaque. En complément de la sécurité périmétrique (pare-feu, IDP/IPS...), le durcissement est un processus qui permet de garantir une protection en profondeur. Ce processus doit pouvoir réduire les menaces externes et internes, ainsi que diminuer le risque d'erreurs de configuration.
+Le Hardening, ou **Durcissement** en français, consiste à renforcer la protection du système ou de la cible à durcir, et ainsi réduire la surface d'attaque. En complément de la sécurité périmétrique (pare-feu, IDP/IPS...), le durcissement est un processus qui permet de garantir une protection en profondeur. Ce processus doit pouvoir réduire les menaces externes et internes, ainsi que diminuer le risque d'erreurs de configuration.
 
 En règle générale, cela consiste, par exemple :
 
 -   à appliquer les derniers correctifs et mises à jour,
--   à supprimer les services ou objets non utilisés (exemple : débloater Windows, ou un smartphone Android),
+-   à supprimer les services ou objets non utilisés (_Exemples_ : débloater Windows ou un smartphone Android, désactiver les services NFS si non utilisés, etc.),
 -   à suivre les recommandations (ou "hardening guidelines") pour les services exposés (SSH, TLS etc.),
 -   etc.
 
@@ -259,9 +259,9 @@ Est l'anglicisme pour désigner en français un "matériel".
 
 # IP
 
-IP (Internet Protocol) désigne en fait une ensemble de protocoles de communication conçus pour Internet par Vinton Gray Cerf et Bob Kahn dans les années 1970.
-Communément, dans le jargon, lorsque nous parlons d'IP on désigne plutôt une adresse IPv4 comme par exemple : `192.168.1.134`.
-Plus d'informations à propos de la terminologie IP [sur Wikipedia](https://fr.wikipedia.org/wiki/Internet_Protocol).
+IP (Internet Protocol) désigne en fait une ensemble de protocoles de communication conçus pour Internet par Vinton Gray Cerf et Bob Kahn dans les années 1970. Communément, dans le jargon, lorsque nous parlons d'IP on désigne plutôt une adresse IPv4 comme par exemple : `192.168.1.134`.
+
+Plus d'informations à propos de la terminologie IP sur la page dédiée sur [Wikipedia](https://fr.wikipedia.org/wiki/Internet_Protocol).
 
 # Kernel
 
@@ -296,15 +296,16 @@ Un logiciel libre est un logiciel qui respecte ces 4 libertés (numérotées 0 �
 
 3. La liberté d'améliorer le programme et de distribuer ces améliorations au public, pour en faire profiter toute la communauté.
 
-Plus d'informations : [4 libertés essentielles](https://www.gnu.org/philosophy/free-sw.fr.html#four-freedoms)
+_Plus d'informations_ : Les [4 libertés essentielles](https://www.gnu.org/philosophy/free-sw.fr.html#four-freedoms).
 
-A la différence du logiciel open source qui se veut technique et marketing, le logiciel libre vise l'éthique et la liberté. Il s'agit d'un mouvement philosophique, politique et social à la différence de l'open source qui en est désintéressé.
+A la différence du logiciel "open-source" qui se veut technique et marketing, le logiciel libre vise l'éthique et la liberté. Il s'agit d'un mouvement philosophique, politique et social à la différence de l'open source qui en est désintéressé.
 
 Exemple de logiciels libres : Mozilla Firefox, VLC, LibreOffice.
 
 # Micrologiciel
 
 Ou microcode ou logiciel embarqué.
+
 Voir Firmware ci-avant.
 
 # OEM
