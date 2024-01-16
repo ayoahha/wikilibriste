@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2024-01-16T13:04:26.050Z
+date: 2024-01-16T13:11:04.797Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -246,9 +246,9 @@ Les messageries ont une sacrée histoire ; d'abord implémentées sous UNIX puis
 
 Une première explosion des messageries instantanées a lieu vers la fin des années 90 lorsque AOL promeut *ICQ*, puis Yahoo son propre outil *Yahoo! Messenger* et enfin MSN avec *MSN Messenger* en 1999 (avec l'histoire qu'on lui connaît, racheté par Microsoft puis transition vers Skype, etc.). 
 
-En parallèle, un autre service a fait parler de lui : le SMS, dont les débuts sont a priori situés en 1992. Ce n'est pas *à l'origine* à proprement parler un concurrent, car le SMS avait été créé initialement pour que les FAI puissent simplement communiquer avec leurs clients, et uniquement ça. Rien ne le prédestinait à autre chose... Mais au vu de la simplicité d'utilisation, l'interopérabilité de la technologie et parce que l'infrastructure téléphonique des opérateurs était déjà bien déployée - *le SMS utilisant le réseau  GSM [^¹], alors que les messageries... le réseau internet, qui à l'époque, n'était pas aussi répandu qu'aujourd'hui encore moins sur téléphone mobile !*, le SMS a finalement percé à l'époque pour devenir ce que l'on connaît aujourd'hui !
+En parallèle, un autre service a fait parler de lui : le SMS, dont les débuts sont a priori situés en 1992. Ce n'est pas *à l'origine* à proprement parler un concurrent, car le SMS avait été créé initialement pour que les FAI puissent simplement communiquer avec leurs clients, et uniquement ça. Rien ne le prédestinait à autre chose... Mais au vu de la simplicité d'utilisation, l'interopérabilité de la technologie et parce que l'infrastructure téléphonique des opérateurs était déjà bien déployée - *le SMS utilisant le réseau  GSM [^²], alors que les messageries... le réseau internet, qui à l'époque, n'était pas aussi répandu qu'aujourd'hui encore moins sur téléphone mobile !*, le SMS a finalement percé à l'époque pour devenir ce que l'on connaît aujourd'hui !
 
-[^¹]: [Réseau](https://fr.wikipedia.org/wiki/R%C3%A9seau_de_t%C3%A9l%C3%A9phonie_mobile) de téléphonie mobile.
+[^²]: [Réseau](https://fr.wikipedia.org/wiki/R%C3%A9seau_de_t%C3%A9l%C3%A9phonie_mobile) de téléphonie mobile
 
 L'explosion d'internet cela dit vers le milieu des années 2000 aura vu poindre de nouveaux outils de messagerie, bien plus performants : c'est par exemple la naissance de *Jabber/XMPP* en 2004/2005 mais surtout d'une messagerie bien connue aujourd'hui, *Whatsapp*, en 2009. Avec l'avènement des ordiphones et de l'utilisation intensive du réseau internet, rien ne pouvait résister à la mort lente des SMS ; même si de nos jours les organismes tentent de leur donner un second souffle avec des nouveaux standards (MMS ou RCS par exemple), il est vraisemblable que celui-ci soit amené à disparaître petit à petit... 
 
@@ -313,15 +313,17 @@ Certains vont se demander pourquoi certaines messageries connues n'apparaissent 
 ## Le cas délicat d'Olvid
 
 Oui nous ne recommandons pas, à ce jour, l'application française **Olvid**... Beaucoup ici trouveront cette idée farfelue, mais voici nos raisons :
-- Bien que certifiée ANSSI [^¹9] et ayant fait l'objet d'un second audit de sécurité [^²0] (2020), cette application n'est pas totalement à sources ouvertes : seul le protocole de chiffrement et les clients Android/iOS le sont, l'objectif étant de faciliter les audits et bug bounty afin de perfectionner les algorithmes (qui ont été créés de zéro). Mais la partie serveur [^22] est à sources fermées ce qui empêche des experts indépendants de réellement les auditer.
-- De plus, Olvid considère que l'adresse IP est plus une donnée technique [^²1] qu'une donnée personnelle, ce qui dès lors devrait nous mettre la puce à l'oreille...
+- Bien que certifiée ANSSI [^³] et ayant fait l'objet d'un second audit de sécurité [^⁴] (2020), cette application n'est pas totalement à sources ouvertes : seul le protocole de chiffrement et les clients Android/iOS le sont, l'objectif étant de faciliter les audits et bug bounty afin de perfectionner les algorithmes (qui ont été créés de zéro). Mais la partie serveur [^⁵] est à sources fermées ce qui empêche des experts indépendants de réellement les auditer.
+- Les serveurs montés par les créateurs d'Olvid sont tous hébergés hors Europe (chez Amazon AWS [^⁷]), ce qui laisse songeur sur leur côté éthique.
+- De plus, Olvid considère que l'adresse IP est plus une donnée technique [^⁶] qu'une donnée personnelle, ce qui dès lors devrait nous mettre la puce à l'oreille...
 
 À ce titre, nous ne recommandons pas spécialement cette messagerie, **Session** par exemple nous semble bien plus indiquée ici.
 
-[^¹9]: [ANSSI - CSPN](https://cyber.gouv.fr/produits-certifies?sort_bef_combine=field_date_de_certification_value_DESC&field_cat_target_id%5B587%5D=587) -  "Messagerie Sécurisée"
-[^²0]: [Rapport d'évaluation](https://olvid.io/assets/documents/Synacktiv-Olvid-CSPN-Olvid-0.8.2-RTE-public.pdf)
-[^²1]: [Olvid - Politique de Confidentialité](https://www.olvid.io/privacy/fr/)
-[^22]: [Olvid Serveur](https://www.olvid.io/faq/serveur-et-open-source/)
+[^³]: [ANSSI - CSPN](https://cyber.gouv.fr/produits-certifies?sort_bef_combine=field_date_de_certification_value_DESC&field_cat_target_id%5B587%5D=587) -  "Messagerie Sécurisée"
+[^⁴]: [Rapport d'évaluation](https://olvid.io/assets/documents/Synacktiv-Olvid-CSPN-Olvid-0.8.2-RTE-public.pdf)
+[^⁵]: [Olvid - Politique de Confidentialité](https://www.olvid.io/privacy/fr/)
+[^⁶]: [Olvid et AWS](https://www.lemondeinformatique.fr/actualites/lire-olvid-la-polemique-sur-aws-ne-paas-pas-92463.html)
+[^⁷]: [Olvid Serveur](https://www.olvid.io/faq/serveur-et-open-source/)
 
 ## Les messageries recommandées
 
