@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-01-16T14:00:50.986Z
+date: 2024-01-16T14:03:45.463Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -89,15 +89,18 @@ Ainsi, nous pouvons, de cette histoire, en déduire deux conclusions majeures, q
 
 ### Les facteurs d'authentification
 
-Nous avons déjà appréhendé le premier facteur, l’exemple du mot de passe (le code PIN pourrait aussi rentrer dans cette catégorie). Mais vous utilisez assez souvent le mécanisme à 2 facteurs (2FA) sans probablement le savoir : votre carte bancaire associée à son code secret constitue en fait une 2FA : le facteur 1, que vous CONNAISSEZ, est le code secret (assimilable à un code PIN), et le facteur 2, que vous DÉTENEZ, est la carte bancaire.
+Nous avons déjà appréhendé le premier facteur, l’exemple du mot de passe (le code PIN pourrait aussi rentrer dans cette catégorie). Mais vous utilisez assez souvent le mécanisme à 2 facteurs (2FA) sans probablement le savoir : votre carte bancaire associée à son code secret constitue en fait une 2FA : 
+- le facteur 1, que vous CONNAISSEZ, est le code secret (assimilable à un code PIN),
+- et le facteur 2, que vous DÉTENEZ, est la carte bancaire.
+{.grid-list}
 
 Lorsqu’il s’agit de décrire le mécanisme qui permet de vérifier le facteur que vous DÉTENEZ, il est souvent mention de la carte bancaire. Mais, ce n’est pas le seul item :
--   une smartcard pour sécuriser l’authentification sur votre ordinateur professionnel,
--   un badge d’accès à votre entreprise,
--   une clé de sécurité (aussi appelée token physique de sécurité, [YubiKey](https://www.yubico.com/) ou [Nitrokey](https://www.nitrokey.com/fr) par exemple),
+-   une _carte d'authentification_ pour sécuriser l’accès à votre ordinateur (professionnel bien souvent),
+-   un _badge_ d’accès à votre entreprise,
+-   une clé de sécurité (aussi appelée _token physique_ de sécurité, [YubiKey](https://www.yubico.com/) ou [Nitrokey](https://www.nitrokey.com/fr) par exemple),
 -   un token logiciel (généralement un _certificat_).
 
-Un autre exemple d’authentification à 2 facteurs : vous avez un compte sur un site de vente en ligne. Lorsque vous souhaitez payer un bien, vous utilisez votre carte bancaire. Lors de la transaction entre le site vendeur et votre banque, très souvent votre banque vous demandera de rentrer un numéro unique et temporaire de 4 à 6 chiffres reçu sur votre téléphone par SMS ou par e-mail. Le téléphone constitue ici le facteur que vous DÉTENEZ, et le numéro unique ce que vous CONNAISSEZ. Nous sommes bien ici en face d’une authentification 2FA (facteurs 1- et 2-).
+Un autre exemple d’authentification à 2 facteurs : vous avez un compte sur un site de vente en ligne. Lorsque vous souhaitez payer un bien, vous utilisez votre carte bancaire. Lors de la transaction entre le site vendeur et votre banque, très souvent votre banque vous demandera de rentrer un numéro unique et temporaire de 4 à 6 chiffres reçu sur votre téléphone par SMS ou par e-mail. Le téléphone constitue ici le facteur que vous DÉTENEZ, et le numéro unique le facteur que vous CONNAISSEZ. Nous sommes bien ici en face d’une authentification 2FA (facteurs 1- et 2-).
 
 > Attention : ce procédé utilisant le SMS/e-mail est juste ajouté à des fins de compréhension, il s’agit d’un mécanisme en fait peu sécurisé. Nous en rediscuterons plus tard...
 {.is-warning}
@@ -121,9 +124,7 @@ Le dernier facteur est encore peu utilisé de nos jours, et seulement pour des s
 
 ### Alors, quel est le futur des mots de passe ?
 
-La question est judicieuse, à l'heure où tous les experts tentent de trouver une solution pour améliorer l'authentification par mot de passe.
-
-Nous entendons de plus en plus parler de fonctions ou procédés « passwordless ». Ce procédé vise à autoriser un accès à un utilisateur sans qu’il ne rentre aucun mot de passe.
+La question est judicieuse, à l'heure où tous les experts tentent de trouver une solution pour améliorer l'authentification par mot de passe. Nous entendons de plus en plus parler de fonctions ou procédés « passwordless ». Ce procédé vise à autoriser un accès à un utilisateur sans qu’il ne rentre aucun mot de passe.
 
 *« Bon OK, ça j’avais compris en traduisant de l’anglais, mais concrètement... »*
 
