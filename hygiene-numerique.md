@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-01-16T14:55:12.786Z
+date: 2024-01-16T14:57:30.892Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -520,14 +520,11 @@ Il est enfin important de bannir tous les WiFi publics (hormis certains cas bien
 
 ## Annexe
 
-Pour terminer sur cette partie déjà bien fournie, il existe quelques sites pour savoir si une adresse courriel ou un nom d’utilisateur a déjà fait l’objet de fuite : visitez ce site [<https://haveibeenpwned.com/>](https://haveibeenpwned.com/). Néanmoins, il ne regroupe que les attaques majeures, et, à ce titre, ne doit pas être vu comme le site de référence ultime des fuites en ligne...
+Pour terminer sur cette partie déjà bien fournie, il existe quelques sites pour savoir si une adresse courriel ou un nom d’utilisateur a déjà fait l’objet de fuite : visitez ce site [<https://haveibeenpwned.com>](https://haveibeenpwned.com/). Néanmoins, il ne regroupe que les attaques majeures, et, à ce titre, ne doit pas être vu comme le site de référence ultime des fuites en ligne...
 
 # Limiter le pistage
 
-Cette nouvelle partie, non moins importante, vous permettra à terme d'adopter de nouvelles habitudes pour laisser le moins de traces possibles sur internet. Ce, afin de renforcer votre vie privée et si nécessaire votre anonymat.
-
-> Même si nous devons bien vous avertir de nouveau qu'il est extrêmement difficile d'y arriver **totalement**, sauf à accepter de faire des compromis très importants dans votre vie de tous les jours !
-{.is-info}
+Cette nouvelle partie, non moins importante, vous permettra à terme d'adopter de nouvelles habitudes pour laisser le moins de traces possibles sur internet. Même si nous devons bien vous avertir de nouveau qu'il est extrêmement difficile d'y arriver **totalement**, sauf à accepter de faire des compromis très importants dans votre vie de tous les jours !
 
 ## L’importance des données personnelles
 
