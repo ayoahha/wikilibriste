@@ -2,13 +2,13 @@
 title: Les gestionnaires de mots de passe
 description: Cet article traite des gestionnaires de mots de passe et les outils recommandés...
 published: true
-date: 2024-01-16T11:33:01.519Z
+date: 2024-01-16T15:18:31.503Z
 tags: chiffrement, mots de passe, gestionnaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T13:43:14.323Z
 ---
 
-Cet article va s'intéresser à un outil qui est assez méconnu du grand public : les gestionnaires de mots de passe.
+Cet article s'intéresse à un outil qui est assez méconnu du grand public : les gestionnaires de mots de passe.
 
 Avoir une politique très robuste de mot de passe est aujourd'hui devenu **obligatoire** et crucial du fait de la multiplication des services nécessitant une authentification via la paire "Login"/"Mot de passe". Il est pratiquement de nos jours impossible d'utiliser un service sans cette protection.
 
@@ -56,9 +56,7 @@ et autres navigateurs, qui reposent tous sur des solutions de types "cloud" (en 
 {.is-warning}
 
 
-La seule façon à ce jour **_validée et certifiée_** est d'utiliser un logiciel à sources ouvertes, et de stocker ses mots de passe sur une base que vous garderez sur votre équipement et dont les informations ne seront pas divulguées sur un réseau (on parle donc de gestion hors-ligne, ou offline).
-
-Cela réduit drastiquement le nombre de solutions, encore plus lorsque nous nous adressons au grand public : à ce jour, 2 outils _simples_ seulement permettent de respecter cette exigence.
+La seule façon à ce jour **_validée et certifiée_** est d'utiliser un logiciel à sources ouvertes, et de stocker ses mots de passe sur une base que vous garderez sur votre équipement et dont les informations ne seront pas divulguées sur un réseau (on parle donc de gestion hors-ligne, ou offline). Cela réduit drastiquement le nombre de solutions, encore plus lorsque nous nous adressons au grand public : à ce jour, 2 outils _simples_ seulement permettent de respecter cette exigence.
 
 Nous en reparlons plus loin.
 
@@ -68,9 +66,7 @@ La sécurité autour des mots de passe
 Robustesse
 ----------
 
-Vous vous êtes peut être demandé si le mot de passe que vous avez choisi était bien assez robuste pour être considéré comme un mot de passe *fort*.
-
-Nous sommes capables de définir la robustesse d'un mot de passe, ou aussi appelée _**entropie**_. L'entropie se définit comme la résistance du mot de passe à une attaque par énumération (aussi appelée attaque "force brute"). Calculer l'entropie est assez simple : il s'agit d'un rapport entre la longueur du mot de passe (en nombre de caractères) et le nombre de symboles possibles dans l'énumération (30, 60, 90...).
+Vous vous êtes peut être demandé si le mot de passe que vous avez choisi était bien assez robuste pour être considéré comme un mot de passe *fort*. Nous sommes capables de définir la robustesse d'un mot de passe, ou aussi appelée _**entropie**_. L'entropie se définit comme la résistance du mot de passe à une attaque par énumération (aussi appelée attaque "force brute"). Calculer l'entropie est assez simple : il s'agit d'un rapport entre la longueur du mot de passe (en nombre de caractères) et le nombre de symboles possibles dans l'énumération (30, 60, 90...).
 
 Heureusement, des [outils](http://cryptologie.free.fr/crypto/entropie.html) permettent de les calculer :)
 Ou celui de l'[ANSSI](https://www.ssi.gouv.fr/administration/precautions-elementaires/calculer-la-force-dun-mot-de-passe/).
@@ -143,9 +139,7 @@ Nous évoquions plus haut dans les solutions à fuir le logiciel *Bitwarden* ; n
 [^⁵]: [Bitwarden Flaw security](https://palant.info/2023/01/23/bitwarden-design-flaw-server-side-iterations/) - côté Serveur.
 [^⁶]: [Bitwarden répond](https://portswigger.net/daily-swig/bitwarden-responds-to-encryption-design-flaw-criticism) - et modifie ses paramètres de sécurité !
 
-C'est cette fonction qu'il faudra regarder. Néanmoins, cette fonction sera réservée à ceux qui auront des connaissances et les moyens de créer un serveur, de le maintenir et de l'utiliser d'une façon assez sécurisée : on évite d'ouvrir ce serveur vers l'extérieur, on durcit l'OS, etc. de sorte à réduire la surface d'attaque.
-
-Soyez bien conscients que cette fonction n'est pas aussi sécurisée qu'une base en local sur la machine comme Keepass le propose. En effet, cela implique des requêtes sur votre réseau local, réseau qui peut potentiellement être infiltré ; attention ceci est vraiment peu probable, mais le risque n'est pas nul, surtout si vous avez l'habitude de télécharger tout et n'importe quoi, ou avez un certain profil public.
+C'est cette fonction qu'il faudra regarder. Néanmoins, cette fonction sera réservée à ceux qui auront des connaissances et les moyens de créer un serveur, de le maintenir et de l'utiliser d'une façon assez sécurisée : on évite d'ouvrir ce serveur vers l'extérieur, on durcit l'OS, etc. de sorte à réduire la surface d'attaque. Soyez bien conscients que cette fonction n'est pas aussi sécurisée qu'une base en local sur la machine comme Keepass le propose. En effet, cela implique des requêtes sur votre réseau local, réseau qui peut potentiellement être infiltré ; attention ceci est vraiment peu probable, mais le risque n'est pas nul, surtout si vous avez l'habitude de télécharger tout et n'importe quoi, ou avez un certain profil public.
 
 > **Il s'agira de notre deuxième recommandation.**
 {.is-warning}
@@ -159,9 +153,7 @@ Avec ces 2 outils donc, il vous sera possible de faire plusieurs choses :
 - générer des mots de passe forts, avec une entropie élevée et qui correspond au minimum aujourd'hui admis.
 - (**seulement Keepass**) choisir les algorithmes qui vous conviendront le mieux, et qui seront les plus adaptés à votre machine et à ses capacités.
 
-Votre base de données sera bien entendu protégée (chiffrée) : en effet, vous n’aurez ici qu’un seul et unique mot de passe à retenir ; dans ce cas, ce mot de passe doit être extrêmement fort et gardé le plus secret possible. 
-
-Il sera aussi possible de multiplier les bases de données pour éviter que si votre mot de passe est corrompu toute la base le soit. La contrepartie étant de retenir plusieurs mots de passe forts.
+Votre base de données sera bien entendu protégée (chiffrée) : en effet, vous n’aurez ici qu’un seul et unique mot de passe à retenir ; dans ce cas, ce mot de passe doit être extrêmement fort et gardé le plus secret possible. Il sera aussi possible de multiplier les bases de données pour éviter que si votre mot de passe est corrompu toute la base le soit. La contrepartie étant de retenir plusieurs mots de passe forts.
 
 *_Exemple_ : une base pour les banques et une autre pour le reste.*
 
@@ -174,15 +166,10 @@ Deux outils, aussi appelés "*stateless password generator*", sont disponibles �
 -   [Spectre](https://spectre.app) qui est le successeur du _très critiqué_ masterpassword
 *Note : Pour Spectre, à l'heure où nous écrivons cet article, la seule application Spectre disponible est sur Apple Store ! Les autres applications sont toujours en développement, bien que les applications masterpassword sont toujours disponibles...*
 
-Ces outils vous permettront de générer des mots de passe, basés sur quelques informations personnelles (adresse du site, identifiant...), sans avoir besoin de les stocker quelque part et donc retrouvables (c.à.d. recalculables) à n'importe quel moment. 
-
-**Même si sur le papier cela semble pratique et a priori une bonne idée, retenez bien que pour l'instant aucun audit de sécurité indépendant n'a encore été effectué sur ces solutions.**
-
-Nous attirons le lecteur sur un risque vraisemblable :
+Ces outils vous permettront de générer des mots de passe, basés sur quelques informations personnelles (adresse du site, identifiant...), sans avoir besoin de les stocker quelque part et donc retrouvables (c.à.d. recalculables) à n'importe quel moment. Même si sur le papier cela semble pratique et a priori une bonne idée, retenez bien que pour l'instant **aucun audit de sécurité indépendant** n'a encore été effectué sur ces solutions. Nous attirons le lecteur sur un risque vraisemblable :
 - *La falsification du site internet* : un attaquant peut très bien usurper l'identité du site (expiration du certificat par ex.) et/ou rediriger quelqu'un vers un site miroir qu'il aura reconstruit. Dès lors, vous rentrez votre mot de passe maître et les données et l'attaquant pourra retrouver les mots de passe que vous aurez recherchés.
 
-**Attention également lors du renouvellement/changement de mots de passe : pour Lesspass, il y a un compteur qui peut être incrémenté ; mais pour Spectre, il sera difficile de renouveler et plus d'informations seront à mémoriser.**
-
+Attention également lors du **renouvellement/changement de mots de passe** : pour Lesspass, il y a un compteur qui peut être incrémenté ; mais pour Spectre, il sera difficile de renouveler et plus d'informations seront à mémoriser.
 
 > Néanmoins, ces outils peuvent être intéressants pour certains types de site, hors banques et sites sensibles donc. Pour autant, nous recommandons tout de même Keepass et Bitwarden.
 {.is-info}
