@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-01-16T14:19:25.225Z
+date: 2024-01-16T14:22:40.867Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -342,9 +342,10 @@ Nous l’avons vu plus haut, créer un mot de passe extrêmement fort peut déj�
 
 ![motdepasse2023.png](/images/motdepasse2023.png =600x){.align-center}
 
--   pré-requis minimum : **13 caractères**
- :arrow_right: Cela s'atteint même aisément avec une technique simple - la phrase de passe -, évoquée juste à la suite. 
--   Au minimum, un mélange de lettres minuscules-majuscules, de chiffres, et de caractères spéciaux. Afin de renforcer encore plus vos mots de passe :
+Nous en déduisons ainsi les pré-requis :
+-   Au minimum : **13 caractères**
+-   Au minimum, **un mélange de lettres minuscules-majuscules, de chiffres, et de caractères spéciaux**.
+Afin de renforcer encore plus vos mots de passe :
     -  On évite la majuscule en début de mot de passe.
     -  On évite le caractère spécial en fin de mot de passe.
     -  On évite les chiffres en début et fin de mot de passe.
@@ -359,16 +360,18 @@ Nous l’avons vu plus haut, créer un mot de passe extrêmement fort peut déj�
 - Enfin dernière technique relativement récente : la stratégie du mot de passe en double aveugle. Dénomination assez barbare mais finalement plutôt simple ! Il s'agit ici de découper les mots de passe en 2 parties, la partie courte et la partie longue ; la partie longue étant stockée dans un gestionnaire de mots de passe ou retenue de tête (bon courage!) et la partie courte sera **unique** et pourra être aisément gardée en mémoire (code PIN ou mot simple). Scinder en 2 un mot de passe (avec une partie courte pouvant être mémorisée simplement) peut complexifier la tâche d'un attaquant pour retrouver ce mot de passe, y compris même s'ils sont réussi à avoir le mot de passe long..
   **Exemple : mettons que votre partie courte soit "abcd5". Nous créons un mot de passe avec notre gestionnaire, par ex. "sdf6#ds5!f65s78)". Le mot de passe intégral sera donc en fait "sdf6#ds5!f65s78)abcd5".**
 
-### Mots de passe UNIQUES
+### Mots de passe uniques
 
-Choisissez un mot de passe UNIQUE pour chaque compte que vous créez.
+> Très important : Choisissez un mot de passe _**UNIQUE**_ pour chaque compte que vous créez.
 
-Chaque site nécessitant un compte avec un couple [nom d’utilisateur ; mot de passe] doit contenir un mot de passe unique, qui n’a jamais été utilisé sur un autre de vos comptes. La raison est très simple : vous évitez en choisissant un mot de passe unique, dans le cas éventuel d'une fuite de données (qui arrive plus souvent que vous ne le pensez), de retrouver ce mot de passe sur les darknets, compromettant ainsi **TOUS** vos comptes ! La situation est en fait encore pire en ayant un mot de passe unique (quand bien même il serait "ultra-secure"!!) : 
-- "ultra-secure" (comme le disent certains :|) ou pas, si votre mot de passe est dévoilé, peu importe sa robustesse !
+> Nous répétons : Choisissez un mot de passe _**UNIQUE**_ pour chaque compte que vous créez.
+
+Chaque site nécessitant un compte avec un couple *[nom d’utilisateur ; mot de passe]* doit contenir un mot de passe unique, qui n’a jamais été utilisé sur un autre de vos comptes. La raison est très simple : vous évitez en choisissant un mot de passe unique, dans le cas éventuel d'une fuite de données (qui arrive plus souvent que vous ne le pensez), de retrouver ce mot de passe sur les darknets, compromettant ainsi **TOUS** vos comptes ! La situation est en fait encore pire en ayant un mot de passe unique (quand bien même il serait "ultra-secure"!!) : 
+- "ultra-secure" (comme le disent certains !) ou pas, si votre mot de passe est dévoilé, peu importe sa robustesse !
 - Et généralement, nous ne sommes pas avertis rapidement de ces fuites de données, donc vous mettez à risque la totalité de vos comptes (qui pour certains peuvent être sensibles) sans forcément le savoir et prendre des mesures (changement de mot de passe). 
-- Ah également : dans le cas d'une fuite, vous devrez changer le mot de passe de **TOUS** vos comptes.
+- Egalement, dans le cas d'une fuite de données, vous devrez changer le mot de passe de **TOUS** vos comptes.
 
-**Donc on se répète : _un mot de passe UNIQUE pour chacun de vos comptes_. Ici également, c'est un pré-requis essentiel (non négociable).**
+> **Donc une nouvelle fois : _un mot de passe UNIQUE pour chacun de vos comptes_. Ici également, c'est un pré-requis essentiel (non négociable).**
 
 > Attention, veillez à ne pas tester vos mots de passe sur des sites internet qui proposent ce service, y compris sur des sites de sociétés très connues, et y compris s'ils vous disent qu'ils ne collectent pas les données. Vous ne savez pas qui est concrètement derrière ces sites internet, et quels seraient les algorithmes ou les codes implémentés, voire dans le pire cas qui pourrait intercepter la requête avec le mot de passe à l’intérieur ! Un mot de passe est un secret, et doit le rester pour tout le monde, y compris votre conjoint(e) ou vos enfants.
 {.is-danger}
@@ -381,7 +384,7 @@ Alors je sais, vous vous dites "Non mais attends, créer un mot de passe ultra f
 
 **... Voici pourquoi utiliser un gestionnaire de mots de passe est fortement recommandé.**
 
-Nous vous renvoyons ici vers l'[article dédié](/debutant/gestionnaire-mots-passe) à ces outils.
+Nous vous renvoyons ici vers l'[article dédié](/debutant/gestionnaire-mots-passe) à cet outil.
 
 ## Authentification 
 ### L'authentification multi factorielle
