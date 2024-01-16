@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:38:01.432Z
+date: 2024-01-16T11:40:54.531Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -344,7 +344,8 @@ Parmi les OS les plus connus :
 -   Apple avec ses OS macOS et iOS
 -   Android (LineageOS, GrapheneOS, /e/OS...)
 
-Pour en savoir plus au sujet des distributions GNU/Linux, nous vous invitons à lire l'article sur les principales [distributions Linux](/debutant/linux-distributions).
+> Pour en savoir plus au sujet des distributions GNU/Linux, nous vous invitons à lire l'article sur les principales [distributions Linux](/debutant/linux-distributions).
+{.is-info}
 
 # OTP
 
@@ -357,9 +358,9 @@ Généré depuis une application mobile - objet virtuel - :
 Ou depuis un boîtier prévu à cet effet - objet physique - comme ce boîtier proposé par une banque :
 ![boîtier_-otp-modif_sans_marque_bk.jpg](/images/boîtier_-otp-modif_sans_marque_bk.jpg =300x){.align-center}
 
-Il s'agit d'un "jeton" utilisé dans le cadre d'une authentification à double facteur, ou multi-facteurs. Nous vous renvoyons d'ailleurs vers les différents articles sur l'hygiène numérique [ici](/hygiene-numerique#acc%C3%A8s-aux-informations-ou-authentification) et [ici](/hygiene-numerique#authentification), pour bien comprendre et obtenir de plus amples détails.
+Il s'agit d'un "jeton" utilisé dans le cadre d'une authentification à double facteur, ou multi-facteurs. Cette technologie a évolué vers **TOTP : Time-based One Time Password** (cf. ci-après).
 
-> Cette technologie a évolué vers TOTP : Time-based One Time Password. Voir la définition du glossaire à suivre plus bas.
+> Nous vous renvoyons d'ailleurs vers les différents articles sur l'hygiène numérique [ici](/hygiene-numerique#acc%C3%A8s-aux-informations-ou-authentification) et [ici](/hygiene-numerique#authentification), pour bien comprendre et obtenir de plus amples détails.
 {.is-info}
 
 # Partition
@@ -368,18 +369,17 @@ Un périphérique de stockage (disque dur, mémoire flash...) peut être compart
 
 Exemple de partitions allouées pour chaque système d'exploitation ; partitions Windows avec le logo "fenêtre" <span class="mdi mdi-microsoft-windows-classic"></span> (01, 05 et 07) ; partitions GNU/Linux symbolisées par le manchot <span class="mdi mdi-penguin"></span> (03, 04 et 06) :
 
-> La partition 02 est une partition étendue et n'a pas de système de fichiers désigné. Elle permet juste de créer des partitions logiques sur une table de type MBR.
-{.is-info}
+- **La partition 02 est une partition étendue et n'a pas de système de fichiers désigné. Elle permet juste de créer des partitions logiques sur une table de type MBR.**
 
 ![partions_os.webp](/images/partions_os.webp =600x){.align-center}
 
 > Notez qu'avant de créer des partitions manuellement, il vous faudra créer une table des partitions sur le disque.
-> Les UEFI (BIOS récents) utilisent une table de type GPT (à privilégier).
-> Les BIOS utilisent une table de type MBR/DOS (sur les appareils anciens).
+> ~~ Les UEFI (BIOS récents) utilisent une table de type GPT (à privilégier).
+> ~~ Les BIOS utilisent une table de type MBR/DOS (sur les appareils anciens).
 > Pour en savoir plus, consultez l'[article Wikipedia sur GPT](https://fr.wikipedia.org/wiki/GUID_Partition_Table).
 {.is-info}
 
-> Sur chaque partition, on choisit un système de fichiers (ext4, btrfs, zfs, swap, ...) et éventuellement un point de montage (/home, /var, ...) : consultez le chapitre [système de fichier](#syst%C3%A8me-de-fichiers-fs) ci-après.
+> Sur chaque partition, on choisit un système de fichiers (ext4, btrfs, zfs, swap, ...) et éventuellement un point de montage (/home, /var, ...) : cf. la définition d'un [système de fichier](#syst%C3%A8me-de-fichiers-fs) ci-après.
 {.is-info}
 
 # Ports réseau
