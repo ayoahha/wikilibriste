@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2024-01-16T12:17:03.314Z
+date: 2024-01-16T12:21:11.330Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -101,10 +101,11 @@ Quant aux données personnelles, le principal risque vient aussi des actions de 
 {.is-info}
 
 **Alerte collecte :**
-Le développeur hollandais Bert Hubert a conçu [une application](https://nitter.cutelab.space/bert_hu_bert/status/1561466204602220544) qui vous alerte quand Google collecte vos données. Sans surprise, les "bips" sont quasiment incessants, et permettent de mesurer l'ampleur du traçage.
+Le développeur hollandais Bert Hubert a conçu [une application](https://nitter.cz/bert_hu_bert/status/1561466204602220544) qui vous alerte quand Google collecte vos données. Sans surprise, les "bips" sont quasiment incessants, et permettent de mesurer l'ampleur du traçage.
 
-A noter que les tests présentés dans cette publication ont été réalisés sur un navigateur web, depuis un ordinateur. 
-Depuis un smartphone "conventionnel" du commerce qui est "google-isé" -hors OS Android libre donc- les bips se produiraient en dehors du navigateur, à l'ouverture ou l'utilisation d'applications téléchargées depuis le Playstore, et qui incluent des pisteurs type Google Analytics. Les bips auraient lieu non-stop, étant donné qu'un Gmail est lié au système sur de tels téléphones. Il serait d'ailleurs intéressant de réaliser le test avec un smartphone dé-googlisé pour constater l'écart (on peut s'attendre à un écart d'au moins 80 à 90%, les 10 à 20% reposant sur les quelques incontournables de Big Brother, ou l'appel à une [API](/glossaire#api) Google via Maps ou autre).
+A noter que les tests présentés dans cette publication ont été réalisés sur un navigateur web, depuis un ordinateur.
+
+Depuis un smartphone "conventionnel" du commerce qui est "google-isé" -hors OS Android libre donc- les bips se produiraient en dehors du navigateur, à l'ouverture ou l'utilisation d'applications téléchargées depuis le Playstore, et qui incluent des pisteurs type Google Analytics. Les bips auraient lieu non-stop, étant donné qu'un Gmail est lié au système sur de tels téléphones. Il serait d'ailleurs intéressant de réaliser le test avec un smartphone dé-googlisé pour constater l'écart (on peut s'attendre à un écart d'au moins 80 à 90%, les 10 à 20% reposant sur les quelques incontournables de Big Brother, ou l'appel à une API Google via Maps ou autre).
 
 **Êtes-vous localisés par votre smartphone ?**
 [3 milliards de smartphone localisés en temps réel](https://vienumeriqueprivee.fr/3-milliards-de-smartphones-localises-en-temps-reel-et-le-votre/)
@@ -113,8 +114,8 @@ Depuis un smartphone "conventionnel" du commerce qui est "google-isé" -hors OS 
 [Véhicule connectés et collecte de données](https://vienumeriqueprivee.fr/vehicules-connectes-et-collecte-de-donnees-personnelles/)
 
 **Qu'est ce qu'un site web peut collecter sur vous ?**
-Pour faire le test sur votre [navigateur internet](https://coveryourtracks.eff.org/)
-La vidéo explicative : [EFF Tools - vidéo explicative](https://invidious.namazso.eu/watch?v=ji6_TKJudaI&dark_mode=true&hl=fr&local=true)
+- Pour faire le test sur votre [navigateur internet](https://coveryourtracks.eff.org/)
+- La vidéo explicative : [EFF Tools - vidéo explicative](https://invidious.namazso.eu/watch?v=ji6_TKJudaI&dark_mode=true&hl=fr&local=true)
 
 **Je valide « je ne suis pas un robot » pour l'accès à certains sites :**
 
