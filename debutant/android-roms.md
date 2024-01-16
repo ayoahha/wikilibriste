@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2024-01-14T22:50:36.801Z
+date: 2024-01-16T12:03:04.518Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -143,6 +143,7 @@ Concernant Rumble, voici le tweet de Chris Pavlovski :
 ### ROMs conseillées
 
 Voici les ROMs alternatives du marché que nous recommandons pour ceux qui peuvent creuser un peu plus le sujet :
+
 | Nom | Liens | Niveau conseillé | Modèles supportés | Vend des<br>téléphones<br>configurés? |  Commentaires |
 |----------|----------|----------|----------|----------|----------|
 | Graphene OS | [Site Officiel](https://grapheneos.org/) | Intermédiaire | 10 | Non | Distribution la plus axée sur la sécurité et la vie privée, notamment au niveau des composants de communication, mais n'est disponible que pour les Google Pixels.<br>Bootloader re-verrouillable afin d'assurer le schéma de sécurité complet.<br>**Rendez-vous [ici](https://grapheneos.org/install/web) pour l'installation. Suivez scrupuleusement les indications (utilisation uniquement d'un navigateur chromium, installation des drivers, etc.)** |
@@ -246,7 +247,6 @@ Pour 90% des applications, le téléphone dégooglisé pourra être utilisé com
 
 Voici les ROMs alternatives du marché que nous recommandons pour ceux qui peuvent creuser un peu plus le sujet :
 
-Voici les ROMs alternatives du marché que nous recommandons pour ceux qui peuvent creuser un peu plus le sujet :
 | Nom | Liens | Niveau conseillé | Modèles supportés | Vend des<br>téléphones<br>configurés? |  Commentaires |
 |----------|----------|----------|----------|----------|----------|
 | Graphene OS | [Site Officiel](https://grapheneos.org/) | Intermédiaire | 10 | Non | Distribution la plus axée sur la sécurité et la vie privée, noyau et applications de base durcis (hardened, voir Glossaire) notamment au niveau des composants de communication, mais n'est disponible que pour les Google Pixels. Bootloader re-verrouillable afin d'assurer le schéma de sécurité complet. |
