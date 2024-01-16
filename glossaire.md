@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:46:28.657Z
+date: 2024-01-16T11:51:46.254Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -586,7 +586,7 @@ Voici une sélection de logiciels libres qui proposent un client ssh évolué av
 # Système de fichiers (FS)
 
 Un système de fichier (file system ou FS) peut désigner :
-- la façon dont les fichiers sont organisés dans une [partition](#partition)
+- la façon dont les fichiers sont organisés dans une partition.
 - ou bien la manière de ranger les dossiers dans un système d'exploitation.
 
 ## FS au sein d'une partition
@@ -594,7 +594,7 @@ Un système de fichier (file system ou FS) peut désigner :
 Lorsque que l'on crée une partition, on doit la formater avec un système de fichiers (FS).
 Celui-ci organise la façon dont les données sont stockées sur un disque.
 
-Il existe beaucoup de [FS](https://fr.wikipedia.org/wiki/Liste_des_syst%C3%A8mes_de_fichiers) différents, parmi les plus connus:
+Il existe beaucoup de [Systèmes de Fichiers](https://fr.wikipedia.org/wiki/Liste_des_syst%C3%A8mes_de_fichiers) (ou FS) différents, parmi les plus connus:
 - *ext : le premier FS pour le noyau Linux, il a été très vite _remplacé par ext2_.*
 - *ext2 : utilisé dès l'apparition des distros GNU/Linux dans les années 1993, maintenant _obsolète_.*
 - ext3 : évolution de ext2 dès les années 2000, ajoute la journalisation et ainsi permet la récupération des données. _Très peu utilisé_ aujourd'hui à part pour la **partition `/boot` sur un table de partition MBR**.
@@ -609,17 +609,20 @@ Il existe beaucoup de [FS](https://fr.wikipedia.org/wiki/Liste_des_syst%C3%A8mes
 - HFS/HFS+ : **utilisé sous Apple MacOS**
 
 
-> Pour en apprendre plus sur les "filesystem", nous vous conseillons de visionner : ["Types de Filesystem : ext4, xfs, btrfs & zfs" sur la chaîne Xavki](https://yewtu.be/watch?v=F6NWxlhjeO0).
+> Pour en apprendre plus sur les "FS", nous vous conseillons de visionner : ["Types de Filesystem : ext4, xfs, btrfs & zfs" sur la chaîne Xavki](https://yewtu.be/watch?v=F6NWxlhjeO0).
 {.is-info}
 
 
 ## Hiérarchie d'un FS sous Linux
 
 Linux (au contraire de Windows) est conçu pour compartimenter chaque espace, un programme pour une tâche et chaque chose à sa place :)
-Lorsque l'on installe une distro Linux on installe la plupart du temps tout dans une seule partition `/` (root FS).
-Cependant, il est tout à fait possible de compartimenter les partitions comme expliqué dans le tutoriel [partitionner son disque](/tutoriels/partitioning).
 
-Les systèmes UNIX et Linux s'appuient sur un [système de fichier standardisé (Filesystem Hierarchy Standard/FHS)](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard).
+Lorsque nous installons une distro Linux, nous installons la plupart du temps la totalité des fichiers du système dans une seule partition `/` (appelée "root FS"). Cependant, il est tout à fait possible de compartimenter les partitions comme expliqué dans le tutoriel [partitionner son disque](/tutoriels/partitioning).
+
+> Les systèmes UNIX et Linux s'appuient sur un système de fichier standardisé, le FHS
+> ~~ [Filesystem Hierarchy Standard ou FHS](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard).
+> ~~ [Infographie plus visuelle](https://whimsical.com/fhs-L6iL5t8kBtCFzAQywZyP4X).
+{.is-info}
 
 Passons en revue les dossiers standards présents à la racine `/` d'un FS GNU/Linux :
 - **SWAP** : Le swap est traditionnellement stocké dans une partition dédiée avec un FS de type SWAP. Mais il est tout à fait possible de stocker le swap à la racine du FS dans un fichier `/swapfile`
