@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2023-10-01T14:56:54.167Z
+date: 2024-01-16T13:54:54.625Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -22,8 +22,8 @@ L’enjeu n’est plus seulement de faire attention à soi-même, mais devient d
 > [Je n'ai rien à cacher !](https://jenairienacacher.fr/)
 {.is-info}
 
+### Afin de reprendre la main sur votre espace numérique, cet article tente de vous guider en vulgarisant au maximum les terminologies techniques et le comportement à tenir afin d'arriver à une hygiène informatique plus saine
 
-<span class="red-text">**Afin de reprendre la main sur votre espace numérique, cet article tente de vous guider en vulgarisant au maximum les terminologies techniques et le comportement à tenir afin d'arriver à une hygiène informatique plus saine.**</span>
 
 # Comprendre les bases
 
