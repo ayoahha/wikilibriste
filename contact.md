@@ -2,7 +2,7 @@
 title: Pour nous contacter
 description: Nous contacter pour ouvrir un compte wikilibriste et/ou venir contribuer
 published: true
-date: 2023-10-28T07:10:37.365Z
+date: 2024-01-16T11:10:36.491Z
 tags: contact, contribuer
 editor: markdown
 dateCreated: 2022-12-09T08:49:16.504Z
@@ -18,7 +18,8 @@ dateCreated: 2022-12-09T08:49:16.504Z
 # Pour proposer votre contribution au wiki
 
 Nous encourageons toute personne ayant l'envie d'écrire des articles ou de les relire à venir contribuer au wiki.
-**Pour pouvoir rédiger des articles, vous devrez demander une ouverture de compte auprès de notre équipe d'administrateurs :**
+
+**Pour pouvoir rédiger des articles, vous pouvez créer votre compte et contacter notre équipe d'administrateurs afin que l'on vous octroie les droits en rédaction :**
 **-   Ayo**
 **-   EtherKryios**
 **-   Marmotte**
