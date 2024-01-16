@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:53:55.639Z
+date: 2024-01-16T11:54:42.402Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -677,8 +677,8 @@ De l'anglais "Uniform Resource Locator" : localisateur universel de ressources.
 C'est par exemple l'adresse visible depuis son navigateur internet, dans la barre de recherche : typiquement https://www.exemple-de-site.com. Techniquement, d'après le Larousse, son  rôle est de :
 > "*préciser la localisation d'une ressource Internet, en indiquant le protocole à adopter, le nom de la machine, le chemin d'accès et le nom du fichier.*"
 
-A mettre en lien avec le DNS, dont vous trouverez plus de détails dans l'article [suivant](/hygiene-numerique#dns).
-
+> A mettre en lien avec le DNS, dont vous trouverez plus de détails dans l'[article suivant](/debutant/dns).
+{.is-info}
 
 # Vulnérabilité
 
