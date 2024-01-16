@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2023-11-30T12:40:20.963Z
+date: 2024-01-16T13:04:26.050Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -176,9 +176,9 @@ Terminons par la solution la plus indiquée pour ceux qui ont besoin d'une sécu
 
 Cette solution nécessite néanmoins un compte courriel capable de pouvoir être géré par un client externe ; par exemple, Gmail le permet via IMAP ou POP, mais ProtonMail ne le permet pas. Alors attention ici cela reste un exemple car avec une utilisation de Gmail, ayez bien en tête que quand bien même vous protégeriez vos échanges, les informations seraient tout de même en transit sur les serveurs de Google (collecte des métadonnées) ! Donc bien entendu, nous ne recommandons pas cette solution. Il y a d'autres façons de trouver un fournisseur voire d'auto-héberger son propre serveur courriel.
 
-Nous ne traiterons ici que d'un outil, qui est le plus connu des clients courriel sur GNU/Linux : Thunderbird. Il s'agit de l'outil le plus pratique afin de configurer PGP du fait de son intégration : avant le version 78, une extension était nécessaire afin d'intégrer PGP à Thunderbird, Enigmail [^³5]. C'est aujourd'hui de l'histoire ancienne, PGP étant complètement intégré au logiciel. Enigmail reste cela dit disponible pour la rétro compatibilité.
+Nous ne traiterons ici que d'un outil, qui est le plus connu des clients courriel sur GNU/Linux : Thunderbird. Il s'agit de l'outil le plus pratique afin de configurer PGP du fait de son intégration : avant le version 78, une extension était nécessaire afin d'intégrer PGP à Thunderbird, Enigmail [^¹]. C'est aujourd'hui de l'histoire ancienne, PGP étant complètement intégré au logiciel. Enigmail reste cela dit disponible pour la rétro compatibilité.
 
-[^³5]: [Enigmail](http://doc.ubuntu-fr.org/enigmail)
+[^¹]: [Enigmail](http://doc.ubuntu-fr.org/enigmail)
 
 L'idée dans cet outil sera de :
 -   Générer votre paire de clés PGP, cf. [utilisation de GPG](/tutoriels/gnupg).
@@ -318,7 +318,7 @@ Oui nous ne recommandons pas, à ce jour, l'application française **Olvid**... 
 
 À ce titre, nous ne recommandons pas spécialement cette messagerie, **Session** par exemple nous semble bien plus indiquée ici.
 
-[^¹9]: [ANSSI - CSPN](https://www.ssi.gouv.fr/administration/produits-certifies/cspn/produits-certifies-cspn/), partie "Messagerie Sécurisée"
+[^¹9]: [ANSSI - CSPN](https://cyber.gouv.fr/produits-certifies?sort_bef_combine=field_date_de_certification_value_DESC&field_cat_target_id%5B587%5D=587) -  "Messagerie Sécurisée"
 [^²0]: [Rapport d'évaluation](https://olvid.io/assets/documents/Synacktiv-Olvid-CSPN-Olvid-0.8.2-RTE-public.pdf)
 [^²1]: [Olvid - Politique de Confidentialité](https://www.olvid.io/privacy/fr/)
 [^22]: [Olvid Serveur](https://www.olvid.io/faq/serveur-et-open-source/)
