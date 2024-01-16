@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:54:42.402Z
+date: 2024-01-16T11:55:06.270Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -78,7 +78,8 @@ Wikipedia en fournit une [définition plus technique de la blockchain](https://f
 Egalement appelé "robot internet".
 Il s'agit d'un programme capable d'exécuter certaines tâches automatiquement et suivant ce que son auteur a programmer. Il peut s'agir d'un programme utile tout autant qu'un programme malveillant.
 
-Nous discutons de ce type de programme malveillant dans l'article [Améliorez votre hygiène numérique](/hygiene-numerique#malware-virus-trojan), à la section Malware-Virus-Trojan.
+> Nous discutons de ce type de programme malveillant dans l'article [Améliorez votre hygiène numérique](/hygiene-numerique#malware-virus-trojan), à la section Malware-Virus-Trojan.
+{.is-info}
 
 # BootLoader
 
