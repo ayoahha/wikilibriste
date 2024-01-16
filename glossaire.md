@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:41:40.243Z
+date: 2024-01-16T11:42:32.894Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -404,9 +404,9 @@ Parmi les ports les plus communs, on trouve les ports :
 
 # Propriétaire
 
-Un système d'exploitation, programme, application "propriétaire" se dit d'un outil soumis à licence _commerciale_ pour son utilisation, et dont **le propriétaire est l'éditeur logiciel** et non l'utilisateur final, **par opposition aux logiciels libres (d'utilisation)** (voir définition de [logiciel libre](https://wikilibriste.fr/glossaire#logiciel-libre)).
+Un système d'exploitation, programme, application "propriétaire" se dit d'un outil soumis à licence _commerciale_ pour son utilisation, et dont **le propriétaire est l'éditeur logiciel** et non l'utilisateur final, **par opposition aux logiciels libres**.
 
-Exemples : Windows, MacOS, ChromeOS
+_Exemples_ : Windows, MacOS, Google Chrome, Safari, OneDrive, Gmail...
 
 # Proxy
 
