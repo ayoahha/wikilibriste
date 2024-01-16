@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2024-01-16T12:41:15.625Z
+date: 2024-01-16T12:41:39.487Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -92,7 +92,7 @@ portant injonction, au regard de la menace grave et actuelle contre la sécurit�
 {.is-info}
 
 **Big Brother**
-![sortirgafam011.jpg](/images/sortirgafam011.jpg =180x){.align-left} Le Prix Big Brother est une cérémonie de remise de prix à destination des gouvernements et des entreprises qui font le plus pour menacer la vie privée. La cérémonie est organisée par l'association Privacy International.
+![sortirgafam011.jpg](/images/sortirgafam011.jpg =150x){.align-left} Le Prix Big Brother est une cérémonie de remise de prix à destination des gouvernements et des entreprises qui font le plus pour menacer la vie privée. La cérémonie est organisée par l'association Privacy International.
 
 Son nom vient du personnage emblématique de l'État policier d'Océania dans le roman 1984 de George Orwell. Ce prix existe dans une dizaine de pays. Le 14 juillet 2021, **Doctolib** se voit décerner le Big Brother Awards.
 
