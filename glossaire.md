@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:28:03.239Z
+date: 2024-01-16T11:28:11.411Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -136,7 +136,7 @@ C'est donc un protocole réseau qui va s'occuper de configurer les paramètres d
 
 C'est généralement la "box" de votre fournisseur Internet qui s'en charge sur votre réseau local. Ainsi lorsque vous branchez un PC avec un câble ethernet ou que vous connectez un smartphone à votre Wifi, ceux-ci obtiennent automatiquement une adresse IP et un nom de domaine (cf. DNS) vers qui envoyer les requêtes.
 
-# Distribution (Distro)
+# Distribution (ou distro)
 
 Il s'agit ici des différentes variantes d'un Système d'Exploitation (SE en français / OS en anglais). Pour citer un exemple parlant du quotidien : lorsque l'on parle d'Android, il s'agit du type de système d'exploitation... Android étant "le socle", ce dernier peut se présenter sous différentes variantes, telles que :
 - One UI pour les smartphones Samsung,
