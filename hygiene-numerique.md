@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-01-16T14:03:45.463Z
+date: 2024-01-16T14:03:58.077Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -122,7 +122,7 @@ Voici à quoi ressemblerait une 3FA !
 
 Le dernier facteur est encore peu utilisé de nos jours, et seulement pour des situations sensibles ou des entreprises ayant des données critiques ou des personnes à protéger. Ce facteur s’appuiera sur l’adresse IP d’où part la demande d’authentification, voire sa géolocalisation.
 
-### Alors, quel est le futur des mots de passe ?
+### Quel futur pour les mots de passe ?
 
 La question est judicieuse, à l'heure où tous les experts tentent de trouver une solution pour améliorer l'authentification par mot de passe. Nous entendons de plus en plus parler de fonctions ou procédés « passwordless ». Ce procédé vise à autoriser un accès à un utilisateur sans qu’il ne rentre aucun mot de passe.
 
