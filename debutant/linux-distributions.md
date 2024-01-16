@@ -2,7 +2,7 @@
 title: Les distributions GNU/Linux
 description: Article relatif aux distributions GNU/Linux que le collectif recommande...
 published: true
-date: 2024-01-16T12:07:11.449Z
+date: 2024-01-16T12:10:09.475Z
 tags: linux, debutant, intermédiaire, débutant, intermediaire, initié, expert
 editor: markdown
 dateCreated: 2022-11-24T21:02:27.494Z
@@ -386,10 +386,9 @@ Les distributions que nous avons sélectionnées, classées par famille, avec **
 
 Après avoir installé votre distribution, il sera important de bien sécuriser le système.
 
-> **Bien entendu, pour vous montrer comment sécuriser simplement le système dans un premier temps, nous avons rédigé un premier [tutoriel](/tutoriels/distro-protect).**
-> 
-> **Pour ceux qui cherchent à sécuriser un maximum leur système et afin de vous guider dans son durcissement, nous avons préparé un second [tutoriel](/tutoriels/distro-protect-hardening).**
-{.is-info}
+- Pour sécuriser simplement le système dans un premier temps, se référer à ce [tutoriel](/tutoriels/distro-protect). 
+- Pour ceux qui cherchent à sécuriser un maximum leur système et afin de vous guider dans son durcissement, rendez-vous sur ce [tutoriel](/tutoriels/distro-protect-hardening).
+{.grid-list}
 
 ## Améliorer sa vie privée
 
