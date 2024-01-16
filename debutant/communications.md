@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2024-01-16T13:11:04.797Z
+date: 2024-01-16T13:15:28.374Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -412,14 +412,14 @@ Nous ne pouvons bien entendu pas parler de messagerie sans discuter de la sécur
 Il existe, à ce jour, 2 *types de protection* qui nous intéressent particulièrement :
 - Le **chiffrement client-serveur** : dans la pratique, le client de l'émetteur initie un canal avec le serveur de l'application puis chiffre le message. Celui-ci est reçu par le serveur, déchiffré par le serveur, puis rechiffré par le serveur pour transmettre le message au client du destinataire qui le déchiffrera à son tour. Dans ce cas, l'idée ici est de faire transiter un message via un serveur : vous voyez donc qu'ici nous sommes sur un mode de _centralisation_. On peut donc facilement voir qu'il existe une entité qui sera capable de retenir à un moment donné dans la chaîne le message : le serveur. Même si celui-ci vous assure qu'il ne regarde absolument pas le contenu, il est évident que cela pose un souci en terme de vie privée, surtout si des législations viennent se mêler de ce sujet ou bien que des gouvernements soumettent des injonstions aux fournisseurs afin de déchiffrer des messages provenant de leurs serveurs (ils le peuvent car ils détiennent et gèrent les clés pour vous !).
 
-- Le **chiffrement de bout en bout** (ou E2EE [^2]) : ici l'émetteur chiffre le message et le transmet directement au destinataire qui le déchiffre ; aucun intermédiaire ici. On pourrait croire que cette solution est l'ultime solution, la plus adéquate, mais, vous vous en doutez, rien n'est jamais aussi simple ! En effet, afin de pouvoir chiffrer, vous aurez besoin de "clés de sécurité" (jetez un coup d'oeil à l'article sur le [chiffrement](/intermediaire/chiffrement) pour bien comprendre l'aspect des clés de sécurité). Ces clés doivent pouvoir être générées et stockées quelque part.
+- Le **chiffrement de bout en bout** (ou E2EE [^⁸]) : ici l'émetteur chiffre le message et le transmet directement au destinataire qui le déchiffre ; aucun intermédiaire ici. On pourrait croire que cette solution est l'ultime solution, la plus adéquate, mais, vous vous en doutez, rien n'est jamais aussi simple ! En effet, afin de pouvoir chiffrer, vous aurez besoin de "clés de sécurité" (jetez un coup d'oeil à l'article sur le [chiffrement](/intermediaire/chiffrement) pour bien comprendre l'aspect des clés de sécurité). Ces clés doivent pouvoir être générées et stockées quelque part.
     - _Messagerie centralisée_ : dans la plupart des cas, les clés sont générées par les fournisseurs du service eux-mêmes et stockés sur les serveurs. Même si certaines messageries implémentent bien entendu des mécanismes *robustes* pour stocker et échanger ces clés, il n'en reste pas moins que la clé principale est gérée chez le fournisseur du service et non par vous-même.
     - _Messagerie fédérée, décentralisée ou mode pair à pair_ : ces clés sont générées sur votre appareil et gérées sur cet appareil et non par un fournisseur tiers.
 Enfin, bien entendu, le chiffrement de bout-en-bout implique dans certains cas (principalement pair à pair) que chaque protagoniste soit connecté pour émettre et recevoir. Ceci est a priori un avantage mais peut potentiellement être un inconvénient pour certains.
 
 Pour plus de détails sur les définitions, rendez vous sur le [glossaire](/glossaire#r%C3%A9seau-infrastructure).
 
-[^2]: E2EE pour "End to End Encryption".
+[^⁸]: E2EE pour "End to End Encryption".
 
 
 Pour traduire, lorsque vous utilisez une application de messagerie aujourd'hui, *centralisée* et *grand public/propriétaire* (hors modèle pair à pair donc), il est souvent mis en avant le fait que celles-ci vous proposent un chiffrement bout-en-bout (E2EE), mais ce n'est pas si simple... Sur le même principe que des mandataires courriels, une majorité des messageries génèrent elles-mêmes les clés de chiffrement et les gèrent pour vous afin que tout soit transparent. **Néanmoins, cela implique plusieurs choses qui peuvent déranger** :
@@ -443,22 +443,23 @@ Signal (tout comme beaucoup d'applications aujourd'hui) a fait l'objet de beauco
 
 **Tentons d'y voir plus clair** : l'USAGM (et tous ses projets dont OTF et Radio Free Asia...) promeut effectivement les intérêts US (en utilisant des capacités disruptives ou déstabilisantes, etc.), surtout dans des pays où les gouvernements ont des liens très difficiles avec le gouvernement US... Donc en plus de soutenir des médias *indépendants* dans ces pays, cela implique également le soutien du gouvernement US à des outils capables de contourner la censure et permettre à des personnes de résister à des régimes dictatoriaux.
 
-De plus, le soutien financier de l'OTF à divers projets est du domaine public [^³].
+De plus, le soutien financier de l'OTF à divers projets est du domaine public [^⁹].
 
-[^³]: [Open Whisper System](https://www.opentech.fund/results/supported-projects/open-whisper-systems/) et financement.
+[^⁹]: [Open Whisper System](https://www.opentech.fund/results/supported-projects/open-whisper-systems/) et financement.
 
 Bien évidemment du fait de la facilité d'obtenir cette information et de vouloir faire sensation, le buzz, quelques journaux ont publié des articles concernant la messagerie, remplis de sous entendus ; ce qui, de fait, a contribué à créer cette théorie. Maintenant, examinons les faits :
 - ~~Signal est open-source (y compris leur protocole de chiffrement, dérivation de clés, gestion de la confidentialité permanente, PFS etc.), ce qui implique que le code est scruté et auditable à n'importe quel moment par des experts cyber de par le monde (n'oublions pas que cette messagerie est très connue)~~ 
-    - *C'est confirmé depuis fin 2021 [^⁴], [^⁵] ou [^⁶] , et après de nombreuses demandes des développeurs et utilisateurs, **Signal confirme enfin qu'il ferme une partie de son code source côté Serveur**, le code source relatif au protocole reste open-source. Même si la justification est a priori recevable pour la majorité des libristes, cela constitue donc un _relatif danger_ pour certains utilisateurs...*
-    - *...Car en terme de surveillance de masse, il est plus simple et plus intéressant pour les gouvernements d'utiliser des outils à sources fermées (ex. : le scandale des backdoors [^⁷] sur les routeurs Cisco qui n'est qu'un exemple). Nous ne sommes pas en train de dire que c'est le cas pour Signal, mais de dire qu'a priori personne ne pourra le prouver puisqu'une partie du code est fermé !*
-    - *Cela dit, il est aussi bien plus simple d'installer un petit spyware sur des téléphones (cf. le scandale PRISM [^⁸], ou encore ce scandale au Canada [^⁹])*
+    - *C'est confirmé depuis fin 2021 [^¹0], [^¹1] ou [^¹2], et après de nombreuses demandes des développeurs et utilisateurs, **Signal confirme enfin qu'il ferme une partie de son code source côté Serveur**, le code source relatif au protocole reste open-source. Même si la justification est a priori recevable pour la majorité des libristes, cela constitue donc un _relatif danger_ pour certains utilisateurs...*
+    - *...Car en terme de surveillance de masse, il est plus simple et plus intéressant pour les gouvernements d'utiliser des outils à sources fermées (ex. : le scandale des backdoors [^¹3] sur les routeurs Cisco qui n'est qu'un exemple). Nous ne sommes pas en train de dire que c'est le cas pour Signal, mais de dire qu'a priori personne ne pourra le prouver puisqu'une partie du code est fermé !*
+    - *Cela dit, il est aussi bien plus simple d'installer un petit spyware sur des téléphones (cf. le scandale PRISM [^¹4] [^⁸], ou encore ce scandale au Canada [^¹5] [^⁹])*
 
-[^⁴]: [Signal - sources fermées](https://signal.org/blog/keeping-spam-off-signal/), justifications données par les développeurs de Signal.
-[^⁵]: [Signal arrête de se soucier de la vie privée](https://pocketnow.com/like-whatsapp-signal-just-jumped-the-shark-and-stops-caring-so-much-about-privacy/) de ses utilisateurs.
-[^⁶]: [Lemmy](https://lemmy.ml/post/55595) forum.
-[^⁷]: [Les révélations de Snowden](https://www.infoworld.com/article/2608141/snowden--the-nsa-planted-backdoors-in-cisco-products.html) sur les backdoors Cisco.
-[^⁸]: [PRISM](https://www.theverge.com/2013/7/17/4517480/nsa-spying-prism-surveillance-cheat-sheet) et ses répercutions.
-[^⁹]: [Spyware](https://www.politico.com/news/2022/06/29/canada-national-police-spyware-phones-00043092) lié à la police au canada.
+[^¹0]:[Signal - sources fermées](https://signal.org/blog/keeping-spam-off-signal/), justifications données par les développeurs de Signal. 
+[^¹1]: [Signal arrête de se soucier de la vie privée](https://pocketnow.com/like-whatsapp-signal-just-jumped-the-shark-and-stops-caring-so-much-about-privacy/) de ses utilisateurs.
+[^¹2]: [Lemmy](https://lemmy.ml/post/55595) forum.
+[^¹3]: [Les révélations de Snowden](https://www.infoworld.com/article/2608141/snowden--the-nsa-planted-backdoors-in-cisco-products.html) sur les backdoors Cisco.
+[^¹4]: [PRISM](https://www.theverge.com/2013/7/17/4517480/nsa-spying-prism-surveillance-cheat-sheet) et ses répercutions.
+[^¹5]: [Spyware](https://www.politico.com/news/2022/06/29/canada-national-police-spyware-phones-00043092) lié à la police au canada.
+
 
 - Une multitude de projets open source sont financés par des entités similaires. L'OTF a par exemple financé beaucoup d'autres projets dont nous discutons dans tous nos articles : *Tor Project*, *K9-Mail*, *F-Droid*, *Certbot*, et même *Tails OS* [^¹0]. Et bien d'autres projets open source sont financés en partie par des agences ou des organismes qui peuvent avoir quelques liens avec des gouvernements ; *d'ailleurs, les messageries mentionnées dans notre article peuvent avoir reçu des fonds de gouvernements : par exemple, Element aux UK et Session en Australie...*.
 
