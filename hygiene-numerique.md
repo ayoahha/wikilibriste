@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-01-16T13:55:01.684Z
+date: 2024-01-16T13:56:40.537Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -39,7 +39,7 @@ Vous avez sûrement déjà entendu parler de « confidentialité des données »
 
 *Mais qu’est-ce concrètement ce « chiffrement » et à quoi sert-il ?*
 
-**Nous vous renvoyons vers l'article [dédié](/intermediaire/chiffrement) au chiffrement, à l'intégrité et aux signatures numériques afin d'y voir un peu plus clair sur ces sujets**
+- **Nous vous renvoyons vers l'article [dédié](/intermediaire/chiffrement) au chiffrement afin d'y voir un peu plus clair sur ces sujets**
 
 
 ## Accès aux informations ou authentification
