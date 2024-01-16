@@ -2,7 +2,7 @@
 title: Pour nous contacter
 description: Nous contacter pour ouvrir un compte wikilibriste et/ou venir contribuer
 published: true
-date: 2024-01-16T11:10:36.491Z
+date: 2024-01-16T11:10:51.549Z
 tags: contact, contribuer
 editor: markdown
 dateCreated: 2022-12-09T08:49:16.504Z
@@ -24,9 +24,6 @@ Nous encourageons toute personne ayant l'envie d'écrire des articles ou de les 
 **-   EtherKryios**
 **-   Marmotte**
 **-   Nemtech**
-
-> Contactez-nous par Télégram pour que nous vous ouvrions un compte contributeur.
-{.is-info}
 
 
 ---
