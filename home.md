@@ -2,7 +2,7 @@
 title: Bienvenue cher libriste
 description: Tu trouveras sur ce site des tutoriels traitant des logiciels libres ou open-source et de la sécurité informatique
 published: true
-date: 2023-11-17T10:07:16.792Z
+date: 2024-01-16T11:09:31.895Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-24T20:06:27.184Z
@@ -12,7 +12,7 @@ dateCreated: 2022-11-24T20:06:27.184Z
 
 Depuis plusieurs années, nous avons rassemblé **une communauté autour de la thématique large et impérieuse de la libération numérique**, qui comptabilise aujourd'hui plusieurs milliers de membres.
 
-Notre groupe Telegram ["Numérique Libre & Résilient"](https://t.me/securite_informatique_libre) aide notamment les néophytes à passer d'un système [propriétaire](/glossaire#proprietaire) sur ordinateur, téléphone, tablette, nano-PC, etc. à un système plus vertueux et respectueux de ses utilisateurs et de leurs données personnelles.
+Notre groupe Telegram ["Numérique Libre & Résilient"](https://t.me/securite_informatique_libre) aide notamment les néophytes à passer d'un système propriétaire sur ordinateur, téléphone, tablette, nano-PC, etc. à un système plus vertueux et respectueux de ses utilisateurs et de leurs données personnelles.
 
 L'idée de ce wiki est de proposer une liste d'articles et de tutoriels pour accompagner toute personne souhaitant améliorer son environnement numérique et tendre vers sa libération numérique.
 
@@ -21,7 +21,7 @@ L'idée de ce wiki est de proposer une liste d'articles et de tutoriels pour acc
 - [Telegram *Téléchargez simplement la messagerie Telegram pour pouvoir nous joindre.*](https://telegram.org/)
 {.links-list}
 
-## Notre Manifeste
+# Lire notre Manifeste
 
 > Lire notre [manifeste](/manifeste) qui expose l'actuelle "**dangerosité**" des agissements des différents gouvernements de France mais aussi d'Europe sur le côté législatif et ciblant le monde numérique.
 {.is-success}
