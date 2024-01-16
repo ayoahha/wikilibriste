@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:53:28.977Z
+date: 2024-01-16T11:53:55.639Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -668,7 +668,7 @@ L'illustration ci-contre montre par exemple un code TOTP depuis une application 
 
 # Tracker
 
-Un tracker ("pisteur" en français) est un outil permettant d'effectuer une télémétrie précise des logiciels ou des sites internet (consultation, comportement des utilisateurs...), ainsi qu'une collecte d'informations diverses (sur les utilisateurs).
+Un tracker (ou "pisteur" en français) est un outil permettant d'effectuer une télémétrie précise des logiciels ou des sites internet (consultation, comportement des utilisateurs...), ainsi qu'une collecte d'informations diverses sur les utilisateurs ou les machines.
 
 # URL
 
