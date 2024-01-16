@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:20:02.161Z
+date: 2024-01-16T11:21:22.432Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -27,7 +27,7 @@ Outre le débogage, on peut réaliser toute opération d'administration à privi
 > Dans notre contexte, nous allons utiliser ces fonctionnalités pour supprimer les surcouches applicatives imposées, et par Google, et par les fabricants eux-mêmes.
 {.is-success}
 - injecter des programmes d'installation Android ("APK" : Android Package, cf. ci -après) sur le mobile, en dehors d'un magasin applicatif ou d'un téléchargement en ligne d' "APK"
-> Méthode que nous ne recommandons pas aux débutants sans contrôles adéquats du fichier téléchargé, pour des raisons liées à l'intégrité de celui-ci, et d'où découle la sécurité de l'appareil mobile !
+> Méthode que nous ne recommandons pas aux débutants, sans contrôles adéquats du fichier téléchargé, pour des raisons liées à l'intégrité de celui-ci, et d'où découle la sécurité de l'appareil mobile !
 {.is-warning}
 
 # API
@@ -52,6 +52,7 @@ Voici d'autres exemples de formats de fichiers d'installation sur d'autres syst�
 
 > Le téléchargement direct de fichiers APK, en dehors d'un magasin d'applications, est réservé à minima aux profils intermédiaires.
 > Si vous effectuez ce genre de manipulation sans réaliser de contrôle de [l'intégrité](/tutoriels/verifier-integrite) du fichier, le risque encouru est de télécharger un fichier dont la signature unique ne correspond pas à celle du programme officiel, porte ouverte à un éventuel logiciel malveillant.
+>
 > **Nous nous [déchargeons de toute responsabilité](/avertissement) si vous réalisez une telle opération, sans maîtriser ce que vous faites.**
 {.is-warning}
 
