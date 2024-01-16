@@ -2,7 +2,7 @@
 title: Sauvegarder ses données
 description: Sauvegarder et restaurer vos données sous Linux est crucial... Suivez le guide !
 published: true
-date: 2023-11-03T16:41:43.985Z
+date: 2024-01-16T13:31:24.414Z
 tags: debutant, intermediaire, sauvegarde, backup, restaurer, restore
 editor: markdown
 dateCreated: 2023-03-15T23:44:19.951Z
@@ -74,7 +74,7 @@ Il existe de nombreux de logiciels de sauvegarde des données personnelles. En v
 - [Borg](https://borgbackup.readthedocs.io/en/stable/) : Sans interface graphique, il n'est donc utilisable qu'en ligne de commandes. Nous vous recommandons plutôt **Pika**. Cependant, il peut être utile sur un serveur. Voici un bon article sur Linuxtricks à propos de [Borg Backup](https://www.linuxtricks.fr/wiki/borg-backup-gerer-ses-backups-sous-linux).
 	- [Pika](https://apps.gnome.org/fr/app/org.gnome.World.PikaBackup/) : Avec interface graphique, il utilise Borg pour réaliser les sauvegardes. Vous trouverez plus d'informations sur le site d'Adrien de la chaîne Linuxtricks pour l'[installer et configurer Pika](https://www.linuxtricks.fr/wiki/pika-backup-la-sauvegarde-graphique-avec-la-puissance-de-borg).
 - [Rsync](https://fr.wikipedia.org/wiki/Rsync) : Sans interface graphique, il n'est donc utilisable qu'en ligne de commandes. Nous vous recommandons plutôt **LuckyBackup**. Cependant, il peut être utile sur un serveur. 
-	- [LuckyBackup](https://fr.wikipedia.org/wiki/LuckyBackup) : Avec interface graphique, il utilise rsync pour réaliser les sauvegardes.
+	- [LuckyBackup](https://luckybackup.sourceforge.net) : Avec interface graphique, il utilise rsync pour réaliser les sauvegardes.
 - [Duplicity](https://en.wikipedia.org/wiki/Duplicity_(software)) : Sans interface graphique, il n'est donc utilisable qu'en ligne de commandes. Nous vous recommandons plutôt **Déjà Dup** ! Cependant, il peut être utile sur un serveur.
 	- [Déjà Dup](https://wiki.gnome.org/Apps/DejaDup/Details) : Avec interface graphique, il utilise Duplicity pour réaliser les sauvegardes. Elles peuvent être chiffrées et stockées localement ou bien sur une machine distante (réseau local ou cloud). Très simple d'utilisation, nous recommandons pour les débutants !
 
