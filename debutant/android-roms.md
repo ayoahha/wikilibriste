@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2024-01-16T12:39:47.854Z
+date: 2024-01-16T12:40:19.438Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -130,7 +130,7 @@ Malheureusement, l'utilisation de ROM alternatives a aussi quelques inconvénien
 > **L'article dédié à ce sujet se trouve ici : déverrouiller son [bootloader](/tutoriels-android/bootloader-unlock).**
 {.is-info}
 
-## Deux philosophies qui s'affrontent !
+## Deux philosophies qui s'affrontent
 
 Licence fermée ou libre ?
 
