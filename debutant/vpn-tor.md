@@ -2,7 +2,7 @@
 title: Utiliser un VPN et/ou Tor
 description: Cet article aborde les très importants concepts de VPN et TOR...
 published: true
-date: 2024-01-16T15:09:33.974Z
+date: 2024-01-16T15:12:15.687Z
 tags: vpn, tor
 editor: markdown
 dateCreated: 2023-04-14T10:56:48.029Z
@@ -126,11 +126,7 @@ Cependant, comme tout mécanisme, le réseau Tor possède aussi ses inconvénien
 
 Vous comprenez donc que cette technique permet d’augmenter votre anonymat ; en effet le destinataire à qui vous vous adressez ne peut savoir que c’est vous qui lui parlez. Mais elle ne permet pas nécessairement de protéger de bout en bout les informations en transit, car tout dépend du protocole de départ.
 
-Qui plus est, le réseau Tor n’utilise aucune infrastructure complexe et importante pour ses relais mais uniquement des personnes _**volontaires**_, qui hébergent des serveurs Tor afin de router les communications.
-
-Bien que cette solution présente l'avantage certain - au contraire des mandataires VPNs - de ne pas avoir la même entreprise gérant tous les serveurs, elle possède cependant quelques inconvénients : il est vraisemblable que parmi ces volontaires, certains n’ont pas forcément des intentions louables. Ou que par exemple une personne étant désignée comme noeud de sortie fasse en fait l’objet d’espionnage, ou bien qu'une agence étatique monte une ribambelle de serveurs (de sorte à augmenter les probabilités que les échanges passent par ces serveurs !). Auquel cas, vos communications sont potentiellement compromises.
-
-Également, le grand revers de la médaille de ce réseau est la lenteur des communications. De par les mécanismes utilisés, il est évident que faire transiter l’information par plusieurs endroits successifs avant d’arriver à bon port ne peut que rajouter de la latence dans les échanges.
+Qui plus est, le réseau Tor n’utilise aucune infrastructure complexe et importante pour ses relais mais uniquement des personnes _**volontaires**_, qui hébergent des serveurs Tor afin de router les communications. Bien que cette solution présente l'avantage certain - au contraire des mandataires VPNs - de ne pas avoir la même entreprise gérant tous les serveurs, elle possède cependant quelques inconvénients : il est vraisemblable que parmi ces volontaires, certains n’ont pas forcément des intentions louables. Ou que par exemple une personne étant désignée comme noeud de sortie fasse en fait l’objet d’espionnage, ou bien qu'une agence étatique monte une ribambelle de serveurs (de sorte à augmenter les probabilités que les échanges passent par ces serveurs !). Auquel cas, vos communications sont potentiellement compromises. Également, le grand revers de la médaille de ce réseau est la lenteur des communications. De par les mécanismes utilisés, il est évident que faire transiter l’information par plusieurs endroits successifs avant d’arriver à bon port ne peut que rajouter de la latence dans les échanges.
 
 > Enfin, il n’est pas recommandé d’utiliser le réseau Tor pour vous connecter à des comptes utilisateurs, GAFAM ou autre... Par exemple : se connecter à Facebook ou à Gmail en utilisant le réseau Tor.
 {.is-danger}
@@ -140,19 +136,17 @@ Bien que cette solution présente l'avantage certain - au contraire des mandatai
 
 ### Pour finir...
 
-#### **Alors quelle différence entre Tor et VPNs me direz-vous ?**
+#### Alors quelle différence entre Tor et VPNs me direz-vous ?
+
 **Eh bien, assez schématiquement : Tor renforce votre anonymat (le « qui vous êtes »), un VPN renforce votre protection (le « ce que vous faites »).**
 
 Alors vous pourriez me dire : *« Je viens de réfléchir et j’ai trouvé une solution : dans ce cas je vais utiliser un VPN + le réseau Tor et ainsi, je serai 100% anonyme et sécurisé ! ».*
 
-À ceci, nous vous répondrons : ce n’est pas aussi simple que cela en a l’air !
+- À ceci, nous vous répondrons : ce n’est pas aussi simple que cela en a l’air !
 
-Ce n’est pas parce que vous combinez différents mécanismes de sécurité que vous augmentez automatiquement votre niveau de sécurité : en revanche, vous augmentez de fait significativement la complexité dans vos communications. Une mauvaise combinaison ou une mauvaise configuration VPN+Tor peut potentiellement engendrer une diminution dans le niveau de sécurité, voire induire des failles de sécurité critiques.
-Concernant l'anonymat, même constat : une mauvaise utilisation ou configuration peut mener à une désanonymisation plus rapide.
+Ce n’est pas parce que vous combinez différents mécanismes de sécurité que vous augmentez automatiquement votre niveau de sécurité : en revanche, vous augmentez de fait significativement la complexité dans vos communications. Une mauvaise combinaison ou une mauvaise configuration VPN+Tor peut potentiellement engendrer une diminution dans le niveau de sécurité, voire induire des failles de sécurité critiques. Concernant l'anonymat, même constat : une mauvaise utilisation ou configuration peut mener à une désanonymisation plus rapide.
 
-Le seul cas dans lequel un VPN serait recommandé à l’usage de concert avec Tor est le cas du blocage de votre FAI des serveurs Tor. En effet, la liste des serveurs est publique et il est tout à fait possible pour un FAI de bloquer les adresses IP publiques de ces serveurs ; dans ce cas, le seul moyen de contourner ce problème est d’utiliser un VPN pour naviguer sur Tor.
-
-Cet article ne discute pas plus de cet aspect : en revanche, si vous êtes intéressés par ce sujet :
+Le seul cas dans lequel un VPN serait recommandé à l’usage de concert avec Tor est le cas du blocage de votre FAI des serveurs Tor. En effet, la liste des serveurs est publique et il est tout à fait possible pour un FAI de bloquer les adresses IP publiques de ces serveurs ; dans ce cas, le seul moyen de contourner ce problème est d’utiliser un VPN pour naviguer sur Tor. Cet article ne discute pas plus de cet aspect : en revanche, si vous êtes intéressés par ce sujet :
 -   Les développeurs de Tor font un état des lieux sur cette utilisation ici : [Tor Project - TorPlusVPN](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN)
 -   Whonix (distribution GNU/LInux "virtualisée", basée sur le réseau Tor) propose un article très détaillé sur cet aspect, que nous vous conseillons de lire très attentivement : [Whonix.org - Introduction](https://www.whonix.org/wiki/Tunnels/Introduction)
 -   Tails (autre distribution GNU/Linux basée sur Tor, plébiscitée par les activistes et journalistes) propose également dans sa FAQ un avis sur la question : [Tails](https://tails.boum.org/support/faq/index.en.html#index20h2)
@@ -169,9 +163,7 @@ Cet article ne discute pas plus de cet aspect : en revanche, si vous êtes inté
 	  - "Anon Payment"
 	  - "Anon Signup"
 
-Quoi qu'il en soit, rassurez-vous, nous avons fait le travail pour vous ;)
-
-Notre collectif ne recommande à ce jour que quelques services VPN (mentionnés ci-après), qui combinent plusieurs aspects que nous estimons impératifs pour choisir son mandataire VPN. Voici les exigences à respecter, qui sont de notre point de vue "**non négociables**" :
+Quoi qu'il en soit, rassurez-vous, nous avons fait le travail pour vous ;). Notre collectif ne recommande à ce jour que quelques services VPN (mentionnés ci-après), qui combinent plusieurs aspects que nous estimons impératifs pour choisir son mandataire VPN. Voici les exigences à respecter, qui sont de notre point de vue "**non négociables**" :
 > ~~ **Application à code source ouvert** : permet de s'assurer que l'application fait ce qu'on en dit.
 > ~~ **Politique de vie privée** et philosophie générale.
 > ~~ **Pas d'antécédent ou déboire connu**.
