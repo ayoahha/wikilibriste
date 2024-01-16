@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:28:11.411Z
+date: 2024-01-16T11:28:29.938Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -148,7 +148,7 @@ Tous font bien partie du système d'exploitation Android ; ils n'en sont que des
 Pour GNU/Linux, la démarche est la même : au même titre que pour Android, de par la nature ouverte de la méthode de développement du SE (grâce au code source ouvert), on peut en réaliser autant de variantes. Avec des interfaces et des logiciels pré-installées différents selon les besoins : pour la cyber-sécurité, pour les chercheurs en science, pour l'éducation, etc...
 Les environnements de bureau et logiciels pré-installés sont ainsi **distribués** de manière différente : d'où le terme _distributions_, quand on parle des variantes d'Android ou de GNU/Linux.
 
-Aussi, nous vous invitons à lire l'article sur les [principales distributions Linux](/debutant/linux-distributions).
+Aussi, nous vous invitons à lire l'article sur les principales [distributions Linux](/debutant/linux-distributions).
 
 > A distinguer des _versions_, qui représentent des itérations d'un système d'exploitation, et intègrent les mises à jour logicielles et de sécurité, avec un support assuré sur une certaine durée. 
 > Exemples : la version 22.04 d'Ubuntu, parue en l'année 2020 (20.) le mois d'avril (.04), et qui assure un support des mises à jour pendant 5 ans. Ou encore la version 22.04 d'Ubuntu, qui vous le devinerez est sortie en ... Avril 2022.
