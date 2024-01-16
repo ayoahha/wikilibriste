@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2024-01-16T13:15:28.374Z
+date: 2024-01-16T13:16:06.668Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -451,7 +451,7 @@ Bien évidemment du fait de la facilité d'obtenir cette information et de voulo
 - ~~Signal est open-source (y compris leur protocole de chiffrement, dérivation de clés, gestion de la confidentialité permanente, PFS etc.), ce qui implique que le code est scruté et auditable à n'importe quel moment par des experts cyber de par le monde (n'oublions pas que cette messagerie est très connue)~~ 
     - *C'est confirmé depuis fin 2021 [^¹0], [^¹1] ou [^¹2], et après de nombreuses demandes des développeurs et utilisateurs, **Signal confirme enfin qu'il ferme une partie de son code source côté Serveur**, le code source relatif au protocole reste open-source. Même si la justification est a priori recevable pour la majorité des libristes, cela constitue donc un _relatif danger_ pour certains utilisateurs...*
     - *...Car en terme de surveillance de masse, il est plus simple et plus intéressant pour les gouvernements d'utiliser des outils à sources fermées (ex. : le scandale des backdoors [^¹3] sur les routeurs Cisco qui n'est qu'un exemple). Nous ne sommes pas en train de dire que c'est le cas pour Signal, mais de dire qu'a priori personne ne pourra le prouver puisqu'une partie du code est fermé !*
-    - *Cela dit, il est aussi bien plus simple d'installer un petit spyware sur des téléphones (cf. le scandale PRISM [^¹4] [^⁸], ou encore ce scandale au Canada [^¹5] [^⁹])*
+    - *Cela dit, il est aussi bien plus simple d'installer un petit spyware sur des téléphones (cf. le scandale PRISM [^¹4], ou encore ce scandale au Canada [^¹5])*
 
 [^¹0]:[Signal - sources fermées](https://signal.org/blog/keeping-spam-off-signal/), justifications données par les développeurs de Signal. 
 [^¹1]: [Signal arrête de se soucier de la vie privée](https://pocketnow.com/like-whatsapp-signal-just-jumped-the-shark-and-stops-caring-so-much-about-privacy/) de ses utilisateurs.
@@ -461,9 +461,10 @@ Bien évidemment du fait de la facilité d'obtenir cette information et de voulo
 [^¹5]: [Spyware](https://www.politico.com/news/2022/06/29/canada-national-police-spyware-phones-00043092) lié à la police au canada.
 
 
-- Une multitude de projets open source sont financés par des entités similaires. L'OTF a par exemple financé beaucoup d'autres projets dont nous discutons dans tous nos articles : *Tor Project*, *K9-Mail*, *F-Droid*, *Certbot*, et même *Tails OS* [^¹0]. Et bien d'autres projets open source sont financés en partie par des agences ou des organismes qui peuvent avoir quelques liens avec des gouvernements ; *d'ailleurs, les messageries mentionnées dans notre article peuvent avoir reçu des fonds de gouvernements : par exemple, Element aux UK et Session en Australie...*.
+- Une multitude de projets open source sont financés par des entités similaires. L'OTF a par exemple financé beaucoup d'autres projets dont nous discutons dans tous nos articles : *Tor Project*, *K9-Mail*, *F-Droid*, *Certbot*, et même *Tails OS* [^¹6]. Et bien d'autres projets open source sont financés en partie par des agences ou des organismes qui peuvent avoir quelques liens avec des gouvernements ; *d'ailleurs, les messageries mentionnées dans notre article peuvent avoir reçu des fonds de gouvernements : par exemple, Element aux UK et Session en Australie...*.
 
-[^¹0]: [Tails OS](https://tails.boum.org/sponsors/index.en.html) et financement.
+[^¹6]: [Tails OS](https://tails.boum.org/sponsors/index.en.html) et financement.
+
 
 Il nous semble évident que ceci est un débat sans fin... Il est toujours *intéressant et très utile* d'avoir un regard critique et de se poser des questions sur les financements, mais nous ne devrions pas, de notre point de vue, établir des raccourcis simplistes simplement car ils correspondent à des croyances. *Signal* a été financé par d'autres entités et mécènes : récemment le co-fondateur de Whatsapp a octroyé 50M en prêt à 0% aux développeurs de Signal, devenant également CEO de la Signal Foundation ! 
 
