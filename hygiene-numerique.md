@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-01-16T14:29:27.485Z
+date: 2024-01-16T14:29:51.402Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -429,7 +429,7 @@ Vous n’êtes pas tenus de donner une information personnelle véridique, vous 
 
 ### Les petites annonces
 
-Arrêtez de mettre vos adresses courriels ou vos numéros de téléphone dans le texte de vos petites annonces, ou vous vous exposez à des campagnes de spam à volonté, voire pire !
+Arrêtez de mettre vos adresses courriels ou vos numéros de téléphone dans le texte de vos petites annonces : vous vous exposez à des campagnes de spam à volonté, voire pire !
 
 ## Les courriels
 
