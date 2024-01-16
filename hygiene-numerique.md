@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-01-16T14:29:51.402Z
+date: 2024-01-16T14:42:52.380Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -435,31 +435,24 @@ Arrêtez de mettre vos adresses courriels ou vos numéros de téléphone dans le
 
 Protégez vos échanges par courriel, a minima ceux que vous jugez critiques.
 
-Rendez-vous sur l'article [dédié](/debutant/communications#courriel).
+Ce sujet est discuté en détails dans l'article dédié aux [courriels](/debutant/communications#courriel).
 
 ## Les messageries
 
-Sur le même principe que vos échanges par courriel, vos échanges par messagerie se doivent d'être protégés... Notre collectif recommande l'utilisation exclusive d'une messagerie sécurisée avec chiffrement de bout-en-bout et respectueuse de vos données privées.
+Ce sujet est discuté en détails dans l'article dédié aux [messageries](/debutant/communications#messagerie).
 
-Si votre modèle demande un anonymat, c'est aussi possible même si plus complexe à mettre en place.
-
-Ce sujet est discuté en détails dans l'article dédié aux [messageries](/debutant/communications#messagerie), que nous vous conseillons de lire très attentivement :)
-
-## Les liens hypertextes / URLs
-
-> Ne jamais cliquer sur des liens (hypertextes) contenus dans les courriels.
-{.is-info}
-
-Si ce lien vous amène sur un écran où vous devez rentrer vos identifiants, il est préférable de se méfier et de fermer ce site. Puis de vous connecter en allant directement vous-même sur le site en question (la seule exception étant le renouvellement de mot passe).
+## Les liens hypertextes (URL)
 
 ![](/images/phishing_ex.png =600x){.align-center}
 ***Extrait d'un courriel pour une campagne de hameçonnage***
 
-*:warning: Attention aux coquilles dans le corps de texte des courriels, qui trahissent les emails issus de campagnes de hameçonnage (détaillé ci-après)*
-  
-De nos jours, il est très facile de copier une page des sites bien connus (Facebook, Decathlon...) pour aspirer vos données d’authentification, voire vos données bancaires : on appelle cela l'attaque par hameçonnage (ou "phishing attack").
+Ci-dessus un exemple d'un courriel, qui attire notre attention. Ce courriel vous demande d'agir rapidement et vous propose de cliquer sur un lien. Il s'agit en réalité d'un type d'attaque par hameçonnage : au clique sur celui-ci, vous dirigera vers une page internet afin de rentrer des identifiants/mot de passe ou bien des coordonnées bancaires, ou d'autres données personnelles critiques. Bien souvent, ces SPAM sont bien mieux faits que cet exemple (Si vous regardez de plus près, vous vous apercevrez des fautes d'orthographe dans le corps de texte, qui trahissent les emails issus de campagnes de hameçonnage (détaillé ci-après)), mais vous avez l'idée !
 
-*Exemple : vous recevez un courriel (visiblement très professionnel, aucune faute...) de Decathlon vous annonçant que vous pouvez participer à un jeu vous permettant de gagner un bon d'achat exceptionnel pour le dernier vélo électrique à la mode. Vous cliquez sur le lien, qui vous amène sur une page Decathlon tout à fait légitime, puis vous jouez, vous gagnez et enfin on vous demande de rentrer vos coordonnées bancaires, arguant qu’il leur faut faire un retrait de 2 euros afin de faire une empreinte de votre carte pour payer les frais de transports, mais que tout vous sera remboursé par la suite. Le piège s’est refermé, vous renseignez les données. Puis vous voyez un remboursement de 2 euros quelques jours suivants, ce qui vous rassure ; en revanche, les jours qui suivent vous vous apercevez que des retraits de 200 euros, 500 euros ont été effectués. Vous faites opposition mais bien sûr il est trop tard puisque les cybercriminels ont déjà récolté l’argent...*
+**Il est donc PRIMORDIAL de ne jamais cliquer sur des liens (hypertextes) contenus dans les courriels et de toujours vérifier l'information.** Si ce lien vous amène sur un écran où vous devez rentrer vos identifiants, il est préférable de se méfier et de fermer ce site. Puis de vous connecter en allant directement vous-même sur le site en question.
+
+De nos jours, il est très facile de copier une page des sites bien connus (Facebook, Decathlon...) pour récupérer vos données d’authentification ou vos données bancaires (hameçonnage ou "phishing attack").  
+
+*_Exemple_ : vous recevez un courriel (visiblement très professionnel, aucune faute...) de Decathlon vous annonçant que vous pouvez participer à un jeu vous permettant de gagner un bon d'achat exceptionnel pour le dernier vélo électrique à la mode. Vous cliquez sur le lien, qui vous amène sur une page Decathlon tout à fait légitime, puis vous jouez, vous gagnez et enfin on vous demande de rentrer vos coordonnées bancaires, arguant qu’il leur faut faire un retrait de 2 euros afin de faire une empreinte de votre carte pour payer les frais de transports, mais que tout vous sera remboursé par la suite. Le piège s’est refermé, vous renseignez les données. Puis vous voyez un remboursement de 2 euros quelques jours suivants, ce qui vous rassure ; en revanche, les jours qui suivent vous vous apercevez que des retraits de 200 euros, 500 euros ont été effectués. Vous faites opposition mais bien sûr il est trop tard puisque les cybercriminels ont déjà récolté l’argent...*
 
 Cette histoire est tirée d’une réelle campagne de phishing !
 
@@ -468,32 +461,27 @@ Cette histoire est tirée d’une réelle campagne de phishing !
 
 ## Les mises à jour
 
-> Toujours effectuer les mises à jour de sécurité dès qu’elles sont disponibles.
-{.is-info}
+Les pirates informatiques malveillants se basent pratiquement tout le temps sur les failles de sécurité des logiciels. Vous entendez tous les jours que des logiciels ou des systèmes d’exploitation ont reçu des « patchs (entendre correctifs) de sécurité », afin de combler une vulnérabilité (corriger une faille de sécurité). Il s’agit en effet de "patcher" pour combler les failles dont les développeurs se sont aperçus, et qui exposent potentiellement vos données ou autre chose.
 
-Les pirates informatiques malveillants se basent pratiquement tout le temps sur les failles de sécurité des logiciels. Vous entendez tous les jours que des logiciels ou des systèmes d’exploitation ont reçu des « patchs (entendre correctifs) de sécurité », afin de combler une vulnérabilité (corriger une faille de sécurité). Eh bien, il s’agit exactement de cela : patcher pour combler les failles dont les développeurs se sont aperçus, et qui exposent potentiellement vos données ou autre chose.
+**Il est donc essentiel d'effectuer les mises à jour de sécurité dès qu’elles sont disponibles.**
 
 Il est aujourd’hui assez simple de vérifier s’il existe des mises à jour de sécurité donc n’attendez pas avant de les faire, surtout lorsque celles-ci sont critiques. Nous recommandons ainsi d'activer les mises à jour automatiques depuis votre système d'exploitation favori (libre ! comme GNU/Linux, ou un Android dégooglisé, nous l'espérons ;-)), dans cette démarche de sécurisation proactive.
 
-Pour le reste des mises à jour classiques, elles peuvent potentiellement attendre, même si le plus tôt sera le mieux.
+**Pour le reste des mises à jour classiques, elles peuvent potentiellement attendre, même si le plus tôt sera le mieux.**
 
 ## Les fichiers et leur intégrité
 
-Ceci est un rappel, mais évitez de télécharger des exécutables directement ou dans des archives, que ce soit Linux (via des fichiers ELF ou "Executable Linkable File") ou Windows (via des fichiers à l'extension .exe ou .msi).
-  
-Et dans le cas d'un téléchargement depuis un site internet, plutôt que depuis un centre logiciel : toujours télécharger depuis le site officiel de l'éditeur logiciel dudit programme.
-*_Astuce toute simple_ : depuis mon moteur de recherche préféré, je tape wikipedia + nom_du_programme_à_télécharger (ou bien je demande conseil sur une communauté, comme celle-ci). Depuis l'article Wikipedia, je retrouve le lien vers l'[URL](/glossaire#url) de l'éditeur logiciel ; le but étant de télécharger un fichier authentique, en allant directement à la source.*
+Ceci est un rappel, mais il est important d'éviter de télécharger des **exécutables** directement ou dans des archives, que ce soit pour Linux (via des fichiers ELF ou "Executable Linkable File") ou Windows (via des fichiers à l'extension .exe ou .msi). Dans le cas d'un téléchargement depuis un site internet, plutôt que depuis un centre logiciel, il est recommandé de télécharger depuis le site officiel de l'éditeur logiciel dudit programme.
+
+*_Astuce toute simple_ : depuis son moteur de recherche préféré, taper wikipedia + nom_du_programme_à_télécharger (ou bien demander conseil sur une communauté, comme celle-ci). Depuis l'article Wikipedia, retrouver le lien vers l'[URL](/glossaire#url) de l'éditeur logiciel ; le but étant de télécharger un fichier authentique, en allant directement à la source.*
 
 En prolongement et pour tous types de fichiers (.iso, .img, ...), vérifiez **TOUJOURS**, lorsque disponible, l'intégrité du fichier téléchargé. Cela se fait via une vérification de la "signature" ou de "la somme de contrôle" dudit fichier.
-  
-**Voir l'article sur le [chiffrement, l'intégrité et les signatures](/intermediaire/chiffrement).**
-**Ainsi que le tutoriel [dédié](/tutoriels/verifier-integrite).**
+
+- **Voir l'article dédié à l'[intégrité](/intermediaire/integrite), ainsi que le tutoriel [associé](/tutoriels/verifier-integrite).**
 
 ## Sur les antivirus et antimalware
 
-Concernant l'utilisation d'un anti-virus ou anti-malware, même si certains malwares modernes aujourd'hui ne sont plus détectables facilement, il est toujours possible de détecter des malwares connus et moins sophistiqués, ce qui est déjà une bonne chose (soyons pragmatiques). Dites-vous bien qu'un anti-virus ne vous protégera pas des agences à 3 lettres bien connues !
-
-La bonne (première) pratique est si possible de télécharger des fichiers sur un environnement isolé, comme une machine virtuelle Linux (pour plus de facilité) par exemple, via VirtualBox ou VMWare. Cela s'accompagne également d'une utilisation particulière, qui ne risque pas de mettre à mal votre modèle de menaces :
+Concernant l'utilisation d'un anti-virus ou anti-malware, même si certains malwares modernes aujourd'hui ne sont plus détectables facilement, il est toujours possible de détecter des malwares connus et moins sophistiqués, ce qui est déjà une bonne chose (soyons pragmatiques). Dites-vous bien qu'un anti-virus ne vous protégera pas des agences à 3 lettres bien connues ! La bonne (première) pratique est si possible de télécharger des fichiers sur un environnement isolé, comme une machine virtuelle Linux (pour plus de facilité) par exemple, via VirtualBox ou VMWare. Cela s'accompagne également d'une utilisation particulière, qui ne risque pas de mettre à mal votre modèle de menaces :
 
 -   N'utilisez pas de solutions commerciales, type Norton, BitDefender, Kaspersky... qui implémentent de toute manière une télémétrie vers leurs entreprises ainsi que des sociétés tierces.
 -   **_Si vous avez un modèle de menaces nécessitant une sécurité et un anonymat accru :_** n'utilisez pas les fonctions de protection en temps réel de ces outils ; au delà même de la question de l'utilité réelle de ce genre de fonctions, celles-ci sont exécutées avec des privilèges hauts et, de facto, peuvent être utilisées comme un vecteur d'attaque.
