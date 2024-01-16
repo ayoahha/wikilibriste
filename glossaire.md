@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:28:29.938Z
+date: 2024-01-16T11:28:35.794Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -150,7 +150,8 @@ Les environnements de bureau et logiciels pré-installés sont ainsi **distribu�
 
 Aussi, nous vous invitons à lire l'article sur les principales [distributions Linux](/debutant/linux-distributions).
 
-> A distinguer des _versions_, qui représentent des itérations d'un système d'exploitation, et intègrent les mises à jour logicielles et de sécurité, avec un support assuré sur une certaine durée. 
+> A distinguer des _versions_, qui représentent des itérations d'un système d'exploitation, et intègrent les mises à jour logicielles et de sécurité, avec un support assuré sur une certaine durée.
+> 
 > Exemples : la version 22.04 d'Ubuntu, parue en l'année 2020 (20.) le mois d'avril (.04), et qui assure un support des mises à jour pendant 5 ans. Ou encore la version 22.04 d'Ubuntu, qui vous le devinerez est sortie en ... Avril 2022.
 {.is-info}
 
