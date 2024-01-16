@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Android
 description: Où trouver du matériel Android - vous trouverez ici des solutions...
 published: true
-date: 2024-01-06T13:15:31.881Z
+date: 2024-01-16T11:33:35.222Z
 tags: android, materiel
 editor: markdown
 dateCreated: 2023-02-14T11:18:41.344Z
@@ -63,7 +63,7 @@ Voilà pourquoi certaines entreprises sélectionnent du matériel (qu'ils vont j
 	 - **Google Pixel 6**
 	 - **Google Pixel 7 / 7 Pro**
    - **Google Pixel 8 / 8 Pro**
-*Note : On évitera les modèles en fin de vie ou presque, i.e. jusqu'au Google Pixel 4 !*
+*Note : On évitera les modèles en fin de vie ou presque, c.à.d. jusqu'au Google Pixel 4 !*
 
 
 # Pourquoi des Google Pixels ?
