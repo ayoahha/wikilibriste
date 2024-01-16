@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2024-01-16T12:12:24.998Z
+date: 2024-01-16T12:15:25.616Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -50,8 +50,12 @@ Installer une distribution alternative ou custom ROM sur son ordiphone a bien de
 Malheureusement, l'utilisation de ROM alternatives a aussi quelques inconvénients :
 
 -   Selon les appareils et le nombre de contributeurs, des bogues peuvent apparaître, surtout lorsque la ROM que vous utilisez n'est pas supportée officiellement. Ce n'est cependant pas une généralité.
--   Lors de l'installation d'une distribution alternative, il faut déverrouiller le "[bootloader](/tutoriels-android/bootloader-unlock)", ce qui implique de déverouiller le modèle de sécurité, et sur un grand nombre de téléphones, on ne peut le re-verrouiller qu'avec la ROM d'origine ("stock ROM" en anglais).
+-   Lors de l'installation d'une distribution alternative, il faut déverrouiller le "bootloader", ce qui implique de déverouiller le modèle de sécurité, et sur un grand nombre de téléphones, il n'est pas possible de le re-verrouiller sans la ROM d'origine ("stock ROM" en anglais).
 -   Enfin, certaines applications, principalement celles des banques peuvent détecter la présence d'un système alternatif, et refuser de fonctionner correctement. Il existe néanmoins des parades (microG, composant Play Services mis en "bac à sable", Magisk par exemple).
+
+### Déverouiller son Bootloader
+
+L'article dédié à ce sujet se trouve ici : déverrouiller son [bootloader](/tutoriels-android/bootloader-unlock).
 
 ### ROMs conseillées
 
