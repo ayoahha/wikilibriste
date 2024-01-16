@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-01-16T14:22:40.867Z
+date: 2024-01-16T14:29:27.485Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -386,18 +386,19 @@ Alors je sais, vous vous dites "Non mais attends, créer un mot de passe ultra f
 
 Nous vous renvoyons ici vers l'[article dédié](/debutant/gestionnaire-mots-passe) à cet outil.
 
-## Authentification 
-### L'authentification multi factorielle
+## Authentification
 
-Activez partout où cela est possible les authentifications à plusieurs facteurs, au minimum 2FA. Attention cependant à l’utilisation du 2FA avec SMS ou courriel : il doit être limité uniquement aux cas où vous n’avez pas d'alternative. Si l'on vous donne le choix, préférez d’autres méthodes comme l’OTP (One-Time Password) via des outils libres (on évitera les Google Auth, Microsoft Auth etc.), disponibles dans l'[article dédié](/debutant/logiciel-alternative-libre) aux alternatives libres et open source. 
+**L'authentification multi factorielle**
 
-### Les mécanismes d’authentification
+- Activez partout où cela est possible les authentifications à plusieurs facteurs, au minimum 2FA.
 
-Ne jamais vous authentifier en utilisant les mécanismes d’authentification des GAFAM ou autres pompes à données : Facebook, Google, Microsoft etc.
+Attention cependant à l’utilisation du 2FA avec SMS ou courriel : il doit être limité uniquement aux cas où vous n’avez pas d'alternative. Si l'on vous donne le choix, préférez d’autres méthodes comme l’OTP (One-Time Password) via des outils libres (on évitera les Google Auth, Microsoft Auth etc.), disponibles dans l'[article dédié](/debutant/logiciel-alternative-libre) aux alternatives libres et open source. 
 
-Bien que ces méthodes soient très pratiques à l'usage, cela comporte un risque : comment être sûr que le site en question est de confiance, comment être sûr que celui-ci ne va pas tout simplement collecter vos données personnelles voire même vos identifiants ? Vous ne pouvez pas. Il est donc préférable de créer un compte unique.
+**Les mécanismes d’authentification**
 
-**Voilà aussi pourquoi un gestionnaire de mots de passe est utile. Utilisez-le donc afin de simplifier la chose !**
+- Ne jamais vous authentifier en utilisant les mécanismes d’authentification des GAFAM ou autres pompes à données : Facebook, Google, Microsoft etc.
+
+Bien que ces méthodes soient très pratiques à l'usage, cela comporte un risque : comment être sûr que le site en question est de confiance, comment être sûr que celui-ci ne va pas tout simplement collecter vos données personnelles voire même vos identifiants ? Vous ne pouvez pas. Il est donc préférable de créer un compte unique. **Voilà aussi pourquoi un gestionnaire de mots de passe est utile. Utilisez-le donc afin de simplifier la chose !**
 
 ## Le moins d’informations personnelles
 
@@ -408,36 +409,23 @@ De manière générale, évitez de donner trop d’informations personnelles sur
 -   Votre « Forum des choses pratiques » n’a pas non plus besoin de savoir quel âge vous avez
 -   Si vous remplissez des questionnaires en ligne ils n’ont pas besoin de connaître votre adresse ou sinon vous devez vous méfier de ce que cela implique (tous professionnels qu’ils soient !)...
 
-Cela est valable pour tous les sites, et encore plus pour les réseaux sociaux, car aucun de ces sites n’est et ne sera à l’abri d’une fuite de données (même s’ils prétendent le contraire).
-
-**Protéger votre identité et votre vie privée est crucial.**
+Cela est valable pour tous les sites, et encore plus pour les réseaux sociaux, car aucun de ces sites n’est et ne sera à l’abri d’une fuite de données (même s’ils prétendent le contraire). **Protéger votre identité et votre vie privée est crucial.**
 
 ### Adresse postale
 
-> Arrêtez de donner votre adresse postale réelle autant que faire se peut
-{.is-info}
-
-Oui je sais cela reste compliqué en France. Parfois, souvent, il n’est pas possible de le faire donc vous n’aurez pas le choix, mais si possible, préférez donner une adresse postale d’un point relais ou d’une boîte postale (vous pouvez louer une boîte postale) lorsque vous le pouvez.
+Il est préconisé également de ne pas donner votre adresse postale sur tous les sites. Entrer votre adresse sur Twitter, ou Facebook, ou bien sur un forum de jeux vidéo n'est pas une obligation. Dans ce cas, ne le faites pas ! En revanche, pour une partie des sites notamment de commerces en ligne, cela reste compliqué en France. Dans ce cas, et si possible, _préférez donner une adresse postale d’un point relais ou d’une boîte postale_ (vous pouvez louer une boîte postale) lorsque vous le pouvez.
 
 **Cela évite lors de fuites de données de retrouver votre adresse postale un peu partout sur les sites d'échanges entre pirates malveillants.**
 
-Une dernière chose, on évitera de rentrer ses adresses postales de domicile et de travail dans des applications de géolocalisation (type GPS), voire dans votre système de navigation de voiture (Tomtom, etc.) !
-
-Mais ça, vous le faisiez déjà, n’est-ce pas ?
+Une dernière chose, on évitera de rentrer ses adresses postales de domicile et de travail dans des applications de géolocalisation (type GPS), voire dans votre système de navigation de voiture (Tomtom, etc.) ! Mais ça, vous le faisiez déjà, n’est-ce pas ?
 
 ### Les fameuses questions de sécurité
 
-Nous voyons parfois des sites internet qui demandent à ses utilisateurs de sélectionner parmi un nombre de questions pré-établies et d’y adjoindre une réponse personnelle, ceci afin de renforcer la sécurité. Par exemple : quelle est le nom de jeune fille de votre mère ? Quel est votre animal préféré ? Et bien d'autres. Par réflexe, nous avons pratiquement toujours l'habitude de dire la vérité...
+Nous voyons depuis quelques années des sites internet qui demandent à ses utilisateurs de sélectionner parmi un nombre de questions pré-établies et d’y adjoindre une réponse personnelle, ceci afin de renforcer la sécurité. Par exemple : quelle est le nom de jeune fille de votre mère ? Quel est votre animal préféré ? Et bien d'autres. Par réflexe, nous avons pratiquement toujours l'habitude de dire la vérité...
 
-Mais vous êtes-vous déjà demandés si vous étiez véritablement obligés de répondre avec de réelles informations ?
+Mais vous êtes-vous déjà demandés si vous étiez véritablement obligés de répondre avec de réelles informations ? La réponse est, vous vous en doutez : _**NON, absolument pas**_ !
 
-La réponse est : _NON, absolument pas_ !
-
-Vous n’êtes pas tenus de donner une information personnelle véridique, vous pouvez tout simplement inventer une réponse. En ce sens, ne pas donner trop d’informations personnelles peut éviter qu’une fuite de données un jour puisse avoir un impact négatif sur votre vie privée.
-
-Ceci se rapporte également aux adresses postales que vous donnez sur tous les sites, bien entendu...
-
-En ce qui concerne donc ces questions de sécurité associées à des réponses secrètes : ne donnez jamais de réponses secrètes en lien avec vous ou votre vie privée (nom de jeune fille de votre mère, sport favoris, dessert préféré, cocktail favori...). Préférez utiliser des réponses aléatoires, et éventuellement celles-ci peuvent être stockées sur votre gestionnaire de mots de passe, pourquoi pas.
+Vous n’êtes pas tenus de donner une information personnelle véridique, vous pouvez tout simplement inventer une réponse. En ce sens, ne pas donner trop d’informations personnelles peut éviter qu’une fuite de données puisse avoir un impact négatif sur votre vie privée (même ordre d'idée que pour les adresses postales). Ne donnez **jamais** de réponses secrètes en lien avec vous ou votre vie privée (nom de jeune fille de votre mère, sport favoris, dessert préféré, cocktail favori...). Préférez utiliser des réponses aléatoires, et éventuellement celles-ci peuvent être stockées sur votre gestionnaire de mots de passe.
 
 ### Les petites annonces
 
