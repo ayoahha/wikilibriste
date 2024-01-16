@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2024-01-16T12:28:50.420Z
+date: 2024-01-16T12:29:13.058Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -34,7 +34,7 @@ Il est généralement admis par la communauté d'experts en sécurité qu'un té
 
 ![sortirgafam091.png](/images/sortirgafam091.png =200x){.align-left} Pour davantage d'informations sur l'étendu des dangers, et les mitigations actuelles : Paf LeGeek a créé une [vidéo](https://www.yewtu.be/watch?v=em_XgXiGqIU) sur ce sujet que nous recommandons pour bien comprendre.
 
-Quant aux données personnelles, le principal risque vient aussi des actions de l'utilisateur (d'où l'importance d'une éducation au numérique) : le fameux facteur humain, comme par exemple ouvrir la pièce jointe d'un e-mail provenant d'une source suspecte.
+Quant aux données personnelles, le principal risque vient aussi des actions de l'utilisateur (d'où l'importance d'une éducation au numérique et d'une amélioration de son hygiène) : le fameux facteur humain, comme par exemple ouvrir la pièce jointe d'un e-mail provenant d'une source suspecte.
 
 
 ### Vos données personnelles aujourd'hui, les fuites...
