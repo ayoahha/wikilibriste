@@ -2,7 +2,7 @@
 title: Les acteurs du monde libre
 description: Découvrez les acteurs du monde libre
 published: true
-date: 2023-10-28T09:36:36.754Z
+date: 2024-01-16T11:56:17.314Z
 tags: acteurs libre
 editor: markdown
 dateCreated: 2023-03-06T22:37:03.334Z
@@ -11,13 +11,13 @@ dateCreated: 2023-03-06T22:37:03.334Z
 Découvrez les personnalités, collectifs, associations, fondations qui font le Libre en France et à travers le monde.
 
 # Promotion et défense
-- [L'April](https://www.april.org/) est une association qui fait la promotion et la défense des logiciels libres depuis 1996 !
+- [April](https://www.april.org/) est une association qui fait la promotion et la défense des logiciels libres depuis 1996 !
 
 - [La Quadrature du Net](https://www.laquadrature.net/) défend les libertés fondamentales dans l’environnement numérique, lutte contre la censure et la surveillance et œuvre pour un Internet libre, décentralisé et émancipateur.
 
 - [Framasoft](https://framasoft.org/) est une association française qui défend le numérique libre contre les idées capitalistes. Ils sont à l'origine de plusieurs outils bien connus comme Framagenda, Famapad, etc.
 
-- L'[AFUL](https://aful.org/) qui est L'Association Francophone des Utilisateurs de Logiciels Libres et qui travaille à la promotion des logiciels libres et des standards ouverts.
+- [AFUL](https://aful.org/) qui est L'Association Francophone des Utilisateurs de Logiciels Libres et qui travaille à la promotion des logiciels libres et des standards ouverts.
 
 # Médias
 - [Libre à vous](https://www.libreavous.org/) est une émission de l'April diffusée sur la radio [Cause Commune](https://cause-commune.fm/).
