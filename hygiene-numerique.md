@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-01-16T14:03:58.077Z
+date: 2024-01-16T14:04:24.156Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -124,7 +124,7 @@ Le dernier facteur est encore peu utilisé de nos jours, et seulement pour des s
 
 ### Quel futur pour les mots de passe ?
 
-La question est judicieuse, à l'heure où tous les experts tentent de trouver une solution pour améliorer l'authentification par mot de passe. Nous entendons de plus en plus parler de fonctions ou procédés « passwordless ». Ce procédé vise à autoriser un accès à un utilisateur sans qu’il ne rentre aucun mot de passe.
+La question est judicieuse, à l'heure où tous les chercheurs et experts tentent de trouver une solution pour améliorer l'authentification par mot de passe. Nous entendons de plus en plus parler de fonctions ou procédés « passwordless ». Ce procédé vise à autoriser un accès à un utilisateur sans qu’il ne rentre aucun mot de passe.
 
 *« Bon OK, ça j’avais compris en traduisant de l’anglais, mais concrètement... »*
 
