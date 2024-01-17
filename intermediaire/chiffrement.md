@@ -2,7 +2,7 @@
 title: Le Chiffrement
 description: Article traitant le chiffrement dans son ensemble et les outils recommandés...
 published: true
-date: 2024-01-17T11:44:19.421Z
+date: 2024-01-17T11:46:20.678Z
 tags: chiffrement, confidentialité, aes, rsa, intermédiaire, intermediaire
 editor: markdown
 dateCreated: 2022-11-24T22:12:38.038Z
@@ -21,15 +21,13 @@ L'idée même du chiffrement est extrêmement ancienne et consiste donc à rendr
 
 **Tous ces procédés ont en commun la _cryptographie_ c'est-à-dire l'art de protéger un message.**
 
-Bien qu'ancienne, certains pans de la cryptographie moderne sont très récents : la cryptographie *asymétrique*, par exemple, a fait son apparition au XXè siècle. Le site techno-science.net propose des détails vulgarisés [^²] intéressants sur la cryptographie moderne, que nous n'allons pas paraphraser dans cet article car ce n'en est pas le but. Également, nous ne rentrerons pas dans les considérations techniques liées à la _cryptographie_, sous peine de vous voir partir en courant ! *Sauf si vous le demandez :-)*
-
-[^²]: [Cryptographie](https://www.techno-science.net/definition/6143.html)
-
-Intéressons-nous plutôt à la présence du chiffrement dans nos usages quotidiens. Sans le remarquer, nous utilisons tous les jours du chiffrement. Par exemple, vous utilisez sûrement votre navigateur pour accéder à votre banque : ici, le chiffrement est assuré par l'utilisation de *certificats* dans votre navigateur. Niveau technique : on parle alors de requêtes HTTP avec une couche de protection TLS. Il existe plusieurs façons d'appliquer un chiffrement :
+Bien qu'ancienne, certains pans de la cryptographie moderne sont très récents : la cryptographie *asymétrique*, par exemple, a fait son apparition au XXè siècle. Le site techno-science.net propose des détails vulgarisés [^²] intéressants sur la cryptographie moderne, que nous n'allons pas paraphraser dans cet article car ce n'en est pas le but. Également, nous ne rentrerons pas dans les considérations techniques liées à la _cryptographie_, sous peine de vous voir partir en courant ! *Sauf si vous le demandez :-)* Intéressons-nous plutôt à la présence du chiffrement dans nos usages quotidiens. Sans le remarquer, nous utilisons tous les jours du chiffrement. Par exemple, vous utilisez sûrement votre navigateur pour accéder à votre banque : ici, le chiffrement est assuré par l'utilisation de *certificats* dans votre navigateur. Niveau technique : on parle alors de requêtes HTTP avec une couche de protection TLS. Il existe plusieurs façons d'appliquer un chiffrement :
 
 1. Si vous souhaitez transmettre un document personnel et confidentiel, il est possible de chiffrer ce document avant de le transmettre sur un quelconque réseau public comme internet ;
 1. Si vous vous déplacez régulièrement (personnellement ou pour votre travail) et afin d'éviter des conséquences dramatiques de vol d'équipements contenant des informations que vous jugez sensibles (ordinateur, disque dur...), il est très recommandé de songer à appliquer un chiffrement à vos dossiers contenant ces informations ;
 1. Si vous êtes journaliste, activiste, etc, vous devriez sans aucun doute appliquer un chiffrement complet de votre/vos partition(s).
+
+[^²]: [Cryptographie](https://www.techno-science.net/definition/6143.html)
 
 > De manière générale, et afin de renforcer la sécurité des informations échangées lors de conversations personnelles, et par extension, améliorer notre vie privée, l'utilisation du chiffrement est un avantage à ne pas négliger.
 {.is-success}
