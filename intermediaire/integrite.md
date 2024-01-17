@@ -2,7 +2,7 @@
 title: Qu'est-ce que l'intégrité des données
 description: Un article dédié portant sur l'intégrité et les signatures électroniques
 published: true
-date: 2023-12-19T09:00:16.699Z
+date: 2024-01-17T11:55:24.657Z
 tags: intégrité, pgp, gpg, integrite, signatures
 editor: markdown
 dateCreated: 2023-10-28T09:53:37.530Z
@@ -18,17 +18,13 @@ Ou encore selon la norme [ISO/CEI 27000:2016](https://www.iso.org/fr/standard/66
 
 > **L’intégrité est la propriété d’exactitude et de complétude**.
 
-Dans le monde numérique, une **donnée** possède un *cycle de vie*. Pendant ce cycle de vie, il est possible que cette donnée soit altérée, résultant en une perte d'intégrité, de façon involontaire comme, par exemple, la corruption due aux nombreuses copies/recopies ou à un bogue, ou de façon volontaire comme l'altération via un changement de code (malware...).
-
-Afin d'assurer donc la _fiabilité_ et la _crédibilité_ et par conséquent, la confiance que nous pouvons accorder à cette donnée, assurer son intégrité fait partie des processus les plus importants en informatique.
+Dans le monde numérique, une **donnée** possède un *cycle de vie*. Pendant ce cycle de vie, il est possible que cette donnée soit altérée, résultant en une perte d'intégrité, de façon involontaire comme, par exemple, la corruption due aux nombreuses copies/recopies ou à un bogue, ou de façon volontaire comme l'altération via un changement de code (malware...). Afin d'assurer donc la _fiabilité_ et la _crédibilité_ et par conséquent, la confiance que nous pouvons accorder à cette donnée, assurer son intégrité fait partie des processus les plus importants en informatique.
 
 ## Généralités
 
 ![Hachage](/images/2_hachage.png "Crédits : CNIL" =600x){.align-center}
 
-Le procédé utilisé ici consiste à générer une valeur spécifique à partir de la donnée (qui peut être soit un message, un fichier ou un répertoire) appelée **"somme de contrôle"** (ou checksum) et souvent nommée en français **"empreinte"** (terme que nous utiliserons dans cet article car il correspond en tous points à ce qui est généré) calculée suivant un algorithme spécifique dit "fonction de hachage". Il n'est pas rare, cela dit, de voir également utilisés les termes de "somme de hachage" ou simplement "hash" ou enfin **"digest"**.
-
-Il existe 2 principaux objectifs à cette valeur obtenue :
+Le procédé utilisé ici consiste à générer une valeur spécifique à partir de la donnée (qui peut être soit un message, un fichier ou un répertoire) appelée **"somme de contrôle"** (ou checksum) et souvent nommée en français **"empreinte"** (terme que nous utiliserons dans cet article car il correspond en tous points à ce qui est généré) calculée suivant un algorithme spécifique dit "fonction de hachage". Il n'est pas rare, cela dit, de voir également utilisés les termes de "somme de hachage" ou simplement "hash" ou enfin **"digest"**. Il existe 2 principaux objectifs à cette valeur obtenue :
 -   valeur obtenue via une fonction à code cyclique pour un contrôle de **"redondance cyclique"** (CRC). Ce principe est utilisé pour la vérification d'erreurs sur des communications réseau ou du transfert de données en stockage (ex. : CRC32).
 -   valeur obtenue via une fonction à sens unique (one-way function pour les bilingues !). Nous obtenons ici une empreinte **"unique"** de la donnée, calculable et vérifiable par tout le monde (ex. : SHA2).
 
@@ -68,9 +64,7 @@ La plupart du temps, sur le site du fournisseur du fichier, celui-ci nous donne 
 
 ## Algorithmes
 
-En cryptographie, il est important de bien sélectionner son algorithme afin d'assurer la robustesse de la protection.
-
-Voici les fonctions de hachage recommandées **à ce jour** (2022), dans l'ordre du plus recommandé au moins recommandé :
+En cryptographie, il est important de bien sélectionner son algorithme afin d'assurer la robustesse de la protection. Voici les fonctions de hachage recommandées **à ce jour** (2022), dans l'ordre du plus recommandé au moins recommandé :
 -   Préférons SHA-3 (SHA-256 ou SHA-512 version 3) ou éventuellement BLAKE2 si disponible.
 -   On peut tout à fait encore utiliser SHA-2 (comme les très répandus SHA-256 ou SHA-512 version 2) qui sont encore robustes.
 -   On évitera tout ce qui est SHA-1, MD5 (malheureusement encore très (trop) répandu !!), MD6 (rarement utilisé, tant mieux !)
