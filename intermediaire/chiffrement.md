@@ -2,16 +2,14 @@
 title: Le Chiffrement
 description: Article traitant le chiffrement dans son ensemble et les outils recommandés...
 published: true
-date: 2023-11-03T20:06:22.320Z
+date: 2024-01-17T11:44:19.421Z
 tags: chiffrement, confidentialité, aes, rsa, intermédiaire, intermediaire
 editor: markdown
 dateCreated: 2022-11-24T22:12:38.038Z
 ---
 
 # Le chiffrement
-Ce terme, que vous avez sans aucun doute déjà entendu, peut tout à fait vous parler, comme totalement vous être incompréhensible !
-
-Le chiffrement, ça a tout l'air d'être pour les geeks en manque d'adrénaline :-) Eh bien, détrompez-vous... Même s'il est vrai qu'aujourd'hui il est très compliqué de comprendre aisément le sujet, nous allons tenter d'apporter un peu de clareté.
+Ce terme, que vous avez sans aucun doute déjà entendu, peut tout à fait vous parler, comme totalement vous être incompréhensible ! Le chiffrement, ça a tout l'air d'être pour les geeks en manque d'adrénaline :-) Eh bien, détrompez-vous... Même s'il est vrai qu'aujourd'hui il est très compliqué de comprendre aisément le sujet, nous allons tenter d'apporter un peu de clareté.
 
 Pour commencer, voici la définition officielle du chiffrement :
 
@@ -19,9 +17,7 @@ Pour commencer, voici la définition officielle du chiffrement :
 
 [^¹]: [Chiffrement](https://www.larousse.fr/dictionnaires/francais/chiffrement/15322), Larousse
 
-L'idée même du chiffrement est extrêmement ancienne et consiste donc à rendre un message illisible pour ceux qui ne détiennent pas le _secret_. Nous en reparlons plus loin...
-
-Les historiens datent son apparition dès l'antiquité, rien que cela ! Nous pouvons par exemple penser aux grecs avec leurs Scytales, ou aux romains qui se sont amusés avec le "code de César", en passant par le 16è siècle où les français furent prolifiques en cryptologie (Blaise de Vigenère, Rossignol des Roches...). Jusqu'au plus récent équipement Enigma (Machine de Lorenz) utilisé par les allemands, lors de la seconde guerre mondiale.
+L'idée même du chiffrement est extrêmement ancienne et consiste donc à rendre un message illisible pour ceux qui ne détiennent pas le _secret_. Nous en reparlons plus loin... Les historiens datent son apparition dès l'antiquité, rien que cela ! Nous pouvons par exemple penser aux grecs avec leurs Scytales, ou aux romains qui se sont amusés avec le "code de César", en passant par le 16è siècle où les français furent prolifiques en cryptologie (Blaise de Vigenère, Rossignol des Roches...). Jusqu'au plus récent équipement Enigma (Machine de Lorenz) utilisé par les allemands, lors de la seconde guerre mondiale.
 
 **Tous ces procédés ont en commun la _cryptographie_ c'est-à-dire l'art de protéger un message.**
 
@@ -29,9 +25,7 @@ Bien qu'ancienne, certains pans de la cryptographie moderne sont très récents 
 
 [^²]: [Cryptographie](https://www.techno-science.net/definition/6143.html)
 
-Intéressons-nous plutôt à la présence du chiffrement dans nos usages quotidiens. Sans le remarquer, nous utilisons tous les jours du chiffrement. Par exemple, vous utilisez sûrement votre navigateur pour accéder à votre banque : ici, le chiffrement est assuré par l'utilisation de *certificats* dans votre navigateur. Niveau technique : on parle alors de requêtes HTTP avec une couche de protection TLS.
-
-Il existe plusieurs façons d'appliquer un chiffrement :
+Intéressons-nous plutôt à la présence du chiffrement dans nos usages quotidiens. Sans le remarquer, nous utilisons tous les jours du chiffrement. Par exemple, vous utilisez sûrement votre navigateur pour accéder à votre banque : ici, le chiffrement est assuré par l'utilisation de *certificats* dans votre navigateur. Niveau technique : on parle alors de requêtes HTTP avec une couche de protection TLS. Il existe plusieurs façons d'appliquer un chiffrement :
 
 1. Si vous souhaitez transmettre un document personnel et confidentiel, il est possible de chiffrer ce document avant de le transmettre sur un quelconque réseau public comme internet ;
 1. Si vous vous déplacez régulièrement (personnellement ou pour votre travail) et afin d'éviter des conséquences dramatiques de vol d'équipements contenant des informations que vous jugez sensibles (ordinateur, disque dur...), il est très recommandé de songer à appliquer un chiffrement à vos dossiers contenant ces informations ;
@@ -108,9 +102,7 @@ Différents mécanismes de chiffrement existent, rapidement :
 
 ## Robustesse / Force
 
-Alors, non, nous n'allons pas vous faire un cours de cryptographie (en tout cas, pas comme l'article sur PGP :) !), ni même discuter de choix cryptographiques, sinon vous risquez de décrocher, et nous souhaitons garder notre audience attentive ! 
-
-L'objectif de cette partie est de vous présenter les *_algorithmes_* qui **aujourd'hui** sont recommandés du fait de leur robustesse reconnue contre les attaques.
+Alors, non, nous n'allons pas vous faire un cours de cryptographie (en tout cas, pas comme l'article sur PGP :) !), ni même discuter de choix cryptographiques, sinon vous risquez de décrocher, et nous souhaitons garder notre audience attentive ! L'objectif de cette partie est de vous présenter les *_algorithmes_* qui **aujourd'hui** sont recommandés du fait de leur robustesse reconnue contre les attaques.
 
 > Précisons qu'il s'agit là de l'état de l'art à 2022. Comme toute technologie, et encore plus en cryptographie, ceci est amené à évoluer (surtout avec l'apparition d'équipements quantiques). Il est donc important de prendre cet aspect en considération.
 {.is-warning}
@@ -149,9 +141,7 @@ Voici donc, suivant les **_usages spécifiques_**, les choix que nous recommando
 
 ## Chiffrer ses données
 
-Suivant son modèle de menaces et parce que nous souhaitons éviter que des informations sensibles ou personnelles stockées (photos, photocopie de carte d'identité, etc.) puissent être divulguées, il est possible d'appliquer un chiffrement sur des fichiers, des répertoires et même sur des partitions/disques entiers.
-
-Le chiffrement du disque est par exemple particulièrement recommandé pour les personnes ayant un modèle de sécurité moyen à élevé (comme les journalistes d'investigation, ou les avocats, les activistes, etc.). Cela dit, ceci s'accompagne d'inconvénients à gérer au quotidien. 
+Suivant son modèle de menaces et parce que nous souhaitons éviter que des informations sensibles ou personnelles stockées (photos, photocopie de carte d'identité, etc.) puissent être divulguées, il est possible d'appliquer un chiffrement sur des fichiers, des répertoires et même sur des partitions/disques entiers. Le chiffrement du disque est par exemple particulièrement recommandé pour les personnes ayant un modèle de sécurité moyen à élevé (comme les journalistes d'investigation, ou les avocats, les activistes, etc.). Cela dit, ceci s'accompagne d'inconvénients à gérer au quotidien. 
 
 Voici un état des lieux :
 - Avantages :
@@ -174,9 +164,7 @@ La première façon de protéger ses informations de façon isolée consiste à 
 -   Quelques logiciels d'archive permettent également d'ajouter un mot de passe à un répertoire.
 -   GnuPG permet de chiffrer de la même manière, mais avec son procédé asymétrique.
 
-La CNIL propose un article sur le chiffrement de ces données, avec quelques tutoriels : [comment chiffrer ses documents et ses répertoires](https://www.cnil.fr/fr/comment-chiffrer-ses-documents-et-ses-repertoires)
-
-Nous recommandons principalement les outils suivants, basés sur des solutions de chiffrement de fichiers :
+La CNIL propose un article sur le chiffrement de ces données, avec quelques tutoriels : [comment chiffrer ses documents et ses répertoires](https://www.cnil.fr/fr/comment-chiffrer-ses-documents-et-ses-repertoires). Nous recommandons principalement les outils suivants, basés sur des solutions de chiffrement de fichiers :
 
 - [7-zip *qui vous permettra de créer des archives protégées par mot de passe (attention de bien choisir des mots de passe FORTS. Nous vous renvoyons à l'article sur l'hygiène informatique.*](https://7-zip.org)
 - [AESCrypt *également multiplateforme, cet outil offre une interface graphique assez simple. Nous vous invitons à prendre connaissance de sa documentation ^\*^*](https://www.aescrypt.com)
@@ -265,9 +253,9 @@ Enfin, 2 outils commencent à monter dans la communauté :
 
 Si nous estimons que chiffrer votre ou vos partition(s) est nécessaire, voire votre disque, nous recommandons 2 outils que vous connaissez probablement :
 
--   [LUKS](https://gitlab.com/cryptsetup/cryptsetup) pour Linux Unified Key Setup, ou *cryptsetup* son implémentation, est l'outil de base des distributions GNU/Linux. 
-  Certaines distributions proposent même, dès l'installation, de chiffrer vos partitions (via LUKS donc), comme Pop!OS à partir de la version 22.04[^³]. 
-  D'autres distributions peuvent le proposer à l'installation moyennant un partitionnement manuel. Enfin, pour d'autres, aucune proposition de chiffrement de partition. Il faudra donc passer par la ligne de commandes... Oui je sais que vous adorez ça !
+#### LUKS
+
+[LUKS](https://gitlab.com/cryptsetup/cryptsetup) pour Linux Unified Key Setup, ou *cryptsetup* son implémentation, est l'outil de base des distributions GNU/Linux. Certaines distributions proposent même, dès l'installation, de chiffrer vos partitions (via LUKS donc), comme Pop!OS à partir de la version 22.04 [^³]. D'autres distributions peuvent le proposer à l'installation moyennant un partitionnement manuel. Enfin, pour d'autres, aucune proposition de chiffrement de partition. Il faudra donc passer par la ligne de commandes... Oui je sais que vous adorez ça !
 
 [^³]: [Pop!OS 22.04](https://support.system76.com/articles/install-pop) et chiffrement partition.
 
@@ -277,19 +265,18 @@ Si nous estimons que chiffrer votre ou vos partition(s) est nécessaire, voire v
 
 Afin de sauvegarder notre partition sur un disque dur externe, voici la commande que nous pouvons utiliser :
 
-*Nous sauvegardons ici la partition /dev/sda3, veillons à bien connaître la partition que nous souhaitons sauvegarder, elle peut être différente...*
+- *Nous sauvegardons ici la partition /dev/sda3, veillons à bien connaître la partition que nous souhaitons sauvegarder, elle peut être différente...*
 
 ```bash
 dd if=/dev/sda3 of=/media/user/MONDISQUEEXTERNE status=progress
 ```
-
-Passons maintenant à la protection de cette partition :
+- Passons maintenant à la protection de cette partition :
 
 ```bash
 sudo apt install cryptsetup
 cryptsetup --help
 ```
-La sortie de `cryptsetup` vous donne :
+- La sortie de `cryptsetup` vous donne :
 ```brainfuck
     Clé compilée par défaut et paramètres de phrase secrète :
         Taille max. fichier de clé : 8192 ko, longueur max. interactive de phrase secrète 512 (caractères)
@@ -309,14 +296,16 @@ Bien, ici, si l'on essaie de traduire :
 1.  Clé compilée fait référence aux mots de passe de vos partitions chiffrées, stockés de façon sécurisée avec algorithme pbkdf2 pour LUKS1 et argon2id pour LUKS2. En référence aux algorithmes recommandés dans la partie dédiée, LUKS2 semble à privilégier !
 2.  Chiffrement de la partition. L'algorithme utilisé est l'AES-256, ce qui correspond très bien aux recommandations d'algorithmes.
 
-Ce petit aperçu nous donne une piste quant à l'utilisation de LUKS1 ou LUKS2, bien sûr vous l'aurez compris, nous utiliserons LUKS2. Ce qui tombe bien, a priori, puisque LUKS2 est utilisé par défaut... 
+Ce petit aperçu nous donne une piste quant à l'utilisation de LUKS1 ou LUKS2, bien sûr vous l'aurez compris, nous utiliserons LUKS2. Ce qui tombe bien, a priori, puisque LUKS2 est utilisé par défaut...
 
-Passons maintenant de la théorie à la pratique : vous trouverez un tutoriel très [bien détaillé ici](https://www.val-r.fr/geek/os/linux/creer-et-utiliser-une-partition-chiffree-avec-luks-sous-linux/). Veillons à respecter scrupuleusement les indications !
+- Passons maintenant de la théorie à la pratique : vous trouverez un tutoriel très [bien détaillé ici](https://www.val-r.fr/geek/os/linux/creer-et-utiliser-une-partition-chiffree-avec-luks-sous-linux/). Veillons à respecter scrupuleusement les indications !
 
--   [VeraCrypt](https://www.veracrypt.fr/en/Home.html) : outil très connu, surtout chez nos amis de Windows. Cet outil vous permettra non seulement de créer des partitions chiffrées, mais également de chiffrer des partitions déjà existantes. **Attention cependant, VeraCrypt ne permet pas de chiffrer sa partition système sur GNU/Linux, au contraire de LUKS**. Vous trouverez pléthore de tutoriels sur internet (y compris des Vidéos), dont voici une petite liste :
-    -   L'excellent site de Malekal qui chiffre sa partition `HOME` sur [Ubuntu 22.04](https://www.malekal.com/veracrypt-chiffrer-un-disque-ubuntu-22-04-lts/)
-    -   Le site de Tails OS nous donne accès à un [tutoriel intéressant](https://tails.boum.org/doc/encryption_and_privacy/veracrypt/index.fr.html)
-    -   L'incontournable site [Openclassrooms](https://openclassrooms.com/fr/courses/1757741-securisez-vos-donnees-avec-la-cryptographie/6031867-protegez-vos-fichiers-avec-le-chiffrement-de-disque-dur) (ex Site du Zéro pour les anciens ;-) !)
+#### VeraCrypt
+
+[VeraCrypt](https://www.veracrypt.fr/en/Home.html) : outil très connu, surtout chez nos amis de Windows. Cet outil vous permettra non seulement de créer des partitions chiffrées, mais également de chiffrer des partitions déjà existantes. **Attention cependant, VeraCrypt ne permet pas de chiffrer sa partition système sur GNU/Linux, au contraire de LUKS**. Vous trouverez pléthore de tutoriels sur internet (y compris des Vidéos), dont voici une petite liste :
+-   L'excellent site de Malekal qui chiffre sa partition `HOME` sur [Ubuntu 22.04](https://www.malekal.com/veracrypt-chiffrer-un-disque-ubuntu-22-04-lts/)
+-   Le site de Tails OS nous donne accès à un [tutoriel intéressant](https://tails.boum.org/doc/encryption_and_privacy/veracrypt/index.fr.html)
+-   L'incontournable site [Openclassrooms](https://openclassrooms.com/fr/courses/1757741-securisez-vos-donnees-avec-la-cryptographie/6031867-protegez-vos-fichiers-avec-le-chiffrement-de-disque-dur) (ex Site du Zéro pour les anciens ;-) !)
 
 > Pour synthétiser, vous l'aurez sûrement compris : afin de chiffrer nos partitions ou notre disque complet sur GNU/Linux, préférons LUKS, sur d'autres systèmes d'exploitation, VeraCrypt sera la solution.
 {.is-info}
@@ -325,25 +314,19 @@ Passons maintenant de la théorie à la pratique : vous trouverez un tutoriel tr
 ### Chiffrer ses échanges
 Lorsque nous allons chiffrer un fichier avec un mot de passe, il va nous falloir nous demander comment allons-nous transmettre ce *mot de passe* à notre interlocuteur afin qu'il puisse déchiffrer le fichier ? 
 
-Plutôt compliqué, le risque étant que ce mot de passe puisse être intercepté, et en toute honnêteté, ceci peut se produire aujourd'hui plutôt facilement si aucune mesure de sécurité n'est appliquée (nous ne vous faisons pas un dessin, vous avez sûrement vu ou entendu parler de ce genre de choses, vu que vous lisez cet article !).
-
-Alors oui, aujourd'hui tout le monde envoie ses mots de passe par courriel ou messagerie, y compris et surtout par messagerie non chiffrée (ouch!). Et ça n'a que peu d'incidence, et c'est surtout par simplicité d'usage et par... fainéantise ! 
+Plutôt compliqué, le risque étant que ce mot de passe puisse être intercepté, et en toute honnêteté, ceci peut se produire aujourd'hui plutôt facilement si aucune mesure de sécurité n'est appliquée (nous ne vous faisons pas un dessin, vous avez sûrement vu ou entendu parler de ce genre de choses, vu que vous lisez cet article !). Alors oui, aujourd'hui tout le monde envoie ses mots de passe par courriel ou messagerie, y compris et surtout par messagerie non chiffrée (ouch!). Et ça n'a que peu d'incidence, et c'est surtout par simplicité d'usage et par... fainéantise ! 
 -  Mais pensons au risque que nous prenons avec ce genre d'habitudes : il se peut qu'un jour le message soit intercepté, personne n'est et ne sera jamais à l'abri de ce risque. 
 -  Si nous chiffrons votre message, c'est que vous le percevez comme confidentiel (il peut s'agir d'une photocopie d'un passeport, ou d'une carte vitale par exemple). Bien souvent, ces données interceptées sans qu'on le sache se retrouvent sur les darknets, vendues au plus offrant afin d'usurper les identités ! C'est plutôt critique...
 {.grid-list}
 
-Il est donc recommandé, autant que faire se peut, d'abandonner ces techniques d'envoi "en clair", et d'adopter des pratiques plus respectueuses de _**notre**_ vie privée... Et aussi de _**la vie privée de nos interlocuteurs**_, qui peuvent être notre famille en premier lieu !
-
-Ainsi, le chiffrement n'est pas spécifiquement utilisé pour des données stockées, mais peut également être utilisé pour des **données en transit sur internet**. Généralement, il s'agira de créer un tunnel sécurisé : ici, plutôt que d'appliquer le chiffrement à la donnée, il s'agira d'appliquer la couche de confidentialité au canal lui-même. Ainsi, chaque information en transit à l'intérieur de ce canal 'sécurisé' sera protégé, même si aucun chiffrement n'aura été appliqué au préalable à la donnée.
+Il est donc recommandé, autant que faire se peut, d'abandonner ces techniques d'envoi "en clair", et d'adopter des pratiques plus respectueuses de _**notre**_ vie privée... Et aussi de _**la vie privée de nos interlocuteurs**_, qui peuvent être notre famille en premier lieu ! Ainsi, le chiffrement n'est pas spécifiquement utilisé pour des données stockées, mais peut également être utilisé pour des **données en transit sur internet**. Généralement, il s'agira de créer un tunnel sécurisé : ici, plutôt que d'appliquer le chiffrement à la donnée, il s'agira d'appliquer la couche de confidentialité au canal lui-même. Ainsi, chaque information en transit à l'intérieur de ce canal 'sécurisé' sera protégé, même si aucun chiffrement n'aura été appliqué au préalable à la donnée.
 
 > Bien sûr, un canal sécurisé n'appliquera pas qu'une protection liée à la confidentialité (chiffrement), mais aussi une protection liée à l'intégrité, et une façon d'authentifier les échanges.
 >
 > Cela dit, cet article ne traite que du chiffrement, voilà pourquoi nous ne parlons ici que de cet aspect (sauf exception explicitement mentionnée).
 {.is-info}
 
-Il y a plusieurs avantages à l'utilisation d'un canal chiffré : dans un premier temps, nous réduisons les opérations à effectuer sur les données, ce qui, de plus, réduit le risque de corruption involontaire (moins d'opération d'écriture). Ensuite, dans certaines circonstances, cela simplifie également pour l'utilisateur les actions à effectuer.
-
-Nous vous l'accordons, c'est un peu complexe à appréhender comme cela, mais retenons ceci :
+Il y a plusieurs avantages à l'utilisation d'un canal chiffré : dans un premier temps, nous réduisons les opérations à effectuer sur les données, ce qui, de plus, réduit le risque de corruption involontaire (moins d'opération d'écriture). Ensuite, dans certaines circonstances, cela simplifie également pour l'utilisateur les actions à effectuer. Nous vous l'accordons, c'est un peu complexe à appréhender comme cela, mais retenons ceci :
 
 -   Soit l'on chiffre les données elles-mêmes, objet de la partie précédente ;
 -   Soit l'on chiffre un canal, c'est l'objet de la partie à suivre...
@@ -356,15 +339,12 @@ Pour les plus techniques d'entre nous, nous aurons sûrement entendu parler, il 
 
 [^⁴]: [S pour Secure](https://c-marketing.eu/passer-site-https/) dans HTTPS.
 
-Aujourd'hui, la majorité des sites déploient une sécurisation des échanges entre leurs serveurs et nous-mêmes. Mais ce ne fut pas le cas il y a encore 6 ans ! C'est donc encore tout à fait récent...
+Aujourd'hui, la majorité des sites déploient une sécurisation des échanges entre leurs serveurs et nous-mêmes. Mais ce ne fut pas le cas il y a encore 6 ans ! C'est donc encore tout à fait récent... Techniquement, il s'agit de l'utilisation du TLS (SSL pour les anciens !) : mécanisme qui ouvre un canal sécurisé entre votre navigateur internet et le serveur du site visité, à l'aide de certificats numériques (délivrés par des autorités tierces, à l'issue du processus de certification). De sorte que nos échanges soient chiffrés, hormis quelques métadonnées qui restent en clair (adresse IP, etc.).
 
-Techniquement, il s'agit de l'utilisation du TLS (SSL pour les anciens !) : mécanisme qui ouvre un canal sécurisé entre votre navigateur internet et le serveur du site visité, à l'aide de certificats numériques (délivrés par des autorités tierces, à l'issue du processus de certification). De sorte que nos échanges soient chiffrés, hormis quelques métadonnées qui restent en clair (adresse IP, etc.).
+- C'est déjà un bon début, surtout lorsque nous consultons notre banque ou nos compagnies d'assurance.
 
-C'est déjà un bon début, surtout lorsque nous consultons notre banque ou nos compagnies d'assurance.
+Il est donc fortement recommandé de **forcer le HTTPS** dans votre navigateur internet ou d'installer une extension comme *HTTPS Everywhere / HTTPS Partout* (nous vous renvoyons à l'article sur les [navigateurs](/debutant/navigateurs)) : si un site s'avère être resté en HTTP (bouh pas bien !!), nous serons alors averti et ce sera à nous de prendre la décision de le consulter ou non. En se basant sur la confiance que nous faisons à ce site, et connaissant donc le risque potentiel de communiquer avec ce site totalement en clair ! Voici un exemple de l'avertissement en question :
 
-Il est donc fortement recommandé de **forcer le HTTPS** dans votre navigateur internet ou d'installer une extension comme *HTTPS Everywhere / HTTPS Partout* (nous vous renvoyons à l'article sur les [navigateurs](/debutant/navigateurs)) : si un site s'avère être resté en HTTP (bouh pas bien !!), nous serons alors averti et ce sera à nous de prendre la décision de le consulter ou non. En se basant sur la confiance que nous faisons à ce site, et connaissant donc le risque potentiel de communiquer avec ce site totalement en clair !
-
-Voici un exemple de l'avertissement en question :
 ![https_avert.png](/images/https_avert.png){.align-center}
 ![https_avert_solved.png](/images/https_avert_solved.png){.align-center}
 
@@ -374,27 +354,23 @@ Exemples pour forcer le HTTPS sur notre navigateur web (exemples respectivement 
 
 #### Courriels
 
-Ah le très fameux et très ancien courriel, très souvent appelé e-mail par anglicisme, pour 'electronic mail' (courrier électronique). Si vous avez lu l'article sur l'hygiène numérique, vous avez sans doute compris que nous ne portons pas forcément dans notre coeur le courriel.
-
-En effet, bien qu'ancien, rien n'est fait aujourd'hui pour renforcer la sécurité autour de ce type de messages, ou si peu... En effet, il s'avère que l'avènement des messageries a porté un coup dur aux courriels. Néanmoins, ceux-ci sont tout de même encore beaucoup utilisés (surtout en entreprise, mais ce n'est pas notre sujet ici !), et malheureusement encore trop souvent non (assez) sécurisé. Ce qui porte la confidentialité des échanges à néant.
+Ah, le très fameux et très ancien courriel, très souvent appelé e-mail par anglicisme, pour 'electronic mail' (courrier électronique). Si vous avez lu l'article sur l'hygiène numérique, vous avez sans doute compris que nous ne portons pas forcément dans notre coeur le courriel. En effet, bien qu'ancien, rien n'est fait aujourd'hui pour renforcer la sécurité autour de ce type de messages, ou si peu... En effet, il s'avère que l'avènement des messageries a porté un coup dur aux courriels. Néanmoins, ceux-ci sont tout de même encore beaucoup utilisés (surtout en entreprise, mais ce n'est pas notre sujet ici !), et malheureusement encore trop souvent non (assez) sécurisé. Ce qui porte la confidentialité des échanges à néant.
 
 Il y a quelques années, l'histoire autour d'Edward Snowden a quelque peu changé les choses ; PGP a été mis en lumière et il s'avère qu'aujourd'hui, ce mécanisme est de plus en plus utilisé pour protéger les communications par courriels. Beaucoup d'outils (en ligne ou hors ligne) implémentent une façon d'utiliser des clés PGP simplement.
 
-Un [article](/debutant/communications#courriel) spécifique est dédié aux communications via courriel ainsi qu'à sa sécurisation.
+- Un [article](/debutant/communications#courriel) spécifique est dédié aux communications via courriel ainsi qu'à sa sécurisation.
 
 #### Messageries
 
-Un article dédié est déjà publié, et nous présente les solutions les plus respectueuses de notre vie privée et les plus sécurisées aujourd'hui. Je vous y renvoie donc : [les messageries](/debutant/communications#messagerie).
+- Un article dédié est déjà publié, et nous présente les solutions les plus respectueuses de notre vie privée et les plus sécurisées aujourd'hui. Je vous y renvoie donc : [les messageries](/debutant/communications#messagerie).
 
 ### Gestionnaire de mots de passe
 
 Avec tous les mots de passe que nous avons vu passer, il est évident que nous ne pourrons retenir la totalité de nos mots de passe. Certains outils très pratiques ont été créés pour cela.
 
-Nous avons rédigé un article dédié à ce sujet : les [gestionnaires](/debutant/gestionnaire-mots-passe) de mots de passe.
+- Nous avons rédigé un article dédié à ce sujet : les [gestionnaires](/debutant/gestionnaire-mots-passe) de mots de passe.
 
-Le point chiffrement sera rapide ici : il s'agit de créer une base de données qui sera chiffrée grâce à du chiffrement symétrique via des algorithmes très robustes (AES mais aussi d'autres, cf. partie [algorithme](/debutant/gestionnaire-mots-passe#algorithme)), protégés donc par mot de passe. Bien évidemment ici, un mot de passe très fort sera choisi afin de résister à différentes attaques (brute force, etc.).
-
-Ici, le point important est de ne pas se fier à des outils qui proposent des services *en ligne* mais bien de générer nous-même notre base de données de mots de passe, la stocker chez nous à 2 ou 3 endroits au maximum et ne jamais la transférer par internet ! Malheureusement, peu d'outils respectent ces exigences, comme mentionné dans l'article sur les gestionnaires de mots de passe.
+Le point chiffrement sera rapide ici : il s'agit de créer une base de données qui sera chiffrée grâce à du chiffrement symétrique via des algorithmes très robustes (AES mais aussi d'autres, cf. partie [algorithme](/debutant/gestionnaire-mots-passe#algorithme)), protégés donc par mot de passe. Bien évidemment ici, un mot de passe très fort sera choisi afin de résister à différentes attaques (brute force, etc.). Ici, le point important est de ne pas se fier à des outils qui proposent des services *en ligne* mais bien de générer nous-même notre base de données de mots de passe, la stocker chez nous à 2 ou 3 endroits au maximum et ne jamais la transférer par internet ! Malheureusement, peu d'outils respectent ces exigences, comme mentionné dans l'article sur les gestionnaires de mots de passe.
 
 
 ---
