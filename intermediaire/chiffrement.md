@@ -2,7 +2,7 @@
 title: Le Chiffrement
 description: Article traitant le chiffrement dans son ensemble et les outils recommandés...
 published: true
-date: 2024-01-17T11:46:20.678Z
+date: 2024-01-17T11:47:35.683Z
 tags: chiffrement, confidentialité, aes, rsa, intermédiaire, intermediaire
 editor: markdown
 dateCreated: 2022-11-24T22:12:38.038Z
@@ -105,8 +105,7 @@ Alors, non, nous n'allons pas vous faire un cours de cryptographie (en tout cas,
 > Précisons qu'il s'agit là de l'état de l'art à 2022. Comme toute technologie, et encore plus en cryptographie, ceci est amené à évoluer (surtout avec l'apparition d'équipements quantiques). Il est donc important de prendre cet aspect en considération.
 {.is-warning}
 
-Lorsque nous devons appliquer un chiffrement, il nous est toujours demandé de choisir l'algorithme qui sera appliqué afin de pouvoir générer les clés de sécurité, pour ensuite dérouler toutes les procédures (de chiffrement) sur la/les donnée(s). 
-Le choix dans les algorithmes est important, car il va conditionner la rapidité d'exécution, la complexité et la robustesse du résultat de sortie. Et il est souvent difficile pour le néophyte de choisir le bon algorithme, quand bien même l'outil donnerait des explications sur ce-dit algorithme. Par ailleurs, certains algorithmes sont plutôt adaptés pour une partie spécifique d'un chiffrement, et d'autres pour d'autres aspects...
+Lorsque nous devons appliquer un chiffrement, il nous est toujours demandé de choisir l'algorithme qui sera appliqué afin de pouvoir générer les clés de sécurité, pour ensuite dérouler toutes les procédures (de chiffrement) sur la/les donnée(s). Le choix dans les algorithmes est important, car il va conditionner la rapidité d'exécution, la complexité et la robustesse du résultat de sortie. Et il est souvent difficile pour le néophyte de choisir le bon algorithme, quand bien même l'outil donnerait des explications sur ce-dit algorithme. Par ailleurs, certains algorithmes sont plutôt adaptés pour une partie spécifique d'un chiffrement, et d'autres pour d'autres aspects...
 
 Voici donc, suivant les **_usages spécifiques_**, les choix que nous recommandons :
 
