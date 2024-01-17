@@ -2,7 +2,7 @@
 title: Auto-hébergement
 description: Nous apprendrons ici ce qu'est la pratique de l'auto-hébergement, et comment mettre en place son propre serveur pour héberger les services Internet que nous souhaitons, en toute simplicité.
 published: true
-date: 2024-01-17T12:01:38.093Z
+date: 2024-01-17T12:09:22.271Z
 tags: serveur, hébergement
 editor: markdown
 dateCreated: 2023-01-16T11:17:05.659Z
@@ -22,10 +22,11 @@ Par définition, si nous faisons attention aux services que nous installons sur 
 
 **Plusieurs systèmes d'exploitation proposent de faciliter l'auto-hébergement d'applications :**
 
-- [Yunohost](https://yunohost.org/) Basé sur Debian [^¹], il automatise l'installation de plus de 400 applications, officiellement supportées.
-- [UCS-Univention](https://www.univention.com/products/ucs/) Utilise des conteneurs docker : il est plutôt orienté pour un usage en entreprise avec une intégration LDAP complète.
-- [UmbrelOS](https://umbrel.com) Utilise des conteneurs docker : encore assez (trop ?) récent et donc de potentiels bugs peuvent exister.
-- [NextcloudPi](https://nextcloudpi.com/) image clé en main pour installer Nextcloud sur un RaspberryPi (appelé Rpi pour simplifier) ; cependant, cela limite le RPi à faire tourner Nextcloud (et ses extensions), et aucun autre service.
+- [Yunohost *L'auto-hébergement facile*](https://yunohost.org/) Basé sur Debian [^¹], il automatise l'installation de plus de 400 applications, officiellement supportées.
+- [UCS-Univention *Serveur pour opérations IT*](https://www.univention.com/products/ucs/) Utilise des conteneurs docker : il est plutôt orienté pour un usage en entreprise avec une intégration LDAP complète.
+- [Umbrel OS *Le Cloud à la maison*](https://umbrel.com) Utilise des conteneurs docker : encore assez (trop ?) récent et donc de potentiels bugs peuvent exister.
+- [Casa OS *Votre Cloud OS personnel*](https://casaos.io) Utilise des conteneurs docker : orienté facilité d'utilisation, et encore un peu jeune à notre sens. 
+- [NextcloudPi *Gardez vos données proches de vous*](https://nextcloudpi.com/) Image clé en main pour installer Nextcloud sur un RaspberryPi (appelé Rpi pour simplifier) ; cependant, cela limite le RPi à faire tourner Nextcloud (et ses extensions), et aucun autre service.
 {.links-list}
 
 
