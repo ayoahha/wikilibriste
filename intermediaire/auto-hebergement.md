@@ -2,7 +2,7 @@
 title: Auto-hébergement
 description: Nous apprendrons ici ce qu'est la pratique de l'auto-hébergement, et comment mettre en place son propre serveur pour héberger les services Internet que nous souhaitons, en toute simplicité.
 published: true
-date: 2024-01-17T12:13:33.617Z
+date: 2024-01-17T12:13:44.004Z
 tags: serveur, hébergement
 editor: markdown
 dateCreated: 2023-01-16T11:17:05.659Z
@@ -63,5 +63,5 @@ Il en va de même pour les ports réseau gérés sur ce serveur : via le pare-fe
 Les conséquences seraient bien plus graves que pour un ordinateur personnel. Rappelons-nous que nous ne sommes peut-être pas seul à utiliser ces services que nous hébergeons, et que nous rendrions donc vulnérables les données de toutes ces personnes.
 
 ---
-![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): Esf, Ayo, Nemtech*
+![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): Ayo, Esf, Nemtech*
 <br>
