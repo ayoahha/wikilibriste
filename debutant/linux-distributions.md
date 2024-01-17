@@ -2,7 +2,7 @@
 title: Les distributions GNU/Linux
 description: Article relatif aux distributions GNU/Linux que le collectif recommande...
 published: true
-date: 2024-01-17T13:26:35.622Z
+date: 2024-01-17T13:27:09.255Z
 tags: linux, debutant, intermédiaire, débutant, intermediaire, initié, expert
 editor: markdown
 dateCreated: 2022-11-24T21:02:27.494Z
@@ -182,9 +182,6 @@ Nous vous laissons aller voir leurs caractéristiques si vous êtes intéressés
 | Manjaro | **KDE Plasma**<br>Gnome<br>Xfce | Arch Linux / Indépendant | 64 bits | [Site de Manjaro OS](https://manjaro.org/download/) | AUR (option)<br>pacman | Nous conseillons de ne prendre que les versions officielles GNOME, KDE ou XFCE.<br>Notez que Manjaro est certes basée sur Arch Linux, mais développe son propre kernel/système.<br>*Attention avec l'activation des paquets AUR, qui tend à parfois poser des problèmes de dépendances allant même jusqu'au crash.* | Suivre notre [tutoriel](/tutoriels/manjaro) |
 | Endeavour OS | **Xfce**<br>Gnome<br>KDE Plasma | Arch Linux | 64 bits | [Site de Endeavour OS](https://endeavouros.com/latest-release/) | pacman<br>AUR | Distribution qui se veut tournée vers le gaming sur Linux. | |
 | Feren OS | KDE Feren | Ubuntu LTS | 64 bits | [Site de Feren OS](https://ferenos.weebly.com/) | dpkg (.deb)<br>apt<br>Snap Store<br>Flatpak | - | |
-| Pure OS | **Gnome**<br>KDE Plasma | Debian | 64 bits | [Site de Pure OS](https://pureos.net/download/) | dpkg (.deb)<br>apt | Que des logiciels FOSS, distro conseillée par la FSF (Free Software Fondation) | |
-| Solus OS | **Budgie**<br>Gnome<br>KDE Plasma<br>Mate | Indépendant | 64 bits | [Site de Solus](https://getsol.us/download/) | eopkg | Distribution créée "from scratch", c'est-à-dire de zéro. Distribution simple sans fioriture. | |
-| PCLinux OS | **Xfce**<br>Mate<br>KDE Plasma | Indépendant | 64 bits | [Site de PCLinux OS](https://www.pclinuxos.com/) | apt<br>rpm | - | |
 {.dense}
 
 ### Pour les initiés
@@ -205,6 +202,9 @@ Nous ne décrivons pas ici les types d'approche (rolling release ou stable) et l
 | Nom distro | Environnements<br>de Bureau | Base | CPU | URL | Gestionnaires<br>de paquets |  Commentaires |
 |----------|----------|----------|----------|----------|----------|----------|
 | Debian (Testing) | **Gnome**<br>KDE Plasma<br>Xfce<br>LxQt<br>Mate | Indépendant | 32/64 bits<br>ou ARM | [Avec seulement des logiciels libres](https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/)<br>[Avec logiciels non libres](https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current-live/amd64/iso-hybrid/) | dpkg (.deb)<br>apt<br>Flatpak | La version la plus à jour de Debian, mais qui peut potentiellement souffrir de quelques bugs. Ces bugs peuvent plus ou moins être gérés pour ceux qui maîtrisent l'environnement linux.<br><br>**Installation** : suivre notre [tutoriel](/tutoriels/debian-testing) |
+| Pure OS | **Gnome**<br>KDE Plasma | Debian | 64 bits | [Site de Pure OS](https://pureos.net/download/) | dpkg (.deb)<br>apt | Que des logiciels FOSS, distro conseillée par la FSF (Free Software Fondation) | |
+| Solus OS | **Budgie**<br>Gnome<br>KDE Plasma<br>Mate | Indépendant | 64 bits | [Site de Solus](https://getsol.us/download/) | eopkg | Distribution créée "from scratch", c'est-à-dire de zéro. Distribution simple sans fioriture. | |
+| PCLinux OS | **Xfce**<br>Mate<br>KDE Plasma | Indépendant | 64 bits | [Site de PCLinux OS](https://www.pclinuxos.com/) | apt<br>rpm | - | |
 | Arch Linux | [A choisir lors de l'installation](https://wiki.archlinux.org/title/Desktop_environment#Officially_supported) | Indépendant | 32/64 bits et ARM | [Site de Arch Linux](https://archlinux.org/download/) | pacman<br>AUR | Arch est rapide et légère. Elle est basée sur le principe de KISS (Keep It Simple, Stupid), c'est-à-dire de ne pas compliquer les choses. Ceci dit, nous la conseillons plutôt aux utilisateurs avancés car il devra chercher à comprendre son fonctionnement pour pouvoir l'utiliser et la maintenir. Elle met à disposition ses dépôts uniques nommés AUR ([Arch User Repository](https://wiki.archlinux.org/title/Arch_User_Repository_(Fran%C3%A7ais))) son [excellent wiki](https://wiki.archlinux.org/title/Main_page_(Fran%C3%A7ais)) et sa grande communauté. |
 | Alpine Linux | **Gnome**<br>Xfce<br>KDE Plasma<br>Mate<br>LxQt | Indépendant | 32/64 bits et ARM | [Site de Alpine Linux](https://alpinelinux.org/downloads/) | custom | Une distro qui met l'accent sur la sécurité. Elle permet l'utilisation de logiciels système robustes (initrc, LibreSSL, etc...) au contraire de la plupart des distros mainstreams, surtout Desktop.<br>*La distro mobile PostMarketOS est notamment basée sur Alpine Linux.* |
 | Qubes OS | Xfce | Fedora et Debian | 64 bits | [Site de Qubes OS](https://www.qubes-os.org/downloads/) | dnf<br>apt | Distribution orientée sécurité et anonymat par isolation via virtualisation Xen et un kernel durci.<br>L'anonymat se fait via une machine [Whonix](https://www.whonix.org). |
