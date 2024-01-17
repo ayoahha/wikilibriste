@@ -2,7 +2,7 @@
 title: Auto-hébergement
 description: Nous apprendrons ici ce qu'est la pratique de l'auto-hébergement, et comment mettre en place son propre serveur pour héberger les services Internet que nous souhaitons, en toute simplicité.
 published: true
-date: 2024-01-17T12:13:44.004Z
+date: 2024-01-17T12:22:10.664Z
 tags: serveur, hébergement
 editor: markdown
 dateCreated: 2023-01-16T11:17:05.659Z
@@ -61,6 +61,14 @@ Il en va de même pour les ports réseau gérés sur ce serveur : via le pare-fe
 **Il s'agit là des 3 règles absolument incontournables.**
 
 Les conséquences seraient bien plus graves que pour un ordinateur personnel. Rappelons-nous que nous ne sommes peut-être pas seul à utiliser ces services que nous hébergeons, et que nous rendrions donc vulnérables les données de toutes ces personnes.
+
+# Aller plus loin
+
+Nous avons rédigé deux tutoriels qui vous donneront les clés pour installer un serveur et héberger des solutions Cloud personnels :
+
+- [Installer et Utiliser Yunohost](/tutoriels-serveur/yunohost)
+- [Serveur sous Debian Stable](/tutoriels-serveur/serveur-debian-stable)
+{.grid-list}
 
 ---
 ![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): Ayo, Esf, Nemtech*
