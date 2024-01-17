@@ -2,7 +2,7 @@
 title: Auto-hébergement
 description: Nous apprendrons ici ce qu'est la pratique de l'auto-hébergement, et comment mettre en place son propre serveur pour héberger les services Internet que nous souhaitons, en toute simplicité.
 published: true
-date: 2024-01-17T12:13:12.851Z
+date: 2024-01-17T12:13:33.617Z
 tags: serveur, hébergement
 editor: markdown
 dateCreated: 2023-01-16T11:17:05.659Z
@@ -35,13 +35,13 @@ Par définition, si nous faisons attention aux services que nous installons sur 
 
 # Règles de sécurité
 
-#### **:warning: Ne continuez pas sans comprendre cette section :warning:**
+### **:warning: Ne continuez pas sans comprendre cette section :warning:**
 
 > **Il est très important ici de faire un point sur la sécurité quand on héberge un service qui est accessible via Internet.**
 {.is-danger}
 
 Il y a une différence fondamentale entre un ordinateur personnel (communément appelé "station de travail") et un serveur : 
-- **l'ordinateur personnel n'est normalement par défaut pas accessible depuis Internet**, bien qu'il puisse de lui-même faire des requêtes vers Internet. Mais il n'est pas possible pour "Internet" de faire des requêtes vers votre ordinateur, sauf faille au niveau de vos équipements (votre box) ou choix particuliers de votre part.
+- **L'ordinateur personnel n'est normalement par défaut pas accessible depuis Internet**, bien qu'il puisse de lui-même faire des requêtes vers Internet. Mais il n'est pas possible pour "Internet" de faire des requêtes vers votre ordinateur, sauf faille au niveau de vos équipements (votre box) ou choix particuliers de votre part.
 - **Le serveur en revanche est accessible depuis Internet**. C'est pour cela que n'importe qui pourra s'y connecter grâce à une URL. Cela implique de nombreuses choses au niveau de la sécurité.
 {.grid-list}
 
@@ -50,9 +50,7 @@ La box de votre [FAI](/glossaire#fai) est configurée par défaut pour ne laisse
 > La sécurité de cet appareil n'est donc plus du tout assurée par la box, mais par l'appareil en lui-même, car la box redirige toutes les demandes vers cet appareil et ne fait rien d'autre.
 {.is-warning}
 
-Le problème, c'est que si un attaquant arrive à pénétrer sur cet appareil, il se retrouve sur notre réseau local, et pourrait commencer à s'introduire sur nos autres appareils personnels connectés à cette même box.
-
-De fait, tout dépend du niveau de sécurité que nous allons appliquer ! **Il est donc très important de s'imposer certaines règles** :
+Le problème, c'est que si un attaquant arrive à pénétrer sur cet appareil, il se retrouve sur notre réseau local, et pourrait commencer à s'introduire sur nos autres appareils personnels connectés à cette même box. De fait, tout dépend du niveau de sécurité que nous allons appliquer ! **Il est donc très important de s'imposer certaines règles** :
  - **Les mots de passes doivent être _très_ solides sur cette machine** : le mieux serait un long mot de passe aléatoire, au moins pour tous les utilisateurs qui ont des droits administrateur. Car si les mots de passe des administrateurs sont retrouvés, nous accorderions beaucoup de droits à un attaquant. Nous vous invitons à lire l'article sur [Keepass](/tutoriels/keepass) pour générer et retenir des mots de passe très complexes en toute sécurité et facilement.
 
  - **Les mises à jour doivent être très régulières** : en effet, si une faille vient à être découverte sur l'un des services que nous hébergeons, ou sur l'application d'hébergement, un attaquant verra très vite si notre système a été mis à jour ou s'il est vulnérable à cette faille. S'il est vulnérable, il lui faudra peu de temps pour prendre contrôle de votre appareil. Les mises à jour s'imposent donc. Sur des applications d'hébergement comme Yunohost, les mises à jour sont très faciles, n'hésitons pas à en abuser !
