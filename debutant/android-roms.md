@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2024-01-16T12:41:39.487Z
+date: 2024-01-17T11:50:51.100Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -321,7 +321,7 @@ Ensuite :
     -   Si vous avez le choix, préférez les téléphones avec processeur Qualcomm (Snapdragon) aux processeurs MediaTek car ces derniers ne publient pas systématiquement les sources.
 
 
-# Dé-googliser votre ordiphone
+# Dé-googliser son ordiphone
 
 Dans un second temps, tant :
 - pour ceux qui auraient pu installer une nouvelle ROM, 
