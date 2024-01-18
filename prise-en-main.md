@@ -2,7 +2,7 @@
 title: Prise en main...
 description: Page dédiée à l'aide à la prise en main du wiki, à l'écriture d'articles, à la modération...
 published: true
-date: 2024-01-18T16:52:02.638Z
+date: 2024-01-18T17:00:01.996Z
 tags: wiki, contribution, contributeur, article, compte
 editor: markdown
 dateCreated: 2022-11-24T20:22:19.492Z
@@ -51,7 +51,11 @@ Dans le cas présent, dès que vous terminez un article, vous devrez contacter l
 
 # Créer un article
 
-Toutes les contributions à WikiLibriste sont considérées comme publiées sous les termes de la [licence Creative Commons Pattern – non commerciale – partage à l’identique: CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Toutes les contributions à WikiLibriste sont considérées comme publiées sous les termes de la licence :
+
+![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} Creative Commons Pattern – Non Commerciale – Partage à l’identique : [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 
+
+
 - **Si vous ne désirez pas que vos écrits soient modifiés et distribués à volonté, merci de ne pas les soumettre ici.**
 
 Vous vous engagez également à proposer des contenus rédigés par vous-même, ou si copiés d’une source placée dans le domaine public ou d’une ressource libre similaire, modifiés avant publication pour éviter des contenus dupliqués (dans ce cas citez vos sources). 
