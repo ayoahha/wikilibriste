@@ -2,35 +2,13 @@
 title: Prise en main...
 description: Page dédiée à l'aide à la prise en main du wiki, à l'écriture d'articles, à la modération...
 published: true
-date: 2023-05-07T13:37:52.895Z
+date: 2024-01-18T16:28:14.773Z
 tags: wiki, contribution, contributeur, article, compte
 editor: markdown
 dateCreated: 2022-11-24T20:22:19.492Z
 ---
 
-Si les administrateurs vous ont créé un compte, voici la page que vous devrez lire en premier lieu.
-
-# Comment se connecter une première fois
-
-L'équipe vous aura transmis un mot de passe temporaire lié à votre adresse courriel. Il faudra donc le modifier à votre première connexion :
-
--   Dans le menu principal, en haut à droite, cliquez sur l'icône représentant un personnage
--   Vous arrivez sur la page d'identification, remplissez une première fois les champs demandés :
-    -   **Nom d'utilisateur** obligatoire (généralement votre adresse courriel)
-    -   **Mot de passe** temporaire, celui que vous a transmis l'équipe
-
-![](/images/first-ident.png =800x){.align-center}
-
-![](/images/first-mdp.png =500x){.align-center}
-
--   Cliquez sur Valider, puis la même page d'identification est chargée. Ici modifiez votre mot de passe en le tapant 2 fois.
-    -   Veillez à choisir un **mot de passe fort**
--   Validez.
-
-**Vous pouvez maintenant vous** [**connecter**](https://wikilibriste.fr/login) **et avez maintenant accès à la modification d'articles.**
-
-> Le mot de passe temporaire est valable pendant 2 jours seulement. Au-delà de cette période, merci de recommencer la procédure et demander de nouveau une ouverture de compte.
-{.is-warning}
+Après avoir créé votre compte, un administrateur doit vous avoir octroyé les droits de type "Auteur" (cf. Rôle 2 ci-dessous). Une fois fait, vous pouvez contribuer au wiki.
 
 
 # Rôles des utilisateurs et processus rédactionnel
