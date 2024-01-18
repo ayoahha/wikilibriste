@@ -2,7 +2,7 @@
 title: Prise en main...
 description: Page dédiée à l'aide à la prise en main du wiki, à l'écriture d'articles, à la modération...
 published: true
-date: 2024-01-18T16:28:14.773Z
+date: 2024-01-18T16:52:02.638Z
 tags: wiki, contribution, contributeur, article, compte
 editor: markdown
 dateCreated: 2022-11-24T20:22:19.492Z
@@ -38,15 +38,16 @@ Quand vous créez un compte, vous avez la possibilité de commenter les articles
 
 -   Le **saint-graal**, l'**ultime niveau**, l'**objectif d'une vie**... Hum :D !! Accessible aux personnes avec un engagement sans faille et mettant ses compétences en numérique au service du collectif. 
 
-# Comment devenir auteur ?
+# Comment fonctionne le processus de publication ?
 
-Il s'agit à la fois de logique et d'investissement.
+**Quel que soit le niveau de l'article ou le sujet abordé, tout article ou tutoriel publié sur le wiki doit faire l'objet d'une relecture par un pair. L'on s'assure ainsi que la qualité de ces articles est à la hauteur des objectifs de publication.**
 
-Au bout de plusieurs articles rédigés convenablement (bon français, accessibles aux néophytes) et enrichis si besoin de contenus multimédias, sans que l'équipe de modération n'ait de travail à faire ensuite avant de publier, nous passons votre compte sur un rôle d'auteur.
+Dans le cas présent, dès que vous terminez un article, vous devrez contacter les administrateurs ou bien être sur le canal Telegram de contribution au wiki, accessible ici :
+- ✏️ Canal des [Contributeurs WikiLibriste](https://t.me/+SVS2Kk1mIzY3ZmQ0)
 
-Vous gagnez du temps pour publier vos articles, nous gagnons du temps en évitant la relecture. 
+> Attention, pour ceux qui ne sont pas habitués à ce genre de procédé : il ne s'agit pas d'une punition. Nous savons par expérience que les premiers jets sont rarement dénué de fautes de typographie, de tournures de phrases trop lourdes... Même les rédacteurs les plus aguerris doivent se faire relire !
+{.is-info}
 
-C'est gagnant-gagnant ;)
 
 # Créer un article
 
