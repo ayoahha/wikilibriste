@@ -2,13 +2,14 @@
 title: Création d'un compte pour contribution
 description: 
 published: true
-date: 2023-07-21T09:58:59.092Z
+date: 2024-01-18T17:15:27.361Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-21T09:48:29.046Z
 ---
 
-**Cette page s'adresse uniquement aux administrateurs, qui seuls sont susceptibles de créer des comptes utilisateurs sur la plateforme.**
+> **Cette page s'adresse uniquement aux administrateurs, qui seuls sont susceptibles de créer des comptes utilisateurs sur la plateforme.**
+{.is-info}
 
 # Procédure de création
 
