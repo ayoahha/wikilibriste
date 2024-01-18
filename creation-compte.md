@@ -2,7 +2,7 @@
 title: Création d'un compte pour contribution
 description: 
 published: true
-date: 2024-01-18T17:18:16.983Z
+date: 2024-01-18T18:00:00.131Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-21T09:48:29.046Z
@@ -21,20 +21,23 @@ dateCreated: 2023-07-21T09:48:29.046Z
 
 ![crea-compte-2.png](/crea-compte-2.png){.align-center}
 
-3. Cliquez sur "New User"
+3. Cliquez sur l'utilisateur à qui donner les accès
 
-
+![crea-compte-3.png](/crea-compte-3.png){.align-center}
 
 4. Remplissez les champs avec les informations. Nous avons besoin :
-- d'une adresse email du contributeur valide
-- du pseudo Telegram pour pouvoir retrouver le contributeur
+
+![crea-compte-4.png](/crea-compte-4.png){.align-center}
+
+5. dsf
+
+![crea-compte-5.png](/crea-compte-5.png){.align-center}
+
+6. Puis terminez par "Create and close"
+
+![crea-compte-6.png](/crea-compte-6.png){.align-center}
 
 
-- Cliquez sur le **dé** afin de générer un mot de passe (vous pouvez supprimer si besoin les caractères spéciaux pour simplifier)
-- N'ajoutez cet utilisateur qu'au groupe **Editors** (Editors comprend le groupe Readers, donc inutile d'ajouter les 2)
-- Veillez à bien cocher l'option "Require password change on first login"
-
-Puis terminez par "Create and close".
 
 # Communication
 
