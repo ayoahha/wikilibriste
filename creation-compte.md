@@ -2,7 +2,7 @@
 title: Création d'un compte pour contribution
 description: 
 published: true
-date: 2024-01-18T18:03:15.891Z
+date: 2024-01-18T18:03:37.288Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-21T09:48:29.046Z
@@ -37,6 +37,8 @@ dateCreated: 2023-07-21T09:48:29.046Z
 
 ![crea-compte-6.png](/images/crea-compte-6.png){.align-center}
 
+---
+L'utilisateur a maintenant les accès en rédaction.
 
 # Communication
 
