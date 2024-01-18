@@ -2,7 +2,7 @@
 title: Création d'un compte pour contribution
 description: 
 published: true
-date: 2024-01-18T18:00:00.131Z
+date: 2024-01-18T18:00:39.285Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-21T09:48:29.046Z
@@ -23,19 +23,19 @@ dateCreated: 2023-07-21T09:48:29.046Z
 
 3. Cliquez sur l'utilisateur à qui donner les accès
 
-![crea-compte-3.png](/crea-compte-3.png){.align-center}
+![crea-compte-3.png](/images/crea-compte-3.png){.align-center}
 
 4. Remplissez les champs avec les informations. Nous avons besoin :
 
-![crea-compte-4.png](/crea-compte-4.png){.align-center}
+![crea-compte-4.png](/images/crea-compte-4.png){.align-center}
 
 5. dsf
 
-![crea-compte-5.png](/crea-compte-5.png){.align-center}
+![crea-compte-5.png](/images/crea-compte-5.png){.align-center}
 
 6. Puis terminez par "Create and close"
 
-![crea-compte-6.png](/crea-compte-6.png){.align-center}
+![crea-compte-6.png](/images/crea-compte-6.png){.align-center}
 
 
 
