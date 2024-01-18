@@ -2,7 +2,7 @@
 title: Les navigateurs web
 description: Un article liés aux navigateurs internet et leur durcissement...
 published: true
-date: 2024-01-17T13:19:47.784Z
+date: 2024-01-18T11:00:26.938Z
 tags: navigateur, web, internet, privacy, vie privée, chrome, firefox, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:38:25.687Z
@@ -161,7 +161,8 @@ Sans doute la plus puissante et plus complète des extensions,  mais _**réserv�
 {.is-info}
 
 ## Cookies
-- [I still don't care aboot cookies](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies) Bloque les bannières (parfois intrusives !) de certains sites vous proposant l'utilisation des cookies. *Nous réintégrons cette extension, qui est un fork de "I don't care about cookies" racheté récemment par Avast. Un développeur a donc décidé de continuer l'extension sans intégrer de traceur*.
+- [I still don't care aboot cookies](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies) Bloque les bannières (parfois intrusives !) de certains sites vous proposant l'utilisation des cookies. 
+**Nous réintégrons cette extension, qui est un fork de "I don't care about cookies" racheté récemment par Avast (et qui intègre un identifiant publicitaire !). Un développeur a donc décidé de continuer l'extension sans intégrer de traceur**.
 	- [ISDCAC *Cookies*](https://addons.mozilla.org/fr/firefox/addon/istilldontcareaboutcookies) Pour navigateurs sur base Firefox
 	- [ISDCAC *Cookies*](https://chrome.google.com/webstore/detail/i-still-dont-care-about-c/edibdbjcniadpccecjdfdjjppcpchdlm) Pour navigateurs sur base Chromium
 	- [IDCAC *Cookies*](https://addons.palemoon.org/addon/i-dont-care-about-cookies/) Pour navigateurs Pale Moon
