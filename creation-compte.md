@@ -2,7 +2,7 @@
 title: Création d'un compte pour contribution
 description: 
 published: true
-date: 2024-01-18T18:00:39.285Z
+date: 2024-01-18T18:03:15.891Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-21T09:48:29.046Z
@@ -25,18 +25,17 @@ dateCreated: 2023-07-21T09:48:29.046Z
 
 ![crea-compte-3.png](/images/crea-compte-3.png){.align-center}
 
-4. Remplissez les champs avec les informations. Nous avons besoin :
+4. Cliquez sur "Sélectionnez un groupe...", puis sélectionner "Editors"
 
 ![crea-compte-4.png](/images/crea-compte-4.png){.align-center}
 
-5. dsf
+5. Cliquez sur "Associer"
 
 ![crea-compte-5.png](/images/crea-compte-5.png){.align-center}
 
-6. Puis terminez par "Create and close"
+6. Puis enfin "Mettre à jour l'utilisateur"
 
 ![crea-compte-6.png](/images/crea-compte-6.png){.align-center}
-
 
 
 # Communication
