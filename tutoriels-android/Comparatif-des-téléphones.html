@@ -2,14 +2,44 @@
 title: Tableau comparatif des téléphones libérables
 description: Le but de cette page est de fournir une information plus détaillé sur les téléphones libérables pour orienter un achat ou vour facilement quel OS tourne officiellement sur le téléphone
 published: false
-date: 2024-01-09T21:07:25.649Z
+date: 2024-01-21T11:30:56.147Z
 tags: 
 editor: ckeditor
 dateCreated: 2023-12-30T21:06:26.147Z
 -->
 
-<p>Titre</p>
-<p>Intro</p>
+<p>Trouver un téléphone libérable n'est pas facile, surtout quand on cherche pour une question de budget, cette page a été créer dans le but de vous aider dans cette démarche. Elle présente :&nbsp;</p>
+<ul>
+  <li>Une liste des modèles et de leur code pour ensuite ce repérer sur les sites des ROMs alternatives.</li>
+  <li>La date de sortie et le prix de lancement (parfois estimé à partir du prix en $) ce sui permet d'estimer le prix du téléphone aujourd'hui sans passer systématiquement par un site de revente de téléphone comme Ebay, Le Bon Coin, Backmarket…) pour comparer. Le MSRP voulant dire Manufacturer's Suggested Retail Price, il ne s'agit pas du prix de vente réel mais du prix conseillé à l'époque.</li>
+  <li>Le SoC de l'anglais System on a Chip représente la puce sui comprend le processeur, la puce graphique, la puce réseau et plein d'autres choses. La plupart des puces des téléphones libérables sont des puces Qualcomm (regroupe les modèles S4 et Snapdragon) car c'est historiquement le fabricant qui a fourni le plus de documentation et de code source et c'est aussi celui qui à longtemps dominé le marché. Pour avoir une idée de la puissance juste avec la dénomination de la puce, il faut regarder la codification :&nbsp;<ul>
+      <li>Le premier numéro représente la gamme de la puce, 2 pour le très bas de gamme, 4 pour les téléphones bas de gamme, le 6 pour le milieu de gamme, le 7 pour le milieu / haut de gamme et le 8 pour le haut de gamme</li>
+      <li>Les numéros suivant sont l'ordre de sortie cependant il y a des trous dans la numérotation. Il ne faut pas comparer les numéros entre deux gamme car ils n'évolue pas au même rythme et certaines gamme comme la 7XX est plus récente que les autres (2018).</li>
+      <li>Il y a parfois une lettre G après le numéro, cela identifie l'usage d'une puce réseau spécifique, il faut en général comprendre que la puce gère la 5G. Cependant Qualcomm ne met ce numéro que sur certain modèles de la gamme 7XX, il y a donc des téléphones des autres séries qui gèrent la 5G alors que leur numéro ne le laisse pas supposé.</li>
+      <li>Pour plus d'info sur les SoC, vous pouvez aller sur la page de <a href="https://en.wikipedia.org/wiki/List_of_Qualcomm_Snapdragon_systems_on_chips">Qualcomm Snapdragon</a> listant les SoC, la page des <a href="https://en.wikipedia.org/wiki/Exynos">Samsung Exynos</a>, la page des <a href="https://en.wikipedia.org/wiki/Google_Tensor">Google Tensors</a>, la page des <a href="https://en.wikipedia.org/wiki/Exynos">MediaTek Helio </a>ou la page Wikipedia en anglais du fabricant du SoC qui vous intéresse.</li>
+      <li>Le site <a href="https://gadgetversus.com/processor/">Gadget Versus</a> est aussi un bon outils car il permet de comparer la partie processeur et la partie graphique d'un SoC ou d'un téléphone indépendamment.</li>
+    </ul>
+  </li>
+  <li>La RAM ou mémoire vive vous donne une indication de à quel point le téléphone supportera le multitâche, voir aussi certains jeux qui sont des gros consommateurs. 3 à 4 Go reste encore compétitif aujourd'hui pour un usage hors jeu surtout sur un téléphone libéré sans toutes ces applications sangsue en arrière plan qui collecte les données.</li>
+  <li>Le stockage mini représente la taille du “disque dur” de votre téléphone, 8 et 16Go sont aujourd'hui bien trop peu pour un système Android, vous risquer de ne pas pouvoir installer beaucoup d'applications, cela reste cependant ok pour une version de Linux sur smartphone. 32Go est suffisant si vous n'installez pas de gros jeux très lourd et si vous disposez d'une carte SD dans le téléphone pour stocker vos photos et vidéos. 64Go est aujourd'hui suffisant pour la grande majorité des utilisateurs.</li>
+  <li>La colonne écran vous donne la taille de la diagonale de l'écran en pouce, en général, plus l'écran est grand, meilleure sera la batterie. La taille de l'écran est vraiment une question de préférence personnelle et de taille de main.</li>
+  <li>Les colonnes suivantes traitent des ROM disponible pour le téléphone, plus d'information sur le choix sur <a href="https://wikilibriste.fr/fr/debutant/android-roms">la page du wiki dédiée</a>. Quelques informations rapide sur chaque ROM (et toutes sont évidement Open souce et sous licence libre) :<ul>
+      <li>/e/ OS ou Murena est une ROM Francaise créer par un ancien fondateur de Mandrake / Mandriva Linux. Elle est très orientée Dégoogleisation et facilité d'utilisation et ils proposent également des services en ligne pour remplacer ceux de Google (Drive, Office, Keep, Calendar, Gmail…) qui se syncronise avec le téléphone.</li>
+      <li>iodé OS à le même objectif que /e/ OS est aussi Française. Elle ce démarque par son contrôle parental possible mais par contre pour les services Cloud, il faudra voir par vous même pour la synchroniser avec votre Nextcloud.</li>
+      <li>Lineage OS couvre un large panel de téléphone et est la base de nombreuses ROM. Elle n'est cependant pas 100% dégoogleisée et une variante existe si vous souhaitez directement avoir microG installé. Elle demande encore un peu de travail pour avoir un bon niveau de protection de la vie privée.</li>
+      <li>Calyx OS et Graphène OS sont des ROMs orientées sécurités et disponible sur un nombre plus restreint de téléphone. Elles restent facile d'utilisation et dégoogleisées</li>
+      <li>Divest OS est une ROM orienté sécurité, elle se rapproche plus d'un android brut avec une meilleure gestion de la sécurité mais ne prend pas en charge microG, il y aura donc de nombreuses incompatibilités si vous avez besoin d'application du Playstore et que vous ne souhaitez pas bidouiller.</li>
+      <li>Pour les ROM Android, est précisé(quand disponible), la version de l'OS et la version d'Android disponible ainsi que si cette version est toujours maintenu (legacy si plus maintenu officiellement).</li>
+      <li>Si toutes les ROMs précédentes restant des Android, voici maintenant les ROMs Linux qui sont en général incompatible avec les application Android (sauf avec certaines versions de Sailfish OS qui est capable de supporter des app mais n'est pas entièrement Open source). On a donc les ROMs Linux Postmarket OS, Sailfish OS et Ubuntu Touch.</li>
+    </ul>
+  </li>
+  <li>Suit ensuite le score Ifixit quand disponible qui donne la réparabilité, ainsi que la présence ou pas d'une batterie démontable (facilement, sans besoin de médiator et de sèche cheveux)</li>
+  <li>Et enfin la facilité de déverrouillage du bootloader, opération nécessaire pour changer le système d'exploitation.</li>
+</ul>
+<blockquote>
+  <p>La liste des téléphones ne se veux pas complète ni constamment à jour, la priorité est axé sur les téléphones capable de faire tourner Android ou Linux de manière fluide, les téléphones facilement disponible, les téléphones disposant de ROM officiellement supporté par une fondation ou entreprise (/e/, Lineage, Calyx…). Il y aura donc toujours des téléphones qui manqueront, des prix pas encore renseignés et des informations à mettre à jour.</p>
+</blockquote>
+<p>&nbsp;</p>
 <p>Table</p>
 <figure class="table">
   <table>
@@ -21,13 +51,12 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:27.75pt;">Sortie</td>
         <td style="vertical-align:bottom;width:27.75pt;">MSRP (€)</td>
         <td style="vertical-align:bottom;width:65.25pt;">SoC</td>
-        <td style="vertical-align:bottom;width:24pt;">RAM min</td>
+        <td style="vertical-align:bottom;width:24pt;">RAM mini en Go</td>
         <td style="vertical-align:bottom;width:24.75pt;">Min storage</td>
         <td style="vertical-align:bottom;width:27.75pt;">Ecran</td>
-        <td style="vertical-align:bottom;width:42pt;">/e/ OS officiel version</td>
-        <td style="vertical-align:bottom;width:39.75pt;">/e/ OS non officiel version</td>
-        <td style="text-align:center;vertical-align:bottom;width:51.75pt;">Lineage officiel version</td>
-        <td style="vertical-align:bottom;width:43.5pt;">Calyx OS officiel</td>
+        <td style="vertical-align:bottom;width:42pt;">/e/ OS (Murena)</td>
+        <td style="text-align:center;vertical-align:bottom;width:51.75pt;">Lineage OS</td>
+        <td style="vertical-align:bottom;width:43.5pt;">Calyx OS</td>
         <td style="vertical-align:bottom;width:41.25pt;">Graphene OS</td>
         <td style="vertical-align:bottom;width:27.75pt;">IodéOS</td>
         <td style="vertical-align:bottom;width:27.75pt;">Divest OS (DOS)</td>
@@ -49,7 +78,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">32</td>
         <td style="vertical-align:bottom;width:27.75pt;">5,96</td>
         <td style="vertical-align:bottom;width:42pt;">R (A11)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">18.1 (A11)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -72,7 +100,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24pt;">2</td>
         <td style="vertical-align:bottom;width:24.75pt;">32</td>
         <td style="vertical-align:bottom;width:27.75pt;">7</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">18.1 (A11)</td>
         <td>&nbsp;</td>
@@ -97,7 +124,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">16</td>
         <td style="vertical-align:bottom;width:27.75pt;">7</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">18.1 (A11)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -121,7 +147,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">32</td>
         <td style="vertical-align:bottom;width:27.75pt;">5</td>
         <td style="vertical-align:bottom;width:42pt;">R (A11)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -145,7 +170,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">32</td>
         <td style="vertical-align:bottom;width:27.75pt;">5,5</td>
         <td style="vertical-align:bottom;width:42pt;">R (A11)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -169,7 +193,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">5</td>
         <td style="vertical-align:bottom;width:42pt;">T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -193,7 +216,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">6</td>
         <td style="vertical-align:bottom;width:42pt;">T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -217,7 +239,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">5,5</td>
         <td style="vertical-align:bottom;width:42pt;">S (A12)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td style="vertical-align:bottom;width:43.5pt;">4</td>
         <td style="vertical-align:bottom;width:41.25pt;">&nbsp;</td>
@@ -241,7 +262,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,3</td>
         <td style="vertical-align:bottom;width:42pt;">S (A12)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td style="vertical-align:bottom;width:43.5pt;">4</td>
         <td>&nbsp;</td>
@@ -265,7 +285,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">5,6</td>
         <td style="vertical-align:bottom;width:42pt;">S (A12)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td style="vertical-align:bottom;width:43.5pt;">4</td>
         <td>&nbsp;</td>
@@ -289,7 +308,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">6</td>
         <td style="vertical-align:bottom;width:42pt;">S (A12)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td style="vertical-align:bottom;width:43.5pt;">4</td>
         <td>&nbsp;</td>
@@ -313,7 +331,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">5,7</td>
         <td style="vertical-align:bottom;width:42pt;">S (stable)(A12) / T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td style="vertical-align:bottom;width:43.5pt;">4</td>
         <td style="vertical-align:bottom;width:41.25pt;">Legacy</td>
@@ -337,7 +354,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,3</td>
         <td style="vertical-align:bottom;width:42pt;">S (stable)(A12) / T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td style="vertical-align:bottom;width:43.5pt;">4</td>
         <td style="vertical-align:bottom;width:41.25pt;">Legacy</td>
@@ -361,7 +377,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">5,81</td>
         <td style="vertical-align:bottom;width:42pt;">R (stable)(A11) / T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td style="vertical-align:bottom;width:43.5pt;">5</td>
         <td style="vertical-align:bottom;width:41.25pt;">Legacy</td>
@@ -385,7 +400,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,2</td>
         <td style="vertical-align:bottom;width:42pt;">T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td style="vertical-align:bottom;width:43.5pt;">5</td>
         <td style="vertical-align:bottom;width:41.25pt;">Extended</td>
@@ -409,7 +423,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6</td>
         <td style="vertical-align:bottom;width:42pt;">T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td style="vertical-align:bottom;width:43.5pt;">5</td>
         <td style="vertical-align:bottom;width:41.25pt;">Extended</td>
@@ -433,7 +446,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,34</td>
         <td style="vertical-align:bottom;width:42pt;">T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td style="vertical-align:bottom;width:43.5pt;">5</td>
         <td style="vertical-align:bottom;width:41.25pt;">Yes</td>
@@ -457,7 +469,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,4</td>
         <td style="vertical-align:bottom;width:42pt;">T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td style="vertical-align:bottom;width:43.5pt;">5</td>
         <td style="vertical-align:bottom;width:41.25pt;">Yes</td>
@@ -481,7 +492,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,71</td>
         <td style="vertical-align:bottom;width:42pt;">T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td style="vertical-align:bottom;width:43.5pt;">5</td>
         <td style="vertical-align:bottom;width:41.25pt;">Yes</td>
@@ -505,7 +515,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,1</td>
         <td style="vertical-align:bottom;width:42pt;">T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td style="vertical-align:bottom;width:43.5pt;">5</td>
         <td style="vertical-align:bottom;width:41.25pt;">Yes</td>
@@ -529,7 +538,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,3</td>
         <td style="vertical-align:bottom;width:42pt;">T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td style="vertical-align:bottom;width:43.5pt;">5</td>
         <td style="vertical-align:bottom;width:41.25pt;">Yes</td>
@@ -553,7 +561,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,7</td>
         <td style="vertical-align:bottom;width:42pt;">T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td style="vertical-align:bottom;width:43.5pt;">5</td>
         <td style="vertical-align:bottom;width:41.25pt;">Yes</td>
@@ -576,7 +583,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24pt;">8</td>
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,1</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td style="vertical-align:bottom;width:43.5pt;">5</td>
@@ -601,7 +607,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">265</td>
         <td style="vertical-align:bottom;width:27.75pt;">7,6</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">&nbsp;</td>
         <td style="vertical-align:bottom;width:43.5pt;">5</td>
         <td style="vertical-align:bottom;width:41.25pt;">Yes</td>
@@ -624,7 +629,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24pt;">8</td>
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">10,95</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">&nbsp;</td>
         <td style="vertical-align:bottom;width:43.5pt;">5</td>
@@ -649,7 +653,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,2</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">&nbsp;</td>
         <td style="vertical-align:bottom;width:43.5pt;">5</td>
         <td style="vertical-align:bottom;width:41.25pt;">Yes</td>
@@ -672,7 +675,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24pt;">12</td>
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,7</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">&nbsp;</td>
         <td style="vertical-align:bottom;width:43.5pt;">5</td>
@@ -697,7 +699,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">32</td>
         <td style="vertical-align:bottom;width:27.75pt;">5,1</td>
         <td style="vertical-align:bottom;width:42pt;">R (stable)(A11)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">18.1 (A11)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -721,7 +722,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">5,65</td>
         <td style="vertical-align:bottom;width:42pt;">S (stable)(A12) / T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -745,7 +745,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,3</td>
         <td style="vertical-align:bottom;width:42pt;">S (stable)(A12) / T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td style="vertical-align:bottom;width:43.5pt;">4</td>
         <td style="vertical-align:bottom;width:41.25pt;">&nbsp;</td>
@@ -769,7 +768,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">256</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,46</td>
         <td style="vertical-align:bottom;width:42pt;">T (stable)(A13)</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -801,7 +799,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
         <td style="vertical-align:bottom;width:27.75pt;">9</td>
         <td style="vertical-align:bottom;width:27.75pt;">Yes</td>
         <td>&nbsp;</td>
@@ -817,7 +814,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6</td>
         <td style="vertical-align:bottom;width:42pt;">T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td style="vertical-align:bottom;width:43.5pt;">4</td>
         <td style="vertical-align:bottom;width:41.25pt;">&nbsp;</td>
@@ -841,7 +837,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">256</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,54</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -859,7 +854,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:65.25pt;">2e</td>
         <td style="vertical-align:bottom;width:27.75pt;">zirconia</td>
         <td style="vertical-align:bottom;width:27.75pt;">2021</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -892,7 +886,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
         <td style="vertical-align:bottom;width:27.75pt;">2 (A11)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -913,7 +906,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,53</td>
         <td style="vertical-align:bottom;width:42pt;">S (stable)(A12)</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -946,7 +938,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
         <td style="vertical-align:bottom;width:27.75pt;">No</td>
         <td>&nbsp;</td>
       </tr>
@@ -961,7 +952,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">5,9</td>
         <td style="vertical-align:bottom;width:42pt;">S (A12)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -985,7 +975,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,7</td>
         <td style="vertical-align:bottom;width:42pt;">T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1009,7 +998,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,7</td>
         <td style="vertical-align:bottom;width:42pt;">S (A12)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1033,7 +1021,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">256</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,8</td>
         <td style="vertical-align:bottom;width:42pt;">T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1057,7 +1044,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,7</td>
         <td style="vertical-align:bottom;width:42pt;">T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1080,7 +1066,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24pt;">4</td>
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,5</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td style="vertical-align:bottom;width:43.5pt;">4</td>
@@ -1105,7 +1090,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,4</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td style="vertical-align:bottom;width:43.5pt;">4</td>
         <td>&nbsp;</td>
@@ -1128,7 +1112,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24pt;">4</td>
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,6</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td style="vertical-align:bottom;width:43.5pt;">4</td>
@@ -1153,7 +1136,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,55</td>
         <td style="vertical-align:bottom;width:42pt;">T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1177,7 +1159,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,7</td>
         <td style="vertical-align:bottom;width:42pt;">T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1201,7 +1182,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,49</td>
         <td style="vertical-align:bottom;width:42pt;">S (A12)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1224,7 +1204,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24pt;">3</td>
         <td style="vertical-align:bottom;width:24.75pt;">32</td>
         <td style="vertical-align:bottom;width:27.75pt;">5,2</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">18.1 (A11)</td>
         <td>&nbsp;</td>
@@ -1249,7 +1228,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">32</td>
         <td style="vertical-align:bottom;width:27.75pt;">5,2</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">18.1 (A11)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1273,7 +1251,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,5</td>
         <td style="vertical-align:bottom;width:42pt;">T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1297,7 +1274,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,7</td>
         <td style="vertical-align:bottom;width:42pt;">T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1320,7 +1296,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24pt;">6</td>
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,5</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
@@ -1345,7 +1320,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">5,8</td>
         <td style="vertical-align:bottom;width:42pt;">R (stable)(A11) / T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1369,7 +1343,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,2</td>
         <td style="vertical-align:bottom;width:42pt;">R (stable)(A11) / T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1392,7 +1365,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24pt;">6</td>
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,4</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
@@ -1417,7 +1389,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">5,8</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1440,7 +1411,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24pt;">8</td>
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,1</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
@@ -1465,7 +1435,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,4</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1488,7 +1457,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24pt;">8</td>
         <td style="vertical-align:bottom;width:24.75pt;">256</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,3</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
@@ -1513,7 +1481,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">256</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,8</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1536,7 +1503,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24pt;">12</td>
         <td style="vertical-align:bottom;width:24.75pt;">256</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,8</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
@@ -1561,7 +1527,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">32</td>
         <td style="vertical-align:bottom;width:27.75pt;">5</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">(EoL) 18.1 (A11)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1584,7 +1549,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24pt;">3</td>
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">6</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
@@ -1609,7 +1573,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">32</td>
         <td style="vertical-align:bottom;width:27.75pt;">5,2</td>
         <td style="vertical-align:bottom;width:42pt;">S (A12)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1632,7 +1595,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24pt;">4</td>
         <td style="vertical-align:bottom;width:24.75pt;">32</td>
         <td style="vertical-align:bottom;width:27.75pt;">6</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
@@ -1657,7 +1619,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">32</td>
         <td style="vertical-align:bottom;width:27.75pt;">6</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1677,7 +1638,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td style="vertical-align:bottom;width:65.25pt;">&nbsp;</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1705,7 +1665,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1728,7 +1687,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24pt;">4</td>
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">5,2</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">&nbsp;</td>
         <td>&nbsp;</td>
@@ -1753,7 +1711,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">5,7</td>
         <td style="vertical-align:bottom;width:42pt;">T (A13)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1776,7 +1733,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24pt;">4</td>
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">5</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
@@ -1801,7 +1757,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">5,8</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1825,7 +1780,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">6</td>
         <td style="vertical-align:bottom;width:42pt;">S (A12)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1848,7 +1802,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24pt;">6</td>
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,39</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">&nbsp;</td>
         <td>&nbsp;</td>
@@ -1873,7 +1826,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,57</td>
         <td style="vertical-align:bottom;width:42pt;">S (A12)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">Legacy 19 (A12)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1897,7 +1849,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,67</td>
         <td style="vertical-align:bottom;width:42pt;">S (A12)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1921,7 +1872,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">64</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,67</td>
         <td style="vertical-align:bottom;width:42pt;">S (A12)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1945,7 +1895,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,67</td>
         <td style="vertical-align:bottom;width:42pt;">S (A12)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1969,7 +1918,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,67</td>
         <td style="vertical-align:bottom;width:42pt;">S (A12)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -1993,7 +1941,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,67</td>
         <td style="vertical-align:bottom;width:42pt;">S (A12)</td>
-        <td style="vertical-align:bottom;width:39.75pt;">&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -2016,7 +1963,6 @@ dateCreated: 2023-12-30T21:06:26.147Z
         <td style="vertical-align:bottom;width:24pt;">8</td>
         <td style="vertical-align:bottom;width:24.75pt;">128</td>
         <td style="vertical-align:bottom;width:27.75pt;">6,81</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td style="text-align:center;vertical-align:bottom;width:51.75pt;">20 (A13)</td>
         <td>&nbsp;</td>
