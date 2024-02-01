@@ -2,7 +2,7 @@
 title: Trouver un logiciel alternatif libre
 description: Découvrez comment chercher des logiciels libres par vous même
 published: true
-date: 2024-02-01T12:34:41.641Z
+date: 2024-02-01T12:34:57.009Z
 tags: logiciel, application, alternative, alternatif
 editor: markdown
 dateCreated: 2023-02-10T23:29:04.219Z
@@ -61,7 +61,7 @@ La page Awesome Privacy n'est pas à proprement parlé un site mais plutôt un d
 | Doodle | Framadate | Accès en ligne : [ici](https://framadate.org/) |
 | Microsoft Office,<br> Google Office Suite | Collabora Office | Collabora Office est l’implémentation de Libreoffice sur mobile. Disponible via un dépôt, nativement sur Droid-ify. A installer sur tous les profils pour pouvoir ouvrir des documents sur chaque profil [CollaboraOnline](https://github.com/CollaboraOnline). |
 | Radio Android | OpenRadio,<br>RadioDroid | OpenRadio et RadioDroid sont basés sur [RadioBrowser](https://www.radio-browser.info/) et constitue une solution libre à toute application propriétaire de radio. |
-| Adobe PDF Reader... | PDF Viewer | PDF Viewer est le logiciel de GrapheneOS, et disponible [ici](https://github.com/GrapheneOS/PdfViewer) pour tous les autres systèmes. |
+| Adobe PDF, ... | PDF Viewer | PDF Viewer est le logiciel de GrapheneOS, et disponible [ici](https://github.com/GrapheneOS/PdfViewer) pour tous les autres systèmes. |
 | Skype, <br>Zoom, <br>Teams... | Jitsi Meet,<br>Jami | Quelques problèmes de déconnexions côté Jami.<br>Un article spécifique est dédié aux applications alternatives de [Vidéo conférence](/debutant/communications#vid%C3%A9o-conf%C3%A9rence), nous vous renvoyons vers cet article complet si nécessaire. |
 | uTorrent... | TorrServe | Une application open source de téléchargement de fichiers Torrent sur Android. |
 | Application TTS <br>(text-to-speech) | Dicio,<br>eSpeak | En remplacement de toute application type Google ou autres... Attention cela, dit ces applications ne sont pas abouties au même point. Il est donc difficile de trouver exactement le même fonctionnement ! |
