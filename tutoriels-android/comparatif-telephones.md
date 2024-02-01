@@ -2,7 +2,7 @@
 title: Téléphones libérables
 description: Le but de cette page est de fournir une information plus détaillé sur les téléphones libérables pour orienter un achat ou vour facilement quel OS tourne officiellement sur le téléphone
 published: true
-date: 2024-02-01T12:00:34.026Z
+date: 2024-02-01T20:42:30.088Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-01T10:29:20.840Z
@@ -37,7 +37,7 @@ Vous trouverez ci-après la présentation de l'ensemble des colonnes avec leurs 
 - Le stockage représente la taille du “disque dur” de votre téléphone :
   - 8 Go, 16 Go voire 32 Go sont aujourd'hui trop peu pour un système Android ; le risque est de ne pas pouvoir installer beaucoup d'applications.
   - 64 Go est suffisant si vous n'installez pas de grosses applications (jeux très lourd par ex.) et si vous disposez d'une carte SD dans le téléphone pour stocker vos photos et vidéos.
-- L'écran vous donne la taille de la diagonale de l'écran en pouce : en général, plus l'écran est grand, meilleure sera la batterie. La taille de l'écran est une question de préférences personnelles pour le confort visuel et la prise en main du téléphone.
+- L'écran vous donne la taille de la diagonale de l'écran en pouce : en général, plus l'écran est grand, meilleure sera l'autonomie (entre 2 téléphones ayant le même SoC). La taille de l'écran est une question de préférences personnelles pour le confort visuel et la prise en main du téléphone.
 - Les colonnes suivantes indiquent le support des ROM disponibles pour ledit téléphone.
   - **COL 10 à 15** - Pour les ROM Android : plus d'information sur ces ROMs sur la page dédiée du [wiki](/debutant/android-roms). Est précisé (quand disponible), la version de la ROM et la version d'Android (si plus maintenu officiellement, `legacy` sera utilisée).
   - **COL 16 à 18** - Pour les ROM GNU/Linux : sont en général incompatibles avec les applications Android (sauf avec certaines versions de Sailfish OS, mais n'est pas entièrement Open Source). Sont concernées les ROMs Linux Postmarket OS, Sailfish OS et Ubuntu Touch.
