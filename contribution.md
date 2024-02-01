@@ -2,7 +2,7 @@
 title: Pour contribuer au projet
 description: N'hésitez pas à nous soutenir dans cette belle aventure...
 published: true
-date: 2024-01-06T14:51:24.573Z
+date: 2024-02-01T11:41:38.181Z
 tags: contribution, don, june, btc, liberapay
 editor: markdown
 dateCreated: 2023-10-28T07:07:02.446Z
@@ -26,9 +26,9 @@ Enfin, un énorme <3 MERCI <3 à tous ceux et celles qui participent activement,
 - [June *En nous faisant un don en monnaie libre June sur notre portefeuille G1*](https://duniter.fr)
 {.links-list}
 
- > Clef publique de notre portefeuille June :
- > **CRVXrtZdqNavdgHquv28PNUeNKQGd9b6rHMpSvERQYVm**
- {.is-success}
+> Clef publique de notre portefeuille June :
+> <div style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"> <b>CRVXrtZdqNavdgHquv28PNUeNKQGd9b6rHMpSvERQYVm</b></div>
+
 
 Pour en savoir plus sur la monnaie libre et la June (G1) :
 <iframe class="frame-style" title="La June, introduction à la monnaie libre" src="https://yewtu.be/embed/P_4F7X9XZxA?t=1" allow="fullscreen; accelerometer; encrypted-media; gyroscope; picture-in-picture" sandbox="allow-same-origin allow-scripts allow-popups" frameborder="0"></iframe>
