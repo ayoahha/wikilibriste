@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-02-01T12:08:28.731Z
+date: 2024-02-01T21:05:47.636Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -425,6 +425,13 @@ Techniquement, il ne s'agit ni plus ni moins que d'un serveur avec des règles d
 -  La sécurité/le filtrage : imaginons que nous gérons une université, nous souhaitons donner accès à internet à nos étudiants (très utile pour eux !) mais nous souhaitons éviter qu'ils naviguent sur certains sites (porno par exemple)... Nous pourrons donc implémenter un proxy, avec des règles de filtrage sur des domaines liés à des sites pornographiques. Bon nous pourrions ici très bien nous contenter d'un pare-feu, mais un proxy viendra filtrer à plus haut niveau, et ainsi parfaitement utile. Vous l'aurez compris, un proxy est généralement utilisé dans une architecture réseau afin d'apporter une couche de sécurité, en parallèle d'autres mécanismes (pare-feu, IDS, VPNs...).
 
 **Un proxy peut être une alternative dans une certaine mesure aux VPN grands publics, le chiffrement en moins dans la plupart des cas !**
+
+# RAM
+
+La RAM (Random-Access Memory) aussi appelé mémoire vive est une mémoire très rapide trouvable dans les ordinateurs et téléphones s'effacant à chaque redémarrage. Cette mémoire stocke les données des applications et du système d'exploitation une fois lancé. Un excès de RAM n'apporte pas plus de performance par contre un manque entrainera le système d'exploitation à stocker les données sur la mémoire morte ce qui ralentira considérablement le système et l'application/programme.
+Les ordres de grandeur sont les suivants :
+* De 2 à 12 Go pour un smartphone, 4 à 6 Go sont la moyenne actuelle et sont suffisant pour l'essentiel des utilisateurs.
+* De 4 à 64 Go pour un ordinateur, 8 à 16 Go sont la moyenne actuelle et sont suffisant pour l'essentiel des utilisateurs et une grande partie des joueurs. Les grandes quantitées de mémoire sont principalement réservés à des applications spécifiques de productivités (modélisation 3D professionnelle, montage de vidéos professionnelle, compilation régulière de très gros programmes, modélisation physique par maillage de calculs mécaniques, thermiques, fluidiques...).
 
 # Recovery
 
