@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-01-16T11:55:06.270Z
+date: 2024-02-01T09:59:37.971Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -560,6 +560,10 @@ Une SBC ou [Single Board Computer](https://fr.wikipedia.org/wiki/Ordinateur_%C3%
 - [O-Droid](https://www.hardkernel.com/)
 - [Arduino](https://www.arduino.cc/)
 - [Libre Computer Board (LBC)](https://libre.computer/)
+
+# SoC
+
+Le SoC, de l'anglais "System on a Chip", comporte un système embarqué entier sur une seule puce, d'où la dénomination "Système sur une puce". Cette puce SoC comprend donc la partie processeur, la partie mémoires, la partie graphique, la partie réseau et d'autres composants utiles.
 
 # Software
 
