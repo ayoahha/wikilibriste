@@ -2,7 +2,7 @@
 title: Tableau comparatif des téléphones libérables
 description: Le but de cette page est de fournir une information plus détaillé sur les téléphones libérables pour orienter un achat ou vour facilement quel OS tourne officiellement sur le téléphone
 published: true
-date: 2024-02-01T11:04:10.041Z
+date: 2024-02-01T11:05:03.850Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-01T10:29:20.840Z
@@ -57,7 +57,6 @@ Afin de bénéficier des filtres et du tri du tableau, voici la version tableur 
 {.is-warning}
 
 
-| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 |
 | Marque            | Modèle                                               | Code           | Sortie | MSRP (€) | SoC              | RAM min (Go) | Stockage min (Go) | Ecran (Pouce) | /e/OS                          | IodéOS              | LineageOS        | CalyxOS | GrapheneOS | DivestOS | PostmarketOS | SailfishOS | Ubuntu Touch | i-Fixit | Batterie rempl. | Dév. bootloader                                   |
 | ----------------- | ---------------------------------------------------- | -------------- | ------ | -------- | ---------------- | ------------ | ----------------- | ------------- | ------------------------------ | ------------------- | ---------------- | ------- | ---------- | -------- | ------------ | ---------- | ------------ | ------- | --------------- | ------------------------------------------------- |
 | Asus              | ZenFone 8                                            | sake           | 2021   | 699      | Snapdragon 888   | 6            | 128               | 5,9           | S (A12)                        |                     | 20 (A13)         |         |            |          |              |            |              |         | No              | Oui si site de déverrouillage est revenu en ligne |
