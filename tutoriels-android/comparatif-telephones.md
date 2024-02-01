@@ -2,7 +2,7 @@
 title: Tableau comparatif des téléphones libérables
 description: Le but de cette page est de fournir une information plus détaillé sur les téléphones libérables pour orienter un achat ou vour facilement quel OS tourne officiellement sur le téléphone
 published: true
-date: 2024-02-01T10:41:41.340Z
+date: 2024-02-01T10:43:18.806Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-01T10:29:20.840Z
@@ -47,7 +47,7 @@ Vous trouverez ci-après la présentation de l'ensemble des colonnes avec leurs 
 Afin de bénéficier des filtres et du tri du tableau, voici la version tableur sous forme de fichier :
 
 
-> La liste des téléphones présentée dans ce tableau ne se veut pas exhaustive ni à jour au mois près. L'objectif de ce tableau est de présenter globalement d'après nos retours d'expérience utilisateurs :
+> La liste des téléphones présentée dans ce tableau ne se veut pas exhaustive ni à jour au mois près. L'objectif de ce tableau est de présenter globalement d'après nos retours d'expérience personnels et utilisateurs :
 > ~~ Les téléphones capables de faire tourner Android ou Linux de manière fluide,
 > ~~ Les téléphones facilement disponibles,
 > ~~ Les téléphones disposant de ROM officiellement supportées par une fondation ou entreprise (Murena, Lineage, Calyx, etc.).
@@ -58,3 +58,6 @@ Afin de bénéficier des filtres et du tri du tableau, voici la version tableur 
 
 
 
+
+---
+![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): justin*
