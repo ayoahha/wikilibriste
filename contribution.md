@@ -2,7 +2,7 @@
 title: Pour contribuer au projet
 description: N'hésitez pas à nous soutenir dans cette belle aventure...
 published: true
-date: 2024-02-01T11:43:57.324Z
+date: 2024-02-01T11:44:09.262Z
 tags: contribution, don, june, btc, liberapay
 editor: markdown
 dateCreated: 2023-10-28T07:07:02.446Z
