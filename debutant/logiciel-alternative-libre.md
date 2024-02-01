@@ -2,7 +2,7 @@
 title: Trouver un logiciel alternatif libre
 description: Découvrez comment chercher des logiciels libres par vous même
 published: true
-date: 2024-01-16T12:54:00.587Z
+date: 2024-02-01T12:34:41.641Z
 tags: logiciel, application, alternative, alternatif
 editor: markdown
 dateCreated: 2023-02-10T23:29:04.219Z
@@ -40,31 +40,31 @@ La page Awesome Privacy n'est pas à proprement parlé un site mais plutôt un d
 
 | Application<br> propriétaire | Alternative(s)<br> Open-source | Commentaire |
 |----------|----------|----------|
-| Whatsapp, Messenger, Wickr, Threema, Viber, WeChat... | Signal,<br>Session,<br>Conversations_im,<br>Briar | Exceptionnellement ici 4 alternatives vous sont fournies, le sujet étant sensibles : Signal reste une application robuste pour sa vie privée, Session son pendant côté décentralisé, Conversations pour sa base XMPP et Briar pour son côté plus confidentiel pair à pair. Attention : aucune application n'est dénuée d'inconvénients !<br>Un article spécifique est dédié aux [Messageries](/debutant/communications) alternatives, nous vous renvoyons vers cet article complet si nécessaire. |
-| Google Messages, Google Hangout, SMS/MMS, ... | Simple SMS,<br>Silence (**\***) | En remplacement de toute application propriétaire de gestion des SMS/MMS.<br>Pour l'application Silence, merci de vous référer à notre article sur les [Messageries](/debutant/communications) où nous expliquont la raison |
+| Whatsapp,<br> Messenger,<br> Wickr,<br> Threema,<br> Viber,<br> WeChat... | Signal,<br>Session,<br>Conversations_im,<br>Briar | Exceptionnellement ici 4 alternatives vous sont fournies, le sujet étant sensibles : Signal reste une application robuste pour sa vie privée, Session son pendant côté décentralisé, Conversations pour sa base XMPP et Briar pour son côté plus confidentiel pair à pair. Attention : aucune application n'est dénuée d'inconvénients !<br>Un article spécifique est dédié aux [Messageries](/debutant/communications) alternatives, nous vous renvoyons vers cet article complet si nécessaire. |
+| Google Messages, <br>Google Hangout,<br> SMS/MMS, ... | Simple SMS,<br>Silence (**\***) | En remplacement de toute application propriétaire de gestion des SMS/MMS.<br>Pour l'application Silence, merci de vous référer à notre article sur les [Messageries](/debutant/communications) où nous expliquont la raison |
 | Telegram | Forkgram,<br>Nekogram X | Tous de parfaits remplaçants, avec un minimum voire sans traceur, attention à la configuration en plus à peaufiner. Néanmoins, nous restons sur un modèle avec serveur à sources fermées. |
 | Signal | Langis,<br>Molly | Signal n'est pas trouvable sur des dépôts alternatifs (type F-Droid), dû à la politique de leurs principaux développeurs. Nous conseillons donc de passer par des forks stables et reconnus, [Langis](https://langis.cloudfrancois.fr/) ou [Molly](https://molly.im/). |
-| Chrome, Firefox, Opera, IE, Edge... | Mull,<br>Vanadium | Un article spécifique est dédié aux [Navigateurs internet](/debutant/navigateurs), nous vous renvoyons vers cet article complet si nécessaire. |
+| Chrome, <br>Firefox, <br>Opera,<br> IE, Edge... | Mull,<br>Vanadium | Un article spécifique est dédié aux [Navigateurs internet](/debutant/navigateurs), nous vous renvoyons vers cet article complet si nécessaire. |
 | Applications E-Mail | Fairemail,<br>K-9 mail | Appelé également Clients Emails. Si vous désirez garder votre adresse Gmail ou Outlook, ce peut être une excellente alternative aux applications GAFAM<br>Note : Fairemail ne doit pas être installé via Play Store, mais directement depuis leur [site](https://email.faircode.eu/). |
-| Google Maps, Waze, Apple Map... | OsmAnd+,<br>Organic Maps | Pas aussi efficaces que Waze ou Google Maps mais ces apps font le travail de base très correctement, et tendent à évoluer petit à petit.<br>Note : si vous avez vraiment besoin de Waze : installez-le via Aurora Store et ajoutez l'application dans le profil professionnel ; vous pouvez également rester en "invité" sans vous connecter. |
-| Youtube, Dailymotion... | NewPipe,<br>LibreTube | NewPipe est une des alternatives les plus avancées et crédibles afin de visionner les vidéos Youtube : téléchargements des vidéos possibles ainsi que possibilité de s'abonner sur les chaines. Pas de notification en revanche. Il existe aussi une application avec bloqueur de publicités. |
+| Google Maps,<br> Waze,<br> Apple Map... | OsmAnd+,<br>Organic Maps | Pas aussi efficaces que Waze ou Google Maps mais ces apps font le travail de base très correctement, et tendent à évoluer petit à petit.<br>Note : si vous avez vraiment besoin de Waze : installez-le via Aurora Store et ajoutez l'application dans le profil professionnel ; vous pouvez également rester en "invité" sans vous connecter. |
+| Youtube,<br> Dailymotion... | NewPipe,<br>LibreTube | NewPipe est une des alternatives les plus avancées et crédibles afin de visionner les vidéos Youtube : téléchargements des vidéos possibles ainsi que possibilité de s'abonner sur les chaines. Pas de notification en revanche. Il existe aussi une application avec bloqueur de publicités. |
 | Google Appels, ... | Simple Dialer | En remplacement de toute application propriétaire de gestion des appels. |
 | Google Calendar, ... | Simple Calendar,<br>Etar | En remplacement de toute application propriétaire de calendrier. |
-| Google Files, Fichiers, ... | Simple File Manager,<br>Material Files | En remplacement de toute application propriétaire de gestion de fichiers. |
-| Google Keep, OneNote, ... | Simple Notes,<br>Notally | En remplacement de toute application propriétaire de prises de note ou de checklist. |
+| Google Files,<br> Fichiers, ... | Simple File Manager,<br>Material Files | En remplacement de toute application propriétaire de gestion de fichiers. |
+| Google Keep,<br> OneNote, ... | Simple Notes,<br>Notally | En remplacement de toute application propriétaire de prises de note ou de checklist. |
 | Google Météo | Geometric Weather | Breezy Weather | Pour les informations météorologiques. |
 | Reddit | Slide,<br>Infinity | Pour un client Reddit afin de réduire la collecte de données. |
-| Google Password, LastPass, Dashlane, Nordpass... | KeePassDX,<br>Bitwarden | Un article spécifique est dédié aux [Gestionnaires de mots de passe](/debutant/gestionnaire-mots-passe) alternatives, nous vous renvoyons vers cet article complet si nécessaire. |
-| Google Auth, Microsoft Auth, Authy | Aegis Authenticator | Pour le 2FA (via TOTP). |
-| GBoard, Swiftkey, ... | Florisboard,<br>Simple Keyboard | Pour un clavier alternatif à celui d'AOSP et Google ou autres solutions propriétaires de clavier Android. |
+| Google Password,<br> LastPass,<br> Dashlane,<br> Nordpass... | KeePassDX,<br>Bitwarden | Un article spécifique est dédié aux [Gestionnaires de mots de passe](/debutant/gestionnaire-mots-passe) alternatives, nous vous renvoyons vers cet article complet si nécessaire. |
+| Google Auth,<br> Microsoft Auth,<br> Authy | Aegis Authenticator | Pour le 2FA (via TOTP). |
+| Google Board, <br>Swiftkey, ... | Florisboard,<br>Simple Keyboard | Pour un clavier alternatif à celui d'AOSP et Google ou autres solutions propriétaires de clavier Android. |
 | Wetransfer | Lufi,<br>Cijoint_com | - |
 | Doodle | Framadate | Accès en ligne : [ici](https://framadate.org/) |
-| Microsoft Office, Google Office Suite | Collabora Office | Collabora Office est l’implémentation de Libreoffice sur mobile. Disponible via un dépôt, nativement sur Droid-ify. A installer sur tous les profils pour pouvoir ouvrir des documents sur chaque profil [CollaboraOnline](https://github.com/CollaboraOnline). |
+| Microsoft Office,<br> Google Office Suite | Collabora Office | Collabora Office est l’implémentation de Libreoffice sur mobile. Disponible via un dépôt, nativement sur Droid-ify. A installer sur tous les profils pour pouvoir ouvrir des documents sur chaque profil [CollaboraOnline](https://github.com/CollaboraOnline). |
 | Radio Android | OpenRadio,<br>RadioDroid | OpenRadio et RadioDroid sont basés sur [RadioBrowser](https://www.radio-browser.info/) et constitue une solution libre à toute application propriétaire de radio. |
 | Adobe PDF Reader... | PDF Viewer | PDF Viewer est le logiciel de GrapheneOS, et disponible [ici](https://github.com/GrapheneOS/PdfViewer) pour tous les autres systèmes. |
-| Skype, Zoom, Teams... | Jitsi Meet,<br>Jami | Quelques problèmes de déconnexions côté Jami.<br>Un article spécifique est dédié aux applications alternatives de [Vidéo conférence](/debutant/communications#vid%C3%A9o-conf%C3%A9rence), nous vous renvoyons vers cet article complet si nécessaire. |
+| Skype, <br>Zoom, <br>Teams... | Jitsi Meet,<br>Jami | Quelques problèmes de déconnexions côté Jami.<br>Un article spécifique est dédié aux applications alternatives de [Vidéo conférence](/debutant/communications#vid%C3%A9o-conf%C3%A9rence), nous vous renvoyons vers cet article complet si nécessaire. |
 | uTorrent... | TorrServe | Une application open source de téléchargement de fichiers Torrent sur Android. |
-| Application TTS (text-to-speech) | Dicio,<br>eSpeak | En remplacement de toute application type Google ou autres... Attention cela, dit ces applications ne sont pas abouties au même point. Il est donc difficile de trouver exactement le même fonctionnement ! |
+| Application TTS <br>(text-to-speech) | Dicio,<br>eSpeak | En remplacement de toute application type Google ou autres... Attention cela, dit ces applications ne sont pas abouties au même point. Il est donc difficile de trouver exactement le même fonctionnement ! |
 | Lecteur Vidéo | VLC | Lecteur Audio/Video très connu et très fonctionnel/complet, projet open source et libre. En remplacement de tout lecteur préinstallé par Google, Samsung ou autre constructeur. |
 {.dense}
 
