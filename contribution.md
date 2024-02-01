@@ -2,7 +2,7 @@
 title: Pour contribuer au projet
 description: N'hésitez pas à nous soutenir dans cette belle aventure...
 published: true
-date: 2024-02-01T11:41:38.181Z
+date: 2024-02-01T11:43:57.324Z
 tags: contribution, don, june, btc, liberapay
 editor: markdown
 dateCreated: 2023-10-28T07:07:02.446Z
@@ -27,7 +27,7 @@ Enfin, un énorme <3 MERCI <3 à tous ceux et celles qui participent activement,
 {.links-list}
 
 > Clef publique de notre portefeuille June :
-> <div style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"> <b>CRVXrtZdqNavdgHquv28PNUeNKQGd9b6rHMpSvERQYVm</b></div>
+> <div class="linebreak"> <b>CRVXrtZdqNavdgHquv28PNUeNKQGd9b6rHMpSvERQYVm</b></div>
 
 
 Pour en savoir plus sur la monnaie libre et la June (G1) :
