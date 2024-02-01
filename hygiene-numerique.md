@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-01-16T15:06:19.617Z
+date: 2024-02-01T12:41:56.748Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -502,7 +502,7 @@ Concernant l'utilisation d'un anti-virus ou anti-malware, même si certains malw
 
 | Détection en ligne | Commentaire |
 |----------|----------|
-| [VirusTotal](https://www.virustotal.com/gui/home/upload) | Leur politique de vie privée est assez problématique cependant car ils stipulent que "tout fichier que vous leur soumettrez seront gardés, partagés voire utilisés à des fins commerciales". Voilà pourquoi il est important de ne pas transmettre de fichiers potentiellement sensibles |
+| [VirusTotal](https://www.virustotal.com/gui/home/upload) | Leur politique de vie privée est assez problématique cependant car ils stipulent que "tout fichier que vous leur soumettrez seront gardés, partagés voire utilisés à des fins commerciales".<br>Voilà pourquoi il est important de ne pas transmettre de fichiers potentiellement sensibles |
 | [Hybrid analysis](https://hybrid-analysis.com/) | - |
 
 -   D'autres outils sont disponibles sur ce dépôt, pleins de ressources fabuleuses concernant les malwares :
