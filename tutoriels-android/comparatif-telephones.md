@@ -2,7 +2,7 @@
 title: Téléphones libérables
 description: Le but de cette page est de fournir une information plus détaillé sur les téléphones libérables pour orienter un achat ou vour facilement quel OS tourne officiellement sur le téléphone
 published: true
-date: 2024-02-01T20:42:30.088Z
+date: 2024-02-01T21:09:05.819Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-01T10:29:20.840Z
@@ -32,7 +32,7 @@ Vous trouverez ci-après la présentation de l'ensemble des colonnes avec leurs 
 > Le site [Gadget Versus](https://gadgetversus.com/processor/) est aussi un bon outil, car il permet de comparer la partie processeur et la partie graphique d'un SoC ou d'un téléphone indépendamment.
 {.is-info}
 
-- La RAM (ou mémoire vive) donne une indication sur le niveau de support du multitâche, et de certaines applications qui sont des gros consommateurs (les jeux par ex.) :
+- La [RAM](/glossaire#ram) (ou mémoire vive) donne une indication sur le niveau de support du multitâche, et de certaines applications qui sont des gros consommateurs (les jeux par ex.) :
   - 4 Go reste encore très compétitif aujourd'hui pour un usage quotidien (hors jeu) surtout sur un téléphone libéré qui n'intègre plus la majorité des processus qui consomment en arrière plan et consomment inutilement de la mémoire.
 - Le stockage représente la taille du “disque dur” de votre téléphone :
   - 8 Go, 16 Go voire 32 Go sont aujourd'hui trop peu pour un système Android ; le risque est de ne pas pouvoir installer beaucoup d'applications.
