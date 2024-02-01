@@ -1,8 +1,8 @@
 ---
-title: Tableau comparatif des téléphones libérables
+title: Comparatif des téléphones libérables
 description: Le but de cette page est de fournir une information plus détaillé sur les téléphones libérables pour orienter un achat ou vour facilement quel OS tourne officiellement sur le téléphone
 published: true
-date: 2024-02-01T11:06:30.453Z
+date: 2024-02-01T12:00:12.442Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-01T10:29:20.840Z
