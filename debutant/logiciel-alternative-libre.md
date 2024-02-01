@@ -2,7 +2,7 @@
 title: Trouver un logiciel alternatif libre
 description: Découvrez comment chercher des logiciels libres par vous même
 published: true
-date: 2024-02-01T12:38:15.779Z
+date: 2024-02-01T12:39:12.873Z
 tags: logiciel, application, alternative, alternatif
 editor: markdown
 dateCreated: 2023-02-10T23:29:04.219Z
@@ -91,10 +91,10 @@ Cordialement, Bastien.*"
 | UntrackMe | Redirige des applications et URLs de YouTube, Twitter, Instagram, Google Maps... vers des URLs d'alternatives libres (Exemple : nitter pour Twitter, instance invidious pour Youtube, etc.)<br>**Rendez-vous [ici](/debutant/android-roms) pour de plus amples informations.** |
 | Exodus privacy | Application servant à déterminer les traceurs dans les applications installées et savoir si les applications ne diffusent pas d’info vers l’extérieur.<br>**Rendez-vous [ici](/debutant/android-roms) pour de plus amples informations.** |
 | TerminalEmulator,<br>Termux | Accéder à votre téléphone via un terminal Linux.<br>**Réservé aux utilisateurs avancés** |
-| TrackerControl | Contrôle la collecte cachée des données personnelles, voire bloque les requêtes d'applications. Attention cela dit à sa configuration, l'application pouvant parfois bloquer entièrement l'accès à certaines applications ;).<br>**Rendez-vous [ici](/debutant/android-roms) pour de plus amples informations.** |
+| TrackerControl | Contrôle la collecte cachée des données personnelles, voire bloque les requêtes d'applications. Attention cela dit à sa configuration, l'application pouvant parfois bloquer entièrement l'accès<br>à certaines applications ;).<br>**Rendez-vous [ici](/debutant/android-roms) pour de plus amples informations.** |
 | LibreAV,<br>Hypatia | Applications Anti-virus/malware.<br>Pas nécessaire dans l'absolu au vu du modèle de sécurité d'AOSP/Android, il est néanmoins possible d'installer ce type d'applications. |
-| Rethink-App,<br>Datura | Il n'est pas forcément nécessaire d'utiliser un pare-feu sur Android. Cela dit, si vous en avez besoin, voici deux applications capables de fournir cette fonction : [Rethink DNS+Firewall](https://github.com/celzero/rethink-app) et Datura (uniquement disponible sur /e/OS). |
-| Shelter,<br>Insular | Applications Profil Professionnel (Work Profile).<br>Ces applications seront fortes utiles si votre ROM n'implémente pas directement la fonction "profil professionnel" dans leur ROM (ce n'est pas le cas de CalyxOS par ex. qui l'implémente d'origine). Le profil professionnel vous évite de créer des nouveaux utilisateurs et permet d'isoler certaines applications du profil principal plus facilement. Cependant, l'isolation ne sera pas optimale...<br>**Rendez-vous [ici](/intermediaire/virtualisation) pour de plus amples informations.**  |
+| Rethink-App,<br>Datura | Il n'est pas forcément nécessaire d'utiliser un pare-feu sur Android. Cela dit, si vous en avez besoin, voici deux applications capables de fournir cette fonction : [Rethink DNS+Firewall](https://github.com/celzero/rethink-app) et Datura<br>(uniquement disponible sur /e/OS). |
+| Shelter,<br>Insular | Applications Profil Professionnel (Work Profile).<br>Ces applications seront fortes utiles si votre ROM n'implémente pas directement la fonction "profil professionnel" dans leur ROM (ce n'est pas le cas de CalyxOS par ex. qui l'implémente d'origine).<br>Le profil professionnel vous évite de créer des nouveaux utilisateurs et permet d'isoler certaines applications du profil principal plus facilement. Cependant, l'isolation ne sera pas optimale...<br>**Rendez-vous [ici](/intermediaire/virtualisation) pour de plus amples informations.**  |
 {.dense}
 
 # Sources Alternatives
