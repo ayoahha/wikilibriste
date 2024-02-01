@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-02-01T12:06:58.658Z
+date: 2024-02-01T12:08:28.731Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -575,7 +575,8 @@ Secure Shell (SSH) est un protocole de communication chiffré entre 2 machines. 
 C'est aussi un logiciel : serveur ``sshd`` et client ``ssh``. Le client est installé par défaut sur la plupart des distributions GNU/Linux.
 
 Voici une sélection de logiciels libres qui proposent un client ssh évolué avec interface graphique et bien d'autres fonctionnalités :
-| **Client SSH** | Linux | BSD | MacOS | Windows | Android | iOS
+
+| Client SSH | Linux | BSD | MacOS | Windows | Android | iOS
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | [Tabby Terminal](https://tabby.sh/) | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: |
 | [Remmina](https://remmina.org/how-to-install-remmina/) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: |
