@@ -2,7 +2,7 @@
 title: Les distributions GNU/Linux
 description: Article relatif aux distributions GNU/Linux que le collectif recommande...
 published: true
-date: 2024-02-01T12:20:39.120Z
+date: 2024-02-01T12:22:16.624Z
 tags: linux, debutant, intermédiaire, débutant, intermediaire, initié, expert
 editor: markdown
 dateCreated: 2022-11-24T21:02:27.494Z
@@ -330,7 +330,7 @@ Nous fournissons ici une solution différente : l'idée est d'installer une dist
 | Nom du Kernel | URL | Commentaires |
 |----------|----------|----------|
 | Liquorix | [Site de Liquorix](https://liquorix.net/) | Kernel pouvant être installé sur base Ubuntu ou Arch Linux.<br>**Une ligne de commande est nécessaire uniquement !** |
-| Linux TKG | [Site de TKG](https://github.com/Frogging-Family/linux-tkg) | Ce n'est pas à proprement parlé un kernel, mais il s'agit d'un outil qui permet de patcher le kernel<br>de votre distribuion afin de l'optimiser pour le gaming.<br>**Peut-être un peu plus complexe à mettre en place.**|
+| Linux TKG | [Site de TKG](https://github.com/Frogging-Family/linux-tkg) | Ce n'est pas à proprement parlé un kernel, mais il s'agit d'un outil qui permet de patcher le kernel de votre distribuion afin de l'optimiser pour le gaming.<br>**Peut-être un peu plus complexe à mettre en place.**|
 | XanMod | [Site de XanMod](https://xanmod.org/) | XanMod s'installe uniquement sur une distribution avec une base Debian ou Ubuntu.<br>**Quelques lignes de commande sont nécessaires pour utiliser ce kernel.**<br>_Attention_ : il est nécessaire de sélectionner le kernel Xanmod-RT pour le gaming. |
 {.dense}
 
