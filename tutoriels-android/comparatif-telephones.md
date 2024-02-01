@@ -2,7 +2,7 @@
 title: Tableau comparatif des téléphones libérables
 description: Le but de cette page est de fournir une information plus détaillé sur les téléphones libérables pour orienter un achat ou vour facilement quel OS tourne officiellement sur le téléphone
 published: true
-date: 2024-02-01T10:29:20.840Z
+date: 2024-02-01T10:41:41.340Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-01T10:29:20.840Z
@@ -37,11 +37,24 @@ Vous trouverez ci-après la présentation de l'ensemble des colonnes avec leurs 
   - 64 Go est suffisant si vous n'installez pas de grosses applications (jeux très lourd par ex.) et si vous disposez d'une carte SD dans le téléphone pour stocker vos photos et vidéos.
 - L'écran vous donne la taille de la diagonale de l'écran en pouce : en général, plus l'écran est grand, meilleure sera la batterie. La taille de l'écran est une question de préférences personnelles pour le confort visuel et la prise en main du téléphone.
 - Les colonnes suivantes indiquent le support des ROM disponibles pour ledit téléphone.
-  - Pour les ROM Android : plus d'information sur ces ROMs sur la page dédiée du [wiki](/debutant/android-roms). Est précisé (quand disponible), la version de la ROM et la version d'Android (si plus maintenu officiellement, `legacy` sera utilisée).
-  - Si toutes les ROMs précédentes restant des Android, voici maintenant les ROMs Linux qui sont en général incompatible avec les application Android (sauf avec certaines versions de Sailfish OS qui est capable de supporter des app mais n'est pas entièrement Open source). On a donc les ROMs Linux Postmarket OS, Sailfish OS et Ubuntu Touch.
-- Suit ensuite le score Ifixit quand disponible qui donne la réparabilité, ainsi que la présence ou pas d'une batterie démontable (facilement, sans besoin de médiator et de sèche cheveux)
-- Et enfin la facilité de déverrouillage du bootloader, opération nécessaire pour changer le système d'exploitation.
-- Pour exploiter au mieux ce tableau, il est conseillé d'en faire un copier collé dans Libre Office Calc ou équivalent afin de bénéficier des filtres et du tri du tableau.
+  - **COL 10 à 15** - Pour les ROM Android : plus d'information sur ces ROMs sur la page dédiée du [wiki](/debutant/android-roms). Est précisé (quand disponible), la version de la ROM et la version d'Android (si plus maintenu officiellement, `legacy` sera utilisée).
+  - **COL 16 à 18** - Pour les ROM GNU/Linux : sont en général incompatibles avec les applications Android (sauf avec certaines versions de Sailfish OS, mais n'est pas entièrement Open Source). Sont concernées les ROMs Linux Postmarket OS, Sailfish OS et Ubuntu Touch.
+- Le score I-Fixit, quand disponible, : ce score donne le niveau de réparabilité du téléphone, ainsi que la présence ou non d'une batterie démontable (facilement, sans besoin de médiator et de sèche cheveux !).
+- La facilité de déverrouillage du bootloader, opération nécessaire pour changer le système d'exploitation.
+  - Plus d'information sur la libération du bootloader sur la page dédiée du [wiki](/tutoriels-android/bootloader-unlock)
 
-> La liste des téléphones ne se veux pas complète ni constamment à jour, la priorité est axé sur les téléphones capable de faire tourner Android ou Linux de manière fluide, les téléphones facilement disponible, les téléphones disposant de ROM officiellement supporté par une fondation ou entreprise (/e/, Lineage, Calyx…). Il y aura donc toujours des téléphones qui manqueront, des prix pas encore renseignés et des informations à mettre à jour.
-{.is-info}
+
+Afin de bénéficier des filtres et du tri du tableau, voici la version tableur sous forme de fichier :
+
+
+> La liste des téléphones présentée dans ce tableau ne se veut pas exhaustive ni à jour au mois près. L'objectif de ce tableau est de présenter globalement d'après nos retours d'expérience utilisateurs :
+> ~~ Les téléphones capables de faire tourner Android ou Linux de manière fluide,
+> ~~ Les téléphones facilement disponibles,
+> ~~ Les téléphones disposant de ROM officiellement supportées par une fondation ou entreprise (Murena, Lineage, Calyx, etc.).
+>
+> **Il est possible qu'il manque des téléphones, ou que des prix ne soient pas encore renseignés ou à jour**.
+> Si tel est le cas, n'hésitez pas à ajouter un commentaire en fin d'article.
+{.is-warning}
+
+
+
