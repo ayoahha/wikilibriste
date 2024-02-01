@@ -2,7 +2,7 @@
 title: Les distributions GNU/Linux
 description: Article relatif aux distributions GNU/Linux que le collectif recommande...
 published: true
-date: 2024-02-01T11:45:24.385Z
+date: 2024-02-01T11:46:37.060Z
 tags: linux, debutant, intermédiaire, débutant, intermediaire, initié, expert
 editor: markdown
 dateCreated: 2022-11-24T21:02:27.494Z
@@ -81,6 +81,7 @@ Vous venez de Windows ou de Mac OS, ici vous trouverez les 3 distributions que n
 | Linux Mint | [Site de Linux Mint](https://linuxmint.com/download.php) | **Téléchargez la version "Cinnamon Edition"**<br>Distribution fondée par le français Clément Lefebvre. <br>Elle est très stable et maintenue à jour très régulièrement ce qui en fait une des distros les plus appréciées. | [Forum Linux Mint](https://forums.linuxmint.com/) | Suivre notre [tutoriel](/tutoriels/mint) |
 | Zorin OS | [Site de Zorin OS](https://zorin.com/os/download/) | **Téléchargez la version "Pro" ou "Core"**<br>Pour PC plutôt récents, mais surtout pour ceux qui viennent de Windows.<br>Il existe l'édition Pro pour soutenir le projet et qui apporte des fonctionnalités supplémentaires. | [Forum ZorinOS](https://forum.zorin.com/) | Suivre notre [tutoriel](/tutoriels/zorin) |
 | Ubuntu LTS | [Site de Ubuntu-FR](https://www.ubuntu-fr.org/download/) | Une des distributions les plus connues...<br>Nous conseillons la branche LTS (Long Term Support) car elle amène une certaine stabilité et permet un support et des mises à jour jusqu'à 5 ans.<br>**Attention cepandant, nous sommes de plus en plus méfiant vis à vis de Canonical, l'éditeur d'Ubuntu, car cette entité pousse son système de paquet Snap, au détriment de Flatpak, ce qui est contraire à la philosophie du Libre ! Il s'agit d'un point d'attention à considérer.** | [Forum de Ubuntu](https://forum.ubuntu-fr.org/) | Suivre notre [tutoriel](/tutoriels/ubuntu) |
+{.dense}
 
 ### Aller plus loin
 
