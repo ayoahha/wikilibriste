@@ -2,13 +2,15 @@
 title: Tableau comparatif des téléphones libérables
 description: Le but de cette page est de fournir une information plus détaillé sur les téléphones libérables pour orienter un achat ou vour facilement quel OS tourne officiellement sur le téléphone
 published: true
-date: 2024-02-01T11:05:03.850Z
+date: 2024-02-01T11:06:30.453Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-01T10:29:20.840Z
 ---
 
 Trouver un téléphone libérable n'est pas facile, surtout quand le question du budget est en jeu. Cette page a été créée dans le but de vous aider dans cette démarche. 
+
+# Présentation de l'utilisation du tableau
 
 Vous trouverez ci-après la présentation de l'ensemble des colonnes avec leurs utilisations : 
 
@@ -56,6 +58,7 @@ Afin de bénéficier des filtres et du tri du tableau, voici la version tableur 
 > Si tel est le cas, n'hésitez pas à ajouter un commentaire en fin d'article.
 {.is-warning}
 
+# Tableau des modèles
 
 | Marque            | Modèle                                               | Code           | Sortie | MSRP (€) | SoC              | RAM min (Go) | Stockage min (Go) | Ecran (Pouce) | /e/OS                          | IodéOS              | LineageOS        | CalyxOS | GrapheneOS | DivestOS | PostmarketOS | SailfishOS | Ubuntu Touch | i-Fixit | Batterie rempl. | Dév. bootloader                                   |
 | ----------------- | ---------------------------------------------------- | -------------- | ------ | -------- | ---------------- | ------------ | ----------------- | ------------- | ------------------------------ | ------------------- | ---------------- | ------- | ---------- | -------- | ------------ | ---------- | ------------ | ------- | --------------- | ------------------------------------------------- |
