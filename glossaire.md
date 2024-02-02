@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-02-01T21:05:47.636Z
+date: 2024-02-02T10:15:35.377Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -231,6 +231,16 @@ Nous recommandons d'utiliser
 {.is-info}
 
 - Sur Android : le client FTP [FTPClient](https://f-droid.org/packages/de.qwerty287.ftpclient/) est tout indiqué.
+
+# GAFAM
+
+Sigle généralement utilisé pour mentionner les multinationales du numérique les plus puissantes, souvent nommés "les géants de la Tech" :
+- Google (groupe Alphabet)
+- Amazon
+- Facebook (groupe Meta)
+- Apple
+- Microsoft
+
 
 # Hack - hacker
 De l'anglais "hack" : bidouiller, faire preuve d'astuce.
