@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2024-02-01T12:28:59.520Z
+date: 2024-02-02T10:24:10.513Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -28,7 +28,7 @@ Nous verrons ici les principaux avantages et inconvénients des distributions al
 
 ## Le constat
 
-Vous pouvez donc changer votre ROM pour réduire le pistage des GAFAM et BATX, et pour autant potentiellement toujours être « espionné », potentiellement par des sociétés privées ([logiciel espion Pegasus](https://fr.wikipedia.org/wiki/Pegasus_(logiciel_espion))) ou des organismes étatiques, selon votre niveau d'exposition.
+Vous pouvez donc changer votre ROM pour réduire le pistage des [GAFAM](/glossaire#gafam) et BATX, et pour autant potentiellement toujours être « espionné », potentiellement par des sociétés privées ([logiciel espion Pegasus](https://fr.wikipedia.org/wiki/Pegasus_(logiciel_espion))) ou des organismes étatiques, selon votre niveau d'exposition.
 
 Il est généralement admis par la communauté d'experts en sécurité qu'un téléphone moderne est un outil d'espionnage avant tout, ayant pour « *option* » la téléphonie ! L'espionnage via la carte SIM par exemple n'a pas de solution de contournement simple ; un des moyens les plus connus étant de mettre le téléphone dans un emballage métallique (pochette Faraday, emballages en aluminium (par exemple de chips!), etc.) afin d'être sûr de couper toutes les communications entrantes et sortantes.
 
