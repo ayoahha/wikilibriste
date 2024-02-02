@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-02-02T10:15:35.377Z
+date: 2024-02-02T10:28:55.666Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -55,6 +55,16 @@ Voici d'autres exemples de formats de fichiers d'installation sur d'autres syst�
 >
 > **Nous nous [déchargeons de toute responsabilité](/avertissement) si vous réalisez une telle opération, sans maîtriser ce que vous faites.**
 {.is-warning}
+
+# BATX
+
+Sigle généralement utilisé pour mentionner les multinationales chinoises du numérique les plus puissantes, au côté des [GAFAM](#gafam) américaines :
+- Baidu
+- Alibaba
+- Tencent
+- Xiaomi
+
+Note : Huawei pourrait être ajouté aux côtés des BATX.
 
 # Blockchain
 
