@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2024-02-02T10:24:10.513Z
+date: 2024-02-02T10:27:02.650Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -116,7 +116,7 @@ Concernant Rumble, voici le tweet de Chris Pavlovski :
 ## Avantages et inconvénients
 Installer une distribution alternative ou custom ROM sur son ordiphone a bien des avantages, mais aussi des inconvénients. Passons-les en revue.
 
--   Tout d'abord, cela permet de libérer son mobile des grandes entreprises qui pistent les utilisateurs et collectent leurs données, parfois même à leur insu, pour ensuite les exploiter en interne ou les revendre à des "Data Brokers". Pour ne citer qu'elles, les GAFAM (Google, Amazon, Facebook, Apple, Microsoft) et les BATX (Baidu, Alibaba, Tencent, Xiaomi) sont les plus connues. Huawei pourrait d'ailleurs être ajouté aux côtés des BATX.
+-   Tout d'abord, cela permet de libérer son mobile des grandes entreprises qui pistent les utilisateurs et collectent leurs données, parfois même à leur insu, pour ensuite les exploiter en interne ou les revendre à des "Data Brokers". Pour ne citer qu'elles, les [GAFAM](/glossaire#gafam) et les [BATX](/glossaire#batx) sont les plus connues. Certaines autres entités pourraient d'ailleurs être ajoutées : comme Huawei, Oracle, etc.
 -   À la place, les custom ROM privilégient le logiciel libre et open source, dont les avantages sont nombreux : pas de pistage, ni de publicité, plus de transparence sur les algorithmes et le code utilisés, le code source pouvant être audité par la communauté et les bogues de sécurité pouvant être corrigés plus rapidement. Mais les avantages des distributions alternatives pour Android ne s'arrêtent pas là. Les ROM alternatives sont développées et maintenues par des communautés qui continuent de maintenir à jour des "anciens" téléphones, qui ne sont rapidement plus maintenus par le fabricant (obsolescence programmée) ! Ils y apportent des correctifs de sécurité et de nouvelles fonctionnalités ou logiciels.
 -   Les distributions alternatives contiennent généralement assez peu d'applications système (celles que l'on ne peut désinstaller), afin de laisser libre choix à l'utilisateur et ne pas utiliser d'espace de stockage inutilement. Cela permet également d'améliorer la durée de vie de la batterie.
 
