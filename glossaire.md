@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-02-02T10:28:55.666Z
+date: 2024-02-02T10:29:38.013Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -250,6 +250,8 @@ Sigle généralement utilisé pour mentionner les multinationales du numérique 
 - Facebook (groupe Meta)
 - Apple
 - Microsoft
+
+L'équivalent pour la Chine est : [BATX](#batx).
 
 
 # Hack - hacker
