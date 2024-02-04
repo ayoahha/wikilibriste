@@ -2,7 +2,7 @@
 title: Debian
 description: Installation et configuration de Debian sur PC
 published: true
-date: 2023-12-21T16:39:23.422Z
+date: 2024-02-04T20:21:05.983Z
 tags: debutant, distribution, debian
 editor: markdown
 dateCreated: 2023-02-05T19:31:26.969Z
@@ -49,7 +49,7 @@ Chaque [version de Debian](https://fr.wikipedia.org/wiki/Historique_des_versions
 
 ## Quelle branche choisir ?
 
-Il existe donc 4 à 5 [branches actives de Debian](https://www.debian.org/releases/index.fr.html) (c’est à dire bénéficiant de mises à jour), nous ne parlerons que des 3 dernières :
+Il existe donc 4 à 5 [branches actives de Debian](https://www.debian.org/releases/index.fr.html) (c’est-à-dire bénéficiant de mises à jour), nous ne parlerons que des 3 dernières :
 - old-old-stable
 - old-stable
 - **stable** (nous recommandons)
