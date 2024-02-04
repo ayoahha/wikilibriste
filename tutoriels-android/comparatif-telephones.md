@@ -1,8 +1,8 @@
 ---
 title: Téléphones libérables
-description: Le but de cette page est de fournir une information plus détaillé sur les téléphones libérables pour orienter un achat ou vour facilement quel OS tourne officiellement sur le téléphone
+description: Le but de cette page est de fournir une information plus détaillée sur les téléphones libérables pour orienter un achat ou voir facilement quel OS tourne officiellement sur le téléphone.
 published: true
-date: 2024-02-04T08:57:13.105Z
+date: 2024-02-04T09:07:11.606Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-01T10:29:20.840Z
