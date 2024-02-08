@@ -2,7 +2,7 @@
 title: Sauvegarder ses données
 description: Sauvegarder et restaurer vos données sous Linux est crucial... Suivez le guide !
 published: true
-date: 2024-01-16T13:37:45.832Z
+date: 2024-02-08T18:42:20.235Z
 tags: debutant, intermediaire, sauvegarde, backup, restaurer, restore
 editor: markdown
 dateCreated: 2023-03-15T23:44:19.951Z
@@ -77,6 +77,7 @@ Il existe de nombreux de logiciels de sauvegarde des données personnelles. En v
 	- [LuckyBackup](https://luckybackup.sourceforge.net) : Avec interface graphique, il utilise rsync pour réaliser les sauvegardes.
 - [Duplicity](https://en.wikipedia.org/wiki/Duplicity_(software)) : Sans interface graphique, il n'est donc utilisable qu'en ligne de commandes. Nous vous recommandons plutôt **Déjà Dup** ! Cependant, il peut être utile sur un serveur.
 	- [Déjà Dup](https://wiki.gnome.org/Apps/DejaDup/Details) : Avec interface graphique, il utilise Duplicity pour réaliser les sauvegardes. Elles peuvent être chiffrées et stockées localement ou bien sur une machine distante (réseau local ou cloud). Très simple d'utilisation, nous recommandons pour les débutants !
+- [FreeFileSync](https://freefilesync.org/) : Avec interface graphique, mutlti-plateforme, sauvegarde par comparaison de fichiers. Très simple d'utilisation lui aussi et rapide.
 
 > **Pour la sauvegarde de données, Déjà Dup est la solution que nous recommandons et que nous allons détailler ci-après.** 
 {.is-success}
