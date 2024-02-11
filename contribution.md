@@ -2,7 +2,7 @@
 title: Pour contribuer au projet
 description: N'hésitez pas à nous soutenir dans cette belle aventure...
 published: true
-date: 2024-02-01T11:44:09.262Z
+date: 2024-02-11T14:59:43.710Z
 tags: contribution, don, june, btc, liberapay
 editor: markdown
 dateCreated: 2023-10-28T07:07:02.446Z
@@ -21,7 +21,7 @@ Enfin, un énorme <3 MERCI <3 à tous ceux et celles qui participent activement,
 
 2. Financièrement : *Vous pouvez autrement nous soutenir financièrement de 2 manières :*
 
-
+- [OpenCollective *En nous faisant un don sur Open Collective*](https://opencollective.com/wikilibriste/)
 - [Liberapay *En nous faisant un don en euro sur la plateforme liberapay*](https://fr.liberapay.com/wikilibriste/)
 - [June *En nous faisant un don en monnaie libre June sur notre portefeuille G1*](https://duniter.fr)
 {.links-list}
