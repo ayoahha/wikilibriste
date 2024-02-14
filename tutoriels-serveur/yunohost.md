@@ -2,7 +2,7 @@
 title: Installer et Utiliser Yunohost
 description: Une solution pour l'auto-hébergement simplifiée...
 published: true
-date: 2023-12-19T16:31:11.811Z
+date: 2024-02-14T23:08:14.513Z
 tags: yunohost, hébergement
 editor: markdown
 dateCreated: 2023-03-07T11:14:36.633Z
@@ -423,7 +423,7 @@ Une fois fait, vous pouvez l'éjecter de votre ordinateur.
   ```bash
   cp "/etc/fstab" "/etc/fstab.bkp"
   uuid=$(blkid -s UUID -o value /dev/$device_name)
-  echo 'UUID=$uuid /mnt/hdd ext4 defaults,nofail 0 2' >> /etc/fstab
+  echo "UUID=$uuid /mnt/hdd ext4 defaults,nofail 0 2" >> /etc/fstab
   echo '/mnt/hdd/home /home none defaults,bind 0 2' >> /etc/fstab
   ```
 
@@ -480,4 +480,4 @@ Il suffit de **suivre les étapes suivantes** :
 Pour ajouter des utilisateurs à Nextcloud, nous vous conseillons de passer par l'interface Yunohost qui gère l'ensemble des utilisateurs pour tous les services. Pour ce faire, il suffit de suivre exactement les mêmes étapes qu'au paragraphe 5 : *Création du premier utilisateur (admin)*. Les utilisateurs ajoutés ne seront pas administrateurs, mais simplement utilisateurs.
 
 ---
-![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): Esf, Ayo*
+![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): Jesf, Ayo*
