@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2024-02-02T10:27:02.650Z
+date: 2024-02-15T11:35:07.718Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -870,21 +870,11 @@ Vous arrivez ensuite à la partie authentification :
 #### Applications de sécurité
 
 _**Pare-Feu (Firewall)**_
-Un pare-feu (firewall) est un outil conçu pour filtrer les flux de données selon des règles que vous définissez. Autrement dit : un pare-feu permet d'autoriser (*vert*) ou d'interdire (*gris*) les accès réseaux (internet, wifi...) à une application. 
 
-Pour les applications qui n'ont pas besoin d'un accès internet : bloquez-les dans le pare-feu.
+Il n'est pas nécessaire sur GrapheneOS d'installer un pare-feu.
 
-Il n'est pas nécessaire sur GrapheneOS d'installer un pare-feu, néanmoins vous pouvez très bien utiliser l'application [Datura](https://calyxos.org/docs/tech/datura-details/).
-
-Faites vos essais en lançant l'application :
-- vous cochez (devient vert) : vous autorisez les accès.
-- on enlève la coche (devient gris), l'application ne peut pas accéder au réseau.
-
-![datura.png](/images/datura.png =300x){.align-center}
-
-:point_right: Avant même d'ouvrir pour la première fois une *application fraîchement installée*, prenez systématiquement pour *habitude de la bloquer dans le Pare-feu* (si l'application le permet bien sûr, c'est le cas par exemple de « Collabora Office » qui n'a pas besoin d'accéder à internet).
-
-> Il est important de faire des essais pour bien comprendre le fonctionnement : décochez une application qui accède à internet et lancez là par exemple.
+> GrapheneOS implémente déjà au niveau système un mécanisme de blocage des accès pour les applications.
+> Cf. la [FAQ](https://grapheneos.org/faq#firewall).
 {.is-info}
 
 _**VPN**_
