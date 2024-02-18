@@ -2,7 +2,7 @@
 title: Les moteurs de recherche
 description: Article liés aux moteurs de recherche internet et le côté respect de la vie privée...
 published: true
-date: 2023-12-15T11:29:39.382Z
+date: 2024-02-18T15:59:09.034Z
 tags: privacy, vie privée, moteurs, recherche, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:45:28.462Z
@@ -59,6 +59,7 @@ Alors évidemment, nous ne citerons pas les moteurs en lien direct avec des mult
 - Yahoo Search
 - Ask . com
 - Baidu
+- Yandex
 
 Inutile de dire que nous ne recommandons absolument pas ces moteurs de recherche. Nous allons plutôt analyser les alternatives crédibles (enfin présentées comme telles) à tous ces moteurs anti-vie privée...
 
