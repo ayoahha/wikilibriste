@@ -2,7 +2,7 @@
 title: Les navigateurs web
 description: Un article liés aux navigateurs internet et leur durcissement...
 published: true
-date: 2024-02-22T15:28:17.052Z
+date: 2024-02-22T15:28:56.154Z
 tags: navigateur, web, internet, privacy, vie privée, chrome, firefox, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:38:25.687Z
@@ -66,7 +66,7 @@ Le marché des navigateurs suit un peu sur le même chemin que les moteurs de re
 
 # Pour Téléphones
 
-[Aller directement à nos recommandations](#nos-recommandations)
+[Aller directement à nos recommandations](#nos-recommandations-1)
 
 ## Liste des navigateurs d'intérêt
 
