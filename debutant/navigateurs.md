@@ -2,7 +2,7 @@
 title: Les navigateurs web
 description: Un article liés aux navigateurs internet et leur durcissement...
 published: true
-date: 2024-01-29T20:50:00.552Z
+date: 2024-02-22T15:28:17.052Z
 tags: navigateur, web, internet, privacy, vie privée, chrome, firefox, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:38:25.687Z
@@ -26,21 +26,9 @@ Sachez que la part de marché des navigateurs web [^²] basés sur Google Chromi
 
 # Pour Ordinateurs
 
-## Tabs {.tabset}
-### Vous débutez
-Le marché des navigateurs suit un peu sur le même chemin que les moteurs de recherche malheureusement. Le marché est tel que nous n'en recommandons que très peu :
-- [Ungoogled Chromium *est probablement un des choix à faire. Il est néanmoins nécessaire de le configurer \**](https://github.com/ungoogled-software/ungoogled-chromium#downloads)
-- [Librewolf *est une excellente alternative, même si quelques requêtes Mozilla sont encore présentes au démarrage*](https://librewolf.net/installation/)
-- [Mullvad Browser *est ici encore une très bonne alternative, jeune certes, mais fournissant toutes les fonctionnalités nécessaires*](https://mullvad.net/fr/browser)
-{.links-list}
+[Aller directement à nos recommandations](#nos-recommandations)
 
-\* : Voir notre [tutoriel](/tutoriels/ungoogled-chromium) afin de configurer correctement Ungoogled Chromium.
-
-
-> _Note sur Tor Browser_ : nous ne recommandons pas forcément ce navigateur pour un usage quotidien, **mais pour des recherches ciblées**.
-{.is-info}
-
-### Aller plus loin
+## Liste des navigateurs d'intérêt
 
 | Navigateur Web | Editeur | Systèmes supportés | Moteur de rendu | Licence | Open Source | Installation |  Commentaires |
 |----------|----------|----------|----------|----------|----------|----------|----------|
@@ -62,10 +50,12 @@ Le marché des navigateurs suit un peu sur le même chemin que les moteurs de re
 [^6]: [Brave Browser Analysis](https://spyware.neocities.org/articles/brave)
 [^7]: [The shady world of Brave selling copyrighted data for AI training](https://stackdiary.com/brave-selling-copyrighted-data-for-ai-training/)
 
+## Nos recommandations
+
 Le marché des navigateurs suit un peu sur le même chemin que les moteurs de recherche malheureusement. Le marché est tel que nous n'en recommandons que très peu :
-- [Ungoogled Chromium *est probablement un des choix à faire. Il est néanmoins nécessaire de le configurer \**](https://github.com/ungoogled-software/ungoogled-chromium#downloads)
-- [Librewolf *est une excellente alternative, même si quelques requêtes Mozilla sont encore présentes au démarrage*](https://librewolf.net/installation/)
-- [Mullvad Browser *est ici encore une très bonne alternative, jeune certes, mais fournissant toutes les fonctionnalités nécessaires*](https://mullvad.net/fr/browser)
+- [Ungoogled Chromium *est probablement un des choix à faire. Il est néanmoins nécessaire de le configurer correctement \**](https://github.com/ungoogled-software/ungoogled-chromium#downloads)
+- [Librewolf *est une excellente alternative sur base firefox, même si quelques requêtes Mozilla sont encore présentes au démarrage*](https://librewolf.net/installation/)
+- [Mullvad Browser *est ici encore une très bonne alternative sur base firefox, jeune certes, mais fournissant toutes les fonctionnalités nécessaires*](https://mullvad.net/fr/browser)
 {.links-list}
 
 \* : Voir notre [tutoriel](/tutoriels/ungoogled-chromium) afin de configurer correctement Ungoogled Chromium.
@@ -76,23 +66,21 @@ Le marché des navigateurs suit un peu sur le même chemin que les moteurs de re
 
 # Pour Téléphones
 
-## Tabs {.tabset}
-### Vous débutez
-Le marché des navigateurs sur mobile est encore pire que celui sur PC fixe :
-- [Vanadium *pour la sécurité (uniquement disponible sur Pixels)*](https://github.com/GrapheneOS/Vanadium)
-- [Mull *est l'alternative crédible sur base Gecko*](https://gitlab.com/divested-mobile/mull-fenix)
-{.links-list}
+[Aller directement à nos recommandations](#nos-recommandations)
 
-### Aller plus loin
+## Liste des navigateurs d'intérêt
+
 | Navigateur Web | Editeur | Systèmes supportés | Moteur de rendu | Licence | Installation |  Commentaires |
 |----------|----------|----------|----------|----------|----------|----------|
 | Mull | Divested Mobile | Android | Gecko | Libre AGPL3 | Installer [F-Droid](https://f-droid.org/F-Droid.apk) et installer ensuite Mull depuis F-Droid | Mull est à Android ce que LibreWolf est aux ordinateurs. Rapide, dépourvue de trackers, très peu de télémétrie. |
 | Fennec | F-droid | Android | Gecko | Libre MPL2 | Installer [F-Droid](https://f-droid.org/F-Droid.apk) et installer ensuite Fennec depuis F-Droid | Fennec est un fork de Mozilla Fenix, avec la suppression d'une partie de la télémétrie. Il possède toujours des connexions avec Mozilla et Google et n'est donc pas entièrement dépourvu de trackers. |
-| Brave | Brave Inc. | Android | Blink | Libre MPL2 | Installer [F-Droid](https://f-droid.org/F-Droid.apk) puis depuis celui-ci installer [AuroraStore](https://f-droid.org/en/packages/com.aurora.store/) et enfin depuis Aurora Store, installer Brave | Voir plus haut. |
-| ~~Bromite~~ | Calyx Institute | Android | Blink | Libre GPL3 | Installer [F-Droid](https://f-droid.org/F-Droid.apk) puis activer le [dépôt](https://www.bromite.org/fdroid) et installer ensuite Bromite depuis F-Droid | Bromite est à Android ce que Ungoogled-Chromium est aux ordinateurs. Installé par défaut sur CalyxOs.<br><span class="red-text">**Note 1 : Les développeurs de Bromite ont cessé les développements de l'application (cf. leur message [ici](https://github.com/bromite/bromite/discussions/2573)). Bromite ne doit plus être utilisé.**</span> <br><span class="red-text">**Note 2 : Un fork a été fait par quelques développeurs, qui appellent maintenant l'application [Cromite](https://github.com/uazo/cromite). Nous recommandons néanmoins d'attendre avant d'utiliser Cromite afin d'avoir le plus de recul possible sur le sérieux de l'équipe.**</span> |
+| Brave | Brave Inc. | Android | Blink | Libre MPL2 | Installer [F-Droid](https://f-droid.org/F-Droid.apk) puis depuis celui-ci installer [AuroraStore](https://f-droid.org/en/packages/com.aurora.store/)<br>et enfin depuis Aurora Store, installer Brave | Voir plus haut. |
+| ~~Bromite~~ | Calyx Institute | Android | Blink | Libre GPL3 | Installer [F-Droid](https://f-droid.org/F-Droid.apk) puis activer le [dépôt](https://www.bromite.org/fdroid) et installer ensuite <br>Bromite depuis F-Droid | Bromite est à Android ce que Ungoogled-Chromium est aux ordinateurs. Installé par défaut sur CalyxOs.<br><span class="red-text">**Note 1 : Les développeurs de Bromite ont cessé les développements de l'application (cf. leur message [ici](https://github.com/bromite/bromite/discussions/2573)). Bromite ne doit plus être utilisé.**</span> <br><span class="red-text">**Note 2 : Un fork a été fait par quelques développeurs, qui appellent maintenant l'application [Cromite](https://github.com/uazo/cromite). Nous recommandons néanmoins d'attendre avant d'utiliser Cromite afin d'avoir le plus de recul possible sur le sérieux de l'équipe.**</span> |
 | Vanadium | Graphene | Android | Blink | Libre GPL3 | - | [Vanadium](https://github.com/GrapheneOS/Vanadium) n'est disponible que sur GrapheneOS et est basé lui aussi sur Ungoogled-Chromium. |
-| Tor Browser | The Tor Project | Android | Gecko | Libre MPL2 | Installer [F-Droid](https://f-droid.org/F-Droid.apk) puis activer le dépôt **Guardian** et installer ensuite Tor Browser depuis F-Droid | Voir plus haut. |
+| Tor Browser | The Tor Project | Android | Gecko | Libre MPL2 | Installer [F-Droid](https://f-droid.org/F-Droid.apk) puis activer le dépôt **Guardian** et installer <br>ensuite Tor Browser depuis F-Droid | Voir plus haut. |
 {.dense}
+
+## Nos recommandations
 
 Le marché des navigateurs sur mobile est encore pire que celui sur PC fixe :
 - [Vanadium *pour la sécurité (uniquement disponible sur Pixels)*](https://github.com/GrapheneOS/Vanadium)
