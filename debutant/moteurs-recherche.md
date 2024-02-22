@@ -2,7 +2,7 @@
 title: Les moteurs de recherche
 description: Article liés aux moteurs de recherche internet et le côté respect de la vie privée...
 published: true
-date: 2024-02-18T15:59:09.034Z
+date: 2024-02-22T15:32:00.734Z
 tags: privacy, vie privée, moteurs, recherche, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:45:28.462Z
@@ -20,8 +20,11 @@ Le moteur de recherche le plus connu est, bien entendu, "Google Search" et à lu
 
 [^¹]: [Google Search](https://gs.statcounter.com/search-engine-market-share) tue le marché.
 
-Pourquoi éviter d'utiliser Google Search ?
-==========================================
+# Nos recommandations
+[Aller directement à nos recommandations](#pour-conclure).
+
+# Analyses
+## Pourquoi éviter d'utiliser Google Search ?
 
 Entre autre car toutes les données suivantes sont conservées par le moteur de recherche de Google :
 
@@ -34,25 +37,7 @@ Entre autre car toutes les données suivantes sont conservées par le moteur de 
 
 Il est également à préciser qu'il ne s'agit pas du seul moteur de recherche qui conserve ces données : Bing (Microsoft), Yahoo Search, Baidu, Yandex également sont concernés.
 
-Nos recommandations
-==========================================
-
-# Tabs {.tabset}
-## Vous débutez
-
-Nos recommandations sont très peu nombreuses :
--  **[SearX](https://searx.github.io/searx/)** reste la meilleure alternative, pour une personne plus adaptable et investie, et en sélectionnant avec une bonne instance _sans Cloudflare_. Voici les instances que nous recommandons :
-     - https://searx.tiekoetter.com 🇩🇪 
-     - https://search.unlocked.link 🇫🇮
-     - https://spot.ecloud.global  🇫🇷 (instance maintenue par la eFoundation de la ROM /e/OS ;))
--  **[Mojeek](https://www.mojeek.com/)** pour toute personne ayant un intérêt pour leur vie privée, mais ne soyez pas trop regardant sur les résultats et sur le code source propriétaire !
-- **[Gibiru](https://gibiru.com/)** reste une alternative crédible, notamment pour les résultats Google.
-
-
-{.grid-list}
-
-## Aller plus loin
-### Blâme comportement
+## Blâme comportement
 Alors évidemment, nous ne citerons pas les moteurs en lien direct avec des multinationales connues pour collecter toutes sortes de données privées, ou des pays pratiquant une quelconque censure nationale assumée, comme :
 - Google Search
 - Microsoft Bing
@@ -63,9 +48,9 @@ Alors évidemment, nous ne citerons pas les moteurs en lien direct avec des mult
 
 Inutile de dire que nous ne recommandons absolument pas ces moteurs de recherche. Nous allons plutôt analyser les alternatives crédibles (enfin présentées comme telles) à tous ces moteurs anti-vie privée...
 
-### Avertissements
+## Avertissements
 
-#### DuckDuckGo
+### DuckDuckGo
 [DuckDuckGo](https://duckduckgo.com/) est très certainement le moteur de recherche alternatif le plus connu et finalement le plus controversé. Il croise différentes sources pour donner des résultats pertinents. Il utilise l'indexation de Bing (Microsoft) et a été _justement_ pendant un temps sujet de controverses pour ses liens avec Microsoft [^²] et [^³] qui a fait scandale dans la communauté.
 
 [^²]: [DDG et le problème Microsoft](https://help.duckduckgo.com/duckduckgo-help-pages/company/ads-by-microsoft-on-duckduckgo-private-search/#:~:text=At%20that%20point%2C%20Microsoft%20Advertising%20will%20use%20your%20full%20IP%20address%20and%20user%2Dagent%20string%20so%20that%20it%20can%20properly%20process%20the%20ad%20click%20and%20charge%20the%20advertiser), ouvertement mis en avant sur leur site.
@@ -88,7 +73,7 @@ Très récemment (Mars 2022), DDG a annoncé appliquer une censure sur les résu
 > DuckDuckGo a annoncé avoir pris des mesures concernant la télémétrie. Cela dit depuis la mise en place de leur politique de censure, et l'évolution négative de leur politique de collecte de données, nous ne recommandons plus ce moteur de recherche.
 {.is-danger}
 
-#### Brave Search
+### Brave Search
 [Brave search](https://search.brave.com/) est le moteur de recherche de la société Brave Inc., moteur "*respectueux de la vie privée*" d'après leur cahier des charges. Il implémente son propre moteur d'indexation (au contraire de Duckduckgo), donc dans 99% des cas, il ne fait pas appel à ceux de Google ou Bing (hormis pour les images, qui sont indexées sur Bing) ; pour les 1% restants, il fait appel aux autres moteurs de recherche même s'il prétend le faire de façon privée [^⁷] bien entendu. Également, récemment Brave Search a annoncé mettre à jour leur modèle de financement vers de la publicité [^⁸], même si non ciblée et respectueuse de notre vie privée, bien entendu.
 
 Après avoir exposé l'enveloppe, voyons ce qu'elle contient :
@@ -119,7 +104,7 @@ Après avoir exposé l'enveloppe, voyons ce qu'elle contient :
 > Brave n'en est pas à son coup d'essai, et ce n'est probablement pas fini (cf. notre article sur les [navigateurs](/debutant/navigateurs)). Enfin, même si la pertinence de leurs résultats est correcte, nous doutons qu'il utilise réellement son propre index (puisque les résultats sont souvent les mêmes que ceux de Google. Coïncidence ?)... il y a de très fortes chances qu'il applique les mêmes modes de censure que Google. Nous ne recommandons bien évidemment pas.
 {.is-danger}
 
-#### Qwant
+### Qwant
 
 [Qwant](https://www.qwant.com/) est un moteur de recherche Français, à l'origine projet aux intentions plus que louables : renforcer la vie privée de ses utilisateurs lors des recherches web. Néanmoins, il apparaît que celui-ci n'a pas tout à fait tenu ses promesses [^¹1], [^¹2], [^¹3], [^¹4] et [^¹5]. Côté technique, il reprend donc les résultats de recherche de Bing (Microsoft), et coopère également avec ces derniers pour l'affichage de publicités.
 
@@ -142,12 +127,12 @@ Avons-nous besoin réellement d'aller plus loin ? Tentons-un coup d'oeil à leur
 [^¹6]: [Qwant censure](https://twitter.com/QwantCom/status/1498755728877801472)
 
 
-### Mention médiocre
+## Mention médiocre
 
 -- **Les autres "experts de la vie privée"** --
 <span class="red-text">:warning: **Ceci est volontairement ironique** :warning:</span>
 
-#### Swisscows
+### Swisscows
 [Swisscows](https://swisscows.com/) possède ses serveurs en Suisse. Ils proposent un service "anonyme" via leur propre index, et ne "stockent aucune donnée personnelle de ses utilisateurs". Il intègre également des filtres de contenus sensibles.
 
 A première vue, ce moteur semble partir sur de bons rails. Regardons maintenant leur politique de vie privée de plus près [^¹7] :
@@ -173,7 +158,7 @@ A première vue, ce moteur semble partir sur de bons rails. Regardons maintenant
 > Inutile de vous dire que nous ne recommandons pas Swisscows.
 {.is-danger}
 
-#### Ecosia
+### Ecosia
 [Ecosia](https://www.ecosia.org) se décrit comme le moteur de recherche "qui plante des arbres". Base son index sur les résultats Bing, et assure ne pas se soucier de vos données mais plutôt des arbres !
 
 En regardant de plus près leur politique de vie privée [^¹8], nous nous rendons compte que le moteur n'est pas si privé que cela par défaut : "*Afin de fournir des services essentiels tels que les paramètres de langue et la protection contre le spam (voir ci-dessous), nous collectons votre adresse IP pendant sept jours maximum avant de la supprimer.*" ou encore "*Nous ne recueillons qu'une quantité limitée de données pour améliorer nos services. Si vous ne souhaitez pas nous donner accès à ces données, vous êtes libre d'activer « Do Not Track » à partir des paramètres de votre navigateur.*". Puis nous lisons que "*Ecosia utilise les cookies pour enregistrer vos paramètres, notamment pour savoir quelle langue d’affichage privilégier.* [...]". Inutile d'aller plus loin, sachant également qu'ils ont récemment opter pour intégrer Cloudflare dans leur infrastructure.
@@ -183,10 +168,10 @@ En regardant de plus près leur politique de vie privée [^¹8], nous nous rendo
 
 [^¹8]: [Ecosia](https://info.ecosia.org/privacy)
 
-#### Discrete Search
+### Discrete Search
 Nous n'allons pas passer du temps à analyser leur moteur, celui ci ne fonctionnera tout simplement pas sur Librewolf, Ungoogled Chromium, Tor, Pale Moon... Bref il est inutile d'en parler.
 
-#### Lilo
+### Lilo
 Ce moteur n'est pas open-source, c'est déjà un gros point négatif pour nous. Mais ce moteur visiblement est solidaire et éthique, ça a l'air vraiment pas mal... Tentons un rapide coup d'oeil à leur [politique](https://www.lilo.org/votre-vie-privee-avec-lilo/) de vie privée (notamment la section "Lorsque vous utilisez Lilo Moteur de Recherche") :
 
 > "*Lorsque vous effectuez une recherche sur Lilo, nous sommes amenés à traiter différentes informations pour afficher les réponses à vos recherches de manière pertinente, lutter contre la Fraude, respecter nos obligations légales et vous attribuer les précieuses gouttes d’eau associées à vos recherches* 😊
@@ -198,9 +183,9 @@ Ce moteur n'est pas open-source, c'est déjà un gros point négatif pour nous. 
 > Bien, tout est dit. Au suivant...
 {.is-danger}
 
-### Mention passable
+## Mention passable
 
-#### StartPage
+### StartPage
 [StartPage](https://www.startpage.com/) est un moteur de recherche fondé sur la "*protection stricte de la vie privée*"" car d'après eux "*La vie privée est un droit fondamental de l'être humain*" ! Il emprunte les résultats du moteur de recherche Google, que StartPage indexe, et font comme Lilo en coupant le pistage publicitaire ciblé, semble-t-il. Cependant, certains utilisateurs de Tor et/ou de VPN peuvent rencontrer des difficultés, car StartPage bloque certaines adresses IP de serveurs connus.
 
 Alors, ce navigateur serait-il l'heureux élu ? Tentons de creuser un peu plus dans leur politique de vie privée [^¹9] :
@@ -250,7 +235,7 @@ Ne nous plaisent guère en terme de vie privée !  Néanmoins, ils sont clairs e
 > Hormis leur politique de vie privée peu reluisante, il est à noter que les résultats de recherche sont d'un _bon niveau_, notamment via le site miroir allemand [Metager.de](https://metager.de) qui inclut les résultats Yandex. Ceci est d'autant plus vrai pour les images. MetaGer propose également un bon outil de proxy anonyme et fonctionne très bien sans Javascript. Donc tout n'est pas forcément à jeter... du moment que vous leur faites confiance !
 {.is-warning}
 
-#### Gibiru
+### Gibiru
 [Gibiru](https://www.gibiru.com) "Unfiltered Private search" ou recherche privée non filtrée en français. Il interroge directement l'index Google, sans filtre, mais agit comme un proxy en utilisant leur propre VPN, ceci afin de ne rien partager sur l'utilisateur avec Google. Ces requêtes et les informations personnelles qui y seraient associées ne sont visiblement d'ailleurs pas stockées sur les serveurs de Gibiru à en croire leur politique de vie privée [^²1].
 
 [^²1]: [Gibiru Privay Policy](https://gibiru.com/privacy-policy/#privacy-policy)
@@ -258,10 +243,10 @@ Ne nous plaisent guère en terme de vie privée !  Néanmoins, ils sont clairs e
 > Gibiru a bien évolué depuis quelques années. La mise en place de leur proxy/VPN est *relativement* jeune et permet d'obtenir les résultats Google avec un niveau de vie privée intéressant. Le tout est la confiance que nous mettons dans ce moteur !
 {.is-info}
 
-### Mention Très Bien
+## Mention Très Bien
 Oui bon alors, vous allez me dire : "en fait, tous les moteurs de recherche sont des vendus !". En effet, la grande majorité des moteurs n'ont au final que faire de votre vie privée, ce qui restreint réellement les choix... Mais heureusement, quelques moteurs ou méta-moteurs peuvent être dignes de confiance, pour le moment :
 
-#### La valeur sûre - SearX(NG)
+### La valeur sûre - SearX(NG)
 
 [SearX](https://searx.github.io/searx/) est un moteur de recherche libre, qui agrège les index de plusieurs moteurs. Il marche par instance, et peut donc être auto-hébergé par vos propres soins, ou alors être accédé sur des instances hébergées par des entités particulières. Fonctionne parfaitement sans Javascript. La version NG améliore la gestion des images.
 
@@ -270,14 +255,14 @@ Vous trouverez sur [cette page](https://searx.space/) toutes les instances SearX
 > SearX est le must côté open-source dont la pertinence des résultats est équilibrée.
 {.is-success}
 
-#### Le petit jeune - Whoogle
+### Le petit jeune - Whoogle
 
 [Whoogle Search](https://pypi.org/project/whoogle-search/) est un méta moteur de recherche qui indexe en priorité les résultats de Google, le côté tracking en moins. C'est un moteur qui, à l'instar de SearX, fonctionne par instance (vous pouvez d'ailleurs en déployer une vous-même plus ou moins facilement !).
 
 > Whoogle constitue certainement une des surprises surtout si l'on recherche les résultats de l'index de Google ! Ne lui reste plus qu'à simplifier encore son approche afin qu'une grande communauté l'adopte et qu'il corrige ses défauts de jeunesse : il est par exemple souvent possible d'être bloqué à un moment donné (les robots Google bloquant les requêtes). Problème en cours de résolution, mais bloquant !
 {.is-info}
 
-#### Le "trublion" - Mojeek
+### Le "trublion" - Mojeek
 
 [Mojeek](https://www.mojeek.com) est un méta-moteur de recherche basé au Royaume-Uni. Il possède son propre index. Il s'agit pour l'instant du moteur le plus respectueux de votre vie privée.
 
@@ -288,8 +273,10 @@ Vous trouverez sur [cette page](https://searx.space/) toutes les instances SearX
 {.is-info}
 
 
-### Pour conclure
-Nous avons tenté d'être le plus transparent possible, et de limiter le choix aux meilleures options. Pour synthétiser :
+# Pour conclure
+Nous avons tenté d'être le plus transparent possible, et de limiter le choix aux meilleures options.
+
+Pour synthétiser :
 
 -  **[SearX](https://searx.github.io/searx/)** reste la meilleure alternative, pour une personne plus adaptable et investie, et en sélectionnant avec une bonne instance _sans Cloudflare_. Voici les instances que nous recommandons :
      - https://searx.tiekoetter.com 🇩🇪 
@@ -301,7 +288,6 @@ Nous avons tenté d'être le plus transparent possible, et de limiter le choix a
 *Nous préférons dans ce cas **MetaGer**, pour les images par exemple*.
 
 {.grid-list}
-
 
 ---
 ![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): marmotte, Ayo*
