@@ -2,7 +2,7 @@
 title: Les moteurs de recherche
 description: Article liés aux moteurs de recherche internet et le côté respect de la vie privée...
 published: true
-date: 2024-02-22T15:33:02.812Z
+date: 2024-02-22T15:35:34.415Z
 tags: privacy, vie privée, moteurs, recherche, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:45:28.462Z
@@ -24,29 +24,30 @@ Le moteur de recherche le plus connu est, bien entendu, "Google Search" et à lu
 [Aller directement à nos recommandations](#pour-conclure).
 
 # Analyses
-## L'exemple de Google Search ?
 
-Entre autre car toutes les données suivantes sont conservées par le moteur de recherche de Google :
+## Blâme comportement
+
+Le moteur de recherche de Google stocke entre autres les données suivantes :
 
 -   votre adresse IP
 -   votre emplacement
--   votre système d'exploitation, navigateur et sa version via l'user-agent
+-   votre système d'exploitation, navigateur et sa version (via le user-agent)
 -   vos cookies et identifiants uniques
--   les termes / mots que vous saisissez en temps réel !
--   etc.
+-   les termes / mots que vous saisissez en temps réel
 
 Il est également à préciser qu'il ne s'agit pas du seul moteur de recherche qui conserve ces données : Bing (Microsoft), Yahoo Search, Baidu, Yandex également sont concernés.
 
-## Blâme comportement
-Alors évidemment, nous ne citerons pas les moteurs en lien direct avec des multinationales connues pour collecter toutes sortes de données privées, ou des pays pratiquant une quelconque censure nationale assumée, comme :
+Alors évidemment, nous n'irons pas plus loin et ne citerons pas les moteurs en lien direct avec des multinationales connues pour collecter toutes sortes de données privées, ou des pays pratiquant une quelconque censure nationale assumée, comme :
 - Google Search
 - Microsoft Bing
 - Yahoo Search
-- Ask . com
+- Ask\. com
 - Baidu
 - Yandex
 
-Inutile de dire que nous ne recommandons absolument pas ces moteurs de recherche. Nous allons plutôt analyser les alternatives crédibles (enfin présentées comme telles) à tous ces moteurs anti-vie privée...
+Inutile de dire que nous ne recommandons absolument pas ces moteurs de recherche.
+
+**Nous allons plutôt analyser les alternatives crédibles (enfin présentées comme telles) à tous ces moteurs anti-vie privée...**
 
 ## Avertissements
 
