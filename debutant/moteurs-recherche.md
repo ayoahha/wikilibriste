@@ -2,7 +2,7 @@
 title: Les moteurs de recherche
 description: Article liés aux moteurs de recherche internet et le côté respect de la vie privée...
 published: true
-date: 2024-02-22T15:32:00.734Z
+date: 2024-02-22T15:33:02.812Z
 tags: privacy, vie privée, moteurs, recherche, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:45:28.462Z
@@ -24,7 +24,7 @@ Le moteur de recherche le plus connu est, bien entendu, "Google Search" et à lu
 [Aller directement à nos recommandations](#pour-conclure).
 
 # Analyses
-## Pourquoi éviter d'utiliser Google Search ?
+## L'exemple de Google Search ?
 
 Entre autre car toutes les données suivantes sont conservées par le moteur de recherche de Google :
 
