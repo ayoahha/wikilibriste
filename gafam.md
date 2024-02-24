@@ -2,7 +2,7 @@
 title: Les GAFAM
 description: Une collection d'articles montrant l'ampleur de la collecte des données et son impact
 published: true
-date: 2024-02-24T11:03:45.073Z
+date: 2024-02-24T11:12:53.861Z
 tags: gafam
 editor: markdown
 dateCreated: 2024-02-22T12:02:48.029Z
@@ -13,23 +13,33 @@ dateCreated: 2024-02-22T12:02:48.029Z
 
 # GAFAM en général
 
-- Les GAFAM font la loi (https://www.jeuxvideo.com/amp/news/1688285/aux-etats-unis-les-gafam-font-la-loi-et-imposent-leur-vision-au-gouvernement-americain.htm) (corruption gouvernementale) 
+- Les GAFAM font la loi
+https://www.jeuxvideo.com/amp/news/1688285/aux-etats-unis-les-gafam-font-la-loi-et-imposent-leur-vision-au-gouvernement-americain.htm) (corruption gouvernementale
 
-- La toile d'influence des géants du web en France (https://multinationales.org/fr/enquetes/gafam-nation/) (lobbies) 
+- La toile d'influence des géants du web en France
+https://multinationales.org/fr/enquetes/gafam-nation/ (lobbies) 
 
-- Constats et actions anti-GAFAM menées par la quadrature du net (https://www.laquadrature.net/?s=gafam) (image associée (https://www.laquadrature.net/wp-content/uploads/sites/8/2018/04/DcZX-_HWAAEb-eJ.jpg-large.jpg)
+- Constats et actions anti-GAFAM menées par la quadrature du net
+https://www.laquadrature.net/?s=gafam
+image associée https://www.laquadrature.net/wp-content/uploads/sites/8/2018/04/DcZX-_HWAAEb-eJ.jpg-large.jpg
 
-- Les monopoles dangereux des GAFAM (https://www.lesnumeriques.com/vie-du-net/les-gafam-constituent-ils-des-monopoles-dangereux-washington-enquete-n138565.html) (pratiques anti-concurrentielles) 
+- Les monopoles dangereux des GAFAM
+https://www.lesnumeriques.com/vie-du-net/les-gafam-constituent-ils-des-monopoles-dangereux-washington-enquete-n138565.html (pratiques anti-concurrentielles)
 
-- GAFAM : le vrai danger pour la démocratie (https://www.lesechos.fr/idees-debats/cercle/gafam-le-vrai-danger-pour-la-democratie-1011735)
+- GAFAM : le vrai danger pour la démocratie
+https://www.lesechos.fr/idees-debats/cercle/gafam-le-vrai-danger-pour-la-democratie-1011735
 
-- Presse écrite : le vrai danger est l'étouffement par les GAFAM (https://www.publicsenat.fr/article/parlementaire/presse-ecrite-le-vrai-danger-est-l-etouffement-par-les-gafam-191578)
+- Presse écrite : le vrai danger est l'étouffement par les GAFAM
+https://www.publicsenat.fr/article/parlementaire/presse-ecrite-le-vrai-danger-est-l-etouffement-par-les-gafam-191578
 
-- Les GAFAM menacent-ils notre économie?  (https://www.capital.fr/entreprises-marches/gafam-les-geants-du-numerique-menacent-ils-notre-economie-1404011)(évasion fiscale)
+- Les GAFAM menacent-ils notre économie ?
+https://www.capital.fr/entreprises-marches/gafam-les-geants-du-numerique-menacent-ils-notre-economie-1404011 (évasion fiscale)
 
-- La puissance des GAFAM : réalités, apports et dangers (https://www.afri-ct.org/wp-content/uploads/2020/05/Article-Fontanel-Sushcheva.pdf)
+- La puissance des GAFAM : réalités, apports et dangers
+https://www.afri-ct.org/wp-content/uploads/2020/05/Article-Fontanel-Sushcheva.pdf
 
-- Pourquoi les parents de la Silicon Valley interdisent la technologie à leurs enfants ? (https://www.bbc.com/afrique/monde-48845492 ou 
+- Pourquoi les parents de la Silicon Valley interdisent la technologie à leurs enfants ? 
+https://www.bbc.com/afrique/monde-48845492
 https://www.francetvinfo.fr/sciences/high-tech/bill-gates-steve-jobs-quand-les-patrons-de-la-silicon-valley-interdisent-les-portables-et-les-reseaux-a-leurs-enfants_2514445.html)
 
 - https://www.cachem.fr/gafam-education-nationale/
@@ -56,13 +66,17 @@ https://www.francetvinfo.fr/sciences/high-tech/bill-gates-steve-jobs-quand-les-p
 
 - https://www.francesoir.fr/societe-science-tech/google-collecte-des-donnees-telephone-messages
 
-- Google condamné par Bruxelles à 43 millions d'euros d'amende (https://www.liberation.fr/planete/2018/07/18/android-google-condamne-par-bruxelles-a-43-milliards-d-euros-d-amende_1667423/) (condamnation)
+- Google condamné par Bruxelles à 43 millions d'euros d'amende
+https://www.liberation.fr/planete/2018/07/18/android-google-condamne-par-bruxelles-a-43-milliards-d-euros-d-amende_1667423/ (condamnation)
 
-- USA : Google passe à la caisse pour mettre fin aux enquêtes (https://www.liberation.fr/international/amerique/aux-etats-unis-google-passe-a-la-caisse-pour-mettre-fin-aux-enquetes-20221114_VHUMDJ25CVHFHDN5VQGOPQUGSE/) (corruption)
+- USA : Google passe à la caisse pour mettre fin aux enquêtes
+https://www.liberation.fr/international/amerique/aux-etats-unis-google-passe-a-la-caisse-pour-mettre-fin-aux-enquetes-20221114_VHUMDJ25CVHFHDN5VQGOPQUGSE/ (corruption)
 
-- Données personnelles : Google Analytics dans le viseur de la CNIL (https://www.liberation.fr/economie/economie-numerique/google-analytics-dans-le-viseur-de-la-cnil-20220210_MKDTGDMMWRDTXFGOWY54DSML7E/)
+- Données personnelles : Google Analytics dans le viseur de la CNIL
+https://www.liberation.fr/economie/economie-numerique/google-analytics-dans-le-viseur-de-la-cnil-20220210_MKDTGDMMWRDTXFGOWY54DSML7E/
 
-- Google paie plus d'amendes en Europe que d'impôts (https://www.lesnumeriques.com/vie-du-net/google-paie-plus-amendes-en-europe-que-impots-n83759.html)
+- Google paie plus d'amendes en Europe que d'impôts
+https://www.lesnumeriques.com/vie-du-net/google-paie-plus-amendes-en-europe-que-impots-n83759.html
 
 - https://www.20minutes.fr/high-tech/4001142-20220914-abus-position-dominante-justice-ue-prononce-amende-4-3-milliards-euros-infligee-google
 
@@ -71,25 +85,32 @@ https://www.francetvinfo.fr/sciences/high-tech/bill-gates-steve-jobs-quand-les-p
 - https://belgium-iphone.lesoir.be/2020/10/23/google-aurait-paye-apple-12-milliards-pour-etre-le-moteur-de-recherche-par-defaut/
 
 # AMAZON
-- La sinistre face cachée d'Amazon (https://www.youtube.com/watch?v=JiQsDnHsIQg) (vidéo)
+- La sinistre face cachée d'Amazon
+https://www.youtube.com/watch?v=JiQsDnHsIQg (vidéo)
 
-- Amazon condamné pour non respect des données privées (https://www.la-croix.com/Economie/Amazon-condamne-non-respect-donnees-privees-2021-07-31-1201168801)
+- Amazon condamné pour non respect des données privées
+https://www.la-croix.com/Economie/Amazon-condamne-non-respect-donnees-privees-2021-07-31-1201168801
 
 # FACEBOOK
--  Violation des données personnelle : condamnation de Facebook (https://www.courrierinternational.com/article/cambridge-analytica-5-milliards-de-dollars-une-amende-historique-qui-narretera-pas-facebook)
+-  Violation des données personnelle : condamnation de Facebook
+https://www.courrierinternational.com/article/cambridge-analytica-5-milliards-de-dollars-une-amende-historique-qui-narretera-pas-facebook
 
-- Clauses d'utilisation illicites : condamnation française de Facebook (https://www.nouvelobs.com/societe/20190410.OBS11374/condamne-pour-clauses-abusives-en-france-facebook-modifie-ses-conditions-d-utilisation.html)
+- Clauses d'utilisation illicites : condamnation française de Facebook
+https://www.nouvelobs.com/societe/20190410.OBS11374/condamne-pour-clauses-abusives-en-france-facebook-modifie-ses-conditions-d-utilisation.html
 
 - https://www.liberation.fr/economie/economie-numerique/scandale-de-cambridge-analytica-facebook-accepte-de-payer-725-millions-de-dollars-a-la-justice-20221223_V3UVLSMHJNHTDJGNVYXT6YMSVI/
 
 
 ## INSTAGRAM
-- Dans un monde sans instagram (https://www.topito.com/video/dans-un-monde-sans-instagram) (vidéo humour)
+- Dans un monde sans instagram
+https://www.topito.com/video/dans-un-monde-sans-instagram (vidéo humour)
 
-- Instagram et Snapchat pires réseaux pour les jeunes (https://www.numerama.com/tech/260215-instagram-et-snapchat-seraient-les-pires-reseaux-sociaux-pour-le-bien-etre-des-jeunes.html)
+- Instagram et Snapchat pires réseaux pour les jeunes
+https://www.numerama.com/tech/260215-instagram-et-snapchat-seraient-les-pires-reseaux-sociaux-pour-le-bien-etre-des-jeunes.html
 
 # APPLE
-- Apple condamné pour pratique anticoncurrencielles (https://www.lemonde.fr/economie/article/2020/03/16/concurrence-apple-ecope-d-une-amende-inedite-en-france-de-1-1-milliard-d-euros_6033256_3234.html)
+- Apple condamné pour pratique anticoncurrencielles
+https://www.lemonde.fr/economie/article/2020/03/16/concurrence-apple-ecope-d-une-amende-inedite-en-france-de-1-1-milliard-d-euros_6033256_3234.html
 
 - https://www.blogdumoderateur.com/apple-analyse-photos-icloud-pedocriminalite/
 
@@ -98,9 +119,11 @@ https://www.francetvinfo.fr/sciences/high-tech/bill-gates-steve-jobs-quand-les-p
 - https://www.cnil.fr/fr/identifiant-publicitaire-sanction-de-8-millions-deuros-lencontre-de-apple-distribution-international
 
 # MICROSOFT
-- Pratiques anticoncurrentielles, et manque de transparence (https://www.01net.com/actualites/la-justice-europeenne-confirme-lamende-de-497-millions-de-microsoft-359209.html) (condamnation)
+- Pratiques anticoncurrentielles, et manque de transparence
+https://www.01net.com/actualites/la-justice-europeenne-confirme-lamende-de-497-millions-de-microsoft-359209.html (condamnation)
 
-- Condamnation pour corruption Microsoft (https://www.lesnumeriques.com/vie-du-net/microsoft-condamne-a-payer-25-3-millions-de-dollars&-d-amende-pour-corruption-n138661.html)
+- Condamnation pour corruption Microsoft
+https://www.lesnumeriques.com/vie-du-net/microsoft-condamne-a-payer-25-3-millions-de-dollars&-d-amende-pour-corruption-n138661.html
 
 
 A suivre...
