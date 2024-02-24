@@ -2,7 +2,7 @@
 title: Les GAFAM
 description: Une collection d'articles montrant l'ampleur de la collecte des données et son impact
 published: true
-date: 2024-02-24T11:03:00.078Z
+date: 2024-02-24T11:03:45.073Z
 tags: gafam
 editor: markdown
 dateCreated: 2024-02-22T12:02:48.029Z
@@ -101,3 +101,6 @@ https://www.francetvinfo.fr/sciences/high-tech/bill-gates-steve-jobs-quand-les-p
 - Pratiques anticoncurrentielles, et manque de transparence (https://www.01net.com/actualites/la-justice-europeenne-confirme-lamende-de-497-millions-de-microsoft-359209.html) (condamnation)
 
 - Condamnation pour corruption Microsoft (https://www.lesnumeriques.com/vie-du-net/microsoft-condamne-a-payer-25-3-millions-de-dollars&-d-amende-pour-corruption-n138661.html)
+
+
+A suivre...
