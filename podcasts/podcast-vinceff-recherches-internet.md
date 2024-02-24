@@ -2,7 +2,7 @@
 title: Podcast 1 - Navigateurs et moteurs de recherche
 description: Premier podcast avec Vinceff, traitant de la vie privée et la sécurité en ligne...
 published: true
-date: 2024-02-24T11:16:24.310Z
+date: 2024-02-24T11:16:33.529Z
 tags: navigateur, privacy, vie privée, moteur de recherche, podcast
 editor: markdown
 dateCreated: 2024-02-24T10:59:09.811Z
@@ -13,7 +13,7 @@ dateCreated: 2024-02-24T10:59:09.811Z
 
 # Préambule
 
-> « Quand vous dites ‘je me fiche du droit à la vie privée parce que je n’ai rien à cacher’, ce n’est pas si différent que de dire ‘je me fiche de la liberté d’expression, parce que je n’ai rien à dire’, ou ‘de la liberté de la presse parce que je n’ai rien à écrire’. » (E. Snowden)
+> « Quand vous dites ‘je me fiche du droit à la vie privée parce que je n’ai rien à cacher’, ce n’est pas si différent que de dire ‘je me fiche de la liberté d’expression, parce que je n’ai rien à dire’, ou ‘de la liberté de la presse parce que je n’ai rien à écrire’. », E. Snowden
 > - https://lifehacker.com/why-your-privacy-matters-even-if-youre-not-doing-anyt-1645884650
 
 # Exemples de risques, et seulement sur 2024
