@@ -2,7 +2,7 @@
 title: Bienvenue cher libriste
 description: Tu trouveras sur ce site des tutoriels traitant des logiciels libres ou open-source et de la sécurité informatique
 published: true
-date: 2024-01-16T11:17:57.344Z
+date: 2024-02-24T11:21:01.221Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-24T20:06:27.184Z
@@ -54,12 +54,12 @@ Le présent wiki propose donc des articles et des tutoriels afin de donner des p
 
 
 Nous découpons la lecture du wiki selon ces différents axes :
+- [:key: Hygiène *Limiter les publicités, les traceurs et améliorer sa vie privée en ligne*](/hygiene-numerique)
 - [:desktop_computer: Système *Remplacer son système "fermé" Windows ou Apple par un système ouvert GNU/Linux*](/debutant/linux-distributions)
 - [:phone: Android *Dé-polluer et libérer son téléphone sous Android*](/debutant/android-roms)
 - [:open_book: Logiciel *Remplacer ses logiciels privateurs **\*** par des alternatives libres et/ou open-source*](/debutant/logiciel-alternative-libre)
 - [:envelope: Communication *Utiliser une messagerie libre et sécurisée et une adresse courriel sécurisée*](/debutant/communications)
 - [:floppy_disk: Sauvegarde *Mettre en place un plan de sauvegarde récurrent des ses données*](/debutant/sauvegarde)
-- [:key: Hygiène *Limiter les publicités, les traceurs et améliorer sa vie privée en ligne*](/hygiene-numerique)
 {.links-list}
 
 ***\*** : Définition de logiciel [privateur](https://linuxfr.org/users/nh2/journaux/logiciel-privateur-vs-propri%C3%A9taire).*
