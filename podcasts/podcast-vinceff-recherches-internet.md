@@ -2,7 +2,7 @@
 title: Podcast 1 - Navigateurs et moteurs de recherche
 description: 
 published: true
-date: 2024-02-24T10:59:35.019Z
+date: 2024-02-24T10:59:48.122Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-24T10:59:09.811Z
@@ -11,7 +11,7 @@ dateCreated: 2024-02-24T10:59:09.811Z
 > « Quand vous dites ‘je me fiche du droit à la vie privée parce que je n’ai rien à cacher’, ce n’est pas si différent que de dire ‘je me fiche de la liberté d’expression, parce que je n’ai rien à dire’, ou ‘de la liberté de la presse parce que je n’ai rien à écrire’. » (E. Snowden)
 > - https://lifehacker.com/why-your-privacy-matters-even-if-youre-not-doing-anyt-1645884650
 
-# Les risques, et seulement sur 2024 :
+# Exemples de risques, et seulement sur 2024 :
 Données de géolocalisation, en provenance d’un courtier appelé Near Intelligence, d’établissements de planning familial qui ont été utilisées pour cibler spécifiquement des pro-avortements avec des pubs anti-avortement.Ici on est sur du ciblage en vue de modifier les comportements.
 - https://www.theregister.com/2024/02/15/data_broker_location_abortion/
 
