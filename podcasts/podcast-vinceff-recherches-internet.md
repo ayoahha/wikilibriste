@@ -2,7 +2,7 @@
 title: Podcast 1 - Navigateurs et moteurs de recherche
 description: Premier podcast avec Vinceff, traitant de la vie privée et la sécurité en ligne...
 published: true
-date: 2024-02-24T11:07:56.075Z
+date: 2024-02-24T11:09:21.905Z
 tags: navigateur, privacy, vie privée, moteur de recherche, podcast
 editor: markdown
 dateCreated: 2024-02-24T10:59:09.811Z
@@ -84,29 +84,49 @@ https://wikilibriste.fr/fr/debutant/moteurs-recherche
 - « Why Privacy Matters », Neil Richards
 - « Nothing to hide - Le faux compromis entre vie privée et sécurité », Daniel J. Solove
 - « L’Âge du capitalisme de surveillance », Shoshana Zuboff
-- Livres présentés sur https://jenairienacacher.fr 
+- Livres présentés sur 
+https://jenairienacacher.fr
+
 ## Vidéos
-- Glenn Greenwald - TED conférence : https://www.youtube.com/watch?v=pcSlowAhvUk
-- Surveillés, 7 milliards de suspects ARTE : https://youtu.be/TM0J6318ink
-- Disparaître, Sous les radars des Algorithmes ARTE : https://youtube.com/vedXAJGJqQE
+- Glenn Greenwald - TED conférence : 
+https://www.youtube.com/watch?v=pcSlowAhvUk
+- Surveillés, 7 milliards de suspects ARTE : 
+https://www.youtube.com/TM0J6318ink
+- Disparaître, Sous les radars des Algorithmes ARTE : 
+https://www.youtube.com/vedXAJGJqQE
 - Chaine youtube de Henri de Techlore
 - Chaine youtube The New Oil
 - Chaine youtube Surveillance Report
+
 ## Sites internet
-- Open Web advocacy : https://open-web-advocacy.org
-- EFF (Electronic Frontier Foundation) : https://www.eff.org/
-- Mozilla Foundation : https://foundation.mozilla.org/en/
-- ANSSI (Agence nationale de la sécurité des systèmes d'information) : https://cyber.gouv.fr/
-- CNIL (avoir un peu d'information sur la RGPD notamment) : https://www.cnil.fr
+- Open Web advocacy : 
+https://open-web-advocacy.org
+- EFF (Electronic Frontier Foundation) : 
+https://www.eff.org/
+- Mozilla Foundation : 
+https://foundation.mozilla.org/en/
+- ANSSI (Agence nationale de la sécurité des systèmes d'information) : 
+https://cyber.gouv.fr/
+- CNIL (avoir un peu d'information sur la RGPD notamment) : 
+https://www.cnil.fr
+
 ## Actions pour ses données
-- Exodus Privacy (tester les tracker sur chaque logiciel) : https://exodus-privacy.eu.org/en/
-- AdBlock Tester : https://adblock-tester.com
-- Cover your Tracks : https://coveryourtracks.eff.org/
-- Have i been pwned : https://haveibeenpwned.com/
-- Privacy Check (attention aux sponsors, donc les résultats un peu biaisés) : https://privacy-checkup.info/en
-- Demander quelles données sont collectées chez G. : https://takeout.google.com
-- Pour demander la suppression de ses données : https://yourdigitalrights.org/
-- Respecte Mes Datas : https://respectemesdatas.fr
+- Exodus Privacy (tester les tracker sur chaque logiciel) : 
+https://exodus-privacy.eu.org/en/
+- AdBlock Tester : 
+https://adblock-tester.com
+- Cover your Tracks : 
+https://coveryourtracks.eff.org/
+- Have i been pwned : 
+https://haveibeenpwned.com/
+- Privacy Check (attention aux sponsors, donc les résultats un peu biaisés) : 
+https://privacy-checkup.info/en
+- Demander quelles données sont collectées chez G. : 
+https://takeout.google.com
+- Pour demander la suppression de ses données : 
+https://yourdigitalrights.org/
+- Respecte Mes Datas : 
+https://respectemesdatas.fr
 
 > Certaines applications et sites permettent aussi de voir les données collectées (par ex. Discord).
 {.is-info}
