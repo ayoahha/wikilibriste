@@ -2,7 +2,7 @@
 title: Podcast 1 - Navigateurs et moteurs de recherche
 description: Premier podcast avec Vinceff, traitant de la vie privée et la sécurité en ligne...
 published: true
-date: 2024-02-24T11:09:21.905Z
+date: 2024-02-24T11:13:34.396Z
 tags: navigateur, privacy, vie privée, moteur de recherche, podcast
 editor: markdown
 dateCreated: 2024-02-24T10:59:09.811Z
@@ -95,8 +95,11 @@ https://www.youtube.com/TM0J6318ink
 - Disparaître, Sous les radars des Algorithmes ARTE : 
 https://www.youtube.com/vedXAJGJqQE
 - Chaine youtube de Henri de Techlore
+https://www.youtube.com/channel/UCs6KfncB4OV6Vug4o_bzijg
 - Chaine youtube The New Oil
+https://www.youtube.com/channel/UCH5DsMZAgdx5Fkk9wwMNwCA
 - Chaine youtube Surveillance Report
+https://www.youtube.com/channel/UC0W_BIuwk8D0Bv4THbVZZOQ
 
 ## Sites internet
 - Open Web advocacy : 
