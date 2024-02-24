@@ -1,9 +1,9 @@
 ---
 title: Podcast 1 - Navigateurs et moteurs de recherche
-description: 
+description: Premier podcast avec Vinceff, traitant de la vie privée et la sécurité en ligne...
 published: true
-date: 2024-02-24T10:59:48.122Z
-tags: 
+date: 2024-02-24T11:01:08.844Z
+tags: navigateur, privacy, vie privée, moteur de recherche, podcast
 editor: markdown
 dateCreated: 2024-02-24T10:59:09.811Z
 ---
