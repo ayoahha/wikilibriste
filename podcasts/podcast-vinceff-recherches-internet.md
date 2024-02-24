@@ -2,7 +2,7 @@
 title: Podcast 1 - Navigateurs et moteurs de recherche
 description: Premier podcast avec Vinceff, traitant de la vie privée et la sécurité en ligne...
 published: true
-date: 2024-02-24T11:04:37.989Z
+date: 2024-02-24T11:06:08.486Z
 tags: navigateur, privacy, vie privée, moteur de recherche, podcast
 editor: markdown
 dateCreated: 2024-02-24T10:59:09.811Z
@@ -59,7 +59,7 @@ https://proton.me/blog/what-is-your-data-worth
 
 # Le marché des données de géolocalisation
 
-Justin Sherman, chercheur en cyber politique : « Il n'y a pas beaucoup de transparence [sur ce sujet] et il existe une multitude très, très complexe d'interactions cachées entre ces entreprises qu'il est difficile de démêler »... « Elles exploitent le fait que le grand public et les personnes du gouvernement et dans d'autres centres de réglementation ne prêtent pas attention à ce qu'elles font ».
+> « Il n'y a pas beaucoup de transparence [sur ce sujet] et il existe une multitude très, très complexe d'interactions cachées entre ces entreprises qu'il est difficile de démêler »... « Elles exploitent le fait que le grand public et les personnes du gouvernement et dans d'autres centres de réglementation ne prêtent pas attention à ce qu'elles font ». Justin Sherman, chercheur en cyber politique 
 - https://themarkup.org/privacy/2021/09/30/theres-a-multibillion-dollar-market-for-your-phones-location-data
 
 # Les risques de la publicité ciblée sous un angle Cyber
