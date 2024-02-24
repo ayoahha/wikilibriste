@@ -2,7 +2,7 @@
 title: Bienvenue cher libriste
 description: Tu trouveras sur ce site des tutoriels traitant des logiciels libres ou open-source et de la sécurité informatique
 published: true
-date: 2024-02-24T11:21:01.221Z
+date: 2024-02-24T23:54:57.827Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-24T20:06:27.184Z
@@ -55,6 +55,9 @@ Le présent wiki propose donc des articles et des tutoriels afin de donner des p
 
 Nous découpons la lecture du wiki selon ces différents axes :
 - [:key: Hygiène *Limiter les publicités, les traceurs et améliorer sa vie privée en ligne*](/hygiene-numerique)
+{.links-list}
+
+Puis plus techniquement :
 - [:desktop_computer: Système *Remplacer son système "fermé" Windows ou Apple par un système ouvert GNU/Linux*](/debutant/linux-distributions)
 - [:phone: Android *Dé-polluer et libérer son téléphone sous Android*](/debutant/android-roms)
 - [:open_book: Logiciel *Remplacer ses logiciels privateurs **\*** par des alternatives libres et/ou open-source*](/debutant/logiciel-alternative-libre)
