@@ -2,7 +2,7 @@
 title: Podcast 1 - Navigateurs et moteurs de recherche
 description: Premier podcast avec Vinceff, traitant de la vie privée et la sécurité en ligne...
 published: true
-date: 2024-02-24T11:07:35.007Z
+date: 2024-02-24T11:07:56.075Z
 tags: navigateur, privacy, vie privée, moteur de recherche, podcast
 editor: markdown
 dateCreated: 2024-02-24T10:59:09.811Z
@@ -69,9 +69,13 @@ Outre le risque de dé-confidentialisation des données que nous aurions souhait
 https://avoidthehack.com/ads-cybersecurity-risk
 
 # Les navigateurs recommandés
+
+Pour wikilibriste :
 https://wikilibriste.fr/fr/debutant/navigateurs
 
 # Les moteurs de recherche recommandés
+
+Pour wikilibriste :
 https://wikilibriste.fr/fr/debutant/moteurs-recherche
 
 
