@@ -2,7 +2,7 @@
 title: Podcast 1 - Navigateurs et moteurs de recherche
 description: Premier podcast avec Vinceff, traitant de la vie privée et la sécurité en ligne...
 published: true
-date: 2024-02-24T11:01:08.844Z
+date: 2024-02-24T11:04:11.210Z
 tags: navigateur, privacy, vie privée, moteur de recherche, podcast
 editor: markdown
 dateCreated: 2024-02-24T10:59:09.811Z
@@ -11,7 +11,7 @@ dateCreated: 2024-02-24T10:59:09.811Z
 > « Quand vous dites ‘je me fiche du droit à la vie privée parce que je n’ai rien à cacher’, ce n’est pas si différent que de dire ‘je me fiche de la liberté d’expression, parce que je n’ai rien à dire’, ou ‘de la liberté de la presse parce que je n’ai rien à écrire’. » (E. Snowden)
 > - https://lifehacker.com/why-your-privacy-matters-even-if-youre-not-doing-anyt-1645884650
 
-# Exemples de risques, et seulement sur 2024 :
+# Exemples de risques, et seulement sur 2024
 Données de géolocalisation, en provenance d’un courtier appelé Near Intelligence, d’établissements de planning familial qui ont été utilisées pour cibler spécifiquement des pro-avortements avec des pubs anti-avortement.Ici on est sur du ciblage en vue de modifier les comportements.
 - https://www.theregister.com/2024/02/15/data_broker_location_abortion/
 
@@ -30,7 +30,7 @@ Dropbox partage les fichiers de ses utilisateurs avec OpenAI.
 Les gouvernements espionnent les utilisateurs d'Apple et de Google par le biais de notifications push. Un sénateur américain dénonce cette collecte généralisée.
 - https://www.reuters.com/technology/cybersecurity/governments-spying-apple-google-users-through-push-notifications-us-senator-2023-12-06
 
-# Les risques, autres exemples sur les dernières années :
+# Les risques, autres exemples sur les dernières années
 
 Un papa, ayant du transmettre une photo de son enfant à un médecin sur son téléphone android, et qui se voit supprimer des années de données car identifié comme pédo.
 - https://web.archive.org/web/20230625193039/https://www.nytimes.com/2022/08/21/technology/google-surveillance-toddler-photo.html
@@ -53,11 +53,11 @@ https://gizmodo.com/signal-tried-to-run-the-most-honest-facebook-ad-campaig-1846
 > https://wikilibriste.fr/fr/gafam
 {.is-info}
 
-# Combien valent vos données :
+# Combien valent vos données
 
 https://proton.me/blog/what-is-your-data-worth
 
-# Le marché des données de géolocalisation :
+# Le marché des données de géolocalisation
 
 Justin Sherman, chercheur en cyber politique : « Il n'y a pas beaucoup de transparence [sur ce sujet] et il existe une multitude très, très complexe d'interactions cachées entre ces entreprises qu'il est difficile de démêler »... « Elles exploitent le fait que le grand public et les personnes du gouvernement et dans d'autres centres de réglementation ne prêtent pas attention à ce qu'elles font ».
 - https://themarkup.org/privacy/2021/09/30/theres-a-multibillion-dollar-market-for-your-phones-location-data
