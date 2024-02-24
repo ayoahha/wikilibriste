@@ -2,14 +2,14 @@
 title: Les GAFAM
 description: Une collection d'articles montrant l'ampleur de la collecte des données et son impact
 published: true
-date: 2024-02-24T11:02:43.570Z
+date: 2024-02-24T11:03:00.078Z
 tags: gafam
 editor: markdown
 dateCreated: 2024-02-22T12:02:48.029Z
 ---
 
 > **Page en cours de construction**
-> Les données étant importants, nous présentons EN VRAC pour le moment la liste des articles concernant les GAFAMs...
+> Les données étant importants, nous présentons EN VRAC pour le moment la liste des articles francophones concernant les GAFAMs...
 
 # GAFAM en général
 
