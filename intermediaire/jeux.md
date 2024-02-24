@@ -1,6 +1,16 @@
 ---
 title: Jouer sur Linux
 description: Cet article tente de répondre à la question : peut-on jouer à des jeux vidéos sur GNU/Linux ?
+published: false
+date: 2024-02-24T23:52:59.029Z
+tags: jeux, jeux vidéo, jeux video, jeu video, jeu vidéo, jouer, gaming
+editor: markdown
+dateCreated: 2022-12-04T14:31:15.648Z
+---
+
+---
+title: Jouer sur Linux
+description: Cet article tente de répondre à la question : peut-on jouer à des jeux vidéos sur GNU/Linux ?
 published: true
 date: 2023-03-25T07:12:43.500Z
 tags: jeux, jeux vidéo, jeux video, jeu video, jeu vidéo, jouer, gaming
