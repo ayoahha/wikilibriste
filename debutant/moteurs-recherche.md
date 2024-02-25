@@ -2,7 +2,7 @@
 title: Les moteurs de recherche
 description: Article liés aux moteurs de recherche internet et le côté respect de la vie privée...
 published: true
-date: 2024-02-25T09:23:08.606Z
+date: 2024-02-25T09:24:10.416Z
 tags: privacy, vie privée, moteurs, recherche, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:45:28.462Z
@@ -166,7 +166,7 @@ En regardant de plus près leur politique de vie privée [^¹8], nous nous rendo
 
 > "*Afin de fournir des services essentiels tels que les paramètres de langue et la protection contre le spam (voir ci-dessous), nous collectons votre adresse IP pendant sept jours maximum avant de la supprimer.*" 
 
-ou encore 
+ou encore :
 
 > "*Nous ne recueillons qu'une quantité limitée de données pour améliorer nos services. Si vous ne souhaitez pas nous donner accès à ces données, vous êtes libre d'activer « Do Not Track » à partir des paramètres de votre navigateur.*".
 
