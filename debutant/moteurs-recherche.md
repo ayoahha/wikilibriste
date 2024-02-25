@@ -2,7 +2,7 @@
 title: Les moteurs de recherche
 description: Article liés aux moteurs de recherche internet et le côté respect de la vie privée...
 published: true
-date: 2024-02-22T15:35:34.415Z
+date: 2024-02-25T09:23:08.606Z
 tags: privacy, vie privée, moteurs, recherche, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:45:28.462Z
@@ -162,7 +162,19 @@ A première vue, ce moteur semble partir sur de bons rails. Regardons maintenant
 ### Ecosia
 [Ecosia](https://www.ecosia.org) se décrit comme le moteur de recherche "qui plante des arbres". Base son index sur les résultats Bing, et assure ne pas se soucier de vos données mais plutôt des arbres !
 
-En regardant de plus près leur politique de vie privée [^¹8], nous nous rendons compte que le moteur n'est pas si privé que cela par défaut : "*Afin de fournir des services essentiels tels que les paramètres de langue et la protection contre le spam (voir ci-dessous), nous collectons votre adresse IP pendant sept jours maximum avant de la supprimer.*" ou encore "*Nous ne recueillons qu'une quantité limitée de données pour améliorer nos services. Si vous ne souhaitez pas nous donner accès à ces données, vous êtes libre d'activer « Do Not Track » à partir des paramètres de votre navigateur.*". Puis nous lisons que "*Ecosia utilise les cookies pour enregistrer vos paramètres, notamment pour savoir quelle langue d’affichage privilégier.* [...]". Inutile d'aller plus loin, sachant également qu'ils ont récemment opter pour intégrer Cloudflare dans leur infrastructure.
+En regardant de plus près leur politique de vie privée [^¹8], nous nous rendons compte que le moteur n'est pas si privé que cela par défaut :
+
+> "*Afin de fournir des services essentiels tels que les paramètres de langue et la protection contre le spam (voir ci-dessous), nous collectons votre adresse IP pendant sept jours maximum avant de la supprimer.*" 
+
+ou encore 
+
+> "*Nous ne recueillons qu'une quantité limitée de données pour améliorer nos services. Si vous ne souhaitez pas nous donner accès à ces données, vous êtes libre d'activer « Do Not Track » à partir des paramètres de votre navigateur.*".
+
+Puis nous lisons que :
+
+> "*Ecosia utilise les cookies pour enregistrer vos paramètres, notamment pour savoir quelle langue d’affichage privilégier.* [...]".
+
+Inutile d'aller plus loin, sachant également qu'ils ont récemment opter pour intégrer Cloudflare dans leur infrastructure.
 
 > Ce moteur aurait pu être une alternative de choix, alliant éthique environnementale et vie privée, mais leur politique n'est pas encore à la hauteur. Non recommandé.
 {.is-danger}
