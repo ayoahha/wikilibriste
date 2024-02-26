@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Android
 description: Où trouver du matériel Android - vous trouverez ici des solutions...
 published: true
-date: 2024-01-16T11:33:35.222Z
+date: 2024-02-26T21:24:32.040Z
 tags: android, materiel
 editor: markdown
 dateCreated: 2023-02-14T11:18:41.344Z
@@ -100,6 +100,10 @@ Il est admis aujourd'hui qu'un téléphone connecté à un réseau Wi-Fi peut ê
 Certains constructeurs ont déjà essayé de résoudre ce problème, via la randomisation d'adresse MAC. Cela dit, la majorité ne l'implémente pas du tout, et parfois la solution de randomisation est faible ou mal implémentée, ce qui souvent mène tout de même à l'exposition de la réelle adresse MAC.
 
 Les Pixels implémentent convenablement la randomisation de l'adresse MAC, ainsi que d'autres fonctions de randomisation.
+
+---
+> L'équipe de GrapheneOS a cependant identifié les [besoins](https://grapheneos.org/faq#future-devices) afin de couvrir potentiellement dans le futur d'autres appareils.
+{.is-info}
 
 # Les fausses bonnes idées
 
