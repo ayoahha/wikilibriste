@@ -2,7 +2,7 @@
 title: Trouver un logiciel alternatif libre
 description: Découvrez comment chercher des logiciels libres par vous même
 published: true
-date: 2024-02-01T12:39:12.873Z
+date: 2024-02-29T06:49:42.600Z
 tags: logiciel, application, alternative, alternatif
 editor: markdown
 dateCreated: 2023-02-10T23:29:04.219Z
@@ -12,16 +12,16 @@ dateCreated: 2023-02-10T23:29:04.219Z
 
 Vous êtes au bon endroit :)
 
-Vous retrouverez ci-après nos recommandations pour chaque types d'appareils (Ordinateurs portables ou fixes, et ordiphones) et chaque types d'applications (Messagerie, etc.).
+Vous retrouverez ci-après nos recommandations pour chaque type d'appareils (ordinateurs portables ou fixes, et ordiphones) et chaque type d'applications (messagerie, etc.).
 
-> A noter que nous avons fait le choix de **faire des choix** pour vous !
-> La base de nos choix étant la facilité d'utilisation au quotidien pour le néophyte avec un axe vie privée renforcé. Nous savons pertinemment que ces choix seront contestés (comme tout choix), alors n'hésitez pas à commenter cet article ;)
+> À noter que nous avons fait le choix de **faire des choix** pour vous !
+> La base de nos choix étant la facilité d'utilisation au quotidien pour le néophyte avec un axe "vie privée" renforcé. Nous savons pertinemment que ces choix seront contestés (comme tout choix), alors n'hésitez pas à commenter cet article ;)
 > 
-> Nous donnons donc 1 voire 2 alternatives quand nécessaire au maximum pour ne pas perdre le lecteur.
+> Nous donnons donc 1, voire 2 alternatives quand nécessaire, au maximum pour ne pas perdre le lecteur.
 {.is-warning}
 
 # Ordinateur
-Vous trouverez ci-dessous 2 outils forts pratiques afin de dénicher une alternative libre et open-source :
+Vous trouverez, ci-dessous, 2 outils forts pratiques afin de dénicher une alternative libre et open-source :
 
 ## Framalibre
 - [Framalibre](https://framalibre.org)
@@ -52,7 +52,7 @@ La page Awesome Privacy n'est pas à proprement parlé un site mais plutôt un d
 | Google Calendar, ... | Simple Calendar,<br>Etar | En remplacement de toute application propriétaire de calendrier. |
 | Google Files,<br> Fichiers, ... | Simple File Manager,<br>Material Files | En remplacement de toute application propriétaire de gestion de fichiers. |
 | Google Keep,<br> OneNote, ... | Simple Notes,<br>Notally | En remplacement de toute application propriétaire de prises de note ou de checklist. |
-| Google Météo | Geometric Weather | Breezy Weather | Pour les informations météorologiques. |
+| Google Météo | Breezy Weather | Pour les informations météorologiques. | Pour les informations météorologiques. |
 | Reddit | Slide,<br>Infinity | Pour un client Reddit afin de réduire la collecte de données. |
 | Google Password,<br> LastPass,<br> Dashlane,<br> Nordpass... | KeePassDX,<br>Bitwarden | Un article spécifique est dédié aux [Gestionnaires de mots de passe](/debutant/gestionnaire-mots-passe) alternatives, nous vous renvoyons vers cet article complet si nécessaire. |
 | Google Auth,<br> Microsoft Auth,<br> Authy | Aegis Authenticator | Pour le 2FA (via TOTP). |
