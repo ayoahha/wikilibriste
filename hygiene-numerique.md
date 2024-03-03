@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-02-01T12:41:56.748Z
+date: 2024-03-03T09:55:53.932Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -581,7 +581,7 @@ Sur ce navigateur, et afin d'éviter d'être *tracé* par des parties tierces, �
 
 - Pour cela, voir l'article sur [les moteurs de recherche](/debutant/moteurs-recherche), afin de changer pour un moteur respectueux de votre vie privée.
 
-### Les communication
+### Les communications
 
 - Veuillez lire l'article dédié aux [courriels](/debutant/communications#courriel) respectueux de vos données.
 
