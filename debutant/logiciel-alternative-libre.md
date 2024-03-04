@@ -2,7 +2,7 @@
 title: Trouver un logiciel alternatif libre
 description: Découvrez comment chercher des logiciels libres par vous même
 published: true
-date: 2024-03-04T19:12:13.087Z
+date: 2024-03-04T19:12:32.100Z
 tags: logiciel, application, alternative, alternatif
 editor: markdown
 dateCreated: 2023-02-10T23:29:04.219Z
@@ -68,7 +68,7 @@ La page Awesome Privacy n'est pas à proprement parlé un site mais plutôt un d
 | Lecteur Vidéo | VLC | Lecteur Audio/Video très connu et très fonctionnel/complet, projet open source et libre. En remplacement de tout lecteur préinstallé par<br>Google, Samsung ou autre constructeur. |
 {.dense}
 
-\* : Le développeur des "Simple Mobile Tools" a scédé le projet à une société [ZipoApps](https://alternativeto.net/news/2023/12/simple-mobile-tools-bought-by-zipoapps-sparks-controversy-over-future-of-open-source-apps/) bien connue pour acquérir des projets open source et y ajouter des traceurs publicitaires. Il est bien évident que nous ne soutenons plus ce projet. Fort heureusement, un ancien développeur a créé un fork de toutes ces applications pour assurer la continuation, applications maintenant sour le projet nommé [Fossify](https://github.com/FossifyOrg).
+\* : Le développeur des "Simple Mobile Tools" a scédé le projet à une société [ZipoApps](https://alternativeto.net/news/2023/12/simple-mobile-tools-bought-by-zipoapps-sparks-controversy-over-future-of-open-source-apps/) bien connue pour acquérir des projets open source et y ajouter des traceurs publicitaires. Il est bien évident que nous ne soutenons plus ce projet. Fort heureusement, un ancien développeur a créé un fork de toutes ces applications pour assurer la continuation, applications maintenant maintenues par le projet nommé [Fossify](https://github.com/FossifyOrg).
 
 
 \** : Concernant les SMS, Signal a prévenu récemment que la fonctionnalité support SMS/MMS n'était [plus supportée](https://signal.org/blog/sms-removal-android/).
