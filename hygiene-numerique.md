@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2024-03-03T09:55:53.932Z
+date: 2024-03-05T06:10:52.691Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -109,7 +109,7 @@ Le troisième facteur, le facteur d’inhérence, est souvent assimilé à l’e
 
 Un exemple ici est le fait d’utiliser votre empreinte digitale pour déverrouiller votre téléphone : le téléphone correspond au facteur que vous DÉTENEZ, votre empreinte au facteur que vous ÊTES (facteurs 1- et 3-).
 
-*Note : concernant le facteur biométrique lié à l'empreinte digitale, et stocké sur votre appareil (votre téléphone par exemple) : il s'agit d'une représentation mathématique de l'empreinte de votre doigt, non pas d'une photo fidèle, pixel pour pixel de votre empreinte digitale. Néanmoins, au vu du caractère restreint du nombre de possibilités de changer son authentification biométrique sur smartphone (10! Pour les 10 doigts des deux mains), un PIN fort est plutôt recommandé pour ceux qui ont bonne mémoire. En effet, en cas de piratage du PIN, on peut changer son code plus de 10 fois, et les possibilité sont exponentielles.*
+*Note : concernant le facteur biométrique lié à l'empreinte digitale, et stocké sur votre appareil (votre téléphone par exemple) : il s'agit d'une représentation mathématique de l'empreinte de votre doigt, non pas d'une photo fidèle, pixel pour pixel de votre empreinte digitale. Néanmoins, au vu du caractère restreint du nombre de possibilités de changer son authentification biométrique sur smartphone (10! Pour les 10 doigts des deux mains), un PIN fort est plutôt recommandé pour ceux qui ont bonne mémoire. En effet, en cas de piratage du PIN, on peut changer son code plus de 10 fois, et les possibilités sont exponentielles.*
 
 Un dernier exemple pour vous montrer l’étendue des possibilités de l’authentification multifactorielle (MFA). Souvent aperçus dans les films d’action, certains procédés d’authentification existent bel et bien, pour des données extrêmement critiques (par exemple un OIV en France ou Organisme d’Importance Vitale).
 
