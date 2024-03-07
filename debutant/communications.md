@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2024-03-07T11:51:13.280Z
+date: 2024-03-07T11:53:39.067Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -108,7 +108,7 @@ Il est donc recommandé d’utiliser d’autres solutions... que nous allons ten
 > Il est à noter que si vous possédez un modèle de menaces moyen à élevé (profils ou professions à risques), il est nécessaire voire primordial d'appliquer une couche de sécurité à vos échanges par courriel.
 {.is-info}
 
-### Services courriel
+### Fournisseurs de services courriel
 _**Commençons par les fournisseurs de services courriel**_
 
 - [Posteo](https://posteo.de/fr) et [Disroot](https://disroot.org/en/services/email) proposent tous deux l'utilisation personnelle de clés GPG/PGP, que ce soit via leur webmail qu'un client alternatif.
@@ -132,11 +132,12 @@ Pour terminer autour des fournisseurs, vous voyez qu'il est possible de protége
 > Nous ne répéterons jamais assez que la sécurité malheureusement aujourd'hui vient avec quelques contraintes dans l'utilisation des outils : il y aura toujours un choix à faire entre niveau de sécurité et facilité d'utilisation.
 {.is-info}
 
-### Clients courriel
+### Les Clients courriel
 
-Terminons par la solution la plus indiquée pour ceux qui ont besoin d'une sécurité maximale dans leurs échanges courriel. Il est possible ici d'utiliser un gestionnaire de courriel indépendant et gérer entièrement les clés utilisées pour protéger vos échanges, sans devoir passer par des tiers. Vous maîtrisez donc toute la chaîne de confiance, ce qui est idéal.
+Solution la plus indiquée pour ceux qui ont besoin d'une sécurité maximale dans leurs échanges courriel. Il est possible ici d'utiliser un gestionnaire de courriel indépendant et gérer entièrement les clés utilisées pour protéger vos échanges, sans devoir passer par des tiers. Vous maîtrisez donc toute la chaîne de confiance, ce qui est idéal. 
 
-Cette solution nécessite néanmoins un compte courriel capable de pouvoir être géré par un client externe ; par exemple, Gmail le permet via IMAP ou POP, mais ProtonMail ne le permet pas. Alors attention ici cela reste un exemple car avec une utilisation de Gmail, ayez bien en tête que quand bien même vous protégeriez vos échanges, les informations seraient tout de même en transit sur les serveurs de Google (collecte des métadonnées) ! Donc bien entendu, nous ne recommandons pas cette solution. Il y a d'autres façons de trouver un fournisseur voire d'auto-héberger son propre serveur courriel.
+> Cette solution nécessite néanmoins un compte courriel capable de pouvoir être géré par un client externe ; par exemple, Gmail le permet via IMAP ou POP, **mais ProtonMail ne le permet pas**.
+> Attention ici cela reste un exemple car avec une utilisation de Gmail, ayez bien en tête que quand bien même vous protégeriez vos échanges, les informations seraient tout de même en transit sur les serveurs de Google (collecte des métadonnées) ! Donc bien entendu, nous ne recommandons pas cette solution. Il y a d'autres façons de trouver un fournisseur voire d'auto-héberger son propre serveur courriel.
 
 Nous ne traiterons ici que d'un outil, qui est le plus connu des clients courriel sur GNU/Linux : Thunderbird. Il s'agit de l'outil le plus pratique afin de configurer PGP du fait de son intégration : avant le version 78, une extension était nécessaire afin d'intégrer PGP à Thunderbird, Enigmail [^¹]. C'est aujourd'hui de l'histoire ancienne, PGP étant complètement intégré au logiciel. Enigmail reste cela dit disponible pour la rétro compatibilité.
 
