@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2024-03-07T12:06:59.754Z
+date: 2024-03-07T12:12:38.208Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -299,7 +299,6 @@ Pour les autres choix cela dépendra de votre modèle :
 > Notre avis pour Telegram en tant que simple messagerie : sachant qu'ils ne proposent pas "nativement" la protection bout en bout des échanges (pour cela, il est obligatoire de créer des canaux appelés "Secret", et uniquement disponible sur téléphone) et que les groupes créés ne sont pas non plus protégés de bout en bout (protection client-serveur), ***nous avons tendance à ne pas recommander Telegram _en tant que messagerie_***, mais en tant que média social, au même titre que Mastodon.
 {.is-warning}
 
-
 ## La sécurité des messageries
 
 Nous ne pouvons bien entendu pas parler de messagerie sans discuter de la sécurisation des échanges : c'est un peu un passage obligé pour pouvoir décider quel outil vous allez utiliser ! Nous allons tenter de faire ça simplement.
@@ -328,7 +327,8 @@ Simple ! :)
 
 ## Analyse des forces en présence
 
-### CENTRALISE : Signal
+### Tabs {.tabset}
+#### CENTRALISE : Signal
 
 La messagerie *vue comme la plus sécurisée* est la plus connue à ce jour dans ce genre d'outil de communication, en tout cas au sein de la communauté numérique.
 
@@ -381,8 +381,8 @@ Signal est donc cette messagerie dite "sécurisée" dont ses développeurs ont c
 **_Néanmoins, comme évoqué plus haut, tout n'est pas si rose :_**
 En dehors du fait que nouvellement une partie du code source côté Serveur est maintenant fermé, voici les points techniques sujets à débat :
 
-### Tabs {.tabset}
-#### Le côté centralisé
+##### Tabs {.tabset}
+###### Le côté centralisé
 Signal repose sur une **infrastructure centralisée**.
 
 C'est une décision prise à l'origine afin d'accélérer l'adoption de la messagerie aux utilisateurs non technophiles (M. et Mme Michu en somme), mais au détriment des aspects sécuritaires et d'anonymisation. Et il semble qu'ils n'évolueront pas sur ce point, les développeurs étant convaincus que le modèle centralisé est le meilleur (probablement pour leurs finances !).
@@ -391,7 +391,7 @@ En réalité, il s'agit d'une grande infrastructure cloud de serveurs, hébergé
 
 Oui mais voilà, cette centralisation apporte certains inconvénients au niveau vie privée et fiabilité.
 
-#### Le numéro de téléphone
+###### Le numéro de téléphone
 Signal exige que tout compte soit lié à un **numéro de téléphone**.
 
 Nous avons déjà discuté des métadonnées dans l'article sur l'[hygiène numérique](/hygiene-numerique#les-m%C3%A9tadonn%C3%A9es-quest-ce-que-cest). L'importance des métadonnées a été prise en compte pas les développeurs, ce qui est un bon point (ils arrivent à protéger et/ou obfusquer la majorité de ces données). Néanmoins, il est depuis 2016 devenu évident que Signal collecte les numéros de téléphone associés à un compte [^¹8] ainsi qu'une seconde donnée qui est la '*dernière connexion d'un compte X à un serveur*'.
@@ -402,7 +402,7 @@ Pour beaucoup, lier le numéro de téléphone est un problème et met à mal le 
 
 Et bien entendu, sur le point de la collecte, nous n'avons pas le choix que de faire confiance aux développeurs ! Idem sur le sujet des ordonnances reçues par Signal demandant une divulguation d'informations. À l'heure où nous écrivons ces lignes, il n'y a pas de raison valable de douter de leur bonne foi, mais il est important de se demander jusqu'à quel point nous sommes prêts à faire confiance à la messagerie ; il est évident que des adversaires comme un état ou des groupements de pirates malveillants soutenus par des états ont des capacités importantes de collecte et d'aggrégation et de corrélation de (méta)données, même en ne ciblant pas directement Signal mais en passant par Amazon. Signal est donc bien plus vulnérable à ce type d'attaque que d'autres solutions, _du fait de son infrastructure centralisée_.
 
-#### Le protocole de sécurité
+###### Le protocole de sécurité
 Il y a tout de même quelques doutes sur le **protocole** en lui-même.
 
 Pour les plus experts d'entre vous, et ceux ayant le courage de creuser un peu plus le sujet du protocole, un chercheur de l'ANSSI a rédigé un rapport sur *les protocoles* de messageries qu'utilise Signal, rapport très intéressant [^¹9].
@@ -412,7 +412,7 @@ Pour les plus experts d'entre vous, et ceux ayant le courage de creuser un peu p
 
 Tout comme nous, et bien d'autres collectifs, il analyse le réel niveau de sécurisation de Signal et pose des questions plus que légitimes au regard des évolutions récentes de la messagerie...
 
-### DECENTRALISE
+#### DECENTRALISE
 
 Ici nous avons 2 outils, aux objectifs différents :
 - Element met l'accent sur le côté temps-réel et interopérabilité, **et constitue plus un réseau social qu'une messagerie** (*à l'instar de Telegram*).
@@ -420,7 +420,7 @@ Ici nous avons 2 outils, aux objectifs différents :
 
 Bien que ces 2 solutions se reposent sur la décentralisation (à un certain niveau cela dit) et implémentent un chiffrement bout en bout, il y a donc bien une grande différence entre les 2 messageries, qui ne seront pas destinées aux mêmes usages...
 
-#### Element
+##### Element
 [Element](https://element.io/) est basé sur le protocole et le réseau Matrix. Ce réseau est un réseau fédéré, décentralisé jusqu'à un certain point, et est surtout axé sur l'**interopérabilité** : c'est-à-dire la capacité de recevoir des communications d'autres messageries (Whatsapp, Telegram, Signal...) et d'autres protocoles, via ce qu'ils appellent des *ponts*. C'est la grande force de Matrix, même si cela vient avec des inconvénients, vous vous en doutez...
 
 Côté sécurisation des échanges, Matrix permet le chiffrement bout en bout et utilise les mêmes méthodes de chiffrement que Signal (le côté centralisation en moins) ; ce n'est pas l'objectif prioritaire de Matrix car il n'impose pas le chiffrement par défaut, d'ailleurs certaines applications qui utilisent Matrix ne fournissent pas de chiffrement (par exemple Nio, Fractal...), mais *Element* l'implémente et l'impose.
@@ -437,7 +437,7 @@ Néanmoins, quelques cas de figure problématiques peuvent apparaître dans son 
 _**Ressources d'intérêts**_
 - Audit de sécurité : [Audit indépendant du protocole Matrix en 2016](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) et statuant sur des capacités correctes dans la sécurisation, si correction des divers bugs remontés (je vous rassure, depuis les divers bugs de sécurité sont corrigés !).
 
-#### Session
+##### Session
 [Session](https://getsession.org/) est, quant à lui, un fork récent de Signal. Mais plutôt que de proposer une centralisation, Session propose de passer par un réseau décentralisé appelé Lokinet/Oxen (qui est un équivalent de Tor), qui implémente une blockchain. Alors rassurez-vous tout ceci est transparent pour les utilisateurs, et vous n'aurez pas non plus à acheter des cryptomonnaies :).
 
 L'idée derrière l'utilisation de ce réseau est d'apporter une **confidentialité** et un **anonymat** accrus :
@@ -465,9 +465,7 @@ _**Ressources d'intérêts**_
 
 *Bien entendu, rien n'empêche d'utiliser les 2 puisque ce sont 2 outils que nous recommandons.*
 
-### PAIR-A-PAIR : Briar
-
-#### Le modèle Pair-à-Pair
+#### PAIR-A-PAIR : Briar
 
 Avant d'en venir à l'outil recommandé lui-même, parlons un peu technique. Une communication pair-à-pair (nous utiliserons l'acronyme **P2P** dans la suite) comporte beaucoup d'avantages mais vient la plupart du temps avec quelques inconvénients dans les usages.
 
@@ -503,7 +501,7 @@ Attention tout de même, rappelez-vous bien que Tor n'est pas infaillible (Tor v
 **Les avantages :**
 Les applications fonctionnant sur ce modèle P2P ne demandent pas de numéro de téléphone, adresse courriel, ou autre identifiant permettant de rattacher une personne/un utilisateur à son identité. Il est donc tout à fait possible d'utiliser ces applications sur un ordinateur, un téléphone sans carte SIM, ou un téléphone classique sans avoir besoin de lier la carte SIM à l'application.
 
-#### L'application Briar
+##### L'application Briar
 
 [Briar](https://briarproject.org)
 
