@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2024-03-07T11:58:58.884Z
+date: 2024-03-07T12:06:54.284Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -261,76 +261,13 @@ Il est également intéressant de voir que le FBI a créé un document qui liste
 
 Nous retrouvons toutes les messageries mentionnées ci-dessus, tout en notant que *Signal* est la messagerie au travers de laquelle il est le plus difficile d'obtenir des informations... Nous y reviendrons !
 
-## Les messageries controversées
-Certains vont se demander pourquoi certaines messageries connues n'apparaissent pas ici. Voici les raisons :
-
-- **Threema** : application suisse, très prisée dans le monde germanophone. Cette messagerie est payante et une partie de son code source n'est pas ouvert (côté serveur). Il est donc évident que nous ne recommanderons pas cette solution.
-
-- **Wire** : également suisse, Wire a été créée par le fondateur de Skype. L'application est totalement open-source, et utilise les méthodes de chiffrement de Signal. Néanmoins, Wire a un modèle qui ne colle pas avec la philosophie du Libre, la société s'adressant plus particulièrement au monde professionnel qu'au grand public et donc possédant un modèle économique attirant les convoitises. Ici encore, nous ne recommandons pas forcément cette messagerie.
-
-## Le cas délicat d'Olvid
-
-Oui nous ne recommandons pas, à ce jour, l'application française **Olvid**... Beaucoup ici trouveront cette idée farfelue, mais voici nos raisons :
-- Bien que certifiée ANSSI [^³] et ayant fait l'objet d'un second audit de sécurité [^⁴] (2020), cette application n'est pas totalement à sources ouvertes : seul le protocole de chiffrement et les clients Android/iOS le sont, l'objectif étant de faciliter les audits et bug bounty afin de perfectionner les algorithmes (qui ont été créés de zéro). Mais la partie serveur [^⁵] est à sources fermées ce qui empêche des experts indépendants de réellement les auditer.
-- Les serveurs montés par les créateurs d'Olvid sont tous hébergés hors Europe (chez Amazon AWS [^⁷]), ce qui laisse songeur sur leur côté éthique et soumission aux règles américaines.
-- De plus, Olvid considère que l'adresse IP est plus une donnée technique [^⁶] qu'une donnée personnelle, ce qui dès lors devrait nous mettre la puce à l'oreille...
-
-À ce titre, nous ne recommandons pas spécialement cette messagerie, **Session** par exemple nous semble bien plus indiquée ici.
-
-[^³]: [ANSSI - CSPN](https://cyber.gouv.fr/produits-certifies?sort_bef_combine=field_date_de_certification_value_DESC&field_cat_target_id%5B587%5D=587) -  "Messagerie Sécurisée"
-[^⁴]: [Rapport d'évaluation](https://olvid.io/assets/documents/Synacktiv-Olvid-CSPN-Olvid-0.8.2-RTE-public.pdf)
-[^⁵]: [Olvid - Politique de Confidentialité](https://www.olvid.io/privacy/fr/)
-[^⁶]: [Olvid et AWS](https://www.lemondeinformatique.fr/actualites/lire-olvid-la-polemique-sur-aws-ne-paas-pas-92463.html)
-[^⁷]: [Olvid Serveur](https://www.olvid.io/faq/serveur-et-open-source/)
-
-## Les messageries recommandées
-
-### Bon rapport Praticité/Sécurité
-
-> **Vous trouverez ci-après 2 onglets : "Pour débuter" et "Aller plus loin".
-> -- L'onglet "Pour débuter" pour ceux qui ne souhaitent pas de justification ou d'analyse concernant les choix proposés.
-> -- L'onglet "Aller plus loin" pour les personnes désireuses de comprendre nox choix.**
-{.is-warning}
-
-
-# Tabs {.tabset}
-## Pour débuter
-Pour vous faciliter la prise de décision, nous vous présentons, dans les prochains chapitres, les outils que nous recommandons suivant les usages que vous souhaitez en faire qui sont :
-- [Signal *La meilleure des messageries centralisée, mais sujet à bien des questions...*](https://signal.org/)
-- [Element *La messagerie à base Matrix pour son côté décentralisé*](https://element.io/)
-- [Session *Une messagerie qui utilise les algorithmes Signal sur un réseau réparti/distribué*](https://getsession.org/)
-- [Briar *La messagerie optimale pour du pair à pair (= sans intermédiaire)*](https://briarproject.org)
-{.links-list}
-
-> Attention, nous avons pris le parti de faire des choix, basés sur un modèle de sécurité strict mais aussi sur une _**facilité d'utilisation**_ au quotidien. Il existe bien entendu d'autres messageries, mais 
-> (1) soit elles n'ont pas fait l'objet d'audit de sécurité (ce qui ne nous permet pas d'avoir un niveau de confiance suffisant),
-> (2) soit leur modèle ne correspond pas à nos exigences,
-> (3) soit elles souffrent d'une trop grande jeunesse pour une utilisation au quotidien.
-{.is-info}
-
-**Si vous souhaitez en savoir plus, jetez un oeil à l'onglet "Aller plus loin"**.
-
-## Aller plus loin
-Pour vous faciliter la prise de décision, nous vous présentons, dans les prochains chapitres, les outils que nous recommandons suivant les usages que vous souhaitez en faire qui sont :
-- [Signal *La meilleure des messageries centralisée, mais sujet à bien des questions...*](https://signal.org/)
-- [Element *La messagerie à base Matrix pour son côté décentralisé*](https://element.io/)
-- [Session *Une messagerie qui utilise les algorithmes Signal sur un réseau réparti/distribué*](https://getsession.org/)
-- [Briar *La messagerie optimale pour du pair à pair (= sans intermédiaire)*](https://briarproject.org)
-{.links-list}
-
-> Attention, nous avons pris le parti de faire des choix, basés sur un modèle de sécurité strict mais aussi sur une _**facilité d'utilisation**_ au quotidien. Il existe bien entendu d'autres messageries, mais 
-> (1) soit elles n'ont pas fait l'objet d'audit de sécurité (ce qui ne nous permet pas d'avoir un niveau de confiance suffisant),
-> (2) et/ou soit leur modèle ne correspond pas à nos exigences,
-> (3) et/ou soit elles souffrent d'une trop grande jeunesse pour une utilisation au quotidien.
-{.is-info}
-
-### Etat des lieux du marché
+## Etat des lieux du marché
 Maintenant que nous avons une idée de l'étendue des dégâts, passons aux choix qui se présentent à nous. Vous avez sûrement tous entrevus ces infographies, faisant état de la majorité des messageries actuellement disponibles comparées aux messageries propriétaires :
 
 ![messageries-1.jpg](/images/messageries-1.jpg =600x)<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>![messageries-2.jpg](/images/messageries-2.jpg =650x)
 
-Ce [comparatif](https://www.securemessagingapps.com/) est également une bonne source d'informations.
-
+> Ce [comparatif](https://www.securemessagingapps.com/) est également une bonne source d'informations.
+{.is-info}
 ---
 
 **Deuxième constat** : il est difficile de savoir quelle messagerie vous allez pouvoir utiliser, comme cela en visualisant simplement des infographies... En effet, ces outils sont en plein essor, notamment du côté des solutions open source. Le marché n'a pas encore consolidé et nous avons aujourd'hui la possibilité d'utiliser des outils basés sur des mécanismes assez complexes à appréhender et à comprendre surtout lorsque les aspects de chiffrement ne sont pas les mêmes partout ! 
@@ -363,7 +300,7 @@ Pour les autres choix cela dépendra de votre modèle :
 {.is-warning}
 
 
-### La sécurité des messageries
+## La sécurité des messageries
 
 Nous ne pouvons bien entendu pas parler de messagerie sans discuter de la sécurisation des échanges : c'est un peu un passage obligé pour pouvoir décider quel outil vous allez utiliser ! Nous allons tenter de faire ça simplement.
 
@@ -379,7 +316,7 @@ Pour plus de détails sur les définitions, rendez vous sur le [glossaire](/glos
 
 [^⁸]: E2EE pour "End to End Encryption".
 
-
+---
 Pour traduire, lorsque vous utilisez une application de messagerie aujourd'hui, *centralisée* et *grand public/propriétaire* (hors modèle pair à pair donc), il est souvent mis en avant le fait que celles-ci vous proposent un chiffrement bout-en-bout (E2EE), mais ce n'est pas si simple... Sur le même principe que des mandataires courriels, une majorité des messageries génèrent elles-mêmes les clés de chiffrement et les gèrent pour vous afin que tout soit transparent. **Néanmoins, cela implique plusieurs choses qui peuvent déranger** :
 -   Vous êtes soi-disant propriétaire des clés, mais la réalité est que vous êtes tributaire de la société derrière cette messagerie dans la gestion de ces clés. Si les serveurs de cette messagerie sont compromis, il y a de très fortes chances que vos clés le soient également.
 -   Il est évident également que du fait que ces clés soient gérées par la société derrière la messagerie, celle-ci puisse et/ou doive (injonction légale) donner accès à ces clés à n'importe quelle autorité ou entité de surveillance qui le demanderait.
@@ -389,7 +326,9 @@ Concernant les modèles pair à pair ou décentralisé, ces inconvénients n'exi
 
 Simple ! :)
 
-### Centralisé, Signal
+## Analyse des forces en présence
+
+### CENTRALISE : Signal
 
 La messagerie *vue comme la plus sécurisée* est la plus connue à ce jour dans ce genre d'outil de communication, en tout cas au sein de la communauté numérique.
 
@@ -473,7 +412,7 @@ Pour les plus experts d'entre vous, et ceux ayant le courage de creuser un peu p
 
 Tout comme nous, et bien d'autres collectifs, il analyse le réel niveau de sécurisation de Signal et pose des questions plus que légitimes au regard des évolutions récentes de la messagerie...
 
-### Décentralisé
+### DECENTRALISE
 
 Ici nous avons 2 outils, aux objectifs différents :
 - Element met l'accent sur le côté temps-réel et interopérabilité, **et constitue plus un réseau social qu'une messagerie** (*à l'instar de Telegram*).
@@ -526,13 +465,11 @@ _**Ressources d'intérêts**_
 
 *Bien entendu, rien n'empêche d'utiliser les 2 puisque ce sont 2 outils que nous recommandons.*
 
-### Pair-à-pair
-
-Avant d'en venir à l'outil recommandé lui-même, parlons un peu technique.
+### PAIR-A-PAIR : Briar
 
 #### Le modèle Pair-à-Pair
 
-Une communication pair-à-pair (nous utiliserons l'acronyme **P2P** dans la suite) comporte beaucoup d'avantages mais vient la plupart du temps avec quelques inconvénients dans les usages.
+Avant d'en venir à l'outil recommandé lui-même, parlons un peu technique. Une communication pair-à-pair (nous utiliserons l'acronyme **P2P** dans la suite) comporte beaucoup d'avantages mais vient la plupart du temps avec quelques inconvénients dans les usages.
 
 Le modèle P2P permet une grande résistance à la fuite de métadonnées ; aucune entité ne doit être présente entre émetteur et récepteur et le modèle rend compliqué l'interception par des adversaires, ce qui engendre des difficultés dans les tâches de collectes de données de tierces parties. De plus, du moment que vous pouvez établir la communication, vous pouvez échanger, sinon il n'est pas possible d'établir une communication.
 
@@ -566,7 +503,7 @@ Attention tout de même, rappelez-vous bien que Tor n'est pas infaillible (Tor v
 **Les avantages :**
 Les applications fonctionnant sur ce modèle P2P ne demandent pas de numéro de téléphone, adresse courriel, ou autre identifiant permettant de rattacher une personne/un utilisateur à son identité. Il est donc tout à fait possible d'utiliser ces applications sur un ordinateur, un téléphone sans carte SIM, ou un téléphone classique sans avoir besoin de lier la carte SIM à l'application.
 
-#### L'outil Briar
+#### L'application Briar
 
 [Briar](https://briarproject.org)
 
@@ -582,11 +519,31 @@ Briar a fait l'objet d'un audit en 2017 [^²3] : voici le [rapport PDF](https://
 [^²4]: [Briar - wiki](https://code.briarproject.org/briar/briar/-/wikis/FAQ).
 [^²3]: [Audit](https://briarproject.org/news/2017-beta-released-security-audit/) de sécurité de Briar.
 
-# D'autres projets ?
+## Les messageries controversées
+Certains vont se demander pourquoi certaines messageries connues n'apparaissent pas ici. Voici les raisons :
 
-D'autres solutions de messageries, moins connues ou plus récentes existent. Nous faisons état ci-dessous de quelques-unes qui méritent de s'y intéresser, bien que pour certaines trop "jeunes" pour être utilisées au quotidien. 
+- **Threema** : application suisse, très prisée dans le monde germanophone. Cette messagerie est payante et une partie de son code source n'est pas ouvert (côté serveur). Il est donc évident que nous ne recommanderons pas cette solution.
 
-Cela doit rester à la discrétion des utilisateurs de faire confiance ou non en ces outils :
+- **Wire** : également suisse, Wire a été créée par le fondateur de Skype. L'application est totalement open-source, et utilise les méthodes de chiffrement de Signal. Néanmoins, Wire a un modèle qui ne colle pas avec la philosophie du Libre, la société s'adressant plus particulièrement au monde professionnel qu'au grand public et donc possédant un modèle économique attirant les convoitises. Ici encore, nous ne recommandons pas forcément cette messagerie.
+
+### Le cas délicat d'Olvid
+
+Oui nous ne recommandons pas, à ce jour, l'application française **Olvid**... Beaucoup ici trouveront cette idée farfelue, mais voici nos raisons :
+- Bien que certifiée ANSSI [^³] et ayant fait l'objet d'un second audit de sécurité [^⁴] (2020), cette application n'est pas totalement à sources ouvertes : seul le protocole de chiffrement et les clients Android/iOS le sont, l'objectif étant de faciliter les audits et bug bounty afin de perfectionner les algorithmes (qui ont été créés de zéro). Mais la partie serveur [^⁵] est à sources fermées ce qui empêche des experts indépendants de réellement les auditer.
+- Les serveurs montés par les créateurs d'Olvid sont tous hébergés hors Europe (chez Amazon AWS [^⁷]), ce qui laisse songeur sur leur côté éthique et soumission aux règles américaines.
+- De plus, Olvid considère que l'adresse IP est plus une donnée technique [^⁶] qu'une donnée personnelle, ce qui dès lors devrait nous mettre la puce à l'oreille...
+
+À ce titre, nous ne recommandons pas spécialement cette messagerie, **Session** par exemple nous semble bien plus indiquée ici.
+
+[^³]: [ANSSI - CSPN](https://cyber.gouv.fr/produits-certifies?sort_bef_combine=field_date_de_certification_value_DESC&field_cat_target_id%5B587%5D=587) -  "Messagerie Sécurisée"
+[^⁴]: [Rapport d'évaluation](https://olvid.io/assets/documents/Synacktiv-Olvid-CSPN-Olvid-0.8.2-RTE-public.pdf)
+[^⁵]: [Olvid - Politique de Confidentialité](https://www.olvid.io/privacy/fr/)
+[^⁶]: [Olvid et AWS](https://www.lemondeinformatique.fr/actualites/lire-olvid-la-polemique-sur-aws-ne-paas-pas-92463.html)
+[^⁷]: [Olvid Serveur](https://www.olvid.io/faq/serveur-et-open-source/)
+
+## D'autres projets ?
+
+D'autres solutions de messageries, moins connues ou plus récentes existent. Nous faisons état ci-dessous de quelques-unes qui méritent de s'y intéresser, bien que pour certaines trop "jeunes" pour être utilisées au quotidien. Cela doit rester à la discrétion des utilisateurs de faire confiance ou non en ces outils :
 
 - [SimpleX *messagerie qui monte, auditée **\*** en 2022. Uniquement disponible sur Android et iOS*](https://simplex.chat/)
 - [Molly *un fork de Signal*](https://molly.im)
@@ -614,6 +571,21 @@ Plus confidentiels et pour des profils aux besoins d'anonymat et de sécurité a
 Nous pouvons mentionner également :
 - [TinFoil Chat *qui nécessite tout de même une infrastructure pour une utilisation complète (séparation de l'émetteur et du récepteur, etc.). Pour des profils plutôt initiés ou à l'aise avec l'outil numérique :)*](https://github.com/maqp/tfc)
 {.links-list}
+
+## Nos recommandations
+
+Pour vous faciliter la prise de décision, nous vous présentons la liste des messageries que nous recommandons, discutés dans les précédents chapitres, suivant les usages que vous souhaitez en faire qui sont :
+- [Signal *La meilleure des messageries centralisée, mais sujet à bien des questions...*](https://signal.org/)
+- [Element *La messagerie à base Matrix pour son côté décentralisé*](https://element.io/)
+- [Session *Une messagerie qui utilise les algorithmes Signal sur un réseau réparti/distribué*](https://getsession.org/)
+- [Briar *La messagerie optimale pour du pair à pair (= sans intermédiaire)*](https://briarproject.org)
+{.links-list}
+
+> Attention, nous avons pris le parti de faire des choix, basés sur un modèle de sécurité strict mais aussi sur une _**facilité d'utilisation**_ au quotidien. Il existe bien entendu d'autres messageries, mais 
+> (1) soit elles n'ont pas fait l'objet d'audit de sécurité (ce qui ne nous permet pas d'avoir un niveau de confiance suffisant),
+> (2) et/ou soit leur modèle ne correspond pas à nos exigences,
+> (3) et/ou soit elles souffrent d'une trop grande jeunesse pour une utilisation au quotidien.
+{.is-info}
 
 # Vidéo conférence
 
