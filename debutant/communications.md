@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2024-03-07T11:58:36.564Z
+date: 2024-03-07T11:58:58.884Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -192,19 +192,6 @@ Tout comme mailvelope, Flowcrypt est une extension, à installer sur votre navig
 
 A la manière de Mailvelope, un nouveau bouton apparaîtra sur votre webmail Gmail "Nouveau message sécurisé", et vous permettra sur le même principe de rédiger et transmettre votre courriel sécurisé.
 
-### Les Alternatives à PGP
-
-Bien que PGP/GPG soit de plus en plus utilisé pour les courriels, il est tout à fait possible d'utiliser des alternatives via d'autres outils de gestions de clés asymétriques. Nous vous avons donné 2 logiciels dans la partie chiffrement, qui sont ici indiqués comme alternatives à PGP (ou GnuPG) :
-
--   **Kryptor** : cet outil comporte toutes les fonctionnalités nécessaires pour chiffrer mais aussi signer vos courriels. Il pourra donc vous être utile sans devoir utiliser un second outil.
-**Tutoriel disponible [ici](/tutoriels/kryptor).**
--   **Age + Minisign** : ici Age qui ne comporte que la fonctionnalité de chiffrement devra être adossé à un second outil qui s'occupera des signatures [Minisign](https://jedisct1.github.io/minisign/).
-**Tutoriel pour Age disponible [ici](/tutoriels/age).**
-
-> L'un comme l'autre sont des alternatives crédibles à PGP.
-{.is-success}
-
-Pour *Kryptor*, ce sera vraisemblablement plus simple de générer et gérer une paire ou deux paires de clés (1 pour le chiffrement/déchiffrement et 1 seconde pour les signatures, afin de respecter les bonnes pratiques en cryptographie !), car il n'y aura qu'un seul gestionnaire de clés. Quand à *Age + Minisign*, deux gestionnaires de clés seront à gérer, même si Minisign propose des algorithmes à la pointe (ed25519 et blake2) et est plutôt rapide et simple.
 
 # Messagerie
 
