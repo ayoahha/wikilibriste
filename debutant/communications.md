@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2024-03-07T11:56:04.240Z
+date: 2024-03-07T11:58:36.564Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -183,12 +183,18 @@ Pour terminer sur **Mailvelope**, deux points importants :
 1. Il est possible d'importer votre bi-clé. Cela vous permet d'utiliser vos "sous-clés" (encore une fois nous vous renvoyons à l'[utilisation de GPG](/tutoriels/gnupg)), afin d'éviter de laisser votre clé privée maître constamment stockée sur une machine en ligne
 2. Petite note sur la protection clé privée/mot de passe : dans le cas où vous générez votre bi-clé via Mailvelope, la clé privée et le mot de passe seront stockés dans votre navigateur (la clé privée stockée chiffrée bien entendu). Attention donc à bien mettre à jour votre navigateur afin d'éviter d'éventuelles vulnérabilités dans le compartiment de stockage.
 
+- [Flowcrypt *Gmail et clé PGP*](https://flowcrypt.com/)
+{.links-list}
 
--   [Flowcrypt](https://flowcrypt.com/) : tout comme mailvelope, Flowcrypt est une extension, à installer sur votre navigateur internet, qui vous permettra de générer et gérer vos clés. *Point très limitant : Flowcrypt est limité uniquement à Gmail*. A la manière de Mailvelope, un nouveau bouton apparaîtra sur votre webmail Gmail "Nouveau message sécurisé", et vous permettra sur le même principe de rédiger et transmettre votre courriel sécurisé.
+Tout comme mailvelope, Flowcrypt est une extension, à installer sur votre navigateur internet, qui vous permettra de générer et gérer vos clés. 
+
+> *Point très limitant : Flowcrypt est limité uniquement à Gmail*.
+
+A la manière de Mailvelope, un nouveau bouton apparaîtra sur votre webmail Gmail "Nouveau message sécurisé", et vous permettra sur le même principe de rédiger et transmettre votre courriel sécurisé.
 
 ### Les Alternatives à PGP
 
-Bien que PGP soit de plus en plus utilisé pour les courriels, il est tout à fait possible d'utiliser des alternatives via d'autres outils de gestions de clés asymétriques. Nous vous avons donné 2 logiciels dans la partie chiffrement, qui sont ici indiqués comme alternatives à PGP (ou GnuPG) :
+Bien que PGP/GPG soit de plus en plus utilisé pour les courriels, il est tout à fait possible d'utiliser des alternatives via d'autres outils de gestions de clés asymétriques. Nous vous avons donné 2 logiciels dans la partie chiffrement, qui sont ici indiqués comme alternatives à PGP (ou GnuPG) :
 
 -   **Kryptor** : cet outil comporte toutes les fonctionnalités nécessaires pour chiffrer mais aussi signer vos courriels. Il pourra donc vous être utile sans devoir utiliser un second outil.
 **Tutoriel disponible [ici](/tutoriels/kryptor).**
