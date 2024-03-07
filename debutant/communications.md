@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2024-03-07T11:53:39.067Z
+date: 2024-03-07T11:56:04.240Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -154,30 +154,32 @@ L'idée dans cet outil sera de :
 
 Vous trouverez ici un tutoriel intéressant et [bien documenté](https://www.zdnet.fr/pratique/comment-chiffrer-vos-e-mails-et-pourquoi-vous-devriez-le-faire-39944598.htm).
 
-
 ### Les mandataires tiers
 
-Une seconde possibilité vous est offerte si vous souhaitez toujours utiliser vos courriels habituels, consultables via votre navigateur internet (client webmail) : Gmail, Outlook, Yahoo, Mailbox... Bon ce n'est pas ce que l'on vous recommande, mais si votre modèle de menaces vous impose une protection de vos échanges courriel sans toutefois être critique, grâce à des extensions de navigateur, vous allez pouvoir chiffrer et signer vos courriels via PGP d'une manière assez simple.
+Une seconde possibilité vous est offerte si vous souhaitez toujours utiliser vos courriels habituels, consultables via votre navigateur internet (client webmail) : Gmail, Outlook, Yahoo, Mailbox... Bon ce n'est pas ce que l'on vous recommande, mais si votre modèle de menaces vous impose une protection de vos échanges courriel sans toutefois être critique, grâce à des extensions de navigateur, vous allez pouvoir chiffrer et signer vos courriels via PGP d'une manière assez simple :
 
--   [Mailvelope](https://mailvelope.com/en) : cet outil va vous permettre de générer vos clés PGP très simplement : pour ce faire, avant toute chose, cliquez sur l'icône de l'extension et sur "Let's Start". Ici, vous pourrez configurer l'outil en générant votre bi-clé :
-    -   Rentrer vos données personnelles pour l'identification des clés,
-    -   Cliquer sur "Avancé" puis choisir RSA 4096bits,
-    -   Rentrer le mot de passe de protection de la clé privée,
-    -   Si vous souhaitez rendre publique votre clé, vous pouvez laisser cochée l'import de votre clé publique sur les serveurs de Mailvelope (Mailvelope utilise le serveur de clés Ubuntu `keyserver.ubuntu.com`). Nous vous renvoyons ici à l'article sur [PGP](/intermediaire/chiffrement#pgp-gpg), afin de savoir ce que vous devez faire car ceci n'est pas sans conséquence,
-    -   Aller dans les options, dans Général et cocher la fonctionnalité de signature,
-    -   Si vous n'avez pas choisi le stockage de votre clé publique sur un serveur de clés, vous pouvez demander l'ajout la clé publique à chaque email,
-    -   Pour ce qui est de Gmail, vous devez vérifier que l'API Google est bien cochée (car cela nécessite une connexion à votre compte Google),
-    -   Revenir ensuite au gestionnaire de clés, et synchroniser. Vous recevrez un courriel sur la boîte courriel que vous souhaitez configurer,
-    -   Cliquer dans le courriel sur "Afficher le message", entrez le mot de passe qui protège votre clé, pour déchiffrer le courriel, puis cliquez sur le lien de confirmation. Voilà, votre boîte courriel est configurée avec Mailvelope.
+- [Mailvelope *Gestion simplifiée des clés PGP*](https://mailvelope.com/en)
+{.links-list}
 
-Bien entendu, votre interlocuteur devra effectuer les mêmes actions avec son client webmail, bien qu'ici il puisse utiliser un autre que le vôtre.
+Cet outil va vous permettre de générer vos clés PGP très simplement : pour ce faire, avant toute chose, cliquez sur l'icône de l'extension et sur "Let's Start". Ici, vous pourrez configurer l'outil en générant votre bi-clé :
+-   Rentrer vos données personnelles pour l'identification des clés,
+-   Cliquer sur "Avancé" puis choisir RSA 4096bits,
+-   Rentrer le mot de passe de protection de la clé privée,
+-   Si vous souhaitez rendre publique votre clé, vous pouvez laisser cochée l'import de votre clé publique sur les serveurs de Mailvelope (Mailvelope utilise le serveur de clés Ubuntu `keyserver.ubuntu.com`). Nous vous renvoyons ici à l'article sur [PGP](/intermediaire/chiffrement#pgp-gpg), afin de savoir ce que vous devez faire car ceci n'est pas sans conséquence,
+-   Aller dans les options, dans Général et cocher la fonctionnalité de signature,
+-   Si vous n'avez pas choisi le stockage de votre clé publique sur un serveur de clés, vous pouvez demander l'ajout la clé publique à chaque email,
+-   Pour ce qui est de Gmail, vous devez vérifier que l'API Google est bien cochée (car cela nécessite une connexion à votre compte Google),
+-   Revenir ensuite au gestionnaire de clés, et synchroniser. Vous recevrez un courriel sur la boîte courriel que vous souhaitez configurer,
+-   Cliquer dans le courriel sur "Afficher le message", entrez le mot de passe qui protège votre clé, pour déchiffrer le courriel, puis cliquez sur le lien de confirmation. Voilà, votre boîte courriel est configurée avec Mailvelope.
+
+> Bien entendu, votre interlocuteur devra effectuer les mêmes actions avec son client webmail, bien qu'ici il puisse utiliser un autre que le vôtre.
 
 **Afin d'envoyer un courriel via Gmail** : vous verrez maintenant apparaître une icône Mailvelope à côté du bouton "Nouveau Message". Cliquez sur ce bouton, celui-ci ouvre l'extension et vous demande de vous connecter avec votre compte Google. Vous pourrez ensuite rédiger votre courriel dans la fenêtre Mailvelope, qui vous montrera les personnes avec qui vous pourrez protéger vos échanges, ces personnes vous ayant transmis leur clé publique.
 
 > Une petite particularité ici est de ne pas mettre d'information sensible dans l'objet du message. En effet, celui-ci n'est pas chiffré, donc pensez à rester vague.
 {.is-warning}
 
-Pour terminer sur Mailvelope, deux points importants :
+Pour terminer sur **Mailvelope**, deux points importants :
 1. Il est possible d'importer votre bi-clé. Cela vous permet d'utiliser vos "sous-clés" (encore une fois nous vous renvoyons à l'[utilisation de GPG](/tutoriels/gnupg)), afin d'éviter de laisser votre clé privée maître constamment stockée sur une machine en ligne
 2. Petite note sur la protection clé privée/mot de passe : dans le cas où vous générez votre bi-clé via Mailvelope, la clé privée et le mot de passe seront stockés dans votre navigateur (la clé privée stockée chiffrée bien entendu). Attention donc à bien mettre à jour votre navigateur afin d'éviter d'éventuelles vulnérabilités dans le compartiment de stockage.
 
