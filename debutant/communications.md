@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2024-03-07T12:06:54.284Z
+date: 2024-03-07T12:06:59.754Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -581,7 +581,7 @@ Pour vous faciliter la prise de décision, nous vous présentons la liste des me
 - [Briar *La messagerie optimale pour du pair à pair (= sans intermédiaire)*](https://briarproject.org)
 {.links-list}
 
-> Attention, nous avons pris le parti de faire des choix, basés sur un modèle de sécurité strict mais aussi sur une _**facilité d'utilisation**_ au quotidien. Il existe bien entendu d'autres messageries, mais 
+> Attention, nous avons pris le parti de faire des choix, basés sur un modèle de sécurité strict mais aussi sur une _**facilité d'utilisation**_ au quotidien. Il existe bien entendu d'autres messageries, mais :
 > (1) soit elles n'ont pas fait l'objet d'audit de sécurité (ce qui ne nous permet pas d'avoir un niveau de confiance suffisant),
 > (2) et/ou soit leur modèle ne correspond pas à nos exigences,
 > (3) et/ou soit elles souffrent d'une trop grande jeunesse pour une utilisation au quotidien.
