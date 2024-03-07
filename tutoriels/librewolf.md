@@ -2,7 +2,7 @@
 title: Configurer Librewolf
 description: 
 published: true
-date: 2023-07-02T16:30:35.785Z
+date: 2024-03-07T07:13:04.901Z
 tags: librewolf
 editor: markdown
 dateCreated: 2023-06-30T18:59:51.103Z
@@ -112,7 +112,7 @@ Rentrons dans les Paramètres afin de configurer un moteur de recherche par déf
 > Nous vous invitons à choisir votre moteur [ici](/debutant/moteurs-recherche).
 {.is-info}
 
-La liste pré-définie par Librewolf comporte déjà certains navigateurs que nous recommandons. Cependant, il est possible que vous choisissiez autre chose. Dans ce cas, ajoutez un autre navigateur sur Librewolf est quelque peu particulier. Voici la procédure à suivre :
+La liste pré-définie par Librewolf comporte déjà certains moteurs de recherche que nous recommandons. Cependant, il est possible que vous choisissiez autre chose. Dans ce cas, ajoutez un autre moteur de recherche sur Librewolf est quelque peu particulier. Voici la procédure à suivre :
 
 - Allez sur l'URL du moteur de recherche que vous souhaitez ajouter ;
 - Faites une recherche quelconque, peu importe ;
