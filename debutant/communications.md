@@ -2,64 +2,13 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2024-01-16T13:29:13.561Z
+date: 2024-03-07T11:51:13.280Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
 ---
 
-# Courriel
-
-> **Vous trouverez ci-après 2 onglets : "Pour débuter" et "Aller plus loin".
-> -- L'onglet "Pour débuter" pour ceux qui ne souhaitent pas de justification ou d'analyse concernant les choix proposés.
-> -- L'onglet "Aller plus loin" pour les personnes désireuses de comprendre nox choix.**
-{.is-warning}
-
-
-# Tabs {.tabset}
-## Pour débuter
-
-### Les fournisseurs de service courriel
-
-Peu de fournisseurs de service courriel respectent réellement notre vie privée, voici donc une liste de ceux dignes d'intérêt :
-- [Posteo *L'une des meilleures solutions, que nous recommandons en premier lieu : peu de données personnelles lors de l'inscription, un paiement cash possible (le service est payant à 1E/mois) et tournée vers une limitation de l'empreinte écologique.*](https://posteo.de/fr)
-- [Disroot *Le célèbre mandataire discret, tourné vers le respect de la vie privée de ses utilisateurs. L'offre est gratuite mais limitée à un stockage de 1Go. Vous pouvez les soutenir en souscrivant à plus de stockage, ce qui leur permettra de perdurer.*](https://disroot.org/en/services/email)
-- [Tutanota *Le fournisseur de service courriel allemand, tourné également vers le respect de la vie privée de ses utilisateurs. L'entreprise fournit même un service pour lanceurs d'alerte. Avec néanmoins quelques questionnements \*.*](https://tutanota.com/)
-- [ProtonMail *Très connu, le fournisseur suisse propose des services non seulement de courriel, mais aussi de cloud, de calendrier partagé et de VPN. L'entreprise jouit d'une solide réputation, même si encore une fois tout n'est pas si rose \*\*.*](https://www.protonmail.com/)
-{.links-list}
-
-
-\* : Concernant Tutanota, il est à noter que le gouvernement allemand a réussi à les contraindre à utiliser une porte dérobée **pour tous les mails échangés en dehors des processus de chiffrement de bout en bout** (mail du domaine @tutanota vers mail d'un autre domaine (@gmail / @live, etc.), pour lequel aucun mot de passe de chiffrement n'a été créé par exemple - les courriels Tutanota :left_right_arrow: Tutanota en sont a priori exemptés : préférez donc au maximum utiliser le chiffrement).
-**Source** : [Tutanota et la porte dérobée](https://www.01net.com/actualites/le-service-mail-le-plus-securise-au-mondecontraint-d-integrer-une-backdoor-pour-la-police-2012718.html).
-
-\*\* : Pour les profils les plus à risques (activistes, avocats, opposants politiques...), il est bon de savoir que Proton AG a été obligé de livrer des adresses IP de comptes d’activistes français en 2021 à la demande des autorités. Ce qui semble vouloir dire que les adresses IP peuvent potentiellement être retrouvées... Nous préconisons dans ces cas particuliers de faire donc attention sur la confiance que vous portez à Proton AG.
-**Sources** : [ProtonMail dans la tourmente](https://www.begeek.fr/protonmail-dans-la-tourmente-apres-avoir-donne-ladresses-ip-dun-activiste-aux-autorites-360546) et [ProtonMail balance des activistes parisiens](https://korii.slate.fr/tech/technologie-protonmail-balance-activistes-parisiens-youth-for-climate-arrestation-adresse-ip-suisse-europol).
-
----
-Il est à noter que si vous possédez un modèle de menaces moyen à élevé, il est nécessaire voire primordial d'appliquer une couche de sécurité à vos échanges par courriel.
-
-**Pour cela, nous utiliserons l'outil GnuPG (ou GPG), que nous vous présentons [ici](/intermediaire/chiffrement) et [ici](/tutoriels/gnupg).**
-
-**Concernant les fournisseurs :**
-- [Posteo](https://posteo.de/fr) : Posteo donne la possibilité d'utiliser pleinement GPG via le client web ou une application différente (cf. partie suivante).
-- [Disroot](https://disroot.org/en/services/email) : Disroot vous permet également d'utiliser GPG pleinement.
-- [Tutanota](https://tutanota.com/) : Tutanota permet d’ajouter un mot de passe à chaque courriel, mais également de pouvoir protéger vos courriels grâce à GPG. Néanmoins moins optimal que Posteo et Disroot car les clés ne vous appartiennent pas et sont gérées par Tutanota.
-- [ProtonMail](https://www.protonmail.com/) : Ici encore, vous pouvez ajouter une protection par mot de passe ou utiliser GPG, mais cela dit, ici encore, les clés ne vous appartiennent pas et sont gérées par Proton AG.
-
-Si toutefois vous souhaitez garder votre fournisseur actuel et que celui-ci ne proposait pas de protection et/ou si vous souhaitez garder vos comptes Google, Microsoft (ce que nous ne recommandons pas si votre modèle est élevé !), certaines solutions existent afin d’appliquer une protection bout en bout :
-- [Mailvelope](https://mailvelope.com/en/) : vous pourrez grâce à Mailvelope utiliser GPG afin de protéger vos échanges courriel sans changer de fournisseur (compatible avec certaines messageries, pas toutes).
-- [Enigmail](https://www.enigmail.net/index.php/en/) : est intégré à l'application Thunderbird, si vous utilisez ce gestionnaire de courriel. Il implémente PGP/GPG afin de protéger vos échanges courriel.
-
-### Les applications
-Il est recommandé d'utiliser directement les clients web fournis par votre fournisseur de service. Néanmoins, si vous souhaitez toutefois utiliser une application à part, préférez des applications à sources ouvertes voire libres, comme :
-- [Thunderbird *GNU/Linux, MacOS, Windows*](https://www.thunderbird.net/fr/)
-- [Evolution *GNU/Linux*](https://wiki.gnome.org/Apps/Evolution)
-- [FairEmail *Android*](https://email.faircode.eu/)
-- [K9-Mail *Android*](https://k9mail.app/)
-{.links-list}
-
-
-## Pour aller plus loin
+# Email / Courriel
 
 Le courrier électronique, courriel pour franciser la chose (communément appelé "e-mail", pour 'electronic mail', par pur anglicisme) est un moyen de communication aussi ancien que les messageries. L'avènement des messageries dites "instantanées" a porté un gros coup dur au courriel. Néanmoins, celui-ci est tout de même encore beaucoup utilisé et a su s'imposer au fil du temps de par son aspect de praticité pour l'utilisateur.
 
@@ -69,29 +18,17 @@ Il y a quelques années, l'histoire autour d'Edward Snowden a quelque peu chang�
 
 Cet article tente donc de présenter les aspects pratiques du courrier électronique ainsi que l'importance de la sécurité autour du courriel.
 
-### Le courriel
-#### Le service
+## Le service
 Le principe du courriel est plutôt très simple : vous créez ce que l'on nomme une "adresse email" chez un fournisseur (gmail pour google, outlook pour microsoft, yahoo pour ne citer que les plus connus) ou une adresse peut déjà vous être fournie par votre FAI (orange, bouygues, etc.) avec vos accès internet.
 
 Techniquement, cela fait appel à une architecture Client-Serveur : chaque courriel que vous transmettez passe par les serveurs de votre fournisseur pour ensuite être acheminé/distribué vers le destinataire (ou les destinataires).
 
-#### Les clients courriel
-Afin de pouvoir écrire et transmettre ou recevoir des courriels de façon conviviale et pratique avec une interface graphique, nous avons besoin de ce que l'on nomme un "Client courriel" ou plus simplement une application courriel. Deux types d'applications existent :
-- Le webmail : qui consiste à visiter une page web comme n'importe quelle autre page internet, c'est par exemple le cas de orange.fr ou bien encore de protonmail.com qui fournit un webmail via une page internet.
-- Le client alternatif : qui consiste à installer un logiciel spécifique afin de faire du traitement de courriel. C'est généralement la meilleure solution, qui permet de configurer les échanges plus finement, notamment les aspects liés à la sécurité.
-
-#### Les Alias
-Les alias courriel sont simplement des adresses dérivées de l'adresse principale ; elles renvoient dans tous les cas vers l'adresse courriel maîtresse.
-
-> Pour aller plus loin, vous pouvez visionner la [vidéo de présentation](https://yewtu.be/watch?v=cgnsa5IMufs) de ce type de service.
-> 
-> Avertissement : vidéo en anglais.
-{.is-info}
-
 ### Nos recommandations
 
-1. Éviter autant que possible de créer une adresse courriel chez des fournisseurs de services issus des GAFAM, dont on sait que leur modèle économique se base sur les métadonnées et ne respectent en rien votre vie privée. 
-**Exemple** : Gmail, Yahoo, Startmail...
+Éviter autant que possible de créer une adresse courriel chez des fournisseurs de services issus des GAFAM, dont on sait que leur modèle économique se base sur les métadonnées et ne respectent en rien votre vie privée. 
+> **Exemple** : Gmail, Yahoo, Startmail...
+{.is-danger}
+
 Voici une liste de fournisseurs que nous recommandons : peu de fournisseurs de service courriel respectent réellement notre vie privée, voici donc une liste de ceux que nous estimons dignes d'intérêt :
 - [Posteo *L'une des meilleures solutions, que nous recommandons en premier lieu : peu de données personnelles lors de l'inscription, un paiement cash possible (le service est payant à 1E/mois) et tournée vers une limitation de l'empreinte écologique.*](https://posteo.de/fr)
 - [Disroot *Le célèbre mandataire discret, tourné vers le respect de la vie privée de ses utilisateurs. L'offre est gratuite mais limitée à un stockage de 1Go. Vous pouvez les soutenir en souscrivant à plus de stockage, ce qui leur permettra de perdurer.*](https://disroot.org/en/services/email)
@@ -105,10 +42,19 @@ Voici une liste de fournisseurs que nous recommandons : peu de fournisseurs de s
 \*\* : Pour les profils les plus à risques (activistes, avocats, opposants politiques...), il est bon de savoir que Proton AG a été obligé de livrer des adresses IP de comptes d’activistes français en 2021 à la demande des autorités. Ce qui semble vouloir dire que les adresses IP peuvent potentiellement être retrouvées... Nous préconisons dans ces cas particuliers de faire donc attention sur la confiance que vous portez à Proton AG.
 **Sources** : [ProtonMail dans la tourmente](https://www.begeek.fr/protonmail-dans-la-tourmente-apres-avoir-donne-ladresses-ip-dun-activiste-aux-autorites-360546) et [ProtonMail balance des activistes parisiens](https://korii.slate.fr/tech/technologie-protonmail-balance-activistes-parisiens-youth-for-climate-arrestation-adresse-ip-suisse-europol).
 
+## Les "clients" courriel
+Afin de pouvoir écrire et transmettre ou recevoir des courriels de façon conviviale et pratique avec une interface graphique, nous avons besoin de ce que l'on nomme un "Client courriel" ou plus simplement une application courriel. Deux types d'applications existent :
+- Le webmail : qui consiste à visiter une page web comme n'importe quelle autre page internet, c'est par exemple le cas de orange.fr ou bien encore de protonmail.com qui fournit un webmail via une page internet.
+- Le client alternatif : qui consiste à installer un logiciel spécifique afin de faire du traitement de courriel. C'est généralement la meilleure solution, qui permet de configurer les échanges plus finement, notamment les aspects liés à la sécurité.
 
-2. Éviter l'utilisation d'outils "fermés" et issus des GAFAM ou autres multinationales.
-**Exemple** : Vous connaissez probablement Outlook de chez microsoft, logiciel utilisé par bon nombre d'entreprises. Outlook est un client alternatif et permet donc d'éviter l'utilisation de webmail.
-Si vous souhaitez utiliser un logiciel de courriel, privilégiez un outil libre et à sources ouvertes, plus susceptible de garantir une vie privée, dont voici nos recommandations :
+### Nos recommandations
+
+Éviter l'utilisation d'outils "fermés" et issus des GAFAM ou autres multinationales.
+
+> **Exemple** : Vous connaissez probablement Outlook de chez microsoft, logiciel utilisé par bon nombre d'entreprises. Outlook est un client alternatif et permet donc d'éviter l'utilisation de webmail.
+{.is-danger}
+
+Si vous souhaitez utiliser un logiciel client de courriel, privilégiez un outil libre et à sources ouvertes, plus susceptible de garantir et respecter votre vie privée, dont voici une liste exhaustive :
 - [Thunderbird *GNU/Linux, MacOS, Windows*](https://www.thunderbird.net/fr/)
 - [Evolution *GNU/Linux*](https://wiki.gnome.org/Apps/Evolution)
 - [FairEmail *Android*](https://email.faircode.eu/)
@@ -117,8 +63,17 @@ Si vous souhaitez utiliser un logiciel de courriel, privilégiez un outil libre 
 
 > Il est à noter que bien souvent, certains vont être bloqués chez des fournisseurs peu regardant sur le traitement de la vie privée. Bien souvent ces fournisseurs proposent une application spécifique (sur iOS ou Android, voire Windows ou Linux). Une solution alternative qui peut souvent limiter le collecte de vos données est de simplement passer par votre navigateur internet plutôt que l'application fournie, y compris sur téléphone.
 
+## Les Alias
+Les alias courriel sont simplement des adresses dérivées de l'adresse principale ; elles renvoient dans tous les cas vers l'adresse courriel maîtresse.
 
-3. Créer plusieurs adresses courriels, par exemple, pour chaque « pan » de votre vie. Ce n’est pas nécessairement obligatoire, mais fortement recommandé. Cela contribue à améliorer votre vie privée, car si une boîte est compromise, les autres ne le seront pas forcément (sauf si vous choisissez le même mot de passe pour toutes ! Hum... Vous vouliez vraiment faire ça ? Alors relisez l'article dédié à l'hygiène numérique).
+> Pour aller plus loin, vous pouvez visionner la [vidéo de présentation](https://yewtu.be/watch?v=cgnsa5IMufs) de ce type de service.
+> 
+> Avertissement : vidéo en anglais.
+{.is-info}
+
+### Nos recommandations
+
+Créer plusieurs adresses courriels, par exemple, pour chaque « pan » de votre vie. Ce n’est pas nécessairement obligatoire, mais fortement recommandé. Cela contribue à améliorer votre vie privée, car si une boîte est compromise, les autres ne le seront pas forcément (sauf si vous choisissez le même mot de passe pour toutes ! Hum... Vous vouliez vraiment faire ça ? Alors relisez l'article dédié à l'hygiène numérique).
 **Exemple de découpage** :
 -   Un compte pour votre/vos banque(s)
 -   Un compte pour votre travail (si pas déjà fait via votre société)
@@ -127,17 +82,20 @@ Si vous souhaitez utiliser un logiciel de courriel, privilégiez un outil libre 
 *Attention : ceci n’est qu’un exemple !*
 
 4. Si vous choisissez d'utiliser des alias, penchez-vous sur ces solutions :
--   [AnonAddy](https://anonaddy.com/) 
-:arrow_right: présentation par la communauté Techlore par [ici](https://yewtu.be/watch?v=JMWfsOVrDkw) (avertissement : vidéo en anglais)
--   [SimpleLogin](https://simplelogin.io/) 
-:arrow_right: présentation par la communauté Techlore par [ici](https://yewtu.be/watch?v=JMWfsOVrDkw) (avertissement : vidéo en anglais)
+-   [Addy.io *Permet la création d'alias email et de règles de filtrage (Anciennement AnonAddy)*](https://addy.io/) 
+-   [SimpleLogin *Création simple d'alias (Acquis en 2023 par Proton AG)*](https://simplelogin.io/)
+{.links-list}
 
+
+:arrow_right: présentation de Addy.io par la communauté Techlore par [ici](https://yewtu.be/watch?v=JMWfsOVrDkw) (avertissement : vidéo en anglais)
+:arrow_right: présentation de SimpleLogin par la communauté Techlore par [ici](https://yewtu.be/watch?v=JMWfsOVrDkw) (avertissement : vidéo en anglais)
+ 
 Grâce à ces 2 outils, vous pourrez vous créer un courriel alias, pour vous garantir un certain pseudonymat (surtout si vous utilisez une adresse courriel comme "monprenom.monnom@jevaismefairehacker.com" ;)).
 
 
-### Sécuriser vos échanges courriel
+## Sécuriser vos échanges courriel
 
-Idéalement, chacun de vos échanges devrait être _chiffré_ de bout en bout, avec des clés de sécurité (chiffrement/déchiffrement) que vous **possédez**. Aujourd’hui, peu prennent en considération cet aspect de la sécurité à ce niveau. Mais pensez une seconde aux courriels que vous avez déjà transmis : vous avez sans doute déjà envoyé à un tiers une photo de votre carte d’identité, de votre permis de conduire, une copie de votre fiche de salaire. Vous avez déjà transmis un numéro de sécurité sociale, le tout sans protection par mot de passe au minimum (Aïe, ouch !)... 
+Idéalement, chacun de vos échanges devrait être _chiffré_ de bout en bout, avec des clés de sécurité (chiffrement/déchiffrement) que vous **possédez**. Aujourd’hui, cet aspect de la sécurité n'est pas réellement pris en compte. Mais pensez une seconde aux courriels que vous avez déjà transmis : vous avez sans doute déjà envoyé à un tiers une photo de votre carte d’identité, de votre permis de conduire, une copie de votre fiche de salaire. Vous avez déjà transmis un numéro de sécurité sociale, le tout sans protection par mot de passe au minimum (Aïe, ouch !)... 
 
 Pour faire simple, « **<span class="red-text">Un courriel est tel une carte postale, numérique** » </span>; un courriel doit toujours être vu comme une carte postale sans enveloppe, et donc, à ce titre, tout le contenant se retrouve lisible par n’importe qui, bien placé entre vous et votre destinataire.
 
@@ -147,6 +105,10 @@ Pour faire simple, « **<span class="red-text">Un courriel est tel une carte pos
 
 Il est donc recommandé d’utiliser d’autres solutions... que nous allons tenter d'expliquer tout en simplifiant au maximum (même si cela est difficile !).
 
+> Il est à noter que si vous possédez un modèle de menaces moyen à élevé (profils ou professions à risques), il est nécessaire voire primordial d'appliquer une couche de sécurité à vos échanges par courriel.
+{.is-info}
+
+### Services courriel
 _**Commençons par les fournisseurs de services courriel**_
 
 - [Posteo](https://posteo.de/fr) et [Disroot](https://disroot.org/en/services/email) proposent tous deux l'utilisation personnelle de clés GPG/PGP, que ce soit via leur webmail qu'un client alternatif.
@@ -170,7 +132,7 @@ Pour terminer autour des fournisseurs, vous voyez qu'il est possible de protége
 > Nous ne répéterons jamais assez que la sécurité malheureusement aujourd'hui vient avec quelques contraintes dans l'utilisation des outils : il y aura toujours un choix à faire entre niveau de sécurité et facilité d'utilisation.
 {.is-info}
 
-_**Les clients courriel**_
+### Clients courriel
 
 Terminons par la solution la plus indiquée pour ceux qui ont besoin d'une sécurité maximale dans leurs échanges courriel. Il est possible ici d'utiliser un gestionnaire de courriel indépendant et gérer entièrement les clés utilisées pour protéger vos échanges, sans devoir passer par des tiers. Vous maîtrisez donc toute la chaîne de confiance, ce qui est idéal.
 
@@ -192,7 +154,7 @@ L'idée dans cet outil sera de :
 Vous trouverez ici un tutoriel intéressant et [bien documenté](https://www.zdnet.fr/pratique/comment-chiffrer-vos-e-mails-et-pourquoi-vous-devriez-le-faire-39944598.htm).
 
 
-_**Les mandataires tiers**_
+### Les mandataires tiers
 
 Une seconde possibilité vous est offerte si vous souhaitez toujours utiliser vos courriels habituels, consultables via votre navigateur internet (client webmail) : Gmail, Outlook, Yahoo, Mailbox... Bon ce n'est pas ce que l'on vous recommande, mais si votre modèle de menaces vous impose une protection de vos échanges courriel sans toutefois être critique, grâce à des extensions de navigateur, vous allez pouvoir chiffrer et signer vos courriels via PGP d'une manière assez simple.
 
@@ -221,7 +183,7 @@ Pour terminer sur Mailvelope, deux points importants :
 
 -   [Flowcrypt](https://flowcrypt.com/) : tout comme mailvelope, Flowcrypt est une extension, à installer sur votre navigateur internet, qui vous permettra de générer et gérer vos clés. *Point très limitant : Flowcrypt est limité uniquement à Gmail*. A la manière de Mailvelope, un nouveau bouton apparaîtra sur votre webmail Gmail "Nouveau message sécurisé", et vous permettra sur le même principe de rédiger et transmettre votre courriel sécurisé.
 
-_**Les Alternatives à PGP**_
+### Les Alternatives à PGP
 
 Bien que PGP soit de plus en plus utilisé pour les courriels, il est tout à fait possible d'utiliser des alternatives via d'autres outils de gestions de clés asymétriques. Nous vous avons donné 2 logiciels dans la partie chiffrement, qui sont ici indiqués comme alternatives à PGP (ou GnuPG) :
 
