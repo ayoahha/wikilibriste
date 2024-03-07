@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2024-03-07T12:15:55.573Z
+date: 2024-03-07T12:17:02.933Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -194,7 +194,9 @@ A la manière de Mailvelope, un nouveau bouton apparaîtra sur votre webmail Gma
 
 
 # Messagerie
+[Aller directement à nos recommandations](#nos-recommandations).
 
+---
 > Vous souvenez-vous de Caramail ou bien plus encore de MSN Messenger ? Ça, c'est pour les très anciens, les vieux de la vieille :)
 {.is-info}
 
