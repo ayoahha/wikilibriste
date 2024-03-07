@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2024-03-07T12:13:34.196Z
+date: 2024-03-07T12:15:55.573Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -516,7 +516,9 @@ Briar a fait l'objet d'un audit en 2017 [^²3] : voici le [rapport PDF](https://
 [^²4]: [Briar - wiki](https://code.briarproject.org/briar/briar/-/wikis/FAQ).
 [^²3]: [Audit](https://briarproject.org/news/2017-beta-released-security-audit/) de sécurité de Briar.
 
-## Les messageries controversées
+## Les messageries non évoquées
+
+### Les controversées
 Certains vont se demander pourquoi certaines messageries connues n'apparaissent pas ici. Voici les raisons :
 
 - **Threema** : application suisse, très prisée dans le monde germanophone. Cette messagerie est payante et une partie de son code source n'est pas ouvert (côté serveur). Il est donc évident que nous ne recommanderons pas cette solution.
@@ -538,7 +540,7 @@ Oui nous ne recommandons pas, à ce jour, l'application française **Olvid**... 
 [^⁶]: [Olvid et AWS](https://www.lemondeinformatique.fr/actualites/lire-olvid-la-polemique-sur-aws-ne-paas-pas-92463.html)
 [^⁷]: [Olvid Serveur](https://www.olvid.io/faq/serveur-et-open-source/)
 
-## D'autres projets ?
+### Les autres projets
 
 D'autres solutions de messageries, moins connues ou plus récentes existent. Nous faisons état ci-dessous de quelques-unes qui méritent de s'y intéresser, bien que pour certaines trop "jeunes" pour être utilisées au quotidien. Cela doit rester à la discrétion des utilisateurs de faire confiance ou non en ces outils :
 
@@ -550,7 +552,7 @@ D'autres solutions de messageries, moins connues ou plus récentes existent. Nou
 
 \* Audit de [SimpleX](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html).
 
-## XMPP-Jabber
+### XMPP-Jabber
 - [Conversations ** *Concurrence Element et/ou Session*](https://conversations.im/)
 - [Snikket *Concurrence Element et/ou Session*](https://snikket.org/)
 {.links-list}
@@ -559,7 +561,7 @@ D'autres solutions de messageries, moins connues ou plus récentes existent. Nou
 
 [^²5]: [Analyse de risques OMEMO](https://conversations.im/omemo/audit.pdf).
 
-## A suivre
+### A suivre
 Plus confidentiels et pour des profils aux besoins d'anonymat et de sécurité avancés :
 - [Speek *transit des échanges via Tor*](https://speek.network/)
 - [Delta Chat *une messagerie via e-mail !*](https://delta.chat/en/)
