@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2024-03-07T12:12:38.208Z
+date: 2024-03-07T12:13:34.196Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -332,7 +332,7 @@ Simple ! :)
 
 La messagerie *vue comme la plus sécurisée* est la plus connue à ce jour dans ce genre d'outil de communication, en tout cas au sein de la communauté numérique.
 
-#### Petit point sur les controverses...
+##### Petit point sur les controverses...
 
 Signal (tout comme beaucoup d'applications aujourd'hui) a fait l'objet de beaucoup de théories. La plus importante et répandue d'entre elles étant celle qui lie Signal à la CIA. Voici en gros l'argumentaire répandu par certains :
 
@@ -370,8 +370,7 @@ Il nous semble évident que ceci est un débat sans fin... Il est toujours *int�
 > Comme tout sujet lié au numérique, tout n'est pas si rose, vous vous en doutez bien, et nous avons des raisons **plus techniques** d'être vigilant envers Signal...
 {.is-info}
 
-
-#### ... Revenons sur terre
+##### ... Revenons sur terre
 
 Signal est donc cette messagerie dite "sécurisée" dont ses développeurs ont créé leur propre protocole de communication, repris d'ailleurs par beaucoup d'autres messageries (Whatsapp par exemple), suite à l'ouverture des sources de ce protocole. Protocole audité en 2016 par des experts indépendants [^¹7], qui aujourd'hui confirme sa robustesse à une bonne partie des attaques. Les développeurs sont d'ailleurs très réactifs lorsqu'il s'agit de corriger certaines failles de sécurité. C'est un projet très bien maintenu et très bien géré.
 
