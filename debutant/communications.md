@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2024-03-07T12:17:02.933Z
+date: 2024-03-07T12:18:04.963Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -194,9 +194,7 @@ A la manière de Mailvelope, un nouveau bouton apparaîtra sur votre webmail Gma
 
 
 # Messagerie
-[Aller directement à nos recommandations](#nos-recommandations).
 
----
 > Vous souvenez-vous de Caramail ou bien plus encore de MSN Messenger ? Ça, c'est pour les très anciens, les vieux de la vieille :)
 {.is-info}
 
@@ -213,6 +211,9 @@ En parallèle, un autre service a fait parler de lui : le SMS, dont les débuts 
 L'explosion d'internet cela dit vers le milieu des années 2000 aura vu poindre de nouveaux outils de messagerie, bien plus performants : c'est par exemple la naissance de *Jabber/XMPP* en 2004/2005 mais surtout d'une messagerie bien connue aujourd'hui, *Whatsapp*, en 2009. Avec l'avènement des ordiphones et de l'utilisation intensive du réseau internet, rien ne pouvait résister à la mort lente des SMS ; même si de nos jours les organismes tentent de leur donner un second souffle avec des nouveaux standards (MMS ou RCS par exemple), il est vraisemblable que celui-ci soit amené à disparaître petit à petit... 
 
 **Mais nous sommes là dans la spéculation ! Revenons-en à nos moutons : les messageries.**
+
+---
+[Aller directement à nos recommandations](#nos-recommandations).
 
 ## Collecte des données
 Dans notre voyage, afin de regagner un peu de contrôle sur nos données et donc renforcer notre vie privée, il est essentiel de savoir quel est l'étendu du désastre sur la **collecte des données privées** nous concernant.
