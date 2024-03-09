@@ -2,7 +2,7 @@
 title: Qu'est-ce que l'intégrité des données
 description: Un article dédié portant sur l'intégrité et les signatures électroniques
 published: true
-date: 2024-01-17T11:55:24.657Z
+date: 2024-03-09T21:14:11.351Z
 tags: intégrité, pgp, gpg, integrite, signatures
 editor: markdown
 dateCreated: 2023-10-28T09:53:37.530Z
@@ -174,7 +174,7 @@ Le principe n'est évidemment pas trivial mais l'important est de plutôt compre
 > **TRÈS IMPORTANT : Une clé privée ne se transmet JAMAIS, en tout cas jamais sur un réseau !**
 {.is-danger}
 
-> **Bon dans la réalité, rassurez-vous, ces 2 exemples ne sont pas séparées et tout ceci sera bien plus transparent !**
+> **Bon dans la réalité, rassurez-vous, ces 2 exemples ne sont pas séparés et tout ceci sera bien plus transparent !**
 {.is-success}
 
 
