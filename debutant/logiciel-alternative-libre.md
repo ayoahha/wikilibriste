@@ -2,7 +2,7 @@
 title: Trouver un logiciel alternatif libre
 description: Découvrez comment chercher des logiciels libres par vous même
 published: true
-date: 2024-03-04T19:13:43.511Z
+date: 2024-03-10T12:03:07.155Z
 tags: logiciel, application, alternative, alternatif
 editor: markdown
 dateCreated: 2023-02-10T23:29:04.219Z
@@ -47,7 +47,7 @@ La page Awesome Privacy n'est pas à proprement parlé un site mais plutôt un d
 | Chrome, <br>Firefox, <br>Opera,<br> IE, Edge... | Mull,<br>Vanadium | Un article spécifique est dédié aux [Navigateurs internet](/debutant/navigateurs), nous vous renvoyons vers cet article complet si nécessaire. |
 | Applications E-Mail | Fairemail,<br>K-9 mail | Appelé également Clients Emails. Si vous désirez garder votre adresse Gmail ou Outlook, ce peut être une excellente alternative aux applications GAFAM<br>Note : Fairemail ne doit pas être installé via Play Store, mais directement depuis leur [site](https://email.faircode.eu/). |
 | Google Maps,<br> Waze,<br> Apple Map... | OsmAnd+,<br>Organic Maps | Pas aussi efficaces que Waze ou Google Maps mais ces apps font le travail de base très correctement, et tendent à évoluer petit à petit.<br>Note : si vous avez vraiment besoin de Waze : installez-le via Aurora Store et ajoutez l'application dans le profil professionnel ; vous pouvez également<br>rester en "invité" sans vous connecter. |
-| Youtube,<br> Dailymotion... | NewPipe,<br>LibreTube | NewPipe est une des alternatives les plus avancées et crédibles afin de visionner les vidéos Youtube : téléchargements des vidéos possibles ainsi que<br>possibilité de s'abonner sur les chaines. Pas de notification en revanche. Il existe aussi une application avec bloqueur de publicités. |
+| Youtube,<br> Dailymotion... | Pipepipe,<br>Tubular<br>LibreTube | NewPipe est une des alternatives les plus avancées et crédibles afin de visionner les vidéos Youtube : téléchargements des vidéos possibles ainsi que<br>possibilité de s'abonner sur les chaines. Pas de notification en revanche. Il existe aussi une application avec bloqueur de publicités. |
 | Google Appels,... | Fossify Phone | En remplacement de toute application propriétaire de gestion des appels. |
 | Google Calendar,... | Fossify Calendar,<br>Etar | En remplacement de toute application propriétaire de calendrier. |
 | Google Files,<br> Fichiers,... | Fossify File-manager,<br>Material Files | En remplacement de toute application propriétaire de gestion de fichiers. |
