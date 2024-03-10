@@ -2,7 +2,7 @@
 title: Le Chiffrement
 description: Article traitant le chiffrement dans son ensemble et les outils recommandés...
 published: true
-date: 2024-01-17T11:47:35.683Z
+date: 2024-03-10T21:17:37.654Z
 tags: chiffrement, confidentialité, aes, rsa, intermédiaire, intermediaire
 editor: markdown
 dateCreated: 2022-11-24T22:12:38.038Z
@@ -38,7 +38,7 @@ Afin de bien débuter, un petit point *vocabulaire* s'impose afin de faciliter l
 
 ### Cryptographie
 
-Déjà évoqué en introduction, la cryptographie est la discipline dont le but est de protéger la transmission de messages.
+Déjà évoquée en introduction, la cryptographie est la discipline dont le but est de protéger la transmission de messages.
 
 ### Chiffrer et Crypter
 
