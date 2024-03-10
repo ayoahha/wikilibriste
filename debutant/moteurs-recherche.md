@@ -2,7 +2,7 @@
 title: Les moteurs de recherche
 description: Article liés aux moteurs de recherche internet et le côté respect de la vie privée...
 published: true
-date: 2024-02-25T09:53:44.648Z
+date: 2024-03-10T14:47:06.719Z
 tags: privacy, vie privée, moteurs, recherche, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:45:28.462Z
@@ -185,7 +185,11 @@ Inutile d'aller plus loin, sachant également qu'ils ont récemment opter pour i
 Nous n'allons pas passer du temps à analyser leur moteur, celui ci ne fonctionnera tout simplement pas sur Librewolf, Ungoogled Chromium, Tor, Pale Moon... Bref il est inutile d'en parler.
 
 ### Lilo
-Ce moteur n'est pas open-source, c'est déjà un gros point négatif pour nous. Mais ce moteur visiblement est solidaire et éthique, ça a l'air vraiment pas mal... Tentons un rapide coup d'oeil à leur [politique](https://www.lilo.org/votre-vie-privee-avec-lilo/) de vie privée (notamment la section "Lorsque vous utilisez Lilo Moteur de Recherche") :
+Ce moteur n'est pas open-source, c'est déjà un gros point négatif pour nous, selon nos exigences !
+
+Mais ce moteur visiblement est solidaire et éthique, ça a l'air vraiment pas mal... 
+
+Tentons un rapide coup d'oeil à leur [politique](https://www.lilo.org/votre-vie-privee-avec-lilo/) de vie privée (notamment la section "Lorsque vous utilisez Lilo Moteur de Recherche") :
 
 > "*Lorsque vous effectuez une recherche sur Lilo, nous sommes amenés à traiter différentes informations pour afficher les réponses à vos recherches de manière pertinente, lutter contre la Fraude, respecter nos obligations légales et vous attribuer les précieuses gouttes d’eau associées à vos recherches* 😊
 >
