@@ -2,7 +2,7 @@
 title: Utiliser un VPN et/ou Tor
 description: Cet article aborde les très importants concepts de VPN et TOR...
 published: true
-date: 2024-03-13T10:57:56.700Z
+date: 2024-03-13T10:58:13.187Z
 tags: vpn, tor
 editor: markdown
 dateCreated: 2023-04-14T10:56:48.029Z
@@ -160,7 +160,7 @@ Pour contourner un éventuel blocage (d'un moteur de recherche ou d'un FAI), vou
 {.is-warning}
 
 
-- Pour aller plus loin, il est essentiel de se pencher sur les aspects Anonymat, nous renvoyons donc vers l'article dédié à [limiter le pistage](/hygiene-numerique#anonymat-avanc%C3%A9) en ligne.
+- Pour des modèles plus stricts, il est essentiel de se pencher sur les aspects Anonymat, nous renvoyons donc vers l'article dédié à [limiter le pistage](/hygiene-numerique#anonymat-avanc%C3%A9) en ligne.
 
 ---
 ![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): Ayo, Nemtech*
