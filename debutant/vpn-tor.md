@@ -2,7 +2,7 @@
 title: Utiliser un VPN et/ou Tor
 description: Cet article aborde les très importants concepts de VPN et TOR...
 published: true
-date: 2024-03-13T10:56:19.038Z
+date: 2024-03-13T10:56:33.677Z
 tags: vpn, tor
 editor: markdown
 dateCreated: 2023-04-14T10:56:48.029Z
@@ -147,7 +147,7 @@ Pour ce qui est de **Tor**, plusieurs cas de figure s'offrent à des profils int
 
 > **Cela dit, dans **TOUS** les cas, il conviendra de faire attention aux usages avec ce navigateur :**
 > ~~ Ne pas installer d'extensions dans le navigateur Tor, au risque de casser son modèle de sécurité/anonymat.
-> ~~ Ne pas se connecter à des comptes qui concernent notre identité réelle (courriel, messagerie, réseau social), ou une identité virtuelle qui peut facilement être reliée à l'identité réelle, afin d'éviter de transmettre des identifiants.
+> ~~ Ne pas se connecter à des comptes qui concernent son identité réelle (courriel, messagerie, réseau social), ou une identité virtuelle qui peut facilement être reliée à l'identité réelle, afin d'éviter de transmettre des identifiants.
 > ~~ Ne pas utiliser Bittorrent ni autre logiciel de torrent.
 {.is-warning}
 
