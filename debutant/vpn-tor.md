@@ -2,7 +2,7 @@
 title: Utiliser un VPN et/ou Tor
 description: Cet article aborde les très importants concepts de VPN et TOR...
 published: true
-date: 2024-03-13T10:56:44.302Z
+date: 2024-03-13T10:57:56.700Z
 tags: vpn, tor
 editor: markdown
 dateCreated: 2023-04-14T10:56:48.029Z
@@ -143,7 +143,15 @@ Les mandataires suivants remplissent toutes ces conditions :
 
 ---
 Pour ce qui est de **Tor**, plusieurs cas de figure s'offrent à des profils intermédiaires ou initiés :
-- Pour un premier niveau, et sous **_certaines conditions_** l'utilisation de **Tor Browser** peut être faite.
+- Pour un premier niveau, et sous **_certaines conditions_** l'utilisation de **Tor Browser** peut être envisageable.
+Pour contourner un éventuel blocage (d'un moteur de recherche ou d'un FAI), vous pourrez utiliser les **_ponts_** mis à disposition par Tor, par ordre de préférence :
+  - Meek azure
+  - Snowflake
+  - Obfs4
+
+![ponts_tor.jpg](/images/ponts_tor.jpg =600x){.align-center}
+
+![tor_-_ponts_intégrés.png](/images/tor_-_ponts_intégrés.png =600x){.align-center}
 
 > **Cela dit, dans **TOUS** les cas, il conviendra de faire attention aux usages avec ce navigateur :**
 > ~~ Ne pas installer d'extensions dans le navigateur Tor, au risque de casser son modèle de sécurité/anonymat.
@@ -151,14 +159,6 @@ Pour ce qui est de **Tor**, plusieurs cas de figure s'offrent à des profils int
 > ~~ Ne pas utiliser Bittorrent ni autre logiciel de torrent.
 {.is-warning}
 
-Enfin, pour contourner un éventuel blocage (d'un moteur de recherche ou d'un FAI), vous pourrez utiliser les **_ponts_** mis à disposition par Tor, par ordre de préférence :
-- Meek azure
-- Snowflake
-- Obfs4
-
-![ponts_tor.jpg](/images/ponts_tor.jpg =600x){.align-center}
-
-![tor_-_ponts_intégrés.png](/images/tor_-_ponts_intégrés.png =600x){.align-center}
 
 - Pour aller plus loin, il est essentiel de se pencher sur les aspects Anonymat, nous renvoyons donc vers l'article dédié à [limiter le pistage](/hygiene-numerique#anonymat-avanc%C3%A9) en ligne.
 
