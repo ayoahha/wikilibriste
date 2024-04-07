@@ -2,7 +2,7 @@
 title: Protéger sa distribution
 description: Les premières étapes de la protection de notre distribution Linux...
 published: true
-date: 2023-09-10T09:35:53.916Z
+date: 2024-04-07T17:37:53.656Z
 tags: virus, malware, pare-feu, firewall, antivirus, antimalware, rkhunter, chkrootkit, clamav, clamtk, gufw, ufw
 editor: markdown
 dateCreated: 2023-01-15T12:16:32.765Z
@@ -185,7 +185,7 @@ Voilà vous devriez avoir un résultat. S'il est positif (c'est-à-dire si vous 
 
 ## ChkRootkit
 
-[Chrkrootkit](http://www.chkrootkit.org/) est un logiciel de scan de logiciels espions sur votre machine Linux, nommés **rootkits**.
+[Chkrootkit](http://www.chkrootkit.org/) est un logiciel de scan de logiciels espions sur votre machine Linux, nommés **rootkits**.
 
 ### Pré-requis
 
