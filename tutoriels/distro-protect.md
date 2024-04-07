@@ -2,7 +2,7 @@
 title: Protéger sa distribution
 description: Les premières étapes de la protection de notre distribution Linux...
 published: true
-date: 2024-04-07T17:37:53.656Z
+date: 2024-04-07T17:51:29.038Z
 tags: virus, malware, pare-feu, firewall, antivirus, antimalware, rkhunter, chkrootkit, clamav, clamtk, gufw, ufw
 editor: markdown
 dateCreated: 2023-01-15T12:16:32.765Z
@@ -219,7 +219,7 @@ sudo zypper install curl
 > Malheureusement, la majorité des distributions ne possèdent pas la dernière version, la plus à jour, de l'outil. C'est pourquoi il va être important d'utiliser la ligne de commandes.
 >
 > **Nous allons nous baser sur la dernière version à l'heure où nous écrivons cet article, à savoir la version 0.57**.
-> Dans la suite vous verrez apparaître un répertoire `chkrootkit-0.57`, qui contient donc cette même version 0.57. BIen entendu _**vous devrez donc remplacer ces chiffres par votre version**._
+> Dans la suite, vous verrez apparaître un répertoire `chkrootkit-0.57`, qui contient donc cette même version 0.57. Bien entendu, _**vous devrez donc remplacer ces chiffres par votre version**._
 {.is-warning}
 
 Nous allons nous placer dans le répertoire `Téléchargements` (ou `Downloads` sur certaines distributions) et installer l'outil :
