@@ -2,7 +2,7 @@
 title: Podcast 2 - Cloud, Bureautique et solutions courriel
 description: Second podcast avec Vinceff, traitant des alternatives en terme de bureautique pour notre vie privée et sécurité en ligne...
 published: true
-date: 2024-04-12T08:56:04.217Z
+date: 2024-04-12T09:00:21.319Z
 tags: 
 editor: markdown
 dateCreated: 2024-04-12T08:48:59.288Z
@@ -30,8 +30,9 @@ dateCreated: 2024-04-12T08:48:59.288Z
 
 # Alternatives Suite bureautique
 
-Onlyoffice 
-Libreoffice 
+- [Onlyoffice *Un suite libre, qui évolue rapidement. Quelques bugs néanmoins qui gâchent parfois l'utilisation, surtout lorsqu'il est intégré à une solution cloud.*](https://www.onlyoffice.com)
+- [Libreoffice *Continuité de l'ancien OpenOffice. Libreoffice est une alternative crédible, même si quelques bugs subsistent pour des utilisations intenses.*](https://fr.libreoffice.org)
+{.links-list}
 
 
 
