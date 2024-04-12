@@ -1,8 +1,8 @@
 ---
-title: Podcast 2
-description: 
+title: Podcast 2 - Cloud, Bureautique et solutions courriel
+description: Second podcast avec Vinceff, traitant des alternatives en terme de bureautique pour notre vie privée et sécurité en ligne...
 published: true
-date: 2024-04-12T08:48:59.288Z
+date: 2024-04-12T08:55:49.037Z
 tags: 
 editor: markdown
 dateCreated: 2024-04-12T08:48:59.288Z
@@ -22,15 +22,10 @@ dateCreated: 2024-04-12T08:48:59.288Z
 # Alternatives Cloud stockage
 
 - [kDrive *De Infomaniak, dont les infrastructures sont de grande qualité. Les offres sont parmis les moins onéreuses du marché, et l'intégration avec OnlyOffice est prometteur.*](https://www.infomaniak.com/fr/kdrive)
-- [ProtonMail *Le fournisseur suisse propose des services de courriel, mais aussi de cloud, de calendrier partagé etc. L'entreprise jouit d'une assez bonne réputation.*](https://www.proton.me/fr/mail)
-- [Tutanota *Le fournisseur de service courriel allemand, tourné également vers le respect de la vie privée de ses utilisateurs.*](https://tuta.com/fr)
+- [Proton drive *Le fournisseur suisse propose des services de courriel, mais aussi de cloud, de calendrier partagé etc. L'entreprise jouit d'une assez bonne réputation.*](https://proton.me/fr/drive)
+- [Filen.io *Le fournisseur de service cloud le moins onéreux du marché, axé sur la sécurité des données. Basé en Allemagne.*](https://filen.io/)
+- [Cozy Cloud *Fournisseur français de service cloud, néanmoins encore un peu jeune, mais qui propose tout de même de bonnes offres. A surveiller.*](https://cozy.io/fr/ )
 {.links-list}
-
-
-kDrive (Infomaniak)  
-Proton drive https://proton.me/fr/drive
-Filen.io 
-🇫🇷  Cozy cloud  https://cozy.io/fr/ 
 
 
 # Alternatives Suite bureautique
