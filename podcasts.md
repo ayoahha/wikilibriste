@@ -2,7 +2,7 @@
 title: Les podcasts
 description: 
 published: true
-date: 2024-04-12T09:07:01.235Z
+date: 2024-04-12T09:08:33.551Z
 tags: 
 editor: markdown
 dateCreated: 2024-04-12T08:50:15.237Z
@@ -12,7 +12,7 @@ dateCreated: 2024-04-12T08:50:15.237Z
 
 # Podcast 1
 
-> Le premier [podcast](/podcasts/podcast-vinceff-recherches-internet) avec Vinceff.
+> NOTES du 1er [podcast](/podcasts/podcast-vinceff-recherches-internet).
 {.is-info}
 
 Nous discutions vie privée et la sécurité en ligne, et pourquoi il est aujourd'hui devenu primordial de s'y intéresser. Puis nous proposons des alternatives dans :
@@ -21,7 +21,7 @@ Nous discutions vie privée et la sécurité en ligne, et pourquoi il est aujour
 
 # Podcast 2
 
-> Le second [podcast](/podcasts/podacst-vinceff-bureautique-cloud) avec Vinceff.
+> NOTES du 2nd [podcast](/podcasts/podacst-vinceff-bureautique-cloud).
 {.is-info}
 
 Le second podcast s'articule autour de la bureautique et de ses enjeux en terme de sécurité et de vie privée. Nous proposons des alternatives crédibles à :
