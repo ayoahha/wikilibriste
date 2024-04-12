@@ -2,7 +2,7 @@
 title: Les podcasts
 description: 
 published: true
-date: 2024-04-12T08:51:03.702Z
+date: 2024-04-12T08:51:33.671Z
 tags: 
 editor: markdown
 dateCreated: 2024-04-12T08:50:15.237Z
@@ -15,3 +15,5 @@ Le premier [podcast](/podcasts/podcast-vinceff-recherches-internet) avec Vinceff
 
 
 # Podcast 2
+
+Le second [podcast](/podcasts/podacst-vinceff-bureautique-cloud) avec Vinceff.
