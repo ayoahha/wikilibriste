@@ -2,7 +2,7 @@
 title: Podcast 2 - Cloud, Bureautique et solutions courriel
 description: Second podcast avec Vinceff, traitant des alternatives en terme de bureautique pour notre vie privée et sécurité en ligne...
 published: true
-date: 2024-04-12T09:00:21.319Z
+date: 2024-04-13T10:22:14.938Z
 tags: 
 editor: markdown
 dateCreated: 2024-04-12T08:48:59.288Z
@@ -18,6 +18,13 @@ dateCreated: 2024-04-12T08:48:59.288Z
 - [ProtonMail *Le fournisseur suisse propose des services de courriel, mais aussi de cloud, de calendrier partagé etc. L'entreprise jouit d'une assez bonne réputation.*](https://www.proton.me/fr/mail)
 - [Tutanota *Le fournisseur de service courriel allemand, tourné également vers le respect de la vie privée de ses utilisateurs.*](https://tuta.com/fr)
 {.links-list}
+
+### Alias mail
+
+-   [Addy.io *Permet la création d'alias email et de règles de filtrage (Anciennement AnonAddy)*](https://addy.io/) 
+-   [SimpleLogin *Création simple d'alias (Acquis en 2023 par Proton AG)*](https://simplelogin.io/)
+{.links-list}
+
 
 # Alternatives Cloud stockage
 
