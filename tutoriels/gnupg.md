@@ -2,7 +2,7 @@
 title: Utilisation de GPG dans son quotidien
 description: 
 published: true
-date: 2023-04-15T11:09:09.278Z
+date: 2024-04-16T11:27:49.190Z
 tags: gpg
 editor: markdown
 dateCreated: 2023-04-14T17:44:38.124Z
@@ -449,7 +449,7 @@ Deux choses ici :
 
 Souvenez-vous, nous avions posé des pré-requis afin de respecter les exigences de sécurité. Nous allons ici partir du principe que vous avez scrupuleusement respecté les exigences de génération de clés spécifiées en début d'article, à savoir l'utilisation d'une machine hors ligne (voire secondaire), ou d'un live USB voire de Tails OS.
 
-Afin de sécuriser la clé maitre (surtout la clé privée) et de rappatrier les clés pour une utilisation quotidienne, il va vous falloir vous munir de 3 (deux) clés USB neuves et vierges (1 à 2Go suffit largement, vous en trouverez dans le commerce à moindre prix).
+Afin de sécuriser la clé maitre (surtout la clé privée) et de rappatrier les clés pour une utilisation quotidienne, il va falloir vous munir de 3 (deux) clés USB neuves et vierges (1 à 2Go suffit largement, vous en trouverez dans le commerce à moindre prix).
 **Pourquoi 3 ?**
 -   Pour commencer : 2 clés USB contenant les informations de votre bi-clé maitre. Tout simplement pour faire redondance, au cas où une clé soit illisible (la probabilité d'avoir 2 clés illisibles est tout de même assez minime). Commencez par formater ces 2 clés en chiffrant la partition :
     -   Volume LUKS sur une partition ext4 pour GNU/Linux (utilisez l'utilitaire 'Disques')
