@@ -2,7 +2,7 @@
 title: Utilisation de GPG dans son quotidien
 description: 
 published: true
-date: 2024-04-16T11:28:19.811Z
+date: 2024-04-16T11:30:13.775Z
 tags: gpg
 editor: markdown
 dateCreated: 2023-04-14T17:44:38.124Z
@@ -457,8 +457,8 @@ Afin de sécuriser la clé maitre (surtout la clé privée) et de rappatrier les
 -   Puis une 3è clé USB est nécessaire pour transférer les sous-clés. Même si moins critique que la bi-clé maitre, on veillera tout de même à bien faire attention à sécuriser leur stockage (cela reste des items de sécurité).
 
 Nous allons ensuite *exporter* du magasin de clés la bi-clé maitre :
--*Nous supposerons que votre clé USB est montée dans le répertoire `/media/user/CLESECRETE/`. Si le chemin diffère chez vous, veillez à bien modifier le répertoire après le chevron '&gt;' !*
--*Nous exportons 2 types de fichiers : .asc pour format ASCII (format lisible) et .gpg pour format binaire (format non lisible). Ceci afin d'avoir les 2 formats utilisés par tous les logiciels sur le marché.*
+:arrow_right: *Nous supposerons que votre clé USB est montée dans le répertoire `/media/user/CLESECRETE/`. Si le chemin diffère chez vous, veillez à bien modifier le répertoire après le chevron '&gt;' !*
+:arrow_right: *Nous exportons 2 types de fichiers : .asc pour format ASCII (format lisible) et .gpg pour format binaire (format non lisible). Ceci afin d'avoir les 2 formats utilisés par tous les logiciels sur le marché.*
 ```bash
     # Stockage de la clé privée maitre
     gpg2 -a --export-secret-key 0xA6F76D3B09BC268A > /media/user/CLESECRETE/secret_key.asc
@@ -477,7 +477,7 @@ Nous allons ensuite *exporter* du magasin de clés la bi-clé maitre :
 
 
 Maintenant que nous avons mis bien au chaud notre clé maitre, nous allons maintenant exporter les sous-clés sur une 3è clé USB. Idem ici, il est souhaitable (mais pas obligatoire) de chiffrer la partition.
--*Nous supposerons que votre clé USB est montée dans le répertoire `/media/user/MACLEUSB/`. Si le chemin diffère chez vous, veillez à bien modifier le répertoire après le chevron '&gt;' !*
+:arrow_right: *Nous supposerons que votre clé USB est montée dans le répertoire `/media/user/MACLEUSB/`. Si le chemin diffère chez vous, veillez à bien modifier le répertoire après le chevron '&gt;' !*
 ```bash
     # Export des sous-clés
     gpg2 -a --export-secret-subkeys 0xA6F76D3B09BC268A > /media/user/MACLEUSB/secret_subkeys.asc
@@ -534,7 +534,7 @@ gpg2 -k
 Une fois la génération terminée, il va nous falloir bien entendu importer les sous-clés sur la ou les machine(s) qui en auront l'utilité.
 
 Pour ce faire, branchez la 3è clé USB contenant les sous-clés et exécutez ces commandes :
--*Nous supposerons que votre clé USB est montée dans le répertoire `/media/user/MACLEUSB/`. Si le chemin diffère chez vous, veillez à bien modifier le répertoire !*
+:arrow_right: *Nous supposerons que votre clé USB est montée dans le répertoire `/media/user/MACLEUSB/`. Si le chemin diffère chez vous, veillez à bien modifier le répertoire !*
 ```bash
 gpg2 --import /media/user/MACLEUSB/secret_subkeys.gpg
 ```
@@ -658,7 +658,7 @@ tar xzf $HOME/gnupg-backup.tar
 ### Besoin de la clé maitre
 
 Il y aura forcément diverses situations dans lesquelles vous aurez besoin de votre clé maitre, souvenez-vous, stockée sur 1 voire 2 clés USB, bien au chaud. Pour ce faire c'est très simple :
--*Mettons que notre clé USB soit montée ici : `/media/user/CLESECRETE`*
+:arrow_right: *Mettons que notre clé USB soit montée ici : `/media/user/CLESECRETE`*
 ```bash
 gpg2 --import /media/user/CLESECRETE/secret_key.gpg
 ```
@@ -883,7 +883,7 @@ Nous avons déjà evoqué ce sujet (Voir partie Révocation) mais tentons d'alle
 #### Révoquer une sous-clé
 
 Si vous deviez revoquer une sous-clé, il est nécessaire de procéder comme suit :
--*Mettons que vous souhaitiez révoquer la sous-clé de signature*
+:arrow_right: *Mettons que vous souhaitiez révoquer la sous-clé de signature*
 1- Edition de la clé
 2- Sélection de la sous-clé en question : key 1 (clé d'indice 1) dans notre cas - Entre 0 et 2 ou 3
 3- Application de la révocation : revkey
@@ -956,7 +956,7 @@ gpg2 --delete-secret-keys 0xA6F76D3B09BC268A
 #### Révoquer intégralement une clé
 
 Dans le cas d'une révocation intégrale, nous allons importer le certificat de révocation généré lors de la création de la bi-clé, et stockée sur clé USB avec la clé maitre :
-*Mettons que notre clé USB soit montée ici : `/media/user/CLESECRETE`, et que notre certificat de révocation soit le fichier A6F76D3B09BC268A.rev*
+:arrow_right: *Mettons que notre clé USB soit montée ici : `/media/user/CLESECRETE`, et que notre certificat de révocation soit le fichier A6F76D3B09BC268A.rev*
 ```bash
 gpg2 --import /media/user/CLESECRETE/A6F76D3B09BC268A.rev
 ```
