@@ -2,7 +2,7 @@
 title: Le système DNS expliqué
 description: Cet article traite du système de noms de domaine et de sa configuration afin de recouvrer sa vie privée sur internet...
 published: true
-date: 2024-05-14T10:30:19.243Z
+date: 2024-05-14T10:31:00.924Z
 tags: dns, nom de domaine, url, tld, sous-domaine, reverse dns
 editor: markdown
 dateCreated: 2023-06-19T11:57:54.490Z
@@ -111,8 +111,7 @@ Voici quelques acteurs qui proposent des services de serveurs DNS, respectueux d
 ^2^ : "DNS over HTTPS" est souvent l'intitulé de la fonction utilisée par les navigateurs internet pour gérer la résolution DNS personnalisée.
 - **Il est essentiel de bien faire comprendre au navigateur qu'il s'agit d'une requête DNS :arrow_right: en ajoutant en fin d'URL "dns-query".**
 
-^3^ : _Attention_ : les adresses IP DNS de Mullvad sont plutôt capricieuses : il est parfois possible qu'aucune requête ne passe (c'est à dire ne soit résolue) ce qui peut mener à un blocage de votre navigation. Préférez plutôt donc utiliser les URLs localement.
-Cette page explique comment utiliser le service : https://mullvad.net/en/help/dns-over-https-and-dns-over-tls
+^3^ : _Attention_ : les adresses IP DNS de Mullvad sont plutôt capricieuses : il est parfois possible qu'aucune requête ne passe (c'est à dire ne soit résolue) ce qui peut mener à un blocage de votre navigation. Préférez plutôt donc utiliser les URLs localement. Cette page explique comment configuer le service : https://mullvad.net/en/help/dns-over-https-and-dns-over-tls
 
 ## Les procédures
 
