@@ -2,7 +2,7 @@
 title: Créer un compte Mullvad VPN anonyme
 description: Comment créer un compte Mullvad VPN sans laisser traîner ses coordonnées personnelles de manière anonyme et confidentiel
 published: false
-date: 2024-05-14T16:00:38.626Z
+date: 2024-05-14T16:06:24.527Z
 tags: confidentialité, anonymat, tor, tutoriel, mullvad vpn, coordonnées
 editor: markdown
 dateCreated: 2024-05-14T10:59:33.252Z
@@ -43,7 +43,10 @@ La facture est générée avec le QR code. Il vous reste à payer avec un wallet
 - Télécharger Mullvad VPN depuis la page de téléchargement
 http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion/fr/download/
 - Insaller le et indiquer votre numéro de compte
-- Vous pouvez surfer de manière anonyme
+- Vous pouvez surfer de manière anonyme  
 
 
-<iframe title="Tutoriel pour créer un compte Mullvad VPN anonyme et confidentiel" width="560" height="315" src="https://peertube.fr/videos/embed/fad029e7-18bd-4800-8f9f-0947550dfdf5" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+
+### Exemple en vidéo de 30 secondes
+
+<iframe class="frame-style" title="Tutoriel pour créer un compte Mullvad VPN anonyme et confidentiel" width="560" height="315" src="https://peertube.fr/videos/embed/8a04cb41-1ace-4258-9f9b-5e66c0fe44db" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
