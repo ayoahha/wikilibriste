@@ -2,7 +2,7 @@
 title: Créer un compte Mullvad VPN anonyme
 description: Comment créer un compte Mullvad VPN sans laisser traîner ses coordonnées personnelles de manière anonyme et confidentiel
 published: false
-date: 2024-05-14T11:03:18.387Z
+date: 2024-05-14T15:57:42.327Z
 tags: confidentialité, anonymat, tor, tutoriel, mullvad vpn, coordonnées
 editor: markdown
 dateCreated: 2024-05-14T10:59:33.252Z
@@ -23,7 +23,7 @@ Cliquer sur le bouton "Commencer" en haut à droite ou bien sur "Créer un compt
 
 **2. Générer un numéro de compte**
 
-Copier votre numéro de compte en lieu sûr
+Copier votre numéro de compte en lieu sûr. Ne partager pas votre identifiant Mullvad VPN en ligne avec d'autres personnes.
 
 **3. Ajouter du crédit à votre compte**
 
