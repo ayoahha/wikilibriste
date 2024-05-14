@@ -2,7 +2,7 @@
 title: Le système DNS expliqué
 description: Cet article traite du système de noms de domaine et de sa configuration afin de recouvrer sa vie privée sur internet...
 published: true
-date: 2023-12-21T18:18:52.729Z
+date: 2024-05-14T10:30:19.243Z
 tags: dns, nom de domaine, url, tld, sous-domaine, reverse dns
 editor: markdown
 dateCreated: 2023-06-19T11:57:54.490Z
@@ -101,7 +101,7 @@ Voici quelques acteurs qui proposent des services de serveurs DNS, respectueux d
 | [LibreDNS](https://libredns.gr) | 116.202.176.26 <br> 2a01:4f8:1c0c:8274::1 (IPv6) | noads.libredns.gr | https://doh.libredns.gr/dns-query |
 | [FDN](https://www.fdn.fr/actions/dns/) | 80.67.169.12 (IPv4) <br> 2001:910:800::12 (IPv6) | ns0.fdn.fr | https://ns0.fdn.fr/dns-query |
 | [FDN](https://www.fdn.fr/actions/dns/) | 80.67.169.40 (IPv4) <br> 2001:910:800::40 (IPv6) | ns1.fdn.fr | https://ns1.fdn.fr/dns-query |
-| [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/) | 194.242.2.3 (IPv4) ^3^ <br> 2a07:e340::3 (IPv6) ^3^ | doh.mullvad.net<br>adblock.doh.mullvad.net | https://doh.mullvad.net/dns-query<br>https://adblock.doh.mullvad.net/dns-query |
+| [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/) | 194.242.2.3 (IPv4) ^3^ <br> 2a07:e340::3 (IPv6) ^3^ | dns.mullvad.net<br>adblock.dns.mullvad.net | https://dns.mullvad.net/dns-query<br>https://adblock.dns.mullvad.net/dns-query |
 | [DNS Adblock List](https://techcomputerservices.blogspot.com/2019/06/dns-adblock-list-update-juin-2019.html?m=1) | Vous trouverez sur ce site une liste de serveurs<br>DNS (IPs) intéressants pour le blocage des<br>publicités intempestives. |
 
 
@@ -112,6 +112,7 @@ Voici quelques acteurs qui proposent des services de serveurs DNS, respectueux d
 - **Il est essentiel de bien faire comprendre au navigateur qu'il s'agit d'une requête DNS :arrow_right: en ajoutant en fin d'URL "dns-query".**
 
 ^3^ : _Attention_ : les adresses IP DNS de Mullvad sont plutôt capricieuses : il est parfois possible qu'aucune requête ne passe (c'est à dire ne soit résolue) ce qui peut mener à un blocage de votre navigation. Préférez plutôt donc utiliser les URLs localement.
+Cette page explique comment utiliser le service : https://mullvad.net/en/help/dns-over-https-and-dns-over-tls
 
 ## Les procédures
 
