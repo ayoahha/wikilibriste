@@ -1,8 +1,8 @@
 ---
-title: Utiliser le 2FA pour l'authentification multi-facteurs
+title: Utiliser le 2FA&nbsp;pour l'authentification multi-facteurs
 description: double authentification
 published: false
-date: 2024-05-15T13:09:24.980Z
+date: 2024-05-15T13:10:19.181Z
 tags: 2fa, double authentification, multi-facteurs, google authenticator, lastpass authenticator, authy, otp, aegis, keysmith
 editor: markdown
 dateCreated: 2024-05-15T13:09:24.980Z
@@ -10,7 +10,7 @@ dateCreated: 2024-05-15T13:09:24.980Z
 
 # Les bonnes applis 2FA pour l'authentification multi-facteurs
 
-Éviter ces 3 applis car elles ne sont pas open-source
+Éviter ces 3 applis car elles ne sont pas open-source.
 - 🛑 Google Authenticator
 - 🛑 Lastpass Authenticator
 - 🛑 Authy
@@ -22,9 +22,7 @@ dateCreated: 2024-05-15T13:09:24.980Z
 
 ### Sur PC extensions de Navigateurs
 
-- Authenticator génère des codes de vérification en deux étapes dans votre navigateur.
-Pour Chrome, Firefox, Microsoft Edge et Safari
-https://authenticator.cc
+- Authenticator pour Chrome, Firefox, Microsoft Edge et Safari : https://authenticator.cc
 
 
 ### Sur Android
