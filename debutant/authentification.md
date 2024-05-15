@@ -1,8 +1,8 @@
 ---
-title: Utiliser le 2FA&nbsp;pour l'authentification multi-facteurs
+title: Utiliser le 2FA pour l'authentification multi-facteurs
 description: double authentification
 published: false
-date: 2024-05-15T13:10:19.181Z
+date: 2024-05-15T13:10:50.016Z
 tags: 2fa, double authentification, multi-facteurs, google authenticator, lastpass authenticator, authy, otp, aegis, keysmith
 editor: markdown
 dateCreated: 2024-05-15T13:09:24.980Z
