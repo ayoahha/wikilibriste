@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2024-02-15T11:35:07.718Z
+date: 2024-05-18T07:42:48.753Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -98,7 +98,7 @@ Son nom vient du personnage emblématique de l'État policier d'Océania dans 
 
 
 **Le retour de la censure ?**
-_RT et Suptnik (Conflit Ukraine-Russie)_
+_RT et Sputnik (Conflit Ukraine-Russie)_
 Depuis le 2 mars 2022, l'Union européenne a interdit RT France et Sputnik (sur les machines localisées en Europe). Fin août, les deux chaînes d'information diffusaient sur la plateforme Odysée. Le ministre chargé de la Transition numérique et des Télécommunications a alors demandé à Odysée de les bannir. [C'est chose faite](https://www.radiofrance.fr/franceinter/le-gouvernement-obtient-le-retrait-des-chaines-pro-russes-rt-france-et-sputnik-de-la-plateforme-odysee-6998084) !
 
 _Rumble_
