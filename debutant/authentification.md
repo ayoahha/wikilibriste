@@ -2,13 +2,13 @@
 title: Utiliser le 2FA pour l'authentification multi-facteurs
 description: Découvrez quelques applications d'authentification double-facteurs
 published: false
-date: 2024-05-18T07:37:56.743Z
+date: 2024-05-18T07:38:50.786Z
 tags: 2fa, double authentification, multi-facteurs, google authenticator, lastpass authenticator, authy, otp, aegis, keysmith
 editor: markdown
 dateCreated: 2024-05-15T13:09:24.980Z
 ---
 
-# Les bonnes applis 2FA pour l'authentification multi-facteurs
+# Les bonnes applications 2FA pour l'authentification multi-facteurs
 
 Pour génèrer des jetons pour vos connexions avec authentification à deux facteurs (2FA), nous vous recommandons d'éviter ces 3 applications car elles ne sont pas open-source et vos données sont conservées dans leurs clouds qui peuvent subir une fuite de bases de données ou être hackés.
 - 🛑 Google Authenticator
