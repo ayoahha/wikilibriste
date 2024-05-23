@@ -2,7 +2,7 @@
 title: Le système DNS expliqué
 description: Cet article traite du système de noms de domaine et de sa configuration afin de recouvrer sa vie privée sur internet...
 published: true
-date: 2024-05-14T10:31:00.924Z
+date: 2024-05-23T08:28:09.291Z
 tags: dns, nom de domaine, url, tld, sous-domaine, reverse dns
 editor: markdown
 dateCreated: 2023-06-19T11:57:54.490Z
@@ -55,8 +55,7 @@ La sécurisation des requêtes DNS est aujourd'hui même en plein chantier ; en 
 **Néanmoins**, oui nous allons un peu vous rassurer après ce tableau noir :-), il est aujourd'hui possible d'apporter un peu de vie privée à ces requêtes et de confort, car des mandataires tiers aux objectifs louables ont créé des serveurs DNS respectant (a priori !) notre vie privée, ajoutant des listes noires d'IP publicitaires, et implémentant des mécanismes de sécurisation des échanges même si encore en cours de standardisation (cf. DNS over TLS ou DoT, DNS over HTTPS ou DoH, DNSCrypt, DNS over SSH etc. pour les intéressés).
 
 Ainsi, afin de contourner au maximum les faiblesses citées ci-dessus, il est de plus en plus recommandé d'ajuster notre utilisation des DNS :
-:one: soit pointer directement vers des serveurs de mandataires tiers qui tiennent compte de notre *vie privée*, parmi lesquels des solutions dans l'esprit du libre 
-- [Quad9](https://quad9.net/fr/),
+:one: soit pointer directement vers des serveurs de mandataires tiers qui tiennent compte de notre *vie privée*, parmi lesquels des solutions dans l'esprit du libre, par exemple :
 - [FDN](https://www.fdn.fr), ou bien encore [LibreDNS](https://libredns.gr).
 
 Côté instance à but lucratif, _Mullvad DNS_ est à mentionner.
@@ -97,7 +96,6 @@ Voici quelques acteurs qui proposent des services de serveurs DNS, respectueux d
 
 | - | Adresses IP (Linux ou Routeur) | URL DNS Privé (Android) ^1^ | URL Navigateur HTTPs (Linux) ^2^ |
 |----------|----------|----------|----------|
-| [Quad9](https://www.quad9.net/service/service-addresses-and-features/) | 9.9.9.9 (IPv4)<br> 2620:fe::fe (IPv6) | dns.quad9.net | https://dns.quad9.net/dns-query |
 | [LibreDNS](https://libredns.gr) | 116.202.176.26 <br> 2a01:4f8:1c0c:8274::1 (IPv6) | noads.libredns.gr | https://doh.libredns.gr/dns-query |
 | [FDN](https://www.fdn.fr/actions/dns/) | 80.67.169.12 (IPv4) <br> 2001:910:800::12 (IPv6) | ns0.fdn.fr | https://ns0.fdn.fr/dns-query |
 | [FDN](https://www.fdn.fr/actions/dns/) | 80.67.169.40 (IPv4) <br> 2001:910:800::40 (IPv6) | ns1.fdn.fr | https://ns1.fdn.fr/dns-query |
