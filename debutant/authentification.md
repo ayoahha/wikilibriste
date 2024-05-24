@@ -2,7 +2,7 @@
 title: Utiliser le 2FA pour l'authentification multi-facteurs
 description: Découvrez quelques applications d'authentification double-facteurs
 published: false
-date: 2024-05-24T11:47:35.126Z
+date: 2024-05-24T11:49:22.128Z
 tags: 2fa, double authentification, multi-facteurs, google authenticator, lastpass authenticator, authy, otp, aegis, keysmith
 editor: markdown
 dateCreated: 2024-05-15T13:09:24.980Z
@@ -48,7 +48,7 @@ En utilisant un des outils suivants, vos identifiants sont conservés localement
 - [Tofu *Une application d'authentification à deux facteurs, facile à utiliser et open-source, conçue spécifiquement pour iOS* ](https://tofuauth.com)
 {.links-list}
 
-> Noter que la majorité des gestionnaires de mot de passe sont également capables de générer des jetons, au même titre que Bitwarden. Cf. [l'article sur ces outils](/debutant/gestionnaire-mots-passe)
+> Noter que la majorité des gestionnaires de mot de passe sont également capables de générer des jetons, au même titre que Bitwarden, Cf. [article sur ces outils](/debutant/gestionnaire-mots-passe).
 {.is-info}
 
 ---
