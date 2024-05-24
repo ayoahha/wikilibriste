@@ -2,7 +2,7 @@
 title: Créer un compte Mullvad VPN anonyme
 description: Tutoriel pour créer un compte Mullvad VPN anonyme et confidentiel
 published: false
-date: 2024-05-24T11:31:51.677Z
+date: 2024-05-24T13:40:42.960Z
 tags: confidentialité, anonymat, vpn, tor, tutoriel, mullvad vpn, coordonnées
 editor: markdown
 dateCreated: 2024-05-14T10:59:33.252Z
@@ -10,12 +10,24 @@ dateCreated: 2024-05-14T10:59:33.252Z
 
 Ce tutoriel présente la démarche pour ouvrir un compte Mullvad VPN sans laisser de trace, ni laisser ses coordonnées personnelles, de manière anonyme et confidentielle. Ceci dans le but de ne pas associer votre identité à votre navigation internet.
 
+> Pré-requis : avoir un peu de Bitcoin et connaitre la différence entre Bitcoin on-chain et Bitcoin Lightning.
+{.is-success}
+
+Voici les différences entre les transactions Bitcoin sur la chaîne et les transactions Bitcoin Lightning :
+
+1. **Bitcoin on-chain** fait référence aux transactions enregistrées et validées directement sur la blockchain Bitcoin, ce qui garantit la sécurité mais peut prendre plus de temps avec des frais réseau plus cher.
+2. **Lightning Network** est un protocole de paiement de couche 2 construit au-dessus de la blockchain Bitcoin, permettant des transactions plus rapides et moins chères en traitant les transactions hors chaîne.
+3. Les transactions **on-chain** offrent une sécurité et une finalité accrues car elles sont vérifiées par le réseau Bitcoin distribué, tandis que les transactions **Lightning** reposent sur des canaux de paiement sécurisés mais centralisés.
+4. Les transactions **Lightning** conviennent aux micropaiements et aux transactions fréquentes, tandis que les transactions **on-chain** conviennent mieux aux paiements importants ou aux transactions où la sécurité est primordiale ou dans le but d'un investissement long terme.
+
 # Procédure
 
 Ouvrir le navigateur TOR
 Entrer l'adresse officielle de Mullvad en .onion :
-
 > http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion/fr
+
+> Une URL en .onion correspond à un site hébergé sur le réseau TOR, non surveillable et non censurable, il n'est pas accessible sur le réseau internet normal.
+{.is-info}
 
 **1. Créer un compte**
 Cliquer sur le bouton "Commencer" en haut à droite ou bien sur "Créer un compte" au milieu de la page.
