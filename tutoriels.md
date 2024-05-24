@@ -2,7 +2,7 @@
 title: La liste des tutoriels pour ordinateurs...
 description: ...écrits avec amour par le groupe !
 published: true
-date: 2023-09-12T13:00:54.288Z
+date: 2024-05-24T11:23:25.503Z
 tags: tutoriel, ordinateur
 editor: markdown
 dateCreated: 2023-01-27T10:12:19.178Z
@@ -11,7 +11,7 @@ dateCreated: 2023-01-27T10:12:19.178Z
 # Les vidéos PC
 🎬 [Présentation des distributions Linux et création de clef USB amorçable](/tutoriels/monde-linux)
 
-# Les tutoriels pour PC
+# Les tutoriels Distributions
 
 ## Pour bien débuter
 
@@ -39,6 +39,8 @@ dateCreated: 2023-01-27T10:12:19.178Z
 - :arrow_right: [Optimiser la protection de sa machine et de sa distribution](/tutoriels/distro-protect-hardening)
 {.grid-list}
 
+# Les tutoriels Applications
+
 ## Configurer son navigateur
 
 - :arrow_right: [Ungoogled Chromium](/tutoriels/ungoogled-chromium)
@@ -53,7 +55,12 @@ dateCreated: 2023-01-27T10:12:19.178Z
 #### Bonus :
 - [La synchronisation inter-équipements via Syncthing](/tutoriels/syncthing)
 
+## L'utilisation d'applications VPN
+- :arrow_right: [Mullvad VPN - Créer son compte de façon anonyme](/tutoriels/mullvadvpn)
+{.grid-list}
+
 ## L'utilisation de mécanismes de sécurité
+
 - :arrow_right: [Utiliser l'outil de chiffrement Kryptor](/tutoriels/kryptor)
 - :arrow_right: [Utiliser l'outil de chiffrement Age](/tutoriels/age)
 - :arrow_right: [Utiliser l'outil PDF PDFTk](/tutoriels/chiff-pdf)
