@@ -2,7 +2,7 @@
 title: Utiliser le 2FA pour l'authentification multi-facteurs
 description: Découvrez quelques applications d'authentification double-facteurs
 published: false
-date: 2024-05-24T11:37:59.739Z
+date: 2024-05-24T11:39:59.236Z
 tags: 2fa, double authentification, multi-facteurs, google authenticator, lastpass authenticator, authy, otp, aegis, keysmith
 editor: markdown
 dateCreated: 2024-05-15T13:09:24.980Z
@@ -27,8 +27,9 @@ Pour génèrer des jetons pour vos connexions avec authentification à deux fact
 En utilisant un des outils suivants, vos identifiants sont conservés localement et vous pouvez exporter/importer votre liste de jetons pour en faire des sauvegardes sur lesquelles vous gardez le contrôle.
 
 ## Sur PC Linux 🐧
-- Keysmith (KDE app) : Keysmith génère des jetons pour vos connexions avec authentification à deux facteurs (2FA).
-https://apps.kde.org/fr/keysmith/
+
+- [Keysmith (KDE app) *Keysmith génère des jetons pour vos connexions avec authentification à deux facteurs (2FA) \** ](https://apps.kde.org/fr/keysmith/)
+{.links-list}
 
 
 ## Sur PC avec extensions navigateurs
