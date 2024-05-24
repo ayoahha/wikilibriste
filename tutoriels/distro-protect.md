@@ -2,7 +2,7 @@
 title: Protéger sa distribution
 description: Les premières étapes de la protection de notre distribution Linux...
 published: true
-date: 2024-05-24T16:18:20.367Z
+date: 2024-05-24T16:26:41.030Z
 tags: virus, malware, pare-feu, firewall, antivirus, antimalware, rkhunter, chkrootkit, clamav, clamtk, gufw, ufw
 editor: markdown
 dateCreated: 2023-01-15T12:16:32.765Z
@@ -117,15 +117,6 @@ Puis nous expliquerons la marche à suivre si vous obtenez des résultats positi
 > ~~ en utilisant cette fonction, vous occupez de la mémoire. Si votre mémoire n'est pas très élevée (par ex. vous avez 8GB de RAM), cela peut inutilement occuper de la place et ralentir la machine. En contrepartie, effectuer un scan sera potentiellement plus rapide sur la machine si déjà en mémoire.
 > **Dans la suite, nous ne proposerons donc pas l'installation du démon.**
 {.is-info}
-
-### Installation GUI
-
-Pour ceux qui souhaitent éviter les lignes de commandes, vous retrouverez normalement l'application **ClamTk** sur la logithèque de votre distribution.
-
-![clamtk-0.png](/images/clamtk-0.png){.align-center}
-
-> Installer cette application installera également ClamAV.
-{.is-info}~~
 
 ### Installation CLI
 
