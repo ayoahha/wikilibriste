@@ -2,7 +2,7 @@
 title: Protéger sa distribution
 description: Les premières étapes de la protection de notre distribution Linux...
 published: true
-date: 2024-04-07T17:51:29.038Z
+date: 2024-05-24T16:18:20.367Z
 tags: virus, malware, pare-feu, firewall, antivirus, antimalware, rkhunter, chkrootkit, clamav, clamtk, gufw, ufw
 editor: markdown
 dateCreated: 2023-01-15T12:16:32.765Z
@@ -105,7 +105,12 @@ Puis nous expliquerons la marche à suivre si vous obtenez des résultats positi
 
 [Clam Anti-Virus](https://www.clamav.net/) n'est ni plus ni moins qu'un anti-malware multi-plateformes et surtout open-source. À l'origine développé pour Unix, et petit à petit  adapté pour tous les systèmes (y compris BSD, Solaris...). 
 
-[ClamTk](https://gitlab.com/dave_m/clamtk/) est une interface utilisateur ("frontend" en anglais) se basant sur ClamAV pour Linux et BSD. Il permet donc d'interagir avec ClamAV non plus en ligne de commandes mais avec une interface graphique.
+~~[ClamTk](https://gitlab.com/dave_m/clamtk/) est une interface utilisateur ("frontend" en anglais) se basant sur ClamAV pour Linux et BSD. Il permet donc d'interagir avec ClamAV non plus en ligne de commandes mais avec une interface graphique.~~
+
+> **Note** : ClamTk n'est [plus maintenu](https://github.com/dave-theunsub/clamtk/issues/163) depuis fin 2023. ClamTk étant uniquement une interface graphique pour ClamAV, il faudra le remplacer par un autre outil. Wikilibriste est en cours d'analyse pour tester un potentiel remplaçant.
+>
+> Néanmoins, ClamAV fonctionne toujours, mais en ligne de commande !
+{.is-danger}
 
 > Une fonctionnalité existe pour Linux afin de lancer un "*démon*" et avoir une protection temps réel comme sur les autres anti-virus du marché : `clamav-daemon`. Deux contre-indications, cela dit, pour cette fonctionnalité :
 > ~~ si votre modèle implique anonymat et sécurité renforcée, vous ne devriez pas opter pour cette fonctionnalité, je vous renvoie à l'article sur l'hygiène numérique.
@@ -120,7 +125,7 @@ Pour ceux qui souhaitent éviter les lignes de commandes, vous retrouverez norma
 ![clamtk-0.png](/images/clamtk-0.png){.align-center}
 
 > Installer cette application installera également ClamAV.
-{.is-info}
+{.is-info}~~
 
 ### Installation CLI
 
