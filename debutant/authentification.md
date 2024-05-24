@@ -2,7 +2,7 @@
 title: Utiliser le 2FA pour l'authentification multi-facteurs
 description: Découvrez quelques applications d'authentification double-facteurs
 published: false
-date: 2024-05-22T14:21:09.489Z
+date: 2024-05-24T11:27:48.842Z
 tags: 2fa, double authentification, multi-facteurs, google authenticator, lastpass authenticator, authy, otp, aegis, keysmith
 editor: markdown
 dateCreated: 2024-05-15T13:09:24.980Z
@@ -46,3 +46,7 @@ https://authenticatorpro.jmh.me
 - **Tofu** : Une application d'authentification à deux facteurs, facile à utiliser et open-source, conçue spécifiquement pour iOS.
 https://tofuauth.com
 
+
+---
+![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): Jean*
+<br>
