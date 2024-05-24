@@ -2,7 +2,7 @@
 title: Trouver un logiciel alternatif libre
 description: Découvrez comment chercher des logiciels libres par vous même
 published: true
-date: 2024-04-11T08:21:56.627Z
+date: 2024-05-24T16:09:03.094Z
 tags: logiciel, application, alternative, alternatif
 editor: markdown
 dateCreated: 2023-02-10T23:29:04.219Z
@@ -55,7 +55,7 @@ La page Awesome Privacy n'est pas à proprement parlé un site mais plutôt un d
 | Google Météo | Breezy Weather | Pour les informations météorologiques. | . |
 | Reddit | Slide,<br>Infinity | Pour un client Reddit afin de réduire la collecte de données. |
 | Google Password,<br> LastPass,<br> Dashlane,<br> Nordpass... | KeePassDX,<br>Bitwarden | Un article spécifique est dédié aux [Gestionnaires de mots de passe](/debutant/gestionnaire-mots-passe) alternatifs, nous vous renvoyons vers cet article complet si nécessaire. |
-| Google Auth,<br> Microsoft Auth,<br> Authy | Aegis Authenticator | Pour le 2FA (via TOTP). |
+| Google Auth,<br> Microsoft Auth,<br> Authy | Aegis Authenticator | Pour le 2FA (via TOTP).<br>Nous renvoyons vers l'article [dédié](/debutant/authentification) à ce sujet |
 | Google Board, <br>Swiftkey,... | Florisboard,<br>Fossify Keyboard | Pour un clavier alternatif à celui d'AOSP et Google ou autres solutions propriétaires de clavier Android. |
 | Wetransfer | Lufi,<br>Cjoint.com | - |
 | Doodle | Framadate | Accès en ligne : [ici](https://framadate.org/) |
