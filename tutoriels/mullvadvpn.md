@@ -2,7 +2,7 @@
 title: Créer un compte Mullvad VPN anonyme
 description: Tutoriel pour créer un compte Mullvad VPN anonyme et confidentiel
 published: false
-date: 2024-05-24T11:28:39.105Z
+date: 2024-05-24T11:31:51.677Z
 tags: confidentialité, anonymat, vpn, tor, tutoriel, mullvad vpn, coordonnées
 editor: markdown
 dateCreated: 2024-05-14T10:59:33.252Z
@@ -55,5 +55,5 @@ Voici pour illustrer une vidéo de 30 secondes :
 
 
 ---
-![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): Jean*
+![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): John*
 <br>
