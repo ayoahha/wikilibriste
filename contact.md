@@ -2,8 +2,8 @@
 title: Pour nous contacter
 description: Nous contacter pour ouvrir un compte wikilibriste et/ou venir contribuer
 published: true
-date: 2024-01-16T11:16:56.697Z
-tags: contact, contribuer
+date: 2024-05-24T16:05:04.321Z
+tags: contact
 editor: markdown
 dateCreated: 2022-12-09T08:49:16.504Z
 ---
