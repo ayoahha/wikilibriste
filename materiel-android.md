@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Android
 description: Où trouver du matériel Android - vous trouverez ici des solutions...
 published: true
-date: 2024-03-01T08:49:28.138Z
+date: 2024-05-24T17:12:12.154Z
 tags: android, materiel
 editor: markdown
 dateCreated: 2023-02-14T11:18:41.344Z
@@ -65,10 +65,9 @@ Voilà pourquoi certaines entreprises sélectionnent du matériel (qu'ils vont j
 - [Monocles](https://store.monocles.eu/) : Monocles vend des téléphones avec une ROM à base de GrapheneOS pré-installée. Cependant, leurs tarifs sont assez élevés, et débutent à 600 Euros.
 
 - _Pixels Phones_ : nous ne pouvons bien entendu pas passer outre les Google Pixel qui sont des machines spécifiquement développées pour Android et qui possédent un modèle de sécurité élevé que les autres téléphones n'ont pas. Si votre profil exige une sécurité à haut niveau, ces téléphones sont malgré tout très utiles :
-	 - **Google Pixel 6**
 	 - **Google Pixel 7 / 7 Pro**
    - **Google Pixel 8 / 8 Pro**
-*Note : On évitera les modèles en fin de vie ou presque, c.à.d. jusqu'au Google Pixel 4 !*
+*Note : On évitera les modèles en fin de vie ou presque, c.à.d. jusqu'au Google Pixel 5 !*
 
 
 # Pourquoi des Google Pixels ?
