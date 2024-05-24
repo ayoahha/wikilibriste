@@ -2,7 +2,7 @@
 title: Utiliser le 2FA pour l'authentification
 description: Découvrez quelques applications d'authentification double-facteurs
 published: true
-date: 2024-05-24T12:00:00.408Z
+date: 2024-05-24T12:44:11.641Z
 tags: 2fa, double authentification, multi-facteurs, google authenticator, lastpass authenticator, authy, otp, aegis, keysmith
 editor: markdown
 dateCreated: 2024-05-15T13:09:24.980Z
@@ -19,7 +19,7 @@ Pour génèrer des jetons pour vos connexions avec authentification à deux fact
 - 🛑 Microsoft Authenticator
 - 🛑 Lastpass Authenticator
 - 🛑 Authy
-- 🛑 ...D'une façon générale, toute application à sources fermées
+- 🛑 ... D'une façon générale, toute application à sources fermées
 {.grid-list}
 
 # Les outils 2FA "libres"
