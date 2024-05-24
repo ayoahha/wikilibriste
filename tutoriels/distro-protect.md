@@ -2,7 +2,7 @@
 title: Protéger sa distribution
 description: Les premières étapes de la protection de notre distribution Linux...
 published: true
-date: 2024-05-24T16:26:41.030Z
+date: 2024-05-24T16:27:35.436Z
 tags: virus, malware, pare-feu, firewall, antivirus, antimalware, rkhunter, chkrootkit, clamav, clamtk, gufw, ufw
 editor: markdown
 dateCreated: 2023-01-15T12:16:32.765Z
@@ -126,25 +126,25 @@ Pour ce faire, ouvrez un terminal (sur certaines distributions, l'appui sur <kbd
 ##### Debian/Ubuntu
 Ou autres distributions basées sur Ubuntu ou Debian :
 ```
-apt install clamav clamtk
+apt install clamav
 ```
 
 ##### Arch Linux
 Ou autres distributions basées sur Arch :
 ```
-pacman -S clamav clamtk
+pacman -S clamav
 ```
 
 ##### RedHat/Fedora
 Ou autres distributions basées sur Redhat :
 ```
-dnf install clamav clamtk
+dnf install clamav
 ```
 
 ##### OpenSuse
 Ou autres distributions basées sur OpenSuse :
 ```
-zypper install clamav clamtk
+zypper install clamav
 ```
 
 
@@ -159,18 +159,7 @@ sudo freshclam
 sudo systemctl start clamav-freshclam
 ```
 
-Puis nous pouvons lancer le scan :
-1. Soit en utilisant ClamTk avec l'interface graphique, comme suit :
-
-![clamtk-1.png](/images/clamtk-1.png){.align-center}
-![clamtk-2.png](/images/clamtk-2.png){.align-center}
-![clamtk-3.png](/images/clamtk-3.png){.align-center}
-![clamtk-4.png](/images/clamtk-4.png){.align-center}
-![clamtk-5.png](/images/clamtk-5.png){.align-center}
-![clamtk-6.png](/images/clamtk-6.png){.align-center}
-![clamtk-7.png](/images/clamtk-7.png){.align-center}
-
-2. Soit en utilisant la ligne de commandes, comme suit :
+Puis nous pouvons lancer le scan, en utilisant la ligne de commandes, comme suit :
 - Scan complet, sur toute la machine via :
 	`sudo clamscan -i -r /` 
 	(i pour "infected" - n'affiche que les fichiers infectés, et r pour récursif)
