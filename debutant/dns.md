@@ -2,7 +2,7 @@
 title: Le système DNS expliqué
 description: Cet article traite du système de noms de domaine et de sa configuration afin de recouvrer sa vie privée sur internet...
 published: true
-date: 2024-05-28T06:29:09.829Z
+date: 2024-05-28T06:29:37.473Z
 tags: dns, nom de domaine, url, tld, sous-domaine, reverse dns
 editor: markdown
 dateCreated: 2023-06-19T11:57:54.490Z
@@ -57,7 +57,8 @@ La sécurisation des requêtes DNS est aujourd'hui même en plein chantier ; en 
 Ainsi, afin de contourner au maximum les faiblesses citées ci-dessus, il est de plus en plus recommandé d'ajuster notre utilisation des DNS :
 :one: soit pointer directement vers des serveurs de mandataires tiers qui tiennent compte de notre *vie privée*, parmi lesquels des solutions dans l'esprit du libre, par exemple :
 - [Quad9](https://quad9.net/fr/),
-- [FDN](https://www.fdn.fr), ou bien encore [LibreDNS](https://libredns.gr).
+- [FDN](https://www.fdn.fr),
+- ou bien encore [LibreDNS](https://libredns.gr).
 
 Côté instance à but lucratif, _Mullvad DNS_ est à mentionner.
 
