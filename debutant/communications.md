@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2024-03-07T12:18:41.477Z
+date: 2024-06-05T12:38:04.930Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -566,7 +566,7 @@ D'autres solutions de messageries, moins connues ou plus récentes existent. Nou
 
 ### A suivre
 Plus confidentiels et pour des profils aux besoins d'anonymat et de sécurité avancés :
-- [Speek *transit des échanges via Tor*](https://speek.network/)
+- [Speek *transit des échanges via Tor*](https://speek.network/) Dernière version v1.7.0 au 31 juillet 2022
 - [Delta Chat *une messagerie via e-mail !*](https://delta.chat/en/)
 {.links-list}
 
