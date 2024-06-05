@@ -2,7 +2,7 @@
 title: Les communications numériques et la vie privée
 description: Cet article tente de montrer comment il est possible de communiquer sur internet tout en gardant sa vie privée...
 published: true
-date: 2024-06-05T12:38:04.930Z
+date: 2024-06-05T13:24:07.087Z
 tags: messageries, email, courriel
 editor: markdown
 dateCreated: 2022-11-27T12:34:35.949Z
@@ -269,7 +269,10 @@ Maintenant que nous avons une idée de l'étendue des dégâts, passons aux choi
 
 ![messageries-1.jpg](/images/messageries-1.jpg =600x)<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>![messageries-2.jpg](/images/messageries-2.jpg =650x)
 
-> Ce [comparatif](https://www.securemessagingapps.com/) est également une bonne source d'informations.
+> Voici quelques bonnes sources d'informations avec des comparatifs des applications de messageries sécurisées
+> [Tableau comparatif](https://www.securemessagingapps.com/) des messageries par Mark Williams sous license CC BY-NC-SA 4.0
+> [Tableau comparatif](https://www.messenger-matrix.de/messenger-matrix-en.html) des messageries avec filtre par Mike Kuketz sous license CC BY-SA 4.0
+> [Tableau comparatif](https://eylenburg.github.io/im_comparison.htm) des messageries par eylenburg sous license CC BY-SA 4.0
 {.is-info}
 ---
 
