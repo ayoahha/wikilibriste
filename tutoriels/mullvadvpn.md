@@ -2,7 +2,7 @@
 title: Créer un compte Mullvad VPN anonyme
 description: Tutoriel pour créer un compte Mullvad VPN anonyme et confidentiel
 published: false
-date: 2024-06-15T17:08:39.833Z
+date: 2024-06-15T18:58:16.969Z
 tags: confidentialité, anonymat, vpn, tor, tutoriel, mullvad vpn, coordonnées
 editor: markdown
 dateCreated: 2024-05-14T10:59:33.252Z
@@ -22,8 +22,7 @@ Voici les différences entre les transactions Bitcoin sur la chaîne et les tran
 
 # Procédure
 
-Ouvrir le navigateur TOR
-Entrer l'adresse officielle de Mullvad en .onion :
+Ouvrir le navigateur TOR et entrer l'adresse officielle de Mullvad en .onion :
 > http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion/fr
 
 > Une URL en .onion correspond à un site hébergé sur le réseau TOR, non surveillable et non censurable, il n'est pas accessible sur le réseau internet normal.
