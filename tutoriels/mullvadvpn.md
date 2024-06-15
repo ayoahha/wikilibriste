@@ -2,7 +2,7 @@
 title: Créer un compte Mullvad VPN anonyme
 description: Tutoriel pour créer un compte Mullvad VPN anonyme et confidentiel
 published: false
-date: 2024-05-24T13:40:42.960Z
+date: 2024-06-15T17:08:39.833Z
 tags: confidentialité, anonymat, vpn, tor, tutoriel, mullvad vpn, coordonnées
 editor: markdown
 dateCreated: 2024-05-14T10:59:33.252Z
@@ -10,7 +10,7 @@ dateCreated: 2024-05-14T10:59:33.252Z
 
 Ce tutoriel présente la démarche pour ouvrir un compte Mullvad VPN sans laisser de trace, ni laisser ses coordonnées personnelles, de manière anonyme et confidentielle. Ceci dans le but de ne pas associer votre identité à votre navigation internet.
 
-> Pré-requis : avoir un peu de Bitcoin et connaitre la différence entre Bitcoin on-chain et Bitcoin Lightning.
+> Pré-requis : avoir un peu de Bitcoin et connaître la différence entre Bitcoin on-chain et Bitcoin Lightning.
 {.is-success}
 
 Voici les différences entre les transactions Bitcoin sur la chaîne et les transactions Bitcoin Lightning :
@@ -33,7 +33,7 @@ Entrer l'adresse officielle de Mullvad en .onion :
 Cliquer sur le bouton "Commencer" en haut à droite ou bien sur "Créer un compte" au milieu de la page.
 
 **2. Générer un numéro de compte**
-Ecrire/Copier votre numéro de compte en lieu sûr. Ne partager **JAMAIS** votre identifiant Mullvad VPN en ligne avec d'autres personnes.
+Écrire/Copier votre numéro de compte en lieu sûr. Ne partager **JAMAIS** votre identifiant Mullvad VPN en ligne avec d'autres personnes.
 
 **3. Ajouter du crédit à votre compte**
 Le site officiel de Mullvad propose le paiement par Monero, Bitcoin et Bitcoin cash. Le paiement par Bitcoin utilise le réseau on-chain, ceci prend du temps et des frais. Une autre solution est de payer par Bitcoin sur le réseau Lightning, rapidement et sans frais. Voici donc la procédure :
