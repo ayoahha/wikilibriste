@@ -2,7 +2,7 @@
 title: Créer un compte Mullvad VPN anonyme
 description: Tutoriel pour créer un compte Mullvad VPN anonyme et confidentiel
 published: false
-date: 2024-06-17T21:21:50.074Z
+date: 2024-06-17T21:33:08.942Z
 tags: confidentialité, anonymat, vpn, tor, tutoriel, mullvad vpn, coordonnées
 editor: markdown
 dateCreated: 2024-05-14T10:59:33.252Z
@@ -19,6 +19,18 @@ Voici les différences entre les transactions Bitcoin sur la chaîne et les tran
 2. **Lightning Network** est un protocole de paiement de couche 2 construit au-dessus de la blockchain Bitcoin, permettant des transactions plus rapides et moins chères en traitant les transactions hors chaîne.
 3. Les transactions **on-chain** offrent une sécurité et une finalité accrues car elles sont vérifiées par le réseau Bitcoin distribué, tandis que les transactions **Lightning** reposent sur des canaux de paiement sécurisés mais centralisés.
 4. Les transactions **Lightning** conviennent aux micropaiements et aux transactions fréquentes, tandis que les transactions **on-chain** conviennent mieux aux paiements importants ou aux transactions où la sécurité est primordiale ou dans le but d'un investissement long terme.
+
+| Fonctionnalité          | Bitcoin On-Chain                        | Bitcoin Lightning                        |
+|-------------------------|-----------------------------------------|------------------------------------------|
+| **Vitesse de transaction** | ~10 minutes par transaction            | Transactions quasi-instantanées           |
+| **Scalabilité**         | ~7 transactions par seconde             | Grande scalabilité avec des canaux hors chaîne |
+| **Frais de transaction** | Élevés en période de congestion du réseau | Frais bas grâce au traitement hors chaîne |
+| **Micropaiements**      | Peu pratique en raison des frais élevés  | Adapté aux micropaiements                 |
+| **Décentralisation**    | Très décentralisé                       | Inquiétudes sur une centralisation potentielle |
+| **Sécurité**            | Sécurisé par le consensus de preuve de travail | Sécurisé par des contrats intelligents et des méthodes hors chaîne |
+| **Adoption**            | Largement accepté et reconnu            | Adoption croissante mais encore limitée   |
+| **Cas d'utilisation**   | Transactions de grande valeur           | Transactions quotidiennes, micropaiements |
+
 
 # Procédure
 
