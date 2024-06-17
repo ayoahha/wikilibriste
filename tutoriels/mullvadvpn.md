@@ -2,7 +2,7 @@
 title: Créer un compte Mullvad VPN anonyme
 description: Tutoriel pour créer un compte Mullvad VPN anonyme et confidentiel
 published: false
-date: 2024-06-17T21:20:26.567Z
+date: 2024-06-17T21:21:42.485Z
 tags: confidentialité, anonymat, vpn, tor, tutoriel, mullvad vpn, coordonnées
 editor: markdown
 dateCreated: 2024-05-14T10:59:33.252Z
@@ -60,7 +60,7 @@ http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion/fr/downloa
 
 # Vidéo exemple
 
-Voici, pour illustrer, une vidéo de 30 secondes.
+Voici, pour illustrer, une vidéo de 30 secondes
 
 <iframe class="frame-style" title="Tutoriel pour créer un compte Mullvad VPN anonyme et confidentiel" src="https://peertube.fr/videos/embed/8a04cb41-1ace-4258-9f9b-5e66c0fe44db" frameborder="0" allowfullscreen="1" allow="fullscreen; accelerometer; encrypted-media; gyroscope; picture-in-picture" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
 
