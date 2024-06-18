@@ -2,7 +2,7 @@
 title: Créer un compte Mullvad VPN anonyme
 description: Tutoriel pour créer un compte Mullvad VPN anonyme et confidentiel
 published: true
-date: 2024-06-18T11:14:57.178Z
+date: 2024-06-18T11:15:44.757Z
 tags: confidentialité, anonymat, vpn, tor, tutoriel, mullvad vpn, coordonnées
 editor: markdown
 dateCreated: 2024-05-14T10:59:33.252Z
@@ -29,7 +29,7 @@ Voici les différences entre les transactions Bitcoin sur la chaîne et les tran
 | **Frais de transaction** | Élevés en période de congestion du réseau | Frais bas grâce au traitement hors chaîne |
 | **Micropaiements**      | Peu pratique en raison des frais élevés  | Adapté aux micropaiements                 |
 | **Décentralisation**    | Très décentralisé                       | Inquiétudes sur une centralisation potentielle |
-| **Sécurité**            | Sécurisé par le consensus de preuve de travail | Sécurisé par des contrats intelligents et des méthodes hors chaîne |
+| **Sécurité**            | Sécurisé par le consensus de preuve de travail (PoW) | Sécurisé par des contrats intelligents et des méthodes hors chaîne |
 | **Adoption**            | Largement accepté et reconnu            | Adoption croissante mais encore limitée   |
 | **Cas d'utilisation**   | Transactions de grande valeur           | Transactions quotidiennes, micropaiements |
 
