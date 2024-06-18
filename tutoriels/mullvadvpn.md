@@ -2,7 +2,7 @@
 title: Créer un compte Mullvad VPN anonyme
 description: Tutoriel pour créer un compte Mullvad VPN anonyme et confidentiel
 published: true
-date: 2024-06-18T17:18:18.345Z
+date: 2024-06-18T19:32:15.728Z
 tags: confidentialité, anonymat, vpn, tor, tutoriel, mullvad vpn, coordonnées
 editor: markdown
 dateCreated: 2024-05-14T10:59:33.252Z
@@ -17,7 +17,7 @@ Ce tutoriel présente la démarche pour ouvrir un compte Mullvad VPN sans laisse
 
 Voici les différences entre les transactions Bitcoin sur la chaîne et les transactions Bitcoin Lightning :
 
-1. **Bitcoin on-chain** fait référence aux transactions enregistrées et validées directement sur la blockchain Bitcoin, ce qui garanti la sécurité mais peut prendre plus de temps avec des frais réseau plus chers.
+1. **Bitcoin on-chain** fait référence aux transactions enregistrées et validées directement sur la blockchain Bitcoin, ce qui garantit la sécurité mais peut prendre plus de temps avec des frais réseau plus chers.
 2. **Lightning Network** est un protocole de paiement de couche 2 construit au-dessus de la blockchain Bitcoin, permettant des transactions plus rapides et moins chères en traitant les transactions hors chaîne.
 3. Les transactions **on-chain** offrent une sécurité et une finalité accrues car elles sont vérifiées par le réseau Bitcoin distribué, tandis que les transactions **Lightning** reposent sur des canaux de paiement sécurisés mais centralisés.
 4. Les transactions **Lightning** conviennent aux micropaiements et aux transactions fréquentes, tandis que les transactions **on-chain** conviennent mieux aux paiements importants ou aux transactions où la sécurité est primordiale ou dans le but d'un investissement long terme.
