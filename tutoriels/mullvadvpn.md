@@ -2,7 +2,7 @@
 title: Créer un compte Mullvad VPN anonyme
 description: Tutoriel pour créer un compte Mullvad VPN anonyme et confidentiel
 published: true
-date: 2024-06-18T11:12:37.032Z
+date: 2024-06-18T11:14:57.178Z
 tags: confidentialité, anonymat, vpn, tor, tutoriel, mullvad vpn, coordonnées
 editor: markdown
 dateCreated: 2024-05-14T10:59:33.252Z
@@ -12,6 +12,8 @@ Ce tutoriel présente la démarche pour ouvrir un compte Mullvad VPN sans laisse
 
 > Pré-requis : avoir un peu de Bitcoin et connaître la différence entre Bitcoin on-chain et Bitcoin Lightning.
 {.is-success}
+
+# Quelques explications...
 
 Voici les différences entre les transactions Bitcoin sur la chaîne et les transactions Bitcoin Lightning :
 
