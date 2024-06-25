@@ -2,7 +2,7 @@
 title: Utiliser un VPN et/ou Tor
 description: Cet article aborde les très importants concepts de VPN et TOR...
 published: true
-date: 2024-03-13T10:58:26.705Z
+date: 2024-06-25T20:07:29.937Z
 tags: vpn, tor
 editor: markdown
 dateCreated: 2023-04-14T10:56:48.029Z
@@ -68,6 +68,12 @@ _Note 2_ : NordVPN n’apparaîtra pas non plus. Ce mandataire est systématique
 _Note 3_ : Nous ne faisons pas non plus apparaître la solution ProtonVPN, car pour rappel Proton AG a été critiqué récemment pour avoir délivré des adresses IP d’activistes. Même si ce mandataire paraît être de confiance, il n’est plus forcément recommandé d’utiliser les solutions Proton quand on est exposé (politiquement ou journalistiquement, ainsi que pour les activistes !).
 
 Nous reparlerons de ces services un peu plus loin...
+
+---------------
+_Note 4_ : **VPN Leaks**
+Ces fournisseurs de VPN affirment qu'ils ne conservent aucun enregistrement des activités des utilisateurs. Il a été prouvé que certains fournisseurs de VPN conservent des logs comprenant les adresses IP des utilisateurs.
+https://vpnleaks.com
+
 
 ## TOR
 
