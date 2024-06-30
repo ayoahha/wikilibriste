@@ -2,7 +2,7 @@
 title: Protéger sa distribution
 description: Les premières étapes de la protection de notre distribution Linux...
 published: true
-date: 2024-05-24T16:27:35.436Z
+date: 2024-06-30T11:56:29.905Z
 tags: virus, malware, pare-feu, firewall, antivirus, antimalware, rkhunter, chkrootkit, clamav, clamtk, gufw, ufw
 editor: markdown
 dateCreated: 2023-01-15T12:16:32.765Z
@@ -144,7 +144,7 @@ dnf install clamav
 ##### OpenSuse
 Ou autres distributions basées sur OpenSuse :
 ```
-zypper install clamav
+zypper install clamav clamav-daemon clamav-freshclam
 ```
 
 
@@ -153,7 +153,6 @@ zypper install clamav
 Avant tout scan, prenez soin de mettre à jour l'application et la base de données des signatures :
 
 ```
-sudo updatedb
 sudo systemctl stop clamav-freshclam
 sudo freshclam
 sudo systemctl start clamav-freshclam
@@ -165,6 +164,8 @@ Puis nous pouvons lancer le scan, en utilisant la ligne de commandes, comme suit
 	(i pour "infected" - n'affiche que les fichiers infectés, et r pour récursif)
 - Scan sur un dossier spécifique, mettons pour l'exemple le dossier "Téléchargements", via :
 	`sudo clamscan -i -r /home/user/Téléchargements/`
+
+Se référer à le documentation ClamAV pour de plus amples détails : [ClamAV Documentation](https://docs.clamav.net/manual/Usage/Scanning.html).
 
 Voilà vous devriez avoir un résultat. S'il est positif (c'est-à-dire si vous avez des fichiers infectés, rendez-vous en bas du tutoriel).
 
