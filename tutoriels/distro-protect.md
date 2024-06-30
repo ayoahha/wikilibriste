@@ -2,7 +2,7 @@
 title: Protéger sa distribution
 description: Les premières étapes de la protection de notre distribution Linux...
 published: true
-date: 2024-06-30T11:56:38.968Z
+date: 2024-06-30T11:57:19.908Z
 tags: virus, malware, pare-feu, firewall, antivirus, antimalware, rkhunter, chkrootkit, clamav, clamtk, gufw, ufw
 editor: markdown
 dateCreated: 2023-01-15T12:16:32.765Z
@@ -165,7 +165,7 @@ Puis nous pouvons lancer le scan, en utilisant la ligne de commandes, comme suit
 - Scan sur un dossier spécifique, mettons pour l'exemple le dossier "Téléchargements", via :
 	`sudo clamscan -i -r /home/user/Téléchargements/`
 
-Se référer à le documentation ClamAV pour de plus amples détails : [ClamAV Documentation](https://docs.clamav.net/manual/Usage/Scanning.html).
+*Se référer à le documentation ClamAV pour de plus amples détails : [ClamAV Documentation](https://docs.clamav.net/manual/Usage/Scanning.html).*
 
 Voilà vous devriez avoir un résultat. S'il est positif (c'est-à-dire si vous avez des fichiers infectés, rendez-vous en bas du tutoriel).
 
