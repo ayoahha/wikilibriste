@@ -2,7 +2,7 @@
 title: Protéger sa distribution
 description: Les premières étapes de la protection de notre distribution Linux...
 published: true
-date: 2024-06-30T11:56:29.905Z
+date: 2024-06-30T11:56:38.968Z
 tags: virus, malware, pare-feu, firewall, antivirus, antimalware, rkhunter, chkrootkit, clamav, clamtk, gufw, ufw
 editor: markdown
 dateCreated: 2023-01-15T12:16:32.765Z
@@ -144,7 +144,7 @@ dnf install clamav
 ##### OpenSuse
 Ou autres distributions basées sur OpenSuse :
 ```
-zypper install clamav clamav-daemon clamav-freshclam
+zypper install clamav
 ```
 
 
