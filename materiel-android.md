@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Android
 description: Où trouver du matériel Android - vous trouverez ici des solutions...
 published: true
-date: 2024-07-22T19:09:14.666Z
+date: 2024-07-22T19:13:18.715Z
 tags: android, materiel
 editor: markdown
 dateCreated: 2023-02-14T11:18:41.344Z
@@ -24,7 +24,7 @@ Voilà pourquoi certaines entreprises sélectionnent du matériel (qu'ils vont j
 |---|---|---|---|
 |Année de sortie | 2017 | 2020 | 2020 |
 |Tarif| 239 €  | 349 €  | 349 € |
-| | ![op5t.ekimia.resized.png](/op5t.ekimia.resized.png) | ![oneplus8t-fin.resized.png](/images/oneplus8t-fin.resized.png) |  ![note9.gmp_.resized.png](/images/note9.gmp_.resized.png) | 
+| | ![oneplus6.jpg](/images/oneplus6.jpg) | ![op9.png](/images/op9.png) | ![pixel5eos.png](/images/pixel5eos.png) | 
 
 - [Iodé](https://iode.tech/) : Téléphones reconditionnés sous IodeOS :
      - **[Samsung S9 (2018)](https://iode.tech/shop/samsung-galaxy-s9-bundle-en/)** : 253€  
