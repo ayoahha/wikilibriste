@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Android
 description: Où trouver du matériel Android - vous trouverez ici des solutions...
 published: true
-date: 2024-05-24T17:12:12.154Z
+date: 2024-07-22T19:09:14.666Z
 tags: android, materiel
 editor: markdown
 dateCreated: 2023-02-14T11:18:41.344Z
@@ -20,10 +20,10 @@ Voilà pourquoi certaines entreprises sélectionnent du matériel (qu'ils vont j
 
 - [Ekimia](https://ekimia.fr/produit/oneplus-5t-eos/) : Téléphones reconditionnés  sous /e/OS-Android 13 T :
 
-| Modèle | [One Plus 5T](https://ekimia.fr/produit/oneplus-5t-eos/) |  [One Plus 8T ](https://ekimia.fr/produit/oneplus8t/)  | [Samsung Note 9](https://ekimia.fr/produit/samsung-note-9-eos/)  |
+| Modèle | [One Plus 6](https://ekimia.fr/produit/oneplus6/) |  [One Plus 9 ](https://ekimia.fr/produit/oneplus9)  | [Google Pixel 5](https://ekimia.fr/produit/pixel5)  |
 |---|---|---|---|
-|Année de sortie | 2017 | 2020 | 2018 |
-|Tarif| 179 €  | 299 €  | 319 € |
+|Année de sortie | 2017 | 2020 | 2020 |
+|Tarif| 239 €  | 349 €  | 349 € |
 | | ![op5t.ekimia.resized.png](/op5t.ekimia.resized.png) | ![oneplus8t-fin.resized.png](/images/oneplus8t-fin.resized.png) |  ![note9.gmp_.resized.png](/images/note9.gmp_.resized.png) | 
 
 - [Iodé](https://iode.tech/) : Téléphones reconditionnés sous IodeOS :
