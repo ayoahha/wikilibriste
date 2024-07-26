@@ -2,7 +2,7 @@
 title: Trouver un logiciel alternatif libre
 description: Découvrez comment chercher des logiciels libres par vous même
 published: true
-date: 2024-05-24T16:09:03.094Z
+date: 2024-07-26T10:17:35.645Z
 tags: logiciel, application, alternative, alternatif
 editor: markdown
 dateCreated: 2023-02-10T23:29:04.219Z
@@ -112,9 +112,6 @@ Cordialement, Bastien.*"
 ## Prism-Break
 [Prism-Break](https://prism-break.org/fr/) affiche les alternatives en partant des plateformes OS.
 
-## PrivacyTools
-[PrivacyTools](https://www.privacytools.io/) propose de découvrir des applications, services, outils et guides afin de contourner la surveillance de masse.
-
 ## AlternativeTo
 [AlternativeTo](https://alternativeto.net/) est l'un des catalogues d'applications les plus riches.
 
@@ -126,11 +123,12 @@ Cordialement, Bastien.*"
 
 [Secuso](https://secuso.aifb.kit.edu/english/105.php) de l'institut de recherche de Karlsruhe.
 
-## Malware et autres
+## Divers
 
-Une liste de ressources complète concernant le sujet des malwares :
+- Deux listes de clients alternatifs : [awesome-alternative-front-ends](https://github.com/skynet2982/awesome-alternative-front-ends) et [alternative-front-ends](https://github.com/mendel5/alternative-front-ends?tab=readme-ov-file)
+- Le sujet du traitement des malwares : [awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis)
 
-[Awesome Malware Analysis](https://github.com/rshipp/awesome-malware-analysis)
+
 
 ---
 ![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): marmotte, Ayo*
