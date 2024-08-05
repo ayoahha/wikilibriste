@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Linux
 description: Où trouver du matériel adapté à Linux - vous trouverez ici des solutions...
 published: true
-date: 2024-08-05T16:24:57.826Z
+date: 2024-08-05T16:29:17.510Z
 tags: materiel, laptop, ordinateur
 editor: markdown
 dateCreated: 2023-01-19T16:33:42.627Z
@@ -19,11 +19,11 @@ Ce sont, dans ce cas, des fournisseurs et/ou constructeurs, installés depuis lo
 
 Dans l'ordre alphabethique :
 
-- [NovaCustom](https://pcportablesurmesure.fr/)** (Pays-Bas) : Des ordinateurs fabriqués à la commande et directement livrés avec une distribution Linux.
+- [NovaCustom](https://pcportablesurmesure.fr/) (Pays-Bas) : Des ordinateurs fabriqués à la commande et directement livrés avec une distribution Linux.
 
-- [Slimbook](https://slimbook.es/en/)** (Espagne) : Pas de BIOS modifié, mais tout comme Tuxedo Computers, ils ont le contrôle sur le matériel qu'ils proposent, notamment grâce à un partenariat avec Clevo, qui leur permet de proposer des ordinateurs optimisés pour Linux.
+- [Slimbook](https://slimbook.es/en/) (Espagne) : Pas de BIOS modifié, mais tout comme Tuxedo Computers, ils ont le contrôle sur le matériel qu'ils proposent, notamment grâce à un partenariat avec Clevo, qui leur permet de proposer des ordinateurs optimisés pour Linux.
 
-- [Tuxedo Computers](https://www.tuxedocomputers.com/)** (Allemagne) : Des machines avec Intel Management Engine neutralisé, avec micro / camera / Wifi / bluetooth désactivables depuis le BIOS, et entièrement tourné vers Linux.
+- [Tuxedo Computers](https://www.tuxedocomputers.com/) (Allemagne) : Des machines avec Intel Management Engine neutralisé, avec micro / camera / Wifi / bluetooth désactivables depuis le BIOS, et entièrement tourné vers Linux.
 
 
 
