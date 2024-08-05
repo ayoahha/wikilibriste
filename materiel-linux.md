@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Linux
 description: Où trouver du matériel adapté à Linux - vous trouverez ici des solutions...
 published: true
-date: 2024-08-05T16:30:09.452Z
+date: 2024-08-05T16:34:00.625Z
 tags: materiel, laptop, ordinateur
 editor: markdown
 dateCreated: 2023-01-19T16:33:42.627Z
@@ -19,6 +19,9 @@ Ce sont, dans ce cas, des fournisseurs et/ou constructeurs, installés depuis lo
 
 Dans l'ordre alphabethique :
 
+- [Laptopwithlinux](https://www.laptopwithlinux.com/) ( Pays-bas ) Un seul model avec Coreboot
+
+
 - [NovaCustom](https://pcportablesurmesure.fr/) (Pays-Bas) : Des ordinateurs fabriqués à la commande et directement livrés avec une distribution Linux.
 
 - [Slimbook](https://slimbook.es/en/) (Espagne) : Pas de BIOS modifié, mais tout comme Tuxedo Computers, ils ont le contrôle sur le matériel qu'ils proposent, notamment grâce à un partenariat avec Clevo, qui leur permet de proposer des ordinateurs optimisés pour Linux.
@@ -32,7 +35,6 @@ Dans l'ordre alphabethique :
 D'autres petits asssembleurs qui livre avec le Bios par défaut. Principalement des barebones Clevo et tongfang voire du reconditionné mainstream
 
 - [Ekimia](https://ekimia.fr) (Marseille) 
-- [Laptopwithlinux](https://www.laptopwithlinux.com/) ( Pays-bas ) 
 - [Linuxshop](http://www.linuxshop.fr/) ( France - ardennes )
 - [Ubuntu Shop](https://www.ubuntushop.be/index.php/fr/) (Belgique) : Des machines sur châssis Clevo, plusieurs options "vie privée" offertes par défaut (bloqueur de noms de domaine contre les pubs, option Tails OS sur la mémoire RAM, etc.).
 - [Why Computers](https://whyopencomputing.com/fr/) Basé en suisse mais expedie depuis la France avec SAV FR.
