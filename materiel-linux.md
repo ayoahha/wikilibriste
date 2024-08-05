@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Linux
 description: Où trouver du matériel adapté à Linux - vous trouverez ici des solutions...
 published: true
-date: 2024-08-05T16:34:00.625Z
+date: 2024-08-05T16:34:45.046Z
 tags: materiel, laptop, ordinateur
 editor: markdown
 dateCreated: 2023-01-19T16:33:42.627Z
@@ -19,7 +19,7 @@ Ce sont, dans ce cas, des fournisseurs et/ou constructeurs, installés depuis lo
 
 Dans l'ordre alphabethique :
 
-- [Laptopwithlinux](https://www.laptopwithlinux.com/) ( Pays-bas ) Un seul model avec Coreboot
+- [Laptopwithlinux](https://www.laptopwithlinux.com/) ( Pays-bas ) 2 modeles avec Coreboot
 
 
 - [NovaCustom](https://pcportablesurmesure.fr/) (Pays-Bas) : Des ordinateurs fabriqués à la commande et directement livrés avec une distribution Linux.
