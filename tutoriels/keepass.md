@@ -2,7 +2,7 @@
 title: Utiliser KeepassXC
 description: Tutoriel expliquant l'utilisation de KeepassXC sur ordinateur
 published: true
-date: 2023-06-30T21:10:29.560Z
+date: 2024-08-06T04:04:44.152Z
 tags: debutant, débutant, mot de passe, keepass
 editor: markdown
 dateCreated: 2022-12-02T17:39:35.340Z
@@ -562,11 +562,11 @@ L %t/kpxc_server - - - - %t/app/org.keepassxc.KeePassXC/org.keepassxc.KeePassXC.
 {.is-warning}
 
 ## Technique
-Pour ceux qui souhaiteraient savoir comment fonctionne cette extension avec l'application KeePass, pour pouvoir peut-être comprendre le fonctionnement intrinsèque, voici en substance ce qui est mis en place pour l'échange des données entre navigateur et KeePass :
-1. Les communications entre l'extension (le navigateur) et l'application s'effectuent via un Proxy _keepassxc-proxy_, disponible et implémenté par l'application KeePass. 
+Pour ceux qui souhaiteraient savoir comment fonctionne cette extension avec l'application KeePass, pour pouvoir peut-être comprendre le fonctionnement intrinsèque, voici en substance ce qui est mis en place pour l'échange des données entre navigateur et KeePassXC :
+1. Les communications entre l'extension (dans le navigateur) et l'application s'effectuent via un Proxy _keepassxc-proxy_, disponible et implémenté par l'application KeePassXC. 
 2. Les échanges de login et mot de passe se font grâce à _keepassxc-protocol_ qui utilise la cryptographie asymétrique :
-    - Chaque partie génère des paires de clés temporaires (régénérées à chaque session) pour chiffrer et signer les échanges.
-    - L'identification entre l'extension et l'application se fait grâce à une paire de clé permanente dès lors que vous avez nommé un identifiant de connexion. Cette paire est stockée protégée dans le navigateur.
+    - Chaque partie génère des paires de clés temporaires (re-générées à chaque session) pour chiffrer et signer les échanges.
+    - L'identification entre l'extension et l'application se fait grâce à une paire de clés permanente dès lors que vous avez nommé un identifiant de connexion. Cette paire est stockée protégée dans le navigateur.
 
 **Cette solution est plutôt robuste et rend la communication assez sécurisée, surtout pour le mot de passe**. De plus, cela évite d'utiliser le presse-papier sans chiffrer le mot de passe lors d'un classique copier-coller...
 
