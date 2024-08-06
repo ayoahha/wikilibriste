@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Linux
 description: Où trouver du matériel adapté à Linux - vous trouverez ici des solutions...
 published: true
-date: 2024-08-06T08:11:46.604Z
+date: 2024-08-06T08:12:49.846Z
 tags: materiel, laptop, ordinateur
 editor: markdown
 dateCreated: 2023-01-19T16:33:42.627Z
@@ -17,7 +17,6 @@ L'idée de trouver du matériel en Europe est principalement guidé par la possi
 
 Ce sont, dans ce cas, des fournisseurs et/ou constructeurs, installés depuis longtemps, qui offrent non seulement des machines optimisées et plus que l'installation d'une distribution, avec des BIOS modifiés ou Coreboot par exemple.
 
-Dans l'ordre alphabethique :
 
 - 🇱🇺 **[Laptopwithlinux](https://www.laptopwithlinux.com/)** : 2 modeles avec Coreboot
 
