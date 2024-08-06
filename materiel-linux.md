@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Linux
 description: Où trouver du matériel adapté à Linux - vous trouverez ici des solutions...
 published: true
-date: 2024-08-06T08:12:49.846Z
+date: 2024-08-06T09:49:14.836Z
 tags: materiel, laptop, ordinateur
 editor: markdown
 dateCreated: 2023-01-19T16:33:42.627Z
@@ -20,8 +20,7 @@ Ce sont, dans ce cas, des fournisseurs et/ou constructeurs, installés depuis lo
 
 - 🇱🇺 **[Laptopwithlinux](https://www.laptopwithlinux.com/)** : 2 modeles avec Coreboot
 
-
-- 🇱🇺 **[NovaCustom](https://pcportablesurmesure.fr/)** : Des ordinateurs fabriqués à la commande et directement livrés avec une distribution Linux.
+- 🇱🇺 **[NovaCustom](https://novacustom.com/fr/)** : Des ordinateurs fabriqués à la commande et directement livrés avec une distribution Linux avec Coreboot
 
 - 🇪🇸 **[Slimbook](https://slimbook.es/en/)** : Pas de BIOS modifié, mais tout comme Tuxedo Computers, ils ont le contrôle sur le matériel qu'ils proposent, notamment grâce à un partenariat avec Clevo, qui leur permet de proposer des ordinateurs optimisés pour Linux.
 
@@ -31,11 +30,12 @@ Ce sont, dans ce cas, des fournisseurs et/ou constructeurs, installés depuis lo
 
 ## Les autres assembleurs linux en Europe
 
-D'autres petits asssembleurs qui livre avec le Bios par défaut. Principalement des barebones Clevo et tongfang voire du reconditionné mainstream
+D'autres petits asssembleurs qui livre avec le Bios par défaut. 
+Principalement des barebones Clevo et tongfang voire du reconditionné mainstream
 
-- 🇫🇷 **[Ekimia](https://ekimia.fr)**
-- 🇫🇷 **[Linuxshop](http://www.linuxshop.fr/)**
-- 🇧🇪 **[Ubuntu Shop](https://www.ubuntushop.be/index.php/fr/)** : Des machines sur châssis Clevo, plusieurs options "vie privée" offertes par défaut (bloqueur de noms de domaine contre les pubs, option Tails OS sur la mémoire RAM, etc.).
+- 🇫🇷 **[Ekimia](https://ekimia.fr)** : Portables, fixes et smartphones eOS ( Marseille )
+- 🇫🇷 **[Linuxshop](http://www.linuxshop.fr/)** Portables, fixes ( Ardennes )
+- 🇧🇪 **[Ubuntu Shop](https://www.ubuntushop.be/index.php/fr/)** : Des machines sur châssis Clevo, plusieurs options "vie privée" offertes par défaut (bloqueur DNS contre les pubs, option Tails OS sur la mémoire RAM, etc.).
 - 🇨🇭 **[Why Computers](https://whyopencomputing.com/fr/)** : Basé en suisse mais expedie depuis la France avec SAV FR.
 
 
