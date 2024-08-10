@@ -2,7 +2,7 @@
 title: Configurer son BIOS
 description: Indispensable si vous souhaitez vous libérer et installer autre chose que Windows...
 published: true
-date: 2023-06-19T21:56:35.147Z
+date: 2024-08-10T15:39:00.386Z
 tags: usb, bios, secure boot
 editor: markdown
 dateCreated: 2023-03-09T09:43:00.410Z
@@ -21,6 +21,7 @@ L'accès à ce programme se fait simplement, en utilisant une touche du clavier 
 - <kbd>F2</kbd>
 - <kbd>F10</kbd>
 - <kbd>F12</kbd>
+
 
 Essayez-les les unes après les autres, il est souvent impossible d'y arriver la première fois donc persévérez ;) !
 
