@@ -1,8 +1,8 @@
 ---
 title: Ubuntu
-description: 
+description: Installation d'une Ubuntu 22.04 LTS
 published: true
-date: 2024-02-04T20:18:45.710Z
+date: 2024-08-10T15:39:46.493Z
 tags: debutant, intermédiaire, débutant, intermediaire, distribution, ubuntu
 editor: markdown
 dateCreated: 2023-01-14T19:56:23.834Z
