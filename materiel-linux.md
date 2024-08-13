@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Linux
 description: Où trouver du matériel adapté à Linux - vous trouverez ici des solutions...
 published: true
-date: 2024-08-13T08:10:23.233Z
+date: 2024-08-13T08:10:55.093Z
 tags: materiel, laptop, ordinateur
 editor: markdown
 dateCreated: 2023-01-19T16:33:42.627Z
@@ -34,7 +34,7 @@ D'autres petits asssembleurs qui livre avec le Bios par défaut.
 Principalement des barebones Clevo et tongfang voire du reconditionné mainstream
 
 - 🇫🇷 **[Ekimia](https://ekimia.fr)** : Portables, fixes et smartphones eOS ( Marseille )
-- 🇫🇷 **[Linuxshop](http://www.linuxshop.fr/)** Portables, fixes ( Ardennes )
+- 🇫🇷 **[Linuxshop](http://www.linuxshop.fr/)** : Portables, fixes ( Ardennes )
 - 🇧🇪 **[Ubuntu Shop](https://www.ubuntushop.be/index.php/fr/)** : Des machines sur châssis Clevo, plusieurs options "vie privée" offertes par défaut (bloqueur DNS contre les pubs, option Tails OS sur la mémoire RAM, etc.).
 - 🇨🇭 **[Why Computers](https://whyopencomputing.com/fr/)** : Basé en suisse mais expedie depuis la France avec SAV FR.
 
