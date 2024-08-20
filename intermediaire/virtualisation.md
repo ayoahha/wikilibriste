@@ -2,15 +2,13 @@
 title: Les environnements virtualisés
 description: Cet article tente d'expliquer simplement le fonctionnement de la virtualisation et de la conteneurisation
 published: false
-date: 2023-07-23T12:32:46.875Z
+date: 2024-08-20T09:33:58.578Z
 tags: virtualisation, virtualbox, vmware, boxes, libvirt, qemu, container, docker
 editor: markdown
 dateCreated: 2023-06-22T08:37:38.306Z
 ---
 
-Il est possible que vous ayiez déjà entendu parler du concept de "Virtualisation", ou bien simplement d'outil comme "VirtualBox", "VMWare" ou alors peut être bien "Docker"...
-
-Ce sujet relativement récent dans son adoption globale n'en est pas moins complexe. Cet article tente de fournir une première base de compréhension. Tentons tout d'abord de définir ce qu'est la virtualisation. Selon une définition officielle :
+Il est possible que vous ayiez déjà entendu parler du concept de "Virtualisation", ou bien simplement d'outil comme "VirtualBox", "VMWare" ou alors peut-être bien "Docker"... Ce sujet relativement récent dans son adoption globale n'en est pas moins complexe. Tentons tout d'abord de définir ce qu'est la virtualisation. Selon une définition officielle :
 
 > Il s'agit d'une "*technique consistant à faire fonctionner plusieurs systèmes d'exploitation, en même temps, sur un même ordinateur*" d'après le Larousse [^¹]
 
@@ -28,19 +26,19 @@ Pour simplifier, la virtualisation nous permet de créer des ordinateurs sur un 
 
 Dans la première analogie, nous voyons bien la compartimentalisation, c'est-à-dire l'isolation des compartiments entre eux ; la seconde analogie nous permet de voir l'utilisation des ressources au maximum des capacités, de sorte à optimiser les coûts.
 
-> C'est comme cela que fonctionne (à peu de choses près !) la virtualisation.
+> C'est comme cela que fonctionne la virtualisation.
 
-Au lieu d'avoir plusieurs ordinateurs physiques, la virtualisation nous permet d'en créer plusieurs, virtuels donc, sur un seul ordinateur. Chacun de ces ordinateurs, virtuels, que nous appelons donc 'machine virtuelle' (ou VM pour Virtual Machine) pourra utiliser son propre [système d'exploitation](/glossaire#os-se) (Linux, Windows, Android...) et/ou ses propres applications.
+A la place d'avoir plusieurs ordinateurs physiques, la virtualisation nous permet d'en créer plusieurs virtuels sur un seul ordinateur. Chacun de ces ordinateurs virtuels, que nous appelons donc 'machine virtuelle' (ou VM pour Virtual Machine), pourra utiliser son propre [système d'exploitation](/glossaire#os-se) (Linux, Windows, Android...) et/ou ses propres applications.
 
 *Mais alors pourquoi diable voudrions-nous faire cela ?*
 
-Bien, cela peut nous éviter d'avoir plusieurs machines physiques pour, vous allez voir, plusieurs raisons assez intéressantes :
+Bien, cela peut nous éviter d'avoir plusieurs machines physiques pour, vous allez voir, plusieurs raisons intéressantes :
 1. Le gain de place, une machine (surtout chez les professionnels) pouvant être assez encombrante,
 2. Éviter de consommer de l'énergie, plusieurs machines pouvant bien entendu consommer beaucoup, beaucoup d'énergie,
 3. Réduire le coût d'achat,
 4. Améliorer la gestion et la facilité d'usage, car nous pouvons déplacer, copier, supprimer ces machines virtuelles (oui, comme un simple fichier !).
 
-Aujourd'hui, ce concept est utilisé à peu près partout, que ce soit pour des infrastructures d'entreprises ou d'administrations, dans de nombreux domaines comme le Cloud Computing, le Big Data, etc. Ce concept arrive même à maturité chez les **particuliers** avec des applications de plus en plus accessibles et simples d'utilisation comme VirtualBox ou Docker.
+Aujourd'hui, ce concept est utilisé partout, que ce soit pour des infrastructures d'entreprises ou d'administrations, dans de nombreux domaines comme le "Cloud Computing" (l'informatique en nuage), le Big Data, etc. Ce concept arrive même à maturité chez les **particuliers** avec des applications de plus en plus accessibles et simples d'utilisation comme VirtualBox ou Docker.
 
 Il est même possible chez soi d'avoir un environnement _complet_ virtualisé, cf. [Proxmox VE](https://www.proxmox.com/en/proxmox-ve), mais ceci n'intéressera que les plus expérimentés d'entre nous et ayant besoin de se fabriquer un `Homelab`.
 
