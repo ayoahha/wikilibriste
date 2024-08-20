@@ -2,7 +2,7 @@
 title: Les environnements virtualisés
 description: Cet article tente d'expliquer simplement le fonctionnement de la virtualisation et de la conteneurisation
 published: false
-date: 2024-08-20T11:06:54.021Z
+date: 2024-08-20T11:22:14.649Z
 tags: virtualisation, virtualbox, vmware, boxes, libvirt, qemu, container, docker
 editor: markdown
 dateCreated: 2023-06-22T08:37:38.306Z
@@ -136,7 +136,15 @@ Intéressons nous, cela dit, aux applications libres et open source : il en exis
 
 ## Android et la conteneurisation
 
-A venir...
+Vous avez sûrement entendu parler de "bac à sable" (ou Sandbox), généralement lorsque nous discutons de l'environnement Android. Il s'agit d'une autre forme de virtualisation (oui accrochez-vous :) !)
+
+> Contenu en cours de rédaction
+
+
+Concernant Android, vous verrez souvent ces 2 applications mises en avant afin d'isoler proprement des applications sur votre téléphone :
+
+- [Shelter](https://github.com/PeterCxy/Shelter)
+- [Insular](https://secure-system.gitlab.io/Insular/)
 
 # Conclusion
 
