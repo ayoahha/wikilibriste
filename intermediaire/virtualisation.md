@@ -2,7 +2,7 @@
 title: Les environnements virtualisés
 description: Cet article tente d'expliquer simplement le fonctionnement de la virtualisation et de la conteneurisation
 published: false
-date: 2024-08-20T11:06:16.108Z
+date: 2024-08-20T11:06:54.021Z
 tags: virtualisation, virtualbox, vmware, boxes, libvirt, qemu, container, docker
 editor: markdown
 dateCreated: 2023-06-22T08:37:38.306Z
@@ -140,9 +140,11 @@ A venir...
 
 # Conclusion
 
-Nous avons donc pu le voir, deux technologies existent afin de simuler, virtualiser, un environnement à l'intérieur de notre système. Deux approches différentes pour des besoins différents :
+Nous avons donc pu le voir, deux technologies existent afin de simuler, virtualiser, un environnement à l'intérieur de notre système.
 
-> ~~ Là où Docker pourra être utilisé pour simplifier le déploiement d'une application (une instance Nextcloud par exemple ;))...
+Deux approches différentes pour des besoins différents :
+
+> ~~ Là où Docker/LXC pourra être utilisé pour simplifier le déploiement d'une application (une instance Nextcloud par exemple ;))...
 > ~~ ...La machine virtuelle pourra être utile pour améliorer sa sécurité (cf. notre tutoriel dédié à [Whonix](/tutoriels/whonix)).
 {.is-info}
 
