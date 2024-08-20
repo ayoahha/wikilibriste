@@ -2,7 +2,7 @@
 title: Les environnements virtualisés
 description: Cet article tente d'expliquer simplement le fonctionnement de la virtualisation et de la conteneurisation
 published: false
-date: 2024-08-20T09:33:58.578Z
+date: 2024-08-20T10:36:21.871Z
 tags: virtualisation, virtualbox, vmware, boxes, libvirt, qemu, container, docker
 editor: markdown
 dateCreated: 2023-06-22T08:37:38.306Z
@@ -35,12 +35,13 @@ A la place d'avoir plusieurs ordinateurs physiques, la virtualisation nous perme
 Bien, cela peut nous éviter d'avoir plusieurs machines physiques pour, vous allez voir, plusieurs raisons intéressantes :
 1. Le gain de place, une machine (surtout chez les professionnels) pouvant être assez encombrante,
 2. Éviter de consommer de l'énergie, plusieurs machines pouvant bien entendu consommer beaucoup, beaucoup d'énergie,
-3. Réduire le coût d'achat,
-4. Améliorer la gestion et la facilité d'usage, car nous pouvons déplacer, copier, supprimer ces machines virtuelles (oui, comme un simple fichier !).
+3. Réduire les coûts en général : le coût d'achat, moins de maintenance, coût des licences,
+4. Améliorer la gestion et la facilité d'usage, car nous pouvons déplacer, copier, supprimer ces machines virtuelles (oui, comme un simple fichier !),
+5. Permettre de créer facilement des environnements de tests.
 
-Aujourd'hui, ce concept est utilisé partout, que ce soit pour des infrastructures d'entreprises ou d'administrations, dans de nombreux domaines comme le "Cloud Computing" (l'informatique en nuage), le Big Data, etc. Ce concept arrive même à maturité chez les **particuliers** avec des applications de plus en plus accessibles et simples d'utilisation comme VirtualBox ou Docker.
+Aujourd'hui, ce concept est utilisé partout, que ce soit pour des infrastructures d'entreprises ou d'administrations, dans de nombreux domaines comme le "Cloud Computing" (l'informatique en nuage), le Big Data, etc. La virtualisation a surtout transformé le monde des centres de données (datacenters) : à l'origine dans les années 2000s et avant, 1 machine **servait** (cf. terme *Serveur*) 1 application ! Depuis les années 2010 et l'explosion de la virtualistion, toutes les entreprises ayant recours à des centres de données ont pu réduire le nombre de machines et la taille des espaces alloués (gain de place, économie d'énergie, gain en productivité...). De même, leurs coûts ont sensiblement baissé et les perfomances grandement augmenté.
 
-Il est même possible chez soi d'avoir un environnement _complet_ virtualisé, cf. [Proxmox VE](https://www.proxmox.com/en/proxmox-ve), mais ceci n'intéressera que les plus expérimentés d'entre nous et ayant besoin de se fabriquer un `Homelab`.
+Ce concept arrive même à maturité chez les **particuliers** avec des applications de plus en plus accessibles et simples d'utilisation comme VirtualBox ou Docker. Il est même possible chez soi d'avoir un environnement _complet_ virtualisé, cf. [Proxmox VE](https://www.proxmox.com/en/proxmox-ve), mais ceci n'intéressera que les plus expérimentés d'entre nous et ayant besoin de se fabriquer un `Homelab`.
 
 
 # Les environnements virtualisés
@@ -48,8 +49,8 @@ Il est même possible chez soi d'avoir un environnement _complet_ virtualisé, c
 Vous avez pu remarquer plus haut que lorsque nous avons défini la virtualisation, nous avons mis en avant une partie importante de la définition : "<span class="red-text">un système d'exploitation ou une application</span>". En effet, plusieurs façons existent pour obtenir des environnements virtualisés. 
 
 Nous discuterons ici de 2 principaux types d'environnement : 
-- la virtualisation d'un système que nous appellerons (vulgairement) **Machines Virtuelles** et,
-- la virtualisation d'applications, autrement appelée **conteneurisation**.
+- La virtualisation d'un système, que nous appellerons (vulgairement) **Machines Virtuelles** et,
+- La virtualisation d'applications, autrement appelée **conteneurisation**.
 
 ## La virtualisation d'un système
 
