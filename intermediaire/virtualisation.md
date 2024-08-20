@@ -2,7 +2,7 @@
 title: Les environnements virtualisés
 description: Cet article tente d'expliquer simplement le fonctionnement de la virtualisation et de la conteneurisation
 published: false
-date: 2024-08-20T10:56:28.391Z
+date: 2024-08-20T10:58:05.191Z
 tags: virtualisation, virtualbox, vmware, boxes, libvirt, qemu, container, docker
 editor: markdown
 dateCreated: 2023-06-22T08:37:38.306Z
@@ -128,9 +128,9 @@ Les principaux acteurs sur le marché de la conteneurisation sont les suivants :
 4. Xen Orchestra
 
 Intéressons nous, cela dit, aux applications libres et open source : il en existe plusieurs. En voici les principaux :
-1. **Docker** : Vous avez sûrement entendu déjà ce nom. Docker est l'outil de conteneurisation le plus connu à ce jour et le plus largement utilisé. Il fournit une plateforme complète pour créer, gérer et déployer des conteneurs. Pour des environnements plus complexes, **Kubernetes** (k8s, k3s, etc.) sera utilisé.
-2. **LXC** : LXC (Linux Containers) est une technologie de conteneurisation basée sur le noyau Linux. Elle offre une isolation légère et une gestion efficace des conteneurs et concurrence frontalement Docker, surtout avec LXD (Linux Daemon).
-3. **Podman** : Podman est un outil de gestion de conteneurs open source, construit autour de LXC, qui fonctionne sans [daemon](/glossaire#daemon). Il offre une alternative à Docker et LXC tout en restant compatible avec l'écosystème Docker.
+1. **[Docker](https://www.docker.com)** : Vous avez sûrement entendu déjà ce nom. Docker est l'outil de conteneurisation le plus connu à ce jour et le plus largement utilisé. Il fournit une plateforme complète pour créer, gérer et déployer des conteneurs. Pour des environnements plus complexes, **Kubernetes** (k8s, k3s, etc.) sera utilisé.
+2. **[LXC](https://linuxcontainers.org)** : LXC (Linux Containers) est une technologie de conteneurisation basée sur le noyau Linux. Elle offre une isolation légère et une gestion efficace des conteneurs et concurrence frontalement Docker, surtout avec LXD (Linux Daemon).
+3. **[Podman](https://podman.io)** : Podman est un outil de gestion de conteneurs open source, construit autour de LXC, qui fonctionne sans [daemon](/glossaire#daemon). Il offre une alternative à Docker et LXC tout en restant compatible avec l'écosystème Docker.
 
 
 ## Android et la conteneurisation
