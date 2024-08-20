@@ -1,8 +1,8 @@
 ---
 title: Les environnements virtualisés
 description: Cet article tente d'expliquer simplement le fonctionnement de la virtualisation et de la conteneurisation
-published: false
-date: 2024-08-20T12:41:15.658Z
+published: true
+date: 2024-08-20T12:41:29.560Z
 tags: virtualisation, virtualbox, vmware, boxes, libvirt, qemu, container, docker
 editor: markdown
 dateCreated: 2023-06-22T08:37:38.306Z
