@@ -2,7 +2,7 @@
 title: Les environnements virtualisés
 description: Cet article tente d'expliquer simplement le fonctionnement de la virtualisation et de la conteneurisation
 published: false
-date: 2024-08-20T10:36:21.871Z
+date: 2024-08-20T10:44:40.933Z
 tags: virtualisation, virtualbox, vmware, boxes, libvirt, qemu, container, docker
 editor: markdown
 dateCreated: 2023-06-22T08:37:38.306Z
@@ -54,7 +54,7 @@ Nous discuterons ici de 2 principaux types d'environnement :
 
 ## La virtualisation d'un système
 
-Nous l'avons vu en introduction, nous sommes capable de virtualiser un système entier, via des machines _virtuelles_. L'idée est ici de reproduire "logiciellement" le comportement d'un ordinateur physique. 
+Nous l'avons vu en introduction, nous sommes capable de virtualiser un système entier (OS, [Operating System](/glossaire#os-se)), via des machines _virtuelles_. L'idée est ici de reproduire "logiciellement" le comportement d'un ordinateur physique.
 
 ### Le fonctionnement d'un ordinateur
 
@@ -62,15 +62,16 @@ Un ordinateur est principalement composé de quatre parties essentielles. Pour v
 
 ![](/images/ordinateur.png =600x){.align-center}
 
-Afin de virtualiser un ordinateur, nous allons donc devoir simuler chacune de ces parties, pour certaines pouvant être configurées (ex. : nombre de cœurs d'un CPU, taille de la mémoire...). L'ensemble de ces parties doivent fonctionner de concert avec l'ordinateur sur lequel est lancé l'environnement ; en effet, on ne peut pas par exemple définir 32 cœurs CPU si notre propre CPU ne comporte que 10 cœurs ! Cette "simulation" nous permet donc de créer une "**Machine Virtuelle**" (ou VM pour Virtual Machine), nous appelons cette fonction l'**hyperviseur**.
+Afin de virtualiser un ordinateur, il est donc nécessaire de simuler chacune de ces parties, pour certaines pouvant être configurables (ex. : nombre de cœurs d'un CPU, taille de la mémoire...). L'ensemble de ces parties doit fonctionner de concert avec l'ordinateur sur lequel est lancé l'environnement ; en effet, on ne peut pas par exemple définir 32 cœurs CPU si notre propre CPU ne comporte que 10 cœurs ! Nous appelons cette partie "simulation" un **hyperviseur**, fonction qui nous permet par dessus de créer concrètement l'environnement fonctionnel virtuel. 
 
-Cet hyperviseur est la partie essentielle des environnements virtualisés, qui nous permet tout d'abord de créer ces fameuses VM, mais aussi de gérer finement les ressources allouées à celles-ci.
+> Cet **hyperviseur** est la partie essentielle des environnements virtualisés, qui nous permet de créer ces fameuses "**Machines Virtuelles**" (ou VM pour Virtual Machine), mais aussi de gérer finement les ressources allouées à celles-ci.
+{.is-success}
 
-**Oui car nous pouvons bien entendu créer plusieurs VM ! C'est tout l'intérêt de la virtualisation...**
+**Oui, car nous pouvons bien entendu créer plusieurs VM ! C'est tout l'intérêt de la virtualisation...**
 
-- Imaginez un chef d'orchestre qui conduit sa troupe (analogie pour les ressources physiques) suivant le flux de la musique (analogie pour le besoin en ressources).
+- Imaginez un chef d'orchestre qui conduit sa troupe (:arrow_right: analogie pour les ressources physiques) suivant le flux de la musique (:arrow_right: analogie pour le besoin en ressources).
 
-D'où la terminologie d'orchestration que vous pourriez être amené à voir sur certaines définitions...
+D'où la terminologie d'orchestration que vous pourriez être amené à voir sur certaines documentations ;)
 
 ### Les outils
 
@@ -80,7 +81,7 @@ Les principaux acteurs sur le marché de la virtualisation sont les suivants :
 - IBM, avec PowerVM (Propriétaire),
 - Citrix, avec XenServer (Propriétaire),
 - Oracle avec [VM VirtualBox](https://www.virtualbox.org/) (Open source),
-- [QEMU](https://www.qemu.org/)/[KVM](https://www.linux-kvm.org/page/Main_Page), implémenté par exemple par GNOME Boxes (Libre et open source).
+- [QEMU](https://www.qemu.org/)/[KVM](https://www.linux-kvm.org/page/Main_Page), implémenté par exemple par GNOME Boxes (Libre et open source) et Proxmox (Libre et open source).
 
 > Nous avons rédigé deux tutoriels sur les 2 derniers outils open source :
 > ~~ Un tutoriel vous montrant comment utiliser [VirtualBox](/tutoriels/virtualbox)
