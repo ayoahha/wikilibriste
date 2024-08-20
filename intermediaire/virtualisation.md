@@ -2,7 +2,7 @@
 title: Les environnements virtualisés
 description: Cet article tente d'expliquer simplement le fonctionnement de la virtualisation et de la conteneurisation
 published: false
-date: 2024-08-20T10:44:40.933Z
+date: 2024-08-20T10:45:53.922Z
 tags: virtualisation, virtualbox, vmware, boxes, libvirt, qemu, container, docker
 editor: markdown
 dateCreated: 2023-06-22T08:37:38.306Z
@@ -81,9 +81,10 @@ Les principaux acteurs sur le marché de la virtualisation sont les suivants :
 - IBM, avec PowerVM (Propriétaire),
 - Citrix, avec XenServer (Propriétaire),
 - Oracle avec [VM VirtualBox](https://www.virtualbox.org/) (Open source),
-- [QEMU](https://www.qemu.org/)/[KVM](https://www.linux-kvm.org/page/Main_Page), implémenté par exemple par GNOME Boxes (Libre et open source) et Proxmox (Libre et open source).
+- [QEMU](https://www.qemu.org/)/[KVM](https://www.linux-kvm.org/page/Main_Page), implémenté par exemple par GNOME Boxes (Libre et open source).
+- Proxmox VE (Libre et open source), qui utilise QEMU/KVM (pour les VM) et LXC (pour les conteneurs)
 
-> Nous avons rédigé deux tutoriels sur les 2 derniers outils open source :
+> Nous avons rédigé deux tutoriels sur les 2 outils open source :
 > ~~ Un tutoriel vous montrant comment utiliser [VirtualBox](/tutoriels/virtualbox)
 > ~~ Un tutoriel vous montrant comment utiliser [GNOME Boxes](https://wikilibriste.fr/tutoriels/gnome-boxes)
 > N'hésitez pas à essayer chez vous !
