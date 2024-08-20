@@ -2,7 +2,7 @@
 title: Les environnements virtualisés
 description: Cet article tente d'expliquer simplement le fonctionnement de la virtualisation et de la conteneurisation
 published: false
-date: 2024-08-20T11:01:15.201Z
+date: 2024-08-20T11:05:00.485Z
 tags: virtualisation, virtualbox, vmware, boxes, libvirt, qemu, container, docker
 editor: markdown
 dateCreated: 2023-06-22T08:37:38.306Z
@@ -126,12 +126,12 @@ Les principaux acteurs sur le marché de la conteneurisation sont les suivants :
 1. VMware vSphere Integrated Containers ou VIC
 2. Microsoft Hyper-V Containers
 3. Amazon ECS Elastic Container Service
-4. Xen Orchestra
 
 Intéressons nous, cela dit, aux applications libres et open source : il en existe plusieurs. En voici les principaux :
 1. **[Docker](https://www.docker.com)** : Vous avez sûrement entendu déjà ce nom. Docker est l'outil de conteneurisation le plus connu à ce jour et le plus largement utilisé. Il fournit une plateforme complète pour créer, gérer et déployer des conteneurs. Pour des environnements plus complexes, **Kubernetes** (k8s, k3s, etc.) sera utilisé.
 2. **[LXC](https://linuxcontainers.org)** : LXC (Linux Containers) est une technologie de conteneurisation basée sur le noyau Linux. Elle offre une isolation légère et une gestion efficace des conteneurs et concurrence frontalement Docker, surtout avec LXD (Linux Daemon).
 3. **[Podman](https://podman.io)** : Podman est un outil de gestion de conteneurs open source, construit autour de LXC, qui fonctionne sans [daemon](/glossaire#daemon). Il offre une alternative à Docker et LXC tout en restant compatible avec l'écosystème Docker.
+4. **[BSD Jails](https://docs.freebsd.org/fr/books/handbook/jails/)** : Moins connu et pour autant très puissant, les "Jails" créées par BSD ont été pensés comme des environnements conteneurisés pour les administrateurs système. Aujourd'hui étendus à l'utilisation d'applications en conteneurs (par ex. sur TrueNAS Core).
 
 
 ## Android et la conteneurisation
