@@ -2,7 +2,7 @@
 title: Les environnements virtualisés
 description: Cet article tente d'expliquer simplement le fonctionnement de la virtualisation et de la conteneurisation
 published: false
-date: 2024-08-20T12:40:58.501Z
+date: 2024-08-20T12:41:15.658Z
 tags: virtualisation, virtualbox, vmware, boxes, libvirt, qemu, container, docker
 editor: markdown
 dateCreated: 2023-06-22T08:37:38.306Z
@@ -133,18 +133,6 @@ Intéressons nous, cela dit, aux applications libres et open source : il en exis
 3. **[Podman](https://podman.io)** : Podman est un outil de gestion de conteneurs open source, construit autour de LXC, qui fonctionne sans [daemon](/glossaire#daemon). Il offre une alternative à Docker et LXC tout en restant compatible avec l'écosystème Docker.
 4. **[BSD Jails](https://docs.freebsd.org/fr/books/handbook/jails/)** : Moins connu et pour autant très puissant, les "Jails" créées par BSD ont été pensés comme des environnements conteneurisés pour les administrateurs système, et donc avec un accent sécurité poussé plus loin que LXC ou Docker. Aujourd'hui étendus à l'utilisation d'applications en conteneurs (par ex. impléménté sur [TrueNAS Core](https://www.truenas.com/docs/core/coretutorials/jailspluginsvms/jails/managingjails/)).
 
-
-## Android et la conteneurisation
-
-Vous avez sûrement entendu parler de "bac à sable" (ou Sandbox), généralement lorsque nous discutons de l'environnement Android. Il s'agit d'une autre forme de virtualisation (oui accrochez-vous :) !)
-
-> Contenu en cours de rédaction
-
-
-Concernant Android, vous verrez souvent ces 2 applications mises en avant afin d'isoler proprement des applications sur votre téléphone :
-
-- [Shelter](https://github.com/PeterCxy/Shelter)
-- [Insular](https://secure-system.gitlab.io/Insular/)
 
 # Conclusion
 
