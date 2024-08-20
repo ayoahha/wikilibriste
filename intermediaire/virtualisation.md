@@ -2,7 +2,7 @@
 title: Les environnements virtualisés
 description: Cet article tente d'expliquer simplement le fonctionnement de la virtualisation et de la conteneurisation
 published: false
-date: 2024-08-20T10:51:37.892Z
+date: 2024-08-20T10:53:08.709Z
 tags: virtualisation, virtualbox, vmware, boxes, libvirt, qemu, container, docker
 editor: markdown
 dateCreated: 2023-06-22T08:37:38.306Z
@@ -122,17 +122,14 @@ Bien entendu, cette conteneurisation a beaucoup d'avantages mais aussi des incon
 ### Les outils
 
 Les principaux acteurs sur le marché de la conteneurisation sont les suivants :
-1. Docker et Docker Enterprise,
-2. Kubernetes,
-3. VMware vSphere Integrated Containers ou VIC,
-4. Microsoft Hyper-V Containers,
-5. Amazon ECS Elastic Container Service.
+1. VMware vSphere Integrated Containers ou VIC
+2. Microsoft Hyper-V Containers
+3. Amazon ECS Elastic Container Service
 
 Intéressons nous, cela dit, aux applications libres et open source : il en existe plusieurs. En voici les principaux :
-1. **Docker** : Vous avez sûrement entendu déjà ce nom. Docker est l'outil de conteneurisation le plus connu à ce jour et le plus largement utilisé. Il fournit une plateforme complète pour créer, gérer et déployer des conteneurs.
-2. **Kubernetes** : Kubernetes est un système d'orchestration de conteneurs qui facilite le déploiement et la gestion des applications conteneurisées sur une multitude de machines.
-3. **LXC/LXD** : LXC (Linux Containers) et LXD sont des technologies de conteneurisation basées sur le noyau Linux. Elles offrent une isolation légère et une gestion efficace des conteneurs et concurrence frontalement Docker.
-4. **Podman** : Podman est un outil de gestion de conteneurs open source qui fonctionne sans [daemon](/glossaire#daemon). Il offre une alternative à Docker tout en restant compatible avec l'écosystème Docker.
+1. **Docker** : Vous avez sûrement entendu déjà ce nom. Docker est l'outil de conteneurisation le plus connu à ce jour et le plus largement utilisé. Il fournit une plateforme complète pour créer, gérer et déployer des conteneurs. Pour des environnements plus complexes, **Kubernetes** sera utilisé.
+2. **LXC/LXD** : LXC (Linux Containers) et LXD sont des technologies de conteneurisation basées sur le noyau Linux. Elles offrent une isolation légère et une gestion efficace des conteneurs et concurrence frontalement Docker.
+3. **Podman** : Podman est un outil de gestion de conteneurs open source qui fonctionne sans [daemon](/glossaire#daemon). Il offre une alternative à Docker tout en restant compatible avec l'écosystème Docker.
 
 
 ## Android et la conteneurisation
