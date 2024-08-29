@@ -2,7 +2,7 @@
 title: Trouver un logiciel alternatif libre
 description: Découvrez comment chercher des logiciels libres par vous même
 published: true
-date: 2024-07-26T10:17:35.645Z
+date: 2024-08-29T16:10:21.337Z
 tags: logiciel, application, alternative, alternatif
 editor: markdown
 dateCreated: 2023-02-10T23:29:04.219Z
@@ -28,6 +28,12 @@ Vous trouverez, ci-dessous, 2 outils forts pratiques afin de dénicher une alter
 {.grid-list}
 
 La page de recherche de Framalibre sur l'annuaire du libre de l'association d'éducation populaire [Framasoft](https://framasoft.org/fr/) vous permettra de trouver une des nombreuses applications ou services alternatifs à un logiciel privateur.
+
+## Open Alternative
+- [OpenAlternative](https://openalternative.co)
+{.grid-list}
+
+Une page permettant de trouver des alternatives Libre, plus particulièrement pour les professionnels.
 
 ## Awesome Privacy
 - [Awesome Privacy](https://github.com/pluja/awesome-privacy) 
