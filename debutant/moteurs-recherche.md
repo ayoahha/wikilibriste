@@ -2,7 +2,7 @@
 title: Les moteurs de recherche
 description: Article liés aux moteurs de recherche internet et le côté respect de la vie privée...
 published: true
-date: 2024-03-10T14:47:06.719Z
+date: 2024-08-29T16:02:59.655Z
 tags: privacy, vie privée, moteurs, recherche, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:45:28.462Z
@@ -305,6 +305,10 @@ Pour synthétiser :
 *Nous préférons dans ce cas **MetaGer**, pour les images par exemple*.
 
 {.grid-list}
+
+
+Enfin, pour ceux désirant creuser le sujet des **index** de moteurs de recherche, voici un billet de blog complet :
+- [Les moteurs avec leur propre index](https://seirdy.one/posts/2021/03/10/search-engines-with-own-indexes/)
 
 ---
 ![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): marmotte, Ayo*
