@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2024-05-18T07:42:48.753Z
+date: 2024-10-11T19:14:20.147Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -295,7 +295,7 @@ Vous vous apercevez donc que la plupart de ces ROMs ne couvrent absolument pas t
 
 | Nom | Liens | Niveau conseillé | Modèles supportés | Vend des<br>téléphones<br> configurés? |  Commentaires |
 |----------|----------|----------|----------|----------|----------|
-| Lineage OS | [Site Officiel](https://lineage.org/) | Débutant | 175+ | Non | Lineage OS (LOS) est une distribution basée sur AOSP (Android Open Source Project) et est la base de toutes les distributions<br>proposées ici. Elle n'est pas spécifiquement développé pour la sécurité, mais possède 2 versions : Vanilla qui supprime toutes<br>les applications propriétaires (et donc Google) et une seconde avec les applications de base Google. |
+| Lineage OS | [Site Officiel](https://lineageos.org/) | Débutant | 175+ | Non | Lineage OS (LOS) est une distribution basée sur AOSP (Android Open Source Project) et est la base de toutes les distributions<br>proposées ici. Elle n'est pas spécifiquement développé pour la sécurité, mais possède 2 versions : Vanilla qui supprime toutes<br>les applications propriétaires (et donc Google) et une seconde avec les applications de base Google. |
 | Dot OS | [Site Officiel](https://www.droidontime.com/) | Débutant | 450 | Non | N'est pas orientée vie privée ou sécurité. Basée sur AOSP. Contient des logiciels propriétaires. dotOS est listé ici, car supporte de<br>nombreux modèles, et peut être un bon début pour libérer un téléphone non pris en charge par les distributions citées plus haut. |
 {.dense}
 
