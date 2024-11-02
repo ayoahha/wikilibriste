@@ -2,7 +2,7 @@
 title: Android Bootloader Unlock
 description: Ce tutoriel vous parle des "bootloader" liés à Android et fait un état de lieux...
 published: true
-date: 2024-11-02T16:22:58.099Z
+date: 2024-11-02T16:23:32.040Z
 tags: android, smartphone, ordiphone, booloader, intermédiaire, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:54:20.672Z
@@ -71,7 +71,7 @@ De plus, pour un même modèle suivant la région (USA, ASIE...) ou si revendu p
 | Sony | fastboot | **Facile**<br>  OEM unlock (site de [Sony](https://developer.sony.com/open-source/aosp-on-xperia-open-devices/get-started/unlock-bootloader)) + commande fastboot  | Oui | [Tous ou presque](https://github.com/melontini/bootloader-unlock-wall-of-shame/blob/main/brands/sony/README.md) |
 | Yandex | fastboot | **Facile** <br> Commande fastboot | Oui | Un seul téléphone est sorti (2018) |
 | YU | fastboot | **Facile** <br> Commande fastboot | Oui | Marque disparu depuis 2018 |
-| Teracube | fastboot | **Facile**<br> Commande fastboot | non | Tous |
+| Teracube | fastboot | **Facile**<br> Commande fastboot | Non | Tous |
 | ZUK | fastboot | **Facile** <br> Commande fastboot | Oui | Z1 et Z2 uniquement, marque disparu depuis 2016 |
 
 
