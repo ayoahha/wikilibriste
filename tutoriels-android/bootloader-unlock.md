@@ -2,7 +2,7 @@
 title: Android Bootloader Unlock
 description: Ce tutoriel vous parle des "bootloader" liés à Android et fait un état de lieux...
 published: true
-date: 2024-02-01T10:42:20.827Z
+date: 2024-11-02T14:45:29.908Z
 tags: android, smartphone, ordiphone, booloader, intermédiaire, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:54:20.672Z
@@ -58,15 +58,17 @@ De plus, pour un même modèle suivant la région (USA, ASIE...) ou si revendu p
 
 | Marque | Outil de flash | Complexité déverrouillage (OEM unlock) | Perte de la garantie | Modèles supportés |
 |----------|----------|----------|----------|----------|
-| BQ | fastboot | **Facile**<br> via le menu outils de dev : OEM unlock puis commande fastboot | oui | Tous |
-| Essential | fastboot | **Facile**<br> OEM unlock + commande fastboot | non | PH-1 seulement |
-| Fairphone | fastboot | **Facile**<br> OEM unlock + commande fastboot | non | Tous |
-| Gigaset | fastboot | **Facile**<br> OEM unlock + commande fastboot | oui | GS290 seulement |
-| Google      | fastboot | **Facile**<br> OEM unlock + commande fastboot | non | Tous les Google Pixel et Nexus<br>  |
-| OnePlus | fastboot | **Facile**<br> OEM unlock + commande fastboot | non | Tous |
-| Samsung | ODIN ou Heimdall | **Modéré** besoins d'utliser certaines touches <br>de l'appareil pour acceder au mode "download"| oui | Tous les Galaxy Sx et série Ax <br> Attention de plus en plus complexe sur > S10  |
-| SHIFT | fastboot | **Facile**<br> OEM unlock + commande fastboot | non | info [ici](https://forum.shiftphones.com/threads/bootloader-unlock-root-custom-recoveries-roms-mods.3207/)  |
-| Teracube | fastboot | **Facile**<br> OEM unlock + commande fastboot | non | - |
+| BQ | fastboot | **Facile**<br> Commande fastboot | oui | Tous |
+| Essential | fastboot | **Facile**<br> Commande fastboot | non | PH-1 seulement |
+| Fairphone | fastboot | **Facile**<br> OEM unlock (site de [Fairphone](https://www.fairphone.com/en/bootloader-unlocking-code-for-fairphone)) + commande fastboot | non | Tous |
+| Gigaset | fastboot | **Facile**<br> Commande fastboot | oui | GS290 seulement |
+| Google      | fastboot | **Facile**<br> Commande fastboot | non | Tous les Google Pixel et Nexus<br>  |
+| Nothing | fastboot | **Facile**<br> Commande fastboot | non | Tous |
+| OnePlus | fastboot | **Facile**<br> Commande fastboot | non | Tous |
+| Samsung | ODIN ou Heimdall | **Modéré** Besoins d'utliser certaines touches <br>de l'appareil pour acceder au mode "download"| oui | Tous les Galaxy Sx et série Ax <br> Attention de plus en plus complexe sur > S10  |
+| SHIFT | fastboot | **Facile**<br> Commande fastboot | non | info [ici](https://forum.shiftphones.com/threads/bootloader-unlock-root-custom-recoveries-roms-mods.3207/)  |
+| Sony | fastboot | **Facile**<br>  OEM unlock (site de [Sony](https://developer.sony.com/open-source/aosp-on-xperia-open-devices/get-started/unlock-bootloader)) + commande fastboot  | oui | [Tous ou presque](https://github.com/melontini/bootloader-unlock-wall-of-shame/blob/main/brands/sony/README.md) |
+| Teracube | fastboot | **Facile**<br> Commande fastboot | non | Tous |
 
 
 
@@ -79,23 +81,29 @@ De plus, pour un même modèle suivant la région (USA, ASIE...) ou si revendu p
 
 | Marque | Outil de flash | Complexité déverrouillage (OEM unlock) | Perte de la garantie | Modèles supportés |
 |----------|----------|----------|----------|----------|
-| HTC | fastboot | **Modéré**<br>  code via fastboot et site web fabriquant  | oui | HTC 10, One, One A9, U Ultra / U11 pour les versions carrier-unlocked |
-| Motorola | fastboot | **Modéré**<br>  code via fastboot et site web fabriquant  | oui | - |
-| Sony | fastboot | **Modéré**<br>  code via fastboot et site web fabriquant  | oui | - |
-| Xiaomi | fastboot<br>Avec Mi Unlock Tool (propriétaire) | **Modéré**<br>Via application Xiaomi, interface graphique puis code OEM | oui | Tous peuvent être déverrouillés |
+| HTC  avant Juin 2018| fastboot | **Modéré**<br>  code via fastboot et site web fabriquant <br>pour les téléphones [d'avant juin 2018](https://www.htcdev.com/bootloader) | oui | HTC 10, One, One A9, U Ultra / U11 pour les versions carrier-unlocked <br>[Un verrou S-ON/S-OFF](https://github.com/melontini/bootloader-unlock-wall-of-shame/blob/main/brands/htc/README.md) complique l'installation de ROM|
+| Motorola | fastboot | **Modéré**<br> OEM unlock (site de [Motorola](https://en-us.support.motorola.com/app/utils/welcome?p_next_page=standalone%2Fbootloader%2Funlock-your-device-b)) + commande fastboot  | oui | Passé un age de téléphone [non communiqué](https://github.com/melontini/bootloader-unlock-wall-of-shame/blob/main/brands/motorola/README.md), Motorola ne permet plus le déblocage |
+| Xiaomi <br> Redmi <br> POCO| fastboot<br>Avec Mi Unlock Tool (propriétaire) | **Modéré**<br>Via application Xiaomi, interface graphique puis code OEM <br> Déverrouillage [impossible](https://github.com/melontini/bootloader-unlock-wall-of-shame/blob/main/brands/xiaomi/README.md) pour les versions China | oui | Toutes les versions non destiné au marché Chinois peuvent être déverrouillés [(pour le moment)](https://x.com/chunvn8888) |
 
 
-## Les marques à éviter absolument (déblocage impossible)
+## Les marques à éviter absolument (déblocage très difficile voir impossible)
 
 
 
 | Marque | Outil de flash | Complexité déverrouillage (OEM unlock) | Perte de la garantie | Modèles supportés |
 |----------|----------|----------|----------|----------|
-| ASUS | fastboot | **Impossible**<br> Depuis Mai 2023 Asus ne permet plus le débloquage via son application | oui| Une dizaine |
-| Crosscall | fastboot | **Impossible** | oui | La série 5 sera débloquable (info a venir) - les anciennes, non. |
-| Honor | fastboot | **Très difficile/impossible**<br>Méthodes non officielles car le fabricant ne donne plus les codes OEM unlock depuis 2017/2018 ! | oui | Honor 8 |
-| Huawei | fastboot | **Très difficile/impossible**<br>Méthodes non officielles car le fabricant ne donne plus les codes OEM unlock depuis 2017/2018 ! | oui | Mate 9/9Pro, P10/P10Plus |
+| Apple | - | **Impossible** | oui | Il existe bien [un projet](https://projectsandcastle.org/status) pour installer Android sur Iphone mais beaucoup de pilotes <br>manques, en particulier si ce n'est pas un modèle 7, 7+, 7G |
+| ASUS | fastboot | **Impossible**<br> Depuis Novembre 2023 Asus [ne permet plus](https://github.com/melontini/bootloader-unlock-wall-of-shame/blob/main/brands/asus/README.md) le <br>débloquage via son application et implémente un anti roolback | oui| Une dizaine |
+| Crosscall | fastboot | **Impossible** | oui | La série 5 sera débloquable (info a venir)<br> - les anciennes, non. |
+| HMD Global | fastboot | **Impossible** | oui | Politique de [verrouillage systématique](https://github.com/melontini/bootloader-unlock-wall-of-shame/blob/main/brands/nokia/README.md) du bootloader, cependant quelques méthodes <br>existent pour les téléphones de l'ère Nokia <br> La cadence très élevé de sortie des téléphones rend peu probable la sortie de nouvelle <br>méthode et ROM alternative |
+| Honor | fastboot | **Très difficile/impossible**<br>Méthodes non officielles car le fabricant ne donne <br>plus les codes OEM unlock depuis 2017/2018 ! <br> Certains telephones peuvent débloqué avec [PotatoMV](https://github.com/mashed-potatoes/PotatoNV) <br> (gratuit) ou HCU Client (payant) | oui | Téléphone avec Kirin 620 (Honor 5C) à 659 et Kirin 925 à 960 (Honor 9) pour PotatoMV <br>et plus de modèles compatibles avec HCU Client  |
+| HTC  après Juin 2018| fastboot | **Impossible**| oui | - |
+| Huawei | fastboot | **Très difficile/impossible**<br>Méthodes non officielles car le fabricant ne donne <br>plus les codes OEM unlock depuis 2017/2018 !<br> Certains telephones peuvent débloqué avec [PotatoMV](https://github.com/mashed-potatoes/PotatoNV) <br> (gratuit) ou HCU Client (payant) | oui | Téléphone avec Kirin 620 (Huawei P8 Lite) à 659 et Kirin 925 à 960 (Huawei P10, Mate 9) <br>pour PotatoMV et plus de modèles compatibles avec HCU Client |
 | LG | - | **Impossible**<br> | oui | Depuis Dec 2021, LG ne permet plus de déblocage |
+| Nokia | fastboot | **Difficile** <br> Un [site officieux](https://www.hikaricalyx.com/request-bootloader-unlock/) permet le déblocage des modèles d'avant <br>début 2019 et cette [autre méthode](https://fih-firmware.hikaricalyx.com/protoabl/) permet de débloquer d'autre téléphones <br>et presque tout les Windows Phones dispose d'une [méthode officieuse](http://allaboutwindowsphone.com/features/item/24245_Aguideforunlockingthebootloade.php)| oui | - |
+| OPPO | fastboot | **Impossible** <br>Fastboot est bloqué | oui | - |
+| Realme | fastboot | **Impossible** <br>Fastbook est bloqué  | oui | - |
+| ZTE | devinfo hexa edit | **Difficile** <br> Pour les téléphones jusqu'à Android 8 Oreo, cette [methode](https://xdaforums.com/t/bootloader-unlocking-on-older-qualcomm-zte-devices-devinfo-partition-modification.4100897/) est disponible | oui | - |
 
 
 ## Les marques à completer 
@@ -106,18 +114,14 @@ De plus, pour un même modèle suivant la région (USA, ASIE...) ou si revendu p
 | LeEco | - | - | - | - |
 | Lenovo | - | - | - | - |
 | Nextbit | - | - | - | - |
-| Nokia | - | - | - | - |
 | Nubia | - | - | - | - |
-| OPPO | - | - | - | - |
 | Razer | - | - | - | - |
 | Nextbit | - | - | - | - |
-| Realme | - | - | - | - |
 | Wiko | - | - | - | - |
 | Wileyfox | - | - | - | - |
 | Wingtech | - | - | - | - |
 | Yandex | - | - | - | - |
 | YU | - | - | - | - |
-| ZTE | - | - | - | - |
 | ZUK | - | - | - | - |
 {.dense}
 
@@ -140,5 +144,7 @@ Sachez que la plupart du temps, si le modèle exact de votre téléphone **<span
 - [Forum XDA *En dernier recours, vous pouvez aller voir sur le site de référence en la matière. Mais attention ici, certaines ROMs ne sont plus maintenues et cela fluctue en fonction des développeurs...*](https://forum.xda-developers.com/all-forums-by-manufacturer)
 {.links-list}
 
+Merci au Github [Bootloader Unlock Wall of Shame](https://github.com/melontini/bootloader-unlock-wall-of-shame/tree/main) et au diférents sites de ROM (Lineage, /e/os...) pour les méthodes de déverrouillage du bootloader.
+
 ---
-![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): ayo, freechelmi, marmotte*
+![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): ayo, freechelmi, marmotte, Justin*
