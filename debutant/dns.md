@@ -2,7 +2,7 @@
 title: Le système DNS expliqué
 description: Cet article traite du système de noms de domaine et de sa configuration afin de recouvrer sa vie privée sur internet...
 published: true
-date: 2024-11-05T21:13:15.113Z
+date: 2024-11-05T21:22:22.073Z
 tags: dns, nom de domaine, url, tld, sous-domaine, reverse dns
 editor: markdown
 dateCreated: 2023-06-19T11:57:54.490Z
@@ -39,7 +39,7 @@ Vous l’aurez compris, le DNS est une part essentielle d’internet. Sans lui, 
 Pour plus d'explications à ce sujet, vous pouvez visionner la vidéo
 - **"DNS - La surveillance de masse facile" par *"Paf LeGeek"***
 
-<iframe id="odysee-iframe" style="width:100%; aspect-ratio:16 / 9;" src="https://odysee.com/$/embed/@paflegeek:2/dns-la-surveillance-de-masse-facile:5?r=5Sf7ToJSszJnDDxKvHqw4gnZPYSdcMFb" allowfullscreen></iframe>
+<iframe width="560" height="315"src="https://odysee.com/$/embed/@paflegeek:2/dns-la-surveillance-de-masse-facile:5?r=5Sf7ToJSszJnDDxKvHqw4gnZPYSdcMFb" allowfullscreen></iframe>
 
 
 
