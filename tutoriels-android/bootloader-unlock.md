@@ -2,7 +2,7 @@
 title: Android Bootloader Unlock
 description: Ce tutoriel vous parle des "bootloader" liés à Android et fait un état de lieux...
 published: true
-date: 2024-11-02T16:26:31.737Z
+date: 2024-11-16T10:16:10.741Z
 tags: android, smartphone, ordiphone, booloader, intermédiaire, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:54:20.672Z
@@ -68,7 +68,6 @@ De plus, pour un même modèle suivant la région (USA, ASIE...) ou si revendu p
 | Razer | fastboot | Commande fastboot | Oui | Phone 1, Phone 2 |
 | Samsung | ODIN ou Heimdall | **Modéré** Besoins d'utliser certaines touches <br>de l'appareil pour acceder au mode "download"| oui | Tous les Galaxy Sx et série Ax <br> Attention de plus en plus complexe sur > S10  |
 | SHIFT | fastboot | **Facile**<br> Commande fastboot | Non | info [ici](https://forum.shiftphones.com/threads/bootloader-unlock-root-custom-recoveries-roms-mods.3207/)  |
-| Sony | fastboot | **Facile**<br>  OEM unlock (site de [Sony](https://developer.sony.com/open-source/aosp-on-xperia-open-devices/get-started/unlock-bootloader)) + commande fastboot  | Oui | [Tous ou presque](https://github.com/melontini/bootloader-unlock-wall-of-shame/blob/main/brands/sony/README.md) |
 | Yandex | fastboot | **Facile** <br> Commande fastboot | Oui | Un seul téléphone est sorti (2018) |
 | YU | fastboot | **Facile** <br> Commande fastboot | Oui | Marque disparu depuis 2018 |
 | Teracube | fastboot | **Facile**<br> Commande fastboot | Non | Tous |
@@ -86,6 +85,7 @@ De plus, pour un même modèle suivant la région (USA, ASIE...) ou si revendu p
 | Marque | Outil de flash | Complexité déverrouillage (OEM unlock) | Perte de la garantie | Modèles supportés |
 |----------|----------|----------|----------|----------|
 | HTC  avant Juin 2018| fastboot | **Modéré**<br>  code via fastboot et site web fabriquant <br>pour les téléphones [d'avant juin 2018](https://www.htcdev.com/bootloader) | Oui | HTC 10, One, One A9, U Ultra / U11 pour les versions carrier-unlocked <br>[Un verrou S-ON/S-OFF](https://github.com/melontini/bootloader-unlock-wall-of-shame/blob/main/brands/htc/README.md) complique l'installation de ROM|
+| Sony | fastboot | **Facile**<br>  OEM unlock (site de [Sony](https://developer.sony.com/open-source/aosp-on-xperia-open-devices/get-started/unlock-bootloader)) + commande fastboot  | Oui | [Tous ou presque](https://github.com/melontini/bootloader-unlock-wall-of-shame/blob/main/brands/sony/README.md) |
 | Motorola | fastboot | **Modéré**<br> OEM unlock (site de [Motorola](https://en-us.support.motorola.com/app/utils/welcome?p_next_page=standalone%2Fbootloader%2Funlock-your-device-b)) + commande fastboot  | Oui | Passé un age de téléphone [non communiqué](https://github.com/melontini/bootloader-unlock-wall-of-shame/blob/main/brands/motorola/README.md), Motorola ne permet plus le déblocage |
 | Xiaomi <br> Redmi <br> POCO| fastboot<br>Avec Mi Unlock Tool (propriétaire) | **Modéré**<br>Via application Xiaomi, interface graphique puis code OEM <br> Déverrouillage [impossible](https://github.com/melontini/bootloader-unlock-wall-of-shame/blob/main/brands/xiaomi/README.md) pour les versions China | Oui | Toutes les versions non destiné au marché Chinois peuvent être déverrouillés [(pour le moment)](https://x.com/chunvn8888) |
 
