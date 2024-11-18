@@ -2,7 +2,7 @@
 title: Android Bootloader Unlock
 description: Ce tutoriel vous parle des "bootloader" liés à Android et fait un état de lieux...
 published: true
-date: 2024-11-16T10:21:10.929Z
+date: 2024-11-18T11:49:37.268Z
 tags: android, smartphone, ordiphone, booloader, intermédiaire, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:54:20.672Z
@@ -109,7 +109,7 @@ De plus, pour un même modèle suivant la région (USA, ASIE...) ou si revendu p
 | Nokia | fastboot | **Difficile** <br> Un [site officieux](https://www.hikaricalyx.com/request-bootloader-unlock/) permet le déblocage des modèles d'avant <br>début 2019 et cette [autre méthode](https://fih-firmware.hikaricalyx.com/protoabl/) permet de débloquer d'autre téléphones <br>et presque tout les Windows Phones dispose d'une [méthode officieuse](http://allaboutwindowsphone.com/features/item/24245_Aguideforunlockingthebootloade.php)| Oui | - |
 | Nubia (ZTE)| fastboot (Redmagic) <br> edl (Nubia) | **Facile** <br> Commande fastboot ou edl <br> Uniquement des anciens modèles| Oui | Anciens modèles, Nuvia appartient à ZTE donc<br> peu d'espoir pour les nouveaux modèles |
 | OPPO | fastboot | **Impossible** <br>Fastboot est bloqué | Oui | - |
-| Realme | fastboot | **Impossible** <br>Fastbook est bloqué  | Oui | - |
+| Realme | fastboot | **Impossible** <br>Fastboot est bloqué  | Oui | - |
 | Redmagic| fastboot | Voir Nubia| Oui | - |
 | Sharp | - | **Difficile** <br> Quelques modèles peuvent être déverouillé via cette [méthode](https://hikaricalyx.com/request-bootloader-unlock) | Oui | Aquos S2/C10, Aquos S3/D10 et Aquos S3 Mini |
 | Wiko | - | **Difficile** <br> Possible si la clef par défaut a été utilisé | Oui | Au cas par cas en suivant la [méthode générale](https://github.com/melontini/bootloader-unlock-wall-of-shame/tree/main?tab=readme-ov-file#universal-soc-based-methods) ([lien alternatif](https://www.hovatek.com/blog/how-to-unlock-the-bootloader-on-your-android-smartphone-or-device/)) <br>du fabricant de la puce car Wiko utilise en général la clef par défaut |
