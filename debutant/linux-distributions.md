@@ -2,7 +2,7 @@
 title: Les distributions GNU/Linux
 description: Article relatif aux distributions GNU/Linux que le collectif recommande...
 published: true
-date: 2024-02-01T12:22:16.624Z
+date: 2024-11-28T11:33:49.073Z
 tags: linux, debutant, intermédiaire, débutant, intermediaire, initié, expert
 editor: markdown
 dateCreated: 2022-11-24T21:02:27.494Z
@@ -340,7 +340,7 @@ Nous fournissons ici une solution différente : l'idée est d'installer une dist
 {.is-warning}
 
 
-###### Pour MacOS
+###### Pour MacARM
 
 | Nom distro | Environnements<br>de Bureau | Base | CPU | URL | Gestionnaires<br>de paquets |  Commentaires |
 |----------|----------|----------|----------|----------|----------|----------|
