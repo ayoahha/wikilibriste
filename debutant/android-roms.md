@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2024-10-11T19:14:20.147Z
+date: 2024-12-30T21:47:37.911Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -622,7 +622,7 @@ La manipulation est simple : lorsque vous souhaitez partager n'importe où cette
 
 #### Navigateur internet
 
-Les navigateurs internet pré-installés sur CalyxOS et /e/OS sont des navigateurs basés sur Bromite (forks, avec une base Chromium dégooglisée), qu'il sera nécessaire de paramétrer pour ajouter un moteur de recherche, sinon c'est Google Search qui sera votre moteur par défaut !
+Les navigateurs internet pré-installés sur CalyxOS et /e/OS sont des navigateurs basés sur Cromite (forks, avec une base Chromium dégooglisée), qu'il sera nécessaire de paramétrer pour ajouter un moteur de recherche, sinon c'est Google Search qui sera votre moteur par défaut !
 
 Ici nous avons choisi [https://searx.gnous.eu/](https://searx.gnous.eu/)
 
