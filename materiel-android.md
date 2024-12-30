@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Android
 description: Où trouver du matériel Android - vous trouverez ici des solutions...
 published: true
-date: 2024-12-30T12:15:21.314Z
+date: 2024-12-30T12:20:01.372Z
 tags: android, materiel
 editor: markdown
 dateCreated: 2023-02-14T11:18:41.344Z
@@ -20,11 +20,11 @@ Voilà pourquoi certaines entreprises sélectionnent du matériel (qu'ils vont j
 
 - [Ekimia](https://ekimia.fr/produit/oneplus-5t-eos/) : Téléphones reconditionnés  sous /e/OS-Android 13 T :
 
-| Modèle | [One Plus 6](https://ekimia.fr/produit/oneplus6/) |  [One Plus 9 ](https://ekimia.fr/produit/oneplus9)  | [Google Pixel 5](https://ekimia.fr/produit/pixel5)  |
+| Modèle | [One Plus 7T](https://ekimia.fr/produit/oneplus7t/) |  [One Plus 9 ](https://ekimia.fr/produit/oneplus9)  | [Google Pixel 5](https://ekimia.fr/produit/pixel5)  |
 |---|---|---|---|
-|Année de sortie | 2017 | 2020 | 2020 |
-|Tarif| 239 €  | 349 €  | 349 € |
-| | ![oneplus6.jpg](/images/oneplus6.jpg) | ![op9.png](/images/op9.png) | ![pixel5eos.png](/images/pixel5eos.png) | 
+|Année de sortie | 2019 | 2020 | 2020 |
+|Tarif| 198 €  | 349 €  | 349 € |
+| |  | ![op9.png](/images/op9.png) | ![pixel5eos.png](/images/pixel5eos.png) | 
 
 - [Iodé](https://iode.tech/) : Téléphones reconditionnés sous IodeOS :
      - **[Samsung S9 (2018)](https://iode.tech/shop/samsung-galaxy-s9-bundle-en/)** : 253€  
