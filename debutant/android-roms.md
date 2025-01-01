@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2025-01-01T16:48:14.441Z
+date: 2025-01-01T16:53:39.918Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -182,8 +182,8 @@ Voici les ROMs alternatives du marché que nous recommandons pour ceux qui ne so
 
 | Nom | Modèles supportés | Commentaires |
 |----------|----------|----------|----------|----------|----------|
-| /e/ OS | [227](https://doc.e.foundation/devices) | Distribution qui couvre une grande partie du reste des téléphones et qui convient aux débutants.<br>Offre une solution cloud eOS (1 Go) pour stocker ses courriels, notes, tâches, agenda, contacts.<br>**Pour l'installation, sur le modèle de votre téléphone, cliquez sur le lien "Install doc" et suivez scrupuleusement<br>les indications (utilisation uniquement d'un navigateur chromium, installation des drivers, etc.)** |
-| Calyx OS | [26](https://calyxos.org/docs/guide/device-support/) | Uniquement disponible sur les Google Pixels. Privilégiez des Google Pixels à partir du modèle 5.<br>**Rendez-vous [ici](https://calyxos.org/install/) pour l'installation. Suivez scrupuleusement les indications (utilisation uniquement d'un navigateur<br>chromium, installation des drivers, etc.)** |
+| /e/ OS | [227](https://doc.e.foundation/devices) | Distribution qui couvre une grande partie du reste des téléphones et qui convient aux débutants.<br>Offre une solution cloud eOS (1 Go)  gratuite et plus en payant pour stocker ses courriels, notes, tâches, agenda, contacts.<br>**Pour l'installation, sur le modèle de votre téléphone, cliquez sur le lien "Install doc" et suivez scrupuleusement<br>les indications (utilisation uniquement d'un navigateur chromium, installation des drivers, etc.)** |
+| Calyx OS | [26](https://calyxos.org/docs/guide/device-support/) | Disponible sur une selection de Google Pixel, de Fairphone et de Motorola<br>**Rendez-vous [ici](https://calyxos.org/install/) pour l'installation. Suivez scrupuleusement les indications (utilisation uniquement d'un navigateur<br>chromium, installation des drivers, etc.)** |
 | Graphene OS | [21](https://grapheneos.org/faq#supported-devices) | Uniquement disponible sur les Google Pixels. Privilégiez des Google Pixels à partir du modèle 5.<br>**Rendez-vous [ici](https://grapheneos.org/install/web) pour l'installation. Suivez scrupuleusement les indications (utilisation uniquement d'un navigateur<br>chromium, installation des drivers, etc.)** |
 {.dense}
 
