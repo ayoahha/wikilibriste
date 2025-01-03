@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2025-01-01T16:53:39.918Z
+date: 2025-01-03T22:47:42.345Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -51,10 +51,10 @@ A noter que les tests présentés dans cette publication ont été réalisés su
 Depuis un smartphone "conventionnel" du commerce qui est "google-isé" -hors OS Android libre donc- les bips se produiraient en dehors du navigateur, à l'ouverture ou l'utilisation d'applications téléchargées depuis le Playstore, et qui incluent des pisteurs type Google Analytics. Les bips auraient lieu non-stop, étant donné qu'un Gmail est lié au système sur de tels téléphones. Il serait d'ailleurs intéressant de réaliser le test avec un smartphone dé-googlisé pour constater l'écart (on peut s'attendre à un écart d'au moins 80 à 90%, les 10 à 20% reposant sur les quelques incontournables de Big Brother, ou l'appel à une API Google via Maps ou autre).
 
 **Êtes-vous localisés par votre smartphone ?**
-[3 milliards de smartphone localisés en temps réel](https://vienumeriqueprivee.fr/3-milliards-de-smartphones-localises-en-temps-reel-et-le-votre/)
+[3 milliards de smartphones localisés en temps réel](https://vienumeriqueprivee.fr/3-milliards-de-smartphones-localises-en-temps-reel-et-le-votre/)
 
 **Et dans ma voiture ?**
-[Véhicule connectés et collecte de données](https://vienumeriqueprivee.fr/vehicules-connectes-et-collecte-de-donnees-personnelles/)
+[Véhicules connectés et collecte de données personnelles](https://vienumeriqueprivee.fr/vehicules-connectes-et-collecte-de-donnees-personnelles/)
 
 **Qu'est ce qu'un site web peut collecter sur vous ?**
 - Pour faire le test sur votre [navigateur internet](https://coveryourtracks.eff.org/)
@@ -123,10 +123,10 @@ Installer une distribution alternative ou custom ROM sur son ordiphone a bien de
 Malheureusement, l'utilisation de ROM alternatives a aussi quelques inconvénients :
 
 -   Selon les appareils et le nombre de contributeurs, des bogues peuvent apparaître, surtout lorsque la ROM que vous utilisez n'est pas supportée officiellement. Ce n'est cependant pas une généralité.
--   Lors de l'installation d'une distribution alternative, il faut déverrouiller le "bootloader", ce qui implique de déverouiller le modèle de sécurité, et sur un grand nombre de téléphones, il n'est pas possible de le re-verrouiller sans la ROM d'origine ("stock ROM" en anglais).
--   Enfin, certaines applications, principalement celles des banques peuvent détecter la présence d'un système alternatif, et refuser de fonctionner correctement. Il existe néanmoins des parades (microG, composant Play Services mis en "bac à sable", Magisk par exemple).
+-   Lors de l'installation d'une distribution alternative, il faut déverrouiller le "bootloader", ce qui implique de déverrouiller le modèle de sécurité, et sur un grand nombre de téléphones, il n'est pas possible de le re-verrouiller sans la ROM d'origine ("stock ROM" en anglais).
+-   Enfin, certaines applications, principalement celles des banques, peuvent détecter la présence d'un système alternatif, et refuser de fonctionner correctement. Il existe néanmoins des parades (MicroG, composant Play Services mis en "bac à sable", Magisk par exemple).
 
-### Déverouiller son Bootloader
+### Déverrouiller son Bootloader
 
 > **L'article dédié à ce sujet se trouve ici : déverrouiller son [bootloader](/tutoriels-android/bootloader-unlock).**
 {.is-info}
@@ -170,15 +170,15 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 > **Nous avons scindé en différents onglets : 
 > -- L'onglet "Pour débuter" pour les débutants et nouveaux venus dans le monde Android qui ne souhaitent pas creuser le sujet.
 > -- L'onglet "Aller plus loin" pour ceux qui souhaitent apprendre le monde Android et une liste de ROM correspondant aux profils moins débutants.
-> -- L'onglet "Pour les initiés" afin d'obtenir des informations complémentaires et une liste de ROMs correspondant aux profils initiés.**
+> -- L'onglet "Pour les initiés" afin d'obtenir des informations complémentaires et une liste de ROM correspondant aux profils initiés.**
 {.is-warning}
 
 # Tabs {.tabset}
 ## Pour débuter
 
-### ROMs conseillées
+### ROM conseillées
 
-Voici les ROMs alternatives du marché que nous recommandons pour ceux qui ne souhaitent pas creuser plus avant le sujet :
+Voici les ROM alternatives du marché que nous recommandons pour ceux qui ne souhaitent pas creuser plus avant le sujet :
 
 | Nom | Modèles supportés | Commentaires |
 |----------|----------|----------|----------|----------|----------|
@@ -218,9 +218,9 @@ Plusieurs surcouches sont ajoutées par Google à la ROM de base (AOSP) :
 
 - _Surcouche NTP_ (Network Time Protocol) : serveurs de temps, remplacé aussi. Le serveur de temps permet la synchronisation des horloges de votre téléphone, ou ordinateur, avec une horloge de référence sur internet (et fait donc appel à des serveurs, qui peuvent eux aussi collecter quelques données personnelles).
 
-- _Surcouche des services de localisation_ : sur Google ce service passe par Google Maps et leurs serveurs. Sur CalyxOs par exemple ce sont les services de localisation de Mozilla et Nominatin (géo-codeur utilisé par OpenStreetMap).
+- _Surcouche des services de localisation_ : sur Google, ce service passe par Google Maps et leurs serveurs. Sur CalyxOs, par exemple, ce sont les services de localisation de Mozilla et Nominatin (géo-codeur utilisé par OpenStreetMap).
 
-- _Surcouche des Play Services_ : c'est un module (composés de plusieurs fonctions) qui permet d'accéder aux [API](/glossaire#api) de Google. Le Play Services de Google fournit à l'API l'IMEI du téléphone (en somme un numéro de série), le numéro de téléphone de l'utilisateur, ainsi que son compte "Gmail" afin d'accéder ensuite à une application Google.
+- _Surcouche des Play Services_ : c'est un module (composé de plusieurs fonctions) qui permet d'accéder aux [API](/glossaire#api) de Google. Le Play Services de Google fournit à l'API l'IMEI du téléphone (en somme un numéro de série), le numéro de téléphone de l'utilisateur, ainsi que son compte "Gmail" afin d'accéder ensuite à une application Google.
     - Afin de contourner ce problème, un projet a été lancé, [MicroG](https://microg.org/) : c'est une réécriture du composant Play Services, open-source et libre, qui retire la plupart des permissions (on passe de 256 à 36 permissions) dont une qui s'appelle _Signature Spoofing_ (usurpation de signature de Google) : c'est une technique qui permettra de fournir aux API de Google très peu d'informations personnelles via un identifiant alphanumérique unique anonymisé, permettant d'accéder aux services de Google sans livrer les données personnelles ci-haut mentionnées (IMEI, numéro de téléphone, Gmail...).
 
 - _Surcouches applicatives_ : Google ajoute leurs propres applications (avec des droits suffisamment importants pour qu'on ne puisse pas les désinstaller) : centre logiciel Play Store, navigateur Chrome... Et ils imposent d'avoir une adresse Gmail pour télécharger leurs applications depuis le Play Store; voici comment ils verrouillent leur système.
@@ -231,28 +231,28 @@ Plusieurs surcouches sont ajoutées par Google à la ROM de base (AOSP) :
 
 Les fonctionnalités, applications et services sont remplacés par des équivalents open source et/ou libres. 
 - Par exemple : le service de localisation Google Maps sera remplacé par les services de localisation Mozilla, basés sur OpenStreetMap - service open source, libre et communautaire ; 
-- Par exemple : A la place du Google Play Store, nous installerons 1 ou 2 magasins d'applications comme Aurora Store, F-droid et/ou Droid-ify.
+- Par exemple : à la place du Google Play Store, nous installerons 1 ou 2 magasins d'applications comme Aurora Store, F-droid et/ou Droid-ify.
 {.grid-list}
 
-Sur la majorité des ROMs dégooglisées, on peut nativement bloquer les connexions entrantes et sortantes des applications
+Sur la majorité des ROM dégooglisées, on peut nativement bloquer les connexions entrantes et sortantes des applications.
 - Par exemple : pour une application de traitement d'image comme Google Cam, celle-ci peut être installée sur le téléphone et ses connexions entrantes et sortantes peuvent être bloquées (via une application Pare-feu), ou même depuis les applications elles-mêmes, grâce à un durcissement du modèle de vie privée depuis le système (GrapheneOS)
 {.grid-list}
 
 Pour 90% des applications, le téléphone dégooglisé pourra être utilisé comme un téléphone du commerce normal. 
 
-> Néanmoins, il est à noter que quelques difficultés pourront apparaitre sur certaines applications. Par exemple : difficile avec certaines applications bancaires qui semblent dépendre des Google Services
+> Néanmoins, il est à noter que quelques difficultés pourront apparaître sur certaines applications. Par exemple : difficile avec certaines applications bancaires qui semblent dépendre des Google Services
 {.is-warning}
 
-### ROMs conseillées
+### ROM conseillées
 
-Voici les ROMs alternatives du marché que nous recommandons pour ceux qui peuvent creuser un peu plus le sujet :
+Voici les ROM alternatives du marché que nous recommandons pour ceux qui peuvent creuser un peu plus le sujet :
 
 | Nom | Liens | Niveau conseillé | Modèles supportés | Vend des<br>téléphones<br>configurés? |  Commentaires |
 |----------|----------|----------|----------|----------|----------|
-| Graphene OS | [Site Officiel](https://grapheneos.org/) | Intermédiaire | [21](https://grapheneos.org/faq#supported-devices) | Non | Distribution la plus axée sur la sécurité et la vie privée, notamment au niveau des composants de communication,<br>mais n'est disponible que pour les Google Pixels.<br>Bootloader re-verrouillable afin d'assurer le schéma de sécurité complet.<br>**Rendez-vous [ici](https://grapheneos.org/install/web) pour l'installation. Suivez scrupuleusement les indications (utilisation uniquement d'un navigateur<br>chromium, installation des drivers, etc.)** |
-| Calyx OS | [Site Officiel](https://calyxos.org/) | Intermédiaire | [26](https://calyxos.org/docs/guide/device-support/) | Non | Distribution concurrente de Graphene OS, mais s'articulant autour de MicroG afin d'avoir accès aux services Google<br>d'authentification ou de s'en passer et d'avoir une version Vanilla. Disponible sur les Pixels et quelques autres téléphones.<br>Bootloader re-verrouillable uniquement sur les Pixels.<br>**Rendez-vous [ici](https://calyxos.org/install/) pour l'installation. Suivez scrupuleusement les indications (utilisation uniquement d'un navigateur<br>chromium, installation des drivers, etc.)** |
-| /e/ OS | [Site Officiel](https://e.foundation/) | Débutant | [227](https://doc.e.foundation/devices) | Oui | Distribution axée vie privée basée sur Lineage OS. Prise en main rapide, convient aux débutants. Offre une solution cloud<br>eOS (1 Go) pour stocker ses courriels, notes, tâches, agenda, contacts. Un store AppLounge réunit toutes les applis<br>de F-Droid et l'aternative au Google Play Services - microG - est inclus. L'anti pisteur "Advanced Privacy" permet de<br>bloquer les trackers, masquer la localisation et l'adresse IP. Il est possible de changer son DNS et toutes les<br>communications vers Google ont été retirées (NTP, vérifications de connectivité, géolocalisation). Très sobre en utilisation de la batterie.<br> Bootloader re-verrouillable sur certains téléphones.<br>**Pour l'installation, sur le modèle de votre téléphone, cliquez sur le lien "Install doc" et suivez scrupuleusement<br>les indications (utilisation uniquement d'un navigateur chromium, installation des drivers, etc.)** |
-| Iodé OS | [Site Officiel](https://iode.tech/) | Débutant | 30+ | Oui | Made in France (Toulouse !), cette distribution est également basée sur Lineage OS et axée vie privée, et intègre MicroG,<br>~~même si pour l'instant pas entièrement Open Source~~<br><span class="red-text">Iodé OS vient de libérer entièrement sa ROM : <a href="https://community.iode.tech/t/iodeos-is-open-source/888">Iodé OS passe pleinement open-source</a></span><br>Ils possèdent également un magasin en ligne afin d'acheter directement les téléphones avec leur ROM installée.<br>**Pour l'installation, rendez-vous [ici](https://iode.tech/installation/) et sélectionnez le modèle de votre téléphone, puis suivez scrupuleusement<br>les indications.** |
+| Graphene OS | [Site Officiel](https://grapheneos.org/) | Intermédiaire | [21](https://grapheneos.org/faq#supported-devices) | Non | Distribution la plus axée sur la sécurité et la vie privée, notamment au niveau des composants de communication,<br>mais n'est disponible que pour les Google Pixels.<br>Bootloader re-verrouillable afin d'assurer le schéma de sécurité complet.<br>**Rendez-vous [ici](https://grapheneos.org/install/web) pour l'installation. Suivez scrupuleusement les indications (utilisation uniquement d'un navigateur<br>Chromium, installation des drivers, etc.)** |
+| Calyx OS | [Site Officiel](https://calyxos.org/) | Intermédiaire | [26](https://calyxos.org/docs/guide/device-support/) | Non | Distribution concurrente de Graphene OS, mais s'articulant autour de MicroG afin d'avoir accès aux services Google<br>d'authentification ou de s'en passer et d'avoir une version Vanilla. Disponible sur les Pixels et quelques autres téléphones.<br>Bootloader re-verrouillable uniquement sur les Pixels.<br>**Rendez-vous [ici](https://calyxos.org/install/) pour l'installation. Suivez scrupuleusement les indications (utilisation uniquement d'un navigateur<br>Chromium, installation des drivers, etc.)** |
+| /e/ OS | [Site Officiel](https://e.foundation/) | Débutant | [227](https://doc.e.foundation/devices) | Oui | Distribution axée vie privée basée sur Lineage OS. Prise en main rapide, convient aux débutants. Offre une solution cloud<br>/e/OS (1 Go) pour stocker ses courriels, notes, tâches, agenda, contacts. Un store AppLounge réunit toutes les applis<br>de F-Droid et l'aternative au Google Play Services - microG - est inclus. L'anti-pisteur "Advanced Privacy" permet de<br>bloquer les trackers, masquer la localisation et l'adresse IP. Il est possible de changer son DNS et toutes les<br>communications vers Google ont été retirées (NTP, vérifications de connectivité, géolocalisation). Très sobre en utilisation de la batterie.<br> Bootloader re-verrouillable sur certains téléphones.<br>**Pour l'installation, sur le modèle de votre téléphone, cliquez sur le lien "Install doc" et suivez scrupuleusement<br>les indications (utilisation uniquement d'un navigateur Chromium, installation des drivers, etc.)** |
+| Iodé OS | [Site Officiel](https://iode.tech/) | Débutant | 30+ | Oui | Made in France (Toulouse !), cette distribution est également basée sur Lineage OS et axée vie privée, et intègre MicroG,<br>~~même si pour l'instant pas entièrement Open Source~~<br><span class="red-text">Iodé OS vient de libérer entièrement sa ROM : <a href="https://community.iode.tech/t/iodeos-is-open-source/888">Iodé OS passe pleinement open-source</a></span><br>Elle possède également un magasin en ligne afin d'acheter directement les téléphones avec leur ROM installée.<br>**Pour l'installation, rendez-vous [ici](https://iode.tech/installation/) et sélectionnez le modèle de votre téléphone, puis suivez scrupuleusement<br>les indications.** |
 {.dense}
 
 > Si vous souhaitez directement vous procurer des téléphones pré-configurés, rendez-vous sur notre page [dédiée](/tutoriels/materiel-android) au matériel Android.
@@ -262,44 +262,44 @@ Voici les ROMs alternatives du marché que nous recommandons pour ceux qui peuve
 
 *Pour rappel, afin d'installer une distribution alternative sur votre téléphone vous aurez besoin de le [déverrouiller](/tutoriels-android/bootloader-unlock) : cela permet d'installer un autre système que celui actuellement présent.*
 
-A noter que si votre téléphone est livré avec une ROM dite « CUSTOM » (Murena /e/, Calyx, Graphene, Iodé, etc.) alors le bootloader est *potentiellement* débloqué (ce n'est pas vrai dans tous les cas !). Si vous êtes sur une ROM dite « STOCK » donc du fabriquant (Android + Surcouche du fabricant) alors ces derniers verrouillent le bootloader.
+A noter que si votre téléphone est livré avec une ROM dite « CUSTOM » (Murena /e/, Calyx, Graphene, Iodé, etc.) alors le bootloader est *potentiellement* débloqué (ce n'est pas vrai dans tous les cas !). Si vous êtes sur une ROM dite « STOCK » donc du fabriquant (Android + Surcouche du fabricant), alors ces derniers verrouillent le bootloader.
 
 Ensuite :
--   Ne téléchargez les ROMs uniquement que depuis les sources officielles. En effet, certaines personnes malveillantes peuvent inclure des malwares ou des portes dérobées sans que ceux-ci soient facilement détectables. Ils peuvent également empêcher les téléphones de se déverrouiller à nouveau : impossible alors de changer de ROM. En résumé, il est important de toujours télécharger depuis une source officielle une ROM reconnue.
+-   Ne téléchargez les ROM uniquement depuis les sources officielles. En effet, certaines personnes malveillantes peuvent inclure des malwares ou des portes dérobées sans que ceux-ci soient facilement détectables. Ils peuvent également empêcher les téléphones de se déverrouiller à nouveau : impossible alors de changer de ROM. En résumé, il est important de toujours télécharger depuis une source officielle une ROM reconnue.
 -   Si vous prévoyez d'acheter un téléphone du commerce pour installer une distribution alternative, soyez sûrs qu'il est compatible ! En effet, plusieurs problèmes peuvent se poser :
     -   La marque peut empêcher de déverrouillage des téléphones. C'est le cas de Huawei.
-    -   Le code source permettant de faire fonctionner le matériel peut ne pas avoir été rendu public : Il est dans ce cas très peu probable que des distributions adaptées aux téléphones soient disponibles. Il reste dans ce cas la possibilité d'utiliser des GSI (pour Global System Image), une version de la distribution souhaitée censée fonctionner sur l'ensemble des téléphones récents (&gt; 2018). Des bogues peuvent apparaître cependant, le système GSI n'ayant pas été conçu spécialement pour l'appareil.
+    -   Le code source permettant de faire fonctionner le matériel peut ne pas avoir été rendu public : il est, dans ce cas, très peu probable que des distributions adaptées aux téléphones soient disponibles. Il reste dans ce cas la possibilité d'utiliser des GSI (pour Global System Image), une version de la distribution souhaitée censée fonctionner sur l'ensemble des téléphones récents (&gt; 2018). Des bogues peuvent apparaître cependant, le système GSI n'ayant pas été conçu spécialement pour l'appareil.
     -   Si vous avez le choix, préférez les téléphones avec processeur Qualcomm (Snapdragon) aux processeurs MediaTek car ces derniers ne publient pas systématiquement les sources.
 
 
 ## Pour les initiés
 
-### ROMs conseillées
+### ROM conseillées
 
-Voici les ROMs alternatives du marché que nous recommandons pour ceux qui peuvent creuser un peu plus le sujet :
+Voici les ROM alternatives du marché que nous recommandons pour ceux qui peuvent creuser un peu plus le sujet :
 
 | Nom | Liens | Niveau conseillé | Modèles supportés | Vend des<br>téléphones<br>configurés? |  Commentaires |
 |----------|----------|----------|----------|----------|----------|
-| Graphene OS | [Site Officiel](https://grapheneos.org/) | Intermédiaire | [21](https://grapheneos.org/faq#supported-devices) <br> Google Pixel <br> seulement | Non | Distribution la plus axée sur la sécurité et la vie privée, noyau et applications de base durcis (hardened, voir Glossaire) notamment<br>au niveau des composants de communication, mais n'est disponible que pour les Google Pixels. Bootloader re-verrouillable afin<br>d'assurer le schéma de sécurité complet. |
+| Graphene OS | [Site Officiel](https://grapheneos.org/) | Intermédiaire | [21](https://grapheneos.org/faq#supported-devices) <br> Google Pixel <br> seulement | Non | Distribution la plus axée sur la sécurité et la vie privée, noyau et applications de base durcis (hardened, voir [Glossaire](https://www.wikilibriste.fr/glossaire#Hardening)) notamment<br>au niveau des composants de communication, mais n'est disponible que pour les Google Pixels. Bootloader re-verrouillable afin<br>d'assurer le schéma de sécurité complet. |
 | Calyx OS | [Site Officiel](https://calyxos.org/) | Intermédiaire | [26](https://calyxos.org/docs/guide/device-support/) | Non | Distribution concurrente de Graphene OS, mais s'articulant autour de l'aspect logiciel renforcé (DNS etc.), le noyau étant une base<br>AOSP. Il est possible d'ajouter MicroG afin d'avoir accès aux services Google d'authentification ou de s'en passer et d'avoir une version<br>Vanilla. Disponible sur les Pixels et quelques autres téléphones. Bootloader re-verrouillable uniquement sur les Pixels. |
-| /e/ OS | [Site Officiel](https://e.foundation/) | Débutant | [227](https://doc.e.foundation/devices) | Oui | Distribution axée vie privée basée sur Lineage OS. Prise en main rapide, convient aux débutants. Offre une solution cloud eOS (1 Go)<br>pour stocker ses courriels, notes, tâches, agenda, contacts. Un store AppLounge réunit toutes les applis de F-Droid et l'aternative au<br>Google Play - microG - est inclus. L'anti pisteur "Advanced Privacy" permet de bloquer les trackers, masquer la localisation et l'adresse IP.<br>Il est possible de changer son DNS et toutes les communications vers Google ont été retirées (NTP, vérifications de connectivité,<br>géolocalisation). Très sobre en utilisation de la batterie. Bootloader re-verrouillable sur certains téléphones. |
-| Iodé OS | [Site Officiel](https://iode.tech/) | Débutant | [47](https://iode.tech/installation/) | Oui | Made in France (Toulouse !), cette distribution est également basée sur Lineage OS et axée vie privée, et intègre MicroG,<br>~~même si pour l'instant pas entièrement Open Source~~<br><span class="red-text">Iodé OS vient de libérer entièrement sa ROM : <a href="https://community.iode.tech/t/iodeos-is-open-source/888">Iodé OS passe pleinement open-source</a></span><br>Ils possèdent également un magasin en ligne afin d'acheter directement les téléphones avec leur ROM installée. |
-| ~~Divest OS~~ | [Site Officiel](https://divestos.org) | Intermédiaire | 150 | Non | <span class="red-text">Le développement de cette ROM a été [mise à l'arrêt fin 2024](https://divestos.org/pages/news#end), elle n'est donc plus conseillée car actuellement sans avenir, <br>vous pouvez vous tourner vers CalyxOS, GrapheneOS pour les ROM orientées sécurités et vers /e/OS et IodéOS pour les ROMs orientéees <br>vie privée et enfin si votre téléphone n'est compatible avec aucune de ces ROM, vers LineageoS pour les mises à jours régulières</span><br>Distribution axée sécurité. Inclut de nombreux patchs de sécurité supplémentaires, un contrôle plus fin des permissions<br>et des accès aux capteurs du téléphone. Ne prend pas en charge microG et alternatives. Re-verrouille le bootloader sur les modèles<br>compatibles. |
+| /e/ OS | [Site Officiel](https://e.foundation/) | Débutant | [227](https://doc.e.foundation/devices) | Oui | Distribution axée vie privée basée sur Lineage OS. Prise en main rapide, convient aux débutants. Offre une solution cloud /e/OS (1 Go)<br>pour stocker ses courriels, notes, tâches, agenda, contacts. Un store AppLounge réunit toutes les applis de F-Droid et l'aternative au<br>Google Play - microG - est inclus. L'anti-pisteur "Advanced Privacy" permet de bloquer les trackers, masquer la localisation et l'adresse IP.<br>Il est possible de changer son DNS et toutes les communications vers Google ont été retirées (NTP, vérifications de connectivité,<br>géolocalisation). Très sobre en utilisation de la batterie. Bootloader re-verrouillable sur certains téléphones. |
+| Iodé OS | [Site Officiel](https://iode.tech/) | Débutant | [47](https://iode.tech/installation/) | Oui | Made in France (Toulouse !), cette distribution est également basée sur Lineage OS et axée vie privée, et intègre MicroG,<br>~~même si pour l'instant pas entièrement Open Source~~<br><span class="red-text">Iodé OS vient de libérer entièrement sa ROM : <a href="https://community.iode.tech/t/iodeos-is-open-source/888">Iodé OS passe pleinement open-source</a></span><br>Elle possède également un magasin en ligne afin d'acheter directement les téléphones avec leur ROM installée. |
+| ~~Divest OS~~ | [Site Officiel](https://divestos.org) | Intermédiaire | 150 | Non | <span class="red-text">Le développement de cette ROM a été [mise à l'arrêt fin 2024](https://divestos.org/pages/news#end), elle n'est donc plus conseillée car actuellement sans avenir, <br>vous pouvez vous tourner vers CalyxOS, GrapheneOS pour les ROM orientées sécurité et vers /e/OS et IodéOS pour les ROM orientées <br>vie privée et enfin si votre téléphone n'est compatible avec aucune de ces ROM, vers LineageoS pour les mises à jour régulières.</span><br>Distribution axée sécurité. Inclut de nombreux patchs de sécurité supplémentaires, un contrôle plus fin des permissions<br>et des accès aux capteurs du téléphone. Ne prend pas en charge MicroG et alternatives. Re-verrouille le bootloader sur les modèles<br>compatibles. |
 {.dense}
 
 
 > Si vous souhaitez directement vous procurer des téléphones pré-configurés, rendez-vous sur notre page [dédiée](/materiel-android) au matériel Android.
 {.is-info}
 
-Vous vous apercevez donc que la plupart de ces ROMs ne couvrent absolument pas tous les téléphones du marché. Il sera donc nécessaire (1) de changer de téléphone, si vous le pouvez, ou (2) de garder votre téléphone et de tenter une installation d'une des 2 ROMs suivantes :
+Vous vous apercevez donc que la plupart de ces ROM ne couvrent absolument pas tous les téléphones du marché. Il sera donc nécessaire (1) de changer de téléphone, si vous le pouvez, ou (2) de garder votre téléphone et de tenter une installation d'une des 2 ROM suivantes :
 
 | Nom | Liens | Niveau conseillé | Modèles supportés | Vend des<br>téléphones<br> configurés? |  Commentaires |
 |----------|----------|----------|----------|----------|----------|
-| Lineage OS | [Site Officiel](https://lineageos.org/) | Débutant | 175+ | Non | Lineage OS (LOS) est une distribution basée sur AOSP (Android Open Source Project) et est la base de toutes les distributions<br>proposées ici. Elle n'est pas spécifiquement développé pour la sécurité, mais possède 2 versions : Vanilla qui supprime toutes<br>les applications propriétaires (et donc Google) et une seconde avec les applications de base Google. |
-| Dot OS | [Site Officiel](https://www.droidontime.com/) | Débutant | 450 | Non | N'est pas orientée vie privée ou sécurité. Basée sur AOSP. Contient des logiciels propriétaires. dotOS est listé ici, car supporte de<br>nombreux modèles, et peut être un bon début pour libérer un téléphone non pris en charge par les distributions citées plus haut. |
+| Lineage OS | [Site Officiel](https://lineageos.org/) | Débutant | 175+ | Non | Lineage OS (LOS) est une distribution basée sur AOSP (Android Open Source Project) et est la base de toutes les distributions<br>proposées ici. Elle n'est pas spécifiquement développée pour la sécurité, mais possède 2 versions : Vanilla qui supprime toutes<br>les applications propriétaires (et donc Google) et une seconde avec les applications de base Google. |
+| Dot OS | [Site Officiel](https://www.droidontime.com/) | Débutant | 450 | Non | DroidOnTime (Dot Os) n'est pas orientée vie privée ou sécurité. Basée sur AOSP. Contient des logiciels propriétaires. Dot OS est listée ici, car supporte de<br>nombreux modèles, et peut être un bon début pour libérer un téléphone non pris en charge par les distributions citées plus haut. |
 {.dense}
 
-> Bien entendu, nous ne recommandons pas vraiment l'installation de Lineage OS ou dot OS dans le cas où votre modèle de menaces imposerait une **sécurité** robuste (de même pour l'anonymat bien entendu !). En revanche, si vos besoins concernent en majorité la gestion plus fine de votre vie privée, vous pourrez songer à adopter LineageOS ou Dot.
+> Bien entendu, nous ne recommandons pas vraiment l'installation de Lineage OS ou Dot OS dans le cas où votre modèle de menaces imposerait une **sécurité** robuste (de même pour l'anonymat bien entendu !). En revanche, si vos besoins concernent en majorité la gestion plus fine de votre vie privée, vous pourrez songer à adopter Lineage OS ou Dot OS.
 {.is-warning}
 
 > Note : Lorsqu'un téléphone n'est éligible à aucun système Android alternatif, ni aucune GSI, il reste possible de le rendre plus respectueux de votre vie privée : 
@@ -314,10 +314,10 @@ Vous vous apercevez donc que la plupart de ces ROMs ne couvrent absolument pas t
 A noter que si votre téléphone est livré avec une ROM dite « CUSTOM » (Murena /e/, Calyx, Graphene, Iodé, etc.) alors le bootloader est *potentiellement* débloqué (ce n'est pas vrai dans tous les cas !). Si vous êtes sur une ROM dite « STOCK » donc du fabriquant (Android + Surcouche du fabricant) alors ces derniers verrouillent le bootloader.
 
 Ensuite :
--   Ne téléchargez les ROMs uniquement que depuis les sources officielles. En effet, certaines personnes malveillantes peuvent inclure des malwares ou des portes dérobées sans que ceux-ci soient facilement détectables. Ils peuvent également empêcher les téléphones de se déverrouiller à nouveau : impossible alors de changer de ROM. En résumé, il est important de toujours télécharger depuis une source officielle une ROM reconnue.
+-   Ne téléchargez les ROM uniquement que depuis les sources officielles. En effet, certaines personnes malveillantes peuvent inclure des malwares ou des portes dérobées sans que ceux-ci soient facilement détectables. Ils peuvent également empêcher les téléphones de se déverrouiller à nouveau : impossible alors de changer de ROM. En résumé, il est important de toujours télécharger depuis une source officielle une ROM reconnue.
 -   Si vous prévoyez d'acheter un téléphone du commerce pour installer une distribution alternative, soyez sûrs qu'il est compatible ! En effet, plusieurs problèmes peuvent se poser :
     -   La marque peut empêcher de déverrouillage des téléphones. C'est le cas de Huawei.
-    -   Le code source permettant de faire fonctionner le matériel peut ne pas avoir été rendu public : Il est dans ce cas très peu probable que des distributions adaptées aux téléphones soient disponibles. Il reste dans ce cas la possibilité d'utiliser des GSI (pour Global System Image), une version de la distribution souhaitée censée fonctionner sur l'ensemble des téléphones récents (&gt; 2018). Des bogues peuvent apparaître cependant, le système GSI n'ayant pas été conçu spécialement pour l'appareil.
+    -   Le code source permettant de faire fonctionner le matériel peut ne pas avoir été rendu public : il est, dans ce cas, très peu probable que des distributions adaptées aux téléphones soient disponibles. Il reste dans ce cas la possibilité d'utiliser des GSI (pour Global System Image), une version de la distribution souhaitée censée fonctionner sur l'ensemble des téléphones récents (&gt; 2018). Des bogues peuvent apparaître cependant, le système GSI n'ayant pas été conçu spécialement pour l'appareil.
     -   Si vous avez le choix, préférez les téléphones avec processeur Qualcomm (Snapdragon) aux processeurs MediaTek car ces derniers ne publient pas systématiquement les sources.
 
 
@@ -691,15 +691,15 @@ Paramétrage de UntrackMe :
 *Une fois installée*
 - Lancez l'application
 - Cliquez sur le bouton « Configurer »
-- Une fenêtre Android s'ouvre. Cliquez sur « Ouvrir par défaut »
+- Une fenêtre Android s'ouvre ;cliquez sur « Ouvrir par défaut »
 - Cliquez sur « + Ajouter un lien »
-- Sélectionnez (cochez) toutes les URLs qui devront être gérées par UntrackMe
-*Si vous remarquez des URLs que vous ne souhaitez faire transiter par l'application, vous pouvez très bien ne pas les cocher. Par exemple de notre côté, nous laissons décoché "t.co" car nous souhaitons que ce soit notre application Telegram qui gère ce type d'URL et non UntrackMe.*
+- Sélectionnez (cochez) toutes les URL qui devront être gérées par UntrackMe
+*Si vous remarquez des URL que vous ne souhaitez faire transiter par l'application, vous pouvez très bien ne pas les cocher. Par exemple de notre côté, nous laissons décoché "t.co" car nous souhaitons que ce soit notre application Telegram qui gère ce type d'URL et non UntrackMe.*
 - Cliquez enfin sur « Ajouter »
 
 *Puis quittez tout.*
 
-UntrackMe gèrera maintenant toutes les URLs et vous renverra vers le bon service le cas échéant.
+UntrackMe gèrera maintenant toutes les URL et vous renverra vers le bon service le cas échéant.
 
 ##### YouTube Vs NewPipe (ou Invidious)
 
@@ -711,10 +711,10 @@ NewPipe est un client qui permet de visionner ces vidéos YouTube. Via cette app
 
 Trois versions existent :
 1.  *NewPipe* (classique)
-2.  *NewPipe x SponsorBlock* : fork de NewPipe permettant le blocage des publicités et autres passages de vidéos promotionnels
+2.  *NewPipe x SponsorBlock* : fork de NewPipe permettant le blocage des publicités et autres passages de vidéos promotionnelles
 3.  *NewPipe Legacy* : pour des anciens téléphones
 
-> Afin de ne pas diffuser des liens avec URLs Youtube, une simple manipulation est possible : nous remplaçons « https://www.youtube.com/ » par « https://yewtu.be/ » (qui est une instance Invidious). Exemple : <https://www.youtube.com/watch?v=5Yqu19JOP7I> devient <https://yewtu.be/watch?v=5Yqu19JOP7I>. Grâce à cette méthode, nous limiterons la collecte des données personnelles également de nos proches ou connaissances..
+> Afin de ne pas diffuser des liens avec URL Youtube, une simple manipulation est possible : nous remplaçons « https://www.youtube.com/ » par « https://yewtu.be/ » (qui est une instance Invidious). Exemple : <https://www.youtube.com/watch?v=5Yqu19JOP7I> devient <https://yewtu.be/watch?v=5Yqu19JOP7I>. Grâce à cette méthode, nous limiterons la collecte des données personnelles également de nos proches ou connaissances..
 {.is-info}
 
 ##### TTS (text-to-speech) eSpeak
