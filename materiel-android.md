@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Android
 description: Où trouver du matériel Android - vous trouverez ici des solutions...
 published: true
-date: 2024-12-30T12:20:01.372Z
+date: 2025-01-09T11:43:22.466Z
 tags: android, materiel
 editor: markdown
 dateCreated: 2023-02-14T11:18:41.344Z
@@ -132,7 +132,7 @@ Les Pixels implémentent convenablement la randomisation de l'adresse MAC, ainsi
 # Autres Magasins tiers
 
 - [Jolla Devices](https://buy.jolla-devices.com/) Smartphones reconditionnés sous Sony Sailfish OS.
-- [Private Phone Shop](https://privatephoneshop.com/) Smartphones avec soit LineageOS, soit GrapheneOS, soit CalyxOS.
+- [Private Phone Shop](https://privatephoneshop.com/) Smartphones avec soit LineageOS, soit IodéOS, soit CalyxOS.
 - [Nitrokey](https://www.nitrokey.com/fr) Smartphones et tablettes sous GrapheneOS.
 
 ---
