@@ -2,7 +2,7 @@
 title: Installer et Utiliser Yunohost
 description: Une solution pour l'auto-hébergement simplifiée...
 published: true
-date: 2024-02-14T23:08:14.513Z
+date: 2025-03-11T11:32:03.458Z
 tags: yunohost, hébergement
 editor: markdown
 dateCreated: 2023-03-07T11:14:36.633Z
@@ -41,13 +41,13 @@ Pour installer Yunohost, nous allons suivre ces étapes dans l'ordre :
 Yunohost peut s'installer sur la grande majorité des supports que nous trouvons autour de nous. Ce système est conçu pour ne pas demander trop de ressources pour fonctionner. Ainsi, si vous voulez donner une seconde vie à un vieil ordinateur, c'est tout à fait possible.
 
 **Voici le matériel supporté par Yunohost :**
-- [Sur RaspberryPi (zero, 1, 2, 3, 4)](https://yunohost.org/fr/install/hardware:rpi2plus)
-- [Sur autres cartes ARM](https://yunohost.org/fr/install/hardware:arm_sup)
-- [Sur Ordinateur](https://yunohost.org/fr/install/hardware:regular) (si vous récupérez un vieil ordinateur par exemple)
-- [En machine virtuelle](https://yunohost.org/fr/install/hardware:virtualbox)
-- [Sur un VPS](https://yunohost.org/fr/install/hardware:vps_debian)
+- [Sur RaspberryPi (3, 4, 5)](https://doc.yunohost.org/fr/install/hardware:rpi345)
+- [Sur autres cartes ARM](https://doc.yunohost.org/fr/install/hardware:arm)
+- [Sur Ordinateur](https://doc.yunohost.org/fr/install/hardware:regular) (si vous récupérez un vieil ordinateur par exemple)
+- [En machine virtuelle virtualbox](https://doc.yunohost.org/fr/install/hardware:virtualbox)
+- [Sur un VPS](https://doc.yunohost.org/fr/install/hardware:vps_debian)
 
-Vous aurez également besoin des **connecteurs nécessaires** (câble RJ45) **pour connecter à Internet** votre ordinateur/serveur/carte raspberry/machine virtuelle, et donc de la connexion Internet qui va avec (votre box dans la majorité des cas). Nous déconseillons fortement le Wi-Fi dans ce cas d'usage, celui-ci ajoutant certaines failles de sécurité (préfer donc une connexion via câble ethernet (RJ45) sur la machine hôte, que celle-ci soit réelle (hardware physique) ou virtuelle).
+Vous aurez également besoin des **connecteurs nécessaires** (câble RJ45) **pour connecter à Internet** votre ordinateur/serveur/carte raspberry/machine virtuelle, et donc de la connexion Internet qui va avec (votre box dans la majorité des cas). Nous déconseillons fortement le Wi-Fi dans ce cas d'usage, notamment pour des raisons de sécurité.
 
 Selon l'espace de stockage disponible sur le support sur lequel vous installez Yunohost, il pourrait être **judicieux d'opter pour l'ajout d'un disque dur externe** sur lequel les données des utilisateurs seront enregistrées.
 
@@ -59,17 +59,15 @@ Vous aurez également besoin d'un autre ordinateur quelconque pour le temps de l
 
   Pour commencer, nous allons devoir télécharger Yuhonost.
 
-  Dans notre cas, nous utilisons un Raspberry Pi4, nous téléchargeons donc l'image correspondante dans la section "[Télécharger l'image YunoHost](https://yunohost.org/fr/install/hardware:rpi2plus#telecharger-l-image-image)" de "RaspberryPi 2, 3 ou 4".
-  
-  Nous choisirons la version 64bits (à gauche) car nous utilisons un RPi version 3/4.
+  Dans notre cas, nous utilisons un Raspberry Pi4 (pour un 3 ou un 5, c'est exactement pareil), nous téléchargeons donc l'image correspondante dans la section "[Télécharger l'image YunoHost](https://doc.yunohost.org/fr/install/hardware:rpi345#telecharger-l-image-image)" de "Raspberry Pi 3, 4 ou 5".
 
-  Prenez le temps de vérifier la [somme de contrôle](/glossaire#checksum) de l'image Yunohost à la fin de son téléchargement. [ici](/intermediaire/chiffrement).
+  Prenez le temps de vérifier la [somme de contrôle](https://wikilibriste.fr/tutoriels/verifier-integrite) de l'image Yunohost à la fin de son téléchargement.
 
 2. **Écriture de l'image**
 
   Comme nous utilisons un RaspberryPi, le système d'exploitation doit être installé sur une carte MicroSD. Nous recommandons une carte MicroSD d'au moins 16Go, même si 8Go suffisent probablement.
 
-  Pour écrire l'image téléchargée précédemment, nous utilisons le logiciel Balena Etcher *(suivez [la page dédiée](/tutoriels/usb-bootable#balena-etcher), ou le [site officiel](https://yunohost.org/fr/install/hardware:rpi2plus#flasher-l-image-image-typ))* :
+  Pour écrire l'image téléchargée précédemment, nous utilisons le logiciel Balena Etcher *(suivez [la page dédiée](/tutoriels/usb-bootable#balena-etcher), ou le [site officiel](https://doc.yunohost.org/fr/install/hardware:rpi345#flasher-l-image-image-typ))* :
 
   Sur **Balena Etcher**, vous commencerez par **sélectionner le fichier Yunohost** téléchargé précédemment, puis par **sélectionner votre carte SD** (attention de ne pas vous tromper), puis **lancer l'écriture**.
 
@@ -79,13 +77,14 @@ Vous aurez également besoin d'un autre ordinateur quelconque pour le temps de l
 1. **Démarrer le RaspberryPi**
 
   Une fois l'écriture terminée :
-   - Insérer la carte micro SD dans le RaspberryPi,
-   - Brancher le câble (RJ45) sur le Raspberry et dans une prise de votre box,
-   - Terminer par brancher l'alimentation du RPi. Celui-ci devrait booter.
+   - Insérez la carte micro SD dans le RaspberryPi,
+   - Branchez le câble (RJ45) sur le Raspberry et dans une prise de votre box,
+   - *Terminez* par brancher l'alimentation du RPi. Celui-ci devrait booter (démarrer en français ; ).
+   - Attendez une minute ou deux que le système démarre complètement.
 
 2. **Se connecter à l'interface Yunohost**
 
-  Vous pouvez tenter de vous connecter avec cet [URL](/glossaire#URL) : [https://yunohost.local](https://yunohost.local).
+  Vous pouvez tenter de vous connecter avec cet URL : [https://yunohost.local](https://yunohost.local).
 
   Si cela fonctionne, passer à la section suivante : [Configurer le domaine](#configurer-le-domaine).
   
@@ -136,7 +135,7 @@ Yunohost propose 2 possibilités pour choisir son domaine :
  - Soit créer un domaine à cette étape ; il sera gratuit. En revanche, ce domaine est en réalité un sous-domaine d'un domaine appartenant à Yunohost.
  - Soit vous avez déjà un domaine, et il suffit de l'indiquer.
 
-Pour plus d'informations, consultez le [site officiel](https://yunohost.org/fr/install/hardware:rpi2plus#domaine-principal).
+Pour plus d'informations, consultez le [site officiel](https://doc.yunohost.org/fr/install/hardware:rpi345#domaine-principal).
 
 
 Dans notre cas, nous utilisons la première solution. **Pour cela, en suivant les indications de l'interface** :
@@ -151,13 +150,21 @@ Dans notre cas, nous utilisons la première solution. **Pour cela, en suivant le
 Enfin, nous pouvons cliquer sur ***Suivant***.
 
 
-# Mot de passe d'administration
+# Création de l'utilisateur administrateur
 
-<mark>**Très important**</mark> : **ce mot de passe est la barrière principale contre les attaques !** 
+Cette étape permet de créer un utilisateur avec des droits d'administration pour tous les services qui seront installés par la suite.
 
-Il est impératif que les mots de passe soient de la plus grande qualité : très long, avec le plus de caractères possibles (caractères spéciaux, chiffres, etc...).
+<mark>**Très important**</mark> : **le mot de passe de ce compte est donc la barrière principale contre les attaques !** 
 
-Le mieux serait d'utiliser un long mot de passe aléatoire que vous enregistrez dans un gestionnaire de mot de passe comme [Keepass](/tutoriels/keepass).
+Il est **impératif** que le mot de passe soit de la plus grande qualité : très long, avec le plus de caractères possibles (caractères spéciaux, chiffres, etc...). Le mieux serait d'utiliser un long mot de passe aléatoire que vous enregistrez dans un gestionnaire de mot de passe comme [**Keepass**](/tutoriels/keepass).
+
+**Pour créer l'utilisateur**, nous remplissons le formulaire (vous pouvez adapter les noms, mais nous suggérons de le nommer *administrateur*) :
+   - Nom de compte : administrateur
+   - Nom complet : Administrateur
+   - Mot de passe : *un mot de passe très robuste*
+   - Confirmation du mot de passe : *le même mot de passe très robuste*
+
+Puis, cliquez sur ***Suivant***.
 
 
 # Arrivée sur l'interface standard de Yunohost
@@ -165,24 +172,6 @@ Le mieux serait d'utiliser un long mot de passe aléatoire que vous enregistrez 
 Attendez que Yunohost finisse la post-installation. Puis vous arriverez sur l'interface suivante, qui est l'interface d'administration de Yunohost. C'est de là que tout se configure :
 
 ![Capture de l'interface de Yunohost](/images/bureau_yunohost.webp){.align-center}
-
-
-# Création du premier utilisateur (admin)
-
-Certaines applications Yunohost nécessitent qu'un utilisateur existe avant qu'elle ne soient installables (c'est le cas de Nextcloud). Il faut donc immédiatement créer cet utilisateur.
-
-Ce premier utilisateur a des droits d'administration pour tous les services qui seront installés par la suite. Il faut donc également que cet utilisateur ait un mot de passe très fort.
-
-**Pour créer l'utilisateur**, nous suivons l'interface :
-  1. Cliquer sur ***Utilisateurs***
-  2. Puis sur ***Nouvel utilisateur***
-  3. Remplir comme suit (vous pouvez adapter les noms, mais nous suggérons de le nommer *administrateur*) :
-   - Nom d'utilisateur : administrateur
-   - Nom complet : Prénom : Admin ; Nom de famille : Admin
-   - Courriel : *ne pas toucher*
-   - Mot de passe : *un mot de passe très robuste*
-  4. Cliquez sur ***Sauvegarder***
-
 
 # Ouvrir les ports nécessaires sur votre box
 
