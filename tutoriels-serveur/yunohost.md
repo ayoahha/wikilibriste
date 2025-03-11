@@ -2,7 +2,7 @@
 title: Installer et Utiliser Yunohost
 description: Une solution pour l'auto-hébergement simplifiée...
 published: true
-date: 2025-03-11T11:32:03.458Z
+date: 2025-03-11T11:40:07.950Z
 tags: yunohost, hébergement
 editor: markdown
 dateCreated: 2023-03-07T11:14:36.633Z
@@ -18,9 +18,7 @@ Pour installer Yunohost, nous allons suivre ces étapes dans l'ordre :
 
 3. Nous choisissons d'utiliser un sous-domaine de Yunohost par simplicité, en suivant les indications sur l'interface Yunohost.
 
-4. Nous définissons un mot de passe **robuste** pour l'utilisateur "*admin*" du système Yunohost.
-
-5. Nous créons le premier utilisateur en cliquant sur "Utilisateurs :arrow_forward: Nouvel utilisateur". Nous choisissons de le nommer "administrateur" car **il sera administrateur pour les services** installés ultérieurement. Cet utilisateur sera le premier de l'annuaire [LDAP](/glossaire#LDAP) de Yunohost.
+4. Nous définissons un administrateur (il sera administrateur pour les services installés ultérieurement) de yunohost en pensant à bien configurer un mot de passe **robuste**. Puis nous nous connectons à l'interface yunohost.
 
 6. Il faut vérifier au niveau de votre box que les ports 80 et 443 sont ouverts (ou que UPnP est activé et fonctionnel). Nous vous invitons à vous tourner vers les paramètres de votre [FAI](/glossaire#fai). Il faut que les ports 80 et 443 de la box soient redirigés vers les mêmes ports que ceux de votre machine Yunohost.
 
@@ -169,7 +167,11 @@ Puis, cliquez sur ***Suivant***.
 
 # Arrivée sur l'interface standard de Yunohost
 
-Attendez que Yunohost finisse la post-installation. Puis vous arriverez sur l'interface suivante, qui est l'interface d'administration de Yunohost. C'est de là que tout se configure :
+Attendez que Yunohost finisse la post-installation.
+
+Vous serez ensuite invité à vous connecter. Pour cela, le *Nom du compte* et le *Mot de passe* à utiliser sont ceux définit à l'étape précédente.
+
+Puis vous arriverez sur l'interface suivante, qui est l'interface d'administration de Yunohost. C'est de là que tout se configure :
 
 ![Capture de l'interface de Yunohost](/images/bureau_yunohost.webp){.align-center}
 
@@ -178,7 +180,7 @@ Attendez que Yunohost finisse la post-installation. Puis vous arriverez sur l'in
 Cette étape va se passer sur l'interface d'administration de votre box. Cette interface sera accessible sur l'un des liens suivants : [http://192.168.1.0](http://192.168.1.0), [http://192.168.1.1](http://192.168.1.1) ou [http://192.168.1.254](http://192.168.1.254).
 
 > *~~Étant donné que l'interface peut changer d'une box à une autre, d'une version à une autre, nous n'allons pas détailler avec précision ce point. Nous vous invitons à chercher sur Internet une page qui pourrait vous éclairer.~~*
-Les détails pour chaque opérateur sont en cours d'écriture.
+Les détails pour chaque opérateur sont en cours d'écriture. Si votre opérateur n'est pas présent, n'hésitez pas à venir nous donner de l'aide en nous fournissant des captures d'écran qui serviront à tous ;)
 {.is-info}
 
 **Ce qu'il faut faire :**
@@ -264,7 +266,7 @@ Puis vous déconnecter en allant dans le menu Freebox puis en cliquant sur *Déc
 
 # Diagnostic
 
-Il est nécessaire à cette étape de vérifier que nos deux ports 80 et 443 sont ouverts, grâce à l'outil de diagnostic de Yunohost. Sans cette étape, nous ne pouvons passer à la suivante.
+Il est nécessaire à cette étape de vérifier que nos deux ports 80 et 443 sont ouverts, grâce à l'outil de diagnostic de Yunohost. **Sans cette étape, nous ne pouvons passer à la suivante.**
 
 **Pour faire le diagnostic**, rien de plus simple :
  - Cliquer sur ***Diagnostic***
