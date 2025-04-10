@@ -2,7 +2,7 @@
 title: Android Bootloader Unlock
 description: Ce tutoriel vous parle des "bootloader" liés à Android et fait un état de lieux...
 published: true
-date: 2025-04-10T20:37:17.788Z
+date: 2025-04-10T20:42:37.581Z
 tags: android, smartphone, ordiphone, booloader, intermédiaire, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:54:20.672Z
@@ -72,9 +72,9 @@ De plus, pour un même modèle suivant la région (USA, ASIE...) ou si revendu p
 | SHIFT | fastboot | **Facile**<br> Commande fastboot | Non | info [ici](https://forum.shiftphones.com/threads/bootloader-unlock-root-custom-recoveries-roms-mods.3207/) |
 | Teracube | fastboot | **Facile**<br> Commande fastboot | Non | Tous |
 | Ulephone | fastboot | **Modéré** <br> Ulilisation de l'unlock générique <br> [MediaTek](https://github.com/melontini/bootloader-unlock-wall-of-shame/blob/main/misc/generic-unlock.md)<br>[Unisoc](https://www.hovatek.com/forum/thread-32287.html)| Oui | Tout ceux avec un SoC MediaTek et Unisoc<br>Pas de ROM disponible car gros rythme de sortie de téléphone lowcost |
-| Yandex | fastboot | **Facile** <br> Commande fastboot | Oui | Un seul téléphone est sorti (2018)<br>Difficilement trouvable|
-| YU | fastboot | **Facile** <br> Commande fastboot | Oui | Marque disparu depuis 2018<br> Quasi introuvable en France |
-| ZUK | fastboot | **Facile** <br> Commande fastboot | Oui | Z1 et Z2 uniquement, marque disparu depuis 2016 <br> Quasi introuvable |
+| ~~Yandex~~ | fastboot | **Facile** <br> Commande fastboot | Oui | Un seul téléphone est sorti (2018)<br>Difficilement trouvable|
+| ~~YU~~ | fastboot | **Facile** <br> Commande fastboot | Oui | Marque disparu depuis 2018<br> Quasi introuvable en France |
+| ~~ZUK~~ | fastboot | **Facile** <br> Commande fastboot | Oui | Z1 et Z2 uniquement, marque disparu depuis 2016 <br> Quasi introuvable |
 
 
 
