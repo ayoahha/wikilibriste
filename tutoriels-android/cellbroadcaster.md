@@ -2,7 +2,7 @@
 title: Désinstaller Cellbroadcast Receiver package via ADB
 description: Article qui vous indique comment désinstaller Cellbroadcast receiver via android debug bridge et ADB shell
 published: true
-date: 2025-04-10T20:56:38.243Z
+date: 2025-04-10T20:57:25.551Z
 tags: android, adb, cellbroadcast, debloat
 editor: markdown
 dateCreated: 2022-11-28T09:58:21.788Z
@@ -46,4 +46,4 @@ Puis vous obtenez un prompt `oriole:/ $ ` ; entrer les commandes comme suit :
 {.is-success}
 
 ---
-![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): Howerdel*
+![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): Howerdel, Justin*
