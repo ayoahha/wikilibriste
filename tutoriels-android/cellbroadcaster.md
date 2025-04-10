@@ -2,13 +2,19 @@
 title: Désinstaller Cellbroadcast Receiver package via ADB
 description: Article qui vous indique comment désinstaller Cellbroadcast receiver via android debug bridge et ADB shell
 published: true
-date: 2023-09-10T09:58:38.802Z
+date: 2025-04-10T20:56:38.243Z
 tags: android, adb, cellbroadcast, debloat
 editor: markdown
 dateCreated: 2022-11-28T09:58:21.788Z
 ---
 
 Dans ce tutoriel rapide, nous allons apprendre à désinstaller Cellbroadcast Receiver via Android Debug Bridge et ADB shell.
+
+Qu'est ce que c'est
+=======
+L’application CellBroadcastReceiver est une application système par défaut qui gère les alertes d’urgence et non urgentes (telles que les alertes orange, terroriste et présidentielles) et présente les informations aux utilisateurs finaux en fonction des réglementations de l’opérateur et régionales.
+Cette application est installé à un niveau système et pas désinstallable par la méthode classique.
+Elle peut initier une connexion à une antenne de facon autonome et non contrôlable.
 
 Étape 1
 =======
