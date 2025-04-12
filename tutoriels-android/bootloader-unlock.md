@@ -2,7 +2,7 @@
 title: Android Bootloader Unlock
 description: Ce tutoriel vous parle des "bootloader" liés à Android et fait un état de lieux...
 published: true
-date: 2025-04-12T22:30:33.462Z
+date: 2025-04-12T22:41:52.930Z
 tags: android, smartphone, ordiphone, booloader, intermédiaire, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:54:20.672Z
@@ -100,10 +100,10 @@ De plus, pour un même modèle suivant la région (USA, ASIE...) ou si revendu p
 | Cat | - | **Impossible** | Oui | - |
 | Crosscall | fastboot | **Impossible** | Oui | La série 5 sera déblocable (info à venir)<br> - les anciennes, non. |
 | HMD Global | fastboot | **Impossible**<br> selon un témoignage, la génération 5 devait <br>être déblocable cependant aucune instruction<br> officielle depuis | Oui | Politique de [verrouillage systématique](https://github.com/melontini/bootloader-unlock-wall-of-shame/blob/main/brands/nokia/README.md) du bootloader, cependant quelques méthodes <br>existent pour les téléphones de l'ère Nokia <br> La cadence très élevée de sortie des téléphones rend peu probable la sortie de nouvelle <br>méthode et ROM alternative |
-| Honor | fastboot | **Très difficile/impossible**<br>Méthodes non officielles car le fabricant ne donne <br>plus les codes OEM unlock depuis 2017/2018 ! <br> Certains téléphones peuvent être débloqués avec [PotatoMV](https://github.com/mashed-potatoes/PotatoNV) <br> (gratuit) ou HCU Client (payant) | Oui | Téléphone avec Kirin 620 (Honor 5C) à 659 et Kirin 925 à 960 (Honor 9) pour PotatoMV <br>et plus de modèles compatibles avec HCU Client  |
+| Honor | fastboot | **Très difficile/impossible**<br>Méthodes non officielles car le fabricant ne donne <br>plus les codes OEM unlock depuis 2017/2018 ! <br> Certains téléphones peuvent être débloqués avec [PotatoNV](https://github.com/mashed-potatoes/PotatoNV) <br> (gratuit) ou HCU Client (payant) | Oui | Téléphone avec Kirin 620 (Honor 5C) à 659 et Kirin 925 à 960 (Honor 9) pour PotatoNV <br>et plus de modèle compatible avec HCU Client  |
 | HTC  après Juin 2018| fastboot | **Impossible**| Oui | - |
-| Huawei | fastboot | **Très difficile/impossible**<br>Méthodes non officielles car le fabricant ne donne <br>plus les codes OEM unlock depuis 2017/2018 !<br> Certains téléphones peuvent être débloqués avec [PotatoMV](https://github.com/mashed-potatoes/PotatoNV) <br> (gratuit) ou HCU Client (payant) | Oui | Téléphone avec Kirin 620 (Huawei P8 Lite) à 659 et Kirin 925 à 960 (Huawei P10, Mate 9) <br>pour PotatoMV et plus de modèles compatibles avec HCU Client |
-| LG | - | **Impossible** | Oui | Depuis Dec 2021, LG ne permet plus de déblocage |
+| Huawei | fastboot | **Très difficile/impossible**<br>Méthodes non officielles car le fabricant ne donne <br>plus les codes OEM unlock depuis 2017/2018 !<br> Certains téléphones peuvent être débloqués avec [PotatoNV](https://github.com/mashed-potatoes/PotatoNV) <br> (gratuit) ou HCU Client (payant) | Oui | Téléphone avec Kirin 620 (Huawei P8 Lite) à 659 et Kirin 925 à 960 (Huawei P10, Mate 9) <br>pour PotatoNV et plus de modèle compatible avec HCU Client |
+| LG | - | **Impossible** | Oui | Depuis Déc 2021, LG ne permet plus de déblocage |
 | Meizu | fastboot | **Difficile** <br> Quelques [méthodes](https://github.com/melontini/bootloader-unlock-wall-of-shame/blob/main/brands/meizu/README.md) gratuites ou payantes au cas par cas | Oui | 16T, 16xs, Note 9 |
 | Nokia | fastboot | **Difficile** <br> Un [site officieux](https://www.hikaricalyx.com/request-bootloader-unlock/) permet le déblocage des modèles d'avant <br>début 2019 ; cette [autre méthode](https://fih-firmware.hikaricalyx.com/protoabl/) permet de débloquer d'autres téléphones <br>; et presque tous les Windows Phones disposent d'une [méthode officieuse](http://allaboutwindowsphone.com/features/item/24245_Aguideforunlockingthebootloade.php)| Oui | - |
 | Nubia (ZTE)| fastboot (Redmagic) <br> edl (Nubia) | **Facile** <br> Commande fastboot ou edl <br> Uniquement des anciens modèles| Oui | Anciens modèles, Nuvia appartient à ZTE donc<br> peu d'espoir pour les nouveaux modèles |
