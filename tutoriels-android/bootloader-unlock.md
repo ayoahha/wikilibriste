@@ -2,7 +2,7 @@
 title: Android Bootloader Unlock
 description: Ce tutoriel vous parle des "bootloader" liés à Android et fait un état de lieux...
 published: true
-date: 2025-04-12T22:47:10.531Z
+date: 2025-04-12T23:11:51.137Z
 tags: android, smartphone, ordiphone, booloader, intermédiaire, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:54:20.672Z
@@ -31,14 +31,14 @@ Lorsque l'on veut remplacer une partie du système Android sur un smartphone, le
 -   Remplacer le recovery (TWRP, OrangeFox, LineageOS recovery...) ;
 -   Remplacer le système (ROM) de votre téléphone Android (ROM Stock) OEM du constructeur par une ROM personnalisée (on parle alors de "custom ROM").
 
-L'utilisateur qui veut reprendre le contrôle de son appareil va alors être confronté aux difficultés de débloquer le chargeur d'amorçage ("unlock bootloader") Android :D
+L'utilisateur, qui veut reprendre le contrôle de son appareil, va alors être confronté aux difficultés de débloquer le chargeur d'amorçage ("unlock bootloader") Android. :D
 
-En effet, certains constructeurs de téléphone rendent l'opération impossible
+En effet, certains constructeurs de téléphone rendent l'opération impossible.
 
 > Il faut donc choisir la marque de son téléphone afin de le faire durer au maximum et éviter qu'il devienne un déchet numérique par obsolescence logicielle.
 {.is-warning}
 
-> Tous les produits Apple sont évidemment bloqués et donc à éviter absolument ! voir iosref.com/ios pour leur calendrier d'obsolescence
+> Tous les produits Apple sont évidemment bloqués et donc à éviter absolument ! voir iosref.com/ios pour leur calendrier d'obsolescence.
 
 
 
