@@ -2,7 +2,7 @@
 title: Android Bootloader Unlock
 description: Ce tutoriel vous parle des "bootloader" liés à Android et fait un état de lieux...
 published: true
-date: 2025-04-12T22:45:26.529Z
+date: 2025-04-12T22:47:10.531Z
 tags: android, smartphone, ordiphone, booloader, intermédiaire, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:54:20.672Z
@@ -135,14 +135,14 @@ Alors comment le déverrouiller ce "bootloader" ?
 Tout dépend des marques et même des modèles de smartphone. 
 Sachez que la plupart du temps, si le modèle exact de votre téléphone **<span style="text-decoration: underline;">n'est pas listé</span>** sur les sites de ROM personnalisées suivants, alors il est très probable que cela soit impossible :
 
-- [LineageOS *Cherchez votre téléphone dans la liste et cliquez dessus : vous serez renvoyé vers la page dudit modèle. Vérifiez tout en bas de cette page dans la section "Supported models" que le **modèle exact** est listé sur la page, si ce n'est pas le cas alors votre téléphone n'est pas supporté officiellement par LineageOS. S'il est supporté, allez lire la page sous Guides / Installation pour en savoir plus sur la procédure "unlock bootloader"*](https://wiki.lineageos.org/devices)
-- [/e/OS Devices *Suivez ce lien e/OS et faites défiler la page, cherchez votre téléphone dans la liste et cliquez dessus, selon le même principe que pour LineageOS*](https://doc.e.foundation/devices)
+- [LineageOS *Cherchez votre téléphone dans la liste et cliquez dessus : vous serez renvoyé vers la page dudit modèle. Vérifiez tout en bas de cette page dans la section "Supported models" que le **modèle exact** est listé sur la page, si ce n'est pas le cas alors votre téléphone n'est pas supporté officiellement par LineageOS. S'il est supporté, allez lire la page sous Guides / Installation pour en savoir plus sur la procédure "unlock bootloader".*](https://wiki.lineageos.org/devices)
+- [/e/OS Devices *Suivez ce lien e/OS et faites défiler la page, cherchez votre téléphone dans la liste et cliquez dessus, selon le même principe que pour LineageOS.*](https://doc.e.foundation/devices)
 - [CalyxOS *Seuls les Google Pixel et certains mobiles de type Motorola, Fairphone et Shift sont supportés.*](https://calyxos.org/install/)
-- [GrapheneOS *Seuls les Google Pixel sont supportés du fait de leur modèle de sécurité spécifique*](https://grapheneos.org/faq#supported-devices)
-- [IodéOS *Vérifiez si votre appareil est supporté*](https://iode.tech/installation/#1611168530685-c5ff66ab-4568)
-- [DivestOS *Vérifiez si votre appareil est supporté*](https://divestos.org/index.php?page=devices&base=LineageOS)
-- [DotOS *Vérifiez si votre appareil est supporté*](https://www.droidontime.com/devices)
-- [Replicant *Certains modèles de Samsung*](https://replicant.us/supported-devices.php)
+- [GrapheneOS *Seuls les Google Pixel sont supportés du fait de leur modèle de sécurité spécifique.*](https://grapheneos.org/faq#supported-devices)
+- [IodéOS *Vérifiez si votre appareil est supporté.*](https://iode.tech/installation/#1611168530685-c5ff66ab-4568)
+- [DivestOS *Vérifiez si votre appareil est supporté.*](https://divestos.org/index.php?page=devices&base=LineageOS)
+- [DotOS *Vérifiez si votre appareil est supporté.*](https://www.droidontime.com/devices)
+- [Replicant *Certains modèles de Samsung*.](https://replicant.us/supported-devices.php)
 - [Forum XDA *En dernier recours, vous pouvez aller voir sur le site de référence en la matière. Mais attention ici, certaines ROMs ne sont plus maintenues et cela fluctue en fonction des développeurs...*](https://forum.xda-developers.com/all-forums-by-manufacturer)
 {.links-list}
 
