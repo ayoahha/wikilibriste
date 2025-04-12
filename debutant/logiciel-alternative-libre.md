@@ -2,7 +2,7 @@
 title: Trouver un logiciel alternatif libre
 description: Découvrez comment chercher des logiciels libres par vous même
 published: true
-date: 2024-08-29T16:10:21.337Z
+date: 2025-04-12T22:57:26.613Z
 tags: logiciel, application, alternative, alternatif
 editor: markdown
 dateCreated: 2023-02-10T23:29:04.219Z
@@ -47,7 +47,7 @@ La page Awesome Privacy n'est pas à proprement parlé un site mais plutôt un d
 | Application<br> propriétaire | Alternative(s)<br> Open-source | Commentaire |
 |----------|----------|----------|
 | Whatsapp,<br> Messenger,<br> Wickr,<br> Threema,<br> Viber,<br> WeChat... | Signal,<br>Session,<br>Conversations_im,<br>Briar | Exceptionnellement ici 4 alternatives vous sont fournies, le sujet étant sensibles : Signal reste une application robuste pour sa vie privée, Session son<br> pendant côté décentralisé, Conversations pour sa base XMPP et Briar pour son côté plus confidentiel pair à pair. Attention : aucune application n'est<br>dénuée d'inconvénients !<br>Un article spécifique est dédié aux [Messageries](/debutant/communications) alternatives, nous vous renvoyons vers cet article complet si nécessaire. |
-| Google Messages, <br>Google Hangout,<br> SMS/MMS, ... | Fossify (**\***) SMS,<br>Silence (**\****) | En remplacement de toute application propriétaire de gestion des SMS/MMS.<br>Pour l'application Silence, merci de vous référer à notre article sur les [Messageries](/debutant/communications) où nous expliquont la raison |
+| Google Messages, <br>Google Hangout,<br> SMS/MMS, ... | Fossify (**\***) SMS,<br>Silence (**\****) | En remplacement de toute application propriétaire de gestion des SMS/MMS.<br>Pour l'application Silence, merci de vous référer à notre article sur les [Messageries](/debutant/communications) où nous expliquons la raison |
 | Telegram | Forkgram,<br>Nekogram X | Tous de parfaits remplaçants, avec un minimum voire sans traceur, attention à la configuration en plus à peaufiner. Néanmoins, nous restons sur un<br>modèle avec serveur à sources fermées. |
 | Signal | Langis,<br>Molly | Signal n'est pas trouvable sur des dépôts alternatifs (type F-Droid), dû à la politique de leurs principaux développeurs. Nous conseillons donc de<br>passer par des forks stables et reconnus, [Langis](https://langis.cloudfrancois.fr/) ou [Molly](https://molly.im/). |
 | Chrome, <br>Firefox, <br>Opera,<br> IE, Edge... | Mull,<br>Vanadium | Un article spécifique est dédié aux [Navigateurs internet](/debutant/navigateurs), nous vous renvoyons vers cet article complet si nécessaire. |
@@ -66,7 +66,7 @@ La page Awesome Privacy n'est pas à proprement parlé un site mais plutôt un d
 | Wetransfer | Lufi,<br>Cjoint.com | - |
 | Doodle | Framadate | Accès en ligne : [ici](https://framadate.org/) |
 | Microsoft Office,<br> Google Office Suite | Collabora Office | Collabora Office est l’implémentation de LibreOffice sur mobile. Disponible via un dépôt, nativement sur Droid-ify. À installer sur tous les profils<br>pour pouvoir ouvrir des documents sur chaque profil [CollaboraOnline](https://github.com/CollaboraOnline). |
-| Radio Android | OpenRadio,<br>RadioDroid | OpenRadio et RadioDroid sont basés sur [RadioBrowser](https://www.radio-browser.info/) et constitue une solution libre à toute application propriétaire de radio. |
+| Radio Android | OpenRadio,<br>RadioDroid | OpenRadio et RadioDroid sont basés sur [RadioBrowser](https://www.radio-browser.info/) et constituent une solution libre à toute application propriétaire de radio. |
 | Adobe PDF, ... | PDF Viewer | PDF Viewer est le logiciel de GrapheneOS, et disponible [ici](https://github.com/GrapheneOS/PdfViewer) pour tous les autres systèmes. |
 | Skype, <br>Zoom, <br>Teams... | Jitsi Meet,<br>Jami | Quelques problèmes de déconnexion côté Jami.<br>Un article spécifique est dédié aux applications alternatives de [Vidéo conférence](/debutant/communications#vid%C3%A9o-conf%C3%A9rence), nous vous renvoyons vers cet article complet si nécessaire. |
 | uTorrent... | TorrServe | Une application open source de téléchargement de fichiers Torrent sur Android. |
@@ -74,7 +74,7 @@ La page Awesome Privacy n'est pas à proprement parlé un site mais plutôt un d
 | Lecteur Vidéo | VLC | Lecteur Audio/Video très connu et très fonctionnel/complet, projet open source et libre. En remplacement de tout lecteur préinstallé par<br>Google, Samsung ou autre constructeur. |
 {.dense}
 
-**\*** : Le développeur des "Simple Mobile Tools" a scédé le projet à une société [ZipoApps](https://alternativeto.net/news/2023/12/simple-mobile-tools-bought-by-zipoapps-sparks-controversy-over-future-of-open-source-apps/) bien connue pour acquérir des projets open source et y ajouter des traceurs publicitaires. Il est bien évident que nous ne soutenons plus ce projet. Fort heureusement, un ancien développeur a créé un fork de toutes ces applications pour assurer la continuation, applications maintenant maintenues par le projet nommé [Fossify](https://github.com/FossifyOrg).
+**\*** : Le développeur des "Simple Mobile Tools" a cédé le projet à une société [ZipoApps](https://alternativeto.net/news/2023/12/simple-mobile-tools-bought-by-zipoapps-sparks-controversy-over-future-of-open-source-apps/) bien connue pour acquérir des projets open source et y ajouter des traceurs publicitaires. Il est bien évident que nous ne soutenons plus ce projet. Fort heureusement, un ancien développeur a créé un fork de toutes ces applications pour assurer la continuation, applications maintenant maintenues par le projet nommé [Fossify](https://github.com/FossifyOrg).
 
 ---
 **\**** : Concernant les SMS, Signal a prévenu récemment que la fonctionnalité support SMS/MMS n'était [plus supportée](https://signal.org/blog/sms-removal-android/).
