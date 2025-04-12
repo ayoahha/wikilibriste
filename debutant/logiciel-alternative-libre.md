@@ -2,7 +2,7 @@
 title: Trouver un logiciel alternatif libre
 description: Découvrez comment chercher des logiciels libres par vous-même.
 published: true
-date: 2025-04-12T22:58:20.179Z
+date: 2025-04-12T23:05:29.728Z
 tags: logiciel, application, alternative, alternatif
 editor: markdown
 dateCreated: 2023-02-10T23:29:04.219Z
@@ -70,7 +70,7 @@ La page Awesome Privacy n'est pas à proprement parlé un site mais plutôt un d
 | Adobe PDF, ... | PDF Viewer | PDF Viewer est le logiciel de GrapheneOS, et disponible [ici](https://github.com/GrapheneOS/PdfViewer) pour tous les autres systèmes. |
 | Skype, <br>Zoom, <br>Teams... | Jitsi Meet,<br>Jami | Quelques problèmes de déconnexion côté Jami.<br>Un article spécifique est dédié aux applications alternatives de [Vidéo conférence](/debutant/communications#vid%C3%A9o-conf%C3%A9rence), nous vous renvoyons vers cet article complet si nécessaire. |
 | uTorrent... | TorrServe | Une application open source de téléchargement de fichiers Torrent sur Android. |
-| Application TTS <br>(text-to-speech) | Dicio,<br>eSpeak | En remplacement de toute application type Google ou autres... Attention cela, dit ces applications ne sont pas abouties au même point.<br>Il est donc difficile de trouver exactement le même fonctionnement ! |
+| Application TTS <br>(text-to-speech) | Dicio,<br>eSpeak | En remplacement de toute application type Google ou autres... Attention, cela dit, ces applications ne sont pas abouties au même point.<br>Il est donc difficile de trouver exactement le même fonctionnement ! |
 | Lecteur Vidéo | VLC | Lecteur Audio/Video très connu et très fonctionnel/complet, projet open source et libre. En remplacement de tout lecteur préinstallé par<br>Google, Samsung ou autre constructeur. |
 {.dense}
 
