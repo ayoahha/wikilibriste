@@ -2,7 +2,7 @@
 title: Android Bootloader Unlock
 description: Ce tutoriel vous parle des "bootloader" liés à Android et fait un état de lieux...
 published: true
-date: 2025-04-12T22:41:52.930Z
+date: 2025-04-12T22:45:26.529Z
 tags: android, smartphone, ordiphone, booloader, intermédiaire, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:54:20.672Z
@@ -148,7 +148,7 @@ Sachez que la plupart du temps, si le modèle exact de votre téléphone **<span
 
 Vous avez la possibilité aussi, pour les fabricants qui ont une méthode de déverrouillage par clef mais qui ne proposent pas/plus au public d'y accéder, de [bruteforcer la clef](https://github.com/samuelcaldas/Bruteforce-Bootloader-Unlocker) en espérant qu'aucun système anti-bruteforce n'est été implémenté, donc en dernier recours après le forum XDA.
 
-Merci au Github [Bootloader Unlock Wall of Shame](https://github.com/melontini/bootloader-unlock-wall-of-shame/tree/main) et aux différents sites de ROM (Lineage, /e/os...) pour les méthodes de déverrouillage du bootloader.
+Merci au Github [Bootloader Unlock Wall of Shame](https://github.com/melontini/bootloader-unlock-wall-of-shame/tree/main) et aux différents sites de ROM (LineageOS, /e/OS...) pour les méthodes de déverrouillage du bootloader.
 
 ---
 ![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): ayo, freechelmi, marmotte, Justin*
