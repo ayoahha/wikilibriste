@@ -2,7 +2,7 @@
 title: Les navigateurs web
 description: Un article liés aux navigateurs internet et leur durcissement...
 published: true
-date: 2024-08-29T15:56:04.175Z
+date: 2025-04-12T18:08:16.489Z
 tags: navigateur, web, internet, privacy, vie privée, chrome, firefox, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:38:25.687Z
@@ -74,7 +74,7 @@ Le marché des navigateurs suit un peu sur le même chemin que les moteurs de re
 
 | Navigateur Web | Editeur | Systèmes supportés | Moteur de rendu | Licence | Installation |  Commentaires |
 |----------|----------|----------|----------|----------|----------|----------|
-| Mull | Divested Mobile | Android | Gecko | Libre AGPL3 | Installer [F-Droid](https://f-droid.org/F-Droid.apk) et installer ensuite Mull depuis F-Droid | Mull est à Android ce que LibreWolf est aux ordinateurs. Rapide, dépourvue de trackers, très peu de télémétrie. |
+| IronfoxOSS| Celenity | Android | Gecko | Libre AGPL3 | Installer [F-Droid](https://f-droid.org/F-Droid.apk) et installer ensuite IronfoxOSS depuis F-Droid | IronfoxOSS (héritié de Mull non maintenu) est à Android ce que LibreWolf est aux ordinateurs. Rapide, dépourvue de trackers, très peu de télémétrie. |
 | Fennec | F-droid | Android | Gecko | Libre MPL2 | Installer [F-Droid](https://f-droid.org/F-Droid.apk) et installer ensuite Fennec depuis F-Droid | Fennec est un fork de Mozilla Fenix, avec la suppression d'une partie de la télémétrie. Il possède toujours <br>des connexions avec Mozilla et Google et n'est donc pas entièrement dépourvu de trackers. |
 | Tor Browser | The Tor Project | Android | Gecko | Libre MPL2 | Installer [F-Droid](https://f-droid.org/F-Droid.apk) puis activer le dépôt **Guardian** et installer <br>ensuite Tor Browser depuis F-Droid | Voir ci-haut. |
 | Brave | Brave Inc. | Android | Blink | Libre MPL2 | Installer [F-Droid](https://f-droid.org/F-Droid.apk) puis depuis celui-ci installer [AuroraStore](https://f-droid.org/en/packages/com.aurora.store/)<br>et enfin depuis Aurora Store, installer Brave | Voir ci-haut. |
