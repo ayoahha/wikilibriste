@@ -2,7 +2,7 @@
 title: Installer et Utiliser Yunohost
 description: Une solution pour l'auto-hébergement simplifiée...
 published: true
-date: 2025-03-11T11:40:07.950Z
+date: 2025-04-14T14:56:58.107Z
 tags: yunohost, hébergement
 editor: markdown
 dateCreated: 2023-03-07T11:14:36.633Z
@@ -20,7 +20,9 @@ Pour installer Yunohost, nous allons suivre ces étapes dans l'ordre :
 
 4. Nous définissons un administrateur (il sera administrateur pour les services installés ultérieurement) de yunohost en pensant à bien configurer un mot de passe **robuste**. Puis nous nous connectons à l'interface yunohost.
 
-6. Il faut vérifier au niveau de votre box que les ports 80 et 443 sont ouverts (ou que UPnP est activé et fonctionnel). Nous vous invitons à vous tourner vers les paramètres de votre [FAI](/glossaire#fai). Il faut que les ports 80 et 443 de la box soient redirigés vers les mêmes ports que ceux de votre machine Yunohost.
+5. Il faut vérifier au niveau de votre box que les ports 80 et 443 sont ouverts (ou que UPnP est activé et fonctionnel). Nous vous invitons à vous tourner vers les paramètres de votre [FAI](/glossaire#fai). Il faut que les ports 80 et 443 de la box soient redirigés vers les mêmes ports que ceux de votre machine Yunohost.
+
+6. Il faut également vérifier que le pare-feux sur l'IPV6 soit désactivé.
 
 7. Nous faisons un diagnostic, en cliquant sur "Diagnostic", pour vérifier qu'au moins le port 443 et 80 soient fonctionnels. Il se peut qu'il y ait des avertissements pour d'autres ports non ouverts, de fait ils ne sont pas indispensables. Pour la sécurité, nous évitons d'ouvrir des ports dont nous ne voulons pas.
 
@@ -51,7 +53,7 @@ Selon l'espace de stockage disponible sur le support sur lequel vous installez Y
 
 Vous aurez également besoin d'un autre ordinateur quelconque pour le temps de l'installation. Évitez le smartphone pour des soucis de clarté et de facilité liés à l'interface de Yunohost. Il est nécessaire d'être connecté au même réseau (même box, via Wi-Fi ou Ethernet, peu importe) que le matériel Yunohost.
 
-# Téléchargement et écriture de l'image
+# 1 - Téléchargement et écriture de l'image
 
 1. **Téléchargement de l'image**
 
@@ -70,7 +72,7 @@ Vous aurez également besoin d'un autre ordinateur quelconque pour le temps de l
   Sur **Balena Etcher**, vous commencerez par **sélectionner le fichier Yunohost** téléchargé précédemment, puis par **sélectionner votre carte SD** (attention de ne pas vous tromper), puis **lancer l'écriture**.
 
 
-# Démarrer et se connecter à l'interface Yunohost
+# 2 - Démarrer et se connecter à l'interface Yunohost
 
 1. **Démarrer le RaspberryPi**
 
@@ -125,7 +127,7 @@ Enfin, dans la liste qui s'affiche, identifiez la ligne qui correspond à votre 
   Un avertissement de sécurité sera levé. Vous pouvez cliquer sur ***Avancé...*** puis ***Accepter le risque et poursuivre***. Cet avertissement est lié au certificat qui n'est pas reconnu publiquement. Le problème sera résolu ultérieurement.
 
 
-# Configurer le domaine
+# 3 - Configurer le domaine
 
 Le domaine, c'est le nom qui va être utilisé dans l'[URL](/glossaire#URL) pour accéder à votre site. Par exemple, pour le site [https://wikilibriste.fr](https://wikilibriste.fr), le nom de domaine est *wikilibriste.fr*. Ce nom est reconnu dans le monde entier, il doit donc être unique.
 
@@ -148,7 +150,7 @@ Dans notre cas, nous utilisons la première solution. **Pour cela, en suivant le
 Enfin, nous pouvons cliquer sur ***Suivant***.
 
 
-# Création de l'utilisateur administrateur
+# 4 - Création de l'utilisateur administrateur
 
 Cette étape permet de créer un utilisateur avec des droits d'administration pour tous les services qui seront installés par la suite.
 
@@ -165,7 +167,7 @@ Il est **impératif** que le mot de passe soit de la plus grande qualité : trè
 Puis, cliquez sur ***Suivant***.
 
 
-# Arrivée sur l'interface standard de Yunohost
+## Arrivée sur l'interface standard de Yunohost
 
 Attendez que Yunohost finisse la post-installation.
 
@@ -175,9 +177,9 @@ Puis vous arriverez sur l'interface suivante, qui est l'interface d'administrati
 
 ![Capture de l'interface de Yunohost](/images/bureau_yunohost.webp){.align-center}
 
-# Ouvrir les ports nécessaires sur votre box
+# 5 - Ouvrir les ports nécessaires sur votre box
 
-Cette étape va se passer sur l'interface d'administration de votre box. Cette interface sera accessible sur l'un des liens suivants : [http://192.168.1.0](http://192.168.1.0), [http://192.168.1.1](http://192.168.1.1) ou [http://192.168.1.254](http://192.168.1.254).
+Cette étape (et la suivante) va se passer sur l'interface d'administration de votre box. Cette interface sera accessible sur l'un des liens suivants : [http://192.168.1.0](http://192.168.1.0), [http://192.168.1.1](http://192.168.1.1) ou [http://192.168.1.254](http://192.168.1.254).
 
 > *~~Étant donné que l'interface peut changer d'une box à une autre, d'une version à une autre, nous n'allons pas détailler avec précision ce point. Nous vous invitons à chercher sur Internet une page qui pourrait vous éclairer.~~*
 Les détails pour chaque opérateur sont en cours d'écriture. Si votre opérateur n'est pas présent, n'hésitez pas à venir nous donner de l'aide en nous fournissant des captures d'écran qui serviront à tous ;)
@@ -263,8 +265,45 @@ Vous pourrez **ajouter une seconde règle identique**, mais pour le port 443, et
 Enfin, vous pouvez terminer en cliquant sur "OK" en bas de la "fenêtre".
 Puis vous déconnecter en allant dans le menu Freebox puis en cliquant sur *Déconnexion*.
 
+# 6 - Désactiver le pare-feux IPV6 sur votre box
 
-# Diagnostic
+Cette étape (comme la précédente) se passe sur l'interface d'administration de votre box.
+
+> Les détails pour chaque opérateur sont en cours de rédaction : le texte actuel est générique. Si la marche à suivre n'est pas à jour, n'hésitez pas à venir nous demander de l'aide sur notre groupe Telegram. Cela nous permettra par ailleurs de mettre à jour cette partie : sans accès à l'interface de chaque box, il nous est difficile de la complèter et la tenir à jour. Votre contribution est la bienvenue !
+{.is-info}
+
+#### {.tabset}
+
+##### Orange
+
+**Configurer le pare-feu IPv6 :**
+
+1. Dans le menu, accédez à **Paramètres avancés** > **Réseau** > **IPv6**.
+2. Configurez le pare-feu IPv6 au niveau le plus bas.
+
+##### SFR
+
+**Configurer le pare-feu IPv6 :**
+
+1. Dans le menu, accédez à **Paramètres avancés** > **Réseau** > **IPv6**.
+2. Configurez le pare-feu IPv6 au niveau le plus bas.
+
+##### Bouygues
+
+**Configurer le pare-feu IPv6 :**
+
+1. Dans le menu, accédez à **Paramètres avancés** > **Réseau** > **IPv6**.
+2. Configurez le pare-feu IPv6 au niveau le plus bas.
+
+##### Free
+
+**Configurer le pare-feu IPv6 :**
+
+1. Dans le menu, accédez à **Paramètres avancés** > **Réseau** > **IPv6**.
+2. Configurez le pare-feu IPv6 au niveau le plus bas.
+
+
+# 7 - Diagnostic
 
 Il est nécessaire à cette étape de vérifier que nos deux ports 80 et 443 sont ouverts, grâce à l'outil de diagnostic de Yunohost. **Sans cette étape, nous ne pouvons passer à la suivante.**
 
@@ -274,7 +313,7 @@ Il est nécessaire à cette étape de vérifier que nos deux ports 80 et 443 son
 
 Il y aura probablement quelques avertissements qui seront remontés, notamment pour les e-mails (nous ne nous en occuperons pas dans ce tutoriel, peut-être un jour ;)). Tant que les ports 80 et 443 sont bien configurés et marqués comme "OK", ça devrait être bon.
 
-# Configurer le certificat
+# 8 - Configurer le certificat
 
 Le certificat est un outil de sécurité qui permet d'authentifier le serveur à un client, grâce à des fonctions cryptographiques. *Let's Encrypt*, qui est utilisé par Yunohost pour créer ces certificats, est une autorité de certification qui fournit gratuitement et de manière automatisée des certificats reconnus.
 
@@ -288,7 +327,7 @@ Grâce à ce certificat "reconnu", vous n'aurez plus le message d'avertissement 
  - Puis sur le bouton ***Certificat SSL***
  - Enfin vous cliquerez sur ***Installer un certificat Let's Encrypt***
 
-# Mettre à jour le système
+# 9 - Mettre à jour le système
 
 Comme expliqué dans le point de sécurité en début d'article, les mises à jour sont extrêmement importantes.
 
@@ -299,7 +338,7 @@ Pour faire les mises à jour, suivez ces étapes :
  - Puis confirmer avec ***OK***
  - *Attendre...*
 
-# Ajouter un disque dur externe
+# 10 - Ajouter un disque dur externe
 
 Lorsque l'on installe Nextcloud sur un RaspberryPi, il y a de fortes chances que vous soyez très limité en terme d'espace de stockage avec une simple carte SD. Nous allons donc voir comment déplacer les données des applications, sur un disque dur externe afin d'étendre ce stockage comme vous le souhaitez.
 
@@ -452,7 +491,7 @@ Une fois fait, vous pouvez l'éjecter de votre ordinateur.
   exit
   ```
 
-# Installer un service : Nextcloud
+# 11 - Installer un service : Nextcloud
 
 Pour installer une application qui vous fournira un service via Internet, rien de plus simple.
 
