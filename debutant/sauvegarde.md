@@ -2,7 +2,7 @@
 title: Sauvegarder ses données
 description: Sauvegarder et restaurer vos données sous Linux est crucial... Suivez le guide !
 published: true
-date: 2025-04-14T14:19:14.912Z
+date: 2025-04-14T14:21:13.855Z
 tags: debutant, intermediaire, sauvegarde, backup, restaurer, restore
 editor: markdown
 dateCreated: 2023-03-15T23:44:19.951Z
@@ -58,7 +58,7 @@ Plusieurs solutions existent pour sauvegarder son smartphone :
 
 | Nom de la solution | Disponibilité | Données sauvegardée | Notes |
 | ------------------ | ------------- | ------------------- | ----- |
-| [Seedvault](https://github.com/seedvault-app/seedvault) | Intégrée aux ROM AOSP alternative : Lineage, /e/, Calyx, Graphene, etc. | Données personnelles. Liste des applications avec leur configuration. Contact, agenda, etc. | Probablement la **solution la plus complète**. |
+| [Seedvault](https://github.com/seedvault-app/seedvault) | ROM alternative : Lineage, /e/, Calyx, Graphene, etc. | Données personnelles. Liste des applications avec leur configuration. Contact, agenda, etc. | Probablement la **solution la plus complète**. |
 | [NeoBackup](https://github.com/NeoApplications/Neo-Backup) | Android | Liste des applications avec leur configuration. | Nécessite d'être **root**. |
 | [DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup) | Android | Liste des applications avec leur configuration. Données personnelles. | Nécessite d'être **root**. |
 | [Android Backup Project](https://github.com/AndDiSa/android_backup_project) | Android, via ordinateur | Liste des applications **sans** leur configuration. Données personnelles. | Scripts qui automatise la sauvegarde via adb. |
