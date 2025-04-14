@@ -2,13 +2,16 @@
 title: Installer et Utiliser Yunohost
 description: Une solution très simple pour s'auto-héberger
 published: true
-date: 2025-04-14T16:25:18.046Z
+date: 2025-04-14T16:30:36.136Z
 tags: serveur, yunohost, hébergement, cloud
 editor: markdown
 dateCreated: 2023-03-07T11:14:36.633Z
 ---
 
 Ce tutoriel vous présente comment installer un serveur "maison" afin d'héberger vos services Internet vous-mêmes. [En savoir plus...](/intermediaire/auto-hebergement)
+
+> **Avertissement** : ne continuez pas ce tutoriel sans avoir lu au préalable les *[règles de sécurité lié à l'auto-hébergement](intermediaire/auto-hebergement#r%C3%A8gles-de-s%C3%A9curit%C3%A9)*.
+{.is-warning}
 
 ## Matériel nécessaire
 
