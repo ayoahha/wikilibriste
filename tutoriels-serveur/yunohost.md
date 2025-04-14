@@ -1,12 +1,25 @@
 ---
 title: Installer et Utiliser Yunohost
-description: Une solution pour l'auto-hébergement simplifiée...
+description: Une solution très simple pour s'auto-héberger
 published: true
-date: 2025-04-14T14:56:58.107Z
-tags: yunohost, hébergement
+date: 2025-04-14T16:25:18.046Z
+tags: serveur, yunohost, hébergement, cloud
 editor: markdown
 dateCreated: 2023-03-07T11:14:36.633Z
 ---
+
+Ce tutoriel vous présente comment installer un serveur "maison" afin d'héberger vos services Internet vous-mêmes. [En savoir plus...](/intermediaire/auto-hebergement)
+
+## Matériel nécessaire
+
+- [ ] Un Raspberry Pi ou autre ordinateur dédié comme serveur, avec son alimentation.
+- [ ] Une box avec l'abonnement Internet qui va avec.
+- [ ] Un câble réseau.
+- [ ] Une carte SD (pour le raspberry Pi) ou un disque dur.
+- [ ] Un ordinateur pour suivre ce tutoriel.
+- [ ] (optionnel) Un disque dur supplémentaire pour rajouter de l'espace de stockage.
+
+## Résumé
 
 Nous proposons ici un condensé des étapes nécessaires à l'installation de Nextcloud sur Yunohost, sur un appareil auquel nous ajouterons un disque dur externe. Si vous n'êtes pas complètement à l'aise, nous vous invitons à lire ce résumé pour avoir une idée des étapes qui vont se succéder, puis à le réaliser un pas après l'autre, en suivant l'explication détaillée ci-dessous.
 
