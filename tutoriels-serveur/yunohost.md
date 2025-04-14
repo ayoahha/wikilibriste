@@ -2,7 +2,7 @@
 title: Installer et Utiliser Yunohost
 description: Une solution très simple pour s'auto-héberger
 published: true
-date: 2025-04-14T16:30:36.136Z
+date: 2025-04-14T16:37:24.938Z
 tags: serveur, yunohost, hébergement, cloud
 editor: markdown
 dateCreated: 2023-03-07T11:14:36.633Z
@@ -12,15 +12,6 @@ Ce tutoriel vous présente comment installer un serveur "maison" afin d'héberge
 
 > **Avertissement** : ne continuez pas ce tutoriel sans avoir lu au préalable les *[règles de sécurité lié à l'auto-hébergement](intermediaire/auto-hebergement#r%C3%A8gles-de-s%C3%A9curit%C3%A9)*.
 {.is-warning}
-
-## Matériel nécessaire
-
-- [ ] Un Raspberry Pi ou autre ordinateur dédié comme serveur, avec son alimentation.
-- [ ] Une box avec l'abonnement Internet qui va avec.
-- [ ] Un câble réseau.
-- [ ] Une carte SD (pour le raspberry Pi) ou un disque dur.
-- [ ] Un ordinateur pour suivre ce tutoriel.
-- [ ] (optionnel) Un disque dur supplémentaire pour rajouter de l'espace de stockage.
 
 ## Résumé
 
@@ -54,6 +45,8 @@ Pour installer Yunohost, nous allons suivre ces étapes dans l'ordre :
 
 
 
+## Matériel nécessaire
+
 Yunohost peut s'installer sur la grande majorité des supports que nous trouvons autour de nous. Ce système est conçu pour ne pas demander trop de ressources pour fonctionner. Ainsi, si vous voulez donner une seconde vie à un vieil ordinateur, c'est tout à fait possible.
 
 **Voici le matériel supporté par Yunohost :**
@@ -63,11 +56,11 @@ Yunohost peut s'installer sur la grande majorité des supports que nous trouvons
 - [En machine virtuelle virtualbox](https://doc.yunohost.org/fr/install/hardware:virtualbox)
 - [Sur un VPS](https://doc.yunohost.org/fr/install/hardware:vps_debian)
 
-Vous aurez également besoin des **connecteurs nécessaires** (câble RJ45) **pour connecter à Internet** votre ordinateur/serveur/carte raspberry/machine virtuelle, et donc de la connexion Internet qui va avec (votre box dans la majorité des cas). Nous déconseillons fortement le Wi-Fi dans ce cas d'usage, notamment pour des raisons de sécurité.
+Vous aurez également besoin des **connecteurs nécessaires** (câble RJ45) pour connecter à Internet votre ordinateur/serveur/carte raspberry/machine virtuelle, et donc de la **connexion Internet** qui va avec (votre box dans la majorité des cas). Nous déconseillons fortement le Wi-Fi dans ce cas d'usage, notamment pour des raisons de sécurité.
 
-Selon l'espace de stockage disponible sur le support sur lequel vous installez Yunohost, il pourrait être **judicieux d'opter pour l'ajout d'un disque dur externe** sur lequel les données des utilisateurs seront enregistrées.
+Selon l'espace de stockage disponible sur le support sur lequel vous installez Yunohost, il pourrait être **judicieux d'ajouter un disque dur externe** sur lequel les données des utilisateurs seront enregistrées. Il est possible qu'il faille alors une **alimentation électrique externe** pour brancher le disque dur au RaspberryPi.
 
-Vous aurez également besoin d'un autre ordinateur quelconque pour le temps de l'installation. Évitez le smartphone pour des soucis de clarté et de facilité liés à l'interface de Yunohost. Il est nécessaire d'être connecté au même réseau (même box, via Wi-Fi ou Ethernet, peu importe) que le matériel Yunohost.
+Vous aurez également besoin d'**un autre ordinateur** quelconque le temps de l'installation pour suivre ce tutoriel. Évitez le smartphone pour des soucis de clarté et de facilité liés à l'interface de Yunohost. Il est nécessaire d'être connecté au même réseau (même box, via Wi-Fi ou Ethernet, peu importe) que le matériel Yunohost.
 
 # 1 - Téléchargement et écriture de l'image
 
