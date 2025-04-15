@@ -2,7 +2,7 @@
 title: Sauvegarde par synchronisation des données
 description: Gestion des copies de sauvegarde
 published: false
-date: 2025-04-15T14:53:44.566Z
+date: 2025-04-15T14:54:57.104Z
 tags: sauvegarde, copies synchronisées, restauration données
 editor: markdown
 dateCreated: 2025-04-15T13:35:26.629Z
@@ -30,3 +30,5 @@ Elle se présente sous une forme de tableau dans lequel nous allons préparer et
 ![roue-ffs-crantee.png](/images/roue-ffs-crantee.png)
 
 ![ffs-source-et-cible.png](/images/ffs-source-et-cible.png)
+
+Passons à notre première synchronisation :heart:
