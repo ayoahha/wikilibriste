@@ -2,7 +2,7 @@
 title: Sauvegarde par synchronisation des données
 description: Gestion des copies de sauvegarde
 published: false
-date: 2025-04-15T14:21:36.624Z
+date: 2025-04-15T14:31:39.893Z
 tags: sauvegarde, copies synchronisées, restauration données
 editor: markdown
 dateCreated: 2025-04-15T13:35:26.629Z
@@ -16,5 +16,7 @@ L'interface de FreeFileSync, très intuitive par ses libellés et ses titres, pe
 - Icônes de fonctions rapides
 - Sauvegardes personnalisées enregistrées
 - Aperçu des modifications à venir avant validation  de la synchronisation
+## Colonne centrale de configuration
+Elle se présente sous une forme de tableau dans lequele nous allons préparer et personnaliser une synchronisation grâce à la roue crantée verte ![roue-ffs-crantee.png](/images/roue-ffs-crantee.png)
 
 ![ffs-source-et-cible.png](/images/ffs-source-et-cible.png)
