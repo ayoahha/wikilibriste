@@ -2,7 +2,7 @@
 title: Sauvegarde par synchronisation des données
 description: Gestion des copies de sauvegarde
 published: false
-date: 2025-04-15T15:00:42.316Z
+date: 2025-04-15T15:01:20.473Z
 tags: sauvegarde, copies synchronisées, restauration données
 editor: markdown
 dateCreated: 2025-04-15T13:35:26.629Z
@@ -10,7 +10,7 @@ dateCreated: 2025-04-15T13:35:26.629Z
 
 # FreeFileSync
 FreeFileSync est un logiciel de comparaison et de synchronisation de dossiers qui crée et gère des copies de sauvegarde de tous vos fichiers importants. Au lieu de copier chaque fichier à chaque fois, FreeFileSync détermine les différences entre un dossier source et un dossier cible et ne transfère que le minimum de données nécessaires.  : https://freefilesync.org/
-L'interface de FreeFileSync, très intuitive par ses libellés et ses titres, permet de rapidement s'approprier les fonctions de ce logiciel très "salvateur" pour nos précieuses données :heart_on_fire:
+L'interface de FreeFileSync, très intuitive par ses libellés et ses titres, permet de rapidement s'approprier les fonctions de ce logiciel très "salvateur" pour nos précieuses données :heart: :heart:
 
 ## Outils de paramétrages
 
