@@ -2,7 +2,7 @@
 title: Sauvegarde des données par synchronisation
 description: Gestion des copies de sauvegarde
 published: false
-date: 2025-04-16T20:04:59.890Z
+date: 2025-04-16T20:06:17.593Z
 tags: sauvegarde, copies synchronisées, restauration données
 editor: markdown
 dateCreated: 2025-04-15T13:35:26.629Z
@@ -39,7 +39,7 @@ Une sauvegarde ne se fait **JAMAIS** sur le même support (ou périphérique) qu
 - Choix de la "**source**" : **parcourir** le gestionnaire de fichiers et sélectionner le dossier désiré.
 - Choix de la "**cible**" : **parcourir** et choisir le support de sauvegarde. Il y est fortement conseillé de **nommer clairement et dater** votre dossier de sauvegarde.
 
-Notre meilleur outil : la roue verte crantée
+Notre meilleur outil : **la roue verte crantée** ![roue-ffs-crantee.png](/images/roue-ffs-crantee.png)
 
 **4 modes de sauvegardes sont proposées**. Chacune d'entre elles a ses particularités ; le logiciel vous indique tant graphiquement (type et couleur d'icône) qu'avec le pointeur de la souris affichant des "infos-bulles", leurs fonctions .
 
