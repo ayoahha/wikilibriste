@@ -2,7 +2,7 @@
 title: Sauvegarde des données par synchronisation
 description: Gestion des copies de sauvegarde
 published: false
-date: 2025-04-16T20:06:17.593Z
+date: 2025-04-16T20:07:44.024Z
 tags: sauvegarde, copies synchronisées, restauration données
 editor: markdown
 dateCreated: 2025-04-15T13:35:26.629Z
@@ -50,6 +50,6 @@ Notre meilleur outil : **la roue verte crantée** ![roue-ffs-crantee.png](/image
 ![ffs-fenetre-parametrages-miroir-2.png](/images/ffs-fenetre-parametrages-miroir-2.png)
 
 > :point_down::exclamation::point_down::exclamation::point_down:
-*Ce paramétrage permet de supprimer définitivement les fichiers ; ils seront donc irrécupérables en cas d'erreurs.*  :sob:{.is-warning}
+*Ce paramétrage, mode permanent, permet de supprimer définitivement les fichiers ; ils seront donc irrécupérables en cas d'erreurs.*  :sob:{.is-warning}
 
 ![ffs-corbeille-permanente.png](/images/ffs-corbeille-permanente.png)
