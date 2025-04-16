@@ -2,7 +2,7 @@
 title: Sauvegarde des données par synchronisation
 description: Gestion des copies de sauvegarde
 published: false
-date: 2025-04-16T20:29:57.942Z
+date: 2025-04-16T20:34:05.175Z
 tags: sauvegarde, copies synchronisées, restauration données
 editor: markdown
 dateCreated: 2025-04-15T13:35:26.629Z
@@ -40,7 +40,7 @@ Une sauvegarde ne se fait **JAMAIS** sur le même support (ou périphérique) qu
 
 Notre meilleur outil : **la roue verte crantée** ![roue-ffs-crantee.png](/images/roue-ffs-crantee.png)
 
-**4 modes de sauvegardes sont proposées**. Chacune d'entre elles a ses particularités ; le logiciel vous indique tant graphiquement (type et couleur d'icône) qu'avec le pointeur de la souris affichant des "infos-bulles", leurs fonctions .
+**4 modes de sauvegardes sont proposées**. Chacune d'entre elles a ses particularités. Le logiciel vous indique tant graphiquement (type et couleur d'icône) qu'avec le pointeur de la souris affichant des "infos-bulles", leurs fonctions .
 
 **Nous nous limiterons ici à une synchronisation en "miroir" : la cible sera identique à la source.**
 > :point_down::exclamation::point_down::exclamation::point_down:
