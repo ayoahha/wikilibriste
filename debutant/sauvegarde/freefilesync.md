@@ -2,7 +2,7 @@
 title: Sauvegarde par synchronisation des données
 description: Gestion des copies de sauvegarde
 published: false
-date: 2025-04-16T19:10:54.339Z
+date: 2025-04-16T19:29:47.038Z
 tags: sauvegarde, copies synchronisées, restauration données
 editor: markdown
 dateCreated: 2025-04-15T13:35:26.629Z
@@ -39,4 +39,10 @@ Une sauvegarde ne se fait **JAMAIS** sur le même support (ou périphérique) qu
 - Choix de la "**source**" : parcourir dans le gestionnaire de fichiers et sélectionner le dossier désiré.
 - Choix de la "**cible**" : choisir le support de sauvegarde. Il y est fortement conseillé de **nommer clairement et dater** votre dossier de sauvegarde.
 
-4 modes de sauvegardes sont proposées. Chacune d'entre elles a ses particularités ; le logiciel vous indique tant graphiquement (type et couleur d'icône) qu'avec le pointeur de la souris affichant des "infos-bulles", leurs fonctions .
+**4 modes de sauvegardes sont proposées**. Chacune d'entre elles a ses particularités ; le logiciel vous indique tant graphiquement (type et couleur d'icône) qu'avec le pointeur de la souris affichant des "infos-bulles", leurs fonctions .
+
+**Nous nous limiterons ici à une synchronisation en "miroir" : la cible sera identique à la source.**
+>:point_down::exclamation::point_down::exclamation::point_down::exclamation:{.is-warning}
+
+*Ce paramétrage permet d'envoyer les fichier supprimés dans la corbeille ; ils seront ainsi récupérables en cas d'erreur*
+![ffs-fenetre-parametrages-miroir-2.png](/images/ffs-fenetre-parametrages-miroir-2.png)
