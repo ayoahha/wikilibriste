@@ -2,7 +2,7 @@
 title: Sauvegarde par synchronisation des données
 description: Gestion des copies de sauvegarde
 published: false
-date: 2025-04-16T19:34:03.289Z
+date: 2025-04-16T19:36:22.219Z
 tags: sauvegarde, copies synchronisées, restauration données
 editor: markdown
 dateCreated: 2025-04-15T13:35:26.629Z
@@ -46,3 +46,6 @@ Une sauvegarde ne se fait **JAMAIS** sur le même support (ou périphérique) qu
 *Ce paramétrage permet d'envoyer les fichiers supprimés dans la corbeille ; ils seront ainsi récupérables en cas d'erreurs.*  :satisfied:{.is-warning}
 
 ![ffs-fenetre-parametrages-miroir-2.png](/images/ffs-fenetre-parametrages-miroir-2.png)
+
+> :point_down::exclamation::point_down::exclamation::point_down:
+*Ce paramétrage permet de supprimer définitivement les fichiers ; ils seront ainsi irrécupérables en cas d'erreurs.*  :sob:{.is-warning}
