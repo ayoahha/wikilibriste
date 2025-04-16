@@ -2,7 +2,7 @@
 title: Sauvegarde des données par synchronisation
 description: Gestion des copies de sauvegarde
 published: false
-date: 2025-04-16T20:11:28.690Z
+date: 2025-04-16T20:13:27.108Z
 tags: sauvegarde, copies synchronisées, restauration données
 editor: markdown
 dateCreated: 2025-04-15T13:35:26.629Z
@@ -29,7 +29,7 @@ L'interface de FreeFileSync, très intuitive par ses libellés et ses titres, pe
 - Aperçu des modifications à venir avant validation  de la synchronisation
 ![ffs-apercu-modifications-proposees.png](/images/ffs-apercu-modifications-proposees.png)
 ### Les colonnes centrales de configuration
-Elles se présentent sous une forme de tableau dans lequel nous allons préparer,personnaliser et visualiser une synchronisation.
+Elles se présentent sous une forme de tableau dans lequel nous allons préparer,personnaliser et visualiser les actions du logiciel.
 
 ![source-et-cible-num-2.png](/images/source-et-cible-num-2.png)
 
