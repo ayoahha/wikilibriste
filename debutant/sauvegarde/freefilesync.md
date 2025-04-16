@@ -2,7 +2,7 @@
 title: Sauvegarde par synchronisation des données
 description: Gestion des copies de sauvegarde
 published: false
-date: 2025-04-16T18:42:39.658Z
+date: 2025-04-16T18:43:01.304Z
 tags: sauvegarde, copies synchronisées, restauration données
 editor: markdown
 dateCreated: 2025-04-15T13:35:26.629Z
@@ -38,4 +38,4 @@ Elle se présente sous une forme de tableau dans lequel nous allons préparer et
 Passons à notre première synchronisation :heart:
 Une sauvegarde ne se fait **JAMAIS** sur le même support (ou périphéique) que le dossier "Source"
 - Pour la "source", parcourir dans le gestionnaire de fichiers et sélectionner le dossier désiré.
-- Pour la "cible", choisir le support de sauvegarde. Il est fortement conseillé de **nommer clairement et dater** chaque dossier de sauvegarde.
+- Pour la "cible", choisir le support de sauvegarde. Il y est fortement conseillé de **nommer clairement et dater** chaque dossier de sauvegarde.
