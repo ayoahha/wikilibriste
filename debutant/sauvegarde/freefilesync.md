@@ -2,7 +2,7 @@
 title: Sauvegarde par synchronisation des données
 description: Gestion des copies de sauvegarde
 published: false
-date: 2025-04-16T19:33:52.028Z
+date: 2025-04-16T19:34:03.289Z
 tags: sauvegarde, copies synchronisées, restauration données
 editor: markdown
 dateCreated: 2025-04-15T13:35:26.629Z
