@@ -2,7 +2,7 @@
 title: Sauvegarde des données par synchronisation
 description: Gestion des copies de sauvegarde
 published: false
-date: 2025-04-16T20:01:36.966Z
+date: 2025-04-16T20:04:59.890Z
 tags: sauvegarde, copies synchronisées, restauration données
 editor: markdown
 dateCreated: 2025-04-15T13:35:26.629Z
@@ -28,16 +28,18 @@ L'interface de FreeFileSync, très intuitive par ses libellés et ses titres, pe
 ![ffs-sauvegardes-enregistrées.png](/images/ffs-sauvegardes-enregistrées.png)
 - Aperçu des modifications à venir avant validation  de la synchronisation
 ![ffs-apercu-modifications-proposees.png](/images/ffs-apercu-modifications-proposees.png)
-## Colonne centrale de configuration
+### Colonne centrale de configuration
 Elle se présente sous une forme de tableau dans lequel nous allons préparer et personnaliser une synchronisation grâce à la roue crantée verte.
 ![roue-ffs-crantee.png](/images/roue-ffs-crantee.png)
 
 ![source-et-cible-num-2.png](/images/source-et-cible-num-2.png)
 
-Passons à notre première synchronisation :heart:
+### Passons à notre première synchronisation :heart:
 Une sauvegarde ne se fait **JAMAIS** sur le même support (ou périphérique) que le dossier "Source".
 - Choix de la "**source**" : **parcourir** le gestionnaire de fichiers et sélectionner le dossier désiré.
 - Choix de la "**cible**" : **parcourir** et choisir le support de sauvegarde. Il y est fortement conseillé de **nommer clairement et dater** votre dossier de sauvegarde.
+
+Notre meilleur outil : la roue verte crantée
 
 **4 modes de sauvegardes sont proposées**. Chacune d'entre elles a ses particularités ; le logiciel vous indique tant graphiquement (type et couleur d'icône) qu'avec le pointeur de la souris affichant des "infos-bulles", leurs fonctions .
 
