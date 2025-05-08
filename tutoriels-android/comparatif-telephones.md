@@ -2,7 +2,7 @@
 title: Téléphones libérables
 description: Le but de cette page est de fournir une information plus détaillée sur les téléphones libérables pour orienter un achat ou voir facilement quel OS tourne officiellement sur le téléphone.
 published: true
-date: 2024-10-07T20:42:12.201Z
+date: 2025-05-08T19:40:32.309Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-01T10:29:20.840Z
@@ -14,7 +14,7 @@ Trouver un téléphone libérable n'est pas facile, surtout quand la question du
 
 Vous trouverez, ci-après, la présentation de l'ensemble des colonnes avec leurs utilisations : 
 
-- Les marques, modèles et leurs codes pour bien se repérer sur les sites des ROMs alternatives.
+- Les marques, modèles et leurs codes pour bien se repérer sur les sites des ROM alternatives.
 - La date de sortie et le prix de lancement (parfois estimé à partir du prix en dollars US `$`) ce qui permet d'estimer le prix du téléphone aujourd'hui sans passer systématiquement par un site de revente de téléphone comme Ebay, Le Bon Coin, Backmarket… pour comparer.
   - **MSRP** :arrow_right: Manufacturer's Suggested Retail Price
   *Il ne s'agit pas du prix de vente réel mais du prix conseillé (à la date de sortie).*
@@ -39,8 +39,8 @@ Vous trouverez, ci-après, la présentation de l'ensemble des colonnes avec leur
   - 64 Go est suffisant si vous n'installez pas de grosses applications (jeux très lourds par ex.) et si vous disposez d'une carte SD dans le téléphone pour stocker vos photos et vidéos.
 - L'écran vous donne la taille de la diagonale de l'écran en pouce : en général, plus l'écran est grand, meilleure sera l'autonomie (entre 2 téléphones ayant le même SoC). La taille de l'écran est une question de préférences personnelles pour le confort visuel et la prise en main du téléphone.
 - Les colonnes suivantes indiquent le support des ROM disponibles pour ledit téléphone.
-  - **COL 10 à 15** - Pour les ROM Android : plus d'informations sur ces ROMs sur la page dédiée du [wiki](/debutant/android-roms). Sont précisées (quand disponible), la version de la ROM et la version d'Android (si plus maintenue officiellement, `legacy` sera utilisée).
-  - **COL 16 à 18** - Pour les ROM GNU/Linux : sont en général incompatibles avec les applications Android (sauf avec certaines versions de Sailfish OS, mais n'est pas entièrement Open Source). Sont concernées les ROMs Linux Postmarket OS, Sailfish OS et Ubuntu Touch.
+  - **COL 10 à 15** - Pour les ROM Android : plus d'informations sur ces ROM sur la page dédiée du [wiki](/debutant/android-roms). Sont précisées (quand disponible), la version de la ROM et la version d'Android (si plus maintenue officiellement, `legacy` sera utilisée).
+  - **COL 16 à 18** - Pour les ROM GNU/Linux : sont en général incompatibles avec les applications Android (sauf avec certaines versions de Sailfish OS, mais n'est pas entièrement Open Source). Sont concernées les ROM Linux Postmarket OS, Sailfish OS et Ubuntu Touch.
 - Le score I-Fixit, quand disponible, : ce score donne le niveau de réparabilité du téléphone, ainsi que la présence ou non d'une batterie démontable (facilement, sans besoin de médiator et de sèche-cheveux !).
 - La facilité de déverrouillage du bootloader, opération nécessaire pour changer le système d'exploitation.
   - Plus d'informations sur la libération du bootloader sur la page dédiée du [wiki](/tutoriels-android/bootloader-unlock)
