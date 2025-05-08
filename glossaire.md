@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2025-05-08T17:07:17.364Z
+date: 2025-05-08T19:35:25.937Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -552,7 +552,7 @@ En réalité, ces définitions ci-dessus ne font à ce jour pas consensus. On pe
 
 ROM en anglais est l’acronyme pour **R**ead **O**nly **M**emory, mémoire en lecture seule.
 
-Android est un système d'exploitation pour smartphones/tablettes qui est installé par le constructeur de l'appareil avant l'achat, au moyen de ce que l'on appelle un firmware OEM. Quand nous souhaitons le remplacer, pour se débarrasser des surcouches du constructeur et notamment de Google, nous devons **Flasher** (installer) une **Custom ROM** (une version personnalisée d'Android telles que Lineage OS, /e/ OS, CalyxOS...).
+Android est un système d'exploitation pour smartphones/tablettes qui est installé par le constructeur de l'appareil avant l'achat, au moyen de ce que l'on appelle un firmware OEM. Quand nous souhaitons le remplacer, pour se débarrasser des surcouches du constructeur et notamment de Google, nous devons **Flasher** (installer) une **Custom ROM** (une version personnalisée d'Android telle que Lineage OS, /e/ OS, CalyxOS...).
 
 Alors vous allez vous dire, une ROM c'est une mémoire morte en lecture seule, sur laquelle on ne peut pas ré-écrire ? Comment peut-on parler de flasher une ROM ? :confused:
 
