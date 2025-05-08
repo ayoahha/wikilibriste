@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2025-01-03T22:56:00.824Z
+date: 2025-05-08T18:00:19.002Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -137,9 +137,9 @@ Licence fermée ou libre ?
 
 ### Les licences Propriétaires ou le Copyright
 
-Le copyright c'est par exemple Google qui rachète tous les droits et brevets pour imposer un Android contenant ses surcouches et ajouter une identification obligatoire (le Google ID -pendant de l'Apple ID pour la marque à la pomme- via son courriel « gmail »), permettant ainsi d'en tracer les utilisateurs.
+Le copyright, c'est par exemple Google qui rachète tous les droits et brevets pour imposer un Android contenant ses surcouches et ajouter une identification obligatoire (le Google ID -pendant de l'Apple ID pour la marque à la pomme- via son courriel « gmail »), permettant ainsi d'en tracer les utilisateurs.
 
-Ce sont également des développeurs qui ajoutent leur application sur le Play Store avec des traceurs pour collecter les données des utlisateurs et les monétiser.
+Ce sont également des développeurs qui ajoutent leur application sur le Play Store avec des traceurs pour collecter les données des utilisateurs et les monétiser.
 
 Ce sont enfin des applications ou systèmes qui ne sont pas auditables facilement, qui n'appartiennent qu'aux entités qui les ont créés (et donc non copiables sous peine de poursuites judiciaires), et dont nous devons avoir une confiance _absolue_ en ce qu'ils proposent et disent !
 
@@ -149,7 +149,7 @@ Les applications ou systèmes **open source** ont leur code de développement ou
 
 Les aspects importants de ces 2 licences sont surtout le côté « **vérifiées** » et/ou **développées** par une communauté de développeurs indépendants cherchant à faire des applications vertueuses sans tous les pisteurs et avec un modèle de licence axé sur le partage public.
 
-> A noter que le noyau même d'Android était à l'origine open source avant d'être racheté par Google (explication plus loin dans ce document).
+> À noter que le noyau même d'Android était à l'origine open source avant d'être racheté par Google (explication plus loin dans ce document).
 {.is-info}
 
 ## Schéma de principe
@@ -165,7 +165,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 ```
 
 
-> Ci-dessous vous retrouvez nos recommandations suivant le profil. 
+> Ci-dessous, vous retrouvez nos recommandations suivant le profil. 
 > 
 > **Nous avons scindé en différents onglets : 
 > -- L'onglet "Pour débuter" pour les débutants et nouveaux venus dans le monde Android qui ne souhaitent pas creuser le sujet.
@@ -284,7 +284,7 @@ Voici les ROM alternatives du marché que nous recommandons pour ceux qui peuven
 | Calyx OS | [Site Officiel](https://calyxos.org/) | Intermédiaire | [26](https://calyxos.org/docs/guide/device-support/) | Non | Distribution concurrente de Graphene OS, mais s'articulant autour de l'aspect logiciel renforcé (DNS etc.), le noyau étant une base<br>AOSP. Il est possible d'ajouter MicroG afin d'avoir accès aux services Google d'authentification ou de s'en passer et d'avoir une version<br>Vanilla. Disponible sur les Pixels et quelques autres téléphones. Bootloader re-verrouillable uniquement sur les Pixels. |
 | /e/ OS | [Site Officiel](https://e.foundation/) | Débutant | [227](https://doc.e.foundation/devices) | Oui | Distribution axée vie privée basée sur Lineage OS. Prise en main rapide, convient aux débutants. Offre une solution cloud /e/OS (1 Go)<br>pour stocker ses courriels, notes, tâches, agenda, contacts. Un store AppLounge réunit toutes les applis de F-Droid et l'aternative au<br>Google Play - microG - est inclus. L'anti-pisteur "Advanced Privacy" permet de bloquer les trackers, masquer la localisation et l'adresse IP.<br>Il est possible de changer son DNS et toutes les communications vers Google ont été retirées (NTP, vérifications de connectivité,<br>géolocalisation). Très sobre en utilisation de la batterie. Bootloader re-verrouillable sur certains téléphones. |
 | Iodé OS | [Site Officiel](https://iode.tech/) | Débutant | [47](https://iode.tech/installation/) | Oui | Made in France (Toulouse !), cette distribution est également basée sur Lineage OS et axée vie privée, et intègre MicroG,<br>~~même si pour l'instant pas entièrement Open Source~~<br><span class="red-text">Iodé OS vient de libérer entièrement sa ROM : <a href="https://community.iode.tech/t/iodeos-is-open-source/888">Iodé OS passe pleinement open-source</a></span><br>Elle possède également un magasin en ligne afin d'acheter directement les téléphones avec leur ROM installée. |
-| ~~Divest OS~~ | [Site Officiel](https://divestos.org) | Intermédiaire | 150 | Non | <span class="red-text">Le développement de cette ROM a été [mise à l'arrêt fin 2024](https://divestos.org/pages/news#end), elle n'est donc plus conseillée car actuellement sans avenir, <br>vous pouvez vous tourner vers CalyxOS, GrapheneOS pour les ROM orientées sécurité et vers /e/OS et IodéOS pour les ROM orientées <br>vie privée et enfin si votre téléphone n'est compatible avec aucune de ces ROM, vers LineageoS pour les mises à jour régulières.</span><br>Distribution axée sécurité. Inclut de nombreux patchs de sécurité supplémentaires, un contrôle plus fin des permissions<br>et des accès aux capteurs du téléphone. Ne prend pas en charge MicroG et alternatives. Re-verrouille le bootloader sur les modèles<br>compatibles. |
+| ~~Divest OS~~ | [Site Officiel](https://divestos.org) | Intermédiaire | 150 | Non | <span class="red-text">Le développement de cette ROM a été [mis à l'arrêt fin 2024](https://divestos.org/pages/news#end), elle n'est donc plus conseillée car actuellement sans avenir, <br>vous pouvez vous tourner vers CalyxOS, GrapheneOS pour les ROM orientées sécurité et vers /e/OS et IodéOS pour les ROM orientées <br>vie privée et enfin si votre téléphone n'est compatible avec aucune de ces ROM, vers LineageoS pour les mises à jour régulières.</span><br>Distribution axée sécurité. Inclut de nombreux patchs de sécurité supplémentaires, un contrôle plus fin des permissions<br>et des accès aux capteurs du téléphone. Ne prend pas en charge MicroG et alternatives. Re-verrouille le bootloader sur les modèles<br>compatibles. |
 {.dense}
 
 
@@ -347,7 +347,7 @@ Pas à pas, vous allez configurer vous-même votre téléphone dans ce but. Ce d
 ### CalyxOS et /e/OS
 
 #### Premiers paramétrages
-Des paramétrages de base sont nécessaires afin de renforcer dans un premier temps la sécurité et la vie privée sur votre ordiphone :
+Des paramétrages de base sont nécessaires afin de renforcer, dans un premier temps, la sécurité et la vie privée sur votre ordiphone :
 :arrow_right: Désactiver la recherche de localisation
 - *Paramètres → Localisation → Service de localisation → Désactiver pour wifi et bluetooth*
 
@@ -361,13 +361,13 @@ Des paramétrages de base sont nécessaires afin de renforcer dans un premier te
 
 ##### Tabs {.tabset}
 ###### CalyxOS
-CalyxOS vient avec le magasin d'application F-Droid, qui contient une grande partie des applications libres et open-sources.
+CalyxOS vient avec le magasin d'application F-Droid, qui contient une grande partie des applications libres et open-source.
 - :arrow_right: Il est tout à fait possible d'ajouter un second magasin d'applications open source. Nous avons ici choisi d'utiliser *Droid-ify* pour son côté 'user-friendly' plus joli à notre goût.
 - :arrow_right: Pour ceux qui ont besoin cependant d'applications propriétaires (oui il y en aura toujours un peu, des applications bancaires par exemple), vous pourrez installer un magasin qui réduira la collecte des données. Nous avons ici choisi *Aurora Store*.
 {.grid-list}
 
 _**Ajout du magasin « Droid-ify » :**_
-Droid-ify est un magasin (« Store » en anglais) d'applications.
+Droid-ify est un magasin (« store » en anglais) d'applications.
 **Vous pouvez installer Droid-ify depuis F-droid.**
 
 Droid-ify contient beaucoup de dépôts nativement, même si vous pouvez en rajouter bien entendu. Vous pouvez ensuite rechercher et installer les applications libres proposées dans la suite de ce document.
@@ -401,7 +401,7 @@ Vous arrivez ensuite à la partie authentification :
 ![aurora2.png](/images/aurora2.png =700x){.align-center}
 
 ###### /e/OS
-/e/OS vient avec l'AppLounge, une application qui regroupe F-Droid (applications libres et open-sources) et le Play Store (en partie).
+/e/OS vient avec l'AppLounge, une application qui regroupe F-Droid (applications libres et open-source) et le Play Store (en partie).
 - :arrow_right: Ici, vous pouvez tout à fait ajouter un second magasin d'applications type F-droid comme *Droid-ify*. Référez-vous à la configuration CalyxOS pour ce faire.
 - :arrow_right: Pour ceux qui ont besoin cependant de plus d'applications propriétaires, nous estimons qu'AppLounge est un bon équivalent d'*Aurora Store*, nous n'installerons donc pas de magasin supplémentaire, mais il est tout à fait intéressant de complémenter AppLounge avec Aurora Store pour obtenir plus d'applications propriétaires (si besoin) ; vous pouvez également installer Aurora Store dans un profil professionnel histoire d'isoler les applications fermées. Référez-vous dans ce cas à la configuration CalyxOS pour ce faire ainsi qu"à la partie "Profil Professionnel".
 {.grid-list}
@@ -433,7 +433,7 @@ Voici un aperçu de l'application :
 
 ![](/images/applounge-5.jpg =700x){.align-center}
 
-> Vous pouvez configurer les paramètres comme indiqués sur les images ci-dessus.
+> Vous pouvez configurer les paramètres comme indiqué sur les images ci-dessus.
 {.is-info}
 
 AppLounge vous permet donc de rechercher des applications, à la manière de n'importe quel magasin d'applications :
@@ -479,13 +479,13 @@ Faites vos essais en lançant l'application :
 
 :point_right: Avant même d'ouvrir pour la première fois une *application fraîchement installée*, prenez systématiquement pour *habitude de la bloquer dans le Pare-feu* (si l'application le permet bien sûr, c'est le cas par exemple de « Collabora Office » qui n'a pas besoin d'accéder à internet).
 
-> Il est important de faire des essais pour bien comprendre le fonctionnement : décochez une application qui accède à internet et lancez là par exemple.
+> Il est important de faire des essais pour bien comprendre le fonctionnement : décochez une application qui accède à internet et lancez-la par exemple.
 {.is-info}
 
 _**VPN**_
-Pour le côté technique, nous vous renvoyons vers l'article [dédié aux VPNs](/debutant/vpn-tor).
+Pour le côté technique, nous vous renvoyons vers l'article [dédié aux VPN](/debutant/vpn-tor).
 
-CalyxOS vient nativement avec deux solutions VPNs pré-installées : « Calyx VPN » qui est une application développée par les développeurs Calyx eux-mêmes et « Riseup VPN » qui est un outil créé par le collectif bien connu des activistes du même nom. 
+CalyxOS vient nativement avec deux solutions VPN pré-installées : « Calyx VPN » qui est une application développée par les développeurs Calyx eux-mêmes et « Riseup VPN » qui est un outil créé par le collectif bien connu des activistes du même nom. 
 
 Aucun paramétrage n'est ici à entreprendre, et l'activation/désactivation se fait avec un gros bouton au centre de l'écran quand vous ouvrez l'application... plutôt simple !
 
@@ -824,7 +824,7 @@ GrapheneOS vient avec aucun magasin d'application spécifique, leur philosophie 
 {.grid-list}
 
 _**Ajout du magasin « F-Droid » :**_
-F-Droid est un magasin (« Store » en anglais) d'applications libre et open source.
+F-Droid est un magasin (« Store » en anglais) d'applications libres et open source.
 
 Pour pouvoir installer F-Droid :
 - Ouvrez votre navigateur internet et rendez-vous directement sur leur page : 
@@ -879,7 +879,7 @@ Il n'est pas nécessaire sur GrapheneOS d'installer un pare-feu.
 
 _**VPN**_
 
-Nous vous renvoyons ici vers l'article [dédié aux VPNs](/debutant/vpn-tor).
+Nous vous renvoyons ici vers l'article [dédié aux VPN](/debutant/vpn-tor).
 
 > Pour rappel, un VPN n'est pas un outil magique. Son rôle est orienté sécurité et vie privée et non anonymat dont c'est l'objectif de Tor.
 {.is-warning}
@@ -1051,7 +1051,7 @@ TrackerControl est un application très puissante, parfois trop même (car bloqu
 ### ROM d'origine
 #### Nettoyage ROM
 
-Il est tout à fait possible d'utiliser un outil très efficace afin de nettoyer quelque peu votre ROM d'origine constructeur ; bien souvent ces ROMs viennent avec des applications totalement superflues (que nous nommons "bloatware") et parfois même peu regardante au niveau de la collecte de vos données, par exemple Samsung qui pré-installe Facebook ou Microsoft Office avec ses ROMs. Il est donc possible avec un outil spécial de supprimer complètement ces applications.
+Il est tout à fait possible d'utiliser un outil très efficace afin de nettoyer quelque peu votre ROM d'origine constructeur ; bien souvent ces ROM viennent avec des applications totalement superflues (que nous nommons "bloatware") et parfois même peu regardantes au niveau de la collecte de vos données ; par exemple, Samsung qui pré-installe Facebook ou Microsoft Office avec ses ROM. Il est donc possible avec un outil spécial de supprimer complètement ces applications.
 
 > Nous avons rédigé un [tutoriel](/tutoriels-android/android-debloater) spécifique à ce sujet. N'hésitez pas à le lire.
 
@@ -1060,12 +1060,12 @@ Il est tout à fait possible d'utiliser un outil très efficace afin de nettoyer
 Des paramétrages de base sont nécessaires afin de renforcer dans un premier temps la sécurité et la vie privée sur votre ordiphone. Comme il existe une multitude de ROM sur le marché, il nous est impossible de les couvrir toutes... Nous donnons donc des pistes afin que vous puissiez rechercher l'option adéquate dans les paramètres de votre téléphone.
 
 :arrow_right: Désactiver la recherche de localisation, classiquement :
-- *Paramètres → Localisation → Service des localisation → Désactiver pour wifi et bluetooth*
+- *Paramètres → Localisation → Service des localisations → Désactiver pour wifi et bluetooth*
 
 :arrow_right: Désactiver les installations du navigateur internet, classiquement :
 - *Paramètres → Applications → Sélectionner votre navigateur web (Vanadium, Bromite, etc.) → Installation d'applis inconnues → désactiver "Autoriser depuis cette source".*
 
-> Attention ici, si vous installez F-Droid (cf. plus loin dans l'article, section Magasins d'applications), vous activer cette option puis la désactiver de nouveau !
+> Attention ici, si vous installez F-Droid (cf. plus loin dans l'article, section Magasins d'applications), vous activez cette option puis la désactivez de nouveau !
 {.is-warning}
 
 :arrow_right: Désactiver la vérification de connectivité, classiquement :
@@ -1075,13 +1075,13 @@ Des paramétrages de base sont nécessaires afin de renforcer dans un premier te
 
 #### Magasins d'applications
 
-Votre ROM d'origine ne vient sûrement pas avec un magasin d'application spécifique pour des applications open sources ou libres, mais plutôt avec le Google Play Store et les Play Services. Cependant, il est possible d'installer des magasins alternatifs pour ne plus utiliser le Play Store
+Votre ROM d'origine ne vient sûrement pas avec un magasin d'application spécifique pour des applications open-source ou libres, mais plutôt avec le Google Play Store et les Play Services. Cependant, il est possible d'installer des magasins alternatifs pour ne plus utiliser le Play Store
 - :arrow_right: Comme magasin d'applications open source, nous vous montrons les 2 magasins les plus simples d'utilisation, *F-Droid* et *Droid-Ify*.
 - :arrow_right: Pour les applications propriétaires, vous pourrez installer un magasin qui réduira la collecte des données. Nous avons ici choisi *Aurora Store*.
 {.grid-list}
 
 _**Ajout du magasin « F-Droid » :**_
-F-Droid est un magasin (« Store » en anglais) d'applications libre et open source.
+F-Droid est un magasin (« store » en anglais) d'applications libres et open-source.
 
 Pour pouvoir installer F-Droid :
 - Ouvrez votre navigateur internet et rendez-vous directement sur leur page : 
@@ -1091,7 +1091,7 @@ https://f-droid.org/fr/
 > **Disclaimer** : Ceci aura pour conséquence de télécharger un fichier ".apk" (cf. [le glossaire](/glossaire#apk)). Exceptionnellement ici, et puisqu'il n'y a pas de solution alternative, vous devrez donc télécharger ce fichier et accepter temporairement l'installation de sources inconnues dans les paramètres, automatique si vous double-cliquez sur ce fichier APK.
 
 _**Ajout du magasin « Droid-ify » :**_
-Droid-ify est un magasin (« Store » en anglais) d'applications.
+Droid-ify est un magasin (« store » en anglais) d'applications.
 **Vous pouvez installer Droid-ify depuis F-droid, donc il est nécessaire d'avoir installé F-droid avant !**
 
 Droid-ify contient beaucoup de dépôts nativement, même si vous pouvez en rajouter bien entendu. Vous pouvez ensuite rechercher et installer les applications libres proposées dans la suite de ce document.
@@ -1146,7 +1146,7 @@ Faites vos essais en lançant l'application :
 
 _**VPN**_
 
-Nous vous renvoyons ici vers l'article [dédié aux VPNs](/debutant/vpn-tor).
+Nous vous renvoyons ici vers l'article [dédié aux VPN](/debutant/vpn-tor).
 
 > Pour rappel, un VPN n'est pas un outil magique. Son rôle est orienté sécurité et vie privée et non anonymat dont c'est l'objectif de Tor.
 {.is-warning}
@@ -1166,20 +1166,20 @@ Si vous souhaitez ajouter la fonction Profil Professionnel, il est donc nécessa
 
 Deux applications spécifiquement développées pour les téléphones permettent de jouer sur les données EXIF : « [Scrambled Exif](https://f-droid.org/fr/packages/com.jarsilio.android.scrambledeggsif/) » ou « [Imagepipe](https://f-droid.org/en/packages/de.kaffeemitkoffein.imagepipe/) » sont des applications qui peuvent supprimer les méta données (localisation, auteur, etc) des images.
 
-La manipulation est simple : lorsque vous souhaitez partager n'importe où cette photo, partagez d"abord via l'application Scrambled Exif ou ImagePipe, puis partagez vers l'application que vous souhaitez.
+La manipulation est simple : lorsque vous souhaitez partager n'importe où cette photo, partagez d'abord via l'application Scrambled Exif ou ImagePipe, puis partagez vers l'application que vous souhaitez.
 
-> Ainsi l'image passe dans une moulinette qui supprime la plupart des métadonnées avant d'être transmise ailleurs.
+> Ainsi, l'image passe dans une moulinette qui supprime la plupart des métadonnées avant d'être transmise ailleurs.
 {.is-success}
 
 #### Navigateur internet
 
 Pour ce qui est du navigateur, nous vous laissons lire l'article rédigé spécifiquement sur ce sujet, section [Téléphone](/debutant/navigateurs#pour-t%C3%A9l%C3%A9phones).
 
-:arrow_right: Ici nous choisirons le navigateur Mull.
+:arrow_right: Ici, nous choisirons le navigateur Mull.
 
 Pour ce qui est des moteurs de recherche, nous vous laissons lire l'article rédigé spécifiquement sur ce sujet, que vous [retrouverez ici](/debutant/moteurs-recherche).
 
-:arrow_right: Ici nous avons choisi [searx.gnous.eu/](https://searx.gnous.eu/).
+:arrow_right: Ici, nous avons choisi [searx.gnous.eu/](https://searx.gnous.eu/).
 
 Pour changer de moteur de recherche sur ce navigateur : 
 - Ouvrez un onglet puis naviguez vers le moteur de recherche que vous souhaitez mettre en moteur par défaut (ici dans notre cas, nous naviguons vers https://searx.gnous.eu/
