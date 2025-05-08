@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2024-02-02T10:29:38.013Z
+date: 2025-05-08T17:07:17.364Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -437,7 +437,7 @@ Sûrement un mécanisme dont vous n'avez que très peu entendu parler. Et pourta
 
 *Qu'est-ce qu'un proxy ?*
 
-Un proxy est un élément d'un réseau qui va jouer le rôle d' **intermédiaire**. Schématiquement il s'agit d'un élément par lequel nous allons faire transiter toutes nos données, entrantes et sortantes, impossible d'y échapper donc (s'il est bien configuré !) :
+Un proxy est un élément d'un réseau qui va jouer le rôle d'**intermédiaire**. Schématiquement, il s'agit d'un élément par lequel nous allons faire transiter toutes nos données, entrantes et sortantes : impossible d'y échapper donc (s'il est bien configuré !) :
 
 ![Principes d'un Proxy](/images/proxy.png =500x){.align-center}
 
@@ -450,16 +450,16 @@ Techniquement, il ne s'agit ni plus ni moins que d'un serveur avec des règles d
 
 # RAM
 
-La RAM (Random-Access Memory) aussi appelé mémoire vive est une mémoire très rapide trouvable dans les ordinateurs et téléphones s'effacant à chaque redémarrage. Cette mémoire stocke les données des applications et du système d'exploitation une fois lancé. Un excès de RAM n'apporte pas plus de performance par contre un manque entrainera le système d'exploitation à stocker les données sur la mémoire morte ce qui ralentira considérablement le système et l'application/programme.
+La RAM (Random-Access Memory) aussi appelée "mémoire vive" est une mémoire très rapide trouvable dans les ordinateurs et téléphones s'effaçant à chaque redémarrage. Cette mémoire stocke les données des applications et du système d'exploitation une fois lancé. Un excès de RAM n'apporte pas plus de performance ; en revanche, un manque entraînera le système d'exploitation à stocker les données sur la mémoire morte, ce qui ralentira considérablement le système et l'application/programme.
 Les ordres de grandeur sont les suivants :
-* De 2 à 12 Go pour un smartphone, 4 à 6 Go sont la moyenne actuelle et sont suffisant pour l'essentiel des utilisateurs.
-* De 4 à 64 Go pour un ordinateur, 8 à 16 Go sont la moyenne actuelle et sont suffisant pour l'essentiel des utilisateurs et une grande partie des joueurs. Les grandes quantitées de mémoire sont principalement réservés à des applications spécifiques de productivités (modélisation 3D professionnelle, montage de vidéos professionnelle, compilation régulière de très gros programmes, modélisation physique par maillage de calculs mécaniques, thermiques, fluidiques...).
+* De 2 à 12 Go pour un smartphone, 4 à 6 Go sont la moyenne actuelle et sont suffisants pour l'essentiel des utilisateurs.
+* De 4 à 64 Go pour un ordinateur, 8 à 16 Go sont la moyenne actuelle et sont suffisants pour l'essentiel des utilisateurs et une grande partie des joueurs. Les grandes quantités de mémoire sont principalement réservées à des applications spécifiques de productivité (modélisation 3D professionnelle, montage de vidéos professionnelles, compilation régulière de très gros programmes, modélisation physique par maillage de calculs mécaniques, thermiques, fluidiques...).
 
 # Recovery
 
-C'est une "partition" de récupération (recovey en anglais) contenue sur les appareils Android et nommée recovery. Elle contient le mode de récupération Android.
+C'est une "partition" de récupération (recovery en anglais) contenue sur les appareils Android et nommée recovery. Elle contient le mode de récupération Android.
 
-Lorsque l'on veut remplacer le système Android, on doit alors le déverrouiller puis le "flasher" pour remplacer le recovery avec un Recovery personnalisé (Custom Recovery). Certaines custom ROM permettent de re-verrouiller ensuite l'appareil par souci de sécurité.
+Lorsque l'on veut remplacer le système Android, on doit alors le déverrouiller puis le "flasher" pour remplacer le recovery avec un Recovery personnalisé (Custom Recovery). Certaines "custom ROM" permettent de re-verrouiller ensuite l'appareil par souci de sécurité.
 
 > Nous renvoyons vers l'article dédié à [Android et ses ROM alternatives](/debutant/android-roms) pour en savoir plus.
 {.is-info}
@@ -479,11 +479,11 @@ Cette adresse vous est fournie (obligatoirement) par un FAI ou Fournisseur d’A
 
 ![Schématisation du réseau de réseaux internet](/images/internet.gif){.align-center}
 
-*Petite particularité : vous avez sûrement un téléphone portable, avec une connexion 3G, 4G... Ici le boîtier internet sera en fait le module réseau du téléphone, associé à la carte SIM que vous livrera l’opérateur téléphonique (qui en somme est un FAI). A cette carte SIM sera associée une adresse IP publique, afin d’accéder au réseau internet. Attention donc à ne pas confondre votre boîtier internet à la maison (avec son Wifi probablement), et votre téléphone portable avec sa connexion 3G/4G/5G !*
+*Petite particularité : vous avez sûrement un téléphone portable, avec une connexion 3G, 4G... Ici le boîtier internet sera en fait le module réseau du téléphone, associé à la carte SIM que vous livrera l’opérateur téléphonique (qui en somme est un FAI). À cette carte SIM sera associée une adresse IP publique, afin d’accéder au réseau internet. Attention donc à ne pas confondre votre boîtier internet à la maison (avec son Wifi probablement), et votre téléphone portable avec sa connexion 3G/4G/5G !*
 
 *D’ailleurs petite note technique : afin que le réseau 3G/4G/5G puisse vous offrir un accès au réseau internet, les antennes relais 3G/4G/5G sont elles-mêmes reliées aux câbles communaux.*
   
-> Attention à ne pas confondre réseau internet, par essence public, et réseau privé qui correspond au réseau que vous créez "chez vous". Et qui est différent du réseau internet. Par exemple en activant le Wifi sur votre Box, celle-ci crée un réseau privé sur lequel vos équipements peuvent se connecter via le Wifi...
+> Attention à ne pas confondre réseau internet, par essence public, et réseau privé qui correspond au réseau que vous créez "chez vous" et qui est différent du réseau internet. Par exemple, en activant le Wifi sur votre Box, celle-ci crée un réseau privé sur lequel vos équipements peuvent se connecter via le Wifi...
 {.is-info}
 
 
@@ -491,13 +491,15 @@ Par convention : une adresse IP se trouve par exemple, dans sa version actuelle 
 
 - 85.134.243.10
 
-Pour les plus techniques d’entre vous : il s’agit bien sûr d’une représentation pour le protocole IP version 4, en attendant le basculement complet vers IP version 6, dont les adresses se présentent par exemple ainsi : 2001:db8:0:85a3:0:0:ac1f:8001.
+Pour les plus techniques d’entre vous : il s’agit bien sûr d’une représentation pour le protocole IP version 4, en attendant le basculement complet vers IP version 6, dont les adresses se présentent par exemple ainsi :
+
+- 2001:db8:0:85a3:0:0:ac1f:8001.
 
 > Une petite astuce afin de connaître son adresse IP publique : vous pouvez visiter ce site : [DNS Leak test](https://www.dnsleaktest.com).
 
 # Réseau (Infrastructure)
 
-Cette définition est en fait plusieurs définitions : nous présentons ici les différentes topologies réseau que nous mentionnons dans les articles et que vous avez sûrement dû entendre au moins une fois, ainsi que les architectures potentielles associées à ces topologies. Pour schématiser, voici ce dont nous parlons :
+Cette définition est, en fait, plusieurs définitions : nous présentons ici les différentes topologies réseau que nous mentionnons dans les articles et que vous avez sûrement dû entendre au moins une fois, ainsi que les architectures potentielles associées à ces topologies. Pour schématiser, voici ce dont nous parlons :
 
 ![topologie.jpg](/images/topologie.jpg =500x){.align-center}
 
@@ -554,23 +556,23 @@ Android est un système d'exploitation pour smartphones/tablettes qui est instal
 
 Alors vous allez vous dire, une ROM c'est une mémoire morte en lecture seule, sur laquelle on ne peut pas ré-écrire ? Comment peut-on parler de flasher une ROM ? :confused:
 
-Eh bien oui, c'est étrange, mais à l'époque les mémoires contenant le micrologiciel (firmware) d'un appareil était "flashables" (comprendre installables) avec un programmateur d'EEPROM. Depuis, cela a bien évolué et les firmwares sont désormais contenus dans des mémoires de type "Flash" réinscriptibles. L'ancienne appellation a été conservée, de sorte que l'on dit encore : "Flasher une Custom ROM" :D
+Eh bien oui, c'est étrange, mais à l'époque, les mémoires contenant le micrologiciel (firmware) d'un appareil étaient "flashables" (comprendre installables) avec un programmateur d'EEPROM. Depuis, cela a bien évolué et les firmwares sont désormais contenus dans des mémoires de type "Flash" réinscriptibles. L'ancienne appellation a été conservée, de sorte que l'on dit encore : "Flasher une Custom ROM" :D
 
 # Root
 
 De l'anglais "racine", sur les systèmes de type Unix (GNU/Linux, BSD et MacOS), "root" est le nom donné à un utilisateur du système particulier : cet utilisateur possède tous les droits sur le système. Il est souvent nommé : super utilisateur.
 
-Généralement, le compte root est utilisé par les administrateurs systèmes. Aussi, posséder toutes les autorisations de modification/exécution sur un système est pratique mais surtout dangereux. En effet, en utilisant le compte root il est facile de corrompre le système (volontairement ou par mégarde).
+Généralement, le compte root est utilisé par les administrateurs systèmes. Aussi, posséder toutes les autorisations de modification/exécution sur un système est pratique mais surtout dangereux. En effet, en utilisant le compte root, il est facile de corrompre le système (volontairement ou par mégarde).
 
 Par défaut :
--   Les systèmes Unix séparent donc le compte root des autres comptes utilisateurs. Sur la plupart des distributions Linux le programme sudo permet à un utilisateur normal de surélever ses droits temporairement si celui-ci fait partie du groupe sudoers. A chaque fois qu'une opération nécessite des accès root, le mot de passe de l'utilisateur sudoers sera demandé pour que le système valide l'authentification et autorise ainsi la modification/exécution.
--   Les systèmes Windows de Microsoft quant à eux ont un compte intégré (Built-In) appelé "Administrateur". Généralement les utilisateurs ne se servent pas de ce compte, ils ont un compte utilisateur dédié qui est membre du groupe "Administrateurs". De ce fait ils peuvent lancer des programmes avec les privilèges super-utilisateur en cliquant "OUI" si ce programme a besoin de droits surélevés (cf. UAC), notez bien que contrairement à Linux, sur un Windows installé par défaut le mot de passe ne sera pas demandé !
+-   Les systèmes Unix séparent donc le compte root des autres comptes utilisateurs. Sur la plupart des distributions Linux, le programme sudo permet à un utilisateur normal de surélever ses droits temporairement si celui-ci fait partie du groupe sudoers. À chaque fois qu'une opération nécessite des accès root, le mot de passe de l'utilisateur sudoers sera demandé pour que le système valide l'authentification et autorise ainsi la modification/exécution.
+-   Les systèmes Windows de Microsoft, quant à eux, ont un compte intégré (Built-In) appelé "Administrateur". Généralement, les utilisateurs ne se servent pas de ce compte : ils ont un compte utilisateur dédié qui est membre du groupe "Administrateurs". De ce fait, ils peuvent lancer des programmes avec les privilèges super-utilisateur en cliquant "OUI" si ce programme a besoin de droits surélevés (cf. UAC), notez bien que, contrairement à Linux, sur un Windows installé par défaut, le mot de passe ne sera pas demandé !
 
 # Rooter
 
 Ceci consiste à reprendre le contrôle du compte root sur une machine.
 
-Sur Android, par défaut, ce compte est désactivé et inaccessible. Rooter consiste a effectuer une manipulation sur l'appareil comme par exemple : lancer un "exploit" ou installer un recovery custom puis lancer un script. **Contrairement à l'idée reçue, la plupart du temps, pour flasher une custom ROM, sachez qu'il n'est absolument pas nécessaire de rooter un appareil, c'est même déconseillé !**
+Sur Android, par défaut, ce compte est désactivé et inaccessible. Rooter consiste à effectuer une manipulation sur l'appareil comme par exemple, lancer un "exploit" ou installer un recovery custom puis lancer un script. **Contrairement à l'idée reçue, la plupart du temps, pour flasher une custom ROM, sachez qu'il n'est absolument pas nécessaire de rooter un appareil, c'est même déconseillé !**
 
 Sur Apple, on parle de "Jailbreak" qui consiste à "sortir de prison" mais c'est à peu près le même concept qu'Android.
 
@@ -579,7 +581,7 @@ Sur un PC, le compte Administrateur (Windows) est activé la plupart du temps. E
 Il est absolument déconseillé de l'activer ou si c'est déjà le cas, de l'utiliser. Nous vous conseillons plutôt :
 
 -   d'utiliser la commande sudo, par ex. sur les dérivés Debian/Linux installés par défaut, pour effectuer toutes vos tâches d'administration.
--   sous Windows, d'utiliser un compte utilisateur membre du groupe "Administrateurs" et d'utiliser le clic droit puis "Exécuter en tant qu'administrateur". Il est possible et conseillé, en modifiant UAC, de réactiver la demande de mot de passe lorsque vous faite une élévation de privilèges.
+-   sous Windows, d'utiliser un compte utilisateur membre du groupe "Administrateurs" et d'utiliser le clic-droit puis "Exécuter en tant qu'administrateur". Il est possible et conseillé, en modifiant UAC, de réactiver la demande de mot de passe lorsque vous faites une élévation de privilèges.
 
 # SBC
 
@@ -599,7 +601,7 @@ Le SoC, de l'anglais "System on a Chip", comporte un système embarqué entier s
 Est l'anglicisme pour désigner en français un "logiciel".
 
 # SSH
-Secure Shell (SSH) est un protocole de communication chiffré entre 2 machines. A l'ouverture de la session des clefs de chiffrement sont échangées afin de sécuriser la communication. 
+Secure Shell (SSH) est un protocole de communication chiffré entre 2 machines. À l'ouverture de la session, des clefs de chiffrement sont échangées afin de sécuriser la communication. 
 
 C'est aussi un logiciel : serveur ``sshd`` et client ``ssh``. Le client est installé par défaut sur la plupart des distributions GNU/Linux.
 
@@ -620,7 +622,7 @@ Voici une sélection de logiciels libres qui proposent un client ssh évolué av
 
 # Système de fichiers (FS)
 
-Un système de fichier (file system ou FS) peut désigner :
+Un système de fichiers (file system ou FS) peut désigner :
 - la façon dont les fichiers sont organisés dans une partition.
 - ou bien la manière de ranger les dossiers dans un système d'exploitation.
 
@@ -663,11 +665,11 @@ Passons en revue les dossiers standards présents à la racine `/` d'un FS GNU/L
 - **SWAP** : Le swap est traditionnellement stocké dans une partition dédiée avec un FS de type SWAP. Mais il est tout à fait possible de stocker le swap à la racine du FS dans un fichier `/swapfile`
 - **/bin** : Ce dossier (binaries, en français exécutables) contient tous les programmes essentiels. Par exemple les commandes `ls`, `cat`, `mv` et bien d'autres sont situées dans ce répertoire.
 - **/boot** : Les fichiers qui permettent de démarrer (boot) le système sont placés dans ce dossier. On y retrouve le noyau (kernel) Linux et l'image ramdisk (initrd et initramfs) mais aussi GRUB et EFI (pour les BIOS de type UEFI).
-- **/dev** : Sous Linux tout est fichier. Ainsi les composants matériels (devices) y sont représentés sous forme de fichiers spéciaux (device files).
+- **/dev** : Sous Linux, tout est fichier. Ainsi, les composants matériels (devices) y sont représentés sous forme de fichiers spéciaux (device files).
 - **/etc** : Contient les fichiers de configuration du système.
 - **/home** : Chaque compte aura un sous-dossier ici, c'est la "maison" (home) des utilisateurs où seront stockés les fichiers et paramètres personnels de ceux-ci.
 - **/lib** : les bibliothèques nécessaires au fonctionnement de `/bin` et `/sbin`.
-- **/media** : point de montage dédié pour les médias externes tel que les disques USB et les images ISO.
+- **/media** : point de montage dédié pour les médias externes tels que les disques USB et les images ISO.
 - **/mnt** : idem que `/media` mais pour le montage _temporaire_.
 - **/opt** : ce dossier est destiné à accueillir les applications installées manuellement, c'est-à-dire sans utiliser de gestionnaire de paquet tel que `dpkg`, `rpm`, `apt` ou `dnf`/`yum`.
 - **/proc** : les processus en cours d'utilisation y sont représentés sous forme de fichiers.
@@ -693,7 +695,7 @@ En informatique, il s'agit d'un identifiant unique, qui peut tout aussi bien ren
 
 De l'anglais "Time-based One Time Password", ou mot de passe à usage unique basé sur le temps.
 
-Le principe est le même que le [One Time Password (OTP)](#otp) cité plus haut, à ceci prêt que son fonctionnement repose sur la synchronisation de l'horloge entre le serveur d'authentification et le dispositif de l'utilisateur, généralement un ordiphone ou un dispositif de sécurité dédié. Chaque jeton généré est limité dans une temporalité pré-définie (quelques secondes ou minutes), définie fonction du temps actuel et du secret partagé.
+Le principe est le même que le [One Time Password (OTP)](#otp) cité plus haut, à ceci prêt que son fonctionnement repose sur la synchronisation de l'horloge entre le serveur d'authentification et le dispositif de l'utilisateur, généralement un ordiphone ou un dispositif de sécurité dédié. Chaque jeton généré est limité dans une temporalité pré-définie (quelques secondes ou minutes), définie en fonction du temps actuel et du secret partagé.
 
 ![freeotp-exemple_neutre.jpeg](/images/freeotp-exemple_neutre.jpeg =200x){.align-right}
 
@@ -707,12 +709,12 @@ Un tracker (ou "pisteur" en français) est un outil permettant d'effectuer une t
 
 # URL
 
-De l'anglais "Uniform Resource Locator" : localisateur universel de ressources.
+De l'anglais "Uniform Ressource Locator" : localisateur universel de ressources.
 
-C'est par exemple l'adresse visible depuis son navigateur internet, dans la barre de recherche : typiquement https://www.exemple-de-site.com. Techniquement, d'après le Larousse, son  rôle est de :
+C'est, par exemple, l'adresse visible depuis son navigateur internet, dans la barre de recherche : typiquement https://www.exemple-de-site.com. Techniquement, d'après le "Larousse", son  rôle est de :
 > "*préciser la localisation d'une ressource Internet, en indiquant le protocole à adopter, le nom de la machine, le chemin d'accès et le nom du fichier.*"
 
-> A mettre en lien avec le DNS, dont vous trouverez plus de détails dans l'[article suivant](/debutant/dns).
+> À mettre en lien avec le DNS, dont vous trouverez plus de détails dans l'[article suivant](/debutant/dns).
 {.is-info}
 
 # Vulnérabilité
