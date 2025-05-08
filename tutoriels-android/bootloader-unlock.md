@@ -2,7 +2,7 @@
 title: Android Bootloader Unlock
 description: Ce tutoriel vous parle des "bootloader" liés à Android et fait un état de lieux...
 published: true
-date: 2025-04-12T23:11:51.137Z
+date: 2025-05-08T20:15:05.861Z
 tags: android, smartphone, ordiphone, booloader, intermédiaire, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:54:20.672Z
@@ -143,10 +143,10 @@ Sachez que la plupart du temps, si le modèle exact de votre téléphone **<span
 - [DivestOS *Vérifiez si votre appareil est supporté.*](https://divestos.org/index.php?page=devices&base=LineageOS)
 - [DotOS *Vérifiez si votre appareil est supporté.*](https://www.droidontime.com/devices)
 - [Replicant *Certains modèles de Samsung*.](https://replicant.us/supported-devices.php)
-- [Forum XDA *En dernier recours, vous pouvez aller voir sur le site de référence en la matière. Mais attention ici, certaines ROMs ne sont plus maintenues et cela fluctue en fonction des développeurs...*](https://forum.xda-developers.com/all-forums-by-manufacturer)
+- [Forum XDA *En dernier recours, vous pouvez aller voir sur le site de référence en la matière. Mais attention ici, certaines ROM ne sont plus maintenues et cela fluctue en fonction des développeurs...*](https://forum.xda-developers.com/all-forums-by-manufacturer)
 {.links-list}
 
-Vous avez la possibilité aussi, pour les fabricants qui ont une méthode de déverrouillage par clef mais qui ne proposent pas/plus au public d'y accéder, de [bruteforcer la clef](https://github.com/samuelcaldas/Bruteforce-Bootloader-Unlocker) en espérant qu'aucun système anti-bruteforce n'est été implémenté, donc en dernier recours après le forum XDA.
+Vous avez la possibilité aussi, pour les fabricants qui ont une méthode de déverrouillage par clef mais qui ne proposent pas/plus au public d'y accéder, de [bruteforcer la clef](https://github.com/samuelcaldas/Bruteforce-Bootloader-Unlocker), en espérant qu'aucun système anti-bruteforce n'ait été implémenté, donc en dernier recours après le forum XDA.
 
 Merci au Github [Bootloader Unlock Wall of Shame](https://github.com/melontini/bootloader-unlock-wall-of-shame/tree/main) et aux différents sites de ROM (LineageOS, /e/OS...) pour les méthodes de déverrouillage du bootloader.
 
