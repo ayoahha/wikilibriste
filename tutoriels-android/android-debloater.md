@@ -2,7 +2,7 @@
 title: Debloater son téléphone Android
 description: Ce tutoriel vous montre comment vous pouvez supprimer les logiciels superflus de votre ordiphone préféré
 published: true
-date: 2023-11-26T00:34:25.485Z
+date: 2025-05-08T17:27:22.664Z
 tags: debloat, uad
 editor: markdown
 dateCreated: 2023-02-12T13:37:27.461Z
@@ -11,7 +11,7 @@ dateCreated: 2023-02-12T13:37:27.461Z
 Ce tutoriel vous présentera un outil capable de supprimer les paquets logiciels pré-installés sur votre téléphone Android que nous nommons généralement des "bloatswares", c'est-à-dire des logiciels inutiles parfois même dangeureux pour notre vie privée (cf. [glossaire](/glossaire)).
 
 Cet outil est le suivant :
-- [Unversal Android Debloater](https://github.com/0x192/universal-android-debloater)
+- [Universal Android Debloater](https://github.com/0x192/universal-android-debloater)
 
 Attention, celui-ci ne fonctionne a priori que sur les marques suivantes :
 - Asus
