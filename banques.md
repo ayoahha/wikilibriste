@@ -1,8 +1,8 @@
 ---
 title: Améliorer la compatibilité des applications bancaires sur les systèmes basés sur Lineage
 description: Cet article présente différentes manières et configuration  pour améliorer la compatibilité des applications bancaires sur /e/OS, LineageOS, CalyxOS et tout autre système complètement dégoogleisé utilisant une base LineageOS et microG 
-published: true
-date: 2025-05-13T20:48:04.308Z
+published: false
+date: 2025-05-13T20:48:34.842Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-13T20:48:04.308Z
