@@ -2,7 +2,7 @@
 title: Liste des logiciels libres pour l'ingénieur
 description: Cette artiche présente des alternatives de logiciels propriétaires
 published: false
-date: 2025-05-09T20:34:55.160Z
+date: 2025-05-13T19:43:13.386Z
 tags: libre, pro, professionnels, ingénierie, ingénieur
 editor: markdown
 dateCreated: 2025-05-06T20:35:19.482Z
@@ -37,3 +37,5 @@ Si le logiciel vous plait où si vous n'arrivez pas encore à vous séparer du l
 ## Schéma P&ID
 ## Design mécanique
 ## BIM
+
+Contributeur(s): Justin
