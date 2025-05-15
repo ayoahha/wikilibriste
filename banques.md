@@ -1,8 +1,8 @@
 ---
 title: Améliorer la compatibilité des applications bancaires sur les systèmes basés sur Lineage
 description: Cet article présente différentes manières et configuration  pour améliorer la compatibilité des applications bancaires sur /e/OS, LineageOS, CalyxOS et tout autre système complètement dégoogleisé utilisant une base LineageOS et microG 
-published: false
-date: 2025-05-13T20:48:34.842Z
+published: true
+date: 2025-05-15T19:22:34.715Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-13T20:48:04.308Z
@@ -30,5 +30,7 @@ Les développeurs des banques utilisent les moyens mis à disposition dans les l
 4. MEETS_STRONG_INTEGRITY ce qui veut dire que en plus d'^etre apprové par Google, il n'y a pas eu de modification du chargeur de démarrage et celui ci est bien sécurisé par des sécurisations approuvées par Google.
 
 Il existe un dernier niveau, le MEETs_VIRTUAL_INTEGRITY mais celui ci est pour les machines virtuelles avec le Playstore installé.
+
+
 
 Rootbear
