@@ -2,7 +2,7 @@
 title: Les navigateurs web
 description: Un article liés aux navigateurs internet et leur durcissement...
 published: true
-date: 2025-05-16T14:00:08.161Z
+date: 2025-05-16T14:13:40.974Z
 tags: navigateur, web, internet, privacy, vie privée, chrome, firefox, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:38:25.687Z
@@ -54,15 +54,18 @@ Sachez que la part de marché des navigateurs web [^²] basés sur Google Chromi
 ## Nos recommandations
 
 Le marché des navigateurs suit un peu sur le même chemin que les moteurs de recherche malheureusement. Le marché est tel que nous n'en recommandons que très peu :
-- [Ungoogled Chromium *est probablement un des choix à faire. Il est néanmoins nécessaire de le configurer correctement \**](https://github.com/ungoogled-software/ungoogled-chromium#downloads)
-- [Librewolf *est une excellente alternative sur base firefox, même si quelques requêtes Mozilla sont encore présentes au démarrage*](https://librewolf.net/installation/)
-- [Mullvad Browser *est ici encore une très bonne alternative sur base firefox, jeune certes, mais fournissant toutes les fonctionnalités nécessaires*](https://mullvad.net/fr/browser)
+- [Mullvad Browser *Très bonne alternative sur base firefox, déjà préconfiguré. Possible d'utiliser leur DNS directement depuis le navigateur*](https://mullvad.net/fr/browser)
+- [Librewolf *Excellente alternative sur base firefox, même si quelques requêtes Mozilla sont encore présentes au démarrage*](https://librewolf.net/installation/)
+- [Ungoogled Chromium *Probablement la base chromium. Il est néanmoins nécessaire de le configurer correctement donc plus complexe à metttre en oeuvre pour le débutant \**](https://github.com/ungoogled-software/ungoogled-chromium#downloads)
 {.links-list}
 
 \* : Voir notre [tutoriel](/tutoriels/ungoogled-chromium) afin de configurer correctement Ungoogled Chromium.
 
 > _Note sur Tor Browser_ : nous ne recommandons pas forcément ce navigateur pour un usage quotidien, **mais pour des recherches ciblées**. S'il est utilisé sur un support adéquat comme Whonix et Tails, cela vous apporte une sécurité supplémentaire...
+>
 > *Tor Project a énormément travaillé sur le contournement du fingerprinting, probablement au détriment de la sécurité. De plus n'importe quel autre navigateur est capable de visiter les sites .onion ou d'utiliser le réseau Tor (pour peu que vous le configuriez correctement : en effet, par ex. Proxy Tor ou Orbot+RPV sur téléphone etc.) et ceux-ci ne souffrent pas de versions de retard (et donc de failles héritées de ces versions)*.
+>
+> **On évitera également d'utiliser d'autres navigateurs proposant de naviguer sur Tor**.
 {.is-info}
 
 # Pour Téléphones
@@ -85,8 +88,8 @@ Le marché des navigateurs suit un peu sur le même chemin que les moteurs de re
 ## Nos recommandations
 
 Le marché des navigateurs sur mobile est encore pire que celui sur PC fixe :
+- [IronFox *est l'alternative crédible sur base Gecko*]()
 - [Vanadium *pour la sécurité (uniquement disponible sur Pixels)*](https://github.com/GrapheneOS/Vanadium)
-- [Mull *est l'alternative crédible sur base Gecko*](https://gitlab.com/divested-mobile/mull-fenix)
 {.links-list}
 
 # Extensions
