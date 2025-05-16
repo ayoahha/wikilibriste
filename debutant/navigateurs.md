@@ -2,7 +2,7 @@
 title: Les navigateurs web
 description: Un article liés aux navigateurs internet et leur durcissement...
 published: true
-date: 2025-05-16T14:13:40.974Z
+date: 2025-05-16T14:13:58.854Z
 tags: navigateur, web, internet, privacy, vie privée, chrome, firefox, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:38:25.687Z
@@ -88,7 +88,7 @@ Le marché des navigateurs suit un peu sur le même chemin que les moteurs de re
 ## Nos recommandations
 
 Le marché des navigateurs sur mobile est encore pire que celui sur PC fixe :
-- [IronFox *est l'alternative crédible sur base Gecko*]()
+- [IronFox *est l'alternative crédible sur base Gecko*](https://gitlab.com/ironfox-oss/IronFox)
 - [Vanadium *pour la sécurité (uniquement disponible sur Pixels)*](https://github.com/GrapheneOS/Vanadium)
 {.links-list}
 
