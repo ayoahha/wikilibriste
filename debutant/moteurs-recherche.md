@@ -2,7 +2,7 @@
 title: Les moteurs de recherche
 description: Article liés aux moteurs de recherche internet et le côté respect de la vie privée...
 published: true
-date: 2025-05-16T15:13:23.128Z
+date: 2025-05-16T15:13:52.458Z
 tags: privacy, vie privée, moteurs, recherche, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:45:28.462Z
@@ -304,7 +304,7 @@ Pour synthétiser :
 -  **[SearX](https://searx.github.io/searx/)** reste la meilleure alternative, pour une personne plus adaptable et investie, et en sélectionnant avec une bonne instance _sans Cloudflare_. Voici les instances que nous recommandons :
      - https://search.inetol.net 🇨🇭
      - https://spot.ecloud.global  🇫🇷 (instance maintenue par la eFoundation de la ROM /e/OS ;))
-- **[Brave Search](https://search.brave.com/)** semble plus mature aujourd'hui, l'index est performant. Reste toujours ce côté controversé de Brave Inc.
+- **[Brave Search](https://search.brave.com/)** semble plus mature aujourd'hui, l'index est performant, les résultats sont donc proches des meilleurs index. Reste toujours ce côté controversé de Brave Inc.
 -  **[Mojeek](https://www.mojeek.com/)** pour toute personne ayant un intérêt pour leur vie privée, mais ne soyez pas trop regardant sur les résultats et sur le code source propriétaire !
 - **[Gibiru](https://gibiru.com/)** reste une alternative crédible, notamment pour les résultats de l'indexation Google.
 - Concernant **StartPage**, c'est à vous de décider si vous leur faites confiance, de notre côté ce sera non. 
