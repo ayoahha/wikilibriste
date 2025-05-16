@@ -2,7 +2,7 @@
 title: Les navigateurs web
 description: Un article liés aux navigateurs internet et leur durcissement...
 published: true
-date: 2025-04-12T18:08:16.489Z
+date: 2025-05-16T14:00:08.161Z
 tags: navigateur, web, internet, privacy, vie privée, chrome, firefox, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:38:25.687Z
@@ -49,8 +49,7 @@ Sachez que la part de marché des navigateurs web [^²] basés sur Google Chromi
 [^5]: [Brave Browser Controversies](https://wikiless.org/wiki/Brave_(web_browser)#Controversies)
 [^6]: [Brave Browser Analyse](https://spyware.neocities.org/articles/brave)
 [^7]: [Brave revend des données pour entrainer des IA](https://stackdiary.com/brave-selling-copyrighted-data-for-ai-training/)
-[^8]: [Brave installe ses services VPN sans consentements](https://www.ghacks.net/2023/10/18/brave-is-installing-vpn-services-without-user-consent/)
-[^9]: [Brave et liens affiliés - Crypto](https://www.theverge.com/2020/6/8/21283769/brave-browser-affiliate-links-crypto-privacy-ceo-apology)
+
 
 ## Nos recommandations
 
