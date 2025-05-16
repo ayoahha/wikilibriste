@@ -2,7 +2,7 @@
 title: Les moteurs de recherche
 description: Article liés aux moteurs de recherche internet et le côté respect de la vie privée...
 published: true
-date: 2024-08-29T16:04:56.954Z
+date: 2025-05-16T15:13:02.330Z
 tags: privacy, vie privée, moteurs, recherche, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T18:45:28.462Z
@@ -72,37 +72,6 @@ Très récemment (Mars 2022), DDG a annoncé appliquer une censure sur les résu
 [^⁶]: [DDG et la Censure](https://www.developpez.com/actu/331759/DuckDuckGo-procede-au-deferencement-des-sites-qui-seraient-associes-a-la-desinformation-russe-mais-certains-utilisateurs-crient-a-la-censure-et-demandent-au-moteur-de-recherche-de-revoir-son-action/).
 
 > DuckDuckGo a annoncé avoir pris des mesures concernant la télémétrie. Cela dit depuis la mise en place de leur politique de censure, et l'évolution négative de leur politique de collecte de données, nous ne recommandons plus ce moteur de recherche.
-{.is-danger}
-
-### Brave Search
-[Brave search](https://search.brave.com/) est le moteur de recherche de la société Brave Inc., moteur "*respectueux de la vie privée*" d'après leur cahier des charges. Il implémente son propre moteur d'indexation (au contraire de Duckduckgo), donc dans 99% des cas, il ne fait pas appel à ceux de Google ou Bing (hormis pour les images, qui sont indexées sur Bing) ; pour les 1% restants, il fait appel aux autres moteurs de recherche même s'il prétend le faire de façon privée [^⁷] bien entendu. Également, récemment Brave Search a annoncé mettre à jour leur modèle de financement vers de la publicité [^⁸], même si non ciblée et respectueuse de notre vie privée, bien entendu.
-
-Après avoir exposé l'enveloppe, voyons ce qu'elle contient :
-- Lorsque nous regardons leur politique de vie privée [^⁹], nous lisons ceci : "*Vous pouvez rechercher 'bar autour de moi' Brave Search utilisera l'adresse IP transmise par votre équipement mais sans la partager ni la stocker. Cela signifie que nous ne pouvons pas rapprocher votre recherche à vous même ou avoir votre localisation.*" Rien de plus n'est dit sur une quelconque collecte de données. Super ! Sauf qu'une page bien particulière, nommée 'usage metrics' [^¹0] est présente et fait état de ceci :
-
-[^⁷]: [Brave - Privacy](https://search.brave.com/help/independence)
-[^⁸]: [Brave - Publicité](https://brave.com/private-search-ads/)
-[^⁹]: [Brave - Politique de Vie Privée](https://search.brave.com/help/privacy-policy)
-[^¹0]: [Brave - Données stockées](https://search.brave.com/help/usage-metrics)
-
-
-> [Le moteur] "*est relativement nouveau et à ce titre nous sommes encore en train d'apprendre comment les personnes interagissent avec le site, ainsi que les performances. Spécifiquement, nous espérons apprendre les éléments suivants :*
-> -   *Nombre de visites quotidiennes / hebdomadaires / mensuelles*
-> -   *Nombre de visites récurrentes*
-> -   *Nombre de requêtes par jour*
-> -   *Combien de temps vous utilisez Brave Search*
-> -   *Moyenne de la taille de vos requêtes*
-> -   *Combien d'utilisateurs choisissent de laisser un commentaire sur Brave Search*
-> -   *Le système d'exploitation que les utilisateurs utilisent (par ex. : macOS, Windows, etc.)*
-> -   *Le navigateur que vous utilisez (par ex. : Brave, Chrome, Safari, etc)*
-> -   *Les cliques et les vues sur les publicités qui apparaissent sur Brave Search*
-> -   *Le pays associé aux cliques et vues*".
-
-**C'est tout de même une liste assez conséquente... la jeunesse n'excuse pas tout !**
-
-- Pour effectuer des recherches sur Brave Search via Tor, il est maintenant nécessaire d'activer le Javascript et WebAssembly, ce qui augmente le risque de désanonymisation.
-
-> Brave n'en est pas à son coup d'essai, et ce n'est probablement pas fini (cf. notre article sur les [navigateurs](/debutant/navigateurs)). Enfin, même si la pertinence de leurs résultats est correcte, nous doutons qu'il utilise réellement son propre index (puisque les résultats sont souvent les mêmes que ceux de Google. Coïncidence ?)... il y a de très fortes chances qu'il applique les mêmes modes de censure que Google. Nous ne recommandons bien évidemment pas.
 {.is-danger}
 
 ### Qwant
@@ -202,6 +171,43 @@ Tentons un rapide coup d'oeil à leur [politique](https://www.lilo.org/votre-vie
 
 ## Mention passable
 
+### Brave Search
+[Brave search](https://search.brave.com/) est le moteur de recherche de la société Brave Inc., moteur "*respectueux de la vie privée*" d'après leur cahier des charges. Il implémente son propre moteur d'indexation (au contraire de Duckduckgo), et dorénavant est **complètement indépendant** d'autres moteurs (i.e. Google et Bing) [^⁷]. Également, récemment Brave Search a annoncé mettre à jour leur modèle de financement vers de la publicité choisie [^⁸] qui se présente sous la forme d'une option activable.
+
+Après avoir exposé l'enveloppe, voyons ce qu'elle contient :
+- Lorsque nous regardons leur politique de vie privée [^⁹], nous lisons ceci : 
+
+> "*Vous pouvez rechercher 'bar autour de moi' Brave Search utilisera l'adresse IP transmise par votre équipement mais sans la partager ni la stocker. Cela signifie que nous ne pouvons pas rapprocher votre recherche à vous même ou à votre localisation.*"
+
+Rien de plus n'est dit sur une quelconque collecte de données...
+
+- ...Super ! Sauf qu'une page bien particulière, nommée 'usage metrics' [^¹0] est présente et fait état de ceci :
+
+[^⁷]: [Brave - Moteur et Index](https://brave.com/blog/search-independence/)
+[^⁸]: [Brave - Publicité](https://brave.com/private-search-ads/)
+[^⁹]: [Brave - Politique de Vie Privée](https://search.brave.com/help/privacy-policy)
+[^¹0]: [Brave - Données stockées](https://search.brave.com/help/usage-metrics)
+
+
+> [Le moteur] "*est relativement nouveau et à ce titre nous sommes encore en train d'apprendre comment les personnes interagissent avec le site, ainsi que les performances. Spécifiquement, nous espérons apprendre les éléments suivants :*
+> -   *Nombre de visites quotidiennes / hebdomadaires / mensuelles*
+> -   *Nombre de visites récurrentes*
+> -   *Nombre de requêtes par jour*
+> -   *Combien de temps vous utilisez Brave Search*
+> -   *Moyenne de la taille de vos requêtes*
+> -   *Combien d'utilisateurs choisissent de laisser un commentaire sur Brave Search*
+> -   *Le système d'exploitation que les utilisateurs utilisent (par ex. : macOS, Windows, etc.)*
+> -   *Le navigateur que vous utilisez (par ex. : Brave, Chrome, Safari, etc)*
+> -   *Les cliques et les vues sur les publicités qui apparaissent sur Brave Search*
+> -   *Le pays associé aux cliques et vues*".
+
+**C'est tout de même une liste conséquente. La jeunesse n'excuse pas tout ! Même si techniquement, l'implémentation de la collecte de ces données limite le profilage...**
+
+- En revanche pour effectuer des recherches sur Brave Search via Tor, il est maintenant nécessaire d'activer le Javascript et WebAssembly, ce qui augmente le risque de désanonymisation. De toute manière, **nous ne recommanderons jamais d'utiliser Tor en dehors de Tor Browser**.
+
+> Brave Inc. étant plutôt controversé (cf. notre article sur les [navigateurs](/debutant/navigateurs)), il apparait qu'ils ont tout de même fait des progrès en ce qui concerne les données collectées et la façon de les traiter (possible de désactiver). Pour ce qui est de l'indépendance, le problème est définitivement réglé, ce qui fait de Brave Search un nouvelle alternative crédible, avec ses pours et ses contres!
+{.is-warning}
+
 ### StartPage
 [StartPage](https://www.startpage.com/) est un moteur de recherche fondé sur la "*protection stricte de la vie privée*"" car d'après eux "*La vie privée est un droit fondamental de l'être humain*" ! Il emprunte les résultats du moteur de recherche Google, que StartPage indexe, et font comme Lilo en coupant le pistage publicitaire ciblé, semble-t-il. Cependant, certains utilisateurs de Tor et/ou de VPN peuvent rencontrer des difficultés, car StartPage bloque certaines adresses IP de serveurs connus.
 
@@ -296,9 +302,9 @@ Nous avons tenté d'être le plus transparent possible, et de limiter le choix a
 Pour synthétiser :
 
 -  **[SearX](https://searx.github.io/searx/)** reste la meilleure alternative, pour une personne plus adaptable et investie, et en sélectionnant avec une bonne instance _sans Cloudflare_. Voici les instances que nous recommandons :
-     - https://searx.tiekoetter.com 🇩🇪 
      - https://search.inetol.net 🇨🇭
      - https://spot.ecloud.global  🇫🇷 (instance maintenue par la eFoundation de la ROM /e/OS ;))
+- **[Brave Search](https://search.brave.com/)** semble plus mature aujourd'hui, l'index est performant. Reste toujours ce côté controversé de Brave Inc.
 -  **[Mojeek](https://www.mojeek.com/)** pour toute personne ayant un intérêt pour leur vie privée, mais ne soyez pas trop regardant sur les résultats et sur le code source propriétaire !
 - **[Gibiru](https://gibiru.com/)** reste une alternative crédible, notamment pour les résultats Google.
 - Concernant **StartPage**, c'est à vous de décider si vous leur faites confiance, de notre côté ce sera non. 
