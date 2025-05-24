@@ -2,7 +2,7 @@
 title: Les gestionnaires de mots de passe
 description: Cet article traite des gestionnaires de mots de passe et les outils recommandés...
 published: true
-date: 2025-05-24T11:04:04.352Z
+date: 2025-05-24T11:05:23.171Z
 tags: chiffrement, mots de passe, gestionnaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T13:43:14.323Z
@@ -176,8 +176,8 @@ Conclusion
 
 Afin de terminer cet article, rappelons donc dans l'ordre les outils recommandés :
 1. :one: KeepassDX / KeepassXC
-2. :two: Bitwarden hors ligne (base auto hébergée)
-3. :three: Bitwarden.com
+2. :two: [Vaultwarden](https://github.com/dani-garcia/vaultwarden), le Bitwarden hors ligne (base auto hébergée)
+3. :three: Bitwarden.com, en ligne
 4. :four: Lesspass
 5. :five: Spectre
 {.grid-list}
