@@ -2,7 +2,7 @@
 title: Les gestionnaires de mots de passe
 description: Cet article traite des gestionnaires de mots de passe et les outils recommandés...
 published: true
-date: 2024-08-29T15:59:57.942Z
+date: 2025-05-24T11:04:04.352Z
 tags: chiffrement, mots de passe, gestionnaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T13:43:14.323Z
@@ -28,7 +28,6 @@ Ne tournons pas autour du pot : Exit les solutions reposant sur le "cloud" (prat
 - :x: Nordpass
 - :x: Enpass
 - :x: Psono
-- Bitwarden (uniquement sa solution en ligne, hors auto-hébergement donc)
 - Nous en oublions peut être...
 {.grid-list}
 
@@ -132,16 +131,12 @@ Malheureusement, l'outil ne jouit pas d'une interface élégante et c'est son *g
 
 Bitwarden
 ---------
-[Bitwarden](https://bitwarden.com/)
 
-Nous évoquions plus haut dans les solutions à fuir le logiciel *Bitwarden* ; nous évoquions cela dit leur solution "cloud" ([^⁵] et leur réponse ici [^⁶]). Ils proposent en revanche une solution alternative qui s'apparente à la gestion en local d'une base de mots de passe.
+Deux versions ici seront discutées :
+1. [Bitwarden.com](https://bitwarden.com) : La version Cloud, qui de notre côté, mérite une attention pour sa simplicité d'usage et si (et uniquement si) les comptes protégés sont non critiques.
+2. [Vaultwarden](https://github.com/dani-garcia/vaultwarden) : La version dont la partie Serveur est auto-hébergée, qui pour nous est à privilégier, pour plus de confidentialité. Néanmoins, cette version sera réservée à ceux qui auront quelques connaissances et les moyens de créer un serveur, de le maintenir et de l'utiliser d'une façon assez sécurisée : si déployé sur une machine dédiée, on évite d'ouvrir ce serveur vers l'extérieur, on durcit l'OS, etc. de sorte à réduire la surface d'attaque. Soyez bien conscients que cette version n'est pas aussi simple qu'une base en local sur la machine comme Keepass le propose.
 
-[^⁵]: [Bitwarden Flaw security](https://palant.info/2023/01/23/bitwarden-design-flaw-server-side-iterations/) - côté Serveur.
-[^⁶]: [Bitwarden répond](https://portswigger.net/daily-swig/bitwarden-responds-to-encryption-design-flaw-criticism) - et modifie ses paramètres de sécurité !
-
-C'est cette fonction qu'il faudra regarder. Néanmoins, cette fonction sera réservée à ceux qui auront des connaissances et les moyens de créer un serveur, de le maintenir et de l'utiliser d'une façon assez sécurisée : on évite d'ouvrir ce serveur vers l'extérieur, on durcit l'OS, etc. de sorte à réduire la surface d'attaque. Soyez bien conscients que cette fonction n'est pas aussi sécurisée qu'une base en local sur la machine comme Keepass le propose. En effet, cela implique des requêtes sur votre réseau local, réseau qui peut potentiellement être infiltré ; attention ceci est vraiment peu probable, mais le risque n'est pas nul, surtout si vous avez l'habitude de télécharger tout et n'importe quoi, ou avez un certain profil public.
-
-> **Il s'agira de notre deuxième recommandation.**
+> **Il s'agira de notre deuxième recommandation, pour le côté simplicité si version cloud.**
 {.is-warning}
 
 
@@ -152,6 +147,7 @@ Avec ces 2 outils donc, il vous sera possible de faire plusieurs choses :
 - retenir et stocker **TOUS** vos mots de passe, phrases de passe et phrases de récupération, données de cartes de crédit si nécessaire, potentiellement vos clés de sécurité, etc.
 - générer des mots de passe forts, avec une entropie élevée et qui correspond au minimum aujourd'hui admis.
 - (**seulement Keepass**) choisir les algorithmes qui vous conviendront le mieux, et qui seront les plus adaptés à votre machine et à ses capacités.
+- (**seulement Bitwarden**) choisir les paramètres pour les clés de chiffrement (même si ceux de base sont corrects).
 
 Votre base de données sera bien entendu protégée (chiffrée) : en effet, vous n’aurez ici qu’un seul et unique mot de passe à retenir ; dans ce cas, ce mot de passe doit être extrêmement fort et gardé le plus secret possible. Il sera aussi possible de multiplier les bases de données pour éviter que si votre mot de passe est corrompu toute la base le soit. La contrepartie étant de retenir plusieurs mots de passe forts.
 
@@ -179,9 +175,9 @@ Conclusion
 ==========
 
 Afin de terminer cet article, rappelons donc dans l'ordre les outils recommandés :
-1. :one: Keepass
-2. :two: KeepassDX / KeepassXC
-3. :three: Bitwarden hors ligne (base auto hébergée)
+1. :one: KeepassDX / KeepassXC
+2. :two: Bitwarden hors ligne (base auto hébergée)
+3. :three: Bitwarden.com
 4. :four: Lesspass
 5. :five: Spectre
 {.grid-list}
