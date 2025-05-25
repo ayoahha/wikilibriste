@@ -2,7 +2,7 @@
 title: Améliorer la compatibilité des applications bancaires sur les systèmes basés sur Lineage
 description: Cet article présente différentes manières et configuration  pour améliorer la compatibilité des applications bancaires sur /e/OS, LineageOS, CalyxOS et tout autre système complètement dégoogleisé utilisant une base LineageOS et microG 
 published: true
-date: 2025-05-15T20:41:45.861Z
+date: 2025-05-25T19:58:38.467Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-13T20:48:04.308Z
@@ -42,9 +42,21 @@ Il existe un dernier niveau, le MEETs_VIRTUAL_INTEGRITY mais celui ci est pour l
 # Les solutions libres pour faire fonctionner les applications open sources sur les roms avec microG
 
 Comme vous avez pus le comprendre en lisant les chapitres précédents, [microG](https://microg.org/) est une grosse partie de la solution qui permet de contourner les protections mises en place par les applications bancaires à question de le configurer correctement. Une autre solution, qui demande cependant d'avoir rooté le téléphone et masqué le root avec un module XPosed c'est [FakeGApps](https://github.com/whew-inc/FakeGApps/) cependant du fait de la relative complexité qu'il faut, je vous conseille de partir sur un système déjà préconfiguré et qui à déjà un système intégré pour falsifier la signature des Google App et qui a déjà microG d'intégré. La liste non exhaustive de ces ROMs est la suivante :
-- [/e/OS](https://doc.e.foundation/devices) qui est Français,
-- [CalyxOS](https://calyxos.org/install/) qui est des USA,
-- [LineageOS for microG](https://lineage.microg.org/),
-- [iodé](https://iode.tech/fr/appareils-pris-en-charge-officiellement-par-iodeos/) qui est Francais,
+- [/e/OS](https://doc.e.foundation/devices) qui est Français et destiné particulièrement à ceux qui veulent retrouver l'écosystème Google mais sans Google et sans configuration.
+- [CalyxOS](https://calyxos.org/install/) qui est des USA et est orienté sécurité,
+- [LineageOS for microG](https://lineage.microg.org/), la base de nombreuses ROM,
+- [iodé](https://iode.tech/fr/appareils-pris-en-charge-officiellement-par-iodeos/) qui est Francaiset est aussi orienté déggogleisation,
 
 ## Bien configurer microG pour maximiser le nombre d'application bancaire pouvant fonctionner
+Pour optimiser le nombre d'application propriétaire bancaire étant fonctionnelle avec LineageOS et les systèmes basé sur LineageOS, plusieurs changement de configuration peuvent être faite :
+### Connecter un compte Google dans microG
+Pour connecter un compte Google dans microG les étapes sont les suivantes:
+- Aller dans "Parametres",
+- Puis dans "Système",
+- Puis "microG",
+- Si vous avez plusieurs profils, choisisez le m^eme profil que celui utilisé par l'application bancaire concerné,
+- Ensuite "Compte Google",
+- Et enfin "Ajouter un compte Google" si aucun n'a déjà précédément été ajouté.
+La position de microG peut varier en fonction de la version d'Android et de la ROM utilisé, j'ai donné l'exemple sur /e/OS mais microG peut avoir son menu présent dans 
+
+
