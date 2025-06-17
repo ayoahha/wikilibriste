@@ -2,7 +2,7 @@
 title: Trouver un logiciel alternatif libre
 description: Découvrez comment chercher des logiciels libres par vous-même.
 published: true
-date: 2025-04-12T23:05:29.728Z
+date: 2025-06-17T16:37:10.367Z
 tags: logiciel, application, alternative, alternatif
 editor: markdown
 dateCreated: 2023-02-10T23:29:04.219Z
@@ -47,7 +47,7 @@ La page Awesome Privacy n'est pas à proprement parlé un site mais plutôt un d
 | Application<br> propriétaire | Alternative(s)<br> Open-source | Commentaire |
 |----------|----------|----------|
 | Whatsapp,<br> Messenger,<br> Wickr,<br> Threema,<br> Viber,<br> WeChat... | Signal,<br>Session,<br>Conversations_im,<br>Briar | Exceptionnellement ici 4 alternatives vous sont fournies, le sujet étant sensibles : Signal reste une application robuste pour sa vie privée, Session son<br> pendant côté décentralisé, Conversations pour sa base XMPP et Briar pour son côté plus confidentiel pair à pair. Attention : aucune application n'est<br>dénuée d'inconvénients !<br>Un article spécifique est dédié aux [Messageries](/debutant/communications) alternatives, nous vous renvoyons vers cet article complet si nécessaire. |
-| Google Messages, <br>Google Hangout,<br> SMS/MMS, ... | Fossify (**\***) SMS,<br>Silence (**\****) | En remplacement de toute application propriétaire de gestion des SMS/MMS.<br>Pour l'application Silence, merci de vous référer à notre article sur les [Messageries](/debutant/communications) où nous expliquons la raison |
+| Google Messages, <br>Google Hangout,<br> SMS/MMS, ... | Fossify (**\***) SMS | En remplacement de toute application propriétaire de gestion des SMS/MMS. |
 | Telegram | Forkgram,<br>Nekogram X | Tous de parfaits remplaçants, avec un minimum voire sans traceur, attention à la configuration en plus à peaufiner. Néanmoins, nous restons sur un<br>modèle avec serveur à sources fermées. |
 | Signal | Langis,<br>Molly | Signal n'est pas trouvable sur des dépôts alternatifs (type F-Droid), dû à la politique de leurs principaux développeurs. Nous conseillons donc de<br>passer par des forks stables et reconnus, [Langis](https://langis.cloudfrancois.fr/) ou [Molly](https://molly.im/). |
 | Chrome, <br>Firefox, <br>Opera,<br> IE, Edge... | Mull,<br>Vanadium | Un article spécifique est dédié aux [Navigateurs internet](/debutant/navigateurs), nous vous renvoyons vers cet article complet si nécessaire. |
@@ -79,7 +79,7 @@ La page Awesome Privacy n'est pas à proprement parlé un site mais plutôt un d
 ---
 **\**** : Concernant les SMS, Signal a prévenu récemment que la fonctionnalité support SMS/MMS n'était [plus supportée](https://signal.org/blog/sms-removal-android/).
 
-La recommandation donc d'utiliser l'alternative [Silence](https://git.silence.dev/Silence/Silence-Android/) peut être envisagée... Certes la dernière mise à jour importante de l'application connue dans les dépôts date de 2019, mais l'application continue tout de même d'être mise à jour au niveau sécurité. Son concepteur a notamment répondu à une question en lien avec le maintien de cette application :
+La recommandation donc d'utiliser l'alternative [Silence](https://git.silence.dev/Silence/Silence-Android/) a été envisagée il y a quelques temps après une réponse du propriétaire du code, qui suit :
 > Bastien Le Querrec, Propriétaire du code de Silence :
 "*Bonjour X,*
 *Oui, le silence est toujours maintenu. Vous pouvez suivre le canari du mandat : si un jour vous voyez que le mandat n'est pas mis à jour, cela signifie que Silence n'est pas fiable et n'est pas maintenu ou compromis. Aujourd'hui, je peux vous confirmer que Silence est toujours maintenu et est toujours sécurisé.
@@ -87,10 +87,9 @@ Le fait est que l'activité est très, très irrégulière. Je suis engagé dans
 Mais malgré cela, Silence reste une priorité pour moi et je travaille sur une renaissance depuis plusieurs mois. L'idée est, au lieu de reprendre environ 6 ans de code de Signal, de forker Signal à nouveau pour intégrer les SMS et supprimer les messages push. La même chose que j'ai fait quand j'ai commencé le projet, en quelque sorte. Cela permettra à Silence de bénéficier des nouvelles fonctionnalités de Signal (permissions à la demande, nouvelle interface, et corrections de bugs !), au prix de la perte de certaines fonctionnalités (je ne prévois pas de réintroduire le cryptage local géré par l'application, donc Silence v2 s'appuiera sur le système Android pour le cryptage local).
 Cordialement, Bastien.*"
 
-> **Donc l'application peut toujours être utilisée**.
-> 
-> Pour vérifier le "*canary*", rendez-vous [sur cette page](https://silence.im/warrant/) !
-{.is-info}
+> A ce jour (Mai 2025), nous ne pouvons plus assurer que cette application est utilisable, car le canary a disparu (Pour vérifier le "*canary*", [c'était ici](https://silence.im/warrant/)) !
+> **En conséquence de quoi, cette application ne doit plus être utilisée**.
+{.is-danger}
 
 ## Quelques applications utiles
 | Application | Commentaire |
