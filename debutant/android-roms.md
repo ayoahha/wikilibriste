@@ -2,7 +2,7 @@
 title: Android et ses ROM alternatives
 description: Cet article traite des ROM android recommandées et vous propose un exemple de dé-googlisation...
 published: true
-date: 2025-06-17T16:38:52.518Z
+date: 2025-06-17T16:39:44.557Z
 tags: rom, android, graphene, calyx, os, smartphone, ordiphone, debutant, intermédiaire
 editor: markdown
 dateCreated: 2022-11-25T17:43:39.706Z
@@ -943,8 +943,8 @@ Nous vous laissons lire l’article concernant les [messageries](/debutant/commu
 
 Concernant les SMS, Signal a prévenu récemment que la fonctionnalité support SMS/MMS n'était [plus supportée](https://signal.org/blog/sms-removal-android/).
 
-> La recommandation faite par certains d'utiliser une alternative, [Silence](https://git.silence.dev/Silence/Silence-Android/) peut être envisagée... Cf. [ici](/debutant/logiciel-alternative-libre#t%C3%A9l%C3%A9phone)
-{.is.info}
+> La recommandation faite par certains d'utiliser une alternative, [Silence](https://git.silence.dev/Silence/Silence-Android/) a longtemps été envisagée, mais plus maintenant. Cf. [ici](/debutant/logiciel-alternative-libre#t%C3%A9l%C3%A9phone)
+{.is-danger}
 
 
 ##### Courriel
