@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2025-06-23T13:29:32.521Z
+date: 2025-06-23T13:33:56.046Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -149,17 +149,6 @@ Seront dans un premier temps présentés les outils orientés vie privée et/ou 
 | **Proxy** | Nous donnons une définition détaillée dans le [glossaire](/glossaire#proxy) |
 | **PGP / OpenPGP / G(nu)PG** | Nous avons dédié un article spécifique sur ce mécanisme [ici](/intermediaire/integrite) |
 
-
-## Niveau subsidiaire...
-
-...mais néanmoins crucial : les métadonnées !
-
-Veillez à supprimer toutes les **[métadonnées](/hygiene-numerique#les-m%C3%A9tadonn%C3%A9es-quest-ce-que-cest)** liées aux ressources (images, vidéos, documents) que vous partagez en ligne, que cela soit via courriel ou sur vos réseaux sociaux. Par exemple, pour les images, vous pouvez supprimer les données EXIF avant de les partager partout. Pour les documents, vérifiez que vos nom/prénom, ou même initiales et autres, ne soient pas inscrits dans les propriétés du document, etc. Voici quelques outils afin de supprimer les métadonnées de fichiers PDF, documents, vidéos (tous les outils suivants ne traitent pas les vidéos...), photos :
-- [Exifcleaner](https://exifcleaner.com/) (Fonctionne aussi sur les documents Microsoft Office !) qui implémente la librairie [ExifTool](https://exiftool.org/) et offre une interface graphique
-- [PDFparanoia](https://pypi.org/project/pdfparanoia/) outil complet pour le nettoyage des fichiers PDF
-- [Metadatacleaner](https://metadatacleaner.romainvigier.fr/) le nettoyeur de Métadonnées niveau débutant, avec interface graphique, par Romain Vigier
-- [Mat2](https://0xacab.org/jvoisin/mat2) (**M**etadata **A**nonymisation Tool v **2** - Outil d'anonymisation de Métadonnées version 2) nettoyeur de métadonnées niveau intermédiaire ou avancé
-:arrow_right: Attention c'est un outil qui nécessite quelques connaissances ; à lancer dans une machine virtuelle par exemple pour plus d'anonymat.
 
 # L'anonymat
 
