@@ -2,24 +2,11 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2025-06-14T14:17:41.548Z
+date: 2025-06-23T13:28:34.877Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
 ---
-
-> Une bonne entrée en matière, afin d'appréhender les raisons, est de visiter ce site internet : 
-> [Je n'ai rien à cacher !](https://jenairienacacher.fr/)
-{.is-info}
-
-## Chiffrement, kézako ?
-
-Vous avez sûrement déjà entendu parler de « confidentialité des données » ou encore de « chiffrement des données », une terminologie en vogue aujourd’hui, surtout depuis l’application de la RGPD en 2016, le fameux [Règlement Général sur la Protection des Données](https://www.cnil.fr/fr/reglement-europeen-protection-donnees). Pourtant cette notion est très ancienne !
-
-*Mais qu’est-ce concrètement ce « chiffrement » et à quoi sert-il ?*
-
-- **Nous vous renvoyons vers l'article [dédié](/intermediaire/chiffrement) au chiffrement afin d'y voir un peu plus clair sur ces sujets**
-
 
 # Définir son modèle de menaces
 
@@ -122,19 +109,6 @@ Un très bon guide est déjà en ligne, sur [guide.boum.fr/choisir les réponses
 {.is-success}
 
 ---
-
-# Les courriels
-
-Protégez vos échanges par courriel, a minima ceux que vous jugez critiques.
-
-Ce sujet est discuté en détails dans l'article dédié aux [courriels](/debutant/communications#courriel).
-
-# Les messageries
-
-Ce sujet est discuté en détails dans l'article dédié aux [messageries](/debutant/communications#messagerie).
-
----
-
 # Les liens hypertextes (URL)
 
 ![](/images/phishing_ex.png =600x){.align-center}
@@ -154,16 +128,6 @@ Cette histoire est tirée d’une réelle campagne de phishing !
 {.is-warning}
 
 
-# Les mises à jour
-
-Les pirates informatiques malveillants se basent pratiquement tout le temps sur les failles de sécurité des logiciels. Vous entendez tous les jours que des logiciels ou des systèmes d’exploitation ont reçu des « patchs (entendre correctifs) de sécurité », afin de combler une vulnérabilité (corriger une faille de sécurité). Il s’agit en effet de "patcher" pour combler les failles dont les développeurs se sont aperçus, et qui exposent potentiellement vos données ou autre chose.
-
-**Il est donc essentiel d'effectuer les mises à jour de sécurité dès qu’elles sont disponibles.**
-
-Il est aujourd’hui assez simple de vérifier s’il existe des mises à jour de sécurité donc n’attendez pas avant de les faire, surtout lorsque celles-ci sont critiques. Nous recommandons ainsi d'activer les mises à jour automatiques depuis votre système d'exploitation favori (libre ! comme GNU/Linux, ou un Android dégooglisé, nous l'espérons ;-)), dans cette démarche de sécurisation proactive.
-
-**Pour le reste des mises à jour classiques, elles peuvent potentiellement attendre, même si le plus tôt sera le mieux.**
-
 # Les fichiers et leur intégrité
 
 Ceci est un rappel, mais il est important d'éviter de télécharger des **exécutables** directement ou dans des archives, que ce soit pour Linux (via des fichiers ELF ou "Executable Linkable File") ou Windows (via des fichiers à l'extension .exe ou .msi). Dans le cas d'un téléchargement depuis un site internet, plutôt que depuis un centre logiciel, il est recommandé de télécharger depuis le site officiel de l'éditeur logiciel dudit programme.
@@ -173,38 +137,6 @@ Ceci est un rappel, mais il est important d'éviter de télécharger des **exéc
 En prolongement et pour tous types de fichiers (.iso, .img, ...), vérifiez **TOUJOURS**, lorsque disponible, l'intégrité du fichier téléchargé. Cela se fait via une vérification de la "signature" ou de "la somme de contrôle" dudit fichier.
 
 - **Voir l'article dédié à l'[intégrité](/intermediaire/integrite), ainsi que le tutoriel [associé](/tutoriels/verifier-integrite).**
-
-# Sur les antivirus et antimalware
-
-Concernant l'utilisation d'un anti-virus ou anti-malware, même si certains malwares modernes aujourd'hui ne sont plus détectables facilement, il est toujours possible de détecter des malwares connus et moins sophistiqués, ce qui est déjà une bonne chose (soyons pragmatiques). Dites-vous bien qu'un anti-virus ne vous protégera pas des agences à 3 lettres bien connues ! La bonne (première) pratique est si possible de télécharger des fichiers sur un environnement isolé, comme une machine virtuelle Linux (pour plus de facilité) par exemple, via VirtualBox ou VMWare. Cela s'accompagne également d'une utilisation particulière, qui ne risque pas de mettre à mal votre modèle de menaces :
-
--   N'utilisez pas de solutions commerciales, type Norton, BitDefender, Kaspersky... qui implémentent de toute manière une télémétrie vers leurs entreprises ainsi que des sociétés tierces.
--   **_Si vous avez un modèle de menaces nécessitant une sécurité et un anonymat accru :_** n'utilisez pas les fonctions de protection en temps réel de ces outils ; au delà même de la question de l'utilité réelle de ce genre de fonctions, celles-ci sont exécutées avec des privilèges hauts et, de facto, peuvent être utilisées comme un vecteur d'attaque.
--   Préférez les solutions open-source et hors ligne, afin d'utiliser ces outils comme prévus à l'origine : scanner régulièrement les fichiers de votre système, ou que vous voudriez scanner en cas de doute sur une potentielle infection. Nous recommandons :
-
-| Détection en ligne | Commentaire |
-|----------|----------|
-| [ClamAV](https://www.clamav.net/) / [ClamTk](https://gitlab.com/dave_m/clamtk/) | Détection de malware hors rootkits. ClamAV est le moteur et ClamTk est son interface graphique |
-| [RFXN Linux Malware](http://www.rfxn.com/projects/linux-malware-detect/) | Détection de malware hors rootkits. Linux uniquement |
-| [Hypatia](https://gitlab.com/divested-mobile/hypatia) | Détection de malware hors rootkits. Android uniquement |
-| [Chkrootkit](http://www.chkrootkit.org/) | Détection de rootkits |
-| [RkHunter](https://rkhunter.sourceforge.net/) | Détection de rootkits |
-
-> Nous avons rédigé un [tutoriel](/tutoriels/distro-protect) afin de vous guider dans ces tâches
-{.is-info}
-
--   Si vous ne souhaitez pas installer un outil sur votre ordinateur, vous pouvez potentiellement vous aider de solutions web. Attention ici cependant de ne pas mettre des fichiers contenant des informations personnelles (les vôtres ou ceux d'autres personnes) ou sensibles sur ces sites internet :
-
-| Détection en ligne | Commentaire |
-|----------|----------|
-| [VirusTotal](https://www.virustotal.com/gui/home/upload) | Leur politique de vie privée est assez problématique cependant car ils stipulent que "tout fichier que vous leur soumettrez seront gardés, partagés voire utilisés à des fins commerciales".<br>Voilà pourquoi il est important de ne pas transmettre de fichiers potentiellement sensibles |
-| [Hybrid analysis](https://hybrid-analysis.com/) | - |
-
--   D'autres outils sont disponibles sur ce dépôt, pleins de ressources fabuleuses concernant les malwares :
-[awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis).
-
-> Attention de bien garder en tête cependant que ces outils ne sont pas la panacée, et ne pourront pas détecter 100% des malwares existants ou futurs. Il est donc important de mettre en place les bonnes pratiques et de bien faire attention aux autres parties de cet article.
-{.is-warning}
 
 # Les WiFi publics
 
