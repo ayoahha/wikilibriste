@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2025-06-23T13:28:34.877Z
+date: 2025-06-23T13:29:09.918Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -137,15 +137,6 @@ Ceci est un rappel, mais il est important d'éviter de télécharger des **exéc
 En prolongement et pour tous types de fichiers (.iso, .img, ...), vérifiez **TOUJOURS**, lorsque disponible, l'intégrité du fichier téléchargé. Cela se fait via une vérification de la "signature" ou de "la somme de contrôle" dudit fichier.
 
 - **Voir l'article dédié à l'[intégrité](/intermediaire/integrite), ainsi que le tutoriel [associé](/tutoriels/verifier-integrite).**
-
-# Les WiFi publics
-
-Il est enfin important de bannir tous les WiFi publics (hormis certains cas bien précis) : les gares, aéroports, cafés, hôtels, restaurants... qui proposent des Wifi partagés sont aussi des lieux idéaux pour tous cybercriminels afin de s’introduire sur votre machine. **ÉVITEZ** absolument ces WiFis. Voici quelques alternatives :
-
--   Vous avez sûrement tous un téléphone portable dernier cri Android (ou Apple... Quoi ?!! Vous avez encore un produit Apple ?!! ;-)). Utilisez donc leurs fonctions de « point d’accès sans-fil » avec votre téléphone en 4G/5G afin d’éviter de vous connecter sur les WiFi publics.
--   Si vous voulez tout de même vous connecter sur des WiFi publics, l’utilisation d’un VPN dans ce cas précis est **ABSOLUMENT NÉCESSAIRE**.
-
----
 
 # Les mécanismes expliqués
 
