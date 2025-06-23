@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2025-06-23T13:29:09.918Z
+date: 2025-06-23T13:29:32.521Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -149,27 +149,6 @@ Seront dans un premier temps présentés les outils orientés vie privée et/ou 
 | **Proxy** | Nous donnons une définition détaillée dans le [glossaire](/glossaire#proxy) |
 | **PGP / OpenPGP / G(nu)PG** | Nous avons dédié un article spécifique sur ce mécanisme [ici](/intermediaire/integrite) |
 
-# Protégez votre vie privée
-
-## Les moteurs de recherche
-
-Sur ce navigateur, et afin d'éviter d'être *tracé* par des parties tierces, évitez l'utilisation de moteurs de recherche trop curieux, ou trop lâches dans leur gestion des données et métadonnées. 
-
-- Pour cela, voir l'article sur [les moteurs de recherche](/debutant/moteurs-recherche), afin de changer pour un moteur respectueux de votre vie privée.
-
-# Adoptez un modèle de sécurité renforcé
-
-## Premier niveau : les DNS
-
-Si vous n'utilisez pas de service VPN via des mandataires (cf. ci-après), qui vous permettent de pointer vers leurs serveurs DNS, alors il peut être important de configurer spécifiquement les DNS vers lesquels pointer afin de limiter le pistage...
-
-Référez-vous à notre article [dédié](/debutant/dns).
-
-## Second niveau : le VPN
-
-Bien que choisir un navigateur optimisé et renforcé d’extensions, il existe toujours un risque qu’une personne malveillante puisse avoir accès à votre activité numérique et à votre position géographique, en observant les données en transit sur le réseau internet. La probabilité est faible certes, mais le risque est non nul...
-
-Référez-vous à notre article [dédié](/debutant/vpn-tor).
 
 ## Niveau subsidiaire...
 
