@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2025-05-08T19:35:25.937Z
+date: 2025-07-01T20:15:10.317Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -388,7 +388,12 @@ Il s'agit d'un "jeton" utilisé dans le cadre d'une authentification à double f
 
 # Partition
 
-Un périphérique de stockage (disque dur, mémoire flash...) peut être compartimenté en plusieurs zones de stockage secondaires, de sorte que chaque zone puisse être administrée séparément. Ces zones sont donc appelées des "*Partitions*".
+Un périphérique de stockage (disque dur, mémoire flash...) peut être compartimenté en plusieurs zones de stockage secondaires, de sorte que chaque zone puisse être administrée séparément. Ces zones sont donc appelées des "*Partites de serveurs DNS respectueux et d'assurer une protection des requêtes (que ce soit DoH, DoT, DNSCrypt ou DNSSEC...) :
+
+    soit sur votre routeur FAI (bien vérifier également que ce routeur applique convenablement l'utilisation de ces IP, cf. DNS leak)
+    soit sur votre propre serveur DNS ➡️ attention ici encore de bien comprendre ce mécanisme : implémenter une solution de type PiHole par exemple déporte uniquement le serveur résolveur chez vous, mais les requêtes vers les serveurs récursifs auront toujours lieu sur internet. Donc si vous ne protégez pas ces requêtes ou si vous ne cachez pas votre IP, il sera possible de vous désanonymiser !
+
+Aller plus loinions*".
 
 Exemple de partitions allouées pour chaque système d'exploitation ; partitions Windows avec le logo "fenêtre" <span class="mdi mdi-microsoft-windows-classic"></span> (01, 05 et 07) ; partitions GNU/Linux symbolisées par le manchot <span class="mdi mdi-penguin"></span> (03, 04 et 06) :
 
@@ -430,23 +435,6 @@ Parmi les ports les plus communs, on trouve les ports :
 Un système d'exploitation, programme, application "propriétaire" se dit d'un outil soumis à licence _commerciale_ pour son utilisation, et dont **le propriétaire est l'éditeur logiciel** et non l'utilisateur final, **par opposition aux logiciels libres**.
 
 _Exemples_ : Windows, MacOS, Google Chrome, Safari, OneDrive, Gmail...
-
-# Proxy
-
-Sûrement un mécanisme dont vous n'avez que très peu entendu parler. Et pourtant, cette technologie est celle qui est la plus plébiscitée pour les réseaux (entreprises, universités, personnels...).
-
-*Qu'est-ce qu'un proxy ?*
-
-Un proxy est un élément d'un réseau qui va jouer le rôle d'**intermédiaire**. Schématiquement, il s'agit d'un élément par lequel nous allons faire transiter toutes nos données, entrantes et sortantes : impossible d'y échapper donc (s'il est bien configuré !) :
-
-![Principes d'un Proxy](/images/proxy.png =500x){.align-center}
-
-Techniquement, il ne s'agit ni plus ni moins que d'un serveur avec des règles de filtrage particulières sur plusieurs niveaux. Ses fonctionnalités et objectifs sont divers :
--  L'anonymat (à un certain niveau) : il est tout à fait possible de faire appel à un proxy public afin de router le trafic via ce mandataire proxy. Ici donc, notre adresse IP est différente et il nous est possible donc de cacher la nôtre aux sites que l'on visite ! Attention cependant : ici le même problème que pour les VPN apparaît ; vous devez faire une absolue confiance en ce mandataire qui va réellement collecter votre adresse IP. Ce n'est donc **pas** un mécanisme recommandé pour atteindre l'anonymat.
--  Le contournement de la géo restriction : si vous faites appel à un mandataire proxy dans un autre pays, vous allez obtenir une adresse IP dans ce pays, ce qui peut donc vous donner accès à des sites ou contenus exclusivement liés à ce pays. Ici encore attention à la sécurisation des données en transit, un proxy ne chiffrant pas les échanges (hormis exceptions !).
--  La sécurité/le filtrage : imaginons que nous gérons une université, nous souhaitons donner accès à internet à nos étudiants (très utile pour eux !) mais nous souhaitons éviter qu'ils naviguent sur certains sites (porno par exemple)... Nous pourrons donc implémenter un proxy, avec des règles de filtrage sur des domaines liés à des sites pornographiques. Bon nous pourrions ici très bien nous contenter d'un pare-feu, mais un proxy viendra filtrer à plus haut niveau, et ainsi parfaitement utile. Vous l'aurez compris, un proxy est généralement utilisé dans une architecture réseau afin d'apporter une couche de sécurité, en parallèle d'autres mécanismes (pare-feu, IDS, VPNs...).
-
-**Un proxy peut être une alternative dans une certaine mesure aux VPN grands publics, le chiffrement en moins dans la plupart des cas !**
 
 # RAM
 
