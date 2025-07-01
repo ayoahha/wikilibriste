@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2025-06-23T14:52:02.445Z
+date: 2025-07-01T14:29:47.099Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -158,7 +158,7 @@ Le sujet autour de Tor Browser est assez complexe et débattu dans la communaut�
 1. **Si votre niveau de menaces ne va pas plus loin que quelques multinationales _pompes à données_ ou des recherches sensibles**, alors vous pouvez utiliser le navigateur Tor (Tor Browser, capable d'atteindre le réseau Tor) dans votre environnement pour des recherches et ceci afin de renforcer votre vie privée.
 
 Référez-vous dans ce cas à notre article [dédié](/debutant/vpn-tor).
--passer-au-cloud-libre-et-chiffre
+
 2. **Si en revanche votre modèle impose un anonymat important** et que votre niveau de menaces concerne des "agences étatiques" ou des groupes à fortes ressources, il est nécessaire d'éviter son utilisation dans le contexte 1, et passer sur un modèle bien plus robuste.
 
 ## Anonymat avancé
@@ -190,19 +190,6 @@ Ce système vous permet ainsi de créer un cocon numérique, peu importe le mat�
 {.is-warning}
 
 
-## Anonymat total
-
-Pour finir, si votre modèle impose un **anonymat total**, vous allez devoir adopter des pratiques spécifiques qui seront probablement des contraintes dans votre vie de tous les jours :
-- vous devrez utiliser un matériel totalement anonyme : paiement cash de tous les matériels (ou par crypto monnaies _anonymes_)
-- connexion et utilisation des matériels hors de chez vous, loin, dans des endroits publics, entourés de beaucoup de personnes
-- aucun compte permettant de vous identifier
-- utilisation totale du pseudonymat
-- vos téléphones/tablettes... restent à la maison (aucun téléphone sur vous)
-- assez contre-intuitif : évitez l'utilisation de clés de sécurité type signature pouvant vous identifier (*souvenez-vous du diagramme des 3 cercles évoqué plus haut : faire des compromis* !). Souvenez-vous de n'utiliser que du pseudonymat, y compris pour des signatures électroniques.
-
-Vous arrivez à un usage très compliqué au quotidien !
-
-Ce modèle de menaces extrême est d'ailleurs plutôt dédié aux militants,  activistes, opposants politiques, journalistes d'investigation... Vous l'aurez compris, probablement inadapté pour la majorité des personnes. Nous nous devions néanmoins d'envisager toutes les possibilités, face à notre audience. Mais ce modèle nécessite une réflexion profonde et une structure d'utilisation sur mesure... et sort donc du cadre de notre wiki !
 
 # Aller plus loin
 
