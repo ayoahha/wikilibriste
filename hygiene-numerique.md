@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2025-07-01T14:29:47.099Z
+date: 2025-07-01T15:53:52.000Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -152,22 +152,7 @@ Seront dans un premier temps présentés les outils orientés vie privée et/ou 
 
 # L'anonymat
 
-## Le cas Tor Browser
-
-Le sujet autour de Tor Browser est assez complexe et débattu dans la communauté et dépend grandement de votre modèle :
-1. **Si votre niveau de menaces ne va pas plus loin que quelques multinationales _pompes à données_ ou des recherches sensibles**, alors vous pouvez utiliser le navigateur Tor (Tor Browser, capable d'atteindre le réseau Tor) dans votre environnement pour des recherches et ceci afin de renforcer votre vie privée.
-
-Référez-vous dans ce cas à notre article [dédié](/debutant/vpn-tor).
-
-2. **Si en revanche votre modèle impose un anonymat important** et que votre niveau de menaces concerne des "agences étatiques" ou des groupes à fortes ressources, il est nécessaire d'éviter son utilisation dans le contexte 1, et passer sur un modèle bien plus robuste.
-
-## Anonymat avancé
-
-Obtenir un niveau plus avancé d'anonymat n'est pas chose aisée...
-
-**Néanmoins, de premières pistes peuvent être envisagées avec une utilisation assez _classique_. Ici encore, il s'agit d'un second niveau d'anonymat, celui-ci ne sera donc pas total.**
-
-### Whonix
+## Whonix
 
 [Whonix](https://www.whonix.org/) / [Qubes OS](https://www.qubes-os.org/) : L'utilisation de Qubes (avec Whonix pré-installé d'origine dans une machine virtuelle) ou d'un système d'exploitation Linux _[durci](/glossaire#durcissement)_ via la solution _Whonix_ permet un niveau de sécurité et un anonymat renforcés.
 
@@ -175,20 +160,6 @@ Sous Qubes OS (dans la Machine Virtuelle Whonix-WS) ou plus généralement sous 
 
 - soit sur votre routeur FAI (bien vérifier également que ce routeur applique convenablement l'utilisation de ces IP, cf. DNS leak)
 - soit sur votre propre serveur DNS :arrow_right: attention ici encore de bien comprendre ce mécanisme : implémenter une solution de type *PiHole* par exemple déporte uniquement le serveur résolveur chez vous, mais les requêtes vers les serveurs récursifs auront toujours lieu sur internet. Donc si vous ne protégez pas ces requêtes ou si vous ne cachez pas votre IP, il sera possible de vous désanonymiser !
-
-### Tails
-
-[Tails OS](https://tails.boum.org/) : la version ultime de l’anonymat, au-delà de votre navigateur internet, est l’utilisation de Tails OS.
-
-Installé sur une clé USB et lancé depuis un appareil hôte - ordinateur portable ou PC x86 en 64 bits, quel que soit le système d'exploitation, le SE (Système d'Exploitation) hôte étant ignoré -, ce système d’exploitation est un système défini comme « amnésique ». C’est-à-dire qu’aucune donnée (hormis celle que vous souhaitez) ne persiste à l’extinction du système, ni en mémoire "RAM", ni sur disque dur/SDD (les clés USB fonctionnant sur la mémoire RAM "non persistante", l'avantage de ce système se situe là, vous l'aurez compris).
-
-Ce système vous permet ainsi de créer un cocon numérique, peu importe le matériel que vous utilisez ; nul besoin d’utiliser votre ordinateur personnel. Par exemple très utile si vous vous connectez dans des lieux publics. Attention toutefois à bien comprendre les bases de l’outil. Réservé tout de même aux personnes à l’aise avec les aspects cyber et l’informatique en général.
-
-*_Pour l’exemple_ : Tails ne s’utilise jamais en machine virtuelle. Si vous êtes intéressés par les machines virtuelles, veuillez utiliser plutôt Whonix !*
-
-> Attention ici de bien maîtriser les outils informatiques en général, principalement GNU/Linux/BSD et les aspects durcissement.
-{.is-warning}
-
 
 
 # Aller plus loin
