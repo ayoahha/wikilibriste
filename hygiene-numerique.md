@@ -2,11 +2,44 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2025-07-01T15:53:52.000Z
+date: 2025-07-01T20:16:19.141Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
 ---
+
+# Les concepts clés
+
+## Les liens hypertextes (URL)
+
+![](/images/phishing_ex.png =600x){.align-center}
+***Extrait d'un courriel pour une campagne de hameçonnage***
+
+Ci-dessus un exemple d'un courriel, qui attire notre attention. Ce courriel vous demande d'agir rapidement et vous propose de cliquer sur un lien. Il s'agit en réalité d'un type d'attaque par hameçonnage : au clique sur celui-ci, vous dirigera vers une page internet afin de rentrer des identifiants/mot de passe ou bien des coordonnées bancaires, ou d'autres données personnelles critiques. Bien souvent, ces SPAM sont bien mieux faits que cet exemple (Si vous regardez de plus près, vous vous apercevrez des fautes d'orthographe dans le corps de texte, qui trahissent les emails issus de campagnes de hameçonnage (détaillé ci-après)), mais vous avez l'idée !
+
+**Il est donc PRIMORDIAL de ne jamais cliquer sur des liens (hypertextes) contenus dans les courriels et de toujours vérifier l'information.** Si ce lien vous amène sur un écran où vous devez rentrer vos identifiants, il est préférable de se méfier et de fermer ce site. Puis de vous connecter en allant directement vous-même sur le site en question.
+
+De nos jours, il est très facile de copier une page des sites bien connus (Facebook, Decathlon...) pour récupérer vos données d’authentification ou vos données bancaires (hameçonnage ou "phishing attack").  
+
+*_Exemple_ : vous recevez un courriel (visiblement très professionnel, aucune faute...) de Decathlon vous annonçant que vous pouvez participer à un jeu vous permettant de gagner un bon d'achat exceptionnel pour le dernier vélo électrique à la mode. Vous cliquez sur le lien, qui vous amène sur une page Decathlon tout à fait légitime, puis vous jouez, vous gagnez et enfin on vous demande de rentrer vos coordonnées bancaires, arguant qu’il leur faut faire un retrait de 2 euros afin de faire une empreinte de votre carte pour payer les frais de transports, mais que tout vous sera remboursé par la suite. Le piège s’est refermé, vous renseignez les données. Puis vous voyez un remboursement de 2 euros quelques jours suivants, ce qui vous rassure ; en revanche, les jours qui suivent vous vous apercevez que des retraits de 200 euros, 500 euros ont été effectués. Vous faites opposition mais bien sûr il est trop tard puisque les cybercriminels ont déjà récolté l’argent...*
+
+Cette histoire est tirée d’une réelle campagne de phishing !
+
+> **Ne sous-estimez JAMAIS les cybercriminels, c'est ainsi qu'ils trouvent leur motivation. Ne sur-estimez jamais la façon dont vous pensez pouvoir réagir. Cela peut arriver à n’importe qui, et encore plus à celui qui est trop confiant.**
+{.is-warning}
+
+
+## Les fichiers et leur intégrité
+
+Ceci est un rappel, mais il est important d'éviter de télécharger des **exécutables** directement ou dans des archives, que ce soit pour Linux (via des fichiers ELF ou "Executable Linkable File") ou Windows (via des fichiers à l'extension .exe ou .msi). Dans le cas d'un téléchargement depuis un site internet, plutôt que depuis un centre logiciel, il est recommandé de télécharger depuis le site officiel de l'éditeur logiciel dudit programme.
+
+*_Astuce toute simple_ : depuis son moteur de recherche préféré, taper wikipedia + nom_du_programme_à_télécharger (ou bien demander conseil sur une communauté, comme celle-ci). Depuis l'article Wikipedia, retrouver le lien vers l'[URL](/glossaire#url) de l'éditeur logiciel ; le but étant de télécharger un fichier authentique, en allant directement à la source.*
+
+En prolongement et pour tous types de fichiers (.iso, .img, ...), vérifiez **TOUJOURS**, lorsque disponible, l'intégrité du fichier téléchargé. Cela se fait via une vérification de la "signature" ou de "la somme de contrôle" dudit fichier.
+
+- **Voir l'article dédié à l'[intégrité](/intermediaire/integrite), ainsi que le tutoriel [associé](/tutoriels/verifier-integrite).**
+
+
 
 # Définir son modèle de menaces
 
@@ -107,59 +140,6 @@ Un très bon guide est déjà en ligne, sur [guide.boum.fr/choisir les réponses
 
 > **Les sections suivantes pourront justement vous donner un aperçu des possibilités et outils afin de mettre en place cette stratégie...**
 {.is-success}
-
----
-# Les liens hypertextes (URL)
-
-![](/images/phishing_ex.png =600x){.align-center}
-***Extrait d'un courriel pour une campagne de hameçonnage***
-
-Ci-dessus un exemple d'un courriel, qui attire notre attention. Ce courriel vous demande d'agir rapidement et vous propose de cliquer sur un lien. Il s'agit en réalité d'un type d'attaque par hameçonnage : au clique sur celui-ci, vous dirigera vers une page internet afin de rentrer des identifiants/mot de passe ou bien des coordonnées bancaires, ou d'autres données personnelles critiques. Bien souvent, ces SPAM sont bien mieux faits que cet exemple (Si vous regardez de plus près, vous vous apercevrez des fautes d'orthographe dans le corps de texte, qui trahissent les emails issus de campagnes de hameçonnage (détaillé ci-après)), mais vous avez l'idée !
-
-**Il est donc PRIMORDIAL de ne jamais cliquer sur des liens (hypertextes) contenus dans les courriels et de toujours vérifier l'information.** Si ce lien vous amène sur un écran où vous devez rentrer vos identifiants, il est préférable de se méfier et de fermer ce site. Puis de vous connecter en allant directement vous-même sur le site en question.
-
-De nos jours, il est très facile de copier une page des sites bien connus (Facebook, Decathlon...) pour récupérer vos données d’authentification ou vos données bancaires (hameçonnage ou "phishing attack").  
-
-*_Exemple_ : vous recevez un courriel (visiblement très professionnel, aucune faute...) de Decathlon vous annonçant que vous pouvez participer à un jeu vous permettant de gagner un bon d'achat exceptionnel pour le dernier vélo électrique à la mode. Vous cliquez sur le lien, qui vous amène sur une page Decathlon tout à fait légitime, puis vous jouez, vous gagnez et enfin on vous demande de rentrer vos coordonnées bancaires, arguant qu’il leur faut faire un retrait de 2 euros afin de faire une empreinte de votre carte pour payer les frais de transports, mais que tout vous sera remboursé par la suite. Le piège s’est refermé, vous renseignez les données. Puis vous voyez un remboursement de 2 euros quelques jours suivants, ce qui vous rassure ; en revanche, les jours qui suivent vous vous apercevez que des retraits de 200 euros, 500 euros ont été effectués. Vous faites opposition mais bien sûr il est trop tard puisque les cybercriminels ont déjà récolté l’argent...*
-
-Cette histoire est tirée d’une réelle campagne de phishing !
-
-> **Ne sous-estimez JAMAIS les cybercriminels, c'est ainsi qu'ils trouvent leur motivation. Ne sur-estimez jamais la façon dont vous pensez pouvoir réagir. Cela peut arriver à n’importe qui, et encore plus à celui qui est trop confiant.**
-{.is-warning}
-
-
-# Les fichiers et leur intégrité
-
-Ceci est un rappel, mais il est important d'éviter de télécharger des **exécutables** directement ou dans des archives, que ce soit pour Linux (via des fichiers ELF ou "Executable Linkable File") ou Windows (via des fichiers à l'extension .exe ou .msi). Dans le cas d'un téléchargement depuis un site internet, plutôt que depuis un centre logiciel, il est recommandé de télécharger depuis le site officiel de l'éditeur logiciel dudit programme.
-
-*_Astuce toute simple_ : depuis son moteur de recherche préféré, taper wikipedia + nom_du_programme_à_télécharger (ou bien demander conseil sur une communauté, comme celle-ci). Depuis l'article Wikipedia, retrouver le lien vers l'[URL](/glossaire#url) de l'éditeur logiciel ; le but étant de télécharger un fichier authentique, en allant directement à la source.*
-
-En prolongement et pour tous types de fichiers (.iso, .img, ...), vérifiez **TOUJOURS**, lorsque disponible, l'intégrité du fichier téléchargé. Cela se fait via une vérification de la "signature" ou de "la somme de contrôle" dudit fichier.
-
-- **Voir l'article dédié à l'[intégrité](/intermediaire/integrite), ainsi que le tutoriel [associé](/tutoriels/verifier-integrite).**
-
-# Les mécanismes expliqués
-
-Seront dans un premier temps présentés les outils orientés vie privée et/ou anonymat que sont le VPN ainsi que le réseau Tor, avant de poursuivre sur les outils utiles pour réaliser des communications privées (PGP), lutter contre la censure (les DNS et leur rôle), ainsi que la sécurité de l'information.
-
-| Outil | Commentaire |
-|----------|----------|
-| **VPN et Tor** | Nous avons dédié un article spécifique sur ces deux mécanismes importants [ici](/debutant/vpn-tor) |
-| **DNS** | Nous avons dédié un article spécifique sur ce mécanisme [ici](/debutant/dns) |
-| **Proxy** | Nous donnons une définition détaillée dans le [glossaire](/glossaire#proxy) |
-| **PGP / OpenPGP / G(nu)PG** | Nous avons dédié un article spécifique sur ce mécanisme [ici](/intermediaire/integrite) |
-
-
-# L'anonymat
-
-## Whonix
-
-[Whonix](https://www.whonix.org/) / [Qubes OS](https://www.qubes-os.org/) : L'utilisation de Qubes (avec Whonix pré-installé d'origine dans une machine virtuelle) ou d'un système d'exploitation Linux _[durci](/glossaire#durcissement)_ via la solution _Whonix_ permet un niveau de sécurité et un anonymat renforcés.
-
-Sous Qubes OS (dans la Machine Virtuelle Whonix-WS) ou plus généralement sous Whonix, les requêtes [DNS](#dns) passent par Tor. Cela assure donc une anonymisation globale des requêtes. Attention en revanche si vous ne passez pas par ces outils, de bien configurer des adresses de serveurs DNS respectueux et d'assurer une protection des requêtes (que ce soit DoH, DoT, DNSCrypt ou DNSSEC...) :
-
-- soit sur votre routeur FAI (bien vérifier également que ce routeur applique convenablement l'utilisation de ces IP, cf. DNS leak)
-- soit sur votre propre serveur DNS :arrow_right: attention ici encore de bien comprendre ce mécanisme : implémenter une solution de type *PiHole* par exemple déporte uniquement le serveur résolveur chez vous, mais les requêtes vers les serveurs récursifs auront toujours lieu sur internet. Donc si vous ne protégez pas ces requêtes ou si vous ne cachez pas votre IP, il sera possible de vous désanonymiser !
 
 
 # Aller plus loin
