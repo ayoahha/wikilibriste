@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2025-07-01T20:16:19.141Z
+date: 2025-07-02T16:10:28.134Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -151,37 +151,10 @@ Cette partie est dédiée à toute personne souhaitant aller plus loin dans la s
 
 ## Stockage de données et "clouds" sécurisés
 
-La difficulté aujourd'hui dans le fait de stocker toutes sortes de fichiers ou programmes, que ce soient nos photos de mariage ou d'anniversaire, nos documents de compte, etc. réside dans les capacités dudit **stockage**. Il s'agit d'une problématique très sérieuse, et qui peut s'avérer extrêmement coûteuse (notamment pour les entreprises). À titre personnel, vous estimez que dépenser des centaines d'euros dans un disque dur de 8 To (Téraoctet, qui correspond à 1 024 Gigaoctets) voire dans une solution NAS ("Network Attached System"), difficile à configurer n'est pas à l'ordre du jour. Vous souhaitez donc peut-être faire appel à un tiers afin de pouvoir stocker vos fichiers personnels, en toute sécurité.
-
-Pour être honnête avec vous, nous ne recommandons sérieusement pas cette solution. En effet, faire appel à un tiers pour ce service revient à peu de choses près aux problématiques des VPNs actuels : assez peu en qui donner une confiance relative, après avoir fait sa petite étude sérieuse du sujet. 
-
-Dans la plupart des cas, on se retrouve avec une entreprise, qu'on ne ne connaît pas entièrement, dont on ignore les méthodes, et sur lesquelles on n'a pas le contrôle en pratique : centralisation des données, gestion des serveurs de stockage... On n'en sait rien, on n'est pas en situation de contrôle ! 
-
-Les 2 solutions pertinentes, et viables en terme de vie privée sont :
-1.  L'utilisation de plusieurs disques durs externes de bonne capacité : aujourd'hui le coût de ces disques a fortement chuté, et il est tout à fait possible de se procurer des disques à des prix intéressants. Voir large, penser long terme : une capacité d'un minimum de 2 To est à envisager, avoir 2 disques est le minimum. Maintenant, nous sommes d'accord, cela implique que vous y pensiez de façon récurrente (tous les mois par exemple), et que vous vous souveniez des manipulations à faire ; oui on sait c'est embêtant, qui plus est vous êtes tributaire d'une possible panne d'un de vos disques (d'où l'idée d'en avoir plusieurs pour éviter des pertes de données) !
-2.  Il existe une autre manière, qui requiert là encore de mettre "les mains dans le cambouis" et à un certain coût : les NAS. Ces petites et plus grosses bêtes, connectées sur notre réseau privé (en local donc), permettent de stocker d'importantes quantités de données et d'assurer une haute disponibilité dans le cas où les disques tombent en panne (nous vous renvoyons au principe des disques montés en [RAID](https://fr.wikipedia.org/wiki/RAID_(informatique)) par exemple). Cela dit, là encore vous devrez configurer correctement cet équipement en termes de sécurité et de durcissement, afin qu'on ne s'y introduise pas. D'un autre côté, il est tout à fait possible [d'automatiser les sauvegardes](/debutant/sauvegarde) !
-
-C'est à vous de décider quelle peut être la façon de faire, suivant vos besoins et votre modèle de menaces.
-
-Si toutefois vous décidiez de faire confiance à certains tiers, il existe des bonnes pratiques à respecter scrupuleusement :
--   Adieu les Google Drive, Microsoft OneDrive, Apple iCloud et autres "drives" ou "clouds" comme Dropbox. Ou en lien avec les GAFAM et BATX (Xiaomi etc.), dont on ne sait rien puisque propriétaire, et surtout ayant fait l'objet ces dernières années d'attaques et de vols de données. Sans parler des solutions faisant l'objet d'une surveillance massive...
--   Chiffrer avec un logiciel libre comme [Cryptomator](https://cryptomator.org/) systématiquement ses documents ou répertoires avant de les transférer sur un cloud public, qui ne propose pas de protection particulière mais pourrait être de confiance. Le contenu de nos données est ainsi protégé, qui plus est nous serons seul propriétaire de nos clés de sécurité et ne serons pas tributaire d'une entité tierce. Pour des entités de confiance, nous recommandons :
-    -   Pour des documents et de la collaboration en ligne : [Cryptpad](https://cryptpad.fr/)
-    -   Pour de petits documents, photos... (max 100Mo gratuit) : [Crypt.ee](https://crypt.ee)
-    -   Pour une solution tout-en-un : 
-	    - [Nextcloud](https://nextcloud.com/fr/)
-	    - [Ksuite](https://www.infomaniak.com/fr/ksuite) de Infomaniak : copié-collé des solutions propriétaires existantes, avec **des petits plus** (à l'heure où cet article est écrit, en offre gratuite de base [légende : cette solution est rendue possible de par leur offre payante auprès des entreprises en parallèle : un modèle économique solide évite les dérives en termes de monétisation des données] : 15 go de stockage, mail, **vidéo-conférence** (basée sur [Jisti Meet](/debutant/video-conf)), **messagerie instantanée** (prochainement))... Le tout, hébergé en Suisse, et fourni avec des applications sous licence libre, et de bonnes pratiques en termes de vie privée. Le bémol : à la différence de Nextcloud, nécessite de lier un numéro de téléphone pour des raisons avancées de sécurité (double authentification), plutôt que d'utiliser la technologie [OTP](/glossaire#otp) (à chacun d'anticiper l'évolution éventuelle de leur politique de gestion des données).
-  
-    -   Pour un stockage de sauvegardes et autres fichiers lourds : [Filen.io](https://filen.io/)
--   Une autre solution, qui comporte, cela dit, un certain coût financier ou en temps, ainsi que de solides connaissances, serait de soi-même héberger une solution Nextcloud :
-    -   Sur un NAS personnel chez vous,
-    -   Sur un VPS (Virtual Private Server). Fournisseurs de confiance recommandables, en tout cas traitant a priori vos données avec respect :
+-   Sur un VPS (Virtual Private Server). Fournisseurs de confiance recommandables, en tout cas traitant a priori vos données avec respect :
         -   [Njal.la](https://njal.la/servers/)
         -   [1984.is](https://1984.hosting/product/vps/)
         -   [Privex.io](https://www.privex.io/)
--   Si malgré tout, vous persistez à vouloir utiliser vos clouds Google, Microsoft, etc... et à ne pas vouloir générer et gérer vos clés de sécurité, une dernière alternative est possible, bien que moins pertinente : utiliser [Cryptomator](https://cryptomator.org/) afin de protéger vos données stockées sur ces clouds.
- 
-*Évidemment, vous l'aurez bien compris, nous vous recommandons les solutions autres que celles propriétaires, ne serait-ce qu'en terme de sécurité offerte par les communs libres (un code source ouvert permet des correctifs plus rapides), d'éthique et de modèle de société : rester sur un statu quo ne change pas le paradigme actuel d'une société fondée sur le capitalisme de surveillance. Quoi qu'il en soit, le choix final vous revient, notre rôle est avant tout pédagogique et non coercitif.*
 
 ## DVPN - Decentralized VPN
 
