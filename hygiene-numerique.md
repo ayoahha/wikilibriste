@@ -2,44 +2,231 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2025-07-02T16:10:28.134Z
+date: 2025-07-11T12:45:33.811Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
 ---
 
-# Les concepts clés
+Le réseau internet est, de nos jours, devenu un espace important voire vital dans la vie de certaines personnes. Les relations amicales ou familiales, le travail, le journalisme, l’activisme, le commerce, le marketing et bien d’autres domaines sont dorénavant liés profondément au numérique.
 
-## Les liens hypertextes (URL)
+C’est ainsi que les individus sont amenés à fournir des informations personnelles, parfois sensibles, et plus encore parfois critiques : nom, prénom, adresse postale, date de naissance, numéro de sécurité sociale, photo d’identité, permis de conduire, numéro de carte bancaire...
 
-![](/images/phishing_ex.png =600x){.align-center}
-***Extrait d'un courriel pour une campagne de hameçonnage***
+La protection de ces données personnelles est aujourd’hui devenue un enjeu crucial. L’explosion d’internet, et par extension la convergence des réseaux depuis une vingtaine d’années - qui bien que bénéfiques sur le plan du partage du savoir et de la connaissance - a engendré des dérives auxquelles il est aujourd’hui urgent de remédier. En effet, ces dérives amènent non seulement des pirates informatiques malveillants ou des entités à fortes ressources (agences de renseignement, groupes de pirates subventionnés...) à récolter des données personnelles afin d’en tirer profit (économique ou social comme le profilage), mais il est de plus en plus évident que des gouvernements s’appuient sur cette problématique afin de mettre en oeuvre des politiques d’espionnage de masse, rendant la liberté de mouvement ou d’opinion de plus en plus restreinte.
 
-Ci-dessus un exemple d'un courriel, qui attire notre attention. Ce courriel vous demande d'agir rapidement et vous propose de cliquer sur un lien. Il s'agit en réalité d'un type d'attaque par hameçonnage : au clique sur celui-ci, vous dirigera vers une page internet afin de rentrer des identifiants/mot de passe ou bien des coordonnées bancaires, ou d'autres données personnelles critiques. Bien souvent, ces SPAM sont bien mieux faits que cet exemple (Si vous regardez de plus près, vous vous apercevrez des fautes d'orthographe dans le corps de texte, qui trahissent les emails issus de campagnes de hameçonnage (détaillé ci-après)), mais vous avez l'idée !
+Il devient donc indispensable aujourd’hui de se pencher sérieusement sur son environnement personnel numérique et sur les données que l’on fournit à des entreprises contre leurs services (courriers électroniques dits "courriels", navigation par géo-localisation, achats/ventes en ligne, voyages, restauration, etc.).
 
-**Il est donc PRIMORDIAL de ne jamais cliquer sur des liens (hypertextes) contenus dans les courriels et de toujours vérifier l'information.** Si ce lien vous amène sur un écran où vous devez rentrer vos identifiants, il est préférable de se méfier et de fermer ce site. Puis de vous connecter en allant directement vous-même sur le site en question.
+L’enjeu n’est plus seulement de faire attention à soi-même, mais devient de plus en plus un objectif collectif !
 
-De nos jours, il est très facile de copier une page des sites bien connus (Facebook, Decathlon...) pour récupérer vos données d’authentification ou vos données bancaires (hameçonnage ou "phishing attack").  
+> Une bonne entrée en matière, afin d'appréhender les raisons, est de visiter ce site internet : 
+> [Je n'ai rien à cacher !](https://jenairienacacher.fr/)
+{.is-info}
 
-*_Exemple_ : vous recevez un courriel (visiblement très professionnel, aucune faute...) de Decathlon vous annonçant que vous pouvez participer à un jeu vous permettant de gagner un bon d'achat exceptionnel pour le dernier vélo électrique à la mode. Vous cliquez sur le lien, qui vous amène sur une page Decathlon tout à fait légitime, puis vous jouez, vous gagnez et enfin on vous demande de rentrer vos coordonnées bancaires, arguant qu’il leur faut faire un retrait de 2 euros afin de faire une empreinte de votre carte pour payer les frais de transports, mais que tout vous sera remboursé par la suite. Le piège s’est refermé, vous renseignez les données. Puis vous voyez un remboursement de 2 euros quelques jours suivants, ce qui vous rassure ; en revanche, les jours qui suivent vous vous apercevez que des retraits de 200 euros, 500 euros ont été effectués. Vous faites opposition mais bien sûr il est trop tard puisque les cybercriminels ont déjà récolté l’argent...*
+### Afin de reprendre la main sur votre espace numérique, cet article tente de vous guider en vulgarisant au maximum les terminologies techniques et le comportement à tenir afin d'arriver à une hygiène informatique plus saine.
 
-Cette histoire est tirée d’une réelle campagne de phishing !
 
-> **Ne sous-estimez JAMAIS les cybercriminels, c'est ainsi qu'ils trouvent leur motivation. Ne sur-estimez jamais la façon dont vous pensez pouvoir réagir. Cela peut arriver à n’importe qui, et encore plus à celui qui est trop confiant.**
+# Comprendre les bases
+
+Afin de bien comprendre les aspects évoqués tout au long de cet article, il est essentiel de comprendre les bases du monde numérique, communément et par défaut appelées "informatique", ainsi que ses tenants et ses aboutissants.
+
+> **Attention, cette partie peut être copieuse et technique, bien que vulgarisée. Nous vous conseillons donc de prendre un café, un thé ou un chocolat (ou simplement de l’eau pour les plus pur(e)s d'entre nous), de respirer un bon coup et de vous concentrer lorsque vous lirez les sections suivantes (relire plusieurs fois les sections qui vous demandent plus d'attention) !**
 {.is-warning}
 
 
-## Les fichiers et leur intégrité
+## Chiffrement, kézako ?
 
-Ceci est un rappel, mais il est important d'éviter de télécharger des **exécutables** directement ou dans des archives, que ce soit pour Linux (via des fichiers ELF ou "Executable Linkable File") ou Windows (via des fichiers à l'extension .exe ou .msi). Dans le cas d'un téléchargement depuis un site internet, plutôt que depuis un centre logiciel, il est recommandé de télécharger depuis le site officiel de l'éditeur logiciel dudit programme.
+Vous avez sûrement déjà entendu parler de « confidentialité des données » ou encore de « chiffrement des données », une terminologie en vogue aujourd’hui, surtout depuis l’application de la RGPD en 2016, le fameux [Règlement Général sur la Protection des Données](https://www.cnil.fr/fr/reglement-europeen-protection-donnees). Pourtant cette notion est très ancienne !
 
-*_Astuce toute simple_ : depuis son moteur de recherche préféré, taper wikipedia + nom_du_programme_à_télécharger (ou bien demander conseil sur une communauté, comme celle-ci). Depuis l'article Wikipedia, retrouver le lien vers l'[URL](/glossaire#url) de l'éditeur logiciel ; le but étant de télécharger un fichier authentique, en allant directement à la source.*
+*Mais qu’est-ce concrètement ce « chiffrement » et à quoi sert-il ?*
 
-En prolongement et pour tous types de fichiers (.iso, .img, ...), vérifiez **TOUJOURS**, lorsque disponible, l'intégrité du fichier téléchargé. Cela se fait via une vérification de la "signature" ou de "la somme de contrôle" dudit fichier.
-
-- **Voir l'article dédié à l'[intégrité](/intermediaire/integrite), ainsi que le tutoriel [associé](/tutoriels/verifier-integrite).**
+- **Nous vous renvoyons vers l'article [dédié](/intermediaire/chiffrement) au chiffrement afin d'y voir un peu plus clair sur ces sujets**
 
 
+## Accès aux informations ou authentification
+
+L’authentification est un mécanisme important qui permet de confirmer la légitimité de la demande d’accès à une information. Pour mieux comprendre, voici deux exemples :
+-  Vous souhaitez accéder à votre ordinateur, vous le démarrez et à l'écran vous est proposée une page d'authentification. En effet, celui-ci est protégé par un mot de passe dit "de session". Si vous entrez le bon mot de passe, la légitimité est donc prouvée et l’accès au bureau et à vos documents vous est donné (sinon l’accès vous est refusé, vous avez compris !). En ce sens, vous avez prouvé que vous **CONNAISSEZ** le secret pour avoir accès à votre session.
+-  C’est le même mécanisme lorsque vous souhaitez avoir accès à votre compte e-mail (ou à votre compte Telegram etc.). La seule différence ici est que vous prétendez être le titulaire d’une adresse courriel (ou bien n° de téléphone, ou n° de contrat, ou...). À vous de prouver, avec le bon mot de passe, que vous **CONNAISSEZ** le bon secret et ainsi avoir accès au compte.
+
+> Ces deux exemples ci-dessus constituent une authentification à 1 facteur, c'est-à-dire via un mot de passe.
+{.is-info}
+
+Ce procédé est très ancien, mais la plupart des experts en sécurité de l’information se sont très vite aperçus qu’un seul facteur constituait une brèche dans le principe d’authentification : en effet, un mot de passe peut être aujourd’hui facilement connu ou déduit (par exemple en tentant toutes les combinaisons possibles jusqu'à l'obtenir - méthode "brute force"). Encore plus si celui-ci est faible (nous verrons plus loin comment gérer cet aspect !), et c'est malheureusement souvent le cas !
+
+C’est pourquoi vous entendez souvent parler de « 2FA » ou « MFA » ; en anglais 2FA ou (2)Two Factor Authentication, MFA ou Multi Factor Authentication. Ces techniques permettent de renforcer la sécurité de la demande d’accès, en ajoutant des étapes supplémentaires. Cette notion s’appuie sur des « facteurs » d’authentification dont le schéma de détermination est le suivant :
+
+1.  Quelque chose que vous CONNAISSEZ
+2.  Quelque chose que vous DÉTENEZ
+3.  Quelque chose que vous ÊTES
+4.  Le LIEU où vous vous trouvez
+
+> Sachant qu’il est tout à fait possible d’activer un ou plusieurs facteurs en même temps (les 4 ne sont pas obligatoires).
+{.is-success}
+
+### Le Mot de passe
+
+*Un mécanisme que tout le monde redoute...*
+:'( Qui n’a jamais râlé en tentant de retrouver le bon mot de passe devant son site de vente en ligne préféré ?
+:'( Qui n’a jamais cédé à la tentation du post-it sur son écran d’ordinateur pour se remémorer son mot de passe de session ?
+:'( Qui n’a jamais écrit tous ses mots de passe sur une feuille de papier ou pire sur un outil numérique de type Google, synchronisé sur des serveurs ?
+
+> En termes statistiques, plus de 80% des fuites de données liées à des piratages informatiques sont liées aux mots de passe.
+
+> Jetez un oeil à des mots de passe tout à fait inutiles et encore utilisés de nos jours ici [^⁷], malheureusement, en espérant que vos mots de passe n'y figurent pas. Sinon, changez le(s) _immédiatement_.
+{.is-warning}
+
+[^⁷]: [Liste des mots de passe](https://nordpass.com/fr/most-common-passwords-list/) les plus communs
+
+Voilà pourquoi ce sujet est essentiel. Pour bien comprendre l’utilité d’un mot de passe, intéressons-nous à son histoire.
+
+Dans les années 60, un brillant ingénieur (oui, oui, brillant !) du MIT a eu besoin de donner accès à des étudiants à une partie des ressources du système informatique de l'université. Néanmoins, il fallait trouver une solution pour identifier ces étudiants et ainsi leur donner accès aux ressources. C’est ainsi qu’il créa le _mot de passe_ (« password » en anglais). Malheureusement à peine créé, et déjà détourné : un étudiant ayant besoin de beaucoup de ressources pour sa thèse a trouvé le moyen d’avoir le mot de passe des autres étudiants et ainsi avoir plus de ressources... eh oui, les mots de passe étaient stockés en clair dans un fichier !
+
+Si le procédé a vite été détecté, l’auteur non. Celui-ci n’a avoué que 20 ans plus tard.
+
+Ainsi, nous pouvons, de cette histoire, en déduire deux conclusions majeures, qui sont aujourd’hui le socle de l’utilisation d’un mot de passe :
+1.  Le mot de passe doit être créé de sorte que seul son créateur puisse le retrouver et il doit être assez **_fort_** pour résister à toute déduction (manuelle ou par le biais d'algorithme(s)). Bien sûr, cela demande aujourd’hui une sacrée dose de réflexion !
+2.  Les mots de passe stockés sur un appareil doivent l'être de façon **_sécurisée_** et jamais _en clair_. Aujourd’hui, tout mot de passe stocké est, dans la plupart des cas, protégé par des mécanismes de hachage, voire d’autres mécanismes (comme le [salage](https://wikimonde.com/article/Salage_(cryptographie)) par exemple).
+
+### Les facteurs d'authentification
+
+Nous avons déjà appréhendé le premier facteur, l’exemple du mot de passe (le code PIN pourrait aussi rentrer dans cette catégorie). Mais vous utilisez assez souvent le mécanisme à 2 facteurs (2FA) sans probablement le savoir : votre carte bancaire associée à son code secret constitue en fait une 2FA : 
+- le facteur 1, que vous CONNAISSEZ, est le code secret (assimilable à un code PIN),
+- et le facteur 2, que vous DÉTENEZ, est la carte bancaire.
+{.grid-list}
+
+Lorsqu’il s’agit de décrire le mécanisme qui permet de vérifier le facteur que vous DÉTENEZ, il est souvent mention de la carte bancaire. Mais, ce n’est pas le seul item :
+-   une _carte d'authentification_ pour sécuriser l’accès à votre ordinateur (professionnel bien souvent),
+-   un _badge_ d’accès à votre entreprise,
+-   une clé de sécurité (aussi appelée _token physique_ de sécurité, [YubiKey](https://www.yubico.com/) ou [Nitrokey](https://www.nitrokey.com/fr) par exemple),
+-   un token logiciel (généralement un _certificat_).
+
+Un autre exemple d’authentification à 2 facteurs : vous avez un compte sur un site de vente en ligne. Lorsque vous souhaitez payer un bien, vous utilisez votre carte bancaire. Lors de la transaction entre le site vendeur et votre banque, très souvent votre banque vous demandera de rentrer un numéro unique et temporaire de 4 à 6 chiffres reçu sur votre téléphone par SMS ou par e-mail. Le téléphone constitue ici le facteur que vous DÉTENEZ, et le numéro unique le facteur que vous CONNAISSEZ. Nous sommes bien ici en face d’une authentification 2FA (facteurs 1- et 2-).
+
+> Attention : ce procédé utilisant le SMS/e-mail est juste ajouté à des fins de compréhension, il s’agit d’un mécanisme en fait peu sécurisé. Nous en rediscuterons plus tard...
+{.is-warning}
+
+Le troisième facteur, le facteur d’inhérence, est souvent assimilé à l’empreinte digitale. Il s'agit ici de la biométrie : un ensemble de technologies et procédés de reconnaissance, d’authentification et d’identification des personnes à partir de certaines de leurs caractéristiques physiques ou comportementales. Ce facteur lié à l'inhérence n'est donc pas limité qu’à l’empreinte d'un doigt. Il est associé principalement à toute biométrie, incluant empreinte digitale, mais aussi reconnaissance faciale, reconnaissance vocale, reconnaissance d’iris... allant même jusqu’à inclure la reconnaissance par comportement biométrique (exemple : la démarche d'une personne), ou la dynamique de frappe sur un clavier.
+
+Un exemple ici est le fait d’utiliser votre empreinte digitale pour déverrouiller votre téléphone : le téléphone correspond au facteur que vous DÉTENEZ, votre empreinte au facteur que vous ÊTES (facteurs 1- et 3-).
+
+*Note : concernant le facteur biométrique lié à l'empreinte digitale, et stocké sur votre appareil (votre téléphone par exemple) : il s'agit d'une représentation mathématique de l'empreinte de votre doigt, non pas d'une photo fidèle, pixel pour pixel de votre empreinte digitale. Néanmoins, au vu du caractère restreint du nombre de possibilités de changer son authentification biométrique sur smartphone (10! Pour les 10 doigts des deux mains), un PIN fort est plutôt recommandé pour ceux qui ont bonne mémoire. En effet, en cas de piratage du PIN, on peut changer son code plus de 10 fois, et les possibilités sont exponentielles.*
+
+Un dernier exemple pour vous montrer l’étendue des possibilités de l’authentification multifactorielle (MFA). Souvent aperçus dans les films d’action, certains procédés d’authentification existent bel et bien, pour des données extrêmement critiques (par exemple un OIV en France ou Organisme d’Importance Vitale).
+
+Voici le scénario : un utilisateur souhaite accéder à un datacenter où des données critiques sont entreposées, voici ce qui pourrait être fait :
+-   L’utilisateur possède un badge d’accès : ceci constitue le facteur de possession (ce que vous détenez).
+-   Lors du badgeage à la porte d’entrée du datacenter, un appareil demande à l’utilisateur un code PIN à 9 chiffres : ceci constitue le facteur de savoir (ce que vous connaissez) ;
+-   Puis l’appareil laisse place à un second appareil, d’identification biométrique à reconnaissance d’iris : ceci constitue le facteur d’inhérence (ce que vous êtes).
+
+Voici à quoi ressemblerait une 3FA !
+
+Le dernier facteur est encore peu utilisé de nos jours, et seulement pour des situations sensibles ou des entreprises ayant des données critiques ou des personnes à protéger. Ce facteur s’appuiera sur l’adresse IP d’où part la demande d’authentification, voire sa géolocalisation.
+
+### Quel futur pour les mots de passe ?
+
+La question est judicieuse, à l'heure où tous les chercheurs et experts tentent de trouver une solution pour améliorer l'authentification par mot de passe. Nous entendons de plus en plus parler de fonctions ou procédés « passwordless ». Ce procédé vise à autoriser un accès à un utilisateur sans qu’il ne rentre aucun mot de passe.
+
+*« Bon OK, ça j’avais compris en traduisant de l’anglais, mais concrètement... »*
+
+Concrètement, nous avons déjà vu dans la partie précédente l’authentification multifactorielle (MFA). Mais attention cependant de ne pas confondre les 2 mécanismes : 
+- le MFA ajoute « n » couches d'authentification en plus de l’authentification par mot de passe,
+- le passwordless lui n’a pas besoin d’un secret connu (facteur 1, c'est à dire le **mot de passe**, par exemple) mais implique l’utilisation des autres facteurs pour s’authentifier :
+  - Quelque chose que vous DÉTENEZ
+  - Une de vos CARACTÉRISTIQUES PHYSIQUES
+  - LE LIEU où vous vous situez
+{.grid-list}
+
+_Par exemple_ : utilisation d’un token physique de sécurité de concert avec l’empreinte digitale...
+
+Il est également tout à fait possible d’utiliser ces facteurs en même temps, auquel cas nous nommerons ce procédé « MFA-passwordless » !
+
+*« Youpi c’est la fin des mots de passe !! ».*
+
+Alors, pas tout à fait, gardons notre sang-froid... Même si théoriquement il est vrai que ce mécanisme permet de se passer d'un facteur encombrant lors de l’authentification, certains points sont encore problématiques : par exemple, le vol de votre token physique de sécurité implique une compromission totale de votre compte, associé à ce moyen d'authentification (si en plus ce token fait office de moyen d’authentification pour plusieurs de vos comptes, tous ces comptes sont potentiellement compromis !). Également, cela ne protège pas non plus contre des failles connues comme le [SIM swapping](https://en.wikipedia.org/wiki/SIM_swap_scam), ou certains logiciels malveillants. Aussi, nous savons que certains lecteurs d’empreintes digitales ou lecteurs d’empreintes de visage peuvent être contournés (cf. compromission des technologies Apple touchID  et faceID [^⁸], par exemple). Même si les grandes entreprises commencent à implémenter ce procédé, celui-ci n’est toujours pas très répandu. Les difficultés d’implémentation dans les infrastructures sont assez importantes car le coût d’implémentation est énorme.
+
+[^⁸]: [FaceID hack](https://siecledigital.fr/2017/11/13/chercheurs-face-id-masque-iphone-x-hack/)
+
+Donc une chose est sûre, le mot de passe n’est pas encore prêt de disparaître. Vous en avez pour un petit moment encore !
+
+## Malware, Virus, Trojan...
+
+Il est intéressant de savoir faire la différence entre les types de menaces que nous pouvons rencontrer, ou qui sont à l’origine d’une compromission : un « malware » (**mal**icous soft**ware**) est un terme anglais qui désigne un logiciel malveillant. Ici, le terme logiciel se rapporte à tout programme informatique, document ou fichier qui est stocké sur un disque dur ou transmis via un réseau. Voici une idée des principaux types de malwares existants à ce jour :
+-   Les virus : qui sont des bouts de codes informatiques attachés à des programmes informatiques eux-mêmes. Un virus est créé pour infecter un équipement et se propager à d’autres équipements (finalement un peu à la manière d’un réel virus qui se propage dans le corps humain d'une personne à une autre !). L’idée est d’effectuer toutes sortes d’opérations afin de corrompre la ou les machines cibles : altération, réécriture, suppression de données... Le résultat est un équipement instable et lent.
+-   Les chevaux de Troie (« Trojan » en anglais) : un programme informatique qui a l’air tout à fait normal, à ceci près qu’il cache une fonction malveillante dans ses entrailles. Par exemple, une personne télécharge un lecteur vidéo d’un site internet inconnu, pensant trouver un outil capable de lire un format de fichier, mais donnant au final un accès complet à un attaquant sur la machine cible ; c'est l'idée d'un cheval de Troie.
+-   Les "rootkits" : un joli _ensemble de programmes malveillants_ - dissimulés et vus comme normaux par des anti-virus, qui permet de donner un accès libre à distance à un attaquant. Alors, comme cela, la différence entre un Trojan et un Rootkit n'est pas évidente... Mais quand un trojan est plus susceptible d'être détecté par un anti-virus classique, un rootkit sait se dissimuler plus encore, et est très complexe à entièrement supprimer de la machine infectée. Il mérite un outil de détection particulier.
+-   Les rançongiciels (« ransomware » en anglais) : là encore un joli logiciel malveillant qui vient chiffrer vos données personnelles. Cela rend donc vos données illisibles, sauf si vous détenez la clé (de déchiffrement). C’est là que l’attaquant entre en jeu et vous demande de payer une somme (une rançon donc) en échange de la clé de déchiffrement ou du mot de passe. La menace sera souvent de diffuser publiquement les informations si vous n’acceptez pas de payer cette rançon. Voilà pourquoi c'est assez problématique pour les entreprises par exemple.
+-   Les logiciels espions (plus connus sous le nom de « spywares ») : sont des logiciels capables de collecter et transmettre toutes informations utiles sur un utilisateur ou un système : mots de passe, activité internet ou réseau privé, appuis sur les touches clavier, etc. Représentés par 2 types : les « keyloggers » ou enregistreurs de frappe qui journalisent toutes les touches tapées sur votre système et les « adware » qui vont sournoisement vous afficher des publicités afin de vous pousser à cliquer sur l'une d'entre elle et ainsi voler des données confidentielles que vous pourriez donner (carte bancaire, etc.).
+-   Les bots et botnets : vous avez tous déjà entendu parler des "bots", ou plus simplement appelés "robots internet". Un robot est un logiciel qui automatise des tâches sur internet. Par exemple : il existe des bots pour les gamers, des bots sur Telegram, des socials bots... Il en existe de toutes sortes, mais ceux qui nous intéressent ici sont les _bots malveillants_. Des bots malveillants sont bien sûr conçus pour automatiser des tâches d'intrusion et de compromission d'une ou plusieurs machines ; dans le dernier cas, on parlera de "botnets", car les bots sont reliés en réseau. Plusieurs types :
+		:arrow_right: des bots qui aspirent des pages internet et les données associées afin d'en générer des copies frauduleuses,
+		:arrow_right: des bots servant à des attaques DoS ou DDoS (Denial of Service ou Distributed DoS),
+		:arrow_right: des bots qui scrutent les sites internet à la recherche d'adresses courriel en clair ou d'adresses postales...,
+		:arrow_right: des spambots (affichage de publicités intempestives (spams)),
+		 etc.
+-   Il existe bien sûr d’autres types de malwares comme par exemple les _backdoors_, les fileless malwares, les logiciels malveillants sur téléphone portable...
+
+> Vous voyez ici qu’il ne faut pas confondre virus et malware qui sont _deux notions différentes_ bien que liées : en effet, les virus sont une forme de malware (logiciel malveillant).
+{.is-info}
+
+
+Par extension, nous utilisons souvent le terme d’anti-virus, bien que réducteur, car les anti-virus aujourd’hui sont capables de détecter bien plus que les virus. Mais, nous voyons apparaître, depuis quelques années maintenant, des logiciels de type « anti-malware » : ces logiciels bien que pouvant se rapprocher des anti-virus détectent plus de types de malwares, via des mécanismes différents (signature vs méthode heuristique ; dont ce n’est pas l’objet de l’article). Ils sont de toute manière tout à fait complémentaires.
+
+Nous reparlons de ces outils plus loin dans l'article...
+
+*Vous avez maintenant les clés pour vous la péter avec vos amis :-) !*
+
+## Les métadonnées, qu'est-ce que c'est ?
+
+Nous entendons beaucoup parler de "métadonnées" de nos jours... Mais à quoi se raccroche ce terme ?
+
+Tentons de définir cela : 
+
+> Une métadonnée est une information ou donnée, concernant une donnée elle-même (en gros une donnée sur une donnée !). Cette information peut inclure des choses comme :
+> -  l'émetteur et le destinataire d'un message, 
+> -  la date de transmission et/ou d'envoi effectif, 
+> -  l'adresse IP, 
+> -  la géolocalisation
+> -  des identifiants de machine ou équipements
+> -  des versions de logiciels ou système d'exploitation
+> -  d'autres informations...
+
+**Tout le trafic internet génère ce type de données, et nous dirions même que sans cela, internet ne pourrait pas tout à fait fonctionner.**
+
+La plupart du temps, ces données ne peuvent pas faire l'objet d'une protection ou tout du moins une protection complète, car celles-ci sont parfois primordiales pour communiquer ! Il n'est pas si évident de fournir des applications permettant de sécuriser ou tout du moins obfusquer [^⁶] ces informations ; prenons un exemple pour illustrer cela : nous avons défini au début qu'une adresse IP était tout comme votre adresse postale sur internet, continuons sur ce chemin... 
+
+[^⁶]: [Obfusquer](https://fr.wiktionary.org/wiki/obfusquer) définition.
+
+Mettons ici que vous souhaitez transmettre un message à votre cousin. Par analogie, vous souhaiteriez donc transmettre une lettre à l'intérieur d'une enveloppe. Votre écrit serait donc sécurisé, mais sur cette enveloppe vous allez devoir inscrire l'adresse postale de votre cousin, pour que La Poste puisse savoir qui est le destinataire...
+
+Vous voyez où nous voulons en venir : oui, cette adresse postale est en fait une **métadonnée** ! Difficile ici de sécuriser (chiffrer par exemple) cette adresse, car La Poste pourrait ne pas pouvoir lire cette destination et donc votre lettre pourrait ne pas arriver.
+
+Voilà pourquoi certaines informations ne peuvent être protégées, en tout cas de façon simple ! Il existe bien entendu des techniques pour sécuriser et limiter les métadonnées non protégées, et certaines applications peuvent y arriver par design : par exemple la messagerie "Signal" ne fournit que très peu de métadonnées non protégées : les serveurs stockent de façon permanente uniquement les numéros de téléphone associés à un compte Signal, et la dernière connexion avec ce compte. Rien de plus...
+
+**Il est important de noter ici que bien entendu si ce numéro de téléphone vous est attribué, il sera possible de savoir si vous utilisez Signal, même si personne ne pourra avoir le contenu de vos messages bien entendu (hormis potentiellement des entités à fortes ressources financières et logistiques !).**
+
+Le sujet des métadonnées est un sujet extrêmement débattu dans la communauté, car même si certains s'intéressent à leur sécurisation, d'autres au contraire militent pour ne pas protéger ces informations voire en ajouter certaines... Certains dénoncent même cette course à la métadonnée :
+
+> "We kill people based on metadata..." - Traduction : "nous tuons des gens grâce aux métadonnées...", d'après le Général Michael Hayden, ancien directeur de la NSA entre 1999 et 2005 et directeur de la CIA de 2006 à 2009.
+
+Oui vous avez bien lu, un ancien directeur d'une agence étatique a bien évoqué cela ! Voilà pourquoi l'enjeu de la collecte des métadonnées est critique et important pour notre vie privée, mais aussi notre sécurité.
+
+La bonne nouvelle est que nous sommes aujourd'hui capable de limiter cette collecte...
+
+## Hacking, piratage, ne pas confondre !
+
+**Une bonne fois pour toute, remettons l'église au milieu du village !**
+
+Le piratage fait référence à toute activité visant à compromettre un ordinateur, téléphone, une machine en usine, un serveur, un réseau informatique entier, voire une personne (cas de l'ingénierie sociale). Au contraire de ce que la plupart des gens pensent, le piratage n’est pas systématiquement malveillant, mais une partie est en effet effectuée par des cybercriminels et a pour conséquence de compromettre la vie privée de la (ou des) cible(s).
+
+> Le « hacking » se rapporte à toute activité permettant de détourner un objet de sa fonction première. Un hacker s’intéresse avant tout au détournement, à la bidouille, au jeu, aux défis intellectuels...
+
+Eh oui, vous voyez, un _hacker_ n’est pas forcément un pirate informatique ! Vous trouverez par exemple beaucoup de personnes détournant des objets de la vie quotidienne pour une autre utilité : ces personnes sont aussi des hackers et on les appelle des « life-hackers ». Cette confusion vient en partie des journalistes et autres pseudo-experts qui ont utilisé ce terme afin de désigner les cybercriminels uniquement, en omettant toute la partie bienveillante ou positive. Ce terme est resté ancré dans l’inconscient collectif, en des termes négatifs. Attention donc à la confusion avec la terminologie :
+-   Un cybercriminel est un pirate informatique malveillant.
+-   Un pirate informatique peut être bienveillant (un "pentester" par exemple - **pen**etration **test**ing = tests d'intrusion : auditer la sécurité informatique).
+-   Un hacker peut être un pirate informatique (cf. terminologie [White Hat / Grey Hat / Black Hat](/glossaire#white-hat) du glossaire).
+Il peut néanmoins être un "bidouilleur", qui installe un système alternatif à la place de celui d'un robot cuiseur, une calculatrice [^¹] ou une imprimante [^²], pour relever le défi d'y jouer à des jeux vidéos :)
+
+[^¹]: [Doom](https://www.phonandroid.com/doom-fonctionne-meme-sur-une-calculatrice-alimentee-par-des-patates.html) fonctionne sur une calculatrice
+[^²]: [Une imprimante](https://www.tomsguide.fr/un-hacker-pirate-une-imprimante-en-installant-le-jeu-doom/) utilisée pour jouer à Doom
 
 # Définir son modèle de menaces
 
@@ -141,6 +328,349 @@ Un très bon guide est déjà en ligne, sur [guide.boum.fr/choisir les réponses
 > **Les sections suivantes pourront justement vous donner un aperçu des possibilités et outils afin de mettre en place cette stratégie...**
 {.is-success}
 
+# Eviter le hacking
+
+Cette partie est **essentielle**, et vous fournit les meilleures pratiques en matière d'hygiène informatique afin de ne laisser que très peu d'ouverture à de potentiels *adversaires* (on parle d'une surface d'attaque minimale) et éviter au maximum des *vols de données* ou encore des *usurpations d'identité*.
+
+## De l'utilisation des mots de passe
+
+### Politique de mots de passe puissante
+
+Nous l’avons vu plus haut, créer un mot de passe extrêmement fort peut déjà vous couvrir face à la majorité des tentatives d'intrusions. Choisir un mot de passe comme « 1234 », « Choupette1982 », « Misssunshine » ou « Pepperonipizza2000! » et bien d’autres relève aujourd’hui de l’hérésie informatique (malheureusement on le voit encore trop souvent [^¹0] !) :-(
+
+[^¹0]: [Liste des 20 mots de passe](https://www.01net.com/actualites/voici-20-mots-de-passe-plus-utilises-france-vraiment-triste.html) les plus utilisés en France en 2023.
+
+![motdepasse2023.png](/images/motdepasse2023.png =600x){.align-center}
+
+Nous en déduisons ainsi les pré-requis :
+-   Au minimum : **13 caractères**
+-   Au minimum, **un mélange de lettres minuscules-majuscules, de chiffres, et de caractères spéciaux**.
+Afin de renforcer encore plus vos mots de passe :
+    -  On évite la majuscule en début de mot de passe.
+    -  On évite le caractère spécial en fin de mot de passe.
+    -  On évite les chiffres en début et fin de mot de passe.
+    -  On évite les suites de chiffres (tels « 1234 » ou « 54321 ») ou les suites de lettres (type « abcde »).
+    -  On évite les dates d'anniversaire, ou dates importantes. 
+    -  On évite les prénoms des enfants, le nom de son toutou, les hobbies et toute activité personnelle qui peuvent facilement se retrouver sur les réseaux.
+  {.grid-list}
+-   Créer votre propre façon d’obfusquer votre mot de passe, par exemple : « jsistorienvoia » peut devenir « js%stor%envo%a » (on ajoute un % à la place du i).
+-   Il est également possible voire même _tout à fait conseillé_ aujourd'hui d’utiliser des « **phrases de passe** » (passphrase). Par exemple : « suis bois orchidee cheval ». Une phrase de passe consiste à choisir une suite de mots formant une phrase mais n’ayant aucun sens, avec l'objectif de pouvoir le mémoriser simplement. On pourrait tout aussi bien combiner.
+  **On estime qu'une suite de 5 mots serait suffisante pour être à l'abri des attaques les plus courantEs sur les mots de passe : on obtient 64 bits d'entropie et avec une puissance de calcul d'1 Milliard de passphrases testées par seconde, cela prendrait 900 ans avec les moyens actuels et futurs proches ! On recommande, cela dit, 6 mots à ceux qui sont particulièrement exposés, afin d'obtenir une meilleure couverture.**
+  Une technique afin de choisir vos mots : le lancé de dés ou [diceware](https://fr.wikipedia.org/wiki/Diceware).
+- Enfin dernière technique relativement récente : la stratégie du mot de passe en double aveugle. Dénomination assez barbare mais finalement plutôt simple ! Il s'agit ici de découper les mots de passe en 2 parties, la partie courte et la partie longue ; la partie longue étant stockée dans un gestionnaire de mots de passe ou retenue de tête (bon courage!) et la partie courte sera **unique** et pourra être aisément gardée en mémoire (code PIN ou mot simple). Scinder en 2 un mot de passe (avec une partie courte pouvant être mémorisée simplement) peut complexifier la tâche d'un attaquant pour retrouver ce mot de passe, y compris même s'ils sont réussi à avoir le mot de passe long..
+  **Exemple : mettons que votre partie courte soit "abcd5". Nous créons un mot de passe avec notre gestionnaire, par ex. "sdf6#ds5!f65s78)". Le mot de passe intégral sera donc en fait "sdf6#ds5!f65s78)abcd5".**
+
+### Mots de passe uniques
+
+> Très important : Choisissez un mot de passe _**UNIQUE**_ pour chaque compte que vous créez.
+
+> Nous répétons : Choisissez un mot de passe _**UNIQUE**_ pour chaque compte que vous créez.
+
+Chaque site nécessitant un compte avec un couple *[nom d’utilisateur ; mot de passe]* doit contenir un mot de passe unique, qui n’a jamais été utilisé sur un autre de vos comptes. La raison est très simple : vous évitez en choisissant un mot de passe unique, dans le cas éventuel d'une fuite de données (qui arrive plus souvent que vous ne le pensez), de retrouver ce mot de passe sur les darknets, compromettant ainsi **TOUS** vos comptes ! La situation est en fait encore pire en ayant un mot de passe unique (quand bien même il serait "ultra-secure"!!) : 
+- "ultra-secure" (comme le disent certains !) ou pas, si votre mot de passe est dévoilé, peu importe sa robustesse !
+- Et généralement, nous ne sommes pas avertis rapidement de ces fuites de données, donc vous mettez à risque la totalité de vos comptes (qui pour certains peuvent être sensibles) sans forcément le savoir et prendre des mesures (changement de mot de passe). 
+- Egalement, dans le cas d'une fuite de données, vous devrez changer le mot de passe de **TOUS** vos comptes.
+
+> **Donc une nouvelle fois : _un mot de passe UNIQUE pour chacun de vos comptes_. Ici également, c'est un pré-requis essentiel (non négociable).**
+
+> Attention, veillez à ne pas tester vos mots de passe sur des sites internet qui proposent ce service, y compris sur des sites de sociétés très connues, et y compris s'ils vous disent qu'ils ne collectent pas les données. Vous ne savez pas qui est concrètement derrière ces sites internet, et quels seraient les algorithmes ou les codes implémentés, voire dans le pire cas qui pourrait intercepter la requête avec le mot de passe à l’intérieur ! Un mot de passe est un secret, et doit le rester pour tout le monde, y compris votre conjoint(e) ou vos enfants.
+{.is-danger}
+
+Alors je sais, vous vous dites "Non mais attends, créer un mot de passe ultra fort est déjà presque impossible à retenir, si je dois en choisir un pour chaque site ou compte, c'est impossible !!" :)
+
+**Et vous avez entièrement raison...**
+
+### Gestionnaire de mots de passe
+
+**... Voici pourquoi utiliser un gestionnaire de mots de passe est fortement recommandé.**
+
+Nous vous renvoyons ici vers l'[article dédié](/debutant/gestionnaire-mots-passe) à cet outil.
+
+## Authentification
+
+**L'authentification multi factorielle**
+
+- Activez partout où cela est possible les authentifications à plusieurs facteurs, au minimum 2FA.
+
+Attention cependant à l’utilisation du 2FA avec SMS ou courriel : il doit être limité uniquement aux cas où vous n’avez pas d'alternative. Si l'on vous donne le choix, préférez d’autres méthodes comme l’OTP (One-Time Password) via des outils libres (on évitera les Google Auth, Microsoft Auth etc.), disponibles dans l'[article dédié](/debutant/logiciel-alternative-libre) aux alternatives libres et open source. 
+
+**Les mécanismes d’authentification**
+
+- Ne jamais vous authentifier en utilisant les mécanismes d’authentification des GAFAM ou autres pompes à données : Facebook, Google, Microsoft etc.
+
+Bien que ces méthodes soient très pratiques à l'usage, cela comporte un risque : comment être sûr que le site en question est de confiance, comment être sûr que celui-ci ne va pas tout simplement collecter vos données personnelles voire même vos identifiants ? Vous ne pouvez pas. Il est donc préférable de créer un compte unique. **Voilà aussi pourquoi un gestionnaire de mots de passe est utile. Utilisez-le donc afin de simplifier la chose !**
+
+## Le moins d’informations personnelles
+
+De manière générale, évitez de donner trop d’informations personnelles sur des sites internet qui n’en ont pas réellement besoin (âge, date de naissance, adresse postale, lieu de naissance, numéro de sécurité sociale, etc.).
+-   Twitter par exemple n’a pas besoin de votre adresse postale, pourquoi la donnez-vous ?
+-   Google non plus.
+-   Facebook n’a pas besoin de savoir non plus de quelle ville vous venez actuellement.
+-   Votre « Forum des choses pratiques » n’a pas non plus besoin de savoir quel âge vous avez
+-   Si vous remplissez des questionnaires en ligne ils n’ont pas besoin de connaître votre adresse ou sinon vous devez vous méfier de ce que cela implique (tous professionnels qu’ils soient !)...
+
+Cela est valable pour tous les sites, et encore plus pour les réseaux sociaux, car aucun de ces sites n’est et ne sera à l’abri d’une fuite de données (même s’ils prétendent le contraire). **Protéger votre identité et votre vie privée est crucial.**
+
+### Adresse postale
+
+Il est préconisé également de ne pas donner votre adresse postale sur tous les sites. Entrer votre adresse sur Twitter, ou Facebook, ou bien sur un forum de jeux vidéo n'est pas une obligation. Dans ce cas, ne le faites pas ! En revanche, pour une partie des sites notamment de commerces en ligne, cela reste compliqué en France. Dans ce cas, et si possible, _préférez donner une adresse postale d’un point relais ou d’une boîte postale_ (vous pouvez louer une boîte postale) lorsque vous le pouvez.
+
+**Cela évite lors de fuites de données de retrouver votre adresse postale un peu partout sur les sites d'échanges entre pirates malveillants.**
+
+Une dernière chose, on évitera de rentrer ses adresses postales de domicile et de travail dans des applications de géolocalisation (type GPS), voire dans votre système de navigation de voiture (Tomtom, etc.) ! Mais ça, vous le faisiez déjà, n’est-ce pas ?
+
+### Les fameuses questions de sécurité
+
+Nous voyons depuis quelques années des sites internet qui demandent à ses utilisateurs de sélectionner parmi un nombre de questions pré-établies et d’y adjoindre une réponse personnelle, ceci afin de renforcer la sécurité. Par exemple : quelle est le nom de jeune fille de votre mère ? Quel est votre animal préféré ? Et bien d'autres. Par réflexe, nous avons pratiquement toujours l'habitude de dire la vérité...
+
+Mais vous êtes-vous déjà demandés si vous étiez véritablement obligés de répondre avec de réelles informations ? La réponse est, vous vous en doutez : _**NON, absolument pas**_ !
+
+Vous n’êtes pas tenus de donner une information personnelle véridique, vous pouvez tout simplement inventer une réponse. En ce sens, ne pas donner trop d’informations personnelles peut éviter qu’une fuite de données puisse avoir un impact négatif sur votre vie privée (même ordre d'idée que pour les adresses postales). Ne donnez **jamais** de réponses secrètes en lien avec vous ou votre vie privée (nom de jeune fille de votre mère, sport favoris, dessert préféré, cocktail favori...). Préférez utiliser des réponses aléatoires, et éventuellement celles-ci peuvent être stockées sur votre gestionnaire de mots de passe.
+
+### Les petites annonces
+
+Arrêtez de mettre vos adresses courriels ou vos numéros de téléphone dans le texte de vos petites annonces : vous vous exposez à des campagnes de spam à volonté, voire pire !
+
+## Les courriels
+
+Protégez vos échanges par courriel, a minima ceux que vous jugez critiques.
+
+Ce sujet est discuté en détails dans l'article dédié aux [courriels](/debutant/communications#courriel).
+
+## Les messageries
+
+Ce sujet est discuté en détails dans l'article dédié aux [messageries](/debutant/communications#messagerie).
+
+## Les liens hypertextes (URL)
+
+![](/images/phishing_ex.png =600x){.align-center}
+***Extrait d'un courriel pour une campagne de hameçonnage***
+
+Ci-dessus un exemple d'un courriel, qui attire notre attention. Ce courriel vous demande d'agir rapidement et vous propose de cliquer sur un lien. Il s'agit en réalité d'un type d'attaque par hameçonnage : au clique sur celui-ci, vous dirigera vers une page internet afin de rentrer des identifiants/mot de passe ou bien des coordonnées bancaires, ou d'autres données personnelles critiques. Bien souvent, ces SPAM sont bien mieux faits que cet exemple (Si vous regardez de plus près, vous vous apercevrez des fautes d'orthographe dans le corps de texte, qui trahissent les emails issus de campagnes de hameçonnage (détaillé ci-après)), mais vous avez l'idée !
+
+**Il est donc PRIMORDIAL de ne jamais cliquer sur des liens (hypertextes) contenus dans les courriels et de toujours vérifier l'information.** Si ce lien vous amène sur un écran où vous devez rentrer vos identifiants, il est préférable de se méfier et de fermer ce site. Puis de vous connecter en allant directement vous-même sur le site en question.
+
+De nos jours, il est très facile de copier une page des sites bien connus (Facebook, Decathlon...) pour récupérer vos données d’authentification ou vos données bancaires (hameçonnage ou "phishing attack").  
+
+*_Exemple_ : vous recevez un courriel (visiblement très professionnel, aucune faute...) de Decathlon vous annonçant que vous pouvez participer à un jeu vous permettant de gagner un bon d'achat exceptionnel pour le dernier vélo électrique à la mode. Vous cliquez sur le lien, qui vous amène sur une page Decathlon tout à fait légitime, puis vous jouez, vous gagnez et enfin on vous demande de rentrer vos coordonnées bancaires, arguant qu’il leur faut faire un retrait de 2 euros afin de faire une empreinte de votre carte pour payer les frais de transports, mais que tout vous sera remboursé par la suite. Le piège s’est refermé, vous renseignez les données. Puis vous voyez un remboursement de 2 euros quelques jours suivants, ce qui vous rassure ; en revanche, les jours qui suivent vous vous apercevez que des retraits de 200 euros, 500 euros ont été effectués. Vous faites opposition mais bien sûr il est trop tard puisque les cybercriminels ont déjà récolté l’argent...*
+
+Cette histoire est tirée d’une réelle campagne de phishing !
+
+> **Ne sous-estimez JAMAIS les cybercriminels, c'est ainsi qu'ils trouvent leur motivation. Ne sur-estimez jamais la façon dont vous pensez pouvoir réagir. Cela peut arriver à n’importe qui, et encore plus à celui qui est trop confiant.**
+{.is-warning}
+
+## Les mises à jour
+
+Les pirates informatiques malveillants se basent pratiquement tout le temps sur les failles de sécurité des logiciels. Vous entendez tous les jours que des logiciels ou des systèmes d’exploitation ont reçu des « patchs (entendre correctifs) de sécurité », afin de combler une vulnérabilité (corriger une faille de sécurité). Il s’agit en effet de "patcher" pour combler les failles dont les développeurs se sont aperçus, et qui exposent potentiellement vos données ou autre chose.
+
+**Il est donc essentiel d'effectuer les mises à jour de sécurité dès qu’elles sont disponibles.**
+
+Il est aujourd’hui assez simple de vérifier s’il existe des mises à jour de sécurité donc n’attendez pas avant de les faire, surtout lorsque celles-ci sont critiques. Nous recommandons ainsi d'activer les mises à jour automatiques depuis votre système d'exploitation favori (libre ! comme GNU/Linux, ou un Android dégooglisé, nous l'espérons ;-)), dans cette démarche de sécurisation proactive.
+
+**Pour le reste des mises à jour classiques, elles peuvent potentiellement attendre, même si le plus tôt sera le mieux.**
+
+## Les fichiers et leur intégrité
+
+Ceci est un rappel, mais il est important d'éviter de télécharger des **exécutables** directement ou dans des archives, que ce soit pour Linux (via des fichiers ELF ou "Executable Linkable File") ou Windows (via des fichiers à l'extension .exe ou .msi). Dans le cas d'un téléchargement depuis un site internet, plutôt que depuis un centre logiciel, il est recommandé de télécharger depuis le site officiel de l'éditeur logiciel dudit programme.
+
+*_Astuce toute simple_ : depuis son moteur de recherche préféré, taper wikipedia + nom_du_programme_à_télécharger (ou bien demander conseil sur une communauté, comme celle-ci). Depuis l'article Wikipedia, retrouver le lien vers l'[URL](/glossaire#url) de l'éditeur logiciel ; le but étant de télécharger un fichier authentique, en allant directement à la source.*
+
+En prolongement et pour tous types de fichiers (.iso, .img, ...), vérifiez **TOUJOURS**, lorsque disponible, l'intégrité du fichier téléchargé. Cela se fait via une vérification de la "signature" ou de "la somme de contrôle" dudit fichier.
+
+- **Voir l'article dédié à l'[intégrité](/intermediaire/integrite), ainsi que le tutoriel [associé](/tutoriels/verifier-integrite).**
+
+## Sur les antivirus et antimalware
+
+Concernant l'utilisation d'un anti-virus ou anti-malware, même si certains malwares modernes aujourd'hui ne sont plus détectables facilement, il est toujours possible de détecter des malwares connus et moins sophistiqués, ce qui est déjà une bonne chose (soyons pragmatiques). Dites-vous bien qu'un anti-virus ne vous protégera pas des agences à 3 lettres bien connues ! La bonne (première) pratique est si possible de télécharger des fichiers sur un environnement isolé, comme une machine virtuelle Linux (pour plus de facilité) par exemple, via VirtualBox ou VMWare. Cela s'accompagne également d'une utilisation particulière, qui ne risque pas de mettre à mal votre modèle de menaces :
+
+-   N'utilisez pas de solutions commerciales, type Norton, BitDefender, Kaspersky... qui implémentent de toute manière une télémétrie vers leurs entreprises ainsi que des sociétés tierces.
+-   **_Si vous avez un modèle de menaces nécessitant une sécurité et un anonymat accru :_** n'utilisez pas les fonctions de protection en temps réel de ces outils ; au delà même de la question de l'utilité réelle de ce genre de fonctions, celles-ci sont exécutées avec des privilèges hauts et, de facto, peuvent être utilisées comme un vecteur d'attaque.
+-   Préférez les solutions open-source et hors ligne, afin d'utiliser ces outils comme prévus à l'origine : scanner régulièrement les fichiers de votre système, ou que vous voudriez scanner en cas de doute sur une potentielle infection. Nous recommandons :
+
+| Détection en ligne | Commentaire |
+|----------|----------|
+| [ClamAV](https://www.clamav.net/) / [ClamTk](https://gitlab.com/dave_m/clamtk/) | Détection de malware hors rootkits. ClamAV est le moteur et ClamTk est son interface graphique |
+| [RFXN Linux Malware](http://www.rfxn.com/projects/linux-malware-detect/) | Détection de malware hors rootkits. Linux uniquement |
+| [Hypatia](https://gitlab.com/divested-mobile/hypatia) | Détection de malware hors rootkits. Android uniquement |
+| [Chkrootkit](http://www.chkrootkit.org/) | Détection de rootkits |
+| [RkHunter](https://rkhunter.sourceforge.net/) | Détection de rootkits |
+
+> Nous avons rédigé un [tutoriel](/tutoriels/distro-protect) afin de vous guider dans ces tâches
+{.is-info}
+
+-   Si vous ne souhaitez pas installer un outil sur votre ordinateur, vous pouvez potentiellement vous aider de solutions web. Attention ici cependant de ne pas mettre des fichiers contenant des informations personnelles (les vôtres ou ceux d'autres personnes) ou sensibles sur ces sites internet :
+
+| Détection en ligne | Commentaire |
+|----------|----------|
+| [VirusTotal](https://www.virustotal.com/gui/home/upload) | Leur politique de vie privée est assez problématique cependant car ils stipulent que "tout fichier que vous leur soumettrez seront gardés, partagés voire utilisés à des fins commerciales".<br>Voilà pourquoi il est important de ne pas transmettre de fichiers potentiellement sensibles |
+| [Hybrid analysis](https://hybrid-analysis.com/) | - |
+
+-   D'autres outils sont disponibles sur ce dépôt, pleins de ressources fabuleuses concernant les malwares :
+[awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis).
+
+> Attention de bien garder en tête cependant que ces outils ne sont pas la panacée, et ne pourront pas détecter 100% des malwares existants ou futurs. Il est donc important de mettre en place les bonnes pratiques et de bien faire attention aux autres parties de cet article.
+{.is-warning}
+
+## Les WiFi publics
+
+Il est enfin important de bannir tous les WiFi publics (hormis certains cas bien précis) : les gares, aéroports, cafés, hôtels, restaurants... qui proposent des Wifi partagés sont aussi des lieux idéaux pour tous cybercriminels afin de s’introduire sur votre machine. **ÉVITEZ** absolument ces WiFis. Voici quelques alternatives :
+
+-   Vous avez sûrement tous un téléphone portable dernier cri Android (ou Apple... Quoi ?!! Vous avez encore un produit Apple ?!! ;-)). Utilisez donc leurs fonctions de « point d’accès sans-fil » avec votre téléphone en 4G/5G afin d’éviter de vous connecter sur les WiFi publics.
+-   Si vous voulez tout de même vous connecter sur des WiFi publics, l’utilisation d’un VPN dans ce cas précis est **ABSOLUMENT NÉCESSAIRE**.
+
+## Annexe
+
+Pour terminer sur cette partie déjà bien fournie, il existe quelques sites pour savoir si une adresse courriel ou un nom d’utilisateur a déjà fait l’objet de fuite : visitez ce site [<https://haveibeenpwned.com>](https://haveibeenpwned.com/). Néanmoins, il ne regroupe que les attaques majeures, et, à ce titre, ne doit pas être vu comme le site de référence ultime des fuites en ligne...
+
+# Limiter le pistage
+
+Cette nouvelle partie, non moins importante, vous permettra à terme d'adopter de nouvelles habitudes pour laisser le moins de traces possibles sur internet. Même si nous devons bien vous avertir de nouveau qu'il est extrêmement difficile d'y arriver **totalement**, sauf à accepter de faire des compromis très importants dans votre vie de tous les jours !
+
+## L’importance des données personnelles
+
+Naviguer sur Internet constitue le réel trésor pour quiconque souhaite voir ce que vous faites dans l’espace numérique. Les sites internet suivent (pratiquement tous) votre activité via des mécanismes de télémétrie et de traçage, parfois à des fins marketing : centres d'intérêt, lieux où vous passez votre temps, relationnel, travail, données démographiques, données géographiques, etc. Ces données constituent même parfois le cœur de métier de certaines entreprises : par exemple pour Google, et certains publicistes...
+
+Comme vous le voyez, ce trésor, pour les entreprises, l’est également pour tout pirate informatique ou [troll](https://fr.wikipedia.org/wiki/Troll_(Internet)) souhaitant nuire ; en effet, il est a priori simple, pour un pirate ou même un simple "troll" légèrement compétent, de recueillir des données sensibles en surveillant la navigation d’une personne.
+
+> Nous vous laissons imaginer maintenant le potentiel des entités avec des ressources illimitées !
+{.is-danger}
+
+L'idée est donc de limiter autant que possible l'exposition de vos données personnelles et de vos [métadonnées](/hygiene-numerique#les-m%C3%A9tadonn%C3%A9es-quest-ce-que-cest), en adoptant des pratiques qui renforcent votre vie privée.
+
+## Une histoire de cookies
+
+Les cookies sont des fichiers numériques stockés en local sur votre appareil [(exemple pour Windows ici)](https://www.malekal.com/ou-sont-stockes-les-cookies-dans-windows-10-11-pour-tous-les-navigateurs-internet/), et permettent de stocker une ou plusieurs de vos activités, quel que soit le type de terminal utilisé (ordinateur, téléphone...). Il peut s’agir par exemple d’activités liées à la consultation d’un site internet (état de la connexion, préférences utilisateurs...), de la lecture d’un courriel ou encore de l’installation d’une application mobile sur votre téléphone ou console de jeux vidéos. Les cookies ont cependant été popularisés par les navigateurs internet, et voici pourquoi :
+
+- Même si une grande partie des cookies sont nécessaires au bon fonctionnement de certaines applications ou sites internet, ces cookies sont devenus avec le temps un moyen de collecter également des informations essentielles sur vous. Quoi de mieux qu'un navigateur internet sur lequel nous passons la plupart de notre temps quotidien ?! Utilisés par des entreprises marketing peu scrupuleuses, celles-ci vont jusqu’à dresser des profils personnels suivant vos informations et vos habitudes, profils vendus par la suite à d’autres entreprises à des fins de publicités ciblées, voire pire...
+
+- Ces données, accumulées d’année en année, peuvent constituer une mine d’informations sur votre personne et par conséquent des pans entiers de votre vie privée ; ceci parfois sans votre consentement, ou non porté à votre connaissance. Il n’est donc pas impossible non plus que ces données tombent entre de mauvaises mains, comme nous l’entendons régulièrement, chez LinkedIn par exemple [^¹1] ou encore Microsoft [^¹2]...
+
+[^¹1]: [LinkedIn](https://www.breakflip-awe.com/internet/actualites/fuite-donnees-linkedin-de-quoi-s-agit-il-et-qui-est-concerne-5473) fuite de données.
+[^¹2]: [Microsoft](https://www.frandroid.com/marques/microsoft/1273327_lapsus-microsoft-confirme-la-fuite-massive-de-donnees) qui confirme la fuite massive de données.
+
+Enfin, si nous allons encore plus loin, il n'est pas impossible non plus que des agences de renseignement fassent du profilage grâce à ces données, surtout depuis les lois qui donnent pleins mandats à ces agences, et votées depuis quelques années sur fond de terrorisme. Toutes ces pratiques forment ce que l'on appelle le Capitalisme de surveillance [^³] que Shoshana Zuboff décrit dans son ouvrage [^⁴].
+
+[^³]: [Capitalisme de surveillance](https://www.monde-diplomatique.fr/2019/01/ZUBOFF/59443)
+[^⁴]: [Shoshana Zuboff](https://www.zulma.fr/livre/lage-du-capitalisme-de-surveillance/)
+
+---
+**Afin de pallier ce traçage systématique, et suivant les compétences de chacun, certains mécanismes peuvent vous permettre, plus ou moins facilement, de contrer ces problèmes d’anonymat et de protection de votre vie privée.**
+
+## Les mécanismes expliqués
+
+Seront dans un premier temps présentés les outils orientés vie privée et/ou anonymat que sont le VPN ainsi que le réseau Tor, avant de poursuivre sur les outils utiles pour réaliser des communications privées (PGP), lutter contre la censure (les DNS et leur rôle), ainsi que la sécurité de l'information.
+
+| Outil | Commentaire |
+|----------|----------|
+| **VPN et Tor** | Nous avons dédié un article spécifique sur ces deux mécanismes importants [ici](/debutant/vpn-tor) |
+| **DNS** | Nous avons dédié un article spécifique sur ce mécanisme [ici](/debutant/dns) |
+| **Proxy** | Nous donnons une définition détaillée dans le [glossaire](/glossaire#proxy) |
+| **PGP / OpenPGP / G(nu)PG** | Nous avons dédié un article spécifique sur ce mécanisme [ici](/intermediaire/integrite) |
+
+## Protégez votre vie privée
+
+### Le navigateur
+
+Utilisez un navigateur internet permettant de respecter votre vie privée. Celui-ci limitera fortement votre exposition sur internet ainsi que la collecte d'informations vous concernant.
+
+- Nous vous renvoyons vers l'article sur les [Navigateurs Web](/debutant/navigateurs), qui vous guidera dans le choix, afin de bien paramétrer votre navigateur et y adjoindre facultativement des extensions afin de renforcer le modèle de sécurité.
+
+### Les moteurs de recherche
+
+Sur ce navigateur, et afin d'éviter d'être *tracé* par des parties tierces, évitez l'utilisation de moteurs de recherche trop curieux, ou trop lâches dans leur gestion des données et métadonnées. 
+
+- Pour cela, voir l'article sur [les moteurs de recherche](/debutant/moteurs-recherche), afin de changer pour un moteur respectueux de votre vie privée.
+
+### Les communications
+
+- Veuillez lire l'article dédié aux [courriels](/debutant/communications#courriel) respectueux de vos données.
+
+- Veuillez lire l'article dédié aux [messageries](/debutant/communications#messagerie) respectueuses de vos données.
+
+### Les réseaux sociaux
+
+Configurez toujours vos réseaux sociaux afin d'améliorer votre vie privée en dé-sélectionnant les paramètres d'envoi automatique de données vers les serveurs de ces entreprises : ces paramètres peuvent généralement se trouver dans "Confidentialité et Sécurité" ou "Vie privée et Confidentialité" etc.
+
+Faites un tour sur **tous les paramètres** de tous vos réseaux sociaux et vérifiez qu'aucune donnée, même des données de "diagnostic" n'est transmise. Ne minimisez rien, y compris sur des réseaux qui, a priori, respectent votre vie privée.
+
+## Adoptez un modèle de sécurité renforcé
+
+### Premier niveau : les DNS
+
+Si vous n'utilisez pas de service VPN via des mandataires (cf. ci-après), qui vous permettent de pointer vers leurs serveurs DNS, alors il peut être important de configurer spécifiquement les DNS vers lesquels pointer afin de limiter le pistage...
+
+Référez-vous à notre article [dédié](/debutant/dns).
+
+### Second niveau : le VPN
+
+Bien que choisir un navigateur optimisé et renforcé d’extensions, il existe toujours un risque qu’une personne malveillante puisse avoir accès à votre activité numérique et à votre position géographique, en observant les données en transit sur le réseau internet. La probabilité est faible certes, mais le risque est non nul...
+
+Référez-vous à notre article [dédié](/debutant/vpn-tor).
+
+### Niveau subsidiaire...
+
+...mais néanmoins crucial : les métadonnées !
+
+Veillez à supprimer toutes les **[métadonnées](/hygiene-numerique#les-m%C3%A9tadonn%C3%A9es-quest-ce-que-cest)** liées aux ressources (images, vidéos, documents) que vous partagez en ligne, que cela soit via courriel ou sur vos réseaux sociaux. Par exemple, pour les images, vous pouvez supprimer les données EXIF avant de les partager partout. Pour les documents, vérifiez que vos nom/prénom, ou même initiales et autres, ne soient pas inscrits dans les propriétés du document, etc. Voici quelques outils afin de supprimer les métadonnées de fichiers PDF, documents, vidéos (tous les outils suivants ne traitent pas les vidéos...), photos :
+- [Exifcleaner](https://exifcleaner.com/) (Fonctionne aussi sur les documents Microsoft Office !) qui implémente la librairie [ExifTool](https://exiftool.org/) et offre une interface graphique
+- [PDFparanoia](https://pypi.org/project/pdfparanoia/) outil complet pour le nettoyage des fichiers PDF
+- [Metadatacleaner](https://metadatacleaner.romainvigier.fr/) le nettoyeur de Métadonnées niveau débutant, avec interface graphique, par Romain Vigier
+- [Mat2](https://0xacab.org/jvoisin/mat2) (**M**etadata **A**nonymisation Tool v **2** - Outil d'anonymisation de Métadonnées version 2) nettoyeur de métadonnées niveau intermédiaire ou avancé
+:arrow_right: Attention c'est un outil qui nécessite quelques connaissances ; à lancer dans une machine virtuelle par exemple pour plus d'anonymat.
+
+## L'anonymat
+
+### Le cas Tor Browser
+
+Le sujet autour de Tor Browser est assez complexe et débattu dans la communauté et dépend grandement de votre modèle :
+1. **Si votre niveau de menaces ne va pas plus loin que quelques multinationales _pompes à données_ ou des recherches sensibles**, alors vous pouvez utiliser le navigateur Tor (Tor Browser, capable d'atteindre le réseau Tor) dans votre environnement pour des recherches et ceci afin de renforcer votre vie privée.
+
+Référez-vous dans ce cas à notre article [dédié](/debutant/vpn-tor).
+
+2. **Si en revanche votre modèle impose un anonymat important** et que votre niveau de menaces concerne des "agences étatiques" ou des groupes à fortes ressources, il est nécessaire d'éviter son utilisation dans le contexte 1, et passer sur un modèle bien plus robuste.
+
+### Anonymat avancé
+
+Obtenir un niveau plus avancé d'anonymat n'est pas chose aisée...
+
+**Néanmoins, de premières pistes peuvent être envisagées avec une utilisation assez _classique_. Ici encore, il s'agit d'un second niveau d'anonymat, celui-ci ne sera donc pas total.**
+
+#### Whonix
+
+[Whonix](https://www.whonix.org/) / [Qubes OS](https://www.qubes-os.org/) : L'utilisation de Qubes (avec Whonix pré-installé d'origine dans une machine virtuelle) ou d'un système d'exploitation Linux _[durci](/glossaire#durcissement)_ via la solution _Whonix_ permet un niveau de sécurité et un anonymat renforcés.
+
+Sous Qubes OS (dans la Machine Virtuelle Whonix-WS) ou plus généralement sous Whonix, les requêtes [DNS](#dns) passent par Tor. Cela assure donc une anonymisation globale des requêtes. Attention en revanche si vous ne passez pas par ces outils, de bien configurer des adresses de serveurs DNS respectueux et d'assurer une protection des requêtes (que ce soit DoH, DoT, DNSCrypt ou DNSSEC...) :
+
+- soit sur votre routeur FAI (bien vérifier également que ce routeur applique convenablement l'utilisation de ces IP, cf. DNS leak)
+- soit sur votre propre serveur DNS :arrow_right: attention ici encore de bien comprendre ce mécanisme : implémenter une solution de type *PiHole* par exemple déporte uniquement le serveur résolveur chez vous, mais les requêtes vers les serveurs récursifs auront toujours lieu sur internet. Donc si vous ne protégez pas ces requêtes ou si vous ne cachez pas votre IP, il sera possible de vous désanonymiser !
+
+#### Tails
+
+[Tails OS](https://tails.boum.org/) : la version ultime de l’anonymat, au-delà de votre navigateur internet, est l’utilisation de Tails OS.
+
+Installé sur une clé USB et lancé depuis un appareil hôte - ordinateur portable ou PC x86 en 64 bits, quel que soit le système d'exploitation, le SE (Système d'Exploitation) hôte étant ignoré -, ce système d’exploitation est un système défini comme « amnésique ». C’est-à-dire qu’aucune donnée (hormis celle que vous souhaitez) ne persiste à l’extinction du système, ni en mémoire "RAM", ni sur disque dur/SDD (les clés USB fonctionnant sur la mémoire RAM "non persistante", l'avantage de ce système se situe là, vous l'aurez compris).
+
+Ce système vous permet ainsi de créer un cocon numérique, peu importe le matériel que vous utilisez ; nul besoin d’utiliser votre ordinateur personnel. Par exemple très utile si vous vous connectez dans des lieux publics. Attention toutefois à bien comprendre les bases de l’outil. Réservé tout de même aux personnes à l’aise avec les aspects cyber et l’informatique en général.
+
+*_Pour l’exemple_ : Tails ne s’utilise jamais en machine virtuelle. Si vous êtes intéressés par les machines virtuelles, veuillez utiliser plutôt Whonix !*
+
+> Attention ici de bien maîtriser les outils informatiques en général, principalement GNU/Linux/BSD et les aspects durcissement.
+{.is-warning}
+
+
+### Anonymat total
+
+Pour finir, si votre modèle impose un **anonymat total**, vous allez devoir adopter des pratiques spécifiques qui seront probablement des contraintes dans votre vie de tous les jours :
+- vous devrez utiliser un matériel totalement anonyme : paiement cash de tous les matériels (ou par crypto monnaies _anonymes_)
+- connexion et utilisation des matériels hors de chez vous, loin, dans des endroits publics, entourés de beaucoup de personnes
+- aucun compte permettant de vous identifier
+- utilisation totale du pseudonymat
+- vos téléphones/tablettes... restent à la maison (aucun téléphone sur vous)
+- assez contre-intuitif : évitez l'utilisation de clés de sécurité type signature pouvant vous identifier (*souvenez-vous du diagramme des 3 cercles évoqué plus haut : faire des compromis* !). Souvenez-vous de n'utiliser que du pseudonymat, y compris pour des signatures électroniques.
+
+Vous arrivez à un usage très compliqué au quotidien !
+
+Ce modèle de menaces extrême est d'ailleurs plutôt dédié aux militants,  activistes, opposants politiques, journalistes d'investigation... Vous l'aurez compris, probablement inadapté pour la majorité des personnes. Nous nous devions néanmoins d'envisager toutes les possibilités, face à notre audience. Mais ce modèle nécessite une réflexion profonde et une structure d'utilisation sur mesure... et sort donc du cadre de notre wiki !
 
 # Aller plus loin
 
@@ -151,10 +681,37 @@ Cette partie est dédiée à toute personne souhaitant aller plus loin dans la s
 
 ## Stockage de données et "clouds" sécurisés
 
--   Sur un VPS (Virtual Private Server). Fournisseurs de confiance recommandables, en tout cas traitant a priori vos données avec respect :
+La difficulté aujourd'hui dans le fait de stocker toutes sortes de fichiers ou programmes, que ce soient nos photos de mariage ou d'anniversaire, nos documents de compte, etc. réside dans les capacités dudit **stockage**. Il s'agit d'une problématique très sérieuse, et qui peut s'avérer extrêmement coûteuse (notamment pour les entreprises). À titre personnel, vous estimez que dépenser des centaines d'euros dans un disque dur de 8 To (Téraoctet, qui correspond à 1 024 Gigaoctets) voire dans une solution NAS ("Network Attached System"), difficile à configurer n'est pas à l'ordre du jour. Vous souhaitez donc peut-être faire appel à un tiers afin de pouvoir stocker vos fichiers personnels, en toute sécurité.
+
+Pour être honnête avec vous, nous ne recommandons sérieusement pas cette solution. En effet, faire appel à un tiers pour ce service revient à peu de choses près aux problématiques des VPNs actuels : assez peu en qui donner une confiance relative, après avoir fait sa petite étude sérieuse du sujet. 
+
+Dans la plupart des cas, on se retrouve avec une entreprise, qu'on ne ne connaît pas entièrement, dont on ignore les méthodes, et sur lesquelles on n'a pas le contrôle en pratique : centralisation des données, gestion des serveurs de stockage... On n'en sait rien, on n'est pas en situation de contrôle ! 
+
+Les 2 solutions pertinentes, et viables en terme de vie privée sont :
+1.  L'utilisation de plusieurs disques durs externes de bonne capacité : aujourd'hui le coût de ces disques a fortement chuté, et il est tout à fait possible de se procurer des disques à des prix intéressants. Voir large, penser long terme : une capacité d'un minimum de 2 To est à envisager, avoir 2 disques est le minimum. Maintenant, nous sommes d'accord, cela implique que vous y pensiez de façon récurrente (tous les mois par exemple), et que vous vous souveniez des manipulations à faire ; oui on sait c'est embêtant, qui plus est vous êtes tributaire d'une possible panne d'un de vos disques (d'où l'idée d'en avoir plusieurs pour éviter des pertes de données) !
+2.  Il existe une autre manière, qui requiert là encore de mettre "les mains dans le cambouis" et à un certain coût : les NAS. Ces petites et plus grosses bêtes, connectées sur notre réseau privé (en local donc), permettent de stocker d'importantes quantités de données et d'assurer une haute disponibilité dans le cas où les disques tombent en panne (nous vous renvoyons au principe des disques montés en [RAID](https://fr.wikipedia.org/wiki/RAID_(informatique)) par exemple). Cela dit, là encore vous devrez configurer correctement cet équipement en termes de sécurité et de durcissement, afin qu'on ne s'y introduise pas. D'un autre côté, il est tout à fait possible [d'automatiser les sauvegardes](/debutant/sauvegarde) !
+
+C'est à vous de décider quelle peut être la façon de faire, suivant vos besoins et votre modèle de menaces.
+
+Si toutefois vous décidiez de faire confiance à certains tiers, il existe des bonnes pratiques à respecter scrupuleusement :
+-   Adieu les Google Drive, Microsoft OneDrive, Apple iCloud et autres "drives" ou "clouds" comme Dropbox. Ou en lien avec les GAFAM et BATX (Xiaomi etc.), dont on ne sait rien puisque propriétaire, et surtout ayant fait l'objet ces dernières années d'attaques et de vols de données. Sans parler des solutions faisant l'objet d'une surveillance massive...
+-   Chiffrer avec un logiciel libre comme [Cryptomator](https://cryptomator.org/) systématiquement ses documents ou répertoires avant de les transférer sur un cloud public, qui ne propose pas de protection particulière mais pourrait être de confiance. Le contenu de nos données est ainsi protégé, qui plus est nous serons seul propriétaire de nos clés de sécurité et ne serons pas tributaire d'une entité tierce. Pour des entités de confiance, nous recommandons :
+    -   Pour des documents et de la collaboration en ligne : [Cryptpad](https://cryptpad.fr/)
+    -   Pour de petits documents, photos... (max 100Mo gratuit) : [Crypt.ee](https://crypt.ee)
+    -   Pour une solution tout-en-un : 
+	    - [Nextcloud](https://nextcloud.com/fr/)
+	    - [Ksuite](https://www.infomaniak.com/fr/ksuite) de Infomaniak : copié-collé des solutions propriétaires existantes, avec **des petits plus** (à l'heure où cet article est écrit, en offre gratuite de base [légende : cette solution est rendue possible de par leur offre payante auprès des entreprises en parallèle : un modèle économique solide évite les dérives en termes de monétisation des données] : 15 go de stockage, mail, **vidéo-conférence** (basée sur [Jisti Meet](/debutant/video-conf)), **messagerie instantanée** (prochainement))... Le tout, hébergé en Suisse, et fourni avec des applications sous licence libre, et de bonnes pratiques en termes de vie privée. Le bémol : à la différence de Nextcloud, nécessite de lier un numéro de téléphone pour des raisons avancées de sécurité (double authentification), plutôt que d'utiliser la technologie [OTP](/glossaire#otp) (à chacun d'anticiper l'évolution éventuelle de leur politique de gestion des données).
+  
+    -   Pour un stockage de sauvegardes et autres fichiers lourds : [Filen.io](https://filen.io/)
+-   Une autre solution, qui comporte, cela dit, un certain coût financier ou en temps, ainsi que de solides connaissances, serait de soi-même héberger une solution Nextcloud :
+    -   Sur un NAS personnel chez vous,
+    -   Sur un VPS (Virtual Private Server). Fournisseurs de confiance recommandables, en tout cas traitant a priori vos données avec respect :
         -   [Njal.la](https://njal.la/servers/)
         -   [1984.is](https://1984.hosting/product/vps/)
         -   [Privex.io](https://www.privex.io/)
+-   Si malgré tout, vous persistez à vouloir utiliser vos clouds Google, Microsoft, etc... et à ne pas vouloir générer et gérer vos clés de sécurité, une dernière alternative est possible, bien que moins pertinente : utiliser [Cryptomator](https://cryptomator.org/) afin de protéger vos données stockées sur ces clouds.
+ 
+*Évidemment, vous l'aurez bien compris, nous vous recommandons les solutions autres que celles propriétaires, ne serait-ce qu'en terme de sécurité offerte par les communs libres (un code source ouvert permet des correctifs plus rapides), d'éthique et de modèle de société : rester sur un statu quo ne change pas le paradigme actuel d'une société fondée sur le capitalisme de surveillance. Quoi qu'il en soit, le choix final vous revient, notre rôle est avant tout pédagogique et non coercitif.*
 
 ## DVPN - Decentralized VPN
 
@@ -252,3 +809,6 @@ Enfin, nous terminerons par la fameuse maxime à ne jamais oublier :
 
 > **"Si c'est gratuit (en tout cas pour les logiciels propriétaires), il y a de fortes chances que vous soyez le produit !"** (Citation bien connue)
 
+---
+![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): Ayo*
+<br>
