@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Android
 description: Où trouver du matériel Android - vous trouverez ici des solutions...
 published: true
-date: 2025-07-12T15:06:09.166Z
+date: 2025-08-18T08:23:04.278Z
 tags: android, materiel
 editor: markdown
 dateCreated: 2023-02-14T11:18:41.344Z
@@ -20,11 +20,11 @@ Voilà pourquoi certaines entreprises sélectionnent du matériel (qu'ils vont j
 
 - [Ekimia](https://ekimia.fr/categorie-produit/reconditionne/smartphonesreco//) : Téléphones reconditionnés  sous eOS-Android :
 
-| Modèle | [One Plus 6](https://ekimia.fr/produit/oneplus6/)  | [Google Pixel 7 ](https://ekimia.fr/produit/pixel7/)  |
+| Modèle | [One Plus Nord](https://ekimia.fr/produit/oneplusnord5g/)  | [Google Pixel 7 ](https://ekimia.fr/produit/pixel7/)  |
 |---|---|---|---|
-|Année de sortie | 2018  | 2022 |
-|Tarif| 198 €   | 299 € |
-|Edition eOS | Community | Officiel | 
+|Année de sortie | 2020  | 2022 |
+|Tarif| 222 €   | 299 € |
+|Edition eOS | Officiel | Officiel | 
 
 - [Iodé](https://iode.tech/) : Téléphones reconditionnés sous IodeOS :
      - **[Samsung S9 (2018)](https://iode.tech/shop/samsung-galaxy-s9-bundle-en/)** : 253€  
