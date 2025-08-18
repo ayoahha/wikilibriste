@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Android
 description: Où trouver du matériel Android - vous trouverez ici des solutions...
 published: true
-date: 2025-08-18T08:23:04.278Z
+date: 2025-08-18T08:23:34.925Z
 tags: android, materiel
 editor: markdown
 dateCreated: 2023-02-14T11:18:41.344Z
@@ -18,7 +18,7 @@ Voilà pourquoi certaines entreprises sélectionnent du matériel (qu'ils vont j
 
 # 200-300 Euros
 
-- [Ekimia](https://ekimia.fr/categorie-produit/reconditionne/smartphonesreco//) : Téléphones reconditionnés  sous eOS-Android :
+- [Ekimia](https://ekimia.fr/categorie-produit/smartphones/) : Téléphones reconditionnés  sous eOS-Android :
 
 | Modèle | [One Plus Nord](https://ekimia.fr/produit/oneplusnord5g/)  | [Google Pixel 7 ](https://ekimia.fr/produit/pixel7/)  |
 |---|---|---|---|
