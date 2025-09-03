@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Linux
 description: Où trouver du matériel adapté à Linux - vous trouverez ici des solutions...
 published: true
-date: 2024-08-13T08:10:55.093Z
+date: 2025-09-03T07:17:08.612Z
 tags: materiel, laptop, ordinateur
 editor: markdown
 dateCreated: 2023-01-19T16:33:42.627Z
@@ -31,7 +31,7 @@ Ce sont, dans ce cas, des fournisseurs et/ou constructeurs, installés depuis lo
 ## Les autres assembleurs linux en Europe
 
 D'autres petits asssembleurs qui livre avec le Bios par défaut. 
-Principalement des barebones Clevo et tongfang voire du reconditionné mainstream
+Principalement des barebones Clevo et Tongfang/Aistone voire du reconditionné mainstream
 
 - 🇫🇷 **[Ekimia](https://ekimia.fr)** : Portables, fixes et smartphones eOS ( Marseille )
 - 🇫🇷 **[Linuxshop](http://www.linuxshop.fr/)** : Portables, fixes ( Ardennes )
