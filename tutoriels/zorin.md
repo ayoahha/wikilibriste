@@ -2,7 +2,7 @@
 title: Zorin OS
 description: 
 published: true
-date: 2023-06-19T21:51:21.399Z
+date: 2024-02-04T20:16:16.542Z
 tags: zorin
 editor: markdown
 dateCreated: 2023-06-19T13:10:05.393Z
@@ -19,7 +19,7 @@ Bienvenue dans ce tutoriel tout en images, afin d'installer votre distribution Z
 
 ![z-1.png](/images/zorin-1.png){.align-center}
 
-> Cliquez sur "Try or Install Zorin OS" puis patientez jusqu'à ce que le programme d'installation arrive sur l'écran suivant (il est possible qu'un écran de vérification 'checksum' apparaisse, patientez)...
+> Cliquer sur "Try or Install Zorin OS" puis patienter jusqu'à ce que le programme d'installation arrive sur l'écran suivant (il est possible qu'un écran de vérification 'checksum' apparaisse, patientez)...
 {.is-info}
 
 ![z-2.png](/images/zorin-2.png){.align-center}
@@ -36,17 +36,17 @@ Bienvenue dans ce tutoriel tout en images, afin d'installer votre distribution Z
 ![z-9.png](/images/zorin-9.png){.align-center}
 ![z-10.png](/images/zorin-10.png){.align-center}
 
-> Débranchez votre clé USB puis appuyez sur <kbd>ENTREE</kbd>.
+> Débrancher votre clé USB puis appuyer sur <kbd>ENTREE</kbd>.
 {.is-info}
 
 ![z-11.png](/images/zorin-11.png){.align-center}
 ![z-12.png](/images/zorin-12.png){.align-center}
 
-Voilà, votre distribution Zorin tout neuve est maintenant prête.
+Voilà, votre distribution Zorin OS tout neuve est maintenant prête.
 
 ![z-13.png](/images/zorin-13.png){.align-center}
 
-**Vous pouvez cliquer sur 'Commencez la visite' si vous souhaitez être guidé dans la configuration de votre distro (aspect, couleurs, pilotes additionnels, etc.).**
+**Vous pouvez cliquer sur 'Commencer la visite' si vous souhaitez être guidé dans la configuration de votre distro (aspect, couleurs, pilotes additionnels, etc.).**
 
 ---
 ![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): Ayo, Nemtech*

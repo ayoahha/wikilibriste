@@ -2,7 +2,7 @@
 title: Linux Mint
 description: 
 published: true
-date: 2023-06-19T13:31:05.659Z
+date: 2024-02-04T20:13:01.443Z
 tags: debutant, intermédiaire, débutant, intermediaire, mint
 editor: markdown
 dateCreated: 2023-01-17T11:16:55.035Z
@@ -38,7 +38,7 @@ Bienvenue dans ce tutoriel tout en images, afin d'installer votre distribution L
 ![mint-11.png](/images/mint-11.png){.align-center}
 ![mint-12.png](/images/mint-12.png){.align-center}
 
-> Débranchez votre clé USB puis appuyez sur <kbd>ENTREE</kbd>.
+> Débrancher votre clé USB puis appuyer sur <kbd>ENTREE</kbd>.
 {.is-info}
 
 ![mint-13.png](/images/mint-13.png){.align-center}
@@ -46,7 +46,7 @@ Bienvenue dans ce tutoriel tout en images, afin d'installer votre distribution L
 
 Voilà, votre distribution Linux Mint tout neuve est maintenant prête.
 
-**Vous pouvez continuer en cliquant sur "Premier pas", pour configurer finement votre distro et installer potentiellement des pilotes ou applications importantes manquants**.
+**Vous pouvez continuer en cliquant sur "Premiers pas", pour configurer finement votre distro et installer potentiellement des pilotes ou applications importantes manquants**.
 
 ---
 ![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): Ayo, Nemtech*

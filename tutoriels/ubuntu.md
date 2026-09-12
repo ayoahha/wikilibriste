@@ -1,8 +1,8 @@
 ---
 title: Ubuntu
-description: 
+description: Installation d'une Ubuntu 22.04 LTS
 published: true
-date: 2023-04-02T14:30:08.095Z
+date: 2024-08-10T15:39:46.493Z
 tags: debutant, intermédiaire, débutant, intermediaire, distribution, ubuntu
 editor: markdown
 dateCreated: 2023-01-14T19:56:23.834Z
@@ -25,8 +25,8 @@ Bienvenue dans ce tutoriel tout en images, afin d'installer votre distribution U
 ![ubuntu-1.png](/images/ubuntu-1.png){.align-center}
 ![ubuntu-2.png](/images/ubuntu-2.png){.align-center}
 ![ubuntu-3.png](/images/ubuntu-3.png){.align-center}
-> **(**5**)** Vous pouvez ici choisir entre installation normale et installation minimale. 
-Pour les besoins de la démonstration, et afin de gagner du temps, nous avons sélectionné "minimale" : à vous de choisir selon votre envie et vos besoins
+> **(**5**)** Vous pouvez ici choisir entre "Installation normale" et "Installation minimale".
+Pour les besoins de la démonstration, et afin de gagner du temps, nous avons sélectionné "minimale" : à vous de choisir selon votre envie et vos besoins.
 {.is-info}
 
 ![ubuntu-4.png](/images/ubuntu-4.png){.align-center}
@@ -45,7 +45,7 @@ Pour les besoins de la démonstration, et afin de gagner du temps, nous avons s�
 
 ![ubuntu-10.png](/images/ubuntu-10.png){.align-center}
 
-> Entrez votre mot de passe défini durant l'installation...
+> Entrer votre mot de passe défini durant l'installation...
 {.is-info}
 
 ![ubuntu-11.png](/images/ubuntu-11.png){.align-center}

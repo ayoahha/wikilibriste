@@ -2,7 +2,7 @@
 title: Utiliser un VPN et/ou Tor
 description: Cet article aborde les très importants concepts de VPN et TOR...
 published: true
-date: 2023-06-20T22:13:39.081Z
+date: 2024-06-25T20:07:29.937Z
 tags: vpn, tor
 editor: markdown
 dateCreated: 2023-04-14T10:56:48.029Z
@@ -10,56 +10,13 @@ dateCreated: 2023-04-14T10:56:48.029Z
 
 Nous abordons ici quelques notions sur des services dont vous entendrez souvent parler : les VPN ou Virtual Private Network, et le réseau Tor, ou réseau en oignon :)
 
-
 > Ici encore, attention de bien comprendre la problématique du mandataire unique et les risques potentiels si vous n’hébergez pas vous-même la solution.
 {.is-info}
 
+[Aller directement à nos recommandations](#nos-recommandations).
 
-# Tabs {.tabset}
-## Vous débutez
-Si vous souhaitez contourner la géo-restriction (ou la censure), transférer des informations sensibles ou naviguer sereinement sur internet depuis un WiFi public, alors l’utilisation d’un VPN est recommandée, via un mandataire tierce partie.
-
-Notre collectif ne recommande à ce jour que quelques services VPN (mentionnés ci-après), qui combinent plusieurs aspects que nous estimons impératifs pour choisir son mandataire VPN. Voici les exigences à respecter, qui sont de notre point de vue "**non négociables**" :
-> ~~ **Application à code source ouvert** : permet de s'assurer que l'application fait ce qu'on en dit
-> ~~ **Politique de vie privée** et philosophie générale
-> ~~ **Pas d'antécédent ou déboire connu**
-> ~~ Possibilité de régler **anonymement en espèces ou en cryptomonnaie Monero**
-> ~~ Possibilité de se connecter de façon pleinement privée, avec un identifiant qui n'est ni un courriel ni un numéro de téléphone.
-{.is-success}
-
-Les mandataires suivants remplissent toutes ces conditions :
-- [Mullvad VPN *Un mandataire très sérieux, et audité en 2021 (avec succès) \**](https://mullvad.net)
-- [IVPN *Certainement les meilleures prestations après Mullvad, mais hors 14-eyes*](https://www.ivpn.net)
-- [AzireVPN *Basé en Suède et propriétaires de leurs serveurs*](https://www.azirevpn.com/fr)
-- [OVPN *Une bonne solution alternative*](https://www.ovpn.com)
-{.links-list}
-
-\* : https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/
-
----
-Pour ce qui est de **Tor**, nous recommandons, pour débuter, et sous **_certaines conditions_** l'utilisation de **Tor Browser** : « [Tor Browser](https://www.torproject.org/download/) » est un navigateur capable de vous donner accès au réseau Tor, dont nous avons déjà présenté le fonctionnement intrinsèque et l'objectif : l'anonymat comme garant de votre vie privée, et l'accès à des services web "cachés" (le web profond).
-
-> Une mise en contexte et les bonnes pratiques, dans le cadre de son utilisation, seront prochainement disponibles depuis la section [tutoriels](/tutoriels/tor).
-
-
-> **Cela dit, dans **TOUS** les cas, il conviendra de faire attention aux usages avec ce navigateur :**
-> Ne pas installer d'extensions dans le navigateur Tor, au risque de casser son modèle de sécurité.
-> Ne pas se connecter à des comptes qui concernent notre identité réelle (courriel, messagerie, réseau social), ou une identité virtuelle qui peut facilement être reliée à l'identité réelle, afin d'éviter de transmettre des identifiants.
-> Ne pas utiliser Bittorrent ni autre logiciel de torrent.
-{.is-warning}
-
-Enfin, pour contourner un éventuel blocage (d'un moteur de recherche ou d'un FAI), vous pourrez utiliser les **_ponts_** mis à disposition par Tor, par ordre de préférence :
-- Meek azure
-- Snowflake
-- Obfs4
-
-![ponts_tor.jpg](/images/ponts_tor.jpg =600x){.align-center}
-
-![tor_-_ponts_intégrés.png](/images/tor_-_ponts_intégrés.png =600x){.align-center}
-
-## Aller plus loin
-
-### VPN
+# Les technologies
+## VPN
 
 Démocratisé il y a quelques années et qui aujourd’hui fait couler beaucoup d’encre, le VPN ou « Virtual Private Network » (Réseau Privé Virtuel) est un mécanisme qui vous permet d’encapsuler vos données dans un « tunnel » sécurisé (on parle de tunneling, ou tunnélisation). Ce tunnel est initié entre le « client » qui est l’initiateur de la communication et un « serveur » qui va recevoir les informations protégées, et les router vers la bonne destination.
 
@@ -112,7 +69,13 @@ _Note 3_ : Nous ne faisons pas non plus apparaître la solution ProtonVPN, car p
 
 Nous reparlerons de ces services un peu plus loin...
 
-### TOR
+---------------
+_Note 4_ : **VPN Leaks**
+Ces fournisseurs de VPN affirment qu'ils ne conservent aucun enregistrement des activités des utilisateurs. Il a été prouvé que certains fournisseurs de VPN conservent des logs comprenant les adresses IP des utilisateurs.
+https://vpnleaks.com
+
+
+## TOR
 
 Tor pour « The Onion Router », vous allez comprendre pourquoi... À l’origine, ce réseau était utilisé par des agents du renseignement US ; le concept ayant en effet été développé dans des laboratoires militaires américains dans les années 90. Ce n’est qu’à partir de 2004 que cette technologie fut libérée au grand public, puis connue sous le nom de The Tor Project.
 
@@ -126,11 +89,7 @@ Cependant, comme tout mécanisme, le réseau Tor possède aussi ses inconvénien
 
 Vous comprenez donc que cette technique permet d’augmenter votre anonymat ; en effet le destinataire à qui vous vous adressez ne peut savoir que c’est vous qui lui parlez. Mais elle ne permet pas nécessairement de protéger de bout en bout les informations en transit, car tout dépend du protocole de départ.
 
-Qui plus est, le réseau Tor n’utilise aucune infrastructure complexe et importante pour ses relais mais uniquement des personnes _**volontaires**_, qui hébergent des serveurs Tor afin de router les communications.
-
-Bien que cette solution présente l'avantage certain - au contraire des mandataires VPNs - de ne pas avoir la même entreprise gérant tous les serveurs, elle possède cependant quelques inconvénients : il est vraisemblable que parmi ces volontaires, certains n’ont pas forcément des intentions louables. Ou que par exemple une personne étant désignée comme noeud de sortie fasse en fait l’objet d’espionnage, ou bien qu'une agence étatique monte une ribambelle de serveurs (de sorte à augmenter les probabilités que les échanges passent par ces serveurs !). Auquel cas, vos communications sont potentiellement compromises.
-
-Également, le grand revers de la médaille de ce réseau est la lenteur des communications. De par les mécanismes utilisés, il est évident que faire transiter l’information par plusieurs endroits successifs avant d’arriver à bon port ne peut que rajouter de la latence dans les échanges.
+Qui plus est, le réseau Tor n’utilise aucune infrastructure complexe et importante pour ses relais mais uniquement des personnes _**volontaires**_, qui hébergent des serveurs Tor afin de router les communications. Bien que cette solution présente l'avantage certain - au contraire des mandataires VPNs - de ne pas avoir la même entreprise gérant tous les serveurs, elle possède cependant quelques inconvénients : il est vraisemblable que parmi ces volontaires, certains n’ont pas forcément des intentions louables. Ou que par exemple une personne étant désignée comme noeud de sortie fasse en fait l’objet d’espionnage, ou bien qu'une agence étatique monte une ribambelle de serveurs (de sorte à augmenter les probabilités que les échanges passent par ces serveurs !). Auquel cas, vos communications sont potentiellement compromises. Également, le grand revers de la médaille de ce réseau est la lenteur des communications. De par les mécanismes utilisés, il est évident que faire transiter l’information par plusieurs endroits successifs avant d’arriver à bon port ne peut que rajouter de la latence dans les échanges.
 
 > Enfin, il n’est pas recommandé d’utiliser le réseau Tor pour vous connecter à des comptes utilisateurs, GAFAM ou autre... Par exemple : se connecter à Facebook ou à Gmail en utilisant le réseau Tor.
 {.is-danger}
@@ -138,26 +97,27 @@ Bien que cette solution présente l'avantage certain - au contraire des mandatai
 
 **Attention, cela ne veut pas dire que c'est impossible, mais ayez bien en tête que tout ce que vous ferez, sur votre compte Facebook par exemple, sera traçable et identifiable comme venant de _vous, vu que personnellement identifié, avec photos, etc_. En ce sens, vous cassez le principe du réseau Tor qui est l’anonymat.**
 
-### Pour finir...
+## Pour finir...
 
-#### **Alors quelle différence entre Tor et VPNs me direz-vous ?**
-**Eh bien, assez schématiquement : Tor renforce votre anonymat (le « qui vous êtes »), un VPN renforce votre protection (le « ce que vous faites »).**
+### Alors quelle différence entre Tor et VPNs me direz-vous ?
+
+> **Eh bien, assez schématiquement : Tor renforce votre anonymat (le « qui vous êtes »), un VPN renforce votre protection (le « ce que vous faites »).**
+{.is-info}
 
 Alors vous pourriez me dire : *« Je viens de réfléchir et j’ai trouvé une solution : dans ce cas je vais utiliser un VPN + le réseau Tor et ainsi, je serai 100% anonyme et sécurisé ! ».*
 
-À ceci, nous vous répondrons : ce n’est pas aussi simple que cela en a l’air !
+- À ceci, nous vous répondrons : ce n’est pas aussi simple que cela en a l’air !
 
-Ce n’est pas parce que vous combinez différents mécanismes de sécurité que vous augmentez automatiquement votre niveau de sécurité : en revanche, vous augmentez de fait significativement la complexité dans vos communications. Une mauvaise combinaison ou une mauvaise configuration VPN+Tor peut potentiellement engendrer une diminution dans le niveau de sécurité, voire induire des failles de sécurité critiques.
-Concernant l'anonymat, même constat : une mauvaise utilisation ou configuration peut mener à une désanonymisation plus rapide.
+Ce n’est pas parce que vous combinez différents mécanismes de sécurité que vous augmentez automatiquement votre niveau de sécurité : en revanche, vous augmentez de fait significativement la complexité dans vos communications. Une mauvaise combinaison ou une mauvaise configuration VPN+Tor peut potentiellement engendrer une diminution dans le niveau de sécurité, voire induire des failles de sécurité critiques. Concernant l'anonymat, même constat : une mauvaise utilisation ou configuration peut mener à une désanonymisation plus rapide.
 
-Le seul cas dans lequel un VPN serait recommandé à l’usage de concert avec Tor est le cas du blocage de votre FAI des serveurs Tor. En effet, la liste des serveurs est publique et il est tout à fait possible pour un FAI de bloquer les adresses IP publiques de ces serveurs ; dans ce cas, le seul moyen de contourner ce problème est d’utiliser un VPN pour naviguer sur Tor.
-
-Cet article ne discute pas plus de cet aspect : en revanche, si vous êtes intéressés par ce sujet :
+Le seul cas dans lequel un VPN serait recommandé à l’usage de concert avec Tor est le cas du blocage de votre FAI des serveurs Tor. En effet, la liste des serveurs est publique et il est tout à fait possible pour un FAI de bloquer les adresses IP publiques de ces serveurs ; dans ce cas, le seul moyen de contourner ce problème est d’utiliser un VPN pour naviguer sur Tor. Cet article ne discute pas plus de cet aspect : en revanche, si vous êtes intéressés par ce sujet :
 -   Les développeurs de Tor font un état des lieux sur cette utilisation ici : [Tor Project - TorPlusVPN](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN)
 -   Whonix (distribution GNU/LInux "virtualisée", basée sur le réseau Tor) propose un article très détaillé sur cet aspect, que nous vous conseillons de lire très attentivement : [Whonix.org - Introduction](https://www.whonix.org/wiki/Tunnels/Introduction)
 -   Tails (autre distribution GNU/Linux basée sur Tor, plébiscitée par les activistes et journalistes) propose également dans sa FAQ un avis sur la question : [Tails](https://tails.boum.org/support/faq/index.en.html#index20h2)
 
-Également, voici les outils d'aide à la décision par la communauté Techlore :
+# Nos recommandations
+
+Voici les outils d'aide à la décision par la communauté Techlore :
 -   Ai-je besoin d'un VPN ? [https://www.doineedavpn.com/](https://www.doineedavpn.com/)
 -   Sélectionner un VPN selon mon profil et mes besoins : politique "no-log" avérée ? En dehors des coalitions contraignantes côté vie privée (cf. 14 eyes) ?  etc.
   :arrow_right: Détail des principaux services VPN [par ici](https://techlore.tech/vpn) (site en anglais : utiliser votre service de traduction favori) ; avec un accent particulier à mettre entre autres sur les colonnes suivantes :
@@ -169,9 +129,7 @@ Cet article ne discute pas plus de cet aspect : en revanche, si vous êtes inté
 	  - "Anon Payment"
 	  - "Anon Signup"
 
-Quoi qu'il en soit, rassurez-vous, nous avons fait le travail pour vous ;)
-
-Notre collectif ne recommande à ce jour que quelques services VPN (mentionnés ci-après), qui combinent plusieurs aspects que nous estimons impératifs pour choisir son mandataire VPN. Voici les exigences à respecter, qui sont de notre point de vue "**non négociables**" :
+Quoi qu'il en soit, rassurez-vous, nous avons fait le travail pour vous ;). Notre collectif ne recommande à ce jour que quelques services VPN (mentionnés ci-après), qui combinent plusieurs aspects que nous estimons impératifs pour choisir son mandataire VPN. Voici les exigences à respecter, qui sont de notre point de vue "**non négociables**" :
 > ~~ **Application à code source ouvert** : permet de s'assurer que l'application fait ce qu'on en dit.
 > ~~ **Politique de vie privée** et philosophie générale.
 > ~~ **Pas d'antécédent ou déboire connu**.
@@ -180,36 +138,34 @@ Notre collectif ne recommande à ce jour que quelques services VPN (mentionnés 
 {.is-success}
 
 Les mandataires suivants remplissent toutes ces conditions :
-- [Mullvad VPN *Un mandataire très sérieux, et audité en 2021 (avec succès) \**](https://mullvad.net)
-- [IVPN *Certainement les meilleures prestations après Mullvad, avec en prime hors des 14-eyes*](https://www.ivpn.net)
-- [AzireVPN *Basé en Suède et propriétaires de leurs serveurs*](https://www.azirevpn.com/fr)
-- [OVPN *Une bonne solution alternative*](https://www.ovpn.com)
+- [Mullvad VPN *Un mandataire très sérieux, domicilié en Suède (14-eyes), et audité en 2021 (avec succès) \** ](https://mullvad.net)
+- [IVPN *Certainement les meilleures prestations après Mullvad, qui plus est domicilié hors des 14-eyes*](https://www.ivpn.net)
+- [AzireVPN *Basé en Suède (14-eyes) et propriétaires de leurs serveurs*](https://www.azirevpn.com/fr)
+- [OVPN *Une bonne solution alternative basée en Suède (14-eyes)*](https://www.ovpn.com)
 - [AirVPN *Infrastructure importante et solution correcte*](https://airvpn.org)
 - [Safing.io *Et leur outil Portmaster/SPN ou "Safing Privacy Network" intéressant*](https://safing.io/)
 {.links-list}
 
 ---
 Pour ce qui est de **Tor**, plusieurs cas de figure s'offrent à des profils intermédiaires ou initiés :
-- Pour un premier niveau, et sous **_certaines conditions_** l'utilisation de **Tor Browser** peut être faite.
-
-> **Cela dit, dans **TOUS** les cas, il conviendra de faire attention aux usages avec ce navigateur :**
-> Ne pas installer d'extensions dans le navigateur Tor, au risque de casser son modèle de sécurité.
-> Ne pas se connecter à des comptes qui concernent notre identité réelle (courriel, messagerie, réseau social), ou une identité virtuelle qui peut facilement être reliée à l'identité réelle, afin d'éviter de transmettre des identifiants.
-> Ne pas utiliser Bittorrent ni autre logiciel de torrent.
-{.is-warning}
-
-Enfin, pour contourner un éventuel blocage (d'un moteur de recherche ou d'un FAI), vous pourrez utiliser les **_ponts_** mis à disposition par Tor, par ordre de préférence :
-- Meek azure
-- Snowflake
-- Obfs4
+- Pour un premier niveau, et sous **_certaines conditions_** l'utilisation de **Tor Browser** peut être envisageable.
+Pour contourner un éventuel blocage (d'un moteur de recherche ou d'un FAI), vous pourrez utiliser les **_ponts_** mis à disposition par Tor, par ordre de préférence :
+  - Meek azure
+  - Snowflake
+  - Obfs4
 
 ![ponts_tor.jpg](/images/ponts_tor.jpg =600x){.align-center}
 
 ![tor_-_ponts_intégrés.png](/images/tor_-_ponts_intégrés.png =600x){.align-center}
 
-- Pour aller plus loin, il est essentiel de se pencher sur les aspects Anonymat, nous renvoyons donc vers l'article dédié à [limiter le pistage](/hygiene-numerique#anonymat-avanc%C3%A9) en ligne.
+> **Cela dit, dans **TOUS** les cas, il conviendra de faire attention aux usages avec ce navigateur :**
+> ~~ Ne pas installer d'extensions dans le navigateur Tor, au risque de casser son modèle de sécurité/anonymat.
+> ~~ Ne pas se connecter à des comptes qui concernent son identité réelle (courriel, messagerie, réseau social), ou une identité virtuelle qui peut facilement être reliée à l'identité réelle, afin d'éviter de transmettre des identifiants.
+> ~~ Ne pas utiliser Bittorrent ni autre logiciel de torrent.
+{.is-warning}
 
-#
+
+- Pour des modèles plus stricts, il est essentiel de se pencher sur les aspects Anonymat, nous renvoyons donc vers l'article dédié à [limiter le pistage](/hygiene-numerique#anonymat-avanc%C3%A9) en ligne.
 
 ---
 ![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): Ayo, Nemtech*

@@ -2,7 +2,7 @@
 title: Le système DNS expliqué
 description: Cet article traite du système de noms de domaine et de sa configuration afin de recouvrer sa vie privée sur internet...
 published: true
-date: 2023-07-01T11:53:17.795Z
+date: 2024-11-05T21:22:22.073Z
 tags: dns, nom de domaine, url, tld, sous-domaine, reverse dns
 editor: markdown
 dateCreated: 2023-06-19T11:57:54.490Z
@@ -10,13 +10,14 @@ dateCreated: 2023-06-19T11:57:54.490Z
 
 DNS ou « système de noms de domaine » (Domain Name System chez nos amis anglais) est un mécanisme particulièrement intéressant pour les réseaux.
 
-Nous allons le voir, le DNS, c'est un peu l'**annuaire inversé** des sites internet : quand on sélectionne une [URL](/glossaire#url), ou qu'on la tape dans une barre de recherche, le DNS se charge de la transcrire en adresse IP (exemple fictif : 127.126.12.22) pour contacter le site.
+Nous allons le voir, le DNS, c'est un peu l'**annuaire inversé** des sites internet : quand on sélectionne une [URL](/glossaire#url), ou qu'on la tape dans une barre de recherche, le DNS se charge de la transcrire en adresse IP (exemple : 144.76.131.212) pour contacter le site.
 
 Rentrons dans les détails : nous allons nous intéresser plus particulièrement à l’utilisation sur le réseau internet, car son usage en est le parfait exemple. Lorsque nous naviguons sur internet, nous souhaitons visiter des sites internet. Pour y accéder, nous allons entrer un texte que nous appelons URL qui contient le nom du site. Mais comment savoir quel serveur contacter pour afficher le site en question ou autrement dit, comment retrouver l’adresse IP du serveur associée à ce nom du site ?
 
 ![Principes du DNS (Version simple)](/images/dns-1.png =600x){.align-center}
 
-<span class="red-text">C’est ici qu’entre en jeu le DNS.</span>
+> C’est ici qu’entre en jeu le DNS.
+{.is-info}
 
 # Le mécanisme
 
@@ -35,9 +36,12 @@ Nous allons la découper en plusieurs parties afin de bien comprendre la mécani
 
 Vous l’aurez compris, le DNS est une part essentielle d’internet. Sans lui, vous en seriez à entrer des adresses IP dans votre navigateur internet toute la journée ! Pas cool quand même...
 
-Pour plus d'explications, vous pouvez voir la vidéo de *"Paf LeGeek"* à ce sujet :
-- [DNS](https://invidious.fdn.fr/watch?v=S1f4NB72lMQ) La surveillance de masse facile
-{.links-list}
+Pour plus d'explications à ce sujet, vous pouvez visionner la vidéo
+- **"DNS - La surveillance de masse facile" par *"Paf LeGeek"***
+
+<iframe width="560" height="315"src="https://odysee.com/$/embed/@paflegeek:2/dns-la-surveillance-de-masse-facile:5?r=5Sf7ToJSszJnDDxKvHqw4gnZPYSdcMFb" allowfullscreen></iframe>
+
+
 
 ## Pourquoi parlons-nous de DNS ?
 
@@ -53,9 +57,10 @@ La sécurisation des requêtes DNS est aujourd'hui même en plein chantier ; en 
 **Néanmoins**, oui nous allons un peu vous rassurer après ce tableau noir :-), il est aujourd'hui possible d'apporter un peu de vie privée à ces requêtes et de confort, car des mandataires tiers aux objectifs louables ont créé des serveurs DNS respectant (a priori !) notre vie privée, ajoutant des listes noires d'IP publicitaires, et implémentant des mécanismes de sécurisation des échanges même si encore en cours de standardisation (cf. DNS over TLS ou DoT, DNS over HTTPS ou DoH, DNSCrypt, DNS over SSH etc. pour les intéressés).
 
 Ainsi, afin de contourner au maximum les faiblesses citées ci-dessus, il est de plus en plus recommandé d'ajuster notre utilisation des DNS :
-:one: soit pointer directement vers des serveurs de mandataires tiers qui tiennent compte de notre *vie privée*, parmi lesquels des solutions dans l'esprit du libre 
+:one: soit pointer directement vers des serveurs de mandataires tiers qui tiennent compte de notre *vie privée*, parmi lesquels des solutions dans l'esprit du libre, par exemple :
 - [Quad9](https://quad9.net/fr/),
-- [FDN](https://www.fdn.fr), ou bien encore [LibreDNS](https://libredns.gr).
+- [FDN](https://www.fdn.fr),
+- ou bien encore [LibreDNS](https://libredns.gr).
 
 Côté instance à but lucratif, _Mullvad DNS_ est à mentionner.
 
@@ -99,17 +104,17 @@ Voici quelques acteurs qui proposent des services de serveurs DNS, respectueux d
 | [LibreDNS](https://libredns.gr) | 116.202.176.26 <br> 2a01:4f8:1c0c:8274::1 (IPv6) | noads.libredns.gr | https://doh.libredns.gr/dns-query |
 | [FDN](https://www.fdn.fr/actions/dns/) | 80.67.169.12 (IPv4) <br> 2001:910:800::12 (IPv6) | ns0.fdn.fr | https://ns0.fdn.fr/dns-query |
 | [FDN](https://www.fdn.fr/actions/dns/) | 80.67.169.40 (IPv4) <br> 2001:910:800::40 (IPv6) | ns1.fdn.fr | https://ns1.fdn.fr/dns-query |
-| [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/) | 194.242.2.3 (IPv4) ^3^ <br> 2a07:e340::3 (IPv6) ^3^ | doh.mullvad.net<br>adblock.doh.mullvad.net | https://doh.mullvad.net/dns-query<br>https://adblock.doh.mullvad.net/dns-query |
+| [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/) | 194.242.2.3 (IPv4) ^3^ <br> 2a07:e340::3 (IPv6) ^3^ | dns.mullvad.net<br>adblock.dns.mullvad.net | https://dns.mullvad.net/dns-query<br>https://adblock.dns.mullvad.net/dns-query |
 | [DNS Adblock List](https://techcomputerservices.blogspot.com/2019/06/dns-adblock-list-update-juin-2019.html?m=1) | Vous trouverez sur ce site une liste de serveurs<br>DNS (IPs) intéressants pour le blocage des<br>publicités intempestives. |
 
 
-^1^ : "DNS Privé" est la fonction sur Android qui permet de pointer vers un serveur DNS différent de celui configuré de base, en évitant d'utiliser la fonction VPN.
+^1^ : "DNS Privé" est la fonction qui permet le chiffrement des requêtes DNS (DNS over TLS depuis Android 9) ou de sélectionner le fournisseur DNS de son choix, différent de celui proposé par défaut par l'opérateur de réseau mobile.
 - **Cette fonction se trouve généralement dans les "Paramètres" :arrow_right: "Réseau et Internet" :arrow_right: "DNS Privé".**
 
 ^2^ : "DNS over HTTPS" est souvent l'intitulé de la fonction utilisée par les navigateurs internet pour gérer la résolution DNS personnalisée.
 - **Il est essentiel de bien faire comprendre au navigateur qu'il s'agit d'une requête DNS :arrow_right: en ajoutant en fin d'URL "dns-query".**
 
-^3^ : _Attention_ : les adresses IP DNS de Mullvad sont plutôt capricieuses : il est parfois possible qu'aucune requête ne passe (c'est à dire ne soit résolue) ce qui peut mener à un blocage de votre navigation. Préférez plutôt donc utiliser les URLs localement.
+^3^ : _Attention_ : les adresses IP DNS de Mullvad sont plutôt capricieuses : il est parfois possible qu'aucune requête ne passe (c'est à dire ne soit résolue) ce qui peut mener à un blocage de votre navigation. Préférez plutôt donc utiliser les URLs localement. Cette page explique comment configuer le service : https://mullvad.net/en/help/dns-over-https-and-dns-over-tls
 
 ## Les procédures
 
@@ -327,7 +332,10 @@ Les choix sont donc malheureusement restreints pour ces box :
 
 ##### SFR Box
 
-Concernant les box SFR, il se peut que certaines box (anciennes) n'acceptent pas la modification des DNS (les champs restent grisés et la modification est impossible, dû à la politique stricte de SFR !) ; dans ce cas vous n'aurez pas le choix que de configurer sur TOUS vos équipements (s'ils le permettent !) les DNS.
+Concernant les box SFR, il se peut que certaines box (anciennes) n'acceptent pas la modification des DNS (les champs restent grisés et la modification est impossible, dû à la politique stricte de SFR !) ; dans ce cas :
+- Vous pouvez configurer sur chaque équipement de votre réseau les DNS (cf. seconde solution).
+- Vous pouvez configurer une solution de type [Pi-Hole](#devenez-votre-propre-dns) que nous présentons ci-après.
+
 
 Néanmoins, sur certaines Box, NB8 par exemple, il est possible de configurer les DNS comme suit :
 

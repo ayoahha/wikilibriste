@@ -2,7 +2,7 @@
 title: Protéger sa distribution
 description: Les premières étapes de la protection de notre distribution Linux...
 published: true
-date: 2023-09-10T09:35:53.916Z
+date: 2024-06-30T11:57:19.908Z
 tags: virus, malware, pare-feu, firewall, antivirus, antimalware, rkhunter, chkrootkit, clamav, clamtk, gufw, ufw
 editor: markdown
 dateCreated: 2023-01-15T12:16:32.765Z
@@ -105,21 +105,17 @@ Puis nous expliquerons la marche à suivre si vous obtenez des résultats positi
 
 [Clam Anti-Virus](https://www.clamav.net/) n'est ni plus ni moins qu'un anti-malware multi-plateformes et surtout open-source. À l'origine développé pour Unix, et petit à petit  adapté pour tous les systèmes (y compris BSD, Solaris...). 
 
-[ClamTk](https://gitlab.com/dave_m/clamtk/) est une interface utilisateur ("frontend" en anglais) se basant sur ClamAV pour Linux et BSD. Il permet donc d'interagir avec ClamAV non plus en ligne de commandes mais avec une interface graphique.
+~~[ClamTk](https://gitlab.com/dave_m/clamtk/) est une interface utilisateur ("frontend" en anglais) se basant sur ClamAV pour Linux et BSD. Il permet donc d'interagir avec ClamAV non plus en ligne de commandes mais avec une interface graphique.~~
+
+> **Note** : ClamTk n'est [plus maintenu](https://github.com/dave-theunsub/clamtk/issues/163) depuis fin 2023. ClamTk étant uniquement une interface graphique pour ClamAV, il faudra le remplacer par un autre outil. Wikilibriste est en cours d'analyse pour tester un potentiel remplaçant.
+>
+> Néanmoins, ClamAV fonctionne toujours, mais en ligne de commande !
+{.is-danger}
 
 > Une fonctionnalité existe pour Linux afin de lancer un "*démon*" et avoir une protection temps réel comme sur les autres anti-virus du marché : `clamav-daemon`. Deux contre-indications, cela dit, pour cette fonctionnalité :
 > ~~ si votre modèle implique anonymat et sécurité renforcée, vous ne devriez pas opter pour cette fonctionnalité, je vous renvoie à l'article sur l'hygiène numérique.
 > ~~ en utilisant cette fonction, vous occupez de la mémoire. Si votre mémoire n'est pas très élevée (par ex. vous avez 8GB de RAM), cela peut inutilement occuper de la place et ralentir la machine. En contrepartie, effectuer un scan sera potentiellement plus rapide sur la machine si déjà en mémoire.
 > **Dans la suite, nous ne proposerons donc pas l'installation du démon.**
-{.is-info}
-
-### Installation GUI
-
-Pour ceux qui souhaitent éviter les lignes de commandes, vous retrouverez normalement l'application **ClamTk** sur la logithèque de votre distribution.
-
-![clamtk-0.png](/images/clamtk-0.png){.align-center}
-
-> Installer cette application installera également ClamAV.
 {.is-info}
 
 ### Installation CLI
@@ -130,25 +126,25 @@ Pour ce faire, ouvrez un terminal (sur certaines distributions, l'appui sur <kbd
 ##### Debian/Ubuntu
 Ou autres distributions basées sur Ubuntu ou Debian :
 ```
-apt install clamav clamtk
+apt install clamav
 ```
 
 ##### Arch Linux
 Ou autres distributions basées sur Arch :
 ```
-pacman -S clamav clamtk
+pacman -S clamav
 ```
 
 ##### RedHat/Fedora
 Ou autres distributions basées sur Redhat :
 ```
-dnf install clamav clamtk
+dnf install clamav
 ```
 
 ##### OpenSuse
 Ou autres distributions basées sur OpenSuse :
 ```
-zypper install clamav clamtk
+zypper install clamav
 ```
 
 
@@ -157,35 +153,25 @@ zypper install clamav clamtk
 Avant tout scan, prenez soin de mettre à jour l'application et la base de données des signatures :
 
 ```
-sudo updatedb
 sudo systemctl stop clamav-freshclam
 sudo freshclam
 sudo systemctl start clamav-freshclam
 ```
 
-Puis nous pouvons lancer le scan :
-1. Soit en utilisant ClamTk avec l'interface graphique, comme suit :
-
-![clamtk-1.png](/images/clamtk-1.png){.align-center}
-![clamtk-2.png](/images/clamtk-2.png){.align-center}
-![clamtk-3.png](/images/clamtk-3.png){.align-center}
-![clamtk-4.png](/images/clamtk-4.png){.align-center}
-![clamtk-5.png](/images/clamtk-5.png){.align-center}
-![clamtk-6.png](/images/clamtk-6.png){.align-center}
-![clamtk-7.png](/images/clamtk-7.png){.align-center}
-
-2. Soit en utilisant la ligne de commandes, comme suit :
+Puis nous pouvons lancer le scan, en utilisant la ligne de commandes, comme suit :
 - Scan complet, sur toute la machine via :
 	`sudo clamscan -i -r /` 
 	(i pour "infected" - n'affiche que les fichiers infectés, et r pour récursif)
 - Scan sur un dossier spécifique, mettons pour l'exemple le dossier "Téléchargements", via :
 	`sudo clamscan -i -r /home/user/Téléchargements/`
 
+*Se référer à le documentation ClamAV pour de plus amples détails : [ClamAV Documentation](https://docs.clamav.net/manual/Usage/Scanning.html).*
+
 Voilà vous devriez avoir un résultat. S'il est positif (c'est-à-dire si vous avez des fichiers infectés, rendez-vous en bas du tutoriel).
 
 ## ChkRootkit
 
-[Chrkrootkit](http://www.chkrootkit.org/) est un logiciel de scan de logiciels espions sur votre machine Linux, nommés **rootkits**.
+[Chkrootkit](http://www.chkrootkit.org/) est un logiciel de scan de logiciels espions sur votre machine Linux, nommés **rootkits**.
 
 ### Pré-requis
 
@@ -219,7 +205,7 @@ sudo zypper install curl
 > Malheureusement, la majorité des distributions ne possèdent pas la dernière version, la plus à jour, de l'outil. C'est pourquoi il va être important d'utiliser la ligne de commandes.
 >
 > **Nous allons nous baser sur la dernière version à l'heure où nous écrivons cet article, à savoir la version 0.57**.
-> Dans la suite vous verrez apparaître un répertoire `chkrootkit-0.57`, qui contient donc cette même version 0.57. BIen entendu _**vous devrez donc remplacer ces chiffres par votre version**._
+> Dans la suite, vous verrez apparaître un répertoire `chkrootkit-0.57`, qui contient donc cette même version 0.57. Bien entendu, _**vous devrez donc remplacer ces chiffres par votre version**._
 {.is-warning}
 
 Nous allons nous placer dans le répertoire `Téléchargements` (ou `Downloads` sur certaines distributions) et installer l'outil :

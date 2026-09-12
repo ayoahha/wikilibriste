@@ -2,7 +2,7 @@
 title: Sauvegarder ses données
 description: Sauvegarder et restaurer vos données sous Linux est crucial... Suivez le guide !
 published: true
-date: 2023-09-10T08:28:45.246Z
+date: 2025-05-08T17:21:59.352Z
 tags: debutant, intermediaire, sauvegarde, backup, restaurer, restore
 editor: markdown
 dateCreated: 2023-03-15T23:44:19.951Z
@@ -19,9 +19,9 @@ Une sauvegarde consiste tout autant à recopier des photos, documents, vidéos..
 Quelques précisions à propos des **méthodes de sauvegarde** : lorsque l'on sauvegarde les données d'un appareil la première fois, tout est sauvegardé ! 
 - C'est ce que l'on appelle une **sauvegarde complète** ("full backup").
 
-Par la suite, pour économiser du temps et surtout de l'espace disque, il est inutile de tout sauvegarder de nouveau, nous ne sauvegarderons donc que ce qui à changé. Deux variantes existent ici :
-- les sauvegardes **incrémentales** : nous ne sauvons ici que les données qui ont changées _depuis la dernière sauvegarde_.
-- les sauvegardes **différentielles** : nous ne sauvons que les données qui ont changées _depuis la dernière sauvegarde **complète**_ !
+Par la suite, pour économiser du temps et surtout de l'espace disque, il est inutile de tout sauvegarder de nouveau, nous ne sauvegarderons donc que ce qui a changé. Deux variantes existent ici :
+- les sauvegardes **incrémentales** : nous ne sauvons ici que les données qui ont changé _depuis la dernière sauvegarde_.
+- les sauvegardes **différentielles** : nous ne sauvons que les données qui ont changé _depuis la dernière sauvegarde **complète**_ !
 
 
 > Quand on vient à discuter de sûreté et de sécurité des données, la sauvegarde est probablement l'un des sujets les plus importants !
@@ -31,7 +31,7 @@ Par la suite, pour économiser du temps et surtout de l'espace disque, il est in
 > Dernier point important, une _sauvegarde_ qui n'est _pas testée régulièrement_ est _considérée comme non fiable_, c'est pourquoi nous vous conseillons de faire des restaurations de temps en temps !
 {.is-warning}
 
-Ce tutoriel s'articule autour de 3 catégories de sauvegardes :
+Ce tutoriel s'articule autour de 3 catégories de sauvegarde :
 - suivant que le logiciel de sauvegarde est installé sur la machine à sauvegarder (votre PC) :
 :arrow_right: C'est le thème du premier chapitre `Déjà-Dup`. C'est ici que nous sauvegardons des photos, documents personnels...
 - suivant le périmètre, c'est-à-dire que l'on souhaite sauvegarder certains dossiers contenant des données de travail (premier et deuxième chapitre) ou bien que l'on souhaite sauvegarder un système complet :
@@ -46,9 +46,25 @@ Ce tutoriel s'articule autour de 3 catégories de sauvegardes :
 > -- ni de la réplication des données, même si c'est souvent la technique utilisée pour les sauvegardes.
 {.is-danger}
 
-> Concernant les sauvegardes de smartphone sous Android, consultez la vidéo [Présentation et Sauvegarde / Restauration NANDroid avec TWRP](/tutoriels-android/twrp).
-{.is-success}
+# Les solutions pour sauvegarder son smartphone Android
 
+Pour faire une sauvegarde complète du système Android, nous vous invitons à consulter la vidéo [TWRP : Sauvegarde / Restauration NANDroid](/tutoriels-android/twrp).
+
+La majorité du temps, nous cherchons à sauvegarder deux types de données fondamentalles :
+1. La configuration des applications Android
+2. Ses données personnelles (photos, documents, SMS, etc.). 
+
+Plusieurs solutions existent pour sauvegarder son smartphone :
+
+| Nom de la solution | Disponibilité | Données sauvegardée | Notes |
+| ------------------ | ------------- | ------------------- | ----- |
+| [Seedvault](https://github.com/seedvault-app/seedvault) | ROM alternative : Lineage, /e/, Calyx, Graphene, etc. | Données personnelles. Liste des applications avec leur configuration. Contact, agenda, etc. | Probablement la **solution la plus complète**. |
+| [NeoBackup](https://github.com/NeoApplications/Neo-Backup) | Android | Liste des applications avec leur configuration. | Nécessite d'être **root**. |
+| [DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup) | Android | Liste des applications avec leur configuration. Données personnelles. | Nécessite d'être **root**. |
+| [Android Backup Project](https://github.com/AndDiSa/android_backup_project) | Android, via ordinateur | Liste des applications **sans** leur configuration. Données personnelles. | Scripts qui automatise la sauvegarde via adb. |
+| [Open Android Backup](https://github.com/mrrfv/open-android-backup) | Android, via ordinateur | Liste des applications **sans** leur configuration. Données personnelles. | Scripts qui automatise la sauvegarde via adb. |
+
+Hormis pour SeedVault qui est intégré aux OS Android alternatifs, seul le rootage du téléphone permet de sauvegarder les paramètres de chaque application. Il peut donc être nécessaire, pour les autres solutions, de sauvegarder les paramètres pour chaque application en allant dans ses paramètres (en espérant qu'une fonction d'import/export a été implémentée). Cela peut alors se révéler un peu long et fastidieux. L'avantage (car il faut toujours voir le bon côté des choses), c'est qu'il s'agit d'une occasion de faire un coup de ménage sur votre smartphone ^^
 
 # Sauvegarder ses données personnelles
 
@@ -60,9 +76,10 @@ Il existe de nombreux de logiciels de sauvegarde des données personnelles. En v
 - [Borg](https://borgbackup.readthedocs.io/en/stable/) : Sans interface graphique, il n'est donc utilisable qu'en ligne de commandes. Nous vous recommandons plutôt **Pika**. Cependant, il peut être utile sur un serveur. Voici un bon article sur Linuxtricks à propos de [Borg Backup](https://www.linuxtricks.fr/wiki/borg-backup-gerer-ses-backups-sous-linux).
 	- [Pika](https://apps.gnome.org/fr/app/org.gnome.World.PikaBackup/) : Avec interface graphique, il utilise Borg pour réaliser les sauvegardes. Vous trouverez plus d'informations sur le site d'Adrien de la chaîne Linuxtricks pour l'[installer et configurer Pika](https://www.linuxtricks.fr/wiki/pika-backup-la-sauvegarde-graphique-avec-la-puissance-de-borg).
 - [Rsync](https://fr.wikipedia.org/wiki/Rsync) : Sans interface graphique, il n'est donc utilisable qu'en ligne de commandes. Nous vous recommandons plutôt **LuckyBackup**. Cependant, il peut être utile sur un serveur. 
-	- [LuckyBackup](https://fr.wikipedia.org/wiki/LuckyBackup) : Avec interface graphique, il utilise rsync pour réaliser les sauvegardes.
+	- [LuckyBackup](https://luckybackup.sourceforge.net) : Avec interface graphique, il utilise Rsync pour réaliser les sauvegardes.
 - [Duplicity](https://en.wikipedia.org/wiki/Duplicity_(software)) : Sans interface graphique, il n'est donc utilisable qu'en ligne de commandes. Nous vous recommandons plutôt **Déjà Dup** ! Cependant, il peut être utile sur un serveur.
 	- [Déjà Dup](https://wiki.gnome.org/Apps/DejaDup/Details) : Avec interface graphique, il utilise Duplicity pour réaliser les sauvegardes. Elles peuvent être chiffrées et stockées localement ou bien sur une machine distante (réseau local ou cloud). Très simple d'utilisation, nous recommandons pour les débutants !
+- [FreeFileSync](https://freefilesync.org/) : Avec interface graphique, multi-plateformes, sauvegarde par comparaison de fichiers. Très simple d'utilisation lui aussi et rapide.
 
 > **Pour la sauvegarde de données, Déjà Dup est la solution que nous recommandons et que nous allons détailler ci-après.** 
 {.is-success}
@@ -71,7 +88,7 @@ Il existe de nombreux de logiciels de sauvegarde des données personnelles. En v
 
 Comme expliqué en introduction, il s'agit d'un des logiciels les plus simples à utiliser. Pour autant, il est très puissant car il est capable de :
 - réaliser des sauvegardes :
-  - [x] chiffrées par l'intermédiaire de [GPG](/intermediaire/chiffrement#pgp-gpg) (OpenPGP),
+  - [x] chiffrées par l'intermédiaire de [GPG](/intermediaire/integrite#signature-%C3%A9lectronique) (OpenPGP),
   - [x] compressées,
   - [x] exactes puisqu'il conserve les dates, droits et autres propriétés des fichiers,
   - [x] automatiques que vous pourrez planifier,
@@ -93,11 +110,12 @@ Nous avons donc 4 possibilités :
 2. Si le PC dispose de 2 disques physiques internes différents, on peut envisager de croiser les sauvegardes :
 :arrow_right: Sachant que tout le monde n'a pas plusieurs disques internes sur une même machine, **nous ne rentrerons pas dans le détail de cette solution**.
 3. Utiliser un espace de stockage cloud pour stocker les sauvegardes :
-:arrow_right: **Malheureusement Déjà Dup ne propose que Google Drive !** :scream:
+:arrow_right: **Il est possible de configurer un accès Webdav, pour Nextcloud par exemple, [voir ici comment procéder](https://isolution.pro/fr/q/au14272034/il-manque-l-option-nextcloud-dans-les-sauvegardes-deja-dup-dans-20-04-lts)**
+
 4. Externaliser sur un disque externe branché sur une autre machine :
 :arrow_right: **C'est cette solution que nous allons présenter**. :thumbsup:
 
-> Dans notre exemple, nous utiliserons donc cette dernière possibilité en branchant un disque externe (ou clef USB) sur notre Box internet :)
+> Dans notre exemple, nous utiliserons donc cette dernière possibilité en branchant un disque externe (ou clef USB) sur notre Box internet. :)
 {.is-info}
 
 #### Déterminer le volume de ses données
@@ -327,7 +345,7 @@ sudo nano /etc/fstab
 > -- la première ligne commence par un `#`, il s'agit uniquement d'un commentaire pour vous y retrouver ;
 > -- `nofail` et `x-systemd.device-timeout=1ms` permettront de ne pas bloquer le démarrage de votre PC si le partage réseau n'existe pas (clef ou disque USB débranché ou HS) ;
 > -- `iocharset=utf8` permet d'utiliser des caractères accentués dans les noms de fichiers ;
-> -- `guest` est utile lorsqu'aucun mot de passe n'est défini pour le partage (c'est le cas avec la plupart des box, même si vous pouvez vous même paramétrer cet aspect) ;
+> -- `guest` est utile lorsqu'aucun mot de passe n'est défini pour le partage (c'est le cas avec la plupart des box, même si vous pouvez vous-même paramétrer cet aspect) ;
 > -- Si votre Box prend en charge SMB v2 ou v3, vous pouvez vous passer de ce paramètre `vers=1.0`
 {.is-info}
 
@@ -339,7 +357,7 @@ sudo mount -a
 
 - Dans votre explorateur de fichiers, vous allez voir un partage réseau "box". Ouvrez-le :)
 
-> Vous devriez voir à sa racine, le dossier `backups` que nous avions crée : nous l'utiliserons plus tard pour y stocker nos sauvegardes. ;)
+> Vous devriez voir, à sa racine, le dossier `backups` que nous avions créé : nous l'utiliserons plus tard pour y stocker nos sauvegardes. ;)
 {.is-success}
 
 ![](/images/dejadup-prep-19.jpg){.align-center}

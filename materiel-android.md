@@ -2,7 +2,7 @@
 title: Trouver un matériel adapté à Android
 description: Où trouver du matériel Android - vous trouverez ici des solutions...
 published: true
-date: 2023-09-11T19:48:24.565Z
+date: 2025-08-18T08:23:34.925Z
 tags: android, materiel
 editor: markdown
 dateCreated: 2023-02-14T11:18:41.344Z
@@ -16,13 +16,25 @@ Voilà pourquoi certaines entreprises sélectionnent du matériel (qu'ils vont j
 {.is-info}
 
 
-# Aux alentours des 200 Euros
+# 200-300 Euros
 
-- [Ekimia Retek](https://retek.ekimia.fr/produit/retek-oneplus-5t-eos/) : Téléphones reconditionnés (stocks limités) sous /e/OS-Android 12 :
-     - **One Plus 5T (2017)**
-- [Iodé](https://iode.tech/) : Ici pour obtenir des téléphones autour de 200 Euros, nous préconisons l'achat de téléphones reconditionnés sur leur boutique :
-     - **Sony Xperia, préférez le XZ3 (2018) si vous le pouvez**
-     - **Samsung A5 (2017)**
+- [Ekimia](https://ekimia.fr/categorie-produit/smartphones/) : Téléphones reconditionnés  sous eOS-Android :
+
+| Modèle | [One Plus Nord](https://ekimia.fr/produit/oneplusnord5g/)  | [Google Pixel 7 ](https://ekimia.fr/produit/pixel7/)  |
+|---|---|---|---|
+|Année de sortie | 2020  | 2022 |
+|Tarif| 222 €   | 299 € |
+|Edition eOS | Officiel | Officiel | 
+
+- [Iodé](https://iode.tech/) : Téléphones reconditionnés sous IodeOS :
+     - **[Samsung S9 (2018)](https://iode.tech/shop/samsung-galaxy-s9-bundle-en/)** : 253€  
+     - **[Google Pixel 3](https://iode.tech/shop/pixel-3-bundle-en/)** : 293€ 
+     ![pixel-3-iode-1000x1000-1-removebg-preview.resized.png](/pixel-3-iode-1000x1000-1-removebg-preview.resized.png)
+     
+- [Murena](murena.com)
+			- **[Murena one](https://murena.com/fr/boutique/smartphones/neuf/murena-one/)** : 299 € (promo) 
+
+
 
 # Aux alentours des 400 Euros
 
@@ -53,9 +65,9 @@ Voilà pourquoi certaines entreprises sélectionnent du matériel (qu'ils vont j
 - [Monocles](https://store.monocles.eu/) : Monocles vend des téléphones avec une ROM à base de GrapheneOS pré-installée. Cependant, leurs tarifs sont assez élevés, et débutent à 600 Euros.
 
 - _Pixels Phones_ : nous ne pouvons bien entendu pas passer outre les Google Pixel qui sont des machines spécifiquement développées pour Android et qui possédent un modèle de sécurité élevé que les autres téléphones n'ont pas. Si votre profil exige une sécurité à haut niveau, ces téléphones sont malgré tout très utiles :
-	 - **Google Pixel 6**
-	 - **Google Pixel 7**
-*Note : On évitera les modèles en fin de vie ou presque, i.e. jusqu'au Google Pixel 4 !*
+	 - **Google Pixel 7 / 7 Pro**
+   - **Google Pixel 8 / 8 Pro**
+*Note : On évitera les modèles en fin de vie ou presque, c.à.d. jusqu'au Google Pixel 5 !*
 
 
 # Pourquoi des Google Pixels ?
@@ -93,10 +105,14 @@ Certains constructeurs ont déjà essayé de résoudre ce problème, via la rand
 
 Les Pixels implémentent convenablement la randomisation de l'adresse MAC, ainsi que d'autres fonctions de randomisation.
 
+---
+> L'équipe de GrapheneOS a cependant identifié les [besoins](https://grapheneos.org/faq#future-devices) afin de couvrir potentiellement dans le futur d'autres appareils.
+{.is-info}
+
 # Les fausses bonnes idées
 
 
-- Nous déconseillons le Fairphone 4 tantque [certains problèmes ](https://gitlab.e.foundation/groups/e/-/issues/?sort=created_date&state=opened&label_name%5B%5D=FP4&label_name%5B%5D=type%3A%3ABug&not%5Blabel_name%5D%5B%5D=Testing&first_page_size=20&page_after=eyJjcmVhdGVkX2F0IjoiMjAyMi0xMi0wMiAwODo1NTo1MS4xNDc5NjkwMDAgKzAwMDAiLCJpZCI6IjIyMjUxIn0)  ne sont pas corrigés
+- Nous déconseillons le Fairphone 4 tant que [certains problèmes ](https://gitlab.e.foundation/groups/e/-/issues/?sort=created_date&state=opened&label_name%5B%5D=FP4&label_name%5B%5D=type%3A%3ABug&not%5Blabel_name%5D%5B%5D=Testing&first_page_size=20)  ne sont pas corrigés
 
 
 
@@ -116,7 +132,7 @@ Les Pixels implémentent convenablement la randomisation de l'adresse MAC, ainsi
 # Autres Magasins tiers
 
 - [Jolla Devices](https://buy.jolla-devices.com/) Smartphones reconditionnés sous Sony Sailfish OS.
-- [Private Phone Shop](https://privatephoneshop.com/) Smartphones avec soit LineageOS, soit GrapheneOS, soit CalyxOS.
+- [Private Phone Shop](https://privatephoneshop.com/) Smartphones avec soit LineageOS, soit IodéOS, soit CalyxOS.
 - [Nitrokey](https://www.nitrokey.com/fr) Smartphones et tablettes sous GrapheneOS.
 
 ---

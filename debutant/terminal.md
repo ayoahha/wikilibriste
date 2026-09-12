@@ -2,33 +2,33 @@
 title: Utilisation du Terminal
 description: Article générique sur l'utilisation d'un terminal sous GNU/Linux et des principales commandes...
 published: true
-date: 2023-06-30T20:50:39.094Z
+date: 2023-10-30T20:11:43.825Z
 tags: terminal, commandes, shell, debutant, débutant
 editor: markdown
 dateCreated: 2022-11-25T18:21:33.942Z
 ---
 
-> Ce chapitre s'adresse avant tout à ceux qui souhaitent creuser les fonctionnalités de lignes de commande inhérentes à une distributions GNU/Linux afin de découvrir cet environnement ou de se débloquer suite à un quelconque blocage...
+> Ce chapitre s'adresse avant tout à ceux qui souhaitent creuser les fonctionnalités de lignes de commande inhérentes à une distribution GNU/Linux afin de découvrir cet environnement ou de se débloquer suite à un quelconque blocage...
 >
 > **Cela dit dans 98% des cas, il est tout à fait possible de se passer du terminal et des lignes de commandes** ;)
 {.is-info}
 
-Bête noire et assez peu amicale au premier abord, cet outil est un redoutable monstre de **puissance**, de **rapidité** et de **simplicité** dans son utilisation. Il a finalement toutes les qualités, sauf d'être conviviale...
+Bête noire et assez peu amical au premier abord, cet outil est un redoutable monstre de **puissance**, de **rapidité** et de **simplicité** dans son utilisation. Il a finalement toutes les qualités sauf la convivialité...
 
-Chaque distribution GNU/Linux en dispose. Elle est l'essence même de ce qui se passe au cœur de votre ordinateur. Oui, oui ! Vous utilisez sûrement une distribution avec une interface graphique qui vous plaît bien, mais tout ce qui se passe derrière, ça se passe en ligne de commande.
+Chaque distribution GNU/Linux en dispose. Il est l'essence même de ce qui se passe au cœur de votre ordinateur. Oui, oui ! Vous utilisez sûrement une distribution avec une interface graphique qui vous plaît bien, mais tout ce qui se produit derrière, ça se passe en ligne de commande.
 
-D'ailleurs, on parle de GUI (Graphical User Interface : Interface Graphique Utilisateur) pour parler de ce qui se passe graphiquement à votre écran, et de CLI (Command Line Interface) pour ce qui se passe dans le terminal. Certaines distributions n'ont même pas d'interface graphique par défaut ! Juste un terminal. C'est à vous d'installer l'interface (ou pas).
+D'ailleurs, on parle de GUI (Graphical User Interface : Interface Graphique Utilisateur) pour parler de ce qui se passe graphiquement sur votre écran, et de CLI (Command Line Interface) pour ce qui se passe dans le terminal. Certaines distributions n'ont même pas d'interface graphique par défaut ! Juste un terminal. C'est à vous d'installer l'interface (ou pas).
 
 C'est le cas, par exemple, du serveur qui héberge ce site.
 
 ![utilisation_du_terminal.jpg](/images/utilisation_du_terminal.jpg =500x){.align-center}
 
 
-## Qu'est ce que le terminal ?
+## Qu'est ce que le TERMINAL ?
 
 Avant de vous présenter les lignes de commande, commençons par faire un tour général de comment s'organise l'usage d'un terminal.
 
-Il est au début très déroutant de se dire que l'on peut exécuter des logiciels sans ne rien voir d'autre que des lignes de texte qui s'affiche dans le terminal. Pourtant, c'est bien cela qui se passe. Quand vous tapez une commande, vous allez donner au préalable l'ensemble des paramètres qui vont dire au logiciel quelle est l'action à exécuter : là où, pour un logiciel graphique, vous allez utiliser des boutons et des éléments graphiques qui vont interagir avec le logiciel qui va ainsi adapter son comportement pour atteindre l'objectif que vous souhaitez.
+Il est au début très déroutant de se dire que l'on peut exécuter des logiciels sans ne rien voir d'autre que des lignes de texte qui s'affichent dans le terminal. Pourtant, c'est bien ce qu'il se passe. Quand vous tapez une commande, vous allez donner au préalable l'ensemble des paramètres qui vont indiquer au logiciel quelle est l'action à exécuter, là où, pour un logiciel graphique, vous allez utiliser des boutons et des éléments graphiques qui interagiront avec le logiciel qui adaptera son comportement pour atteindre l'objectif que vous souhaitez.
 
 Ceci étant dit, commençons par le plus nécessaire : ouvrir un terminal.
 Pour cela, vous allez dans la liste de vos logiciels, et vous cherchez "Terminal". Il est également possible de l'ouvrir avec le raccourci <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>T</kbd> sur la majorité des distributions Linux.
@@ -39,7 +39,7 @@ Vous obtiendrez une fenêtre semblable à celle-ci :
 
 ### Présentation
 
-Dans cette fenêtre (dont les couleurs changent en fonction de votre configuration), vous ne pouvez faire qu'une chose : taper du texte et lire du texte.
+Dans cette fenêtre (dont les couleurs changent en fonction de votre configuration), vous ne pouvez faire que deux choses : taper du texte et lire du texte.
 
 Tout commence avec cette première ligne : `user@computer:~$` ou `[user@computer ~]$`. Elle est nommée **invite de commande**, ou **prompt** pour les intimes...
 
@@ -49,7 +49,7 @@ Cette première ligne contient beaucoup d'informations, et non, rien n'est dû a
  - `@` est juste un séparateur qui signifie “at” ou “chez”, dans la langue de Molière.
  - `computer`, c’est le nom de l’ordinateur sur lequel `user` est connecté.
  - `~` ou la tilde signifie que vous travaillez actuellement dans le dossier utilisateur de `user`.*
- - `$` c’est pour dire que vous êtes connectés en tant qu’utilisateur normal. Vous verriez apparaître un `#` si vous étiez connecté en root.
+ - `$` c’est pour dire que vous êtes connecté en tant qu’utilisateur normal. Vous verriez apparaître un `#` si vous étiez connecté en root.
 
 * Il est à noter que toute commande, et plus largement, tout logiciel est exécuté dans un répertoire. Dans le terminal, par défaut, vous arrivez dans le répertoire de l'utilisateur connecté. Dans notre cas, nous nous trouvons dans `/home/user` qui est aussi abrégé `~`.
 
@@ -61,7 +61,7 @@ _Récapitulons_ : en ouvrant le terminal, nous voyons que nous sommes connectés
 Il est déjà important d'avoir conscience que chaque commande est exécutée dans un répertoire.
 
 Pour taper une commande, il suffit de l'appeler en tapant son nom. Elle pourra être suivie de "paramètres" si nécessaire.
-:warning: *Chaque paramètre doit impérativement être séparé d'un espace. Si vous collez un paramètre au nom de la commande, le système croira que le tout est le nom de la commande.*
+:warning: *Chaque paramètre doit impérativement être séparé par un espace. Si vous collez un paramètre au nom de la commande, le système croira que le tout est le nom de la commande.*
 
 Ensuite, pour exécuter la commande, il suffit de taper sur la touche <kbd>ENTREE</kbd>.
 
@@ -75,19 +75,19 @@ C'est tout. Ne fuyez pas tout de suite ! Vous allez très vite comprendre en tap
 
 #### Flèche haut
 
-Pour retaper une commande que vous avez tapé précédemment, il suffit d’appuyer sur <kbd>Flèche Haut</kbd> autant de fois que nécessaire.
+Pour retaper une commande que vous avez tapée précédemment, il suffit d’appuyer sur <kbd>Flèche Haut</kbd> autant de fois que nécessaire.
 
 #### L'auto-complétion
 
-Le Terminal gère l'auto-complétion. En d'autres termes, si vous commencez à taper le début d'une commande, vous pourrez auto-compléter ce nom avec la touche <kbd>TAB</kbd>.
+Le Terminal gère l'auto-complétion. En d'autres termes, si vous commencez à taper le début d'une commande, vous pouvez auto-compléter ce nom avec la touche <kbd>TAB</kbd>.
 
-Commencez à taper `/home/u`, puis appuyez sur la touche <kbd>TAB</kbd> permet de compléter la saisie et indiquera alors `/home/user`.
+Commencez à taper `/home/u`, puis appuyez sur la touche <kbd>TAB</kbd> : le terminal complètera la saisie et indiquera alors `/home/user`.
 
-Si plusieurs solutions ont été trouvées, alors il complétera jusqu'à l'endroit où les solutions diverges. En reprenant l'exemple précédent, mais en imaginant qu'il y ait un dossier `usat` dans /home. Commencez à taper `/home/u`, auto-complétez avec <kbd>TAB</kbd>, et la saisie vous indiquera `/home/us`. Vous pouvez alors rajouter un "e" ou un "a" puis auto-compléter. Vous obtiendrez respectivement `/home/user` ou `/home/usat`.
+Si plusieurs solutions ont été trouvées, alors il complétera jusqu'à l'endroit où les solutions divergent. En reprenant l'exemple précédent, mais en imaginant qu'il y ait un dossier `usat` dans /home. Commencez à taper `/home/u`, auto-complétez avec <kbd>TAB</kbd>, et la saisie vous indiquera `/home/us`. Vous pouvez alors rajouter un "e" ou un "a" puis auto-compléter. Vous obtiendrez respectivement `/home/user` ou `/home/usat`.
 
 #### Couper l'exécution d'un programme
 
-Si vous lancez une commande, qu'elle met un peu de temps à s'exécuter, et que vous vous rendez compte qu'il y a une erreur, ou que vous voulez quitter le programme avant la fin, il y a une solution.
+Si vous lancez une commande qui met un peu de temps à s'exécuter, que vous constatez qu'il y a une erreur ou que vous voulez quitter le programme avant la fin, il y a une solution.
 
 Pour arrêter en plein vol une commande, il faut utiliser le raccourci : <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
@@ -144,7 +144,7 @@ Vous devriez voir la liste de vos dossiers personnels :
 Si c’est pas exactement ça, ça y ressemble !
 
 **Ajouter un paramètre (ou option) à une commande**
-Peu après le début, je vous ai parlé de paramètre possible pour les commandes. La commande `ls` permet d'en ajouter. Créons donc notre première commande avec paramètre !
+Peu après le début de ce chapitre, je vous ai parlé de paramètre possible pour les commandes. La commande `ls` permet d'en ajouter. Créons donc notre première commande avec paramètre !
 `ls` n'affiche en réalité pas tous les fichiers et répertoires. Mais seulement les fichiers et répertoires visibles (car certains sont cachés).
 Le paramètre `-a` ("a", comme "all", "tout" en français) va dire à `ls` d'afficher **tout** ce qui est contenu dans notre répertoire courant.
 
@@ -182,7 +182,7 @@ ls -a /home/user/Documents/
 
 ### Se déplacer
 
-Pour se déplacer dans un autre dossier, c'est-à-dire, changer de répertoire de travail, il faut utiliser la commande `cd`, pour "change directory" ("changer de répertoire"). *Vous remarquerez que les commandes sont souvent des contractions de mots anglais.*
+Pour se déplacer dans un autre dossier, c'est-à-dire changer de répertoire de travail, il faut utiliser la commande `cd`, pour "change directory" ("changer de répertoire"). *Vous remarquerez que les commandes sont souvent des contractions de mots anglais.*
 
 Mais, pour que `cd` sache dans quel répertoire vous souhaitez vous déplacer, il faut le lui indiquer en paramètre.
 
@@ -200,7 +200,7 @@ cd /home/user/Documents
 
 *(À partir de maintenant, nous ne détaillerons plus les deux manières d'indiquer un chemin. Sachez que la première utilise un "chemin relatif", car relatif à l'emplacement où vous êtes actuellement. La seconde utilise un "chemin absolu", car il indique le chemin depuis le point de départ de votre disque dur).*
 
-Maintenant cette commande `cd` tapée, vous pouvez vérifier que votre répertoire de travail a changé :
+Une fois cette commande `cd` tapée, vous pouvez vérifier que votre répertoire de travail a changé :
  - Avec la commande `pwd`, qui vous retournera maintenant `/home/user/Documents`.
  - Dans les informations du prompt : `~` est devenu `~/Documents`.
 
@@ -257,7 +257,7 @@ mkdir "Photos de vacances 2022"
 
 *NB : Il existe un autre moyen de créer un fichier dont le nom comporte des espaces, mais on verra ça plus tard !*
 
-Notez que ce problème d'espace est vrai pour toutes les commandes que vous taperez. Un autre exemple, si vous voulez vous déplacer dans le dossier "Images/Photos de vacances 2022", il faudra aussi mettre des guillemets, sinon la commande vous retournera une erreur :
+Notez que ce problème d'espace est vrai pour toutes les commandes que vous taperez. Un autre exemple : si vous voulez vous déplacer dans le dossier "Images/Photos de vacances 2022", il faudra aussi mettre des guillemets sinon la commande vous retournera une erreur :
 
 ```bash
 cd "Images/Photos de vacances 2022"
@@ -321,7 +321,7 @@ rm "Mon super fichier avec des espaces dans le nom.txt"
 Et hop, les fichiers ont été supprimés !
 
 
-Il existe un petit caractère magique dans les commandes : `*` - l'étoile. Et là on commence à toucher un début de puissance de la ligne de commande. Ce caractère remplace n'importe quel caractère ou n'importe quelle chaîne de caractères.
+Il existe un petit caractère magique dans les commandes : `*` - l'étoile. Et là, on commence à toucher tout le potentiel de la ligne de commande. Ce caractère remplace n'importe quel caractère ou n'importe quelle chaîne de caractères.
 
 Exemple : pour supprimer nos trois fichiers (fichier1, fichier2, fichier3) on peut faire simplement :
 
@@ -331,7 +331,7 @@ rm fichier*
 
 2 remarques s'imposent :
  - Vérifiez que vous n'avez pas un fichier qui s'appellerait "*fichier de travail.odt*" par exemple, car il serait supprimé. Tout ce qui commence par "*fichier*", peu importe la suite du nom, sera supprimé.
- - Vous ne pouvez pas mettre le `*` entre guillemets. Sinon, la commande cherchera un seul fichier dont le nom sera "fichier*". Pour combiner ce caractère avec une recherche de fichier avec espace : `"fichier avec blanc"*`
+ - Vous ne pouvez pas mettre le `*` entre guillemets. Sinon, la commande cherchera un seul fichier dont le nom sera "fichier*". Pour combiner le caractère * avec des noms de fichier contenant des espaces, il faut mettre l’étoile en dehors des guillemets : "fichier avec blanc"*
 
 Quelques exemples :
 
@@ -368,7 +368,7 @@ rm -r dossier*
 
 ## Quelques commandes de tous les jours
 
-Bon, on est bien gentil, on vous surcharge d'informations... Mais se déplacer dans vos dossiers, créer des dossiers, des fichiers, les supprimer, vous le faites depuis longtemps avec votre souris et ça marche aussi. Vous voulez nous dire : *faites nous voir quelque chose d'utile !*
+Bon, on est bien gentil, on vous surcharge d'informations... Mais se déplacer dans vos dossiers, créer des dossiers, des fichiers, les supprimer, vous le faites depuis longtemps avec votre souris et ça marche aussi. Vous voulez nous dire : *faites-nous voir quelque chose d'utile !*
 
 On vous entend, mais ces quelques commandes étaient nécessaires pour comprendre un minimum ce que vous faites avant d'aborder des commandes très pratiques.
 
@@ -377,11 +377,11 @@ On vous entend, mais ces quelques commandes étaient nécessaires pour comprendr
 
 ### Editer le contenu d'un fichier
 
-Vous allez sans doute parfois vouloir éditer un fichier. Bien que vous pouvez utiliser les outils graphiques (tels que gEdit, Kate ou Mousepad, etc.), il est tout à fait possible de modifier du texte dans un fichier grâce au terminal, c'est parfois même plus rapide ! Voyons ce que cela donne :
+Vous allez sans doute parfois vouloir éditer un fichier. Bien que vous puissiez utiliser les outils graphiques (tels que gEdit, Kate ou Mousepad, etc.), il est tout à fait possible de modifier du texte dans un fichier grâce au terminal, c'est parfois même plus rapide ! Voyons ce que cela donne :
 
 #### Nano
 
-GNU Nano est un outil d'éditeur de texte en ligne de commande, utilisable sur beaucoup de distro nativement.
+GNU Nano est un outil d'éditeur de texte en ligne de commande, utilisable sur beaucoup de distros nativement.
 
 - **Dans le cas contraire, installez simplement le paquet nommé 'nano'**
 
@@ -426,7 +426,7 @@ Tentons de modifier le fichier, d'enregistrer le contenu puis de quitter l'outil
 	- Y (ou O en français) pour accepter les modifications,
 	- N (ou N en français) pour refuser les modifications.
 
-3. Acceptons les modifications en entrant <kbd>Y</kbd> (ou <kbd>O</kbd>), l'outil nous propose de confirmer le nom du fichier (nous pouvons très bien entrer un nom différent, ce qui aura pour but de modifier le nom du fichier !) :
+3. Acceptons les modifications en entrant <kbd>Y</kbd> (ou <kbd>O</kbd>), l'outil nous propose de confirmer le nom du fichier (nous pouvons très bien entrer un nom différent, ce qui aura pour but de modifier le nom du fichier comme un "enregistrer sous" !) :
 
 ![GNU Nano - Edition](/images/nano-3.png =600x){.align-center}
 
@@ -549,7 +549,7 @@ Ce qui nous donnera :
 convert capture_firefox_2023-01-24.png capture_firefox_2023-01-24.webp
 ```
 
-Mais souvenez-vous : on peut aller extrêmement vite pour taper les noms grâce à l'auto-complétion. En ne tapant que le début de la commande, puis le début des noms, et en auto-complétant à chaque fois, taper cette longue commande m'a pris moins de 5 secondes... En le faisant 2-3 fois, vous serez convaincu de gagner du temps à convertir une image via le terminal ;)
+Mais souvenez-vous : on peut aller extrêmement vite pour taper les noms grâce à l'auto-complétion. En ne tapant que le début de la commande, puis le début des noms, et en auto-complétant à chaque fois, taper cette longue commande m'a pris moins de 5 secondes... En le faisant 2-3 fois, vous serez convaincu du gain de temps à convertir une image via le terminal ;)
 
 Finalement, en littéralement moins de 10 secondes, la conversion peut être faite. Pas sûr de pouvoir en dire autant d'un logiciel graphique.
 
@@ -569,7 +569,7 @@ cd "Téléchargements"
 yt-dlp "https://youtu.be/g90FZJhl82k"
 ```
 
-*Note : pour ne pas avoir à vous déplacer dans le dossier "Téléchargements" en ligne de commande, vous pouvez ouvrir directement le terminal dans ce dossier en utilisant votre gestionnaire de fichiers, en allant dans vos téléchargements, puis en faisant : clic-droit > Ouvrir dans un terminal*
+*Note : pour ne pas avoir à vous déplacer dans le dossier "Téléchargements" en ligne de commande, vous pouvez ouvrir directement le terminal dans ce dossier en utilisant votre gestionnaire de fichiers et en allant dans vos téléchargements, puis en faisant : clic-droit > Ouvrir dans un terminal ou aussi, faire un "glisser/déposer du répertoire "Téléchargements" dans le terminal*
 
 Oui mais c'est une musique, la vidéo n'est pas très intéressante...
 `yt-dlp` permet de **ne télécharger que l'audio** si vous souhaitez grâce à l'option `-x`, ce qui donne :
@@ -608,10 +608,10 @@ Sur l'ordinateur cible, il suffira d'ouvrir le navigateur (firefox par exemple).
 
 ## Quelques commandes *root* (administrateur)
 
-**Sur Linux les droits sont extrêmement encadrés.** Un utilisateur ne peut toucher qu'à ces propres fichiers (tout ce qui se trouve dans `/home/user`).
+**Sur Linux les droits sont extrêmement encadrés.** Un utilisateur ne peut toucher qu'à ses propres fichiers (tout ce qui se trouve dans `/home/user`).
 Mais si vous voulez par exemple installer un logiciel, le logiciel sera installé dans des répertoires tel que `/usr` ou `/bin`. Donc, **en tant qu'utilisateur, vous n'avez pas le droit d'installer les logiciels. Pour obtenir ces droits, il faut être ce qu'on appelle "*root*".**
 
-> Attention : `sudo` confère de grande responsabilité. Avec les droits administrateur, vous obtenez les droits de faire ce que vous voulez sur tout l'ordinateur. **Ce qui veut également dire que vous pouvez détruire des fichiers nécessaires au fonctionnement de votre ordinateur**. Ne tapez donc pas de commande dont vous n'êtes pas sûr, et si vous avez des doutes, n'hésitez pas à vous renseigner avant, ou à demander de l'aide à un ami ou sur un forum !
+> Attention : `sudo` confère de grande responsabilité. Avec les droits administrateur, vous obtenez les droits de faire ce que vous voulez sur tout le système et ses fichiers. **Ce qui veut également dire que vous pouvez détruire des fichiers nécessaires au fonctionnement de votre ordinateur**. Ne tapez donc pas de commande dont vous n'êtes pas sûr, et si vous avez des doutes, n'hésitez pas à vous renseigner avant, ou à demander de l'aide à un ami ou sur un forum !
 {.is-warning}
 
 Pour donner ces droits administrateur à une commande, il suffit d'utiliser la commande `sudo` (pour *superuser do*), suivie de la commande que vous voulez exécuter.
@@ -624,7 +624,7 @@ Si vous voulez donner les droits administrateur à toutes les commandes que vous
 
 Je sais, on peut le faire en graphique sur la majorité des distributions Linux. De fait, si une erreur survient, la ligne de commande vous donnera des détails de l'erreur, pas l'interface graphique (1er avantage). 2ème avantage : c'est beaucoup plus rapide.
 
-Pour toutes ces tâches, nous utiliserons la commande `apt`.
+Pour toutes ces tâches, nous utiliserons la commande `apt` (advanced packaged tool).
 
 Pour chercher un logiciel : on cherche (en anglais) un outil pour télécharger des vidéos youtube :
 
@@ -656,7 +656,7 @@ sudo apt upgrade
 
 Ces deux commandes sont à mettre dans cet ordre car :
 - `Update` sert à mettre à jour les dépôts.
-- `Upgrade` sert à mettre à jour les paquets issus des dépôts... nouvellement mis à jour.
+- `Upgrade` sert à mettre à jour les paquets issus des dépôts nouvellement mis à jour.
 
 
 ## Astuces
@@ -664,8 +664,8 @@ Ces deux commandes sont à mettre dans cet ordre car :
 Lorsque vous débutez, il est préférable de saisir une commande à la fois.
 En revanche, si vous maîtrisez les lignes de commande ou si vous avez beaucoup de commandes à taper, vous pouvez utiliser : 
 
-- Le `&&` (double "et" commercial) qui sert à enchaîner la commande qui suit, si et seulement si la précédente se termine avec succès.
-- Le `;` (point virgule) qui enchaîne les commandes qu'elles réussissent ou non.
+- Le `&&` (double "et" commercial ou éperluette) qui sert à enchaîner la commande qui suit, si et seulement si la précédente se termine avec succès.
+- Le `;` (point virgule) qui enchaîne les commandes, qu'elles réussissent ou non.
 
 Donc au lieu de faire...
 ```bash

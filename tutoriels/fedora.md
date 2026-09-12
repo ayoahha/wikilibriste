@@ -2,7 +2,7 @@
 title: Fedora
 description: 
 published: true
-date: 2023-04-02T14:33:58.009Z
+date: 2024-02-04T20:23:21.358Z
 tags: linux, debutant, intermédiaire, débutant, intermediaire, distribution, fedora
 editor: markdown
 dateCreated: 2023-01-14T21:06:19.298Z
@@ -30,7 +30,7 @@ Bienvenue dans ce tutoriel tout en images, afin d'installer votre distribution F
 ![fedora-7.png](/images/fedora-7.png){.align-center}
 ![fedora-8.png](/images/fedora-8.png){.align-center}
 
-> Fedora ne vous demandera pas de redémarrer explicitement la machine. A vous donc de faire un "Restart", en haut à droite, **puis lors du redémarrage, retirer la clé USB bootable de son port** :
+> Fedora ne vous demandera pas de redémarrer explicitement la machine. À vous donc de faire un "Restart", en haut à droite, **puis lors du redémarrage, retirer la clé USB bootable de son port** :
 {.is-info}
 
 ![fedora-9.png](/images/fedora-9.png){.align-center}
@@ -38,7 +38,7 @@ Bienvenue dans ce tutoriel tout en images, afin d'installer votre distribution F
 ![fedora-11.png](/images/fedora-11.png){.align-center}
 ![fedora-12.png](/images/fedora-12.png){.align-center}
 
-> Veiller à bien décoche les éléments **(10)** et **(11)**...
+> Veiller à bien décocher les éléments **(10)** et **(11)**...
 {.is-info}
 
 ![fedora-13.png](/images/fedora-13.png){.align-center}

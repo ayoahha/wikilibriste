@@ -2,7 +2,7 @@
 title: La liste des tutoriels pour téléphone Android...
 description: ...écrits avec amour par le groupe !
 published: true
-date: 2023-09-10T10:09:26.768Z
+date: 2024-02-01T11:10:31.837Z
 tags: android, ordiphone, téléphone, tutoriel
 editor: markdown
 dateCreated: 2023-04-19T15:33:10.188Z
@@ -28,6 +28,7 @@ dateCreated: 2023-04-19T15:33:10.188Z
 # Les tutoriels pour Ordiphone
 
 - :arrow_right: [Utiliser UAD pour supprimer les applications bloatware](/tutoriels-android/android-debloater)
+- :arrow_right: [Liste des téléphones libérables](/tutoriels-android/comparatif-telephones)
 - :arrow_right: [Débloquer son Android Bootloader](/tutoriels-android/bootloader-unlock)
 - :arrow_right: [Désinstaller Cellbroadcast](/tutoriels-android/cellbroadcaster)
 {.grid-list}

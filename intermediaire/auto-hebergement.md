@@ -2,12 +2,11 @@
 title: Auto-hébergement
 description: Nous apprendrons ici ce qu'est la pratique de l'auto-hébergement, et comment mettre en place son propre serveur pour héberger les services Internet que nous souhaitons, en toute simplicité.
 published: true
-date: 2023-07-15T12:35:55.456Z
+date: 2024-01-17T12:22:10.664Z
 tags: serveur, hébergement
 editor: markdown
 dateCreated: 2023-01-16T11:17:05.659Z
 ---
-
 
 > "*L'auto-hébergement est une pratique consistant à héberger ses services réseau sur ses propres machines ou sur des serveurs dédiés virtuels.*"
 
@@ -23,22 +22,26 @@ Par définition, si nous faisons attention aux services que nous installons sur 
 
 **Plusieurs systèmes d'exploitation proposent de faciliter l'auto-hébergement d'applications :**
 
-- [Yunohost](https://yunohost.org/) : basé sur Debian [^¹], il automatise l'installation de plus de 400 applications, officiellement supportées.
-- [UCS-Univention](https://www.univention.com/products/ucs/) : utilise des conteneurs docker : il est plutôt orienté pour un usage en entreprise avec une intégration LDAP complète.
-- [UmbrelOS](https://umbrel.com) : utilise des conteneurs docker : encore assez (trop ?) récent et donc de potentiels bugs peuvent exister...
-- [NextcloudPi](https://nextcloudpi.com/) : image clé en main pour installer Nextcloud sur un RaspberryPi (appelé Rpi pour simplifier) ; cependant, cela limite le RPi à faire tourner Nextcloud (et ses extensions), et aucun autre service.
+- [Nextcloud *Retrouvez le contrôle de vos données*](https://nextcloud.com/) Certainement l'outil Cloud le plus connu pour stocker soi-même ses fichiers, photos, vidéos... équivalent Libre des solutions des GAFAM [^²].
+- [Yunohost *L'auto-hébergement facile*](https://yunohost.org/) Basé sur Debian [^¹], il automatise l'installation de plus de 400 applications, officiellement supportées.
+- [UCS-Univention *Serveur pour opérations IT*](https://www.univention.com/products/ucs/) Utilise des conteneurs docker : il est plutôt orienté pour un usage en entreprise avec une intégration LDAP complète.
+- [Umbrel OS *Le Cloud à la maison*](https://umbrel.com) Utilise des conteneurs docker : encore assez (trop ?) récent et donc de potentiels bugs peuvent exister.
+- [Casa OS *Votre Cloud OS personnel*](https://casaos.io) Utilise des conteneurs docker : orienté facilité d'utilisation, et encore un peu jeune à notre sens. 
+{.links-list}
 
+
+[^²]: Il existe spécifiquement une image clé en main pour installer Nextcloud sur un RaspberryPi ([NextcloudPi](https://nextcloudpi.com)) ; cependant, cela limite le RPi à faire tourner Nextcloud (et ses extensions), et aucun autre service.
 [^¹]: Distribution GNU/Linux, disponible aussi bien sur serveur que pour ordinateurs personnels. Réputée pour sa stabilité et son niveau de sécurisation, elle est la distribution parente, dont sont issues Ubuntu et ses dérivés. C'est également le socle favori de nombreuses distributions orientées cyber sécurité ou vie privée. Pour plus de détails, aller sur le [site officiel](https://www.debian.org/) de Debian. Cet [article](/debutant/linux-distributions) traite également des différentes distributions Linux, dont Debian.
 
 # Règles de sécurité
 
-#### **:warning: Ne continuez pas sans comprendre cette section :warning:**
+### **:warning: Ne continuez pas sans comprendre cette section :warning:**
 
 > **Il est très important ici de faire un point sur la sécurité quand on héberge un service qui est accessible via Internet.**
 {.is-danger}
 
 Il y a une différence fondamentale entre un ordinateur personnel (communément appelé "station de travail") et un serveur : 
-- **l'ordinateur personnel n'est normalement par défaut pas accessible depuis Internet**, bien qu'il puisse de lui-même faire des requêtes vers Internet. Mais il n'est pas possible pour "Internet" de faire des requêtes vers votre ordinateur, sauf faille au niveau de vos équipements (votre box) ou choix particuliers de votre part.
+- **L'ordinateur personnel n'est normalement par défaut pas accessible depuis Internet**, bien qu'il puisse de lui-même faire des requêtes vers Internet. Mais il n'est pas possible pour "Internet" de faire des requêtes vers votre ordinateur, sauf faille au niveau de vos équipements (votre box) ou choix particuliers de votre part.
 - **Le serveur en revanche est accessible depuis Internet**. C'est pour cela que n'importe qui pourra s'y connecter grâce à une URL. Cela implique de nombreuses choses au niveau de la sécurité.
 {.grid-list}
 
@@ -47,9 +50,7 @@ La box de votre [FAI](/glossaire#fai) est configurée par défaut pour ne laisse
 > La sécurité de cet appareil n'est donc plus du tout assurée par la box, mais par l'appareil en lui-même, car la box redirige toutes les demandes vers cet appareil et ne fait rien d'autre.
 {.is-warning}
 
-Le problème, c'est que si un attaquant arrive à pénétrer sur cet appareil, il se retrouve sur notre réseau local, et pourrait commencer à s'introduire sur nos autres appareils personnels connectés à cette même box.
-
-De fait, tout dépend du niveau de sécurité que nous allons appliquer ! **Il est donc très important de s'imposer certaines règles** :
+Le problème, c'est que si un attaquant arrive à pénétrer sur cet appareil, il se retrouve sur notre réseau local, et pourrait commencer à s'introduire sur nos autres appareils personnels connectés à cette même box. De fait, tout dépend du niveau de sécurité que nous allons appliquer ! **Il est donc très important de s'imposer certaines règles** :
  - **Les mots de passes doivent être _très_ solides sur cette machine** : le mieux serait un long mot de passe aléatoire, au moins pour tous les utilisateurs qui ont des droits administrateur. Car si les mots de passe des administrateurs sont retrouvés, nous accorderions beaucoup de droits à un attaquant. Nous vous invitons à lire l'article sur [Keepass](/tutoriels/keepass) pour générer et retenir des mots de passe très complexes en toute sécurité et facilement.
 
  - **Les mises à jour doivent être très régulières** : en effet, si une faille vient à être découverte sur l'un des services que nous hébergeons, ou sur l'application d'hébergement, un attaquant verra très vite si notre système a été mis à jour ou s'il est vulnérable à cette faille. S'il est vulnérable, il lui faudra peu de temps pour prendre contrôle de votre appareil. Les mises à jour s'imposent donc. Sur des applications d'hébergement comme Yunohost, les mises à jour sont très faciles, n'hésitons pas à en abuser !
@@ -61,6 +62,14 @@ Il en va de même pour les ports réseau gérés sur ce serveur : via le pare-fe
 
 Les conséquences seraient bien plus graves que pour un ordinateur personnel. Rappelons-nous que nous ne sommes peut-être pas seul à utiliser ces services que nous hébergeons, et que nous rendrions donc vulnérables les données de toutes ces personnes.
 
+# Aller plus loin
+
+Nous avons rédigé deux tutoriels qui vous donneront les clés pour installer un serveur et héberger des solutions Cloud personnels :
+
+- [Installer et Utiliser Yunohost](/tutoriels-serveur/yunohost)
+- [Serveur sous Debian Stable](/tutoriels-serveur/serveur-debian-stable)
+{.grid-list}
+
 ---
-![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): Esf, Ayo, Nemtech*
+![CC BY-NC-SA](/by-nc-sa.png =9%x){.align-right} *Contributeur(s): Ayo, Esf, Nemtech*
 <br>

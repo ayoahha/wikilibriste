@@ -2,7 +2,7 @@
 title: Améliorez votre hygiène numérique
 description: Reprenez le contrôle de votre vie numérique et de vos données...
 published: true
-date: 2023-06-24T08:05:39.627Z
+date: 2025-07-11T12:45:33.811Z
 tags: web, internet, privacy, vie privée, pgp, gpg, numérique, informatique, données, anonymat, sécurité, réseau, vpn, tor, proxy, email, courriel, virus, malware, darknet, mot de passe, authentification, clé, cyber
 editor: markdown
 dateCreated: 2022-11-27T12:39:05.392Z
@@ -22,8 +22,8 @@ L’enjeu n’est plus seulement de faire attention à soi-même, mais devient d
 > [Je n'ai rien à cacher !](https://jenairienacacher.fr/)
 {.is-info}
 
+### Afin de reprendre la main sur votre espace numérique, cet article tente de vous guider en vulgarisant au maximum les terminologies techniques et le comportement à tenir afin d'arriver à une hygiène informatique plus saine.
 
-<span class="red-text">**Afin de reprendre la main sur votre espace numérique, cet article tente de vous guider en vulgarisant au maximum les terminologies techniques et le comportement à tenir afin d'arriver à une hygiène informatique plus saine.**</span>
 
 # Comprendre les bases
 
@@ -39,7 +39,7 @@ Vous avez sûrement déjà entendu parler de « confidentialité des données »
 
 *Mais qu’est-ce concrètement ce « chiffrement » et à quoi sert-il ?*
 
-**Nous vous renvoyons vers l'article [dédié](/intermediaire/chiffrement) au chiffrement, à l'intégrité et aux signatures numériques afin d'y voir un peu plus clair sur ces sujets**
+- **Nous vous renvoyons vers l'article [dédié](/intermediaire/chiffrement) au chiffrement afin d'y voir un peu plus clair sur ces sujets**
 
 
 ## Accès aux informations ou authentification
@@ -89,17 +89,18 @@ Ainsi, nous pouvons, de cette histoire, en déduire deux conclusions majeures, q
 
 ### Les facteurs d'authentification
 
-Nous avons déjà appréhendé le premier facteur (l’exemple du mot de passe) plus haut, mais d’autres types de facteurs « que vous connaissez » existent : le code PIN par exemple.
-
-Également, vous utilisez très souvent le mécanisme à 2 facteurs (2FA) sans probablement le savoir : votre carte bancaire associée à son code secret constitue en fait une 2FA : le facteur 1, que vous CONNAISSEZ, est le code secret (assimilable à un code PIN), et le facteur 2, que vous DÉTENEZ, est la carte bancaire.
+Nous avons déjà appréhendé le premier facteur, l’exemple du mot de passe (le code PIN pourrait aussi rentrer dans cette catégorie). Mais vous utilisez assez souvent le mécanisme à 2 facteurs (2FA) sans probablement le savoir : votre carte bancaire associée à son code secret constitue en fait une 2FA : 
+- le facteur 1, que vous CONNAISSEZ, est le code secret (assimilable à un code PIN),
+- et le facteur 2, que vous DÉTENEZ, est la carte bancaire.
+{.grid-list}
 
 Lorsqu’il s’agit de décrire le mécanisme qui permet de vérifier le facteur que vous DÉTENEZ, il est souvent mention de la carte bancaire. Mais, ce n’est pas le seul item :
--   une smartcard pour sécuriser l’authentification sur votre ordinateur professionnel,
--   un badge d’accès à votre entreprise,
--   une clé de sécurité (aussi appelée token physique de sécurité, [YubiKey](https://www.yubico.com/) ou [Nitrokey](https://www.nitrokey.com/fr) par exemple),
+-   une _carte d'authentification_ pour sécuriser l’accès à votre ordinateur (professionnel bien souvent),
+-   un _badge_ d’accès à votre entreprise,
+-   une clé de sécurité (aussi appelée _token physique_ de sécurité, [YubiKey](https://www.yubico.com/) ou [Nitrokey](https://www.nitrokey.com/fr) par exemple),
 -   un token logiciel (généralement un _certificat_).
 
-Un autre exemple d’authentification à 2 facteurs : vous avez un compte sur un site de vente en ligne. Lorsque vous souhaitez payer un bien, vous utilisez votre carte bancaire. Lors de la transaction entre le site vendeur et votre banque, très souvent votre banque vous demandera de rentrer un numéro unique et temporaire de 4 à 6 chiffres reçu sur votre téléphone par SMS ou par e-mail. Le téléphone constitue ici le facteur que vous DÉTENEZ, et le numéro unique ce que vous CONNAISSEZ. Nous sommes bien ici en face d’une authentification 2FA (facteurs 1- et 2-).
+Un autre exemple d’authentification à 2 facteurs : vous avez un compte sur un site de vente en ligne. Lorsque vous souhaitez payer un bien, vous utilisez votre carte bancaire. Lors de la transaction entre le site vendeur et votre banque, très souvent votre banque vous demandera de rentrer un numéro unique et temporaire de 4 à 6 chiffres reçu sur votre téléphone par SMS ou par e-mail. Le téléphone constitue ici le facteur que vous DÉTENEZ, et le numéro unique le facteur que vous CONNAISSEZ. Nous sommes bien ici en face d’une authentification 2FA (facteurs 1- et 2-).
 
 > Attention : ce procédé utilisant le SMS/e-mail est juste ajouté à des fins de compréhension, il s’agit d’un mécanisme en fait peu sécurisé. Nous en rediscuterons plus tard...
 {.is-warning}
@@ -108,7 +109,7 @@ Le troisième facteur, le facteur d’inhérence, est souvent assimilé à l’e
 
 Un exemple ici est le fait d’utiliser votre empreinte digitale pour déverrouiller votre téléphone : le téléphone correspond au facteur que vous DÉTENEZ, votre empreinte au facteur que vous ÊTES (facteurs 1- et 3-).
 
-*Note : concernant le facteur biométrique lié à l'empreinte digitale, et stocké sur votre appareil (votre téléphone par exemple) : il s'agit d'une représentation mathématique de l'empreinte de votre doigt, non pas d'une photo fidèle, pixel pour pixel de votre empreinte digitale. Néanmoins, au vu du caractère restreint du nombre de possibilités de changer son authentification biométrique sur smartphone (10! Pour les 10 doigts des deux mains), un PIN fort est plutôt recommandé pour ceux qui ont bonne mémoire. En effet, en cas de piratage du PIN, on peut changer son code plus de 10 fois, et les possibilité sont exponentielles.*
+*Note : concernant le facteur biométrique lié à l'empreinte digitale, et stocké sur votre appareil (votre téléphone par exemple) : il s'agit d'une représentation mathématique de l'empreinte de votre doigt, non pas d'une photo fidèle, pixel pour pixel de votre empreinte digitale. Néanmoins, au vu du caractère restreint du nombre de possibilités de changer son authentification biométrique sur smartphone (10! Pour les 10 doigts des deux mains), un PIN fort est plutôt recommandé pour ceux qui ont bonne mémoire. En effet, en cas de piratage du PIN, on peut changer son code plus de 10 fois, et les possibilités sont exponentielles.*
 
 Un dernier exemple pour vous montrer l’étendue des possibilités de l’authentification multifactorielle (MFA). Souvent aperçus dans les films d’action, certains procédés d’authentification existent bel et bien, pour des données extrêmement critiques (par exemple un OIV en France ou Organisme d’Importance Vitale).
 
@@ -121,20 +122,21 @@ Voici à quoi ressemblerait une 3FA !
 
 Le dernier facteur est encore peu utilisé de nos jours, et seulement pour des situations sensibles ou des entreprises ayant des données critiques ou des personnes à protéger. Ce facteur s’appuiera sur l’adresse IP d’où part la demande d’authentification, voire sa géolocalisation.
 
-### Alors, quel est le futur des mots de passe ?
+### Quel futur pour les mots de passe ?
 
-La question est judicieuse, à l'heure où tous les experts tentent de trouver une solution pour améliorer l'authentification par mot de passe.
-
-Nous entendons de plus en plus parler de fonctions ou procédés « passwordless ». Ce procédé vise à autoriser un accès à un utilisateur sans qu’il ne rentre aucun mot de passe.
+La question est judicieuse, à l'heure où tous les chercheurs et experts tentent de trouver une solution pour améliorer l'authentification par mot de passe. Nous entendons de plus en plus parler de fonctions ou procédés « passwordless ». Ce procédé vise à autoriser un accès à un utilisateur sans qu’il ne rentre aucun mot de passe.
 
 *« Bon OK, ça j’avais compris en traduisant de l’anglais, mais concrètement... »*
 
-Concrètement, nous avons déjà vu dans la partie précédente l’authentification multifactorielle (MFA). Mais attention cependant de ne pas confondre les 2 mécanismes : le MFA ajoute « n » couches d'authentification en plus de l’authentification par mot de passe, le passwordless lui n’a pas besoin d’un secret connu (facteur 1, c'est à dire le **mot de passe**, par exemple) mais implique l’utilisation des autres facteurs pour s’authentifier :
--   Quelque chose que vous DÉTENEZ
--   Une de vos CARACTÉRISTIQUES PHYSIQUES
--   OÙ vous vous situez
+Concrètement, nous avons déjà vu dans la partie précédente l’authentification multifactorielle (MFA). Mais attention cependant de ne pas confondre les 2 mécanismes : 
+- le MFA ajoute « n » couches d'authentification en plus de l’authentification par mot de passe,
+- le passwordless lui n’a pas besoin d’un secret connu (facteur 1, c'est à dire le **mot de passe**, par exemple) mais implique l’utilisation des autres facteurs pour s’authentifier :
+  - Quelque chose que vous DÉTENEZ
+  - Une de vos CARACTÉRISTIQUES PHYSIQUES
+  - LE LIEU où vous vous situez
+{.grid-list}
 
-_Par exemple_ : utilisation d’un token physique de sécurité, utilisation de l’empreinte digitale...
+_Par exemple_ : utilisation d’un token physique de sécurité de concert avec l’empreinte digitale...
 
 Il est également tout à fait possible d’utiliser ces facteurs en même temps, auquel cas nous nommerons ce procédé « MFA-passwordless » !
 
@@ -148,14 +150,12 @@ Donc une chose est sûre, le mot de passe n’est pas encore prêt de disparaît
 
 ## Malware, Virus, Trojan...
 
-Il est intéressant de savoir faire la différence entre les types de menaces que nous pouvons rencontrer, ou qui sont à l’origine d’une compromission : un « malware » (**mal**icous soft**ware**) est un terme anglais qui désigne un logiciel malveillant. Ici, le terme logiciel se rapporte à tout programme informatique, document ou fichier qui est stocké sur un disque dur ou transmis via un réseau.
-
-Voici une idée des principaux types de malwares existants à ce jour :
+Il est intéressant de savoir faire la différence entre les types de menaces que nous pouvons rencontrer, ou qui sont à l’origine d’une compromission : un « malware » (**mal**icous soft**ware**) est un terme anglais qui désigne un logiciel malveillant. Ici, le terme logiciel se rapporte à tout programme informatique, document ou fichier qui est stocké sur un disque dur ou transmis via un réseau. Voici une idée des principaux types de malwares existants à ce jour :
 -   Les virus : qui sont des bouts de codes informatiques attachés à des programmes informatiques eux-mêmes. Un virus est créé pour infecter un équipement et se propager à d’autres équipements (finalement un peu à la manière d’un réel virus qui se propage dans le corps humain d'une personne à une autre !). L’idée est d’effectuer toutes sortes d’opérations afin de corrompre la ou les machines cibles : altération, réécriture, suppression de données... Le résultat est un équipement instable et lent.
 -   Les chevaux de Troie (« Trojan » en anglais) : un programme informatique qui a l’air tout à fait normal, à ceci près qu’il cache une fonction malveillante dans ses entrailles. Par exemple, une personne télécharge un lecteur vidéo d’un site internet inconnu, pensant trouver un outil capable de lire un format de fichier, mais donnant au final un accès complet à un attaquant sur la machine cible ; c'est l'idée d'un cheval de Troie.
 -   Les "rootkits" : un joli _ensemble de programmes malveillants_ - dissimulés et vus comme normaux par des anti-virus, qui permet de donner un accès libre à distance à un attaquant. Alors, comme cela, la différence entre un Trojan et un Rootkit n'est pas évidente... Mais quand un trojan est plus susceptible d'être détecté par un anti-virus classique, un rootkit sait se dissimuler plus encore, et est très complexe à entièrement supprimer de la machine infectée. Il mérite un outil de détection particulier.
 -   Les rançongiciels (« ransomware » en anglais) : là encore un joli logiciel malveillant qui vient chiffrer vos données personnelles. Cela rend donc vos données illisibles, sauf si vous détenez la clé (de déchiffrement). C’est là que l’attaquant entre en jeu et vous demande de payer une somme (une rançon donc) en échange de la clé de déchiffrement ou du mot de passe. La menace sera souvent de diffuser publiquement les informations si vous n’acceptez pas de payer cette rançon. Voilà pourquoi c'est assez problématique pour les entreprises par exemple.
--   Les logiciels espions (plus connus sous le nom de « spywares ») : sont des logiciels capables de collecter et transmettre toutes informations utiles sur un utilisateur ou un système : mots de passe, activité internet ou réseau privé, appuis sur les touches clavier, etc. Représentés par 2 types : les « keyloggers » ou enregistreur de frappes qui journalisent toutes les touches tapées sur votre système et les « adware » qui vont sournoisement vous afficher des publicités afin de vous pousser à cliquer sur l'une d'entre elle et ainsi voler des données confidentielles que vous pourriez donner (carte bancaire, etc.).
+-   Les logiciels espions (plus connus sous le nom de « spywares ») : sont des logiciels capables de collecter et transmettre toutes informations utiles sur un utilisateur ou un système : mots de passe, activité internet ou réseau privé, appuis sur les touches clavier, etc. Représentés par 2 types : les « keyloggers » ou enregistreurs de frappe qui journalisent toutes les touches tapées sur votre système et les « adware » qui vont sournoisement vous afficher des publicités afin de vous pousser à cliquer sur l'une d'entre elle et ainsi voler des données confidentielles que vous pourriez donner (carte bancaire, etc.).
 -   Les bots et botnets : vous avez tous déjà entendu parler des "bots", ou plus simplement appelés "robots internet". Un robot est un logiciel qui automatise des tâches sur internet. Par exemple : il existe des bots pour les gamers, des bots sur Telegram, des socials bots... Il en existe de toutes sortes, mais ceux qui nous intéressent ici sont les _bots malveillants_. Des bots malveillants sont bien sûr conçus pour automatiser des tâches d'intrusion et de compromission d'une ou plusieurs machines ; dans le dernier cas, on parlera de "botnets", car les bots sont reliés en réseau. Plusieurs types :
 		:arrow_right: des bots qui aspirent des pages internet et les données associées afin d'en générer des copies frauduleuses,
 		:arrow_right: des bots servant à des attaques DoS ou DDoS (Denial of Service ou Distributed DoS),
@@ -172,22 +172,22 @@ Par extension, nous utilisons souvent le terme d’anti-virus, bien que réducte
 
 Nous reparlons de ces outils plus loin dans l'article...
 
-*Note : Vous avez maintenant les clés pour vous la péter avec vos amis :-) !*
+*Vous avez maintenant les clés pour vous la péter avec vos amis :-) !*
 
 ## Les métadonnées, qu'est-ce que c'est ?
 
 Nous entendons beaucoup parler de "métadonnées" de nos jours... Mais à quoi se raccroche ce terme ?
 
-Tentons de définir cela : une métadonnée est une information concernant une donnée (en gros une donnée sur une donnée !).
+Tentons de définir cela : 
 
-Cette information peut inclure des choses comme :
--  l'émetteur et le destinataire d'un message, 
--  la date de transmission et/ou d'envoi effectif, 
--  l'adresse IP, 
--  la géolocalisation
--  des identifiants de machine ou équipements
--  des versions de logiciels ou système d'exploitation
--  d'autres informations...
+> Une métadonnée est une information ou donnée, concernant une donnée elle-même (en gros une donnée sur une donnée !). Cette information peut inclure des choses comme :
+> -  l'émetteur et le destinataire d'un message, 
+> -  la date de transmission et/ou d'envoi effectif, 
+> -  l'adresse IP, 
+> -  la géolocalisation
+> -  des identifiants de machine ou équipements
+> -  des versions de logiciels ou système d'exploitation
+> -  d'autres informations...
 
 **Tout le trafic internet génère ce type de données, et nous dirions même que sans cela, internet ne pourrait pas tout à fait fonctionner.**
 
@@ -200,6 +200,7 @@ Mettons ici que vous souhaitez transmettre un message à votre cousin. Par analo
 Vous voyez où nous voulons en venir : oui, cette adresse postale est en fait une **métadonnée** ! Difficile ici de sécuriser (chiffrer par exemple) cette adresse, car La Poste pourrait ne pas pouvoir lire cette destination et donc votre lettre pourrait ne pas arriver.
 
 Voilà pourquoi certaines informations ne peuvent être protégées, en tout cas de façon simple ! Il existe bien entendu des techniques pour sécuriser et limiter les métadonnées non protégées, et certaines applications peuvent y arriver par design : par exemple la messagerie "Signal" ne fournit que très peu de métadonnées non protégées : les serveurs stockent de façon permanente uniquement les numéros de téléphone associés à un compte Signal, et la dernière connexion avec ce compte. Rien de plus...
+
 **Il est important de noter ici que bien entendu si ce numéro de téléphone vous est attribué, il sera possible de savoir si vous utilisez Signal, même si personne ne pourra avoir le contenu de vos messages bien entendu (hormis potentiellement des entités à fortes ressources financières et logistiques !).**
 
 Le sujet des métadonnées est un sujet extrêmement débattu dans la communauté, car même si certains s'intéressent à leur sécurisation, d'autres au contraire militent pour ne pas protéger ces informations voire en ajouter certaines... Certains dénoncent même cette course à la métadonnée :
@@ -216,13 +217,11 @@ La bonne nouvelle est que nous sommes aujourd'hui capable de limiter cette colle
 
 Le piratage fait référence à toute activité visant à compromettre un ordinateur, téléphone, une machine en usine, un serveur, un réseau informatique entier, voire une personne (cas de l'ingénierie sociale). Au contraire de ce que la plupart des gens pensent, le piratage n’est pas systématiquement malveillant, mais une partie est en effet effectuée par des cybercriminels et a pour conséquence de compromettre la vie privée de la (ou des) cible(s).
 
-Le « hacking » se rapporte à toute activité permettant de détourner un objet de sa fonction première. Un hacker s’intéresse avant tout au détournement, à la bidouille, au jeu, aux défis intellectuels...
+> Le « hacking » se rapporte à toute activité permettant de détourner un objet de sa fonction première. Un hacker s’intéresse avant tout au détournement, à la bidouille, au jeu, aux défis intellectuels...
 
-Eh oui, vous voyez, un _hacker_ n’est pas forcément un pirate informatique ! Vous trouverez par exemple beaucoup de personnes détournant des objets de la vie quotidienne pour une autre utilité : ces personnes sont aussi des hackers et on les appelle des « life-hackers ». Cette confusion vient en partie des journalistes et autres pseudo-experts qui ont utilisé ce terme afin de désigner les cybercriminels uniquement, en omettant toute la partie bienveillante ou positive. Ce terme est resté ancré dans l’inconscient collectif, en des termes négatifs.
-
-Attention donc à la confusion avec la terminologie :
--   Un cybercriminel est un pirate informatique malveillant
--   Un pirate informatique peut être bienveillant (un "pentester" par exemple - **pen**etration **test**ing = tests d'intrusion : auditer la sécurité informatique)
+Eh oui, vous voyez, un _hacker_ n’est pas forcément un pirate informatique ! Vous trouverez par exemple beaucoup de personnes détournant des objets de la vie quotidienne pour une autre utilité : ces personnes sont aussi des hackers et on les appelle des « life-hackers ». Cette confusion vient en partie des journalistes et autres pseudo-experts qui ont utilisé ce terme afin de désigner les cybercriminels uniquement, en omettant toute la partie bienveillante ou positive. Ce terme est resté ancré dans l’inconscient collectif, en des termes négatifs. Attention donc à la confusion avec la terminologie :
+-   Un cybercriminel est un pirate informatique malveillant.
+-   Un pirate informatique peut être bienveillant (un "pentester" par exemple - **pen**etration **test**ing = tests d'intrusion : auditer la sécurité informatique).
 -   Un hacker peut être un pirate informatique (cf. terminologie [White Hat / Grey Hat / Black Hat](/glossaire#white-hat) du glossaire).
 Il peut néanmoins être un "bidouilleur", qui installe un système alternatif à la place de celui d'un robot cuiseur, une calculatrice [^¹] ou une imprimante [^²], pour relever le défi d'y jouer à des jeux vidéos :)
 
@@ -233,15 +232,13 @@ Il peut néanmoins être un "bidouilleur", qui installe un système alternatif �
 
 Tenter de protéger TOUTES ses informations personnelles, TOUT le temps, de TOUT le monde, peut s'avérer être une tâche ardue voire épuisante ! Pas de panique, la sécurité numérique est un long '''voyage '''qui doit s'adapter à votre profil et évoluer selon vos utilisations. La sécurité numérique n'est pas limitée aux seuls outils ou services que vous utilisez, elle commence par l'anticipation et la compréhension des menaces existantes et de la façon de s'en prémunir. Par définition :
 
-> Un modèle de menaces ("Threat Model") correspond à l'identification et la compréhension des menaces les plus probables qui peuvent vous impacter. Ainsi, vous serez plus à même de mettre en place les contre-mesures adéquates.
+> Un modèle de menaces (ou "Threat Model") correspond à l'identification et la compréhension des menaces les plus probables qui peuvent vous impacter. Ainsi, vous serez plus à même de mettre en place les contre-mesures adéquates.
 
 J'en conviens, c'est une définition un peu "barbare", mais tentons d'y voir plus clair sur ce sujet intéressant. En sécurité numérique :
 -   une menace se définit par un événement possible et redouté qui saperait vos efforts dans la protection de vos données ;
 -   les contre-mesures sont toutes les actions entreprises afin d'écarter ces menaces.
 
-Nous pouvons donc en déduire que grâce à l'identification des menaces que vous rencontrerez potentiellement, il sera possible d'y appliquer des actions récurrentes ou ponctuelles (grâce à des outils ou manuellement) sur votre vie numérique.
-
-Mais avant tout cela, tentons de comprendre la finalité...
+Nous pouvons donc en déduire que grâce à l'identification des menaces que vous rencontrerez potentiellement, il sera possible d'y appliquer des actions récurrentes ou ponctuelles (grâce à des outils ou manuellement) sur votre vie numérique. Mais avant tout cela, tentons de comprendre la finalité...
 
 ## Sécurité, vie privée et anonymat
 
@@ -250,17 +247,6 @@ Trois termes extrêmement importants lorsque nous cherchons à comprendre commen
 -   La **sécurité**, ou « Security », se réfère à la protection de ces informations personnelles, _globalement_ pour se prémunir d'accès non autorisés.
 -   L’**anonymat**, ou « Anonymity », représente le fait de cacher l’auteur d’un échange et des informations.
   (*À ne pas confondre avec pseudonymat qui est l'utilisation d'une identité fictive*).
-
-Afin d’atteindre un certain degré de sécurité, de vie privée et d’anonymat, il est essentiel aujourd’hui de se pencher véritablement sur nos activités numériques. Voyons ces 3 aspects comme 3 cercles qui se chevauchent, les centres de ces 3 cercles représentant le degré maximal de protection :
-
-```diagram
-PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSI1MDFweCIgaGVpZ2h0PSI0NzZweCIgdmlld0JveD0iLTAuNSAtMC41IDUwMSA0NzYiIGNvbnRlbnQ9IiZsdDtteGZpbGUgaG9zdD0mcXVvdDtlbWJlZC5kaWFncmFtcy5uZXQmcXVvdDsgbW9kaWZpZWQ9JnF1b3Q7MjAyMi0xMi0wMlQxMjozMzowNS43ODRaJnF1b3Q7IGFnZW50PSZxdW90OzUuMCAoWDExOyBMaW51eCB4ODZfNjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMDcuMC4wLjAgU2FmYXJpLzUzNy4zNiZxdW90OyBldGFnPSZxdW90O3hmZGlEemVsbFZTOWQxaVlDWkhfJnF1b3Q7IHZlcnNpb249JnF1b3Q7MjAuNi4wJnF1b3Q7IHR5cGU9JnF1b3Q7ZW1iZWQmcXVvdDsmZ3Q7Jmx0O2RpYWdyYW0gaWQ9JnF1b3Q7TVphSFhOamh0d1Z1anpwZXkzMnAmcXVvdDsgbmFtZT0mcXVvdDtQYWdlLTEmcXVvdDsmZ3Q7N1poYmI1c3dGTWMvRFkrVHdGeENIbk5oWGFUMW9xYnJ0RWNERGxnMW1EbE9rKzdUN3hoTXVGYWQxTFNacWo1aC84K3hzYy8vWjZQRXNCZlo0VUxnSXIza01XRUdNdU9EWVM4TmhDeGsrdkJReWxPbFRDeXpFaEpCWTUzVUNHdjZoMml4VHR2Um1HdzdpWkp6Sm1uUkZTT2U1eVNTSFEwTHdmZmR0QTFuM2JjV09DRURZUjFoTmxSLzBsaW1sZXFqU2FOL0l6Uko2emRiM3JTS1pMaE8xanZacGpqbSs1WmtCNGE5RUp6THFwVWRGb1NwNHRWMXFjWjlmU1o2WEpnZ3VmeVhBYWdhOElqWlR1L05RQjZEb2ZNTmh4bGdnZkpKNzlyN3ZlTjE0TXUyOUdRR0NjZ3B3TmQ1RTRkV29wL2xSR0V0cklQRmo5dlZYVkFIWUZWaFB4bTA2c1cxakRwclFMQjZNQms2ODMxS0pWa1hPRktSUFhBR1dpb3pCajBMbW5oYlZNNXY2SUhFYXRtVXNRVm5YSlFUMmJGTC9OZ0JmU3NGZnlDdGlJOUMyL01nd21GeUtoV2lFMVBOeUdpU1F5ZUMwaExJblQ4U0lTbEFNZE9Ca0V2Sk16V2xHcGduYzkxZk9tWWpmaWNidFNyenVMbTJWOW8rTlRFNXRDVHQzUVhoR1pIaUNWTHFxS2M1MGdjSitXN1YzemRZMnFiT1NWdElIa1dzajBKeW5MdWhCUm9hbUhGNDdHZmhHZmo2YXBydVY4Q05lWE83dWcrQ1oyRVo0K3F0QUNJV0lEUVpBMmpxVFd3OEFsQ2ZGOG1MaG9zNzFhbElPUUVYeU8xeVlkVTM1N3R3NGJ3akY3T3I2NnRmbDdPNy80S0pqUitSS0Jwakl2UmR4elU3VEhnbnVGUk9nSXA5MWl2RUhVR2w1dzU4SWd2VjVDSTQrbFFRUWVGZHFtSkw3ZDVOSTcxa1k0aWpoMFR3WFI1Zjd5U2pPZEg2S2FwcGRxdnBvR0UxMFVneDBRbHE2UTFxYWFuVnVJT0t3bDVrdHlLQ3dGSERZWmxRWXJtVHZEcDhGZmN2VVpyUk9HYWxNWnptc3R5RE96ZmNaZStJNUZ6VnVuYzZ0Rmo2b1E3VnFiNk5xQWUyTTNJSHVxTmN2OTZLeVFmRDJqMGoxdjRuMW0wcm5ETmlQZjFnV052VDNyZlBIZGJ5cmJDdWJmdmtXbnZoVEx0ZTJHL0dOWFNiWDlobHJQVS9oUjM4QlE9PSZsdDsvZGlhZ3JhbSZndDsmbHQ7L214ZmlsZSZndDsiPjxkZWZzLz48Zz48ZWxsaXBzZSBjeD0iMTUwIiBjeT0iMzI1IiByeD0iMTUwIiByeT0iMTUwIiBmaWxsLW9wYWNpdHk9IjAuNyIgZmlsbD0iI2Q1ZThkNCIgc3Ryb2tlPSIjODJiMzY2IiBzdHJva2Utb3BhY2l0eT0iMC43IiBwb2ludGVyLWV2ZW50cz0iYWxsIi8+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuNSAtMC41KSI+PHN3aXRjaD48Zm9yZWlnbk9iamVjdCBwb2ludGVyLWV2ZW50cz0ibm9uZSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgcmVxdWlyZWRGZWF0dXJlcz0iaHR0cDovL3d3dy53My5vcmcvVFIvU1ZHMTEvZmVhdHVyZSNFeHRlbnNpYmlsaXR5IiBzdHlsZT0ib3ZlcmZsb3c6IHZpc2libGU7IHRleHQtYWxpZ246IGxlZnQ7Ij48ZGl2IHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIiBzdHlsZT0iZGlzcGxheTogZmxleDsgYWxpZ24taXRlbXM6IHVuc2FmZSBmbGV4LWVuZDsganVzdGlmeS1jb250ZW50OiB1bnNhZmUgY2VudGVyOyB3aWR0aDogMjk4cHg7IGhlaWdodDogMXB4OyBwYWRkaW5nLXRvcDogNDMycHg7IG1hcmdpbi1sZWZ0OiAxcHg7Ij48ZGl2IGRhdGEtZHJhd2lvLWNvbG9ycz0iY29sb3I6IHJnYigwLCAwLCAwKTsgIiBzdHlsZT0iYm94LXNpemluZzogYm9yZGVyLWJveDsgZm9udC1zaXplOiAwcHg7IHRleHQtYWxpZ246IGNlbnRlcjsiPjxkaXYgc3R5bGU9ImRpc3BsYXk6IGlubGluZS1ibG9jazsgZm9udC1zaXplOiAxMnB4OyBmb250LWZhbWlseTogSGVsdmV0aWNhOyBjb2xvcjogcmdiKDAsIDAsIDApOyBsaW5lLWhlaWdodDogMS4yOyBwb2ludGVyLWV2ZW50czogYWxsOyB3aGl0ZS1zcGFjZTogbm9ybWFsOyBvdmVyZmxvdy13cmFwOiBub3JtYWw7Ij48Zm9udCBzdHlsZT0iZm9udC1zaXplOiAyNHB4OyI+PGI+U0VDVVJJVEU8L2I+PC9mb250PjwvZGl2PjwvZGl2PjwvZGl2PjwvZm9yZWlnbk9iamVjdD48dGV4dCB4PSIxNTAiIHk9IjQzMiIgZmlsbD0icmdiKDAsIDAsIDApIiBmb250LWZhbWlseT0iSGVsdmV0aWNhIiBmb250LXNpemU9IjEycHgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlNFQ1VSSVRFPC90ZXh0Pjwvc3dpdGNoPjwvZz48ZWxsaXBzZSBjeD0iMjQwIiBjeT0iMTUwIiByeD0iMTUwIiByeT0iMTUwIiBmaWxsLW9wYWNpdHk9IjAuNyIgZmlsbD0iI2UxZDVlNyIgc3Ryb2tlPSIjOTY3M2E2IiBzdHJva2Utb3BhY2l0eT0iMC43IiBwb2ludGVyLWV2ZW50cz0iYWxsIi8+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuNSAtMC41KSI+PHN3aXRjaD48Zm9yZWlnbk9iamVjdCBwb2ludGVyLWV2ZW50cz0ibm9uZSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgcmVxdWlyZWRGZWF0dXJlcz0iaHR0cDovL3d3dy53My5vcmcvVFIvU1ZHMTEvZmVhdHVyZSNFeHRlbnNpYmlsaXR5IiBzdHlsZT0ib3ZlcmZsb3c6IHZpc2libGU7IHRleHQtYWxpZ246IGxlZnQ7Ij48ZGl2IHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIiBzdHlsZT0iZGlzcGxheTogZmxleDsgYWxpZ24taXRlbXM6IHVuc2FmZSBmbGV4LXN0YXJ0OyBqdXN0aWZ5LWNvbnRlbnQ6IHVuc2FmZSBjZW50ZXI7IHdpZHRoOiAyOThweDsgaGVpZ2h0OiAxcHg7IHBhZGRpbmctdG9wOiA0N3B4OyBtYXJnaW4tbGVmdDogOTFweDsiPjxkaXYgZGF0YS1kcmF3aW8tY29sb3JzPSJjb2xvcjogcmdiKDAsIDAsIDApOyAiIHN0eWxlPSJib3gtc2l6aW5nOiBib3JkZXItYm94OyBmb250LXNpemU6IDBweDsgdGV4dC1hbGlnbjogY2VudGVyOyI+PGRpdiBzdHlsZT0iZGlzcGxheTogaW5saW5lLWJsb2NrOyBmb250LXNpemU6IDEycHg7IGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2E7IGNvbG9yOiByZ2IoMCwgMCwgMCk7IGxpbmUtaGVpZ2h0OiAxLjI7IHBvaW50ZXItZXZlbnRzOiBhbGw7IHdoaXRlLXNwYWNlOiBub3JtYWw7IG92ZXJmbG93LXdyYXA6IG5vcm1hbDsiPjxiPjxmb250IHN0eWxlPSJmb250LXNpemU6IDI0cHg7Ij5WSUUgUFJJVkVFPC9mb250PjwvYj48L2Rpdj48L2Rpdj48L2Rpdj48L2ZvcmVpZ25PYmplY3Q+PHRleHQgeD0iMjQwIiB5PSI1OSIgZmlsbD0icmdiKDAsIDAsIDApIiBmb250LWZhbWlseT0iSGVsdmV0aWNhIiBmb250LXNpemU9IjEycHgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlZJRSBQUklWRUU8L3RleHQ+PC9zd2l0Y2g+PC9nPjxlbGxpcHNlIGN4PSIzNTAiIGN5PSIzMjUiIHJ4PSIxNTAiIHJ5PSIxNTAiIGZpbGwtb3BhY2l0eT0iMC42IiBmaWxsPSIjZjhjZWNjIiBzdHJva2U9IiNiODU0NTAiIHN0cm9rZS1vcGFjaXR5PSIwLjYiIHBvaW50ZXItZXZlbnRzPSJhbGwiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC41IC0wLjUpIj48c3dpdGNoPjxmb3JlaWduT2JqZWN0IHBvaW50ZXItZXZlbnRzPSJub25lIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiByZXF1aXJlZEZlYXR1cmVzPSJodHRwOi8vd3d3LnczLm9yZy9UUi9TVkcxMS9mZWF0dXJlI0V4dGVuc2liaWxpdHkiIHN0eWxlPSJvdmVyZmxvdzogdmlzaWJsZTsgdGV4dC1hbGlnbjogbGVmdDsiPjxkaXYgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGh0bWwiIHN0eWxlPSJkaXNwbGF5OiBmbGV4OyBhbGlnbi1pdGVtczogdW5zYWZlIGZsZXgtZW5kOyBqdXN0aWZ5LWNvbnRlbnQ6IHVuc2FmZSBjZW50ZXI7IHdpZHRoOiAyOThweDsgaGVpZ2h0OiAxcHg7IHBhZGRpbmctdG9wOiA0MzJweDsgbWFyZ2luLWxlZnQ6IDIwMXB4OyI+PGRpdiBkYXRhLWRyYXdpby1jb2xvcnM9ImNvbG9yOiByZ2IoMCwgMCwgMCk7ICIgc3R5bGU9ImJveC1zaXppbmc6IGJvcmRlci1ib3g7IGZvbnQtc2l6ZTogMHB4OyB0ZXh0LWFsaWduOiBjZW50ZXI7Ij48ZGl2IHN0eWxlPSJkaXNwbGF5OiBpbmxpbmUtYmxvY2s7IGZvbnQtc2l6ZTogMTJweDsgZm9udC1mYW1pbHk6IEhlbHZldGljYTsgY29sb3I6IHJnYigwLCAwLCAwKTsgbGluZS1oZWlnaHQ6IDEuMjsgcG9pbnRlci1ldmVudHM6IGFsbDsgd2hpdGUtc3BhY2U6IG5vcm1hbDsgb3ZlcmZsb3ctd3JhcDogbm9ybWFsOyI+PGI+PGZvbnQgc3R5bGU9ImZvbnQtc2l6ZTogMjRweDsiPkFOT05ZTUFUPC9mb250PjwvYj48L2Rpdj48L2Rpdj48L2Rpdj48L2ZvcmVpZ25PYmplY3Q+PHRleHQgeD0iMzUwIiB5PSI0MzIiIGZpbGw9InJnYigwLCAwLCAwKSIgZm9udC1mYW1pbHk9IkhlbHZldGljYSIgZm9udC1zaXplPSIxMnB4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5BTk9OWU1BVDwvdGV4dD48L3N3aXRjaD48L2c+PGVsbGlwc2UgY3g9IjE1MCIgY3k9IjMyNSIgcng9IjEwIiByeT0iMTAiIGZpbGw9InJnYigyNTUsIDI1NSwgMjU1KSIgc3Ryb2tlPSJyZ2IoMCwgMCwgMCkiIHBvaW50ZXItZXZlbnRzPSJhbGwiLz48cGF0aCBkPSJNIDE0MCAzMjUgTCAxNjAgMzI1IiBmaWxsPSJub25lIiBzdHJva2U9InJnYigwLCAwLCAwKSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBwb2ludGVyLWV2ZW50cz0iYWxsIi8+PHBhdGggZD0iTSAxNTAgMzE1IEwgMTUwIDMzNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2IoMCwgMCwgMCkiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgcG9pbnRlci1ldmVudHM9ImFsbCIvPjxyZWN0IHg9IjEwMCIgeT0iMzAwIiB3aWR0aD0iNTAiIGhlaWdodD0iMzAiIGZpbGw9Im5vbmUiIHN0cm9rZT0ibm9uZSIgcG9pbnRlci1ldmVudHM9ImFsbCIvPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0wLjUgLTAuNSkiPjxzd2l0Y2g+PGZvcmVpZ25PYmplY3QgcG9pbnRlci1ldmVudHM9Im5vbmUiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHJlcXVpcmVkRmVhdHVyZXM9Imh0dHA6Ly93d3cudzMub3JnL1RSL1NWRzExL2ZlYXR1cmUjRXh0ZW5zaWJpbGl0eSIgc3R5bGU9Im92ZXJmbG93OiB2aXNpYmxlOyB0ZXh0LWFsaWduOiBsZWZ0OyI+PGRpdiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94aHRtbCIgc3R5bGU9ImRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiB1bnNhZmUgY2VudGVyOyBqdXN0aWZ5LWNvbnRlbnQ6IHVuc2FmZSBjZW50ZXI7IHdpZHRoOiAxcHg7IGhlaWdodDogMXB4OyBwYWRkaW5nLXRvcDogMzE1cHg7IG1hcmdpbi1sZWZ0OiAxMjVweDsiPjxkaXYgZGF0YS1kcmF3aW8tY29sb3JzPSJjb2xvcjogcmdiKDAsIDAsIDApOyAiIHN0eWxlPSJib3gtc2l6aW5nOiBib3JkZXItYm94OyBmb250LXNpemU6IDBweDsgdGV4dC1hbGlnbjogY2VudGVyOyI+PGRpdiBzdHlsZT0iZGlzcGxheTogaW5saW5lLWJsb2NrOyBmb250LXNpemU6IDEycHg7IGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2E7IGNvbG9yOiByZ2IoMCwgMCwgMCk7IGxpbmUtaGVpZ2h0OiAxLjI7IHBvaW50ZXItZXZlbnRzOiBhbGw7IHdoaXRlLXNwYWNlOiBub3dyYXA7Ij4xMDAlPC9kaXY+PC9kaXY+PC9kaXY+PC9mb3JlaWduT2JqZWN0Pjx0ZXh0IHg9IjEyNSIgeT0iMzE5IiBmaWxsPSJyZ2IoMCwgMCwgMCkiIGZvbnQtZmFtaWx5PSJIZWx2ZXRpY2EiIGZvbnQtc2l6ZT0iMTJweCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+MTAwJTwvdGV4dD48L3N3aXRjaD48L2c+PGVsbGlwc2UgY3g9IjM1MCIgY3k9IjMyNSIgcng9IjEwIiByeT0iMTAiIGZpbGw9InJnYigyNTUsIDI1NSwgMjU1KSIgc3Ryb2tlPSJyZ2IoMCwgMCwgMCkiIHBvaW50ZXItZXZlbnRzPSJhbGwiLz48cGF0aCBkPSJNIDM0MCAzMjUgTCAzNjAgMzI1IiBmaWxsPSJub25lIiBzdHJva2U9InJnYigwLCAwLCAwKSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBwb2ludGVyLWV2ZW50cz0iYWxsIi8+PHBhdGggZD0iTSAzNTAgMzE1IEwgMzUwIDMzNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2IoMCwgMCwgMCkiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgcG9pbnRlci1ldmVudHM9ImFsbCIvPjxyZWN0IHg9IjMwMCIgeT0iMzAwIiB3aWR0aD0iNTAiIGhlaWdodD0iMzAiIGZpbGw9Im5vbmUiIHN0cm9rZT0ibm9uZSIgcG9pbnRlci1ldmVudHM9ImFsbCIvPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0wLjUgLTAuNSkiPjxzd2l0Y2g+PGZvcmVpZ25PYmplY3QgcG9pbnRlci1ldmVudHM9Im5vbmUiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHJlcXVpcmVkRmVhdHVyZXM9Imh0dHA6Ly93d3cudzMub3JnL1RSL1NWRzExL2ZlYXR1cmUjRXh0ZW5zaWJpbGl0eSIgc3R5bGU9Im92ZXJmbG93OiB2aXNpYmxlOyB0ZXh0LWFsaWduOiBsZWZ0OyI+PGRpdiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94aHRtbCIgc3R5bGU9ImRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiB1bnNhZmUgY2VudGVyOyBqdXN0aWZ5LWNvbnRlbnQ6IHVuc2FmZSBjZW50ZXI7IHdpZHRoOiAxcHg7IGhlaWdodDogMXB4OyBwYWRkaW5nLXRvcDogMzE1cHg7IG1hcmdpbi1sZWZ0OiAzMjVweDsiPjxkaXYgZGF0YS1kcmF3aW8tY29sb3JzPSJjb2xvcjogcmdiKDAsIDAsIDApOyAiIHN0eWxlPSJib3gtc2l6aW5nOiBib3JkZXItYm94OyBmb250LXNpemU6IDBweDsgdGV4dC1hbGlnbjogY2VudGVyOyI+PGRpdiBzdHlsZT0iZGlzcGxheTogaW5saW5lLWJsb2NrOyBmb250LXNpemU6IDEycHg7IGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2E7IGNvbG9yOiByZ2IoMCwgMCwgMCk7IGxpbmUtaGVpZ2h0OiAxLjI7IHBvaW50ZXItZXZlbnRzOiBhbGw7IHdoaXRlLXNwYWNlOiBub3dyYXA7Ij4xMDAlPC9kaXY+PC9kaXY+PC9kaXY+PC9mb3JlaWduT2JqZWN0Pjx0ZXh0IHg9IjMyNSIgeT0iMzE5IiBmaWxsPSJyZ2IoMCwgMCwgMCkiIGZvbnQtZmFtaWx5PSJIZWx2ZXRpY2EiIGZvbnQtc2l6ZT0iMTJweCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+MTAwJTwvdGV4dD48L3N3aXRjaD48L2c+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjE1MCIgcng9IjEwIiByeT0iMTAiIGZpbGw9InJnYigyNTUsIDI1NSwgMjU1KSIgc3Ryb2tlPSJyZ2IoMCwgMCwgMCkiIHBvaW50ZXItZXZlbnRzPSJhbGwiLz48cGF0aCBkPSJNIDIzMCAxNTAgTCAyNTAgMTUwIiBmaWxsPSJub25lIiBzdHJva2U9InJnYigwLCAwLCAwKSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBwb2ludGVyLWV2ZW50cz0iYWxsIi8+PHBhdGggZD0iTSAyNDAgMTQwIEwgMjQwIDE2MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2IoMCwgMCwgMCkiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgcG9pbnRlci1ldmVudHM9ImFsbCIvPjxyZWN0IHg9IjE4OSIgeT0iMTIwIiB3aWR0aD0iNTAiIGhlaWdodD0iMzAiIGZpbGw9Im5vbmUiIHN0cm9rZT0ibm9uZSIgcG9pbnRlci1ldmVudHM9ImFsbCIvPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0wLjUgLTAuNSkiPjxzd2l0Y2g+PGZvcmVpZ25PYmplY3QgcG9pbnRlci1ldmVudHM9Im5vbmUiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHJlcXVpcmVkRmVhdHVyZXM9Imh0dHA6Ly93d3cudzMub3JnL1RSL1NWRzExL2ZlYXR1cmUjRXh0ZW5zaWJpbGl0eSIgc3R5bGU9Im92ZXJmbG93OiB2aXNpYmxlOyB0ZXh0LWFsaWduOiBsZWZ0OyI+PGRpdiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94aHRtbCIgc3R5bGU9ImRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiB1bnNhZmUgY2VudGVyOyBqdXN0aWZ5LWNvbnRlbnQ6IHVuc2FmZSBjZW50ZXI7IHdpZHRoOiAxcHg7IGhlaWdodDogMXB4OyBwYWRkaW5nLXRvcDogMTM1cHg7IG1hcmdpbi1sZWZ0OiAyMTRweDsiPjxkaXYgZGF0YS1kcmF3aW8tY29sb3JzPSJjb2xvcjogcmdiKDAsIDAsIDApOyAiIHN0eWxlPSJib3gtc2l6aW5nOiBib3JkZXItYm94OyBmb250LXNpemU6IDBweDsgdGV4dC1hbGlnbjogY2VudGVyOyI+PGRpdiBzdHlsZT0iZGlzcGxheTogaW5saW5lLWJsb2NrOyBmb250LXNpemU6IDEycHg7IGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2E7IGNvbG9yOiByZ2IoMCwgMCwgMCk7IGxpbmUtaGVpZ2h0OiAxLjI7IHBvaW50ZXItZXZlbnRzOiBhbGw7IHdoaXRlLXNwYWNlOiBub3dyYXA7Ij4xMDAlPC9kaXY+PC9kaXY+PC9kaXY+PC9mb3JlaWduT2JqZWN0Pjx0ZXh0IHg9IjIxNCIgeT0iMTM5IiBmaWxsPSJyZ2IoMCwgMCwgMCkiIGZvbnQtZmFtaWx5PSJIZWx2ZXRpY2EiIGZvbnQtc2l6ZT0iMTJweCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+MTAwJTwvdGV4dD48L3N3aXRjaD48L2c+PC9nPjxzd2l0Y2g+PGcgcmVxdWlyZWRGZWF0dXJlcz0iaHR0cDovL3d3dy53My5vcmcvVFIvU1ZHMTEvZmVhdHVyZSNFeHRlbnNpYmlsaXR5Ii8+PGEgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwtNSkiIHhsaW5rOmhyZWY9Imh0dHBzOi8vd3d3LmRpYWdyYW1zLm5ldC9kb2MvZmFxL3N2Zy1leHBvcnQtdGV4dC1wcm9ibGVtcyIgdGFyZ2V0PSJfYmxhbmsiPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTBweCIgeD0iNTAlIiB5PSIxMDAlIj5UZXh0IGlzIG5vdCBTVkcgLSBjYW5ub3QgZGlzcGxheTwvdGV4dD48L2E+PC9zd2l0Y2g+PC9zdmc+
-```
-
-**Oui, alors on ne se moque pas : je ne suis pas webdesigner :D !**
-
----
-Assez schématiquement, nous pouvons nous apercevoir qu'il va être **extrêmement difficile** si ce n'est **impossible** de se placer à l'interjection des 3 axes de protection en espérant le 100% sur chaque pan de protection.
 
 **_Pour illustrer_** :
   - Une méthode pour protéger sa vie privée pourrait être une fonction anti-traceurs dans un navigateur (uBlock), 
@@ -271,13 +257,22 @@ Assez schématiquement, nous pouvons nous apercevoir qu'il va être **extrêmeme
 > Souvent, les personnes confondent Vie Privée et Sécurité ; la frontière est mince, mais ces notions renvoient tout de même à des aspects différents de la protection des données : la protection de notre vie privée concerne ce que nous **sommes prêts à donner** comme informations sur nous aux autres personnes, tandis que la sécurité concerne ce que nous allons **entreprendre pour rendre inaccessibles** nos informations ; deux aspects différents, deux objectifs bien distincts...
 {.is-info}
 
-De fait, multiplier les mécanismes pro-vie-privée, multiplier les équipements ou applications de sécurité (pare-feu, IDS/IPS, honeypot, anti-malware, proxy, host IDS, etc.) et autres procédés d’anonymat ne signifie pas automatiquement une plus grande protection des données, de vie privée et une amélioration de l'anonymat. Au contraire, parfois, complexifier votre approche en terme de cyber-sécurité est le meilleur moyen pour faire grossir la liste des potentielles failles de sécurité ou vulnérabilités. On appelle cela **augmenter sa surface d'attaque** : Plus vous avez d'équipements, de services ou de logiciels, plus le nombre de vulnérabilités augmente, donc plus la probabilité d'avoir une faille exploitable augmente également.
+Afin d’atteindre un certain degré de sécurité, de vie privée et d’anonymat, il est essentiel aujourd’hui de se pencher véritablement sur nos activités numériques. Voyons ces 3 aspects comme 3 cercles qui se chevauchent, les centres de ces 3 cercles représentant le degré maximal de protection :
 
-_Plutôt que d'avoir l'objectif d'atteindre le triptique vie privée intégrale + sécurité intégrale + anonymat intégral, l'idée est d'établir des **compromis** entre sécurité, vie privée, anonymat et facilité d'utilisation._
+```diagram
+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSI1MDFweCIgaGVpZ2h0PSI0NzZweCIgdmlld0JveD0iLTAuNSAtMC41IDUwMSA0NzYiIGNvbnRlbnQ9IiZsdDtteGZpbGUgaG9zdD0mcXVvdDtlbWJlZC5kaWFncmFtcy5uZXQmcXVvdDsgbW9kaWZpZWQ9JnF1b3Q7MjAyMi0xMi0wMlQxMjozMzowNS43ODRaJnF1b3Q7IGFnZW50PSZxdW90OzUuMCAoWDExOyBMaW51eCB4ODZfNjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMDcuMC4wLjAgU2FmYXJpLzUzNy4zNiZxdW90OyBldGFnPSZxdW90O3hmZGlEemVsbFZTOWQxaVlDWkhfJnF1b3Q7IHZlcnNpb249JnF1b3Q7MjAuNi4wJnF1b3Q7IHR5cGU9JnF1b3Q7ZW1iZWQmcXVvdDsmZ3Q7Jmx0O2RpYWdyYW0gaWQ9JnF1b3Q7TVphSFhOamh0d1Z1anpwZXkzMnAmcXVvdDsgbmFtZT0mcXVvdDtQYWdlLTEmcXVvdDsmZ3Q7N1poYmI1c3dGTWMvRFkrVHdGeENIbk5oWGFUMW9xYnJ0RWNERGxnMW1EbE9rKzdUN3hoTXVGYWQxTFNacWo1aC84K3hzYy8vWjZQRXNCZlo0VUxnSXIza01XRUdNdU9EWVM4TmhDeGsrdkJReWxPbFRDeXpFaEpCWTUzVUNHdjZoMml4VHR2Um1HdzdpWkp6Sm1uUkZTT2U1eVNTSFEwTHdmZmR0QTFuM2JjV09DRURZUjFoTmxSLzBsaW1sZXFqU2FOL0l6Uko2emRiM3JTS1pMaE8xanZacGpqbSs1WmtCNGE5RUp6THFwVWRGb1NwNHRWMXFjWjlmU1o2WEpnZ3VmeVhBYWdhOElqWlR1L05RQjZEb2ZNTmh4bGdnZkpKNzlyN3ZlTjE0TXUyOUdRR0NjZ3B3TmQ1RTRkV29wL2xSR0V0cklQRmo5dlZYVkFIWUZWaFB4bTA2c1cxakRwclFMQjZNQms2ODMxS0pWa1hPRktSUFhBR1dpb3pCajBMbW5oYlZNNXY2SUhFYXRtVXNRVm5YSlFUMmJGTC9OZ0JmU3NGZnlDdGlJOUMyL01nd21GeUtoV2lFMVBOeUdpU1F5ZUMwaExJblQ4U0lTbEFNZE9Ca0V2Sk16V2xHcGduYzkxZk9tWWpmaWNidFNyenVMbTJWOW8rTlRFNXRDVHQzUVhoR1pIaUNWTHFxS2M1MGdjSitXN1YzemRZMnFiT1NWdElIa1dzajBKeW5MdWhCUm9hbUhGNDdHZmhHZmo2YXBydVY4Q05lWE83dWcrQ1oyRVo0K3F0QUNJV0lEUVpBMmpxVFd3OEFsQ2ZGOG1MaG9zNzFhbElPUUVYeU8xeVlkVTM1N3R3NGJ3akY3T3I2NnRmbDdPNy80S0pqUitSS0Jwakl2UmR4elU3VEhnbnVGUk9nSXA5MWl2RUhVR2w1dzU4SWd2VjVDSTQrbFFRUWVGZHFtSkw3ZDVOSTcxa1k0aWpoMFR3WFI1Zjd5U2pPZEg2S2FwcGRxdnBvR0UxMFVneDBRbHE2UTFxYWFuVnVJT0t3bDVrdHlLQ3dGSERZWmxRWXJtVHZEcDhGZmN2VVpyUk9HYWxNWnptc3R5RE96ZmNaZStJNUZ6VnVuYzZ0Rmo2b1E3VnFiNk5xQWUyTTNJSHVxTmN2OTZLeVFmRDJqMGoxdjRuMW0wcm5ETmlQZjFnV052VDNyZlBIZGJ5cmJDdWJmdmtXbnZoVEx0ZTJHL0dOWFNiWDlobHJQVS9oUjM4QlE9PSZsdDsvZGlhZ3JhbSZndDsmbHQ7L214ZmlsZSZndDsiPjxkZWZzLz48Zz48ZWxsaXBzZSBjeD0iMTUwIiBjeT0iMzI1IiByeD0iMTUwIiByeT0iMTUwIiBmaWxsLW9wYWNpdHk9IjAuNyIgZmlsbD0iI2Q1ZThkNCIgc3Ryb2tlPSIjODJiMzY2IiBzdHJva2Utb3BhY2l0eT0iMC43IiBwb2ludGVyLWV2ZW50cz0iYWxsIi8+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuNSAtMC41KSI+PHN3aXRjaD48Zm9yZWlnbk9iamVjdCBwb2ludGVyLWV2ZW50cz0ibm9uZSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgcmVxdWlyZWRGZWF0dXJlcz0iaHR0cDovL3d3dy53My5vcmcvVFIvU1ZHMTEvZmVhdHVyZSNFeHRlbnNpYmlsaXR5IiBzdHlsZT0ib3ZlcmZsb3c6IHZpc2libGU7IHRleHQtYWxpZ246IGxlZnQ7Ij48ZGl2IHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIiBzdHlsZT0iZGlzcGxheTogZmxleDsgYWxpZ24taXRlbXM6IHVuc2FmZSBmbGV4LWVuZDsganVzdGlmeS1jb250ZW50OiB1bnNhZmUgY2VudGVyOyB3aWR0aDogMjk4cHg7IGhlaWdodDogMXB4OyBwYWRkaW5nLXRvcDogNDMycHg7IG1hcmdpbi1sZWZ0OiAxcHg7Ij48ZGl2IGRhdGEtZHJhd2lvLWNvbG9ycz0iY29sb3I6IHJnYigwLCAwLCAwKTsgIiBzdHlsZT0iYm94LXNpemluZzogYm9yZGVyLWJveDsgZm9udC1zaXplOiAwcHg7IHRleHQtYWxpZ246IGNlbnRlcjsiPjxkaXYgc3R5bGU9ImRpc3BsYXk6IGlubGluZS1ibG9jazsgZm9udC1zaXplOiAxMnB4OyBmb250LWZhbWlseTogSGVsdmV0aWNhOyBjb2xvcjogcmdiKDAsIDAsIDApOyBsaW5lLWhlaWdodDogMS4yOyBwb2ludGVyLWV2ZW50czogYWxsOyB3aGl0ZS1zcGFjZTogbm9ybWFsOyBvdmVyZmxvdy13cmFwOiBub3JtYWw7Ij48Zm9udCBzdHlsZT0iZm9udC1zaXplOiAyNHB4OyI+PGI+U0VDVVJJVEU8L2I+PC9mb250PjwvZGl2PjwvZGl2PjwvZGl2PjwvZm9yZWlnbk9iamVjdD48dGV4dCB4PSIxNTAiIHk9IjQzMiIgZmlsbD0icmdiKDAsIDAsIDApIiBmb250LWZhbWlseT0iSGVsdmV0aWNhIiBmb250LXNpemU9IjEycHgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlNFQ1VSSVRFPC90ZXh0Pjwvc3dpdGNoPjwvZz48ZWxsaXBzZSBjeD0iMjQwIiBjeT0iMTUwIiByeD0iMTUwIiByeT0iMTUwIiBmaWxsLW9wYWNpdHk9IjAuNyIgZmlsbD0iI2UxZDVlNyIgc3Ryb2tlPSIjOTY3M2E2IiBzdHJva2Utb3BhY2l0eT0iMC43IiBwb2ludGVyLWV2ZW50cz0iYWxsIi8+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuNSAtMC41KSI+PHN3aXRjaD48Zm9yZWlnbk9iamVjdCBwb2ludGVyLWV2ZW50cz0ibm9uZSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgcmVxdWlyZWRGZWF0dXJlcz0iaHR0cDovL3d3dy53My5vcmcvVFIvU1ZHMTEvZmVhdHVyZSNFeHRlbnNpYmlsaXR5IiBzdHlsZT0ib3ZlcmZsb3c6IHZpc2libGU7IHRleHQtYWxpZ246IGxlZnQ7Ij48ZGl2IHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIiBzdHlsZT0iZGlzcGxheTogZmxleDsgYWxpZ24taXRlbXM6IHVuc2FmZSBmbGV4LXN0YXJ0OyBqdXN0aWZ5LWNvbnRlbnQ6IHVuc2FmZSBjZW50ZXI7IHdpZHRoOiAyOThweDsgaGVpZ2h0OiAxcHg7IHBhZGRpbmctdG9wOiA0N3B4OyBtYXJnaW4tbGVmdDogOTFweDsiPjxkaXYgZGF0YS1kcmF3aW8tY29sb3JzPSJjb2xvcjogcmdiKDAsIDAsIDApOyAiIHN0eWxlPSJib3gtc2l6aW5nOiBib3JkZXItYm94OyBmb250LXNpemU6IDBweDsgdGV4dC1hbGlnbjogY2VudGVyOyI+PGRpdiBzdHlsZT0iZGlzcGxheTogaW5saW5lLWJsb2NrOyBmb250LXNpemU6IDEycHg7IGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2E7IGNvbG9yOiByZ2IoMCwgMCwgMCk7IGxpbmUtaGVpZ2h0OiAxLjI7IHBvaW50ZXItZXZlbnRzOiBhbGw7IHdoaXRlLXNwYWNlOiBub3JtYWw7IG92ZXJmbG93LXdyYXA6IG5vcm1hbDsiPjxiPjxmb250IHN0eWxlPSJmb250LXNpemU6IDI0cHg7Ij5WSUUgUFJJVkVFPC9mb250PjwvYj48L2Rpdj48L2Rpdj48L2Rpdj48L2ZvcmVpZ25PYmplY3Q+PHRleHQgeD0iMjQwIiB5PSI1OSIgZmlsbD0icmdiKDAsIDAsIDApIiBmb250LWZhbWlseT0iSGVsdmV0aWNhIiBmb250LXNpemU9IjEycHgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlZJRSBQUklWRUU8L3RleHQ+PC9zd2l0Y2g+PC9nPjxlbGxpcHNlIGN4PSIzNTAiIGN5PSIzMjUiIHJ4PSIxNTAiIHJ5PSIxNTAiIGZpbGwtb3BhY2l0eT0iMC42IiBmaWxsPSIjZjhjZWNjIiBzdHJva2U9IiNiODU0NTAiIHN0cm9rZS1vcGFjaXR5PSIwLjYiIHBvaW50ZXItZXZlbnRzPSJhbGwiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC41IC0wLjUpIj48c3dpdGNoPjxmb3JlaWduT2JqZWN0IHBvaW50ZXItZXZlbnRzPSJub25lIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiByZXF1aXJlZEZlYXR1cmVzPSJodHRwOi8vd3d3LnczLm9yZy9UUi9TVkcxMS9mZWF0dXJlI0V4dGVuc2liaWxpdHkiIHN0eWxlPSJvdmVyZmxvdzogdmlzaWJsZTsgdGV4dC1hbGlnbjogbGVmdDsiPjxkaXYgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGh0bWwiIHN0eWxlPSJkaXNwbGF5OiBmbGV4OyBhbGlnbi1pdGVtczogdW5zYWZlIGZsZXgtZW5kOyBqdXN0aWZ5LWNvbnRlbnQ6IHVuc2FmZSBjZW50ZXI7IHdpZHRoOiAyOThweDsgaGVpZ2h0OiAxcHg7IHBhZGRpbmctdG9wOiA0MzJweDsgbWFyZ2luLWxlZnQ6IDIwMXB4OyI+PGRpdiBkYXRhLWRyYXdpby1jb2xvcnM9ImNvbG9yOiByZ2IoMCwgMCwgMCk7ICIgc3R5bGU9ImJveC1zaXppbmc6IGJvcmRlci1ib3g7IGZvbnQtc2l6ZTogMHB4OyB0ZXh0LWFsaWduOiBjZW50ZXI7Ij48ZGl2IHN0eWxlPSJkaXNwbGF5OiBpbmxpbmUtYmxvY2s7IGZvbnQtc2l6ZTogMTJweDsgZm9udC1mYW1pbHk6IEhlbHZldGljYTsgY29sb3I6IHJnYigwLCAwLCAwKTsgbGluZS1oZWlnaHQ6IDEuMjsgcG9pbnRlci1ldmVudHM6IGFsbDsgd2hpdGUtc3BhY2U6IG5vcm1hbDsgb3ZlcmZsb3ctd3JhcDogbm9ybWFsOyI+PGI+PGZvbnQgc3R5bGU9ImZvbnQtc2l6ZTogMjRweDsiPkFOT05ZTUFUPC9mb250PjwvYj48L2Rpdj48L2Rpdj48L2Rpdj48L2ZvcmVpZ25PYmplY3Q+PHRleHQgeD0iMzUwIiB5PSI0MzIiIGZpbGw9InJnYigwLCAwLCAwKSIgZm9udC1mYW1pbHk9IkhlbHZldGljYSIgZm9udC1zaXplPSIxMnB4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5BTk9OWU1BVDwvdGV4dD48L3N3aXRjaD48L2c+PGVsbGlwc2UgY3g9IjE1MCIgY3k9IjMyNSIgcng9IjEwIiByeT0iMTAiIGZpbGw9InJnYigyNTUsIDI1NSwgMjU1KSIgc3Ryb2tlPSJyZ2IoMCwgMCwgMCkiIHBvaW50ZXItZXZlbnRzPSJhbGwiLz48cGF0aCBkPSJNIDE0MCAzMjUgTCAxNjAgMzI1IiBmaWxsPSJub25lIiBzdHJva2U9InJnYigwLCAwLCAwKSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBwb2ludGVyLWV2ZW50cz0iYWxsIi8+PHBhdGggZD0iTSAxNTAgMzE1IEwgMTUwIDMzNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2IoMCwgMCwgMCkiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgcG9pbnRlci1ldmVudHM9ImFsbCIvPjxyZWN0IHg9IjEwMCIgeT0iMzAwIiB3aWR0aD0iNTAiIGhlaWdodD0iMzAiIGZpbGw9Im5vbmUiIHN0cm9rZT0ibm9uZSIgcG9pbnRlci1ldmVudHM9ImFsbCIvPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0wLjUgLTAuNSkiPjxzd2l0Y2g+PGZvcmVpZ25PYmplY3QgcG9pbnRlci1ldmVudHM9Im5vbmUiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHJlcXVpcmVkRmVhdHVyZXM9Imh0dHA6Ly93d3cudzMub3JnL1RSL1NWRzExL2ZlYXR1cmUjRXh0ZW5zaWJpbGl0eSIgc3R5bGU9Im92ZXJmbG93OiB2aXNpYmxlOyB0ZXh0LWFsaWduOiBsZWZ0OyI+PGRpdiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94aHRtbCIgc3R5bGU9ImRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiB1bnNhZmUgY2VudGVyOyBqdXN0aWZ5LWNvbnRlbnQ6IHVuc2FmZSBjZW50ZXI7IHdpZHRoOiAxcHg7IGhlaWdodDogMXB4OyBwYWRkaW5nLXRvcDogMzE1cHg7IG1hcmdpbi1sZWZ0OiAxMjVweDsiPjxkaXYgZGF0YS1kcmF3aW8tY29sb3JzPSJjb2xvcjogcmdiKDAsIDAsIDApOyAiIHN0eWxlPSJib3gtc2l6aW5nOiBib3JkZXItYm94OyBmb250LXNpemU6IDBweDsgdGV4dC1hbGlnbjogY2VudGVyOyI+PGRpdiBzdHlsZT0iZGlzcGxheTogaW5saW5lLWJsb2NrOyBmb250LXNpemU6IDEycHg7IGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2E7IGNvbG9yOiByZ2IoMCwgMCwgMCk7IGxpbmUtaGVpZ2h0OiAxLjI7IHBvaW50ZXItZXZlbnRzOiBhbGw7IHdoaXRlLXNwYWNlOiBub3dyYXA7Ij4xMDAlPC9kaXY+PC9kaXY+PC9kaXY+PC9mb3JlaWduT2JqZWN0Pjx0ZXh0IHg9IjEyNSIgeT0iMzE5IiBmaWxsPSJyZ2IoMCwgMCwgMCkiIGZvbnQtZmFtaWx5PSJIZWx2ZXRpY2EiIGZvbnQtc2l6ZT0iMTJweCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+MTAwJTwvdGV4dD48L3N3aXRjaD48L2c+PGVsbGlwc2UgY3g9IjM1MCIgY3k9IjMyNSIgcng9IjEwIiByeT0iMTAiIGZpbGw9InJnYigyNTUsIDI1NSwgMjU1KSIgc3Ryb2tlPSJyZ2IoMCwgMCwgMCkiIHBvaW50ZXItZXZlbnRzPSJhbGwiLz48cGF0aCBkPSJNIDM0MCAzMjUgTCAzNjAgMzI1IiBmaWxsPSJub25lIiBzdHJva2U9InJnYigwLCAwLCAwKSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBwb2ludGVyLWV2ZW50cz0iYWxsIi8+PHBhdGggZD0iTSAzNTAgMzE1IEwgMzUwIDMzNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2IoMCwgMCwgMCkiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgcG9pbnRlci1ldmVudHM9ImFsbCIvPjxyZWN0IHg9IjMwMCIgeT0iMzAwIiB3aWR0aD0iNTAiIGhlaWdodD0iMzAiIGZpbGw9Im5vbmUiIHN0cm9rZT0ibm9uZSIgcG9pbnRlci1ldmVudHM9ImFsbCIvPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0wLjUgLTAuNSkiPjxzd2l0Y2g+PGZvcmVpZ25PYmplY3QgcG9pbnRlci1ldmVudHM9Im5vbmUiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHJlcXVpcmVkRmVhdHVyZXM9Imh0dHA6Ly93d3cudzMub3JnL1RSL1NWRzExL2ZlYXR1cmUjRXh0ZW5zaWJpbGl0eSIgc3R5bGU9Im92ZXJmbG93OiB2aXNpYmxlOyB0ZXh0LWFsaWduOiBsZWZ0OyI+PGRpdiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94aHRtbCIgc3R5bGU9ImRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiB1bnNhZmUgY2VudGVyOyBqdXN0aWZ5LWNvbnRlbnQ6IHVuc2FmZSBjZW50ZXI7IHdpZHRoOiAxcHg7IGhlaWdodDogMXB4OyBwYWRkaW5nLXRvcDogMzE1cHg7IG1hcmdpbi1sZWZ0OiAzMjVweDsiPjxkaXYgZGF0YS1kcmF3aW8tY29sb3JzPSJjb2xvcjogcmdiKDAsIDAsIDApOyAiIHN0eWxlPSJib3gtc2l6aW5nOiBib3JkZXItYm94OyBmb250LXNpemU6IDBweDsgdGV4dC1hbGlnbjogY2VudGVyOyI+PGRpdiBzdHlsZT0iZGlzcGxheTogaW5saW5lLWJsb2NrOyBmb250LXNpemU6IDEycHg7IGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2E7IGNvbG9yOiByZ2IoMCwgMCwgMCk7IGxpbmUtaGVpZ2h0OiAxLjI7IHBvaW50ZXItZXZlbnRzOiBhbGw7IHdoaXRlLXNwYWNlOiBub3dyYXA7Ij4xMDAlPC9kaXY+PC9kaXY+PC9kaXY+PC9mb3JlaWduT2JqZWN0Pjx0ZXh0IHg9IjMyNSIgeT0iMzE5IiBmaWxsPSJyZ2IoMCwgMCwgMCkiIGZvbnQtZmFtaWx5PSJIZWx2ZXRpY2EiIGZvbnQtc2l6ZT0iMTJweCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+MTAwJTwvdGV4dD48L3N3aXRjaD48L2c+PGVsbGlwc2UgY3g9IjI0MCIgY3k9IjE1MCIgcng9IjEwIiByeT0iMTAiIGZpbGw9InJnYigyNTUsIDI1NSwgMjU1KSIgc3Ryb2tlPSJyZ2IoMCwgMCwgMCkiIHBvaW50ZXItZXZlbnRzPSJhbGwiLz48cGF0aCBkPSJNIDIzMCAxNTAgTCAyNTAgMTUwIiBmaWxsPSJub25lIiBzdHJva2U9InJnYigwLCAwLCAwKSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBwb2ludGVyLWV2ZW50cz0iYWxsIi8+PHBhdGggZD0iTSAyNDAgMTQwIEwgMjQwIDE2MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2IoMCwgMCwgMCkiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgcG9pbnRlci1ldmVudHM9ImFsbCIvPjxyZWN0IHg9IjE4OSIgeT0iMTIwIiB3aWR0aD0iNTAiIGhlaWdodD0iMzAiIGZpbGw9Im5vbmUiIHN0cm9rZT0ibm9uZSIgcG9pbnRlci1ldmVudHM9ImFsbCIvPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0wLjUgLTAuNSkiPjxzd2l0Y2g+PGZvcmVpZ25PYmplY3QgcG9pbnRlci1ldmVudHM9Im5vbmUiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHJlcXVpcmVkRmVhdHVyZXM9Imh0dHA6Ly93d3cudzMub3JnL1RSL1NWRzExL2ZlYXR1cmUjRXh0ZW5zaWJpbGl0eSIgc3R5bGU9Im92ZXJmbG93OiB2aXNpYmxlOyB0ZXh0LWFsaWduOiBsZWZ0OyI+PGRpdiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94aHRtbCIgc3R5bGU9ImRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiB1bnNhZmUgY2VudGVyOyBqdXN0aWZ5LWNvbnRlbnQ6IHVuc2FmZSBjZW50ZXI7IHdpZHRoOiAxcHg7IGhlaWdodDogMXB4OyBwYWRkaW5nLXRvcDogMTM1cHg7IG1hcmdpbi1sZWZ0OiAyMTRweDsiPjxkaXYgZGF0YS1kcmF3aW8tY29sb3JzPSJjb2xvcjogcmdiKDAsIDAsIDApOyAiIHN0eWxlPSJib3gtc2l6aW5nOiBib3JkZXItYm94OyBmb250LXNpemU6IDBweDsgdGV4dC1hbGlnbjogY2VudGVyOyI+PGRpdiBzdHlsZT0iZGlzcGxheTogaW5saW5lLWJsb2NrOyBmb250LXNpemU6IDEycHg7IGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2E7IGNvbG9yOiByZ2IoMCwgMCwgMCk7IGxpbmUtaGVpZ2h0OiAxLjI7IHBvaW50ZXItZXZlbnRzOiBhbGw7IHdoaXRlLXNwYWNlOiBub3dyYXA7Ij4xMDAlPC9kaXY+PC9kaXY+PC9kaXY+PC9mb3JlaWduT2JqZWN0Pjx0ZXh0IHg9IjIxNCIgeT0iMTM5IiBmaWxsPSJyZ2IoMCwgMCwgMCkiIGZvbnQtZmFtaWx5PSJIZWx2ZXRpY2EiIGZvbnQtc2l6ZT0iMTJweCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+MTAwJTwvdGV4dD48L3N3aXRjaD48L2c+PC9nPjxzd2l0Y2g+PGcgcmVxdWlyZWRGZWF0dXJlcz0iaHR0cDovL3d3dy53My5vcmcvVFIvU1ZHMTEvZmVhdHVyZSNFeHRlbnNpYmlsaXR5Ii8+PGEgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwtNSkiIHhsaW5rOmhyZWY9Imh0dHBzOi8vd3d3LmRpYWdyYW1zLm5ldC9kb2MvZmFxL3N2Zy1leHBvcnQtdGV4dC1wcm9ibGVtcyIgdGFyZ2V0PSJfYmxhbmsiPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTBweCIgeD0iNTAlIiB5PSIxMDAlIj5UZXh0IGlzIG5vdCBTVkcgLSBjYW5ub3QgZGlzcGxheTwvdGV4dD48L2E+PC9zd2l0Y2g+PC9zdmc+
+```
+
+**Oui, alors on ne se moque pas : je ne suis pas webdesigner :D !**
+
+---
+Schématiquement, nous pouvons nous apercevoir qu'il est **extrêmement difficile**, si ce n'est **impossible**, de se placer à l'interjection des 3 cercles de protection en espérant le 100% sur chaque pan de protection.
+
+De fait, multiplier les mécanismes pro-vie-privée, multiplier les équipements ou applications de sécurité (pare-feu, IDS/IPS, honeypot, anti-malware, proxy, host IDS, etc.) et autres procédés d’anonymat ne signifie pas automatiquement une plus grande protection des données, de vie privée et une amélioration de l'anonymat. Au contraire, parfois, complexifier votre approche est le meilleur moyen pour faire grossir la liste des potentielles failles de sécurité ou vulnérabilités. On appelle cela **augmenter sa surface d'attaque** : plus vous avez d'équipements, de services ou de logiciels, plus le nombre de vulnérabilités augmente, donc plus la probabilité d'avoir une faille exploitable augmente également.
 
 Souvent vous souhaitez utiliser l'outil le plus sécurisé et à la mode, néanmoins vous n'êtes pas prêt à accepter le côté austère et compliqué de l'outil, ni les conditions d'utilisation drastiques ! En d'autres termes, si votre objectif est d'utiliser les outils les plus sécurisés du moment, vous devrez sacrifier énormément sur le côté simplicité et facilité d'utilisation au quotidien. Et quand bien même, rien ne sera totalement sécurisé...
 
-> **Voilà pourquoi établir son modèle de menaces peut nous aider à identifier les outils et les procédés les plus adéquats pour notre profil de sécurité.**
+> L'objectif d'atteindre le 100% du triptique est impossible, l'idée est donc d'établir des **compromis** entre sécurité, vie privée, anonymat, et facilité d'utilisation. Voilà pourquoi établir son modèle de menaces peut nous aider à identifier les outils et les procédés les plus adéquats pour notre profil de sécurité.
 {.is-success}
 
 
@@ -291,9 +286,7 @@ Vous allez donc devoir porter votre attention sur les menaces les plus probables
 
 La première question à se poser sera : contre qui je souhaite me protéger ?
 
-Évidemment ici, il est assez compliqué pour celui qui ne se tient pas informé du monde numérique de connaître et encore moins de comprendre les potentiels adversaires auxquels nous pourrions faire face. À tout le moins, nous pouvons nous dire qu'il existe des *hackers malveillants* qui peuvent en avoir après nos données, mais pour la suite, cela reste flou...
-
-Voici pourquoi nous vous avons fait une liste des adversaires auxquels nous pourrions faire face dans la vie de tous les jours :
+Évidemment ici, il est assez compliqué pour celui qui ne se tient pas informé du monde numérique de connaître et encore moins de comprendre les potentiels adversaires auxquels nous pourrions faire face. À tout le moins, nous pouvons nous dire qu'il existe des *hackers malveillants* qui peuvent en avoir après nos données, mais pour la suite, cela reste flou... Voici pourquoi nous vous avons fait une liste des adversaires auxquels nous pourrions faire face dans la vie de tous les jours :
 1. Votre patron ou vos collègues
 2. Votre ex ( :) ) ou votre famille
 3. Des entreprises (type petite ou moyenne entreprise, moyens limités)
@@ -303,9 +296,7 @@ Voici pourquoi nous vous avons fait une liste des adversaires auxquels nous pour
 
 ### Quelles données ?
 
-Ensuite vient la question des éléments, que nous qualifions à suivre d' "items", que vous allez devoir protéger des yeux curieux et/ou malveillants. Faites une liste exhaustive des données qui, perdues ou volées, constitueraient un problème.
-
-Voici une liste d'éléments :
+Ensuite vient la question des éléments, que nous qualifions à suivre d' "items", que vous allez devoir protéger des yeux curieux et/ou malveillants. Faites une liste exhaustive des données qui, perdues ou volées, constitueraient un problème. Voici une liste d'éléments :
 1. vos courriels
 2. votre liste de contact
 3. vos messageries instantanées
@@ -319,45 +310,42 @@ Voici une liste d'éléments :
 
 ### Analyse des risques
 
-> Un "risque" se définit comme la probabilité qu'une **menace spécifique** ait un **impact** sur l'un de vos items. 
+> Un "risque" se définit comme la probabilité qu'une **menace spécifique** ait un **impact** sur l'un de vos items.
 
-Ouch, c'est un peu barbare encore une fois ! Voici la traduction par un exemple : votre opérateur téléphonique a la capacité d'accéder à des données vous concernant, mais cela dit le risque qu'ils viennent les dévoiler publiquement sur un réseau social afin de détruire votre réputation en ligne est plutôt faible, vous en conviendrez.
-
-Vous l'aurez sûrement compris, après avoir répondu aux deux premières questions, il est important de distinguer entre
+Ouch, c'est un peu barbare encore une fois ! Voici la traduction par un exemple : votre opérateur téléphonique a la capacité d'accéder à des données vous concernant, mais cela dit le risque qu'ils viennent les dévoiler publiquement sur un réseau social afin de détruire votre réputation en ligne est plutôt faible, vous en conviendrez. Vous l'aurez sûrement compris, après avoir répondu aux deux premières questions, il est important de distinguer entre :
 -  ce qui pourrait arriver 
 -  et la probabilité que cela arrive réellement
 
-> Exemple : il existe la menace que votre immeuble puisse s'effondrer, mais le risque que cela arrive est plus important au Japon, car plus sujets aux tremblements de terre qu'en France !
+> _Exemple_ : il existe la menace que votre immeuble puisse s'effondrer, mais le risque que cela arrive est plus important au Japon, car plus sujets aux tremblements de terre qu'en France !
 {.is-info}
 
 Évaluer le risque est également quelque chose de personnel et subjectif ; certains vont trouver des menaces inacceptables peu importe la probabilité d’occurrence, d'autres vont choisir d'ignorer les risques de type faible, car ils estimeront que la menace n'est pas un problème pour eux. L'idée est donc de lister quelles sont pour vous les menaces les plus importantes, celles que vous allez prendre en compte sérieusement, et celles au contraire trop rares ou trop compliquées à combattre pour s'inquiéter.
 
 **C'est ici la question la plus complexe, elle doit coller au maximum à votre profil (vos menaces, vos usages...).**
 
-Un très bon guide est déjà en ligne, sur [guide.boum.fr/choisir les réponses adaptées](https://guide.boum.org/hors-connexions-choisir-des-reponses-adaptees-introduction.html). Inutile de paraphraser donc ce guide qui est très complet du point de vue d'un utilisateur lambda.
-
-Ce guide doit être lu **avec recul** sans forcément parler d'outils pour le moment. L'idée est ici de comprendre la logique globale de la réflexion à avoir afin d'établir une stratégie : évaluer les menaces sera donc une analyse concernant les données à protéger, ainsi que sur le type d'acteurs qui pourraient concrètement en avoir après nos données. À partir de là, nous pouvons établir les moyens potentiels de nos adversaires, et donc créer notre propre stratégie de protection.
+Un très bon guide est déjà en ligne, sur [guide.boum.fr/choisir les réponses adaptées](https://guide.boum.org/hors-connexions-choisir-des-reponses-adaptees-introduction.html). Inutile de paraphraser donc ce guide qui est très complet du point de vue d'un utilisateur lambda. Ce guide doit être lu **avec recul** sans forcément parler d'outils pour le moment. L'idée est ici de comprendre la logique globale de la réflexion à avoir afin d'établir une stratégie : évaluer les menaces sera donc une analyse concernant les données à protéger, ainsi que sur le type d'acteurs qui pourraient concrètement en avoir après nos données. À partir de là, nous pouvons établir les moyens potentiels de nos adversaires, et donc créer notre propre stratégie de protection.
 
 > **Les sections suivantes pourront justement vous donner un aperçu des possibilités et outils afin de mettre en place cette stratégie...**
 {.is-success}
 
 # Eviter le hacking
 
-Cette partie est **essentielle**, et vous fournit les meilleures pratiques en matière d'hygiène informatique afin de ne laisser que très peu d'ouverture (on parle d'une surface d'attaque minimale) à de potentiels *adversaires* et éviter au maximum des *vols de données* ou encore des *usurpations d'identité*.
+Cette partie est **essentielle**, et vous fournit les meilleures pratiques en matière d'hygiène informatique afin de ne laisser que très peu d'ouverture à de potentiels *adversaires* (on parle d'une surface d'attaque minimale) et éviter au maximum des *vols de données* ou encore des *usurpations d'identité*.
 
-Rentrons dans le vif du sujet, afin de devenir difficilement piratable :
-
-## Les mots de passe
+## De l'utilisation des mots de passe
 
 ### Politique de mots de passe puissante
 
-Nous l’avons vu plus haut, créer un mot de passe extrêmement puissant peut déjà vous couvrir face à la majorité des tentatives d'intrusions. Choisir un mot de passe comme « 1234 », « Choupette1982 », « Misssunshine » ou « Pepperonipizza2000! » et bien d’autres relève aujourd’hui de l’hérésie informatique (malheureusement on le voit encore trop souvent !) :-(
+Nous l’avons vu plus haut, créer un mot de passe extrêmement fort peut déjà vous couvrir face à la majorité des tentatives d'intrusions. Choisir un mot de passe comme « 1234 », « Choupette1982 », « Misssunshine » ou « Pepperonipizza2000! » et bien d’autres relève aujourd’hui de l’hérésie informatique (malheureusement on le voit encore trop souvent [^¹0] !) :-(
 
-![sortirgafam21.png](/images/sortirgafam21.png =600x){.align-center}
+[^¹0]: [Liste des 20 mots de passe](https://www.01net.com/actualites/voici-20-mots-de-passe-plus-utilises-france-vraiment-triste.html) les plus utilisés en France en 2023.
 
--   pré-requis minimum : **20 caractères**
- :arrow_right: Cela s'atteint même aisément avec une technique simple - la phrase de passe -, évoquée juste à la suite. 
--   Au minimum, un mélange de lettres minuscules-majuscules, de chiffres, et de caractères spéciaux. Afin de renforcer encore plus vos mots de passe :
+![motdepasse2023.png](/images/motdepasse2023.png =600x){.align-center}
+
+Nous en déduisons ainsi les pré-requis :
+-   Au minimum : **13 caractères**
+-   Au minimum, **un mélange de lettres minuscules-majuscules, de chiffres, et de caractères spéciaux**.
+Afin de renforcer encore plus vos mots de passe :
     -  On évite la majuscule en début de mot de passe.
     -  On évite le caractère spécial en fin de mot de passe.
     -  On évite les chiffres en début et fin de mot de passe.
@@ -372,16 +360,18 @@ Nous l’avons vu plus haut, créer un mot de passe extrêmement puissant peut d
 - Enfin dernière technique relativement récente : la stratégie du mot de passe en double aveugle. Dénomination assez barbare mais finalement plutôt simple ! Il s'agit ici de découper les mots de passe en 2 parties, la partie courte et la partie longue ; la partie longue étant stockée dans un gestionnaire de mots de passe ou retenue de tête (bon courage!) et la partie courte sera **unique** et pourra être aisément gardée en mémoire (code PIN ou mot simple). Scinder en 2 un mot de passe (avec une partie courte pouvant être mémorisée simplement) peut complexifier la tâche d'un attaquant pour retrouver ce mot de passe, y compris même s'ils sont réussi à avoir le mot de passe long..
   **Exemple : mettons que votre partie courte soit "abcd5". Nous créons un mot de passe avec notre gestionnaire, par ex. "sdf6#ds5!f65s78)". Le mot de passe intégral sera donc en fait "sdf6#ds5!f65s78)abcd5".**
 
-### Mots de passe UNIQUES
+### Mots de passe uniques
 
-Choisissez un mot de passe UNIQUE pour chaque compte que vous créez.
+> Très important : Choisissez un mot de passe _**UNIQUE**_ pour chaque compte que vous créez.
 
-Chaque site nécessitant un compte avec un couple [nom d’utilisateur ; mot de passe] doit contenir un mot de passe unique, qui n’a jamais été utilisé sur un autre de vos comptes. La raison est très simple : vous évitez en choisissant un mot de passe unique, dans le cas éventuel d'une fuite de données (qui arrive plus souvent que vous ne le pensez), de retrouver ce mot de passe sur les darknets, compromettant ainsi **TOUS** vos comptes ! La situation est en fait encore pire en ayant un mot de passe unique (quand bien même il serait "ultra-secure"!!) : 
-- "ultra-secure" (comme le disent certains :|) ou pas, si votre mot de passe est dévoilé, peu importe sa robustesse !
+> Nous répétons : Choisissez un mot de passe _**UNIQUE**_ pour chaque compte que vous créez.
+
+Chaque site nécessitant un compte avec un couple *[nom d’utilisateur ; mot de passe]* doit contenir un mot de passe unique, qui n’a jamais été utilisé sur un autre de vos comptes. La raison est très simple : vous évitez en choisissant un mot de passe unique, dans le cas éventuel d'une fuite de données (qui arrive plus souvent que vous ne le pensez), de retrouver ce mot de passe sur les darknets, compromettant ainsi **TOUS** vos comptes ! La situation est en fait encore pire en ayant un mot de passe unique (quand bien même il serait "ultra-secure"!!) : 
+- "ultra-secure" (comme le disent certains !) ou pas, si votre mot de passe est dévoilé, peu importe sa robustesse !
 - Et généralement, nous ne sommes pas avertis rapidement de ces fuites de données, donc vous mettez à risque la totalité de vos comptes (qui pour certains peuvent être sensibles) sans forcément le savoir et prendre des mesures (changement de mot de passe). 
-- Ah également : dans le cas d'une fuite, vous devrez changer le mot de passe de **TOUS** vos comptes.
+- Egalement, dans le cas d'une fuite de données, vous devrez changer le mot de passe de **TOUS** vos comptes.
 
-**Donc on se répète : _un mot de passe UNIQUE pour chacun de vos comptes_. Ici également, c'est un pré-requis essentiel (non négociable).**
+> **Donc une nouvelle fois : _un mot de passe UNIQUE pour chacun de vos comptes_. Ici également, c'est un pré-requis essentiel (non négociable).**
 
 > Attention, veillez à ne pas tester vos mots de passe sur des sites internet qui proposent ce service, y compris sur des sites de sociétés très connues, et y compris s'ils vous disent qu'ils ne collectent pas les données. Vous ne savez pas qui est concrètement derrière ces sites internet, et quels seraient les algorithmes ou les codes implémentés, voire dans le pire cas qui pourrait intercepter la requête avec le mot de passe à l’intérieur ! Un mot de passe est un secret, et doit le rester pour tout le monde, y compris votre conjoint(e) ou vos enfants.
 {.is-danger}
@@ -394,20 +384,21 @@ Alors je sais, vous vous dites "Non mais attends, créer un mot de passe ultra f
 
 **... Voici pourquoi utiliser un gestionnaire de mots de passe est fortement recommandé.**
 
-Nous vous renvoyons ici vers l'[article dédié](/debutant/gestionnaire-mots-passe) à ces outils.
+Nous vous renvoyons ici vers l'[article dédié](/debutant/gestionnaire-mots-passe) à cet outil.
 
-## Authentification 
-### L'authentification multi factorielle
+## Authentification
 
-Activez partout où cela est possible les authentifications à plusieurs facteurs, au minimum 2FA. Attention cependant à l’utilisation du 2FA avec SMS ou courriel : il doit être limité uniquement aux cas où vous n’avez pas d'alternative. Si l'on vous donne le choix, préférez d’autres méthodes comme l’OTP (One-Time Password) via des outils libres (on évitera les Google Auth, Microsoft Auth etc.), disponibles dans l'[article dédié](/debutant/logiciel-alternative-libre) aux alternatives libres et open source. 
+**L'authentification multi factorielle**
 
-### Les mécanismes d’authentification
+- Activez partout où cela est possible les authentifications à plusieurs facteurs, au minimum 2FA.
 
-Ne jamais vous authentifier en utilisant les mécanismes d’authentification des GAFAM ou autres pompes à données : Facebook, Google, Microsoft etc.
+Attention cependant à l’utilisation du 2FA avec SMS ou courriel : il doit être limité uniquement aux cas où vous n’avez pas d'alternative. Si l'on vous donne le choix, préférez d’autres méthodes comme l’OTP (One-Time Password) via des outils libres (on évitera les Google Auth, Microsoft Auth etc.), disponibles dans l'[article dédié](/debutant/logiciel-alternative-libre) aux alternatives libres et open source. 
 
-Bien que ces méthodes soient très pratiques à l'usage, cela comporte un risque : comment être sûr que le site en question est de confiance, comment être sûr que celui-ci ne va pas tout simplement collecter vos données personnelles voire même vos identifiants ? Vous ne pouvez pas. Il est donc préférable de créer un compte unique.
+**Les mécanismes d’authentification**
 
-**Voilà aussi pourquoi un gestionnaire de mots de passe est utile. Utilisez-le donc afin de simplifier la chose !**
+- Ne jamais vous authentifier en utilisant les mécanismes d’authentification des GAFAM ou autres pompes à données : Facebook, Google, Microsoft etc.
+
+Bien que ces méthodes soient très pratiques à l'usage, cela comporte un risque : comment être sûr que le site en question est de confiance, comment être sûr que celui-ci ne va pas tout simplement collecter vos données personnelles voire même vos identifiants ? Vous ne pouvez pas. Il est donc préférable de créer un compte unique. **Voilà aussi pourquoi un gestionnaire de mots de passe est utile. Utilisez-le donc afin de simplifier la chose !**
 
 ## Le moins d’informations personnelles
 
@@ -418,70 +409,50 @@ De manière générale, évitez de donner trop d’informations personnelles sur
 -   Votre « Forum des choses pratiques » n’a pas non plus besoin de savoir quel âge vous avez
 -   Si vous remplissez des questionnaires en ligne ils n’ont pas besoin de connaître votre adresse ou sinon vous devez vous méfier de ce que cela implique (tous professionnels qu’ils soient !)...
 
-Cela est valable pour tous les sites, et encore plus pour les réseaux sociaux, car aucun de ces sites n’est et ne sera à l’abri d’une fuite de données (même s’ils prétendent le contraire).
-
-**Protéger votre identité et votre vie privée est crucial.**
+Cela est valable pour tous les sites, et encore plus pour les réseaux sociaux, car aucun de ces sites n’est et ne sera à l’abri d’une fuite de données (même s’ils prétendent le contraire). **Protéger votre identité et votre vie privée est crucial.**
 
 ### Adresse postale
 
-> Arrêtez de donner votre adresse postale réelle autant que faire se peut
-{.is-info}
-
-Oui je sais cela reste compliqué en France. Parfois, souvent, il n’est pas possible de le faire donc vous n’aurez pas le choix, mais si possible, préférez donner une adresse postale d’un point relais ou d’une boîte postale (vous pouvez louer une boîte postale) lorsque vous le pouvez.
+Il est préconisé également de ne pas donner votre adresse postale sur tous les sites. Entrer votre adresse sur Twitter, ou Facebook, ou bien sur un forum de jeux vidéo n'est pas une obligation. Dans ce cas, ne le faites pas ! En revanche, pour une partie des sites notamment de commerces en ligne, cela reste compliqué en France. Dans ce cas, et si possible, _préférez donner une adresse postale d’un point relais ou d’une boîte postale_ (vous pouvez louer une boîte postale) lorsque vous le pouvez.
 
 **Cela évite lors de fuites de données de retrouver votre adresse postale un peu partout sur les sites d'échanges entre pirates malveillants.**
 
-Une dernière chose, on évitera de rentrer ses adresses postales de domicile et de travail dans des applications de géolocalisation (type GPS), voire dans votre système de navigation de voiture (Tomtom, etc.) !
-
-Mais ça, vous le faisiez déjà, n’est-ce pas ?
+Une dernière chose, on évitera de rentrer ses adresses postales de domicile et de travail dans des applications de géolocalisation (type GPS), voire dans votre système de navigation de voiture (Tomtom, etc.) ! Mais ça, vous le faisiez déjà, n’est-ce pas ?
 
 ### Les fameuses questions de sécurité
 
-Nous voyons parfois des sites internet qui demandent à ses utilisateurs de sélectionner parmi un nombre de questions pré-établies et d’y adjoindre une réponse personnelle, ceci afin de renforcer la sécurité. Par exemple : quelle est le nom de jeune fille de votre mère ? Quel est votre animal préféré ? Et bien d'autres. Par réflexe, nous avons pratiquement toujours l'habitude de dire la vérité...
+Nous voyons depuis quelques années des sites internet qui demandent à ses utilisateurs de sélectionner parmi un nombre de questions pré-établies et d’y adjoindre une réponse personnelle, ceci afin de renforcer la sécurité. Par exemple : quelle est le nom de jeune fille de votre mère ? Quel est votre animal préféré ? Et bien d'autres. Par réflexe, nous avons pratiquement toujours l'habitude de dire la vérité...
 
-Mais vous êtes-vous déjà demandés si vous étiez véritablement obligés de répondre avec de réelles informations ?
+Mais vous êtes-vous déjà demandés si vous étiez véritablement obligés de répondre avec de réelles informations ? La réponse est, vous vous en doutez : _**NON, absolument pas**_ !
 
-La réponse est : _NON, absolument pas_ !
-
-Vous n’êtes pas tenus de donner une information personnelle véridique, vous pouvez tout simplement inventer une réponse. En ce sens, ne pas donner trop d’informations personnelles peut éviter qu’une fuite de données un jour puisse avoir un impact négatif sur votre vie privée.
-
-Ceci se rapporte également aux adresses postales que vous donnez sur tous les sites, bien entendu...
-
-En ce qui concerne donc ces questions de sécurité associées à des réponses secrètes : ne donnez jamais de réponses secrètes en lien avec vous ou votre vie privée (nom de jeune fille de votre mère, sport favoris, dessert préféré, cocktail favori...). Préférez utiliser des réponses aléatoires, et éventuellement celles-ci peuvent être stockées sur votre gestionnaire de mots de passe, pourquoi pas.
+Vous n’êtes pas tenus de donner une information personnelle véridique, vous pouvez tout simplement inventer une réponse. En ce sens, ne pas donner trop d’informations personnelles peut éviter qu’une fuite de données puisse avoir un impact négatif sur votre vie privée (même ordre d'idée que pour les adresses postales). Ne donnez **jamais** de réponses secrètes en lien avec vous ou votre vie privée (nom de jeune fille de votre mère, sport favoris, dessert préféré, cocktail favori...). Préférez utiliser des réponses aléatoires, et éventuellement celles-ci peuvent être stockées sur votre gestionnaire de mots de passe.
 
 ### Les petites annonces
 
-Arrêtez de mettre vos adresses courriels ou vos numéros de téléphone dans le texte de vos petites annonces, ou vous vous exposez à des campagnes de spam à volonté, voire pire !
+Arrêtez de mettre vos adresses courriels ou vos numéros de téléphone dans le texte de vos petites annonces : vous vous exposez à des campagnes de spam à volonté, voire pire !
 
 ## Les courriels
 
 Protégez vos échanges par courriel, a minima ceux que vous jugez critiques.
 
-Rendez-vous sur l'article [dédié](/debutant/communications#courriel).
+Ce sujet est discuté en détails dans l'article dédié aux [courriels](/debutant/communications#courriel).
 
 ## Les messageries
 
-Sur le même principe que vos échanges par courriel, vos échanges par messagerie se doivent d'être protégés... Notre collectif recommande l'utilisation exclusive d'une messagerie sécurisée avec chiffrement de bout-en-bout et respectueuse de vos données privées.
+Ce sujet est discuté en détails dans l'article dédié aux [messageries](/debutant/communications#messagerie).
 
-Si votre modèle demande un anonymat, c'est aussi possible même si plus complexe à mettre en place.
-
-Ce sujet est discuté en détails dans l'article dédié aux [messageries](/debutant/communications#messagerie), que nous vous conseillons de lire très attentivement :)
-
-## Les liens hypertextes / URLs
-
-> Ne jamais cliquer sur des liens (hypertextes) contenus dans les courriels.
-{.is-info}
-
-Si ce lien vous amène sur un écran où vous devez rentrer vos identifiants, il est préférable de se méfier et de fermer ce site. Puis de vous connecter en allant directement vous-même sur le site en question (la seule exception étant le renouvellement de mot passe).
+## Les liens hypertextes (URL)
 
 ![](/images/phishing_ex.png =600x){.align-center}
 ***Extrait d'un courriel pour une campagne de hameçonnage***
 
-*:warning: Attention aux coquilles dans le corps de texte des courriels, qui trahissent les emails issus de campagnes de hameçonnage (détaillé ci-après)*
-  
-De nos jours, il est très facile de copier une page des sites bien connus (Facebook, Decathlon...) pour aspirer vos données d’authentification, voire vos données bancaires : on appelle cela l'attaque par hameçonnage (ou "phishing attack").
+Ci-dessus un exemple d'un courriel, qui attire notre attention. Ce courriel vous demande d'agir rapidement et vous propose de cliquer sur un lien. Il s'agit en réalité d'un type d'attaque par hameçonnage : au clique sur celui-ci, vous dirigera vers une page internet afin de rentrer des identifiants/mot de passe ou bien des coordonnées bancaires, ou d'autres données personnelles critiques. Bien souvent, ces SPAM sont bien mieux faits que cet exemple (Si vous regardez de plus près, vous vous apercevrez des fautes d'orthographe dans le corps de texte, qui trahissent les emails issus de campagnes de hameçonnage (détaillé ci-après)), mais vous avez l'idée !
 
-*Exemple : vous recevez un courriel (visiblement très professionnel, aucune faute...) de Decathlon vous annonçant que vous pouvez participer à un jeu vous permettant de gagner un bon d'achat exceptionnel pour le dernier vélo électrique à la mode. Vous cliquez sur le lien, qui vous amène sur une page Decathlon tout à fait légitime, puis vous jouez, vous gagnez et enfin on vous demande de rentrer vos coordonnées bancaires, arguant qu’il leur faut faire un retrait de 2 euros afin de faire une empreinte de votre carte pour payer les frais de transports, mais que tout vous sera remboursé par la suite. Le piège s’est refermé, vous renseignez les données. Puis vous voyez un remboursement de 2 euros quelques jours suivants, ce qui vous rassure ; en revanche, les jours qui suivent vous vous apercevez que des retraits de 200 euros, 500 euros ont été effectués. Vous faites opposition mais bien sûr il est trop tard puisque les cybercriminels ont déjà récolté l’argent...*
+**Il est donc PRIMORDIAL de ne jamais cliquer sur des liens (hypertextes) contenus dans les courriels et de toujours vérifier l'information.** Si ce lien vous amène sur un écran où vous devez rentrer vos identifiants, il est préférable de se méfier et de fermer ce site. Puis de vous connecter en allant directement vous-même sur le site en question.
+
+De nos jours, il est très facile de copier une page des sites bien connus (Facebook, Decathlon...) pour récupérer vos données d’authentification ou vos données bancaires (hameçonnage ou "phishing attack").  
+
+*_Exemple_ : vous recevez un courriel (visiblement très professionnel, aucune faute...) de Decathlon vous annonçant que vous pouvez participer à un jeu vous permettant de gagner un bon d'achat exceptionnel pour le dernier vélo électrique à la mode. Vous cliquez sur le lien, qui vous amène sur une page Decathlon tout à fait légitime, puis vous jouez, vous gagnez et enfin on vous demande de rentrer vos coordonnées bancaires, arguant qu’il leur faut faire un retrait de 2 euros afin de faire une empreinte de votre carte pour payer les frais de transports, mais que tout vous sera remboursé par la suite. Le piège s’est refermé, vous renseignez les données. Puis vous voyez un remboursement de 2 euros quelques jours suivants, ce qui vous rassure ; en revanche, les jours qui suivent vous vous apercevez que des retraits de 200 euros, 500 euros ont été effectués. Vous faites opposition mais bien sûr il est trop tard puisque les cybercriminels ont déjà récolté l’argent...*
 
 Cette histoire est tirée d’une réelle campagne de phishing !
 
@@ -490,75 +461,74 @@ Cette histoire est tirée d’une réelle campagne de phishing !
 
 ## Les mises à jour
 
-> Toujours effectuer les mises à jour de sécurité dès qu’elles sont disponibles.
-{.is-info}
+Les pirates informatiques malveillants se basent pratiquement tout le temps sur les failles de sécurité des logiciels. Vous entendez tous les jours que des logiciels ou des systèmes d’exploitation ont reçu des « patchs (entendre correctifs) de sécurité », afin de combler une vulnérabilité (corriger une faille de sécurité). Il s’agit en effet de "patcher" pour combler les failles dont les développeurs se sont aperçus, et qui exposent potentiellement vos données ou autre chose.
 
-Les pirates informatiques malveillants se basent pratiquement tout le temps sur les failles de sécurité des logiciels. Vous entendez tous les jours que des logiciels ou des systèmes d’exploitation ont reçu des « patchs (entendre correctifs) de sécurité », afin de combler une vulnérabilité (corriger une faille de sécurité). Eh bien, il s’agit exactement de cela : patcher pour combler les failles dont les développeurs se sont aperçus, et qui exposent potentiellement vos données ou autre chose.
+**Il est donc essentiel d'effectuer les mises à jour de sécurité dès qu’elles sont disponibles.**
 
 Il est aujourd’hui assez simple de vérifier s’il existe des mises à jour de sécurité donc n’attendez pas avant de les faire, surtout lorsque celles-ci sont critiques. Nous recommandons ainsi d'activer les mises à jour automatiques depuis votre système d'exploitation favori (libre ! comme GNU/Linux, ou un Android dégooglisé, nous l'espérons ;-)), dans cette démarche de sécurisation proactive.
 
-Pour le reste des mises à jour classiques, elles peuvent potentiellement attendre, même si le plus tôt sera le mieux.
+**Pour le reste des mises à jour classiques, elles peuvent potentiellement attendre, même si le plus tôt sera le mieux.**
 
 ## Les fichiers et leur intégrité
 
-Ceci est un rappel, mais évitez de télécharger des exécutables directement ou dans des archives, que ce soit Linux (via des fichiers ELF ou "Executable Linkable File") ou Windows (via des fichiers à l'extension .exe ou .msi).
-  
-Et dans le cas d'un téléchargement depuis un site internet, plutôt que depuis un centre logiciel : toujours télécharger depuis le site officiel de l'éditeur logiciel dudit programme.
-*_Astuce toute simple_ : depuis mon moteur de recherche préféré, je tape wikipedia + nom_du_programme_à_télécharger (ou bien je demande conseil sur une communauté, comme celle-ci). Depuis l'article Wikipedia, je retrouve le lien vers l'[URL](/glossaire#url) de l'éditeur logiciel ; le but étant de télécharger un fichier authentique, en allant directement à la source.*
+Ceci est un rappel, mais il est important d'éviter de télécharger des **exécutables** directement ou dans des archives, que ce soit pour Linux (via des fichiers ELF ou "Executable Linkable File") ou Windows (via des fichiers à l'extension .exe ou .msi). Dans le cas d'un téléchargement depuis un site internet, plutôt que depuis un centre logiciel, il est recommandé de télécharger depuis le site officiel de l'éditeur logiciel dudit programme.
+
+*_Astuce toute simple_ : depuis son moteur de recherche préféré, taper wikipedia + nom_du_programme_à_télécharger (ou bien demander conseil sur une communauté, comme celle-ci). Depuis l'article Wikipedia, retrouver le lien vers l'[URL](/glossaire#url) de l'éditeur logiciel ; le but étant de télécharger un fichier authentique, en allant directement à la source.*
 
 En prolongement et pour tous types de fichiers (.iso, .img, ...), vérifiez **TOUJOURS**, lorsque disponible, l'intégrité du fichier téléchargé. Cela se fait via une vérification de la "signature" ou de "la somme de contrôle" dudit fichier.
-  
-**Voir l'article sur le [chiffrement, l'intégrité et les signatures](/intermediaire/chiffrement).**
-**Ainsi que le tutoriel [dédié](/tutoriels/verifier-integrite).**
+
+- **Voir l'article dédié à l'[intégrité](/intermediaire/integrite), ainsi que le tutoriel [associé](/tutoriels/verifier-integrite).**
 
 ## Sur les antivirus et antimalware
 
-Concernant l'utilisation d'un anti-virus ou anti-malware, même si certains malwares modernes aujourd'hui ne sont plus détectables facilement, il est toujours possible de détecter des malwares connus et moins sophistiqués, ce qui est déjà une bonne chose (soyons pragmatiques). Dites-vous bien qu'un anti-virus ne vous protégera pas des agences à 3 lettres bien connues !
-
-La bonne (première) pratique est si possible de télécharger des fichiers sur un environnement isolé, comme une machine virtuelle Linux (pour plus de facilité) par exemple, via VirtualBox ou VMWare. Cela s'accompagne également d'une utilisation particulière, qui ne risque pas de mettre à mal votre modèle de menaces :
+Concernant l'utilisation d'un anti-virus ou anti-malware, même si certains malwares modernes aujourd'hui ne sont plus détectables facilement, il est toujours possible de détecter des malwares connus et moins sophistiqués, ce qui est déjà une bonne chose (soyons pragmatiques). Dites-vous bien qu'un anti-virus ne vous protégera pas des agences à 3 lettres bien connues ! La bonne (première) pratique est si possible de télécharger des fichiers sur un environnement isolé, comme une machine virtuelle Linux (pour plus de facilité) par exemple, via VirtualBox ou VMWare. Cela s'accompagne également d'une utilisation particulière, qui ne risque pas de mettre à mal votre modèle de menaces :
 
 -   N'utilisez pas de solutions commerciales, type Norton, BitDefender, Kaspersky... qui implémentent de toute manière une télémétrie vers leurs entreprises ainsi que des sociétés tierces.
 -   **_Si vous avez un modèle de menaces nécessitant une sécurité et un anonymat accru :_** n'utilisez pas les fonctions de protection en temps réel de ces outils ; au delà même de la question de l'utilité réelle de ce genre de fonctions, celles-ci sont exécutées avec des privilèges hauts et, de facto, peuvent être utilisées comme un vecteur d'attaque.
--   Préférez les solutions open-source et hors ligne, afin d'utiliser ces outils comme prévus à l'origine : scanner régulièrement les fichiers de votre système, ou que vous voudriez scanner en cas de doute sur une potentielle infection. Nous avons rédigé un [tutoriel](/tutoriels/distro-protect) afin de vous guider dans ces tâches. Pour synthétiser, nous recommandons :
-    -   pour la détection de logiciels malveillants (malwares) :
-	    - [ClamAV](https://www.clamav.net/) et [ClamTk](https://gitlab.com/dave_m/clamtk/) son interface graphique,
-    	- [RFXN Linux Malware](http://www.rfxn.com/projects/linux-malware-detect/) (Linux uniquement),
-  		- [Hypatia](https://gitlab.com/divested-mobile/hypatia) (Android uniquement),
-    -   pour la détection de rootkits (cf. [ici](/hygiene-numerique#malware-virus-trojan)) : [Chkrootkit](http://www.chkrootkit.org/) ou [RkHunter](https://rkhunter.sourceforge.net/) (Linux uniquement). 
--   Si vous ne souhaitez pas installer un outil sur votre ordinateur, vous pouvez potentiellement vous aider de solutions web. Attention ici cependant de ne pas mettre des fichiers contenant des informations personnelles (les vôtres ou ceux d'autres personnes) ou sensibles sur ces sites internet :
-    -   [VirusTotal](https://www.virustotal.com/gui/home/upload) (petite mise en garde sur cet outil : leur politique de vie privée est assez problématique cependant car ils stipulent que "tout fichier que vous leur soumettrez seront gardés, partagés voire utilisés à des fins commerciales". Voilà pourquoi il est important de ne pas transmettre de fichiers potentiellement sensibles.)
-    -   [Hybrid analysis](https://hybrid-analysis.com/)
--   D'autres outils sont disponibles sur ce dépôt, pleins de ressources fabuleuses concernant les malwares : [awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis).
+-   Préférez les solutions open-source et hors ligne, afin d'utiliser ces outils comme prévus à l'origine : scanner régulièrement les fichiers de votre système, ou que vous voudriez scanner en cas de doute sur une potentielle infection. Nous recommandons :
 
-> **Attention de bien garder en tête cependant que ces outils ne sont pas la panacée, et ne pourront pas détecter 100% des malwares existants ou futurs. Il est donc important de mettre en place les bonnes pratiques et de bien faire attention aux autres parties de cet article.**
+| Détection en ligne | Commentaire |
+|----------|----------|
+| [ClamAV](https://www.clamav.net/) / [ClamTk](https://gitlab.com/dave_m/clamtk/) | Détection de malware hors rootkits. ClamAV est le moteur et ClamTk est son interface graphique |
+| [RFXN Linux Malware](http://www.rfxn.com/projects/linux-malware-detect/) | Détection de malware hors rootkits. Linux uniquement |
+| [Hypatia](https://gitlab.com/divested-mobile/hypatia) | Détection de malware hors rootkits. Android uniquement |
+| [Chkrootkit](http://www.chkrootkit.org/) | Détection de rootkits |
+| [RkHunter](https://rkhunter.sourceforge.net/) | Détection de rootkits |
+
+> Nous avons rédigé un [tutoriel](/tutoriels/distro-protect) afin de vous guider dans ces tâches
+{.is-info}
+
+-   Si vous ne souhaitez pas installer un outil sur votre ordinateur, vous pouvez potentiellement vous aider de solutions web. Attention ici cependant de ne pas mettre des fichiers contenant des informations personnelles (les vôtres ou ceux d'autres personnes) ou sensibles sur ces sites internet :
+
+| Détection en ligne | Commentaire |
+|----------|----------|
+| [VirusTotal](https://www.virustotal.com/gui/home/upload) | Leur politique de vie privée est assez problématique cependant car ils stipulent que "tout fichier que vous leur soumettrez seront gardés, partagés voire utilisés à des fins commerciales".<br>Voilà pourquoi il est important de ne pas transmettre de fichiers potentiellement sensibles |
+| [Hybrid analysis](https://hybrid-analysis.com/) | - |
+
+-   D'autres outils sont disponibles sur ce dépôt, pleins de ressources fabuleuses concernant les malwares :
+[awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis).
+
+> Attention de bien garder en tête cependant que ces outils ne sont pas la panacée, et ne pourront pas détecter 100% des malwares existants ou futurs. Il est donc important de mettre en place les bonnes pratiques et de bien faire attention aux autres parties de cet article.
 {.is-warning}
 
 ## Les WiFi publics
 
-> Bannissez tous les WiFi publics (hormis certains cas bien précis).
-{.is-info}
-
-Les gares, aéroports, cafés, hôtels, restaurants... qui proposent des Wifi partagés sont aussi des lieux idéaux pour tous cybercriminels afin de s’introduire sur votre machine. ÉVITEZ absolument ces WiFi. Voici quelques alternatives :
+Il est enfin important de bannir tous les WiFi publics (hormis certains cas bien précis) : les gares, aéroports, cafés, hôtels, restaurants... qui proposent des Wifi partagés sont aussi des lieux idéaux pour tous cybercriminels afin de s’introduire sur votre machine. **ÉVITEZ** absolument ces WiFis. Voici quelques alternatives :
 
 -   Vous avez sûrement tous un téléphone portable dernier cri Android (ou Apple... Quoi ?!! Vous avez encore un produit Apple ?!! ;-)). Utilisez donc leurs fonctions de « point d’accès sans-fil » avec votre téléphone en 4G/5G afin d’éviter de vous connecter sur les WiFi publics.
--   Si vous voulez tout de même vous connecter sur des WiFi publics pour des problématiques d'anonymat, l’utilisation d’un VPN dans ce cas précis est ABSOLUMENT NÉCESSAIRE.
+-   Si vous voulez tout de même vous connecter sur des WiFi publics, l’utilisation d’un VPN dans ce cas précis est **ABSOLUMENT NÉCESSAIRE**.
 
 ## Annexe
 
-Pour terminer sur cette partie déjà bien fournie, il existe quelques sites pour savoir si une adresse courriel ou un nom d’utilisateur a déjà fait l’objet de fuite : visitez ce site [<https://haveibeenpwned.com/>](https://haveibeenpwned.com/). Néanmoins, il ne regroupe que les attaques majeures, et, à ce titre, ne doit pas être vu comme le site de référence ultime des fuites en ligne...
+Pour terminer sur cette partie déjà bien fournie, il existe quelques sites pour savoir si une adresse courriel ou un nom d’utilisateur a déjà fait l’objet de fuite : visitez ce site [<https://haveibeenpwned.com>](https://haveibeenpwned.com/). Néanmoins, il ne regroupe que les attaques majeures, et, à ce titre, ne doit pas être vu comme le site de référence ultime des fuites en ligne...
 
 # Limiter le pistage
 
-Cette nouvelle partie, non moins importante, vous permettra à terme d'adopter de nouvelles habitudes pour laisser le moins de traces possibles sur internet. Ce, afin de renforcer votre vie privée et si nécessaire votre anonymat.
-
-> Même si nous devons bien vous avertir de nouveau qu'il est extrêmement difficile d'y arriver **totalement**, sauf à accepter de faire des compromis très importants dans votre vie de tous les jours !
-{.is-info}
+Cette nouvelle partie, non moins importante, vous permettra à terme d'adopter de nouvelles habitudes pour laisser le moins de traces possibles sur internet. Même si nous devons bien vous avertir de nouveau qu'il est extrêmement difficile d'y arriver **totalement**, sauf à accepter de faire des compromis très importants dans votre vie de tous les jours !
 
 ## L’importance des données personnelles
 
-Naviguer sur Internet constitue le réel trésor pour quiconque souhaite voir ce que vous faites dans l’espace numérique. Les sites internet suivent (pratiquement tous) votre activité via des mécanismes de télémétrie et de traçage, parfois à des fins marketing : centres d'intérêt, lieux où vous passez votre temps, relationnel, travail, données démographiques, données géographiques, etc.
-
-Ces données constituent même parfois le cœur de métier de certaines entreprises : par exemple pour Google, et certains publicistes...
+Naviguer sur Internet constitue le réel trésor pour quiconque souhaite voir ce que vous faites dans l’espace numérique. Les sites internet suivent (pratiquement tous) votre activité via des mécanismes de télémétrie et de traçage, parfois à des fins marketing : centres d'intérêt, lieux où vous passez votre temps, relationnel, travail, données démographiques, données géographiques, etc. Ces données constituent même parfois le cœur de métier de certaines entreprises : par exemple pour Google, et certains publicistes...
 
 Comme vous le voyez, ce trésor, pour les entreprises, l’est également pour tout pirate informatique ou [troll](https://fr.wikipedia.org/wiki/Troll_(Internet)) souhaitant nuire ; en effet, il est a priori simple, pour un pirate ou même un simple "troll" légèrement compétent, de recueillir des données sensibles en surveillant la navigation d’une personne.
 
@@ -586,21 +556,16 @@ Enfin, si nous allons encore plus loin, il n'est pas impossible non plus que des
 ---
 **Afin de pallier ce traçage systématique, et suivant les compétences de chacun, certains mécanismes peuvent vous permettre, plus ou moins facilement, de contrer ces problèmes d’anonymat et de protection de votre vie privée.**
 
-## Les mécanismes expliqués !
+## Les mécanismes expliqués
 
 Seront dans un premier temps présentés les outils orientés vie privée et/ou anonymat que sont le VPN ainsi que le réseau Tor, avant de poursuivre sur les outils utiles pour réaliser des communications privées (PGP), lutter contre la censure (les DNS et leur rôle), ainsi que la sécurité de l'information.
 
-### VPN et Tor
-Nous avons dédié un article spécifique sur ces 2 mécanismes [ici](/debutant/vpn-tor).
-
-### DNS
-Nous avons dédié un article spécifique sur ce mécanisme [ici](/debutant/dns).
-
-### Proxy
-Nous donnons une définition dans le [glossaire](/glossaire#proxy).
-
-### PGP / OpenPGP / G(nu)PG
-Nous avons dédié une partie spécifique dans l'article sur [le chiffrement](/intermediaire/chiffrement). Nous vous invitons donc fortement à la lire.
+| Outil | Commentaire |
+|----------|----------|
+| **VPN et Tor** | Nous avons dédié un article spécifique sur ces deux mécanismes importants [ici](/debutant/vpn-tor) |
+| **DNS** | Nous avons dédié un article spécifique sur ce mécanisme [ici](/debutant/dns) |
+| **Proxy** | Nous donnons une définition détaillée dans le [glossaire](/glossaire#proxy) |
+| **PGP / OpenPGP / G(nu)PG** | Nous avons dédié un article spécifique sur ce mécanisme [ici](/intermediaire/integrite) |
 
 ## Protégez votre vie privée
 
@@ -608,21 +573,19 @@ Nous avons dédié une partie spécifique dans l'article sur [le chiffrement](/i
 
 Utilisez un navigateur internet permettant de respecter votre vie privée. Celui-ci limitera fortement votre exposition sur internet ainsi que la collecte d'informations vous concernant.
 
-Nous vous renvoyons vers l'article sur les [Navigateurs Web](/debutant/navigateurs), qui vous guidera dans le choix, afin de bien paramétrer votre navigateur et y adjoindre facultativement des extensions afin de renforcer le modèle de sécurité.
+- Nous vous renvoyons vers l'article sur les [Navigateurs Web](/debutant/navigateurs), qui vous guidera dans le choix, afin de bien paramétrer votre navigateur et y adjoindre facultativement des extensions afin de renforcer le modèle de sécurité.
 
 ### Les moteurs de recherche
 
 Sur ce navigateur, et afin d'éviter d'être *tracé* par des parties tierces, évitez l'utilisation de moteurs de recherche trop curieux, ou trop lâches dans leur gestion des données et métadonnées. 
 
-Pour cela, voir l'article sur [les moteurs de recherche](/debutant/moteurs-recherche), afin de changer pour un moteur respectueux de votre vie privée.
+- Pour cela, voir l'article sur [les moteurs de recherche](/debutant/moteurs-recherche), afin de changer pour un moteur respectueux de votre vie privée.
 
-### Les applications de courriels
+### Les communications
 
-Veuillez lire l'article dédié aux [courriels](/debutant/communications#courriel) respectueux de vos données qui est tout à fait complet et ne mérite pas d'être paraphrasé :).
+- Veuillez lire l'article dédié aux [courriels](/debutant/communications#courriel) respectueux de vos données.
 
-### Les applications de messageries
-
-Veuillez lire l'article dédié aux [messageries](/debutant/communications#messagerie) respectueuses de vos données qui est tout à fait complet et ne mérite pas d'être paraphrasé :).
+- Veuillez lire l'article dédié aux [messageries](/debutant/communications#messagerie) respectueuses de vos données.
 
 ### Les réseaux sociaux
 
@@ -840,9 +803,7 @@ En tout cas, bravo ! Nous avons passé le plus dur, en faisant un tour d'horizon
 
 A ce titre, il est important de garder en tête qu'aucun mécanisme ni aucune technologie ne nous assurera une sécurité optimale de l'information, tout en assurant une vie privée et un anonymat à 100%. Ces aspects dépendent aussi, avant tout, de nous-mêmes et de l'hygiène numérique que nous adoptons.
 
-Pour conclure, nous avons en début d'article mentionné que la protection de notre sphère numérique était un voyage et non une destination ; si tout ce que vous avez fait jusqu'alors ne correspond pas aux précédentes sections, ne vous blâmez pas !
-
-L'important est d'y aller par étapes successives, et de choisir les outils et mécanismes qui correspondent le plus à vos besoins. Vous ferrez des erreurs, tant mieux, mais vous apprendrez surtout à maîtriser votre espace numérique, tout comme maîtriser sa voiture ou son vélo est essentiel afin d'utiliser le réseau routier (et ne s'apprend pas du jour au lendemain) !
+Pour conclure, nous avons en début d'article mentionné que la protection de notre sphère numérique était un voyage et non une destination ; si tout ce que vous avez fait jusqu'alors ne correspond pas aux précédentes sections, ne vous blâmez pas ! L'important est d'y aller par étapes successives, et de choisir les outils et mécanismes qui correspondent le plus à vos besoins. Vous ferrez des erreurs, tant mieux, mais vous apprendrez surtout à maîtriser votre espace numérique, tout comme maîtriser sa voiture ou son vélo est essentiel afin d'utiliser le réseau routier (et ne s'apprend pas du jour au lendemain) !
 
 Enfin, nous terminerons par la fameuse maxime à ne jamais oublier :
 

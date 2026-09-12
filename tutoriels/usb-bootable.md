@@ -2,7 +2,7 @@
 title: Rendre une clé USB bootable
 description: Ce tutoriel vous montre l'installation et l'utilisation de deux outils vous permettant de rendre bootable une clé USB
 published: true
-date: 2023-06-19T22:40:57.053Z
+date: 2024-10-26T12:08:31.822Z
 tags: boot, usb, etcher, ventoy
 editor: markdown
 dateCreated: 2023-01-08T15:07:21.163Z
@@ -127,8 +127,10 @@ Vous verrez sur cette page plusieurs versions. Descendez un peu afin de retrouve
 
 Nous partons du principe que vous êtes sous GNU/Linux : dans ce cas, un fichier archive .tar.gz sera téléchargé, à l'endroit où vous stockez vos téléchargements. Généralement, il s'agira du répertoire `Downloads` ou `Téléchargements`. Rendez vous donc dans ce répertoire.
 
-> A l'heure où nous écrivons ces lignes, il s'agit de la version Ventoy _**1.0.87**_. Il se peut que cela ait évolué depuis. Téléchargez la dernière version.
-{.is-info}
+> A l'heure où nous écrivons ces lignes, il s'agit de la version Ventoy _**1.0.87**_. 
+> Cela aura bien évidemment évolué puisque l'outil est mis à jour régulièrement.
+> **Téléchargez la dernière version, et remplacez dans les commandes qui suivent la version 1.0.87 par la vôtre.**
+{.is-warning}
 
 ## Lancement
 

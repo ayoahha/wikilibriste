@@ -2,7 +2,7 @@
 title: Les acteurs du monde libre
 description: Découvrez les acteurs du monde libre
 published: true
-date: 2023-04-28T21:44:53.018Z
+date: 2024-01-16T11:56:17.314Z
 tags: acteurs libre
 editor: markdown
 dateCreated: 2023-03-06T22:37:03.334Z
@@ -11,14 +11,18 @@ dateCreated: 2023-03-06T22:37:03.334Z
 Découvrez les personnalités, collectifs, associations, fondations qui font le Libre en France et à travers le monde.
 
 # Promotion et défense
-- [L'April](https://www.april.org/) est une association qui fait la promotion et la défense des logiciels libres depuis 1996 !
+- [April](https://www.april.org/) est une association qui fait la promotion et la défense des logiciels libres depuis 1996 !
 
 - [La Quadrature du Net](https://www.laquadrature.net/) défend les libertés fondamentales dans l’environnement numérique, lutte contre la censure et la surveillance et œuvre pour un Internet libre, décentralisé et émancipateur.
 
 - [Framasoft](https://framasoft.org/) est une association française qui défend le numérique libre contre les idées capitalistes. Ils sont à l'origine de plusieurs outils bien connus comme Framagenda, Famapad, etc.
 
+- [AFUL](https://aful.org/) qui est L'Association Francophone des Utilisateurs de Logiciels Libres et qui travaille à la promotion des logiciels libres et des standards ouverts.
+
 # Médias
 - [Libre à vous](https://www.libreavous.org/) est une émission de l'April diffusée sur la radio [Cause Commune](https://cause-commune.fm/).
+
+- [L'Écho des gnous](https://www.echodesgnous.org/), une autre émission diffusée sur Radio Campus Lille.
 
 # Transcription
 - [Libre à lire !](https://www.librealire.org/) est un groupe de l'April qui transcrit et transforme en texte des enregistrements audio et vidéo traitant du logiciel libre et des libertés informatiques en général.
@@ -63,6 +67,10 @@ Ce nom vient de la composition des mots **T**orvalds et **U**NI**X**.
 - [Daniel Micay (GrapheneOS)](https://grapheneos.org/history/) Il fonde seul le projet GrapheneOS en 2014 (anciennement CopperheadOS puis AndroidHardening, sponsorisé au départ par ces sociétés). Ce projet est lié à la sécurité et confidentialité open-source. Depuis, ce système d'exploitation de qualité est devenu très robuste et soutenu par de multiples entreprises et développeurs.
 
 - [Judd Vinet (Arch Linux)](https://fr.wikipedia.org/wiki/Arch_Linux) Il s'inspire de Crux Linux pour créer Arch Linux en 2002, un système d'exploitation dont la maintenance est simple et l'installation en mode texte ou script d'installation. En 2007, il abandonne la tête d'Arch Linux et depuis la numérotation se base sur la date de publication, en même temps que la parution de nouvelles versions du noyau Linux.
+
+# Liens d'intérêt
+
+- [Libère ton ordi](https://blog.liberetonordi.com/index.php), blog qui regroupe des guides/articles pour vous aider à appréhender le monde du numérique libre.
 
 
 # Pour aller plus loin

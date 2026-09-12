@@ -2,7 +2,7 @@
 title: Utilisation de Syncthing
 description: 
 published: true
-date: 2023-04-02T14:40:14.266Z
+date: 2023-10-28T08:21:46.272Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-18T14:58:43.695Z
@@ -16,6 +16,13 @@ Notre exemple porte sur une base de données de mots de passe initiée par l'app
 
 Installer l'application sur votre ordinateur ainsi que sur votre téléphone :
 - [Sur ordinateur](https://syncthing.net/downloads/)
+
+> Syncthing peut s'installer via la logithèque de votre distributions, ou directement en ajoutant le dépôt de l'application (uniquement sur les bases Debian/Ubuntu). Cela dit, il se peut que sur certaines distros, le premier accès à l'interface web (sur navigateur, http://localhost:8384) ne soit pas initiée correctement. Dans ce cas voici une procédure :
+> ~~ Redémarrez votre machine.
+> ~~ Ouvrez un terminal, et entrez cette commande : `sudo systemctl restart syncthing-resume.service`
+> ~~ Puis entrez cette commande : `syncthing -allow-newer-config`
+{.is-info}
+
 - [Sur téléphone](https://f-droid.org/packages/com.nutomic.syncthingandroid/)
 
 

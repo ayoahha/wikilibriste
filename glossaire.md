@@ -2,7 +2,7 @@
 title: Glossaire
 description: Pleins de définitions utiles
 published: true
-date: 2023-07-21T10:35:35.229Z
+date: 2025-07-01T20:15:10.317Z
 tags: glossaire, debutant, intermédiaire, débutant, intermediaire
 editor: markdown
 dateCreated: 2022-11-25T17:34:26.638Z
@@ -19,7 +19,7 @@ Android Debug Bridge : "Pont de débogage Android" en français.
 
 L'utilisateur n'ayant pas les droits "root" sous Android (voir "Rooter" plus bas dans le glossaire), l'usage est d'utiliser un ordinateur depuis lequel réaliser les actes d'administration avancés à destination du smartphone.
 
-Pour y parvenir, on crée "un _pont_" entre l'ordinateur et le smartphone _Android_, pour "_déboguer_" ce dernier (même si les usages que nous en attendons s'éloignent du débogage), via un programme appelé Android Debug Bridge (ADB).
+Pour y parvenir, on crée "un _pont_" entre l'ordinateur et le smartphone _Android_, pour "_déboguer_" ce dernier (même si les usages que nous en attendons s'éloignent du débogage), via un programme appelé Android Debug Bridge ou ADB.
 
 Outre le débogage, on peut réaliser toute opération d'administration à privilèges élevés sur le smartphone, telles que :
 - contrôler certains paramètres de sécurité qui nécessitent une élévation de privilège
@@ -27,7 +27,7 @@ Outre le débogage, on peut réaliser toute opération d'administration à privi
 > Dans notre contexte, nous allons utiliser ces fonctionnalités pour supprimer les surcouches applicatives imposées, et par Google, et par les fabricants eux-mêmes.
 {.is-success}
 - injecter des programmes d'installation Android ("APK" : Android Package, cf. ci -après) sur le mobile, en dehors d'un magasin applicatif ou d'un téléchargement en ligne d' "APK"
-> Méthode que nous ne recommandons pas aux débutants sans contrôles adéquats du fichier téléchargé, pour des raisons liées à l'intégrité de celui-ci, et d'où découle la sécurité de l'appareil mobile !
+> Méthode que nous ne recommandons pas aux débutants, sans contrôles adéquats du fichier téléchargé, pour des raisons liées à l'intégrité de celui-ci, et d'où découle la sécurité de l'appareil mobile !
 {.is-warning}
 
 # API
@@ -52,8 +52,19 @@ Voici d'autres exemples de formats de fichiers d'installation sur d'autres syst�
 
 > Le téléchargement direct de fichiers APK, en dehors d'un magasin d'applications, est réservé à minima aux profils intermédiaires.
 > Si vous effectuez ce genre de manipulation sans réaliser de contrôle de [l'intégrité](/tutoriels/verifier-integrite) du fichier, le risque encouru est de télécharger un fichier dont la signature unique ne correspond pas à celle du programme officiel, porte ouverte à un éventuel logiciel malveillant.
+>
 > **Nous nous [déchargeons de toute responsabilité](/avertissement) si vous réalisez une telle opération, sans maîtriser ce que vous faites.**
 {.is-warning}
+
+# BATX
+
+Sigle généralement utilisé pour mentionner les multinationales chinoises du numérique les plus puissantes, au côté des [GAFAM](#gafam) américaines :
+- Baidu
+- Alibaba
+- Tencent
+- Xiaomi
+
+Note : Huawei pourrait être ajouté aux côtés des BATX.
 
 # Blockchain
 
@@ -74,9 +85,11 @@ Wikipedia en fournit une [définition plus technique de la blockchain](https://f
 
 # Bot
 
-Egalement appelé "robot internet". 
+Egalement appelé "robot internet".
+Il s'agit d'un programme capable d'exécuter certaines tâches automatiquement et suivant ce que son auteur a programmer. Il peut s'agir d'un programme utile tout autant qu'un programme malveillant.
 
-Ce programme est détaillé dans l'article [Améliorez votre hygiène numérique](/hygiene-numerique#malware-virus-trojan) à la section Malware-Virus-Trojan.
+> Nous discutons de ce type de programme malveillant dans l'article [Améliorez votre hygiène numérique](/hygiene-numerique#malware-virus-trojan), à la section Malware-Virus-Trojan.
+{.is-info}
 
 # BootLoader
 
@@ -100,7 +113,7 @@ Sur ce dernier, les partitions boot vont être analysées et, si elles sont vali
 
 # Briquer ou Bricker
 
-Du terme anglais "bricked" (briqué, transformé en brique) : se dit d'un appareil dont l'intégrité du [firmware](#firmware) (micrologiciel, microprogramme, microcode, logiciel interne ou encore logiciel embarqué) n'est plus bonne, et par conséquent il devient inutilisable (ne démarre plus, redémarre en boucle ou affiche un [Screen Of Death (écran de la mort)](https://en.wikipedia.org/wiki/Screen_of_death)).
+Du terme anglais "bricked" (briqué, transformé en brique) : se dit d'un appareil dont l'intégrité du Firmware (micrologiciel, microprogramme, microcode, logiciel interne ou encore logiciel embarqué, cf. ci-après) n'est plus bonne, et par conséquent il devient inutilisable (ne démarre plus, redémarre en boucle ou affiche un [Screen Of Death](https://en.wikipedia.org/wiki/Screen_of_death) ("écran de la mort").
 
 Il existe des "semi-brick" (réparables) et des "brick" intégraux ("full-brick" : irréparables, sauf dans certains cas par le fabricant).
 
@@ -114,11 +127,12 @@ La somme de contrôle (ou "checksum") est une valeur hexadécimale (suite de chi
 
 On utilise un outil basé sur ces algorithmes pour calculer cette somme et ainsi vérifier qu'un fichier est intègre, c'est-à-dire qu'il n'a pas été altéré durant son "transport".
 
-Voir cet article pour apprendre à vérifier [l'intégrité d'un fichier](/tutoriels/verifier-integrite).
+> Nous renvoyons à cet [article](/tutoriels/verifier-integrite) pour apprendre à vérifier l'intégrité d'un fichier.
+{.is-info}
 
 # Daemon
 
-Un Daemon (Deïmon) est un terme anglais qui désigne un service ou un groupe de services s'exécutant en arrière plan de l'OS afin de réaliser des actions sur le matériel, répondre à des requêtes réseau, etc, sans contrôle direct par un utilisateur.
+Un Daemon (Deïmon) est un terme anglais qui désigne un service ou un groupe de services s'exécutant en arrière plan de l'OS afin de réaliser des actions sur le matériel, répondre à des requêtes réseau... sans contrôle direct par un utilisateur.
 
 Nous pouvons citer par exemple, sous UNIX :
 - Les services réseau ou de type serveur comme par exemple SSH ou HTTP ou LPD pour les imprimantes. Ils se terminent souvent par un "d", par ex. `httpd`, ou `lighttpd` ou `sshd`
@@ -131,9 +145,9 @@ Le DHCP (Dynamic Host Configuration Protocol) est comme son nom l'indique un pro
 
 C'est donc un protocole réseau qui va s'occuper de configurer les paramètres des équipements connectés à un réseau.
 
-C'est généralement la "box" de votre fournisseur Internet qui s'en charge sur votre réseau local. Ainsi lorsque vous branchez un PC avec un câble ethernet ou que vous connectez un smartphone à votre Wifi, ceux-ci obtiennent automatiquement une adresse IP et un [DNS](#dns) à qui envoyer les requêtes.
+C'est généralement la "box" de votre fournisseur Internet qui s'en charge sur votre réseau local. Ainsi lorsque vous branchez un PC avec un câble ethernet ou que vous connectez un smartphone à votre Wifi, ceux-ci obtiennent automatiquement une adresse IP et un nom de domaine (cf. DNS) vers qui envoyer les requêtes.
 
-# Distribution (Distro)
+# Distribution (ou distro)
 
 Il s'agit ici des différentes variantes d'un Système d'Exploitation (SE en français / OS en anglais). Pour citer un exemple parlant du quotidien : lorsque l'on parle d'Android, il s'agit du type de système d'exploitation... Android étant "le socle", ce dernier peut se présenter sous différentes variantes, telles que :
 - One UI pour les smartphones Samsung,
@@ -145,32 +159,38 @@ Tous font bien partie du système d'exploitation Android ; ils n'en sont que des
 Pour GNU/Linux, la démarche est la même : au même titre que pour Android, de par la nature ouverte de la méthode de développement du SE (grâce au code source ouvert), on peut en réaliser autant de variantes. Avec des interfaces et des logiciels pré-installées différents selon les besoins : pour la cyber-sécurité, pour les chercheurs en science, pour l'éducation, etc...
 Les environnements de bureau et logiciels pré-installés sont ainsi **distribués** de manière différente : d'où le terme _distributions_, quand on parle des variantes d'Android ou de GNU/Linux.
 
-Aussi, nous vous invitons à lire l'article sur les [principales distributions Linux](/debutant/linux-distributions).
+Aussi, nous vous invitons à lire l'article sur les principales [distributions Linux](/debutant/linux-distributions).
 
-> A distinguer des _versions_, qui représentent des itérations d'un système d'exploitation, et intègrent les mises à jour logicielles et de sécurité, avec un support assuré sur une certaine durée. 
-> Exemples : la version 22.04 d'Ubuntu, parue en l'année 2020 (20.) le mois d'avril (.04), et qui assure un support des mises à jour pendant 5 ans. Ou encore la version 22.04 d'Ubuntu, qui vous le devinerez est sortie en ... Avril 2022.
+> A distinguer des _versions_, qui représentent des itérations d'un système d'exploitation, et intègrent les mises à jour logicielles et de sécurité, avec un support assuré sur une certaine durée.
+> 
+> _Exemples_ : la version 20.04 d'Ubuntu, parue en l'année 2020 (20.) le mois d'avril (.04), et qui assure un support des mises à jour pendant 5 ans. Ou encore la version 22.04 d'Ubuntu, qui vous le devinerez est sortie en ... Avril 2022.
 {.is-info}
 
 # DNS
 
-DNS (Domain Name System), est une sorte "d'annuaire des sites internet", détaillé dans [l'article suivant](/hygiene-numerique#dns), à la section du même nom.
+DNS (Domain Name System), est une sorte "d'annuaire des sites internet".
+
+> Nous renvoyons à l'[article](/debutant/dns) dédié à ce sujet.
+{.is-info}
 
 # Dump (Base de données)
 
-Un "dump" est une exportation des données stockées dans une base de données (BDD).
-> On ne copie jamais les fichiers brut d'une base de données, on fait plutôt un "dump".
-Soit à l'aide d'une exportation au format SQL, soit avec les outils inclus avec le SGBD (Système de Gestion de Base de Données).
+Un "dump" est une exportation des données stockées dans une Base De Données (BDD).
+
+> On ne copie jamais les fichiers bruts d'une base de données, on fait plutôt un "dump".
+> ~~ Soit à l'aide d'une exportation au format SQL,
+> ~~ Soit avec les outils inclus avec le SGBD (Système de Gestion de Bases de Données).
 {.is-warning}
 
 - Pour MySQL, MariaDB, PostGreSQL, les dumps sont constitués d'une suite de commandes SQL permettant de recréer les tables, les permissions et données d'une base.
 - Sur d'autres comme Oracle, SQLServer, le dump sera une copie binaire des données.
 
-> Le dump permet de sauvegarder une base dans un état intègre (c.a.d. sans dégradation, sans corruption) et permettre de restaurer les données si un problème survient.
+> Cette action permet de sauvegarder une base dans un état intègre (c.à.d. sans dégradation, sans corruption) et permettre de restaurer les données si un problème survient.
 {.is-success}
 
 # Durcissement
 
-Voir [Hardening](#hardening) ci-bas.
+Voir [Hardening](#hardening) ci-après.
 
 # Exploit
 
@@ -205,6 +225,35 @@ De l'anglais "fourche", pour signifier la déviation depuis un matériau origine
 
 2. Le second angle est principalement utilisé en développement : créer un fork signifie, grossièrement, dupliquer le code source d'un logiciel existant pour en créer un nouveau.
 
+# FTP
+
+FTP est l'acronyme de "File Transfert Protocol". Le FTP est un très ancien protocole, dédié au transfert de fichiers sur un réseau, et toujours utilisé pour beaucoup d'usages notamment :
+- l'envoi de fichiers Web (html, php, css, .. ) pour mettre à jour son site internet chez son hébergeur en mutialisé
+- communiquer avec sa box (exemple : freebox) lorsque celle-ci est utilisée en mode NAS.
+
+Nous recommandons d'utiliser 
+- Sur machine PC : le client FTP [Filezilla](https://filezilla-project.org/), sous licence libre et disponible sur toutes les plateformes. Un des meilleurs outils FTP.
+
+> Les réglages par défaut de Filezilla sont les suivants :
+> ~~ la détection automatique de l'encodage du fichier (ou charset en anglais)
+> ~~ la détection automatique du type de transfert en ASCII ou binaire
+> Ces réglages satisfont la majorité des besoins. Nous vous conseillons de ne pas les changer.
+{.is-info}
+
+- Sur Android : le client FTP [FTPClient](https://f-droid.org/packages/de.qwerty287.ftpclient/) est tout indiqué.
+
+# GAFAM
+
+Sigle généralement utilisé pour mentionner les multinationales du numérique les plus puissantes, souvent nommés "les géants de la Tech" :
+- Google (groupe Alphabet)
+- Amazon
+- Facebook (groupe Meta)
+- Apple
+- Microsoft
+
+L'équivalent pour la Chine est : [BATX](#batx).
+
+
 # Hack - hacker
 De l'anglais "hack" : bidouiller, faire preuve d'astuce.
 
@@ -218,20 +267,24 @@ Cependant un "hacker" n'est pas nécessairement un pirate informatique... Instal
 
 # Hardening
 
-Le Hardening, ou durcissement en français, consiste à renforcer la protection du système ou de la cible à durcir, et ainsi réduire la surface d'attaque. En complément de la sécurité périmétrique (pare-feu, IDP/IPS...), le durcissement est un processus qui permet de garantir une protection en profondeur. Ce processus doit pouvoir réduire les menaces externes et internes, ainsi que diminuer le risque d'erreurs de configuration.
+Le Hardening, ou **Durcissement** en français, consiste à renforcer la protection du système ou de la cible à durcir, et ainsi réduire la surface d'attaque. En complément de la sécurité périmétrique (pare-feu, IDP/IPS...), le durcissement est un processus qui permet de garantir une protection en profondeur. Ce processus doit pouvoir réduire les menaces externes et internes, ainsi que diminuer le risque d'erreurs de configuration.
 
 En règle générale, cela consiste, par exemple :
 
 -   à appliquer les derniers correctifs et mises à jour,
--   à supprimer les services ou objets non utilisés (exemple : débloater Windows, ou un smartphone Android),
+-   à supprimer les services ou objets non utilisés (_Exemples_ : débloater Windows ou un smartphone Android, désactiver les services NFS si non utilisés, etc.),
 -   à suivre les recommandations (ou "hardening guidelines") pour les services exposés (SSH, TLS etc.),
 -   etc.
 
+# Hardware
+
+Est l'anglicisme pour désigner en français un "matériel".
+
 # IP
 
-IP (Internet Protocol) désigne en fait une ensemble de protocoles de communication conçus pour Internet par Vinton Gray Cerf et Bob Kahn dans les années 1970.
-Communément, dans le jargon, lorsque nous parlons d'IP on désigne plutôt une adresse IPv4 comme par exemple : `192.168.1.134`.
-Plus d'informations à propos de la terminologie IP [sur Wikipedia](https://fr.wikipedia.org/wiki/Internet_Protocol).
+IP (Internet Protocol) désigne en fait une ensemble de protocoles de communication conçus pour Internet par Vinton Gray Cerf et Bob Kahn dans les années 1970. Communément, dans le jargon, lorsque nous parlons d'IP on désigne plutôt une adresse IPv4 comme par exemple : `192.168.1.134`.
+
+Plus d'informations à propos de la terminologie IP sur la page dédiée sur [Wikipedia](https://fr.wikipedia.org/wiki/Internet_Protocol).
 
 # Kernel
 
@@ -266,15 +319,16 @@ Un logiciel libre est un logiciel qui respecte ces 4 libertés (numérotées 0 �
 
 3. La liberté d'améliorer le programme et de distribuer ces améliorations au public, pour en faire profiter toute la communauté.
 
-Plus d'informations : [4 libertés essentielles](https://www.gnu.org/philosophy/free-sw.fr.html#four-freedoms)
+_Plus d'informations_ : Les [4 libertés essentielles](https://www.gnu.org/philosophy/free-sw.fr.html#four-freedoms).
 
-A la différence du logiciel open source qui se veut technique et marketing, le logiciel libre vise l'éthique et la liberté. Il s'agit d'un mouvement philosophique, politique et social à la différence de l'open source qui en est désintéressé.
+A la différence du logiciel "open-source" qui se veut technique et marketing, le logiciel libre vise l'éthique et la liberté. Il s'agit d'un mouvement philosophique, politique et social à la différence de l'open source qui en est désintéressé.
 
 Exemple de logiciels libres : Mozilla Firefox, VLC, LibreOffice.
 
 # Micrologiciel
 
 Ou microcode ou logiciel embarqué.
+
 Voir Firmware ci-avant.
 
 # OEM
@@ -313,7 +367,8 @@ Parmi les OS les plus connus :
 -   Apple avec ses OS macOS et iOS
 -   Android (LineageOS, GrapheneOS, /e/OS...)
 
-Pour en savoir plus au sujet des distributions GNU/Linux, nous vous invitons à lire l'article sur les principales [distributions Linux](/debutant/linux-distributions).
+> Pour en savoir plus au sujet des distributions GNU/Linux, nous vous invitons à lire l'article sur les principales [distributions Linux](/debutant/linux-distributions).
+{.is-info}
 
 # OTP
 
@@ -326,29 +381,33 @@ Généré depuis une application mobile - objet virtuel - :
 Ou depuis un boîtier prévu à cet effet - objet physique - comme ce boîtier proposé par une banque :
 ![boîtier_-otp-modif_sans_marque_bk.jpg](/images/boîtier_-otp-modif_sans_marque_bk.jpg =300x){.align-center}
 
-Il s'agit d'un "jeton" utilisé dans le cadre d'une authentification à double facteur, ou multi-facteurs. Nous vous renvoyons d'ailleurs vers les différents articles sur l'hygiène numérique [ici](/hygiene-numerique#acc%C3%A8s-aux-informations-ou-authentification) et [ici](/hygiene-numerique#authentification), pour bien comprendre et obtenir de plus amples détails.
+Il s'agit d'un "jeton" utilisé dans le cadre d'une authentification à double facteur, ou multi-facteurs. Cette technologie a évolué vers **TOTP : Time-based One Time Password** (cf. ci-après).
 
-> Cette technologie a évolué vers TOTP : Time-based One Time Password. Voir la définition du glossaire à suivre plus bas.
+> Nous vous renvoyons d'ailleurs vers les différents articles sur l'hygiène numérique [ici](/hygiene-numerique#acc%C3%A8s-aux-informations-ou-authentification) et [ici](/hygiene-numerique#authentification), pour bien comprendre et obtenir de plus amples détails.
 {.is-info}
 
 # Partition
 
-Un périphérique de stockage (disque dur, mémoire flash...) peut être compartimenté en plusieurs zones de stockage secondaires, de sorte que chaque zone puisse être administrée séparément. Ces zones sont donc appelées des "*Partitions*".
+Un périphérique de stockage (disque dur, mémoire flash...) peut être compartimenté en plusieurs zones de stockage secondaires, de sorte que chaque zone puisse être administrée séparément. Ces zones sont donc appelées des "*Partites de serveurs DNS respectueux et d'assurer une protection des requêtes (que ce soit DoH, DoT, DNSCrypt ou DNSSEC...) :
+
+    soit sur votre routeur FAI (bien vérifier également que ce routeur applique convenablement l'utilisation de ces IP, cf. DNS leak)
+    soit sur votre propre serveur DNS ➡️ attention ici encore de bien comprendre ce mécanisme : implémenter une solution de type PiHole par exemple déporte uniquement le serveur résolveur chez vous, mais les requêtes vers les serveurs récursifs auront toujours lieu sur internet. Donc si vous ne protégez pas ces requêtes ou si vous ne cachez pas votre IP, il sera possible de vous désanonymiser !
+
+Aller plus loinions*".
 
 Exemple de partitions allouées pour chaque système d'exploitation ; partitions Windows avec le logo "fenêtre" <span class="mdi mdi-microsoft-windows-classic"></span> (01, 05 et 07) ; partitions GNU/Linux symbolisées par le manchot <span class="mdi mdi-penguin"></span> (03, 04 et 06) :
 
-> La partition 02 est une partition étendue et n'a pas de système de fichiers désigné. Elle permet juste de créer des partitions logiques sur une table de type MBR.
-{.is-info}
+- **La partition 02 est une partition étendue et n'a pas de système de fichiers désigné. Elle permet juste de créer des partitions logiques sur une table de type MBR.**
 
 ![partions_os.webp](/images/partions_os.webp =600x){.align-center}
 
 > Notez qu'avant de créer des partitions manuellement, il vous faudra créer une table des partitions sur le disque.
-> Les UEFI (BIOS récents) utilisent une table de type GPT (à privilégier).
-> Les BIOS utilisent une table de type MBR/DOS (sur les appareils anciens).
+> ~~ Les UEFI (BIOS récents) utilisent une table de type GPT (à privilégier).
+> ~~ Les BIOS utilisent une table de type MBR/DOS (sur les appareils anciens).
 > Pour en savoir plus, consultez l'[article Wikipedia sur GPT](https://fr.wikipedia.org/wiki/GUID_Partition_Table).
 {.is-info}
 
-> Sur chaque partition, on choisit un système de fichiers (ext4, btrfs, zfs, swap, ...) et éventuellement un point de montage (/home, /var, ...) : consultez le chapitre [système de fichier](#syst%C3%A8me-de-fichiers-fs) ci-après.
+> Sur chaque partition, on choisit un système de fichiers (ext4, btrfs, zfs, swap, ...) et éventuellement un point de montage (/home, /var, ...) : cf. la définition d'un [système de fichier](#syst%C3%A8me-de-fichiers-fs) ci-après.
 {.is-info}
 
 # Ports réseau
@@ -363,43 +422,35 @@ Exemples de ports réseau, d'après leur numérotation :
 ![ports-réseau.jpeg](/images/ports-réseau.jpeg =600x){.align-center}
 
 
-> Parmi les ports les plus communs, on trouve les ports :
-> -- 80 : http
-> -- 443 : https
-{.is-info}
+Parmi les ports les plus communs, on trouve les ports :
+- 22 : SSH
+- 80 : HTTP
+- 443 : HTTPS
 
-Pour plus de détails sur les ports réseau, consulter l'excellent [article de Malekal](https://www.malekal.com/liste-des-ports-ports-reseaux-de-connexion-et-ce-que-cest/).
+> Pour plus de détails sur les ports réseau, consulter l'excellent [article de Malekal](https://www.malekal.com/liste-des-ports-ports-reseaux-de-connexion-et-ce-que-cest/).
+{.is-info}
 
 # Propriétaire
 
-Un système d'exploitation, programme, application "propriétaire" se dit d'un outil soumis à licence _commerciale_ pour son utilisation, et dont **le propriétaire est l'éditeur logiciel** et non l'utilisateur final, **par opposition aux logiciels libres (d'utilisation)** (voir définition de [logiciel libre](#logiciel_libre)).
+Un système d'exploitation, programme, application "propriétaire" se dit d'un outil soumis à licence _commerciale_ pour son utilisation, et dont **le propriétaire est l'éditeur logiciel** et non l'utilisateur final, **par opposition aux logiciels libres**.
 
-Exemples : Windows, MacOS, ChromeOS
+_Exemples_ : Windows, MacOS, Google Chrome, Safari, OneDrive, Gmail...
 
-# Proxy
+# RAM
 
-Sûrement un mécanisme dont vous n'avez que très peu entendu parler. Et pourtant, cette technologie est celle qui est le plus plébiscitée pour les réseaux (entreprises, universités, personnels...).
-
-*Qu'est-ce qu'un proxy ?*
-
-Un proxy est un élément d'un réseau qui va jouer le rôle d' **intermédiaire**. Schématiquement il s'agit d'un élément par lequel nous allons faire transiter toutes nos données, entrantes et sortantes, impossible d'y échapper donc (s'il est bien configuré !) :
-
-![Principes d'un Proxy](/images/proxy.png =500x){.align-center}
-
-Techniquement, il ne s'agit ni plus ni moins que d'un serveur avec des règles de filtrage particulières sur plusieurs niveaux. Ses fonctionnalités et objectifs sont divers :
--  L'anonymat (à un certain niveau) : il est tout à fait possible de faire appel à un proxy public afin de router le trafic via ce mandataire proxy. Ici donc, notre adresse IP est différente et il nous est possible donc de cacher la nôtre aux sites que l'on visite ! Attention cependant : ici le même problème que pour les VPN apparaît ; vous devez faire une absolue confiance en ce mandataire qui va réellement collecter votre adresse IP. Ce n'est donc **pas** un mécanisme recommandé pour atteindre l'anonymat.
--  Le contournement de la géo restriction : si vous faites appel à un mandataire proxy dans un autre pays, vous allez obtenir une adresse IP dans ce pays, ce qui peut donc vous donner accès à des sites ou contenus exclusivement liés à ce pays. Ici encore attention à la sécurisation des données en transit, un proxy ne chiffrant pas les échanges (hormis exceptions !).
--  La sécurité/le filtrage : imaginons que nous gérons une université, nous souhaitons donner accès à internet à nos étudiants (très utile pour eux !) mais nous souhaitons éviter qu'ils naviguent sur certains sites (porno par exemple)... Nous pourrons donc implémenter un proxy, avec des règles de filtrage sur des domaines liés à des sites pornographiques. Bon nous pourrions ici très bien nous contenter d'un pare-feu, mais un proxy viendra filtrer à plus haut niveau, et ainsi parfaitement utile. Vous l'aurez compris, un proxy est généralement utilisé dans une architecture réseau afin d'apporter une couche de sécurité, en parallèle d'autres mécanismes (pare-feu, IDS, VPNs...).
-
-Cela ne vous rappelle rien ?
-
-**Eh oui, un proxy peut être une alternative dans une certaine mesure aux VPN grands publics et à la limite à Tor, le chiffrement en moins dans la plupart des cas !**
+La RAM (Random-Access Memory) aussi appelée "mémoire vive" est une mémoire très rapide trouvable dans les ordinateurs et téléphones s'effaçant à chaque redémarrage. Cette mémoire stocke les données des applications et du système d'exploitation une fois lancé. Un excès de RAM n'apporte pas plus de performance ; en revanche, un manque entraînera le système d'exploitation à stocker les données sur la mémoire morte, ce qui ralentira considérablement le système et l'application/programme.
+Les ordres de grandeur sont les suivants :
+* De 2 à 12 Go pour un smartphone, 4 à 6 Go sont la moyenne actuelle et sont suffisants pour l'essentiel des utilisateurs.
+* De 4 à 64 Go pour un ordinateur, 8 à 16 Go sont la moyenne actuelle et sont suffisants pour l'essentiel des utilisateurs et une grande partie des joueurs. Les grandes quantités de mémoire sont principalement réservées à des applications spécifiques de productivité (modélisation 3D professionnelle, montage de vidéos professionnelles, compilation régulière de très gros programmes, modélisation physique par maillage de calculs mécaniques, thermiques, fluidiques...).
 
 # Recovery
 
-C'est une "partition" de récupération (recovey en anglais) contenue sur les appareils Android et nommée recovery. Elle contient le mode de récupération Android.
+C'est une "partition" de récupération (recovery en anglais) contenue sur les appareils Android et nommée recovery. Elle contient le mode de récupération Android.
 
-Lorsque l'on veut remplacer le système Android, on doit alors le déverrouiller puis le "flasher" pour remplacer le recovery avec un Recovery personnalisé (Custom Recovery). Certaines custom ROM permettent de reverrouiller ensuite l'appareil par souci de sécurité, rendez vous sur [Android et ses ROM alternatives](/debutant/android-roms) pour en savoir plus.
+Lorsque l'on veut remplacer le système Android, on doit alors le déverrouiller puis le "flasher" pour remplacer le recovery avec un Recovery personnalisé (Custom Recovery). Certaines "custom ROM" permettent de re-verrouiller ensuite l'appareil par souci de sécurité.
+
+> Nous renvoyons vers l'article dédié à [Android et ses ROM alternatives](/debutant/android-roms) pour en savoir plus.
+{.is-info}
 
 
 # Réseau (Informatique)
@@ -416,11 +467,11 @@ Cette adresse vous est fournie (obligatoirement) par un FAI ou Fournisseur d’A
 
 ![Schématisation du réseau de réseaux internet](/images/internet.gif){.align-center}
 
-*Petite particularité : vous avez sûrement un téléphone portable, avec une connexion 3G, 4G... Ici le boîtier internet sera en fait le module réseau du téléphone, associé à la carte SIM que vous livrera l’opérateur téléphonique (qui en somme est un FAI). A cette carte SIM sera associée une adresse IP publique, afin d’accéder au réseau internet. Attention donc à ne pas confondre votre boîtier internet à la maison (avec son Wifi probablement), et votre téléphone portable avec sa connexion 3G/4G/5G !*
+*Petite particularité : vous avez sûrement un téléphone portable, avec une connexion 3G, 4G... Ici le boîtier internet sera en fait le module réseau du téléphone, associé à la carte SIM que vous livrera l’opérateur téléphonique (qui en somme est un FAI). À cette carte SIM sera associée une adresse IP publique, afin d’accéder au réseau internet. Attention donc à ne pas confondre votre boîtier internet à la maison (avec son Wifi probablement), et votre téléphone portable avec sa connexion 3G/4G/5G !*
 
 *D’ailleurs petite note technique : afin que le réseau 3G/4G/5G puisse vous offrir un accès au réseau internet, les antennes relais 3G/4G/5G sont elles-mêmes reliées aux câbles communaux.*
   
-> Attention à ne pas confondre réseau internet, par essence public, et réseau privé qui correspond au réseau que vous créez "chez vous". Et qui est différent du réseau internet. Par exemple en activant le Wifi sur votre Box, celle-ci crée un réseau privé sur lequel vos équipements peuvent se connecter via le Wifi...
+> Attention à ne pas confondre réseau internet, par essence public, et réseau privé qui correspond au réseau que vous créez "chez vous" et qui est différent du réseau internet. Par exemple, en activant le Wifi sur votre Box, celle-ci crée un réseau privé sur lequel vos équipements peuvent se connecter via le Wifi...
 {.is-info}
 
 
@@ -428,13 +479,15 @@ Par convention : une adresse IP se trouve par exemple, dans sa version actuelle 
 
 - 85.134.243.10
 
-Pour les plus techniques d’entre vous : il s’agit bien sûr d’une représentation pour le protocole IP version 4, en attendant le basculement complet vers IP version 6, dont les adresses se présentent par exemple ainsi : 2001:db8:0:85a3:0:0:ac1f:8001.
+Pour les plus techniques d’entre vous : il s’agit bien sûr d’une représentation pour le protocole IP version 4, en attendant le basculement complet vers IP version 6, dont les adresses se présentent par exemple ainsi :
+
+- 2001:db8:0:85a3:0:0:ac1f:8001.
 
 > Une petite astuce afin de connaître son adresse IP publique : vous pouvez visiter ce site : [DNS Leak test](https://www.dnsleaktest.com).
 
 # Réseau (Infrastructure)
 
-Cette définition est en fait plusieurs définitions : nous présentons ici les différentes topologies réseau que nous mentionnons dans les articles et que vous avez sûrement dû entendre au moins une fois, ainsi que les architectures potentielles associées à ces topologies. Pour schématiser, voici ce dont nous parlons :
+Cette définition est, en fait, plusieurs définitions : nous présentons ici les différentes topologies réseau que nous mentionnons dans les articles et que vous avez sûrement dû entendre au moins une fois, ainsi que les architectures potentielles associées à ces topologies. Pour schématiser, voici ce dont nous parlons :
 
 ![topologie.jpg](/images/topologie.jpg =500x){.align-center}
 
@@ -487,27 +540,27 @@ En réalité, ces définitions ci-dessus ne font à ce jour pas consensus. On pe
 
 ROM en anglais est l’acronyme pour **R**ead **O**nly **M**emory, mémoire en lecture seule.
 
-Android est un système d'exploitation pour smartphones/tablettes qui est installé par le constructeur de l'appareil avant l'achat, au moyen de ce que l'on appelle un firmware OEM. Quand nous souhaitons le remplacer, pour se débarrasser des surcouches du constructeur et notamment de Google, nous devons **Flasher** (installer) une **Custom ROM** (une version personnalisée d'Android telles que Lineage OS, /e/ OS, CalyxOS...).
+Android est un système d'exploitation pour smartphones/tablettes qui est installé par le constructeur de l'appareil avant l'achat, au moyen de ce que l'on appelle un firmware OEM. Quand nous souhaitons le remplacer, pour se débarrasser des surcouches du constructeur et notamment de Google, nous devons **Flasher** (installer) une **Custom ROM** (une version personnalisée d'Android telle que Lineage OS, /e/ OS, CalyxOS...).
 
-Alors vous allez vous dire, une ROM c'est une mémoire morte en lecture seule, sur laquelle on ne peut pas réécrire ? Comment peut-on parler de flasher une ROM ? :confused:
+Alors vous allez vous dire, une ROM c'est une mémoire morte en lecture seule, sur laquelle on ne peut pas ré-écrire ? Comment peut-on parler de flasher une ROM ? :confused:
 
-Eh bien oui, c'est étrange, mais à l'époque les mémoires contenant le micrologiciel (firmware) d'un appareil était "flashables" (comprendre installables) avec un programmateur d'EEPROM. Depuis, cela a bien évolué et les firmwares sont désormais contenus dans des mémoires de type "Flash" réinscriptibles. L'ancienne appellation a été conservée, de sorte que l'on dit encore : "Flasher une Custom ROM" :D
+Eh bien oui, c'est étrange, mais à l'époque, les mémoires contenant le micrologiciel (firmware) d'un appareil étaient "flashables" (comprendre installables) avec un programmateur d'EEPROM. Depuis, cela a bien évolué et les firmwares sont désormais contenus dans des mémoires de type "Flash" réinscriptibles. L'ancienne appellation a été conservée, de sorte que l'on dit encore : "Flasher une Custom ROM" :D
 
 # Root
 
 De l'anglais "racine", sur les systèmes de type Unix (GNU/Linux, BSD et MacOS), "root" est le nom donné à un utilisateur du système particulier : cet utilisateur possède tous les droits sur le système. Il est souvent nommé : super utilisateur.
 
-Généralement, le compte root est utilisé par les administrateurs systèmes. Aussi, posséder toutes les autorisations de modification/exécution sur un système est pratique mais surtout dangereux. En effet, en utilisant le compte root il est facile de corrompre le système (volontairement ou par mégarde).
+Généralement, le compte root est utilisé par les administrateurs systèmes. Aussi, posséder toutes les autorisations de modification/exécution sur un système est pratique mais surtout dangereux. En effet, en utilisant le compte root, il est facile de corrompre le système (volontairement ou par mégarde).
 
 Par défaut :
--   Les systèmes Unix séparent donc le compte root des autres comptes utilisateurs. Sur la plupart des distributions Linux le programme sudo permet à un utilisateur normal de surélever ses droits temporairement si celui-ci fait partie du groupe sudoers. A chaque fois qu'une opération nécessite des accès root, le mot de passe de l'utilisateur sudoers sera demandé pour que le système valide l'authentification et autorise ainsi la modification/exécution.
--   Les systèmes Windows de Microsoft quant à eux ont un compte intégré (Built-In) appelé "Administrateur". Généralement les utilisateurs ne se servent pas de ce compte, ils ont un compte utilisateur dédié qui est membre du groupe "Administrateurs". De ce fait ils peuvent lancer des programmes avec les privilèges super-utilisateur en cliquant "OUI" si ce programme a besoin de droits surélevés (cf. UAC), notez bien que contrairement à Linux, sur un Windows installé par défaut le mot de passe ne sera pas demandé !
+-   Les systèmes Unix séparent donc le compte root des autres comptes utilisateurs. Sur la plupart des distributions Linux, le programme sudo permet à un utilisateur normal de surélever ses droits temporairement si celui-ci fait partie du groupe sudoers. À chaque fois qu'une opération nécessite des accès root, le mot de passe de l'utilisateur sudoers sera demandé pour que le système valide l'authentification et autorise ainsi la modification/exécution.
+-   Les systèmes Windows de Microsoft, quant à eux, ont un compte intégré (Built-In) appelé "Administrateur". Généralement, les utilisateurs ne se servent pas de ce compte : ils ont un compte utilisateur dédié qui est membre du groupe "Administrateurs". De ce fait, ils peuvent lancer des programmes avec les privilèges super-utilisateur en cliquant "OUI" si ce programme a besoin de droits surélevés (cf. UAC), notez bien que, contrairement à Linux, sur un Windows installé par défaut, le mot de passe ne sera pas demandé !
 
 # Rooter
 
 Ceci consiste à reprendre le contrôle du compte root sur une machine.
 
-Sur Android, par défaut, ce compte est désactivé et inaccessible. Rooter consiste a effectuer une manipulation sur l'appareil comme par exemple : lancer un "exploit" ou installer un recovery custom puis lancer un script. **Contrairement à l'idée reçue, la plupart du temps, pour flasher une custom ROM, sachez qu'il n'est absolument pas nécessaire de rooter un appareil, c'est même déconseillé !**
+Sur Android, par défaut, ce compte est désactivé et inaccessible. Rooter consiste à effectuer une manipulation sur l'appareil comme par exemple, lancer un "exploit" ou installer un recovery custom puis lancer un script. **Contrairement à l'idée reçue, la plupart du temps, pour flasher une custom ROM, sachez qu'il n'est absolument pas nécessaire de rooter un appareil, c'est même déconseillé !**
 
 Sur Apple, on parle de "Jailbreak" qui consiste à "sortir de prison" mais c'est à peu près le même concept qu'Android.
 
@@ -516,25 +569,33 @@ Sur un PC, le compte Administrateur (Windows) est activé la plupart du temps. E
 Il est absolument déconseillé de l'activer ou si c'est déjà le cas, de l'utiliser. Nous vous conseillons plutôt :
 
 -   d'utiliser la commande sudo, par ex. sur les dérivés Debian/Linux installés par défaut, pour effectuer toutes vos tâches d'administration.
--   sous Windows, d'utiliser un compte utilisateur membre du groupe "Administrateurs" et d'utiliser le clic droit puis "Exécuter en tant qu'administrateur". Il est possible et conseillé, en modifiant UAC, de réactiver la demande de mot de passe lorsque vous faite une élévation de privilèges.
+-   sous Windows, d'utiliser un compte utilisateur membre du groupe "Administrateurs" et d'utiliser le clic-droit puis "Exécuter en tant qu'administrateur". Il est possible et conseillé, en modifiant UAC, de réactiver la demande de mot de passe lorsque vous faites une élévation de privilèges.
 
 # SBC
 
-Un SBC ou [Single Board Computer](https://fr.wikipedia.org/wiki/Ordinateur_%C3%A0_carte_unique) est un *ordinateur* en modèle réduit (autrement appelé nano-PC) qui tient sur un petit format de carte imprimé, comme par exemple :
+Une SBC ou [Single Board Computer](https://fr.wikipedia.org/wiki/Ordinateur_%C3%A0_carte_unique) est un "*ordinateur en modèle réduit*", autrement appelé nano-PC, qui tient sur un petit format de carte imprimé, comme par exemple :
 - [Raspberry Pi](https://www.raspberrypi.org/)
 - [OrangePi](http://www.orangepi.org/)
 - [O-Droid](https://www.hardkernel.com/)
 - [Arduino](https://www.arduino.cc/)
 - [Libre Computer Board (LBC)](https://libre.computer/)
 
+# SoC
+
+Le SoC, de l'anglais "System on a Chip", comporte un système embarqué entier sur une seule puce, d'où la dénomination "Système sur une puce". Cette puce SoC comprend donc la partie processeur, la partie mémoires, la partie graphique, la partie réseau et d'autres composants utiles.
+
+# Software
+
+Est l'anglicisme pour désigner en français un "logiciel".
 
 # SSH
-Secure Shell (SSH) est un protocole de communication chiffré entre 2 machines. A l'ouverture de la session des clefs de chiffrement sont échangées afin de sécuriser la communication. 
+Secure Shell (SSH) est un protocole de communication chiffré entre 2 machines. À l'ouverture de la session, des clefs de chiffrement sont échangées afin de sécuriser la communication. 
 
 C'est aussi un logiciel : serveur ``sshd`` et client ``ssh``. Le client est installé par défaut sur la plupart des distributions GNU/Linux.
 
 Voici une sélection de logiciels libres qui proposent un client ssh évolué avec interface graphique et bien d'autres fonctionnalités :
-| **Client SSH** | Linux | BSD | MacOS | Windows | Android | iOS
+
+| Client SSH | Linux | BSD | MacOS | Windows | Android | iOS
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | [Tabby Terminal](https://tabby.sh/) | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: |
 | [Remmina](https://remmina.org/how-to-install-remmina/) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: |
@@ -549,8 +610,8 @@ Voici une sélection de logiciels libres qui proposent un client ssh évolué av
 
 # Système de fichiers (FS)
 
-Un système de fichier (file system ou FS) peut désigner :
-- la façon dont les fichiers sont organisés dans une [partition](#partition)
+Un système de fichiers (file system ou FS) peut désigner :
+- la façon dont les fichiers sont organisés dans une partition.
 - ou bien la manière de ranger les dossiers dans un système d'exploitation.
 
 ## FS au sein d'une partition
@@ -558,7 +619,7 @@ Un système de fichier (file system ou FS) peut désigner :
 Lorsque que l'on crée une partition, on doit la formater avec un système de fichiers (FS).
 Celui-ci organise la façon dont les données sont stockées sur un disque.
 
-Il existe beaucoup de [FS](https://fr.wikipedia.org/wiki/Liste_des_syst%C3%A8mes_de_fichiers) différents, parmi les plus connus:
+Il existe beaucoup de [Systèmes de Fichiers](https://fr.wikipedia.org/wiki/Liste_des_syst%C3%A8mes_de_fichiers) (ou FS) différents, parmi les plus connus:
 - *ext : le premier FS pour le noyau Linux, il a été très vite _remplacé par ext2_.*
 - *ext2 : utilisé dès l'apparition des distros GNU/Linux dans les années 1993, maintenant _obsolète_.*
 - ext3 : évolution de ext2 dès les années 2000, ajoute la journalisation et ainsi permet la récupération des données. _Très peu utilisé_ aujourd'hui à part pour la **partition `/boot` sur un table de partition MBR**.
@@ -573,27 +634,30 @@ Il existe beaucoup de [FS](https://fr.wikipedia.org/wiki/Liste_des_syst%C3%A8mes
 - HFS/HFS+ : **utilisé sous Apple MacOS**
 
 
-> Pour en apprendre plus sur les "filesystem", nous vous conseillons de visionner : ["Types de Filesystem : ext4, xfs, btrfs & zfs" sur la chaîne Xavki](https://yewtu.be/watch?v=F6NWxlhjeO0).
+> Pour en apprendre plus sur les "FS", nous vous conseillons de visionner : ["Types de Filesystem : ext4, xfs, btrfs & zfs" sur la chaîne Xavki](https://yewtu.be/watch?v=F6NWxlhjeO0).
 {.is-info}
 
 
 ## Hiérarchie d'un FS sous Linux
 
 Linux (au contraire de Windows) est conçu pour compartimenter chaque espace, un programme pour une tâche et chaque chose à sa place :)
-Lorsque l'on installe une distro Linux on installe la plupart du temps tout dans une seule partition `/` (root FS).
-Cependant, il est tout à fait possible de compartimenter les partitions comme expliqué dans le tutoriel [partitionner son disque](/tutoriels/partitioning).
 
-Les systèmes UNIX et Linux s'appuient sur un [système de fichier standardisé (Filesystem Hierarchy Standard/FHS)](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard).
+Lorsque nous installons une distro Linux, nous installons la plupart du temps la totalité des fichiers du système dans une seule partition `/` (appelée "root FS"). Cependant, il est tout à fait possible de compartimenter les partitions comme expliqué dans le tutoriel [partitionner son disque](/tutoriels/partitioning).
+
+> Les systèmes UNIX et Linux s'appuient sur un système de fichier standardisé, le FHS
+> ~~ [Filesystem Hierarchy Standard ou FHS](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard).
+> ~~ [Infographie plus visuelle](https://whimsical.com/fhs-L6iL5t8kBtCFzAQywZyP4X).
+{.is-info}
 
 Passons en revue les dossiers standards présents à la racine `/` d'un FS GNU/Linux :
 - **SWAP** : Le swap est traditionnellement stocké dans une partition dédiée avec un FS de type SWAP. Mais il est tout à fait possible de stocker le swap à la racine du FS dans un fichier `/swapfile`
 - **/bin** : Ce dossier (binaries, en français exécutables) contient tous les programmes essentiels. Par exemple les commandes `ls`, `cat`, `mv` et bien d'autres sont situées dans ce répertoire.
 - **/boot** : Les fichiers qui permettent de démarrer (boot) le système sont placés dans ce dossier. On y retrouve le noyau (kernel) Linux et l'image ramdisk (initrd et initramfs) mais aussi GRUB et EFI (pour les BIOS de type UEFI).
-- **/dev** : Sous Linux tout est fichier. Ainsi les composants matériels (devices) y sont représentés sous forme de fichiers spéciaux (device files).
+- **/dev** : Sous Linux, tout est fichier. Ainsi, les composants matériels (devices) y sont représentés sous forme de fichiers spéciaux (device files).
 - **/etc** : Contient les fichiers de configuration du système.
 - **/home** : Chaque compte aura un sous-dossier ici, c'est la "maison" (home) des utilisateurs où seront stockés les fichiers et paramètres personnels de ceux-ci.
 - **/lib** : les bibliothèques nécessaires au fonctionnement de `/bin` et `/sbin`.
-- **/media** : point de montage dédié pour les médias externes tel que les disques USB et les images ISO.
+- **/media** : point de montage dédié pour les médias externes tels que les disques USB et les images ISO.
 - **/mnt** : idem que `/media` mais pour le montage _temporaire_.
 - **/opt** : ce dossier est destiné à accueillir les applications installées manuellement, c'est-à-dire sans utiliser de gestionnaire de paquet tel que `dpkg`, `rpm`, `apt` ou `dnf`/`yum`.
 - **/proc** : les processus en cours d'utilisation y sont représentés sous forme de fichiers.
@@ -617,29 +681,29 @@ En informatique, il s'agit d'un identifiant unique, qui peut tout aussi bien ren
 
 # TOTP
 
-De l'anglais "Time-based One Time Password".
+De l'anglais "Time-based One Time Password", ou mot de passe à usage unique basé sur le temps.
+
+Le principe est le même que le [One Time Password (OTP)](#otp) cité plus haut, à ceci prêt que son fonctionnement repose sur la synchronisation de l'horloge entre le serveur d'authentification et le dispositif de l'utilisateur, généralement un ordiphone ou un dispositif de sécurité dédié. Chaque jeton généré est limité dans une temporalité pré-définie (quelques secondes ou minutes), définie en fonction du temps actuel et du secret partagé.
 
 ![freeotp-exemple_neutre.jpeg](/images/freeotp-exemple_neutre.jpeg =200x){.align-right}
 
-Le principe est le même que le [One Time Password (OTP)](#otp) cité ci-haut, à ceci prêt que chaque jeton est limité dans une temporalité pré-définie (quelques secondes ou minutes).
+La minuterie régénère un nouveau jeton chaque fois que le précédent est devenu obsolète (sur les applications mobiles l'expiration du jeton change de couleur avant qu'un nouveau ne soit re-généré).
 
-La minuterie régénère un nouveau jeton chaque fois que le précédent est devenu obsolète (sur les applications mobiles, l'expiration du jeton change de couleur avant qu'un nouveau ne soit re-généré).
-
-L'illustration montre par exemple un code TOTP depuis une application mobile, avec la minuterie visible (sur la droite).
+L'illustration ci-contre montre par exemple un code TOTP depuis une application mobile, avec la minuterie visible (sur la droite).
 
 # Tracker
 
-Un tracker ("pisteur" en français) est un outil permettant d'effectuer une télémétrie précise des logiciels ou des sites internet (consultation, comportement des utilisateurs...), ainsi qu'une collecte d'informations diverses (sur les utilisateurs).
+Un tracker (ou "pisteur" en français) est un outil permettant d'effectuer une télémétrie précise des logiciels ou des sites internet (consultation, comportement des utilisateurs...), ainsi qu'une collecte d'informations diverses sur les utilisateurs ou les machines.
 
 # URL
 
-De l'anglais "Uniform Resource Locator" : localisateur universel de ressources.
+De l'anglais "Uniform Ressource Locator" : localisateur universel de ressources.
 
-C'est par exemple l'adresse visible depuis son navigateur internet, dans la barre de recherche : typiquement https://www.exemple-de-site.com. Techniquement, d'après le Larousse, son  rôle est de :
+C'est, par exemple, l'adresse visible depuis son navigateur internet, dans la barre de recherche : typiquement https://www.exemple-de-site.com. Techniquement, d'après le "Larousse", son  rôle est de :
 > "*préciser la localisation d'une ressource Internet, en indiquant le protocole à adopter, le nom de la machine, le chemin d'accès et le nom du fichier.*"
 
-A mettre en lien avec le DNS, dont vous trouverez plus de détails dans l'article [suivant](/hygiene-numerique#dns).
-
+> À mettre en lien avec le DNS, dont vous trouverez plus de détails dans l'[article suivant](/debutant/dns).
+{.is-info}
 
 # Vulnérabilité
 
